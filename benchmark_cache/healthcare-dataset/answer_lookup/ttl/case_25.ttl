@@ -1,0 +1,116 @@
+@prefix : <http://example.org/survey#> .
+@prefix pred: <http://example.org/predicate#> .
+
+# Questions
+:QAge pred:text "What is your age? [Open-ended]" .
+:QGender pred:text "What is your gender? [MCQ: A. Female B. Male]" .
+:QBlood_Type pred:text "What is your blood type? [MCQ: A. A+ B. A- C. AB+ D. AB- E. B+ F. B- G. O+ H. O-]" .
+:QMedical_Condition pred:text "What is your medical condition? [MCQ: A. Arthritis B. Asthma C. Cancer D. Diabetes E. Hypertension F. Obesity]" .
+:QDate_of_Admission pred:text "What is your date of admission? [Open-ended]" .
+:QDoctor pred:text "What is your doctor? [Open-ended]" .
+:QHospital pred:text "What is your hospital? [Open-ended]" .
+:QInsurance_Provider pred:text "What is your insurance provider? [MCQ: A. Aetna B. Blue Cross C. Cigna D. Medicare E. UnitedHealthcare]" .
+:QBilling_Amount pred:text "What is your billing amount? [Open-ended]" .
+:QRoom_Number pred:text "What is your room number? [Open-ended]" .
+:QAdmission_Type pred:text "What is your admission type? [MCQ: A. Elective B. Emergency C. Urgent]" .
+:QDischarge_Date pred:text "What is your discharge date? [Open-ended]" .
+:QMedication pred:text "What is your medication? [MCQ: A. Aspirin B. Ibuprofen C. Lipitor D. Paracetamol E. Penicillin]" .
+:QTest_Results pred:text "What is your test results? [MCQ: A. Abnormal B. Inconclusive C. Normal]" .
+
+# Responses
+:Respondent61 a :Person ;
+    pred:Age "63" ;
+    pred:Gender "b" ;
+    pred:Blood_Type "e" ;
+    pred:Medical_Condition "b" ;
+    pred:Date_of_Admission "2023-01-01" ;
+    pred:Doctor "DOC_61" ;
+    pred:Hospital "HOSP_61" ;
+    pred:Insurance_Provider "c" ;
+    pred:Billing_Amount "23500" ;
+    pred:Room_Number "478" ;
+    pred:Admission_Type "a" ;
+    pred:Discharge_Date "2022-11-25" ;
+    pred:Medication "e" ;
+    pred:Test_Results "a"  .
+
+:Respondent43 a :Person ;
+    pred:Age "47" ;
+    pred:Gender "a" ;
+    pred:Blood_Type "d" ;
+    pred:Medical_Condition "f" ;
+    pred:Date_of_Admission "2022-11-05" ;
+    pred:Doctor "DOC_43" ;
+    pred:Hospital "HOSP_43" ;
+    pred:Insurance_Provider "b" ;
+    pred:Billing_Amount "10710" ;
+    pred:Room_Number "468" ;
+    pred:Admission_Type "a" ;
+    pred:Discharge_Date "2023-04-21" ;
+    pred:Medication "d" ;
+    pred:Test_Results "b"  .
+
+:Respondent105 a :Person ;
+    pred:Age "54" ;
+    pred:Gender "b" ;
+    pred:Blood_Type "e" ;
+    pred:Medical_Condition "c" ;
+    pred:Date_of_Admission "2023-05-18" ;
+    pred:Doctor "DOC_105" ;
+    pred:Hospital "HOSP_105" ;
+    pred:Insurance_Provider "e" ;
+    pred:Billing_Amount "29504" ;
+    pred:Room_Number "233" ;
+    pred:Admission_Type "a" ;
+    pred:Discharge_Date "2023-06-03" ;
+    pred:Medication "b" ;
+    pred:Test_Results "a"  .
+
+:Respondent125 a :Person ;
+    pred:Age "20" ;
+    pred:Gender "a" ;
+    pred:Blood_Type "a" ;
+    pred:Medical_Condition "a" ;
+    pred:Date_of_Admission "2020-03-08" ;
+    pred:Doctor "DOC_125" ;
+    pred:Hospital "HOSP_125" ;
+    pred:Insurance_Provider "d" ;
+    pred:Billing_Amount "21772" ;
+    pred:Room_Number "244" ;
+    pred:Admission_Type "a" ;
+    pred:Discharge_Date "2020-02-12" ;
+    pred:Medication "e" ;
+    pred:Test_Results "c"  .
+
+:Respondent124 a :Person ;
+    pred:Age "57" ;
+    pred:Gender "b" ;
+    pred:Blood_Type "f" ;
+    pred:Medical_Condition "a" ;
+    pred:Date_of_Admission "2021-06-03" ;
+    pred:Doctor "DOC_124" ;
+    pred:Hospital "HOSP_124" ;
+    pred:Insurance_Provider "c" ;
+    pred:Billing_Amount "46814" ;
+    pred:Room_Number "228" ;
+    pred:Admission_Type "a" ;
+    pred:Discharge_Date "2021-10-13" ;
+    pred:Medication "d" ;
+    pred:Test_Results "b"  .
+
+:Respondent55 a :Person ;
+    pred:Age "30" ;
+    pred:Gender "b" ;
+    pred:Blood_Type "d" ;
+    pred:Medical_Condition "e" ;
+    pred:Date_of_Admission "2024-03-17" ;
+    pred:Doctor "DOC_55" ;
+    pred:Hospital "HOSP_55" ;
+    pred:Insurance_Provider "d" ;
+    pred:Billing_Amount "32562" ;
+    pred:Room_Number "430" ;
+    pred:Admission_Type "b" ;
+    pred:Discharge_Date "2024-04-22" ;
+    pred:Medication "d" ;
+    pred:Test_Results "b"  .
+

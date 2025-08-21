@@ -1,0 +1,479 @@
+{
+  "questions": {
+    "Year of birth": "What is your date of birth? [Open-ended]",
+    "Gender": "What is your gender? [MCQ: 1. Male 2. Female]",
+    "Socio-economic status": "What is the socio-economic status of your home? [Likert 1\u20136: 1 = Very low, 6 = Very high]",
+    "Ethnic identity": "According to your culture, people, or physical features, you are or are recognized as: [MCQ: 1. Indigenous 2. Gypsy 3. Raizal from San Andres, Providencia and Santa Catalina Archipelago 4. Palenquero from San Basilio 5. Black, mulatto (Afro-descendant), Afro-Colombian 6. None of the above]",
+    "Parental Education": {
+      "base_question": "How many years of education did your parents receive? [Open-ended]",
+      "sub_questions": {
+        "Father": "Father?",
+        "Mother": "Mother?"
+      }
+    },
+    "Life satisfaction": "In general, how satisfied are you with all aspects of your life? [Likert 0\u201310: 0 = Not satisfied, 10 = Totally satisfied]",
+    "Happiness": "How happy did you feel yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Laughter": "How much did you laugh yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Learning": "Did you learn new or exciting things yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Enjoyment": "How much did you enjoy the activities you did yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Worry": "How worried did you feel yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Depression": "How depressed did you feel yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Anger": "How angry did you feel yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Stress": "How much stress did you feel yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Loneliness": "How lonely or unsupported did you feel yesterday? [Likert 0\u201310: 0 = At no time, 10 = All the time]",
+    "Emotional Regulation Frequency": {
+      "base_question": "Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 4, where 0 is never, 1 is 'almost never', 2 is 'sometimes', 3 is 'fairly often', and 4 is 'very often', how often you experienced the following feelings during the last month: [Likert 0\u20134]",
+      "sub_questions": {
+        "Upset by Unexpected Events": "how often have you been upset because of something that happened unexpectedly?",
+        "Unable to Control Important Things": "how often have you felt that you were unable to control the important things in your life?",
+        "Nervous and Stressed": "how often have you felt nervous and stressed?",
+        "Lacked Confidence Handling Problems": "how often have you felt confident about your ability to handle your personal problems?",
+        "Things Going Your Way": "how often have you felt that things were going your way?",
+        "Unable to Cope": "how often have you found that you could not cope with all the things that you had to do?",
+        "Irritated by Life": "how often have you been able to control irritations in your life?",
+        "On Top of Things": "how often have you felt that you were on top of things?",
+        "Angered by Uncontrollable Events": "how often have you been angered because of things that happened that were outside of your control?",
+        "Felt Overwhelmed": "how often have you felt difficulties were piling up so high that you could not overcome them?"
+      }
+    },
+    "Anxiety Symptoms Frequency": {
+      "base_question": "Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 3, where 0 is 'Not at all', 1 is 'several days', 2 is 'more than half of the days', and 3 is 'Nearly every day'. Over the last two weeks, how often have you been bothered by the following problems? [Likert 0\u20133]",
+      "sub_questions": {
+        "Feeling Nervous or On Edge": "Feeling nervous, anxious, or on edge",
+        "Uncontrollable Worrying": "Not being able to stop or control worrying",
+        "Excessive Worry": "Worrying too much about different things",
+        "Trouble Relaxing": "Trouble relaxing",
+        "Restlessness": "Being so restless that it is hard to sit still",
+        "Irritability": "Becoming easily annoyed or irritable",
+        "Fear Something Awful Might Happen": "Feeling afraid, as if something awful might happen"
+      }
+    },
+    "Depressive Symptoms Frequency": {
+      "base_question": "Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 3, where 0 is 'Not at all', 1 is 'several days', 2 is 'more than half of the days', and 3 is 'Nearly every day'. Over the last two weeks, how often have you been bothered by the following problems?",
+      "sub_questions": {
+        "Anhedonia": "Little interest or pleasure in doing things",
+        "Depressed Mood": "Feeling down, depressed, or hopeless",
+        "Sleep Problems": "Trouble falling or staying asleep, or sleeping too much",
+        "Fatigue": "Feeling tired or having little energy",
+        "Appetite Changes": "Poor appetite or overeating",
+        "Feelings of Worthlessness": "Feeling bad about yourself or that you are a failure or have let yourself or your family down",
+        "Concentration Difficulties": "Trouble concentrating on things, such as reading the newspaper or watching television",
+        "Psychomotor Changes": "Moving or speaking so slowly that other people could have noticed. Or the opposite \u2014 being so fidgety or restless that you have been moving around a lot more than usual",
+        "Suicidal Thoughts": "Thoughts that you would be better off dead, or of hurting yourself"
+      }
+    }
+  },
+  "responses": [
+    {
+      "respondent": "5",
+      "answers": {
+        "Year of birth": 2003.0,
+        "Gender": 2.0,
+        "Socio-economic status": 6.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 5.0,
+        "Happiness": 4.0,
+        "Laughter": 3.0,
+        "Learning": 5.0,
+        "Enjoyment": 4.0,
+        "Worry": 2.0,
+        "Depression": 0.0,
+        "Anger": 4.0,
+        "Stress": 3.0,
+        "Loneliness": 4.0,
+        "Parental Education": {
+          "Father": 13.0,
+          "Mother": 6.0
+        },
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 4.0,
+          "Unable to Control Important Things": 4.0,
+          "Lacked Confidence Handling Problems": 2.0,
+          "Unable to Cope": 3.0,
+          "Irritated by Life": 2.0,
+          "On Top of Things": 2.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 3.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 0.0,
+          "Irritability": 2.0,
+          "Fear Something Awful Might Happen": 3.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 1.0,
+          "Sleep Problems": 0.0,
+          "Fatigue": 0.0,
+          "Appetite Changes": 0.0,
+          "Feelings of Worthlessness": 3.0,
+          "Concentration Difficulties": 0.0,
+          "Suicidal Thoughts": 0.0
+        }
+      }
+    },
+    {
+      "respondent": "67",
+      "answers": {
+        "Year of birth": 2003.0,
+        "Gender": 2.0,
+        "Socio-economic status": 3.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 6.0,
+        "Happiness": 8.0,
+        "Laughter": 5.0,
+        "Learning": 8.0,
+        "Enjoyment": 7.0,
+        "Worry": 0.0,
+        "Depression": 0.0,
+        "Anger": 1.0,
+        "Stress": 3.0,
+        "Loneliness": 1.0,
+        "Parental Education": {},
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 1.0,
+          "Unable to Control Important Things": 2.0,
+          "Lacked Confidence Handling Problems": 3.0,
+          "Unable to Cope": 2.0,
+          "Irritated by Life": 3.0,
+          "On Top of Things": 3.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 2.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 0.0,
+          "Irritability": 0.0,
+          "Fear Something Awful Might Happen": 0.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 0.0,
+          "Sleep Problems": 0.0,
+          "Fatigue": 1.0,
+          "Appetite Changes": 0.0,
+          "Feelings of Worthlessness": 0.0,
+          "Concentration Difficulties": 0.0,
+          "Suicidal Thoughts": 0.0
+        }
+      }
+    },
+    {
+      "respondent": "142",
+      "answers": {
+        "Year of birth": 2004.0,
+        "Gender": 2.0,
+        "Socio-economic status": 3.0,
+        "Ethnic identity": 5.0,
+        "Life satisfaction": 7.0,
+        "Happiness": 5.0,
+        "Laughter": 9.0,
+        "Learning": 9.0,
+        "Enjoyment": 8.0,
+        "Worry": 3.0,
+        "Depression": 2.0,
+        "Anger": 4.0,
+        "Stress": 4.0,
+        "Loneliness": 1.0,
+        "Parental Education": {
+          "Father": 11.0,
+          "Mother": 16.0
+        },
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 2.0,
+          "Unable to Control Important Things": 4.0,
+          "Lacked Confidence Handling Problems": 2.0,
+          "Unable to Cope": 4.0,
+          "Irritated by Life": 3.0,
+          "On Top of Things": 3.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 2.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 1.0,
+          "Irritability": 2.0,
+          "Fear Something Awful Might Happen": 1.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 2.0,
+          "Sleep Problems": 2.0,
+          "Fatigue": 3.0,
+          "Appetite Changes": 1.0,
+          "Feelings of Worthlessness": 1.0,
+          "Concentration Difficulties": 3.0,
+          "Suicidal Thoughts": 0.0
+        }
+      }
+    },
+    {
+      "respondent": "150",
+      "answers": {
+        "Year of birth": 2004.0,
+        "Gender": 1.0,
+        "Socio-economic status": 5.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 9.0,
+        "Happiness": 8.0,
+        "Laughter": 10.0,
+        "Learning": 7.0,
+        "Enjoyment": 10.0,
+        "Worry": 2.0,
+        "Depression": 3.0,
+        "Anger": 2.0,
+        "Stress": 3.0,
+        "Loneliness": 6.0,
+        "Parental Education": {},
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 1.0,
+          "Unable to Control Important Things": 1.0,
+          "Lacked Confidence Handling Problems": 2.0,
+          "Unable to Cope": 1.0,
+          "Irritated by Life": 3.0,
+          "On Top of Things": 3.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 1.0,
+          "Trouble Relaxing": 0.0,
+          "Restlessness": 0.0,
+          "Irritability": 1.0,
+          "Fear Something Awful Might Happen": 0.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 0.0,
+          "Sleep Problems": 0.0,
+          "Fatigue": 1.0,
+          "Appetite Changes": 0.0,
+          "Feelings of Worthlessness": 1.0,
+          "Concentration Difficulties": 1.0,
+          "Suicidal Thoughts": 0.0
+        }
+      }
+    },
+    {
+      "respondent": "149",
+      "answers": {
+        "Year of birth": 2004.0,
+        "Gender": 1.0,
+        "Socio-economic status": 4.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 8.0,
+        "Happiness": 9.0,
+        "Laughter": 10.0,
+        "Learning": 4.0,
+        "Enjoyment": 10.0,
+        "Worry": 3.0,
+        "Depression": 1.0,
+        "Anger": 3.0,
+        "Stress": 2.0,
+        "Loneliness": 1.0,
+        "Parental Education": {
+          "Father": 18.0,
+          "Mother": 16.0
+        },
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 3.0,
+          "Unable to Control Important Things": 3.0,
+          "Lacked Confidence Handling Problems": 1.0,
+          "Unable to Cope": 3.0,
+          "Irritated by Life": 1.0,
+          "On Top of Things": 1.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 1.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 0.0,
+          "Irritability": 1.0,
+          "Fear Something Awful Might Happen": 1.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 1.0,
+          "Sleep Problems": 1.0,
+          "Fatigue": 1.0,
+          "Appetite Changes": 1.0,
+          "Feelings of Worthlessness": 1.0,
+          "Concentration Difficulties": 0.0,
+          "Suicidal Thoughts": 0.0
+        }
+      }
+    },
+    {
+      "respondent": "107",
+      "answers": {
+        "Year of birth": 2001.0,
+        "Gender": 1.0,
+        "Socio-economic status": 1.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 6.0,
+        "Happiness": 5.0,
+        "Laughter": 6.0,
+        "Learning": 4.0,
+        "Enjoyment": 6.0,
+        "Worry": 1.0,
+        "Depression": 1.0,
+        "Anger": 3.0,
+        "Stress": 3.0,
+        "Loneliness": 8.0,
+        "Parental Education": {
+          "Father": 7.0,
+          "Mother": 6.0
+        },
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 3.0,
+          "Unable to Control Important Things": 3.0,
+          "Lacked Confidence Handling Problems": 2.0,
+          "Unable to Cope": 2.0,
+          "Irritated by Life": 2.0,
+          "On Top of Things": 2.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 1.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 0.0,
+          "Irritability": 1.0,
+          "Fear Something Awful Might Happen": 0.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 1.0,
+          "Sleep Problems": 0.0,
+          "Fatigue": 1.0,
+          "Appetite Changes": 0.0,
+          "Feelings of Worthlessness": 2.0,
+          "Concentration Difficulties": 2.0,
+          "Suicidal Thoughts": 1.0
+        }
+      }
+    },
+    {
+      "respondent": "76",
+      "answers": {
+        "Year of birth": 2006.0,
+        "Gender": 1.0,
+        "Socio-economic status": 2.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 7.0,
+        "Happiness": 5.0,
+        "Laughter": 5.0,
+        "Learning": 6.0,
+        "Enjoyment": 5.0,
+        "Worry": 1.0,
+        "Depression": 2.0,
+        "Anger": 3.0,
+        "Stress": 2.0,
+        "Loneliness": 7.0,
+        "Parental Education": {},
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 2.0,
+          "Unable to Control Important Things": 2.0,
+          "Lacked Confidence Handling Problems": 1.0,
+          "Unable to Cope": 2.0,
+          "Irritated by Life": 3.0,
+          "On Top of Things": 2.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 1.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 0.0,
+          "Irritability": 1.0,
+          "Fear Something Awful Might Happen": 1.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 2.0,
+          "Sleep Problems": 1.0,
+          "Fatigue": 1.0,
+          "Appetite Changes": 0.0,
+          "Feelings of Worthlessness": 1.0,
+          "Concentration Difficulties": 0.0,
+          "Suicidal Thoughts": 3.0
+        }
+      }
+    },
+    {
+      "respondent": "40",
+      "answers": {
+        "Year of birth": 2004.0,
+        "Gender": 1.0,
+        "Socio-economic status": 1.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 8.0,
+        "Happiness": 7.0,
+        "Laughter": 6.0,
+        "Learning": 4.0,
+        "Enjoyment": 8.0,
+        "Worry": 1.0,
+        "Depression": 3.0,
+        "Anger": 1.0,
+        "Stress": 4.0,
+        "Loneliness": 2.0,
+        "Parental Education": {},
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 3.0,
+          "Unable to Control Important Things": 3.0,
+          "Lacked Confidence Handling Problems": 2.0,
+          "Unable to Cope": 2.0,
+          "Irritated by Life": 4.0,
+          "On Top of Things": 1.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 2.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 3.0,
+          "Irritability": 0.0,
+          "Fear Something Awful Might Happen": 0.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 2.0,
+          "Sleep Problems": 3.0,
+          "Fatigue": 2.0,
+          "Appetite Changes": 3.0,
+          "Feelings of Worthlessness": 1.0,
+          "Concentration Difficulties": 0.0,
+          "Suicidal Thoughts": 0.0
+        }
+      }
+    },
+    {
+      "respondent": "51",
+      "answers": {
+        "Year of birth": 2002.0,
+        "Gender": 2.0,
+        "Socio-economic status": 2.0,
+        "Ethnic identity": 6.0,
+        "Life satisfaction": 8.0,
+        "Happiness": 7.0,
+        "Laughter": 7.0,
+        "Learning": 8.0,
+        "Enjoyment": 9.0,
+        "Worry": 2.0,
+        "Depression": 1.0,
+        "Anger": 3.0,
+        "Stress": 3.0,
+        "Loneliness": 6.0,
+        "Parental Education": {
+          "Father": 22.0,
+          "Mother": 22.0
+        },
+        "Emotional Regulation Frequency": {
+          "Upset by Unexpected Events": 3.0,
+          "Unable to Control Important Things": 2.0,
+          "Lacked Confidence Handling Problems": 3.0,
+          "Unable to Cope": 2.0,
+          "Irritated by Life": 3.0,
+          "On Top of Things": 2.0
+        },
+        "Anxiety Symptoms Frequency": {
+          "Feeling Nervous or On Edge": 2.0,
+          "Trouble Relaxing": 1.0,
+          "Restlessness": 1.0,
+          "Irritability": 2.0,
+          "Fear Something Awful Might Happen": 1.0
+        },
+        "Depressive Symptoms Frequency": {
+          "Anhedonia": 2.0,
+          "Sleep Problems": 1.0,
+          "Fatigue": 2.0,
+          "Appetite Changes": 1.0,
+          "Feelings of Worthlessness": 2.0,
+          "Concentration Difficulties": 1.0,
+          "Suicidal Thoughts": 0.0
+        }
+      }
+    }
+  ]
+}

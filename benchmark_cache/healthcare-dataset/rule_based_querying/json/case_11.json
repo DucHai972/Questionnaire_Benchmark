@@ -1,0 +1,153 @@
+{
+  "questions": {
+    "Age": "What is your age? [Open-ended]",
+    "Gender": "What is your gender? [MCQ: A. Female B. Male]",
+    "Blood Type": "What is your blood type? [MCQ: A. A+ B. A- C. AB+ D. AB- E. B+ F. B- G. O+ H. O-]",
+    "Medical Condition": "What is your medical condition? [MCQ: A. Arthritis B. Asthma C. Cancer D. Diabetes E. Hypertension F. Obesity]",
+    "Date of Admission": "What is your date of admission? [Open-ended]",
+    "Doctor": "What is your doctor? [Open-ended]",
+    "Hospital": "What is your hospital? [Open-ended]",
+    "Insurance Provider": "What is your insurance provider? [MCQ: A. Aetna B. Blue Cross C. Cigna D. Medicare E. UnitedHealthcare]",
+    "Billing Amount": "What is your billing amount? [Open-ended]",
+    "Room Number": "What is your room number? [Open-ended]",
+    "Admission Type": "What is your admission type? [MCQ: A. Elective B. Emergency C. Urgent]",
+    "Discharge Date": "What is your discharge date? [Open-ended]",
+    "Medication": "What is your medication? [MCQ: A. Aspirin B. Ibuprofen C. Lipitor D. Paracetamol E. Penicillin]",
+    "Test Results": "What is your test results? [MCQ: A. Abnormal B. Inconclusive C. Normal]"
+  },
+  "responses": [
+    {
+      "respondent": "17",
+      "answers": {
+        "Age": "19",
+        "Gender": "A",
+        "Blood Type": "E",
+        "Medical Condition": "C",
+        "Date of Admission": "2021-07-03",
+        "Doctor": "DOC_17",
+        "Hospital": "HOSP_17",
+        "Insurance Provider": "D",
+        "Billing Amount": "34774",
+        "Room Number": "182",
+        "Admission Type": "A",
+        "Discharge Date": "2021-08-12",
+        "Medication": "B",
+        "Test Results": "A"
+      }
+    },
+    {
+      "respondent": "43",
+      "answers": {
+        "Age": "47",
+        "Gender": "A",
+        "Blood Type": "D",
+        "Medical Condition": "F",
+        "Date of Admission": "2022-11-05",
+        "Doctor": "DOC_43",
+        "Hospital": "HOSP_43",
+        "Insurance Provider": "B",
+        "Billing Amount": "10710",
+        "Room Number": "468",
+        "Admission Type": "A",
+        "Discharge Date": "2023-04-21",
+        "Medication": "D",
+        "Test Results": "B"
+      }
+    },
+    {
+      "respondent": "112",
+      "answers": {
+        "Age": "67",
+        "Gender": "A",
+        "Blood Type": "G",
+        "Medical Condition": "C",
+        "Date of Admission": "2022-09-22",
+        "Doctor": "DOC_112",
+        "Hospital": "HOSP_112",
+        "Insurance Provider": "A",
+        "Billing Amount": "21880",
+        "Room Number": "485",
+        "Admission Type": "C",
+        "Discharge Date": "2023-01-11",
+        "Medication": "E",
+        "Test Results": "B"
+      }
+    },
+    {
+      "respondent": "71",
+      "answers": {
+        "Age": "52",
+        "Gender": "B",
+        "Blood Type": "F",
+        "Medical Condition": "D",
+        "Date of Admission": "2022-09-14",
+        "Doctor": "DOC_71",
+        "Hospital": "HOSP_71",
+        "Insurance Provider": "B",
+        "Billing Amount": "31486",
+        "Room Number": "212",
+        "Admission Type": "A",
+        "Discharge Date": "2022-10-07",
+        "Medication": "A",
+        "Test Results": "C"
+      }
+    },
+    {
+      "respondent": "108",
+      "answers": {
+        "Age": "63",
+        "Gender": "A",
+        "Blood Type": "A",
+        "Medical Condition": "A",
+        "Date of Admission": "2020-08-11",
+        "Doctor": "DOC_108",
+        "Hospital": "HOSP_108",
+        "Insurance Provider": "E",
+        "Billing Amount": "22951",
+        "Room Number": "119",
+        "Admission Type": "A",
+        "Discharge Date": "2020-07-20",
+        "Medication": "D",
+        "Test Results": "C"
+      }
+    },
+    {
+      "respondent": "77",
+      "answers": {
+        "Age": "59",
+        "Gender": "B",
+        "Blood Type": "B",
+        "Medical Condition": "B",
+        "Date of Admission": "2024-04-05",
+        "Doctor": "DOC_77",
+        "Hospital": "HOSP_77",
+        "Insurance Provider": "E",
+        "Billing Amount": "39958",
+        "Room Number": "233",
+        "Admission Type": "B",
+        "Discharge Date": "2024-02-10",
+        "Medication": "B",
+        "Test Results": "B"
+      }
+    },
+    {
+      "respondent": "124",
+      "answers": {
+        "Age": "57",
+        "Gender": "B",
+        "Blood Type": "F",
+        "Medical Condition": "A",
+        "Date of Admission": "2021-06-03",
+        "Doctor": "DOC_124",
+        "Hospital": "HOSP_124",
+        "Insurance Provider": "C",
+        "Billing Amount": "46814",
+        "Room Number": "228",
+        "Admission Type": "A",
+        "Discharge Date": "2021-10-13",
+        "Medication": "D",
+        "Test Results": "B"
+      }
+    }
+  ]
+}

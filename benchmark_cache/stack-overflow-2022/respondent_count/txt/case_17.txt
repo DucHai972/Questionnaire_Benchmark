@@ -1,0 +1,182 @@
+Survey Data
+==================================================
+
+Questions:
+1. MainBranch: MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]
+2. Employment: Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]
+3. EdLevel: EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]
+4. YearsCode: YearsCode: Total years of coding experience [Open-ended]
+5. YearsCodePro: YearsCodePro: Years of professional coding experience [Open-ended]
+6. DevType: DevType: Roles in development [Open-ended]
+7. OrgSize: OrgSize: Size of the organization they work in [Open-ended]
+8. Country: Country: Country of residence [Open-ended]
+9. CompTotal: CompTotal: Total compensation [Open-ended]
+10. CompFreq: CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]
+11. LanguageHaveWorkedWith: LanguageHaveWorkedWith: Programming languages worked with [Open-ended]
+12. LanguageWantToWorkWith: LanguageWantToWorkWith: Programming languages they want to use [Open-ended]
+13. ToolsTechHaveWorkedWith: ToolsTechHaveWorkedWith: Developer tools used [Open-ended]
+14. VersionControlSystem: VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]
+
+Responses:
+--------------------
+
+Respondent 73087:
+  MainBranch: A
+  Employment: ['A', 'C']
+  EdLevel: H
+  YearsCode: 43
+  YearsCodePro: 25
+  DevType: Data scientist or machine learning specialist;Developer, full-stack;Educator
+  OrgSize: 20 to 99 employees
+  Country: Germany
+  CompTotal: 125000.0
+  CompFreq: C
+  LanguageHaveWorkedWith: Assembly;C;PHP;Python;R;SQL
+  LanguageWantToWorkWith: C;Python
+  ToolsTechHaveWorkedWith: Ansible;Docker;Kubernetes
+  VersionControlSystem: A
+
+Respondent 73259:
+  MainBranch: A
+  Employment: A
+  EdLevel: A
+  YearsCode: 5
+  YearsCodePro: Less than 1 year
+  DevType: Developer, embedded applications or devices
+  OrgSize: I don’t know
+  Country: United States of America
+  CompTotal: 130000.0
+  CompFreq: B
+  LanguageHaveWorkedWith: Bash/Shell;C;Python
+  LanguageWantToWorkWith: C;C#;Python;Swift
+  ToolsTechHaveWorkedWith: Docker;Unity 3D
+  VersionControlSystem: A
+
+Respondent 72815:
+  MainBranch: A
+  Employment: A
+  EdLevel: A
+  YearsCode: 7
+  YearsCodePro: 4
+  DevType: Developer, desktop or enterprise applications;Other (please specify):
+  OrgSize: 10 to 19 employees
+  Country: Switzerland
+  CompTotal: 80000.0
+  CompFreq: B
+  LanguageHaveWorkedWith: HTML/CSS;JavaScript;Scala
+  LanguageWantToWorkWith: Rust;Scala
+  ToolsTechHaveWorkedWith: Homebrew
+  VersionControlSystem: A
+
+Respondent 424:
+  MainBranch: A
+  Employment: C
+  EdLevel: A
+  YearsCode: 3
+  YearsCodePro: 2
+  DevType: Developer, full-stack;Developer, back-end
+  OrgSize: Just me - I am a freelancer, sole proprietor, etc.
+  Country: India
+  CompTotal: 700.0
+  CompFreq: A
+  LanguageHaveWorkedWith: C;C#;C++;HTML/CSS;Java;JavaScript;PHP;SQL
+  LanguageWantToWorkWith: HTML/CSS;Java;JavaScript;PHP;SQL
+  ToolsTechHaveWorkedWith: npm
+  VersionControlSystem: A
+
+Respondent 254:
+  MainBranch: A
+  Employment: A
+  EdLevel: A
+  YearsCode: 25
+  YearsCodePro: 18
+  DevType: Senior Executive (C-Suite, VP, etc.)
+  OrgSize: 20 to 99 employees
+  Country: United States of America
+  CompTotal: 252000.0
+  CompFreq: C
+  LanguageHaveWorkedWith: C#;Elixir;Erlang;F#;Go;HTML/CSS;JavaScript;PowerShell;Rust;SQL;Swift;TypeScript
+  LanguageWantToWorkWith: C#;Elixir;F#;Go;HTML/CSS;JavaScript;SQL;Swift;TypeScript
+  ToolsTechHaveWorkedWith: Docker;Yarn
+  VersionControlSystem: A
+
+Respondent 29106:
+  MainBranch: A
+  Employment: A
+  EdLevel: A
+  YearsCode: 12
+  YearsCodePro: 4
+  DevType: Developer, front-end;Developer, full-stack;DevOps specialist
+  OrgSize: 500 to 999 employees
+  Country: Israel
+  CompTotal: 33000.0
+  CompFreq: B
+  LanguageHaveWorkedWith: Go;HTML/CSS;JavaScript;TypeScript
+  LanguageWantToWorkWith: HTML/CSS;JavaScript;TypeScript
+  ToolsTechHaveWorkedWith: Docker;Homebrew;Kubernetes;npm;Yarn
+  VersionControlSystem: A
+
+Respondent 159:
+  MainBranch: A
+  Employment: A
+  EdLevel: C
+  YearsCode: 6
+  YearsCodePro: 3
+  DevType: Developer, back-end
+  OrgSize: 20 to 99 employees
+  Country: Argentina
+  CompTotal: 81000.0
+  CompFreq: B
+  LanguageHaveWorkedWith: HTML/CSS;JavaScript;PHP;Python;SQL
+  LanguageWantToWorkWith: PHP;Python;SQL
+  ToolsTechHaveWorkedWith: Docker
+  VersionControlSystem: A
+
+Respondent 72582:
+  MainBranch: A
+  Employment: ['A', 'C']
+  EdLevel: A
+  YearsCode: 11
+  YearsCodePro: 6
+  DevType: Developer, front-end;Developer, full-stack;Developer, back-end
+  OrgSize: 500 to 999 employees
+  Country: Germany
+  CompTotal: 95000.0
+  CompFreq: C
+  LanguageHaveWorkedWith: Bash/Shell;HTML/CSS;JavaScript;Python;TypeScript
+  LanguageWantToWorkWith: Bash/Shell;HTML/CSS;JavaScript;Python;TypeScript
+  ToolsTechHaveWorkedWith: Docker;Homebrew;Kubernetes;npm;Yarn
+  VersionControlSystem: A
+
+Respondent 29109:
+  MainBranch: A
+  Employment: A
+  EdLevel: A
+  YearsCode: 8
+  YearsCodePro: 7
+  DevType: Developer, mobile
+  OrgSize: 100 to 499 employees
+  Country: Greece
+  CompTotal: 47000.0
+  CompFreq: C
+  LanguageHaveWorkedWith: Dart;Go;Kotlin;Swift
+  LanguageWantToWorkWith: Dart;Kotlin;Swift
+  ToolsTechHaveWorkedWith: Docker;Homebrew;npm
+  VersionControlSystem: A
+
+Respondent 72819:
+  MainBranch: A
+  Employment: A
+  EdLevel: A
+  YearsCode: 10
+  YearsCodePro: 5
+  DevType: Developer, full-stack;Developer, back-end;Cloud infrastructure engineer;System administrator
+  OrgSize: 10,000 or more employees
+  Country: United States of America
+  CompTotal: 180000.0
+  CompFreq: C
+  LanguageHaveWorkedWith: Bash/Shell;Groovy;JavaScript;Python;Rust;SQL
+  LanguageWantToWorkWith: Bash/Shell;Python;Rust
+  ToolsTechHaveWorkedWith: Homebrew
+  VersionControlSystem: A
+

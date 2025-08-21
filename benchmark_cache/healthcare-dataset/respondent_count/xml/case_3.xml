@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+  <questions>
+    <question id="Age">What is your age? [Open-ended]</question>
+    <question id="Gender">What is your gender? [MCQ: A. Female B. Male]</question>
+    <question id="Blood Type">What is your blood type? [MCQ: A. A+ B. A- C. AB+ D. AB- E. B+ F. B- G. O+ H. O-]</question>
+    <question id="Medical Condition">What is your medical condition? [MCQ: A. Arthritis B. Asthma C. Cancer D. Diabetes E. Hypertension F. Obesity]</question>
+    <question id="Date of Admission">What is your date of admission? [Open-ended]</question>
+    <question id="Doctor">What is your doctor? [Open-ended]</question>
+    <question id="Hospital">What is your hospital? [Open-ended]</question>
+    <question id="Insurance Provider">What is your insurance provider? [MCQ: A. Aetna B. Blue Cross C. Cigna D. Medicare E. UnitedHealthcare]</question>
+    <question id="Billing Amount">What is your billing amount? [Open-ended]</question>
+    <question id="Room Number">What is your room number? [Open-ended]</question>
+    <question id="Admission Type">What is your admission type? [MCQ: A. Elective B. Emergency C. Urgent]</question>
+    <question id="Discharge Date">What is your discharge date? [Open-ended]</question>
+    <question id="Medication">What is your medication? [MCQ: A. Aspirin B. Ibuprofen C. Lipitor D. Paracetamol E. Penicillin]</question>
+    <question id="Test Results">What is your test results? [MCQ: A. Abnormal B. Inconclusive C. Normal]</question>
+  </questions>
+  <responses>
+    <respondent id="108">
+      <answer question="Age">63</answer>
+      <answer question="Gender">a</answer>
+      <answer question="Blood Type">a</answer>
+      <answer question="Medical Condition">a</answer>
+      <answer question="Date of Admission">2020-08-11</answer>
+      <answer question="Doctor">DOC_108</answer>
+      <answer question="Hospital">HOSP_108</answer>
+      <answer question="Insurance Provider">e</answer>
+      <answer question="Billing Amount">22951</answer>
+      <answer question="Room Number">119</answer>
+      <answer question="Admission Type">a</answer>
+      <answer question="Discharge Date">2020-07-20</answer>
+      <answer question="Medication">d</answer>
+      <answer question="Test Results">c</answer>
+    </respondent>
+    <respondent id="39">
+      <answer question="Age">27</answer>
+      <answer question="Gender">b</answer>
+      <answer question="Blood Type">d</answer>
+      <answer question="Medical Condition">d</answer>
+      <answer question="Date of Admission">2021-10-08</answer>
+      <answer question="Doctor">DOC_39</answer>
+      <answer question="Hospital">HOSP_39</answer>
+      <answer question="Insurance Provider">a</answer>
+      <answer question="Billing Amount">45453</answer>
+      <answer question="Room Number">255</answer>
+      <answer question="Admission Type">c</answer>
+      <answer question="Discharge Date">2021-10-05</answer>
+      <answer question="Medication">e</answer>
+      <answer question="Test Results">a</answer>
+    </respondent>
+    <respondent id="106">
+      <answer question="Age">19</answer>
+      <answer question="Gender">b</answer>
+      <answer question="Blood Type">e</answer>
+      <answer question="Medical Condition">c</answer>
+      <answer question="Date of Admission">2020-11-18</answer>
+      <answer question="Doctor">DOC_106</answer>
+      <answer question="Hospital">HOSP_106</answer>
+      <answer question="Insurance Provider">e</answer>
+      <answer question="Billing Amount">47909</answer>
+      <answer question="Room Number">309</answer>
+      <answer question="Admission Type">a</answer>
+      <answer question="Discharge Date">2021-01-16</answer>
+      <answer question="Medication">c</answer>
+      <answer question="Test Results">b</answer>
+    </respondent>
+    <respondent id="53">
+      <answer question="Age">38</answer>
+      <answer question="Gender">b</answer>
+      <answer question="Blood Type">a</answer>
+      <answer question="Medical Condition">b</answer>
+      <answer question="Date of Admission">2023-12-28</answer>
+      <answer question="Doctor">DOC_53</answer>
+      <answer question="Hospital">HOSP_53</answer>
+      <answer question="Insurance Provider">e</answer>
+      <answer question="Billing Amount">48291</answer>
+      <answer question="Room Number">389</answer>
+      <answer question="Admission Type">c</answer>
+      <answer question="Discharge Date">2023-12-12</answer>
+      <answer question="Medication">b</answer>
+      <answer question="Test Results">c</answer>
+    </respondent>
+    <respondent id="129">
+      <answer question="Age">35</answer>
+      <answer question="Gender">a</answer>
+      <answer question="Blood Type">e</answer>
+      <answer question="Medical Condition">d</answer>
+      <answer question="Date of Admission">2021-06-09</answer>
+      <answer question="Doctor">DOC_129</answer>
+      <answer question="Hospital">HOSP_129</answer>
+      <answer question="Insurance Provider">b</answer>
+      <answer question="Billing Amount">30358</answer>
+      <answer question="Room Number">318</answer>
+      <answer question="Admission Type">a</answer>
+      <answer question="Discharge Date">2021-11-04</answer>
+      <answer question="Medication">b</answer>
+      <answer question="Test Results">a</answer>
+    </respondent>
+    <respondent id="121">
+      <answer question="Age">76</answer>
+      <answer question="Gender">a</answer>
+      <answer question="Blood Type">f</answer>
+      <answer question="Medical Condition">e</answer>
+      <answer question="Date of Admission">2021-10-27</answer>
+      <answer question="Doctor">DOC_121</answer>
+      <answer question="Hospital">HOSP_121</answer>
+      <answer question="Insurance Provider">c</answer>
+      <answer question="Billing Amount">50119</answer>
+      <answer question="Room Number">465</answer>
+      <answer question="Admission Type">b</answer>
+      <answer question="Discharge Date">2021-11-21</answer>
+      <answer question="Medication">c</answer>
+      <answer question="Test Results">c</answer>
+    </respondent>
+    <respondent id="16">
+      <answer question="Age">82</answer>
+      <answer question="Gender">a</answer>
+      <answer question="Blood Type">a</answer>
+      <answer question="Medical Condition">e</answer>
+      <answer question="Date of Admission">2020-01-24</answer>
+      <answer question="Doctor">DOC_16</answer>
+      <answer question="Hospital">HOSP_16</answer>
+      <answer question="Insurance Provider">c</answer>
+      <answer question="Billing Amount">36992</answer>
+      <answer question="Room Number">162</answer>
+      <answer question="Admission Type">c</answer>
+      <answer question="Discharge Date">2019-12-13</answer>
+      <answer question="Medication">a</answer>
+      <answer question="Test Results">c</answer>
+    </respondent>
+    <respondent id="36">
+      <answer question="Age">23</answer>
+      <answer question="Gender">b</answer>
+      <answer question="Blood Type">e</answer>
+      <answer question="Medical Condition">a</answer>
+      <answer question="Date of Admission">2022-08-03</answer>
+      <answer question="Doctor">DOC_36</answer>
+      <answer question="Hospital">HOSP_36</answer>
+      <answer question="Insurance Provider">b</answer>
+      <answer question="Billing Amount">24500</answer>
+      <answer question="Room Number">205</answer>
+      <answer question="Admission Type">c</answer>
+      <answer question="Discharge Date">2022-07-31</answer>
+      <answer question="Medication">e</answer>
+      <answer question="Test Results">c</answer>
+    </respondent>
+    <respondent id="133">
+      <answer question="Age">22</answer>
+      <answer question="Gender">b</answer>
+      <answer question="Blood Type">d</answer>
+      <answer question="Medical Condition">c</answer>
+      <answer question="Date of Admission">2023-10-15</answer>
+      <answer question="Doctor">DOC_133</answer>
+      <answer question="Hospital">HOSP_133</answer>
+      <answer question="Insurance Provider">c</answer>
+      <answer question="Billing Amount">10662</answer>
+      <answer question="Room Number">413</answer>
+      <answer question="Admission Type">b</answer>
+      <answer question="Discharge Date">2024-01-02</answer>
+      <answer question="Medication">d</answer>
+      <answer question="Test Results">a</answer>
+    </respondent>
+    <respondent id="54">
+      <answer question="Age">83</answer>
+      <answer question="Gender">a</answer>
+      <answer question="Blood Type">a</answer>
+      <answer question="Medical Condition">d</answer>
+      <answer question="Date of Admission">2023-12-23</answer>
+      <answer question="Doctor">DOC_54</answer>
+      <answer question="Hospital">HOSP_54</answer>
+      <answer question="Insurance Provider">b</answer>
+      <answer question="Billing Amount">10664</answer>
+      <answer question="Room Number">388</answer>
+      <answer question="Admission Type">c</answer>
+      <answer question="Discharge Date">2024-02-07</answer>
+      <answer question="Medication">a</answer>
+      <answer question="Test Results">a</answer>
+    </respondent>
+  </responses>
+</questionnaire>

@@ -1,0 +1,24 @@
+{
+  "dataset_name": "isbar",
+  "cached_at": "2025-07-13T23:31:40.564909",
+  "num_cases": 50,
+  "formats": [
+    "json",
+    "html",
+    "xml",
+    "md",
+    "ttl",
+    "txt"
+  ],
+  "tasks": [
+    "boundary_detection",
+    "answer_lookup",
+    "answer_reverse_lookup",
+    "respondent_count",
+    "path_alignment",
+    "multi_hop_relational_inference",
+    "conceptual_aggregation",
+    "rule_based_querying"
+  ],
+  "total_files": 2400
+}

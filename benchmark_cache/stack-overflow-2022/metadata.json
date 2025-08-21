@@ -1,0 +1,22 @@
+{
+  "dataset_name": "stack-overflow-2022-developer-survey",
+  "cached_at": "2025-07-15T18:41:07.304802",
+  "num_cases": 50,
+  "formats": [
+    "json",
+    "html",
+    "xml",
+    "md",
+    "ttl",
+    "txt"
+  ],
+  "tasks": [
+    "answer_lookup",
+    "answer_reverse_lookup",
+    "respondent_count",
+    "conceptual_aggregation",
+    "multi_hop_relational_inference",
+    "rule_based_querying"
+  ],
+  "total_files": 1800
+}

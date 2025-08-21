@@ -1,0 +1,174 @@
+# Survey Data
+
+## Questions
+
+- **Age:** What is your age? [Open-ended]
+- **Gender:** What is your gender? [MCQ: A. Female B. Male]
+- **Blood Type:** What is your blood type? [MCQ: A. A+ B. A- C. AB+ D. AB- E. B+ F. B- G. O+ H. O-]
+- **Medical Condition:** What is your medical condition? [MCQ: A. Arthritis B. Asthma C. Cancer D. Diabetes E. Hypertension F. Obesity]
+- **Date of Admission:** What is your date of admission? [Open-ended]
+- **Doctor:** What is your doctor? [Open-ended]
+- **Hospital:** What is your hospital? [Open-ended]
+- **Insurance Provider:** What is your insurance provider? [MCQ: A. Aetna B. Blue Cross C. Cigna D. Medicare E. UnitedHealthcare]
+- **Billing Amount:** What is your billing amount? [Open-ended]
+- **Room Number:** What is your room number? [Open-ended]
+- **Admission Type:** What is your admission type? [MCQ: A. Elective B. Emergency C. Urgent]
+- **Discharge Date:** What is your discharge date? [Open-ended]
+- **Medication:** What is your medication? [MCQ: A. Aspirin B. Ibuprofen C. Lipitor D. Paracetamol E. Penicillin]
+- **Test Results:** What is your test results? [MCQ: A. Abnormal B. Inconclusive C. Normal]
+
+## Responses
+
+### Respondent 107
+
+- **Age:** 77
+- **Gender:** a
+- **Blood Type:** g
+- **Medical Condition:** d
+- **Date of Admission:** 2024-01-31
+- **Doctor:** DOC_107
+- **Hospital:** HOSP_107
+- **Insurance Provider:** a
+- **Billing Amount:** 3326
+- **Room Number:** 227
+- **Admission Type:** a
+- **Discharge Date:** 2024-02-02
+- **Medication:** a
+- **Test Results:** a
+
+### Respondent 97
+
+- **Age:** 50
+- **Gender:** b
+- **Blood Type:** g
+- **Medical Condition:** e
+- **Date of Admission:** 2020-07-01
+- **Doctor:** DOC_97
+- **Hospital:** HOSP_97
+- **Insurance Provider:** a
+- **Billing Amount:** 17979
+- **Room Number:** 307
+- **Admission Type:** a
+- **Discharge Date:** 2020-03-05
+- **Medication:** d
+- **Test Results:** a
+
+### Respondent 116
+
+- **Age:** 84
+- **Gender:** a
+- **Blood Type:** g
+- **Medical Condition:** f
+- **Date of Admission:** 2020-06-23
+- **Doctor:** DOC_116
+- **Hospital:** HOSP_116
+- **Insurance Provider:** a
+- **Billing Amount:** 40015
+- **Room Number:** 211
+- **Admission Type:** c
+- **Discharge Date:** 2020-06-22
+- **Medication:** b
+- **Test Results:** c
+
+### Respondent 20
+
+- **Age:** 65
+- **Gender:** a
+- **Blood Type:** b
+- **Medical Condition:** b
+- **Date of Admission:** 2023-05-12
+- **Doctor:** DOC_20
+- **Hospital:** HOSP_20
+- **Insurance Provider:** d
+- **Billing Amount:** -503
+- **Room Number:** 114
+- **Admission Type:** a
+- **Discharge Date:** 2023-08-11
+- **Medication:** a
+- **Test Results:** c
+
+### Respondent 24
+
+- **Age:** 31
+- **Gender:** a
+- **Blood Type:** c
+- **Medical Condition:** d
+- **Date of Admission:** 2020-01-21
+- **Doctor:** DOC_24
+- **Hospital:** HOSP_24
+- **Insurance Provider:** b
+- **Billing Amount:** 8521
+- **Room Number:** 295
+- **Admission Type:** b
+- **Discharge Date:** 2020-02-10
+- **Medication:** c
+- **Test Results:** c
+
+### Respondent 104
+
+- **Age:** 60
+- **Gender:** b
+- **Blood Type:** b
+- **Medical Condition:** f
+- **Date of Admission:** 2019-11-03
+- **Doctor:** DOC_104
+- **Hospital:** HOSP_104
+- **Insurance Provider:** c
+- **Billing Amount:** 4532
+- **Room Number:** 300
+- **Admission Type:** a
+- **Discharge Date:** 2019-11-23
+- **Medication:** e
+- **Test Results:** b
+
+### Respondent 132
+
+- **Age:** 27
+- **Gender:** a
+- **Blood Type:** c
+- **Medical Condition:** f
+- **Date of Admission:** 2021-08-02
+- **Doctor:** DOC_132
+- **Hospital:** HOSP_132
+- **Insurance Provider:** e
+- **Billing Amount:** 22356
+- **Room Number:** 402
+- **Admission Type:** c
+- **Discharge Date:** 2021-08-13
+- **Medication:** d
+- **Test Results:** c
+
+### Respondent 72
+
+- **Age:** 72
+- **Gender:** a
+- **Blood Type:** c
+- **Medical Condition:** e
+- **Date of Admission:** 2020-05-15
+- **Doctor:** DOC_72
+- **Hospital:** HOSP_72
+- **Insurance Provider:** d
+- **Billing Amount:** 30437
+- **Room Number:** 115
+- **Admission Type:** b
+- **Discharge Date:** 2020-06-14
+- **Medication:** d
+- **Test Results:** b
+
+### Respondent 95
+
+- **Age:** 75
+- **Gender:** a
+- **Blood Type:** b
+- **Medical Condition:** e
+- **Date of Admission:** 2019-08-20
+- **Doctor:** DOC_95
+- **Hospital:** HOSP_95
+- **Insurance Provider:** a
+- **Billing Amount:** 26062
+- **Room Number:** 138
+- **Admission Type:** a
+- **Discharge Date:** 2019-06-04
+- **Medication:** c
+- **Test Results:** a
+

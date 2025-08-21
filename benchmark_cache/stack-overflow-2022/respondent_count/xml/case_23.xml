@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+  <questions>
+    <question id="MainBranch">MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]</question>
+    <question id="Employment">Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]</question>
+    <question id="EdLevel">EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]</question>
+    <question id="YearsCode">YearsCode: Total years of coding experience [Open-ended]</question>
+    <question id="YearsCodePro">YearsCodePro: Years of professional coding experience [Open-ended]</question>
+    <question id="DevType">DevType: Roles in development [Open-ended]</question>
+    <question id="OrgSize">OrgSize: Size of the organization they work in [Open-ended]</question>
+    <question id="Country">Country: Country of residence [Open-ended]</question>
+    <question id="CompTotal">CompTotal: Total compensation [Open-ended]</question>
+    <question id="CompFreq">CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]</question>
+    <question id="LanguageHaveWorkedWith">LanguageHaveWorkedWith: Programming languages worked with [Open-ended]</question>
+    <question id="LanguageWantToWorkWith">LanguageWantToWorkWith: Programming languages they want to use [Open-ended]</question>
+    <question id="ToolsTechHaveWorkedWith">ToolsTechHaveWorkedWith: Developer tools used [Open-ended]</question>
+    <question id="VersionControlSystem">VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]</question>
+  </questions>
+  <responses>
+    <respondent id="115">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">D</answer>
+      <answer question="YearsCode">20</answer>
+      <answer question="YearsCodePro">12</answer>
+      <answer question="DevType">Developer, front-end;Developer, full-stack;Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer;System administrator</answer>
+      <answer question="OrgSize">10 to 19 employees</answer>
+      <answer question="Country">United States of America</answer>
+      <answer question="CompTotal">150000.0</answer>
+      <answer question="CompFreq">C</answer>
+      <answer question="LanguageHaveWorkedWith">Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL</answer>
+      <answer question="LanguageWantToWorkWith">Bash/Shell;HTML/CSS;Kotlin;Python;Rust;SQL</answer>
+      <answer question="ToolsTechHaveWorkedWith">Ansible;Docker;npm</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="364">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">D</answer>
+      <answer question="YearsCode">12</answer>
+      <answer question="YearsCodePro">10</answer>
+      <answer question="DevType">Developer, front-end;Developer, full-stack;Developer, back-end</answer>
+      <answer question="OrgSize">10 to 19 employees</answer>
+      <answer question="Country">United Kingdom of Great Britain and Northern Ireland</answer>
+      <answer question="CompTotal">46000.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">Bash/Shell;HTML/CSS;JavaScript;PHP;SQL;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;Homebrew;npm</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="72901">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">B</answer>
+      <answer question="YearsCode">2</answer>
+      <answer question="YearsCodePro">3</answer>
+      <answer question="DevType">Data scientist or machine learning specialist;Engineer, data;Developer, back-end</answer>
+      <answer question="OrgSize">20 to 99 employees</answer>
+      <answer question="Country">Israel</answer>
+      <answer question="CompTotal">6000.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">Bash/Shell;HTML/CSS;Python;SQL</answer>
+      <answer question="LanguageWantToWorkWith">Bash/Shell;Python;SQL</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="29105">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">3</answer>
+      <answer question="YearsCodePro">Less than 1 year</answer>
+      <answer question="DevType">Developer, full-stack</answer>
+      <answer question="OrgSize">100 to 499 employees</answer>
+      <answer question="Country">Bosnia and Herzegovina</answer>
+      <answer question="CompTotal">2700.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">JavaScript</answer>
+      <answer question="LanguageWantToWorkWith">Java;JavaScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;Kubernetes;npm</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="72689">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">5</answer>
+      <answer question="YearsCodePro">1</answer>
+      <answer question="DevType">Developer, front-end;Developer, desktop or enterprise applications</answer>
+      <answer question="OrgSize">500 to 999 employees</answer>
+      <answer question="Country">Israel</answer>
+      <answer question="CompTotal">17800.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">C#;Dart;HTML/CSS;JavaScript;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">C#;Dart;HTML/CSS;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">npm;Yarn</answer>
+      <answer question="VersionControlSystem">['A', 'Other (please specify):']</answer>
+    </respondent>
+    <respondent id="72686">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">['A', 'C']</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">7</answer>
+      <answer question="YearsCodePro">4</answer>
+      <answer question="DevType">Developer, back-end</answer>
+      <answer question="OrgSize">10,000 or more employees</answer>
+      <answer question="Country">India</answer>
+      <answer question="CompTotal">4500000.0</answer>
+      <answer question="CompFreq">C</answer>
+      <answer question="LanguageHaveWorkedWith">Bash/Shell;Java;Python;SQL</answer>
+      <answer question="LanguageWantToWorkWith">Bash/Shell;Java;Python;Solidity;SQL</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;Kubernetes</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="72799">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">C</answer>
+      <answer question="YearsCode">14</answer>
+      <answer question="YearsCodePro">10</answer>
+      <answer question="DevType">Developer, front-end;Developer, full-stack</answer>
+      <answer question="OrgSize">5,000 to 9,999 employees</answer>
+      <answer question="Country">Canada</answer>
+      <answer question="CompTotal">90000.0</answer>
+      <answer question="CompFreq">C</answer>
+      <answer question="LanguageHaveWorkedWith">C;C#;C++;HTML/CSS;JavaScript;Rust;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">HTML/CSS;Rust;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;npm</answer>
+      <answer question="VersionControlSystem">['A', 'Other (please specify):']</answer>
+    </respondent>
+  </responses>
+</questionnaire>

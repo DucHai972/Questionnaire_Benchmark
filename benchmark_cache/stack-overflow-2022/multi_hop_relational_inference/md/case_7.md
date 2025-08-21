@@ -1,0 +1,225 @@
+# Survey Data
+
+## Questions
+
+- **MainBranch:** MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]
+- **Employment:** Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]
+- **EdLevel:** EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]
+- **YearsCode:** YearsCode: Total years of coding experience [Open-ended]
+- **YearsCodePro:** YearsCodePro: Years of professional coding experience [Open-ended]
+- **DevType:** DevType: Roles in development [Open-ended]
+- **OrgSize:** OrgSize: Size of the organization they work in [Open-ended]
+- **Country:** Country: Country of residence [Open-ended]
+- **CompTotal:** CompTotal: Total compensation [Open-ended]
+- **CompFreq:** CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]
+- **LanguageHaveWorkedWith:** LanguageHaveWorkedWith: Programming languages worked with [Open-ended]
+- **LanguageWantToWorkWith:** LanguageWantToWorkWith: Programming languages they want to use [Open-ended]
+- **ToolsTechHaveWorkedWith:** ToolsTechHaveWorkedWith: Developer tools used [Open-ended]
+- **VersionControlSystem:** VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]
+
+## Responses
+
+### Respondent 73191
+
+- **MainBranch:** A
+- **Employment:** ['A', 'C']
+- **EdLevel:** C
+- **YearsCode:** 11
+- **YearsCodePro:** 8
+- **DevType:** Developer, front-end;Developer, full-stack
+- **OrgSize:** 2 to 9 employees
+- **Country:** United Arab Emirates
+- **CompTotal:** 55000.0
+- **CompFreq:** B
+- **LanguageHaveWorkedWith:** HTML/CSS;JavaScript;TypeScript
+- **LanguageWantToWorkWith:** Dart;HTML/CSS;JavaScript;Swift;TypeScript
+- **ToolsTechHaveWorkedWith:** Homebrew;npm;Yarn
+- **VersionControlSystem:** A
+
+### Respondent 459
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 12
+- **YearsCodePro:** 9
+- **DevType:** Developer, mobile
+- **OrgSize:** 10,000 or more employees
+- **Country:** United States of America
+- **CompTotal:** 400000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Bash/Shell;Java;Kotlin;Python;Rust
+- **LanguageWantToWorkWith:** Kotlin;Rust
+- **ToolsTechHaveWorkedWith:** Docker;Kubernetes
+- **VersionControlSystem:** ['A', 'B']
+
+### Respondent 72763
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** B
+- **YearsCode:** 12
+- **YearsCodePro:** 1
+- **DevType:** Developer, back-end
+- **OrgSize:** 100 to 499 employees
+- **Country:** United States of America
+- **CompTotal:** 70000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Assembly;C;C#;C++;Dart;HTML/CSS;Java;JavaScript;TypeScript
+- **LanguageWantToWorkWith:** Assembly;C;C#;C++
+- **ToolsTechHaveWorkedWith:** Docker;Homebrew;Kubernetes;npm;Yarn
+- **VersionControlSystem:** A
+
+### Respondent 406
+
+- **MainBranch:** A
+- **Employment:** C
+- **EdLevel:** A
+- **YearsCode:** 14
+- **YearsCodePro:** 9
+- **DevType:** Developer, full-stack;Educator
+- **OrgSize:** Just me - I am a freelancer, sole proprietor, etc.
+- **Country:** United States of America
+- **CompTotal:** 220000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** HTML/CSS;JavaScript;PHP;Ruby
+- **LanguageWantToWorkWith:** Ruby;Swift
+- **ToolsTechHaveWorkedWith:** Homebrew;npm
+- **VersionControlSystem:** A
+
+### Respondent 72825
+
+- **MainBranch:** A
+- **Employment:** ['A', 'C']
+- **EdLevel:** B
+- **YearsCode:** 6
+- **YearsCodePro:** 1
+- **DevType:** Developer, full-stack;Developer, back-end
+- **OrgSize:** 10,000 or more employees
+- **Country:** Germany
+- **CompTotal:** 80000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript
+- **LanguageWantToWorkWith:** Kotlin;Python
+- **ToolsTechHaveWorkedWith:** Docker;Homebrew;npm
+- **VersionControlSystem:** A
+
+### Respondent 73213
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 6
+- **YearsCodePro:** 5
+- **DevType:** Developer, back-end
+- **OrgSize:** 10,000 or more employees
+- **Country:** Spain
+- **CompTotal:** 57000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** HTML/CSS;Java;JavaScript;Kotlin;Python;SQL
+- **LanguageWantToWorkWith:** Java;Python;SQL
+- **ToolsTechHaveWorkedWith:** Docker
+- **VersionControlSystem:** A
+
+### Respondent 29060
+
+- **MainBranch:** B
+- **Employment:** A
+- **EdLevel:** B
+- **YearsCode:** 18
+- **YearsCodePro:** 14
+- **DevType:** Security professional
+- **OrgSize:** 1,000 to 4,999 employees
+- **Country:** Austria
+- **CompTotal:** 67000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** C#;JavaScript;PowerShell;SQL
+- **LanguageWantToWorkWith:** JavaScript;PowerShell
+- **ToolsTechHaveWorkedWith:** npm;Terraform
+- **VersionControlSystem:** A
+
+### Respondent 72878
+
+- **MainBranch:** A
+- **Employment:** ['A', 'C']
+- **EdLevel:** B
+- **YearsCode:** 12
+- **YearsCodePro:** 5
+- **DevType:** Developer, front-end;Developer, full-stack;Developer, back-end
+- **OrgSize:** 100 to 499 employees
+- **Country:** Switzerland
+- **CompTotal:** 220000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Python;SQL;TypeScript
+- **LanguageWantToWorkWith:** Python;Rust;SQL;TypeScript
+- **ToolsTechHaveWorkedWith:** Docker;Kubernetes
+- **VersionControlSystem:** A
+
+### Respondent 368
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** C
+- **YearsCode:** 10
+- **YearsCodePro:** 1
+- **DevType:** Developer, back-end
+- **OrgSize:** 100 to 499 employees
+- **Country:** United States of America
+- **CompTotal:** 50000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Bash/Shell;HTML/CSS;JavaScript;Rust;SQL;TypeScript
+- **LanguageWantToWorkWith:** HTML/CSS;JavaScript;Rust;SQL;TypeScript
+- **ToolsTechHaveWorkedWith:** npm
+- **VersionControlSystem:** A
+
+### Respondent 29141
+
+- **MainBranch:** A
+- **Employment:** ['A', 'C']
+- **EdLevel:** A
+- **YearsCode:** 20
+- **YearsCodePro:** 13
+- **DevType:** Developer, desktop or enterprise applications;Developer, mobile
+- **OrgSize:** 1,000 to 4,999 employees
+- **Country:** Russian Federation
+- **CompTotal:** 650000.0
+- **CompFreq:** B
+- **LanguageHaveWorkedWith:** C++;Ruby;Swift
+- **LanguageWantToWorkWith:** C;C++;HTML/CSS;JavaScript;Python;Ruby;Swift;TypeScript
+- **ToolsTechHaveWorkedWith:** Homebrew
+- **VersionControlSystem:** A
+
+### Respondent 73067
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 30
+- **YearsCodePro:** 13
+- **DevType:** Developer, full-stack;Developer, back-end
+- **OrgSize:** 2 to 9 employees
+- **Country:** United States of America
+- **CompTotal:** 155000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Bash/Shell;Elixir;Go;JavaScript;Rust
+- **LanguageWantToWorkWith:** Elixir;Rust
+- **ToolsTechHaveWorkedWith:** Ansible;Docker;Homebrew;Kubernetes;Terraform
+- **VersionControlSystem:** A
+
+### Respondent 407
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** C
+- **YearsCode:** 11
+- **YearsCodePro:** 6
+- **DevType:** Developer, full-stack
+- **OrgSize:** 500 to 999 employees
+- **Country:** United States of America
+- **CompTotal:** 155000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Elixir;HTML/CSS;JavaScript;Ruby;TypeScript
+- **LanguageWantToWorkWith:** Elixir
+- **ToolsTechHaveWorkedWith:** Docker;Homebrew;Kubernetes;npm;Yarn
+- **VersionControlSystem:** A
+

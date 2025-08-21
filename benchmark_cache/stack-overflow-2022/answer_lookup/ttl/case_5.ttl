@@ -1,0 +1,196 @@
+@prefix : <http://example.org/survey#> .
+@prefix pred: <http://example.org/predicate#> .
+
+# Questions
+:QMainBranch pred:Text "MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]" .
+:QEmployment pred:Text "Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]" .
+:QEdLevel pred:Text "EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]" .
+:QYearsCode pred:Text "YearsCode: Total years of coding experience [Open-ended]" .
+:QYearsCodePro pred:Text "YearsCodePro: Years of professional coding experience [Open-ended]" .
+:QDevType pred:Text "DevType: Roles in development [Open-ended]" .
+:QOrgSize pred:Text "OrgSize: Size of the organization they work in [Open-ended]" .
+:QCountry pred:Text "Country: Country of residence [Open-ended]" .
+:QCompTotal pred:Text "CompTotal: Total compensation [Open-ended]" .
+:QCompFreq pred:Text "CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]" .
+:QLanguageHaveWorkedWith pred:Text "LanguageHaveWorkedWith: Programming languages worked with [Open-ended]" .
+:QLanguageWantToWorkWith pred:Text "LanguageWantToWorkWith: Programming languages they want to use [Open-ended]" .
+:QToolsTechHaveWorkedWith pred:Text "ToolsTechHaveWorkedWith: Developer tools used [Open-ended]" .
+:QVersionControlSystem pred:Text "VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]" .
+
+# Responses
+:Respondent450 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "H" ;
+    pred:YearsCode "7" ;
+    pred:YearsCodePro "4" ;
+    pred:DevType "Developer, front-end;Developer, full-stack" ;
+    pred:OrgSize "20 to 99 employees" ;
+    pred:Country "United Kingdom of Great Britain and Northern Ireland" ;
+    pred:CompTotal "36000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "Bash/Shell;HTML/CSS;JavaScript;Python;TypeScript" ;
+    pred:LanguageWantToWorkWith "Go" ;
+    pred:ToolsTechHaveWorkedWith "Docker;Homebrew;npm;Yarn" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent391 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "28" ;
+    pred:YearsCodePro "15" ;
+    pred:DevType "Developer, full-stack;Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer;Senior Executive (C-Suite, VP, etc.);System administrator" ;
+    pred:OrgSize "2 to 9 employees" ;
+    pred:Country "United States of America" ;
+    pred:CompTotal "130000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "C#;JavaScript;Kotlin;SQL" ;
+    pred:LanguageWantToWorkWith "C#;Kotlin;SQL" ;
+    pred:ToolsTechHaveWorkedWith "Docker" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent259 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "C" ;
+    pred:YearsCode "7" ;
+    pred:YearsCodePro "4" ;
+    pred:DevType "Developer, back-end" ;
+    pred:OrgSize "20 to 99 employees" ;
+    pred:Country "United States of America" ;
+    pred:CompTotal "100000.0" ;
+    pred:CompFreq "B" ;
+    pred:LanguageHaveWorkedWith "APL;Bash/Shell;C;C++;Go;Haskell;LISP;Perl;Python;Rust" ;
+    pred:LanguageWantToWorkWith "APL;C;C++;Haskell;Perl;Rust" ;
+    pred:ToolsTechHaveWorkedWith "Docker;Kubernetes" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent326 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "5" ;
+    pred:YearsCodePro "3" ;
+    pred:DevType "Engineer, site reliability;Developer, back-end;DevOps specialist;Cloud infrastructure engineer" ;
+    pred:OrgSize "2 to 9 employees" ;
+    pred:Country "United States of America" ;
+    pred:CompTotal "125000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "Bash/Shell;C#;Elixir;Erlang;F#;Go;HTML/CSS;Java;LISP;Perl;Python;Scala" ;
+    pred:LanguageWantToWorkWith "Elixir;LISP;Python" ;
+    pred:ToolsTechHaveWorkedWith "Ansible;Docker;Homebrew;Kubernetes;Pulumi;Terraform" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent73209 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "23" ;
+    pred:YearsCodePro "13" ;
+    pred:DevType "Developer, front-end;Developer, full-stack" ;
+    pred:OrgSize "100 to 499 employees" ;
+    pred:Country "United States of America" ;
+    pred:CompTotal "110000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "HTML/CSS;JavaScript;PHP" ;
+    pred:LanguageWantToWorkWith "Python;Ruby;Swift;TypeScript" ;
+    pred:ToolsTechHaveWorkedWith "Docker;npm;Yarn" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent72965 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "['A', 'C']" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "9" ;
+    pred:YearsCodePro "8" ;
+    pred:DevType "Data scientist or machine learning specialist;Developer, back-end;Academic researcher;Scientist" ;
+    pred:OrgSize "5,000 to 9,999 employees" ;
+    pred:Country "Netherlands" ;
+    pred:CompTotal "50000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "Bash/Shell;C;C++;HTML/CSS;JavaScript;PHP;Python;SQL" ;
+    pred:LanguageWantToWorkWith "Bash/Shell;C;C++;LISP;Python;Rust;SQL" ;
+    pred:ToolsTechHaveWorkedWith "Docker;npm" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent447 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "C" ;
+    pred:YearsCode "18" ;
+    pred:YearsCodePro "9" ;
+    pred:DevType "Developer, back-end;Engineering manager;Cloud infrastructure engineer" ;
+    pred:OrgSize "5,000 to 9,999 employees" ;
+    pred:Country "United States of America" ;
+    pred:CompTotal "200000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "HTML/CSS;JavaScript;Python;Scala;SQL;TypeScript" ;
+    pred:LanguageWantToWorkWith "HTML/CSS;Python;Scala;SQL;TypeScript" ;
+    pred:ToolsTechHaveWorkedWith "Homebrew;Terraform" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent194 a :Person ;
+    pred:MainBranch "B" ;
+    pred:Employment "A" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "4" ;
+    pred:YearsCodePro "4" ;
+    pred:DevType "Developer, desktop or enterprise applications;Data or business analyst" ;
+    pred:OrgSize "500 to 999 employees" ;
+    pred:Country "United States of America" ;
+    pred:CompTotal "121000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "C#;Python;SQL" ;
+    pred:LanguageWantToWorkWith "C#;F#;Python" ;
+    pred:ToolsTechHaveWorkedWith "Docker" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent185 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "18" ;
+    pred:YearsCodePro "9" ;
+    pred:DevType "Developer, full-stack;Developer, back-end;Developer, QA or test;Cloud infrastructure engineer" ;
+    pred:OrgSize "100 to 499 employees" ;
+    pred:Country "Poland" ;
+    pred:CompTotal "300000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "Bash/Shell;JavaScript;Python;SQL;TypeScript" ;
+    pred:LanguageWantToWorkWith "Bash/Shell;C++;Go;JavaScript;Python;SQL;TypeScript" ;
+    pred:ToolsTechHaveWorkedWith "Ansible;Docker;Kubernetes;Terraform;Yarn" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent499 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "14" ;
+    pred:YearsCodePro "8" ;
+    pred:DevType "Developer, back-end" ;
+    pred:OrgSize "10,000 or more employees" ;
+    pred:Country "United States of America" ;
+    pred:CompTotal "350000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "Java;Kotlin;Python;SQL" ;
+    pred:LanguageWantToWorkWith "Kotlin;Python;SQL" ;
+    pred:ToolsTechHaveWorkedWith "Docker;Terraform" ;
+    pred:VersionControlSystem "A"  .
+
+:Respondent189 a :Person ;
+    pred:MainBranch "A" ;
+    pred:Employment "A" ;
+    pred:EdLevel "A" ;
+    pred:YearsCode "16" ;
+    pred:YearsCodePro "12" ;
+    pred:DevType "Developer, full-stack;Engineering manager;Cloud infrastructure engineer;Security professional" ;
+    pred:OrgSize "20 to 99 employees" ;
+    pred:Country "United Kingdom of Great Britain and Northern Ireland" ;
+    pred:CompTotal "100000.0" ;
+    pred:CompFreq "C" ;
+    pred:LanguageHaveWorkedWith "Bash/Shell;HTML/CSS;JavaScript;PHP;TypeScript" ;
+    pred:LanguageWantToWorkWith "HTML/CSS;JavaScript;PHP;TypeScript" ;
+    pred:ToolsTechHaveWorkedWith "Docker;npm;Terraform" ;
+    pred:VersionControlSystem "A"  .
+

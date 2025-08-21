@@ -1,0 +1,23 @@
+{
+  "dataset_name": "sus-uta7",
+  "total_respondents": 90,
+  "total_questions": 12,
+  "tasks": [
+    "answer_lookup",
+    "answer_reverse_lookup",
+    "respondent_count",
+    "conceptual_aggregation",
+    "multi_hop_relational_inference",
+    "rule_based_querying"
+  ],
+  "formats": [
+    "json",
+    "html",
+    "xml",
+    "md",
+    "ttl",
+    "txt"
+  ],
+  "cases_per_task": 50,
+  "total_files": 1800
+}

@@ -1,0 +1,225 @@
+# Survey Data
+
+## Questions
+
+- **MainBranch:** MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]
+- **Employment:** Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]
+- **EdLevel:** EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]
+- **YearsCode:** YearsCode: Total years of coding experience [Open-ended]
+- **YearsCodePro:** YearsCodePro: Years of professional coding experience [Open-ended]
+- **DevType:** DevType: Roles in development [Open-ended]
+- **OrgSize:** OrgSize: Size of the organization they work in [Open-ended]
+- **Country:** Country: Country of residence [Open-ended]
+- **CompTotal:** CompTotal: Total compensation [Open-ended]
+- **CompFreq:** CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]
+- **LanguageHaveWorkedWith:** LanguageHaveWorkedWith: Programming languages worked with [Open-ended]
+- **LanguageWantToWorkWith:** LanguageWantToWorkWith: Programming languages they want to use [Open-ended]
+- **ToolsTechHaveWorkedWith:** ToolsTechHaveWorkedWith: Developer tools used [Open-ended]
+- **VersionControlSystem:** VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]
+
+## Responses
+
+### Respondent 121
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 2
+- **YearsCodePro:** 2
+- **DevType:** Developer, front-end
+- **OrgSize:** 2 to 9 employees
+- **Country:** China
+- **CompTotal:** 1130.0
+- **CompFreq:** A
+- **LanguageHaveWorkedWith:** JavaScript
+- **LanguageWantToWorkWith:** JavaScript;Python;Rust;TypeScript
+- **ToolsTechHaveWorkedWith:** npm
+- **VersionControlSystem:** A
+
+### Respondent 72927
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 16
+- **YearsCodePro:** 13
+- **DevType:** Developer, embedded applications or devices
+- **OrgSize:** 100 to 499 employees
+- **Country:** Israel
+- **CompTotal:** 360000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Assembly;Bash/Shell;C;C++;Python;SQL
+- **LanguageWantToWorkWith:** Assembly;C;C++;Python;Rust
+- **ToolsTechHaveWorkedWith:** Ansible;Docker
+- **VersionControlSystem:** A
+
+### Respondent 73094
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 20
+- **YearsCodePro:** 17
+- **DevType:** Developer, full-stack
+- **OrgSize:** 100 to 499 employees
+- **Country:** United States of America
+- **CompTotal:** 204300.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** JavaScript;SQL
+- **LanguageWantToWorkWith:** C++;Python;R
+- **ToolsTechHaveWorkedWith:** npm
+- **VersionControlSystem:** Other (please specify):
+
+### Respondent 73128
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 15
+- **YearsCodePro:** 11
+- **DevType:** Developer, full-stack;Engineering manager
+- **OrgSize:** 20 to 99 employees
+- **Country:** Germany
+- **CompTotal:** 100000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** JavaScript;TypeScript
+- **LanguageWantToWorkWith:** Elixir;JavaScript;Rust;TypeScript
+- **ToolsTechHaveWorkedWith:** Docker;Kubernetes;npm
+- **VersionControlSystem:** A
+
+### Respondent 469
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 16
+- **YearsCodePro:** 8
+- **DevType:** Developer, front-end;Developer, full-stack;Developer, back-end
+- **OrgSize:** 20 to 99 employees
+- **Country:** Netherlands
+- **CompTotal:** 4000.0
+- **CompFreq:** B
+- **LanguageHaveWorkedWith:** Bash/Shell;C#;HTML/CSS;PowerShell;SQL;TypeScript
+- **LanguageWantToWorkWith:** C#;Dart;HTML/CSS;PowerShell;SQL;TypeScript
+- **ToolsTechHaveWorkedWith:** Docker;Flow;Kubernetes;npm;Unity 3D
+- **VersionControlSystem:** A
+
+### Respondent 72801
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** D
+- **YearsCode:** 10
+- **YearsCodePro:** 8
+- **DevType:** Data scientist or machine learning specialist;Developer, front-end;Developer, full-stack;Developer, back-end;Engineering manager;Senior Executive (C-Suite, VP, etc.)
+- **OrgSize:** 100 to 499 employees
+- **Country:** United States of America
+- **CompTotal:** 205000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** HTML/CSS;JavaScript;Kotlin;Python;Rust;TypeScript
+- **LanguageWantToWorkWith:** Kotlin;Rust
+- **ToolsTechHaveWorkedWith:** Docker;Homebrew;npm
+- **VersionControlSystem:** A
+
+### Respondent 29098
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 12
+- **YearsCodePro:** 12
+- **DevType:** Developer, full-stack;Data or business analyst
+- **OrgSize:** 10,000 or more employees
+- **Country:** India
+- **CompTotal:** 92000.0
+- **CompFreq:** B
+- **LanguageHaveWorkedWith:** Bash/Shell;HTML/CSS;Java;JavaScript;Python;SQL
+- **LanguageWantToWorkWith:** Bash/Shell;HTML/CSS;Java;JavaScript;Python;SQL
+- **ToolsTechHaveWorkedWith:** Docker;Kubernetes;npm;Yarn
+- **VersionControlSystem:** ['A', 'C']
+
+### Respondent 388
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 38
+- **YearsCodePro:** 26
+- **DevType:** Engineer, data;Developer, back-end;Developer, desktop or enterprise applications;Developer, QA or test;Database administrator;DevOps specialist;Data or business analyst
+- **OrgSize:** 5,000 to 9,999 employees
+- **Country:** Norway
+- **CompTotal:** 1000000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** C#;Delphi;HTML/CSS;JavaScript;PowerShell;SQL
+- **LanguageWantToWorkWith:** C#;Delphi;PowerShell;SQL
+- **ToolsTechHaveWorkedWith:** Docker;Kubernetes
+- **VersionControlSystem:** A
+
+### Respondent 72825
+
+- **MainBranch:** A
+- **Employment:** ['A', 'C']
+- **EdLevel:** B
+- **YearsCode:** 6
+- **YearsCodePro:** 1
+- **DevType:** Developer, full-stack;Developer, back-end
+- **OrgSize:** 10,000 or more employees
+- **Country:** Germany
+- **CompTotal:** 80000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript
+- **LanguageWantToWorkWith:** Kotlin;Python
+- **ToolsTechHaveWorkedWith:** Docker;Homebrew;npm
+- **VersionControlSystem:** A
+
+### Respondent 73007
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 7
+- **YearsCodePro:** 2
+- **DevType:** Developer, full-stack;Developer, back-end
+- **OrgSize:** 10 to 19 employees
+- **Country:** Montenegro
+- **CompTotal:** 0.0
+- **CompFreq:** B
+- **LanguageHaveWorkedWith:** JavaScript;SQL
+- **LanguageWantToWorkWith:** Elixir;Go;Rust
+- **ToolsTechHaveWorkedWith:** Docker;Homebrew;npm;Terraform;Yarn
+- **VersionControlSystem:** A
+
+### Respondent 73196
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 10
+- **YearsCodePro:** 4
+- **DevType:** Developer, full-stack
+- **OrgSize:** 100 to 499 employees
+- **Country:** United States of America
+- **CompTotal:** 90000.0
+- **CompFreq:** C
+- **LanguageHaveWorkedWith:** Bash/Shell;Clojure;Go;Java;JavaScript;Ruby;TypeScript
+- **LanguageWantToWorkWith:** Go;Groovy;Haskell;Ruby;Rust;TypeScript
+- **ToolsTechHaveWorkedWith:** Ansible;Docker;Kubernetes;npm;Puppet;Yarn
+- **VersionControlSystem:** A
+
+### Respondent 143
+
+- **MainBranch:** A
+- **Employment:** A
+- **EdLevel:** A
+- **YearsCode:** 12
+- **YearsCodePro:** 6
+- **DevType:** Developer, full-stack;Developer, desktop or enterprise applications
+- **OrgSize:** 20 to 99 employees
+- **Country:** Netherlands
+- **CompTotal:** 4250.0
+- **CompFreq:** B
+- **LanguageHaveWorkedWith:** C#;HTML/CSS;JavaScript;PowerShell;SQL;TypeScript
+- **LanguageWantToWorkWith:** C#;HTML/CSS;JavaScript;PowerShell;SQL;TypeScript
+- **ToolsTechHaveWorkedWith:** npm;Yarn
+- **VersionControlSystem:** ['A', 'Other (please specify):']
+

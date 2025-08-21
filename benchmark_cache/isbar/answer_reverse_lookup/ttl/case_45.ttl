@@ -1,0 +1,116 @@
+@prefix : <http://example.org/survey#> .
+@prefix pred: <http://example.org/predicate#> .
+
+# Questions
+:QDate pred:Text "What is the date of the session? [Open-ended]" .
+:QSessionName pred:Text "What is the name of the session? [Open-ended]" .
+:QIdentification pred:Text "Identification of self, role, and patient. [Rubric: 0 = Requires direct prompting, 1 = Introduces themselves but only after a hint, 2 = Introduces themselves but information is incomplete, 3 = Introduces themselves and information is complete]" .
+:QSituation pred:Text "Identifies the main problem(s). [Rubric: 0 = Unable to identify the main problem(s), 1 = Identifies the main problem(s) after extended prompting, 2 = Identifies the main problem(s) with fewer prompts needed, 3 = Identifies and prioritizes the main problem(s) unprompted]" .
+:QBackground_history pred:Text "Gives appropriate history. [Rubric: 0 = History is unstructured or non-relevant, 1 = Relevant history but frequent clarification needed, 2 = Relevant history with few further questions needed, 3 = Comprehensive focused history]" .
+:QBackground_examination pred:Text "Gives appropriate examination/observations. [Rubric: 0 = Observations are omitted or irrelevant, 1 = Observations reported but frequent clarification needed, 2 = Observations reported with few further questions needed, 3 = Comprehensive focused examination/observations]" .
+:QAssessment pred:Text "Makes logical assessment (correlates problem, history, exam, context). [Rubric: 0 = No logical assessment, 1 = Assessment only after extended questioning, 2 = Assessment after minimal questioning, 3 = Comprehensive logical assessment without questioning]" .
+:QRecommendation_clear_recommendation pred:Text "Makes a clear recommendation. [Rubric: 0 = No recommendation, 1 = Clear recommendation only after extended questioning, 2 = Clear recommendation after minimal questioning, 3 = Clear comprehensive recommendation without questioning]" .
+:QRecommendation_global_rating_scale pred:Text "Global Rating Scale (GRS) - How confident am I that I received an accurate picture of the patient? [Rubric: 0 = Not at all confident, 1 = Confident but required extended questioning, 2 = Confident but required some further questioning, 3 = Confident and required little or no questioning]" .
+:QComments pred:Text "Comments on the session. [Open-ended]" .
+
+# Responses
+:Respondent22 a :Person ;
+    pred:Date "2025-05-16" ;
+    pred:SessionName "IV (VT)" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "3" ;
+    pred:Background_examination "3" ;
+    pred:Assessment "2" ;
+    pred:Recommendation_clear_recommendation "2" ;
+    pred:Recommendation_global_rating_scale "3" ;
+    pred:Comments "Clear communication skills
+Good"  .
+
+:Respondent18 a :Person ;
+    pred:Date "2025-05-04" ;
+    pred:SessionName "IV - VT" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "2" ;
+    pred:Background_examination "2" ;
+    pred:Assessment "3" ;
+    pred:Recommendation_clear_recommendation "2" ;
+    pred:Recommendation_global_rating_scale "2" ;
+    pred:Comments "Not very concise or clear communication
+Satisfactory"  .
+
+:Respondent15 a :Person ;
+    pred:Date "2025-05-04" ;
+    pred:SessionName "III - Sepsis" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "2" ;
+    pred:Background_examination "3" ;
+    pred:Assessment "2" ;
+    pred:Recommendation_clear_recommendation "2" ;
+    pred:Recommendation_global_rating_scale "2" ;
+    pred:Comments "Detailed Response - clear communication"  .
+
+:Respondent14 a :Person ;
+    pred:Date "2025-03-14" ;
+    pred:SessionName "IV-Hypoglycemia" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "2" ;
+    pred:Background_examination "2" ;
+    pred:Assessment "3" ;
+    pred:Recommendation_clear_recommendation "1" ;
+    pred:Recommendation_global_rating_scale "2" ;
+    pred:Comments "Time: (2:36-2:53)
+Late response for considering consultation"  .
+
+:Respondent2 a :Person ;
+    pred:Date "2025-04-04" ;
+    pred:SessionName "MI" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "2" ;
+    pred:Background_examination "3" ;
+    pred:Assessment "3" ;
+    pred:Recommendation_clear_recommendation "2" ;
+    pred:Recommendation_global_rating_scale "1" ;
+    pred:Comments ""  .
+
+:Respondent7 a :Person ;
+    pred:Date "2025-03-14" ;
+    pred:SessionName "III-Sepsis" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "2" ;
+    pred:Background_examination "3" ;
+    pred:Assessment "2" ;
+    pred:Recommendation_clear_recommendation "2" ;
+    pred:Recommendation_global_rating_scale "2" ;
+    pred:Comments "Time: (1:00-1:17)"  .
+
+:Respondent17 a :Person ;
+    pred:Date "2025-05-04" ;
+    pred:SessionName "V (Hypoglycemia)" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "3" ;
+    pred:Background_examination "3" ;
+    pred:Assessment "3" ;
+    pred:Recommendation_clear_recommendation "3" ;
+    pred:Recommendation_global_rating_scale "2" ;
+    pred:Comments "Concise - clear
+Satisfactory"  .
+
+:Respondent12 a :Person ;
+    pred:Date "2025-05-02" ;
+    pred:SessionName "II (Anaphylaxis)" ;
+    pred:Identification "3" ;
+    pred:Situation "3" ;
+    pred:Background_history "3" ;
+    pred:Background_examination "3" ;
+    pred:Assessment "2" ;
+    pred:Recommendation_clear_recommendation "3" ;
+    pred:Recommendation_global_rating_scale "3" ;
+    pred:Comments "Good"  .
+

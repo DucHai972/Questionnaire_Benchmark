@@ -1,0 +1,548 @@
+@prefix : <http://example.org/survey#> .
+@prefix pred: <http://example.org/predicate#> .
+@prefix qg: <http://example.org/question_group#> .
+
+# Questions
+:QYear_of_birth pred:Text "What is your date of birth? [Open-ended]" .
+:QGender pred:Text "What is your gender? [MCQ: 1. Male 2. Female]" .
+:QSocio_economic_status pred:Text "What is the socio-economic status of your home? [Likert 1–6: 1 = Very low, 6 = Very high]" .
+:QEthnic_identity pred:Text "According to your culture, people, or physical features, you are or are recognized as: [MCQ: 1. Indigenous 2. Gypsy 3. Raizal from San Andres, Providencia and Santa Catalina Archipelago 4. Palenquero from San Basilio 5. Black, mulatto (Afro-descendant), Afro-Colombian 6. None of the above]" .
+
+:QGParental_Education pred:BaseQuestion "How many years of education did your parents receive? [Open-ended]" ;
+    qg:hasSubQuestion :QParental_Education_Father, :QParental_Education_Mother .
+:QParental_Education_Father pred:Text "Father?" .
+:QParental_Education_Mother pred:Text "Mother?" .
+
+:QLife_satisfaction pred:Text "In general, how satisfied are you with all aspects of your life? [Likert 0–10: 0 = Not satisfied, 10 = Totally satisfied]" .
+:QHappiness pred:Text "How happy did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QLaughter pred:Text "How much did you laugh yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QLearning pred:Text "Did you learn new or exciting things yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QEnjoyment pred:Text "How much did you enjoy the activities you did yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QWorry pred:Text "How worried did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QDepression pred:Text "How depressed did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QAnger pred:Text "How angry did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QStress pred:Text "How much stress did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+:QLoneliness pred:Text "How lonely or unsupported did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]" .
+
+:QGEmotional_Regulation_Frequency pred:BaseQuestion "Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 4, where 0 is never, 1 is 'almost never', 2 is 'sometimes', 3 is 'fairly often', and 4 is 'very often', how often you experienced the following feelings during the last month: [Likert 0–4]" ;
+    qg:hasSubQuestion :QEmotional_Regulation_Frequency_Upset_by_Unexpected_Events,
+                      :QEmotional_Regulation_Frequency_Unable_to_Control_Important_Things,
+                      :QEmotional_Regulation_Frequency_Nervous_and_Stressed,
+                      :QEmotional_Regulation_Frequency_Lacked_Confidence_Handling_Problems,
+                      :QEmotional_Regulation_Frequency_Things_Going_Your_Way,
+                      :QEmotional_Regulation_Frequency_Unable_to_Cope,
+                      :QEmotional_Regulation_Frequency_Irritated_by_Life,
+                      :QEmotional_Regulation_Frequency_On_Top_of_Things,
+                      :QEmotional_Regulation_Frequency_Angered_by_Uncontrollable_Events,
+                      :QEmotional_Regulation_Frequency_Felt_Overwhelmed .
+
+:QEmotional_Regulation_Frequency_Upset_by_Unexpected_Events pred:Text "how often have you been upset because of something that happened unexpectedly?" .
+:QEmotional_Regulation_Frequency_Unable_to_Control_Important_Things pred:Text "how often have you felt that you were unable to control the important things in your life?" .
+:QEmotional_Regulation_Frequency_Nervous_and_Stressed pred:Text "how often have you felt nervous and stressed?" .
+:QEmotional_Regulation_Frequency_Lacked_Confidence_Handling_Problems pred:Text "how often have you felt confident about your ability to handle your personal problems?" .
+:QEmotional_Regulation_Frequency_Things_Going_Your_Way pred:Text "how often have you felt that things were going your way?" .
+:QEmotional_Regulation_Frequency_Unable_to_Cope pred:Text "how often have you found that you could not cope with all the things that you had to do?" .
+:QEmotional_Regulation_Frequency_Irritated_by_Life pred:Text "how often have you been able to control irritations in your life?" .
+:QEmotional_Regulation_Frequency_On_Top_of_Things pred:Text "how often have you felt that you were on top of things?" .
+:QEmotional_Regulation_Frequency_Angered_by_Uncontrollable_Events pred:Text "how often have you been angered because of things that happened that were outside of your control?" .
+:QEmotional_Regulation_Frequency_Felt_Overwhelmed pred:Text "how often have you felt difficulties were piling up so high that you could not overcome them?" .
+
+:QGAnxiety_Symptoms_Frequency pred:BaseQuestion "Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 3, where 0 is 'Not at all', 1 is 'several days', 2 is 'more than half of the days', and 3 is 'Nearly every day'. Over the last two weeks, how often have you been bothered by the following problems? [Likert 0–3]" ;
+    qg:hasSubQuestion :QAnxiety_Symptoms_Frequency_Feeling_Nervous_or_On_Edge,
+                      :QAnxiety_Symptoms_Frequency_Uncontrollable_Worrying,
+                      :QAnxiety_Symptoms_Frequency_Excessive_Worry,
+                      :QAnxiety_Symptoms_Frequency_Trouble_Relaxing,
+                      :QAnxiety_Symptoms_Frequency_Restlessness,
+                      :QAnxiety_Symptoms_Frequency_Irritability,
+                      :QAnxiety_Symptoms_Frequency_Fear_Something_Awful_Might_Happen .
+
+:QAnxiety_Symptoms_Frequency_Feeling_Nervous_or_On_Edge pred:Text "Feeling nervous, anxious, or on edge" .
+:QAnxiety_Symptoms_Frequency_Uncontrollable_Worrying pred:Text "Not being able to stop or control worrying" .
+:QAnxiety_Symptoms_Frequency_Excessive_Worry pred:Text "Worrying too much about different things" .
+:QAnxiety_Symptoms_Frequency_Trouble_Relaxing pred:Text "Trouble relaxing" .
+:QAnxiety_Symptoms_Frequency_Restlessness pred:Text "Being so restless that it is hard to sit still" .
+:QAnxiety_Symptoms_Frequency_Irritability pred:Text "Becoming easily annoyed or irritable" .
+:QAnxiety_Symptoms_Frequency_Fear_Something_Awful_Might_Happen pred:Text "Feeling afraid, as if something awful might happen" .
+
+:QGDepressive_Symptoms_Frequency pred:BaseQuestion "Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 3, where 0 is 'Not at all', 1 is 'several days', 2 is 'more than half of the days', and 3 is 'Nearly every day'. Over the last two weeks, how often have you been bothered by the following problems?" ;
+    qg:hasSubQuestion :QDepressive_Symptoms_Frequency_Anhedonia,
+                      :QDepressive_Symptoms_Frequency_Depressed_Mood,
+                      :QDepressive_Symptoms_Frequency_Sleep_Problems,
+                      :QDepressive_Symptoms_Frequency_Fatigue,
+                      :QDepressive_Symptoms_Frequency_Appetite_Changes,
+                      :QDepressive_Symptoms_Frequency_Feelings_of_Worthlessness,
+                      :QDepressive_Symptoms_Frequency_Concentration_Difficulties,
+                      :QDepressive_Symptoms_Frequency_Psychomotor_Changes,
+                      :QDepressive_Symptoms_Frequency_Suicidal_Thoughts .
+
+:QDepressive_Symptoms_Frequency_Anhedonia pred:Text "Little interest or pleasure in doing things" .
+:QDepressive_Symptoms_Frequency_Depressed_Mood pred:Text "Feeling down, depressed, or hopeless" .
+:QDepressive_Symptoms_Frequency_Sleep_Problems pred:Text "Trouble falling or staying asleep, or sleeping too much" .
+:QDepressive_Symptoms_Frequency_Fatigue pred:Text "Feeling tired or having little energy" .
+:QDepressive_Symptoms_Frequency_Appetite_Changes pred:Text "Poor appetite or overeating" .
+:QDepressive_Symptoms_Frequency_Feelings_of_Worthlessness pred:Text "Feeling bad about yourself or that you are a failure or have let yourself or your family down" .
+:QDepressive_Symptoms_Frequency_Concentration_Difficulties pred:Text "Trouble concentrating on things, such as reading the newspaper or watching television" .
+:QDepressive_Symptoms_Frequency_Psychomotor_Changes pred:Text "Moving or speaking so slowly that other people could have noticed. Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual" .
+:QDepressive_Symptoms_Frequency_Suicidal_Thoughts pred:Text "Thoughts that you would be better off dead, or of hurting yourself" .
+
+# Responses
+:Respondent17 pred:Year_of_birth 1999.0 ;
+     pred:Gender 2.0 ;
+     pred:Socio_economic_status 5.0 ;
+     pred:Ethnic_identity 6.0 .
+
+:Respondent17_Parental_Education
+                       pred:Father 20.0 ;
+                       pred:Mother 16.0  .
+:Respondent17 pred:hasGroupResponse :Respondent17_Parental_Education .
+
+:Respondent17 pred:Life_satisfaction 10.0 ;
+     pred:Happiness 8.0 ;
+     pred:Laughter 9.0 ;
+     pred:Learning 10.0 ;
+     pred:Enjoyment 9.0 ;
+     pred:Worry 1.0 ;
+     pred:Depression 1.0 ;
+     pred:Anger 2.0 ;
+     pred:Stress 1.0 ;
+     pred:Loneliness 0.0 .
+
+:Respondent17_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 3.0 ;
+                       pred:Unable_to_Control_Important_Things 3.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 4.0 ;
+                       pred:Unable_to_Cope 2.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 3.0  .
+:Respondent17 pred:hasGroupResponse :Respondent17_Emotional_Regulation_Frequency .
+
+:Respondent17_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 0.0 ;
+                       pred:Trouble_Relaxing 0.0 ;
+                       pred:Restlessness 0.0 ;
+                       pred:Irritability 1.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 0.0  .
+:Respondent17 pred:hasGroupResponse :Respondent17_Anxiety_Symptoms_Frequency .
+
+:Respondent17_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 3.0 ;
+                       pred:Sleep_Problems 0.0 ;
+                       pred:Fatigue 3.0 ;
+                       pred:Appetite_Changes 1.0 ;
+                       pred:Feelings_of_Worthlessness 0.0 ;
+                       pred:Concentration_Difficulties 0.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent17 pred:hasGroupResponse :Respondent17_Depressive_Symptoms_Frequency .
+
+:Respondent141 pred:Year_of_birth 2004.0 ;
+     pred:Gender 2.0 ;
+     pred:Socio_economic_status 4.0 ;
+     pred:Ethnic_identity 6.0 .
+
+:Respondent141 pred:Life_satisfaction 8.0 ;
+     pred:Happiness 6.0 ;
+     pred:Laughter 1.0 ;
+     pred:Learning 9.0 ;
+     pred:Enjoyment 2.0 ;
+     pred:Worry 3.0 ;
+     pred:Depression 1.0 ;
+     pred:Anger 4.0 ;
+     pred:Stress 4.0 ;
+     pred:Loneliness 9.0 .
+
+:Respondent141_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 3.0 ;
+                       pred:Unable_to_Control_Important_Things 3.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 2.0 ;
+                       pred:Unable_to_Cope 3.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 2.0  .
+:Respondent141 pred:hasGroupResponse :Respondent141_Emotional_Regulation_Frequency .
+
+:Respondent141_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 3.0 ;
+                       pred:Trouble_Relaxing 2.0 ;
+                       pred:Restlessness 0.0 ;
+                       pred:Irritability 1.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 2.0  .
+:Respondent141 pred:hasGroupResponse :Respondent141_Anxiety_Symptoms_Frequency .
+
+:Respondent141_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 0.0 ;
+                       pred:Sleep_Problems 1.0 ;
+                       pred:Fatigue 0.0 ;
+                       pred:Appetite_Changes 1.0 ;
+                       pred:Feelings_of_Worthlessness 2.0 ;
+                       pred:Concentration_Difficulties 1.0 ;
+                       pred:Suicidal_Thoughts 1.0  .
+:Respondent141 pred:hasGroupResponse :Respondent141_Depressive_Symptoms_Frequency .
+
+:Respondent139 pred:Year_of_birth 2002.0 ;
+     pred:Gender 2.0 ;
+     pred:Socio_economic_status 5.0 ;
+     pred:Ethnic_identity 6.0 .
+
+:Respondent139_Parental_Education
+                       pred:Father 15.0 ;
+                       pred:Mother 15.0  .
+:Respondent139 pred:hasGroupResponse :Respondent139_Parental_Education .
+
+:Respondent139 pred:Life_satisfaction 6.0 ;
+     pred:Happiness 10.0 ;
+     pred:Laughter 4.0 ;
+     pred:Learning 7.0 ;
+     pred:Enjoyment 2.0 ;
+     pred:Worry 1.0 ;
+     pred:Depression 3.0 ;
+     pred:Anger 1.0 ;
+     pred:Stress 4.0 ;
+     pred:Loneliness 6.0 .
+
+:Respondent139_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 2.0 ;
+                       pred:Unable_to_Control_Important_Things 3.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 3.0 ;
+                       pred:Unable_to_Cope 3.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 2.0  .
+:Respondent139 pred:hasGroupResponse :Respondent139_Emotional_Regulation_Frequency .
+
+:Respondent139_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 2.0 ;
+                       pred:Trouble_Relaxing 0.0 ;
+                       pred:Restlessness 0.0 ;
+                       pred:Irritability 0.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 0.0  .
+:Respondent139 pred:hasGroupResponse :Respondent139_Anxiety_Symptoms_Frequency .
+
+:Respondent139_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 3.0 ;
+                       pred:Sleep_Problems 3.0 ;
+                       pred:Fatigue 2.0 ;
+                       pred:Appetite_Changes 0.0 ;
+                       pred:Feelings_of_Worthlessness 0.0 ;
+                       pred:Concentration_Difficulties 0.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent139 pred:hasGroupResponse :Respondent139_Depressive_Symptoms_Frequency .
+
+:Respondent75 pred:Year_of_birth 2003.0 ;
+     pred:Gender 1.0 ;
+     pred:Socio_economic_status 3.0 ;
+     pred:Ethnic_identity 5.0 .
+
+:Respondent75_Parental_Education
+                       pred:Father 17.0 ;
+                       pred:Mother 17.0  .
+:Respondent75 pred:hasGroupResponse :Respondent75_Parental_Education .
+
+:Respondent75 pred:Life_satisfaction 8.0 ;
+     pred:Happiness 9.0 ;
+     pred:Laughter 7.0 ;
+     pred:Learning 5.0 ;
+     pred:Enjoyment 6.0 ;
+     pred:Worry 3.0 ;
+     pred:Depression 1.0 ;
+     pred:Anger 4.0 ;
+     pred:Stress 3.0 ;
+     pred:Loneliness 4.0 .
+
+:Respondent75_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 2.0 ;
+                       pred:Unable_to_Control_Important_Things 2.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 3.0 ;
+                       pred:Unable_to_Cope 2.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 3.0  .
+:Respondent75 pred:hasGroupResponse :Respondent75_Emotional_Regulation_Frequency .
+
+:Respondent75_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 1.0 ;
+                       pred:Trouble_Relaxing 2.0 ;
+                       pred:Restlessness 0.0 ;
+                       pred:Irritability 1.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 1.0  .
+:Respondent75 pred:hasGroupResponse :Respondent75_Anxiety_Symptoms_Frequency .
+
+:Respondent75_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 1.0 ;
+                       pred:Sleep_Problems 0.0 ;
+                       pred:Fatigue 1.0 ;
+                       pred:Appetite_Changes 1.0 ;
+                       pred:Feelings_of_Worthlessness 1.0 ;
+                       pred:Concentration_Difficulties 1.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent75 pred:hasGroupResponse :Respondent75_Depressive_Symptoms_Frequency .
+
+:Respondent77 pred:Year_of_birth 2002.0 ;
+     pred:Gender 1.0 ;
+     pred:Socio_economic_status 3.0 ;
+     pred:Ethnic_identity 6.0 .
+
+:Respondent77 pred:Life_satisfaction 7.0 ;
+     pred:Happiness 7.0 ;
+     pred:Laughter 9.0 ;
+     pred:Learning 5.0 ;
+     pred:Enjoyment 9.0 ;
+     pred:Worry 1.0 ;
+     pred:Depression 1.0 ;
+     pred:Anger 2.0 ;
+     pred:Stress 3.0 ;
+     pred:Loneliness 0.0 .
+
+:Respondent77_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 2.0 ;
+                       pred:Unable_to_Control_Important_Things 3.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 2.0 ;
+                       pred:Unable_to_Cope 2.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 2.0  .
+:Respondent77 pred:hasGroupResponse :Respondent77_Emotional_Regulation_Frequency .
+
+:Respondent77_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 1.0 ;
+                       pred:Trouble_Relaxing 1.0 ;
+                       pred:Restlessness 1.0 ;
+                       pred:Irritability 1.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 0.0  .
+:Respondent77 pred:hasGroupResponse :Respondent77_Anxiety_Symptoms_Frequency .
+
+:Respondent77_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 1.0 ;
+                       pred:Sleep_Problems 1.0 ;
+                       pred:Fatigue 1.0 ;
+                       pred:Appetite_Changes 0.0 ;
+                       pred:Feelings_of_Worthlessness 1.0 ;
+                       pred:Concentration_Difficulties 0.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent77 pred:hasGroupResponse :Respondent77_Depressive_Symptoms_Frequency .
+
+:Respondent41 pred:Year_of_birth 2003.0 ;
+     pred:Gender 2.0 ;
+     pred:Socio_economic_status 3.0 ;
+     pred:Ethnic_identity 6.0 .
+
+:Respondent41 pred:Life_satisfaction 8.0 ;
+     pred:Happiness 8.0 ;
+     pred:Laughter 8.0 ;
+     pred:Learning 9.0 ;
+     pred:Enjoyment 8.0 ;
+     pred:Worry 1.0 ;
+     pred:Depression 1.0 ;
+     pred:Anger 3.0 ;
+     pred:Stress 3.0 ;
+     pred:Loneliness 4.0 .
+
+:Respondent41_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 2.0 ;
+                       pred:Unable_to_Control_Important_Things 3.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 2.0 ;
+                       pred:Unable_to_Cope 1.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 2.0  .
+:Respondent41 pred:hasGroupResponse :Respondent41_Emotional_Regulation_Frequency .
+
+:Respondent41_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 1.0 ;
+                       pred:Trouble_Relaxing 1.0 ;
+                       pred:Restlessness 0.0 ;
+                       pred:Irritability 1.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 1.0  .
+:Respondent41 pred:hasGroupResponse :Respondent41_Anxiety_Symptoms_Frequency .
+
+:Respondent41_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 1.0 ;
+                       pred:Sleep_Problems 1.0 ;
+                       pred:Fatigue 1.0 ;
+                       pred:Appetite_Changes 1.0 ;
+                       pred:Feelings_of_Worthlessness 0.0 ;
+                       pred:Concentration_Difficulties 1.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent41 pred:hasGroupResponse :Respondent41_Depressive_Symptoms_Frequency .
+
+:Respondent45 pred:Year_of_birth 2002.0 ;
+     pred:Gender 1.0 ;
+     pred:Socio_economic_status 5.0 ;
+     pred:Ethnic_identity 6.0 .
+
+:Respondent45_Parental_Education
+                       pred:Father 16.0 ;
+                       pred:Mother 16.0  .
+:Respondent45 pred:hasGroupResponse :Respondent45_Parental_Education .
+
+:Respondent45 pred:Life_satisfaction 10.0 ;
+     pred:Happiness 9.0 ;
+     pred:Laughter 10.0 ;
+     pred:Learning 7.0 ;
+     pred:Enjoyment 10.0 ;
+     pred:Worry 1.0 ;
+     pred:Depression 1.0 ;
+     pred:Anger 1.0 ;
+     pred:Stress 2.0 ;
+     pred:Loneliness 0.0 .
+
+:Respondent45_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 2.0 ;
+                       pred:Unable_to_Control_Important_Things 1.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 3.0 ;
+                       pred:Unable_to_Cope 2.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 1.0  .
+:Respondent45 pred:hasGroupResponse :Respondent45_Emotional_Regulation_Frequency .
+
+:Respondent45_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 1.0 ;
+                       pred:Trouble_Relaxing 2.0 ;
+                       pred:Restlessness 1.0 ;
+                       pred:Irritability 0.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 1.0  .
+:Respondent45 pred:hasGroupResponse :Respondent45_Anxiety_Symptoms_Frequency .
+
+:Respondent45_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 0.0 ;
+                       pred:Sleep_Problems 0.0 ;
+                       pred:Fatigue 2.0 ;
+                       pred:Appetite_Changes 2.0 ;
+                       pred:Feelings_of_Worthlessness 1.0 ;
+                       pred:Concentration_Difficulties 1.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent45 pred:hasGroupResponse :Respondent45_Depressive_Symptoms_Frequency .
+
+:Respondent93 pred:Year_of_birth 2003.0 ;
+     pred:Gender 1.0 ;
+     pred:Socio_economic_status 1.0 ;
+     pred:Ethnic_identity 6.0 .
+
+:Respondent93_Parental_Education
+                       pred:Father 12.0 ;
+                       pred:Mother 12.0  .
+:Respondent93 pred:hasGroupResponse :Respondent93_Parental_Education .
+
+:Respondent93 pred:Life_satisfaction 8.0 ;
+     pred:Happiness 8.0 ;
+     pred:Laughter 6.0 ;
+     pred:Learning 9.0 ;
+     pred:Enjoyment 8.0 ;
+     pred:Worry 0.0 ;
+     pred:Depression 0.0 ;
+     pred:Anger 2.0 ;
+     pred:Stress 2.0 ;
+     pred:Loneliness 1.0 .
+
+:Respondent93_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 2.0 ;
+                       pred:Unable_to_Control_Important_Things 1.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 3.0 ;
+                       pred:Unable_to_Cope 2.0 ;
+                       pred:Irritated_by_Life 4.0 ;
+                       pred:On_Top_of_Things 4.0  .
+:Respondent93 pred:hasGroupResponse :Respondent93_Emotional_Regulation_Frequency .
+
+:Respondent93_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 1.0 ;
+                       pred:Trouble_Relaxing 0.0 ;
+                       pred:Restlessness 0.0 ;
+                       pred:Irritability 1.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 0.0  .
+:Respondent93 pred:hasGroupResponse :Respondent93_Anxiety_Symptoms_Frequency .
+
+:Respondent93_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 0.0 ;
+                       pred:Sleep_Problems 1.0 ;
+                       pred:Fatigue 1.0 ;
+                       pred:Appetite_Changes 1.0 ;
+                       pred:Feelings_of_Worthlessness 0.0 ;
+                       pred:Concentration_Difficulties 0.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent93 pred:hasGroupResponse :Respondent93_Depressive_Symptoms_Frequency .
+
+:Respondent131 pred:Year_of_birth 2003.0 ;
+     pred:Gender 2.0 ;
+     pred:Socio_economic_status 3.0 ;
+     pred:Ethnic_identity 5.0 .
+
+:Respondent131_Parental_Education
+                       pred:Father 18.0 ;
+                       pred:Mother 20.0  .
+:Respondent131 pred:hasGroupResponse :Respondent131_Parental_Education .
+
+:Respondent131 pred:Life_satisfaction 4.0 ;
+     pred:Happiness 6.0 ;
+     pred:Laughter 6.0 ;
+     pred:Learning 7.0 ;
+     pred:Enjoyment 6.0 ;
+     pred:Worry 2.0 ;
+     pred:Depression 0.0 ;
+     pred:Anger 3.0 ;
+     pred:Stress 3.0 ;
+     pred:Loneliness 2.0 .
+
+:Respondent131_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 3.0 ;
+                       pred:Unable_to_Control_Important_Things 3.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 2.0 ;
+                       pred:Unable_to_Cope 3.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 2.0  .
+:Respondent131 pred:hasGroupResponse :Respondent131_Emotional_Regulation_Frequency .
+
+:Respondent131_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 2.0 ;
+                       pred:Trouble_Relaxing 2.0 ;
+                       pred:Restlessness 2.0 ;
+                       pred:Irritability 2.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 1.0  .
+:Respondent131 pred:hasGroupResponse :Respondent131_Anxiety_Symptoms_Frequency .
+
+:Respondent131_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 2.0 ;
+                       pred:Sleep_Problems 3.0 ;
+                       pred:Fatigue 2.0 ;
+                       pred:Appetite_Changes 0.0 ;
+                       pred:Feelings_of_Worthlessness 2.0 ;
+                       pred:Concentration_Difficulties 0.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent131 pred:hasGroupResponse :Respondent131_Depressive_Symptoms_Frequency .
+
+:Respondent58 pred:Year_of_birth 2004.0 ;
+     pred:Gender 1.0 ;
+     pred:Socio_economic_status 1.0 ;
+     pred:Ethnic_identity 5.0 .
+
+:Respondent58 pred:Life_satisfaction 7.0 ;
+     pred:Happiness 9.0 ;
+     pred:Laughter 10.0 ;
+     pred:Learning 7.0 ;
+     pred:Enjoyment 10.0 ;
+     pred:Worry 1.0 ;
+     pred:Depression 0.0 ;
+     pred:Anger 3.0 ;
+     pred:Stress 2.0 ;
+     pred:Loneliness 8.0 .
+
+:Respondent58_Emotional_Regulation_Frequency
+                       pred:Upset_by_Unexpected_Events 2.0 ;
+                       pred:Unable_to_Control_Important_Things 1.0 ;
+                       pred:Lacked_Confidence_Handling_Problems 3.0 ;
+                       pred:Unable_to_Cope 2.0 ;
+                       pred:Irritated_by_Life 3.0 ;
+                       pred:On_Top_of_Things 3.0  .
+:Respondent58 pred:hasGroupResponse :Respondent58_Emotional_Regulation_Frequency .
+
+:Respondent58_Anxiety_Symptoms_Frequency
+                       pred:Feeling_Nervous_or_On_Edge 0.0 ;
+                       pred:Trouble_Relaxing 0.0 ;
+                       pred:Restlessness 0.0 ;
+                       pred:Irritability 0.0 ;
+                       pred:Fear_Something_Awful_Might_Happen 0.0  .
+:Respondent58 pred:hasGroupResponse :Respondent58_Anxiety_Symptoms_Frequency .
+
+:Respondent58_Depressive_Symptoms_Frequency
+                       pred:Anhedonia 1.0 ;
+                       pred:Sleep_Problems 0.0 ;
+                       pred:Fatigue 1.0 ;
+                       pred:Appetite_Changes 2.0 ;
+                       pred:Feelings_of_Worthlessness 0.0 ;
+                       pred:Concentration_Difficulties 0.0 ;
+                       pred:Suicidal_Thoughts 0.0  .
+:Respondent58 pred:hasGroupResponse :Respondent58_Depressive_Symptoms_Frequency .
+

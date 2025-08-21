@@ -1,0 +1,108 @@
+Survey Data
+==================================================
+
+Questions:
+1. Date: What is the date of the session? [Open-ended]
+2. SessionName: What is the name of the session? [Open-ended]
+3. Identification: Identification of self, role, and patient. [Rubric: 0 = Requires direct prompting, 1 = Introduces themselves but only after a hint, 2 = Introduces themselves but information is incomplete, 3 = Introduces themselves and information is complete]
+4. Situation: Identifies the main problem(s). [Rubric: 0 = Unable to identify the main problem(s), 1 = Identifies the main problem(s) after extended prompting, 2 = Identifies the main problem(s) with fewer prompts needed, 3 = Identifies and prioritizes the main problem(s) unprompted]
+5. Background (history): Gives appropriate history. [Rubric: 0 = History is unstructured or non-relevant, 1 = Relevant history but frequent clarification needed, 2 = Relevant history with few further questions needed, 3 = Comprehensive focused history]
+6. Background (examination): Gives appropriate examination/observations. [Rubric: 0 = Observations are omitted or irrelevant, 1 = Observations reported but frequent clarification needed, 2 = Observations reported with few further questions needed, 3 = Comprehensive focused examination/observations]
+7. Assessment: Makes logical assessment (correlates problem, history, exam, context). [Rubric: 0 = No logical assessment, 1 = Assessment only after extended questioning, 2 = Assessment after minimal questioning, 3 = Comprehensive logical assessment without questioning]
+8. Recommendation (clear recommendation): Makes a clear recommendation. [Rubric: 0 = No recommendation, 1 = Clear recommendation only after extended questioning, 2 = Clear recommendation after minimal questioning, 3 = Clear comprehensive recommendation without questioning]
+9. Recommendation (global rating scale): Global Rating Scale (GRS) - How confident am I that I received an accurate picture of the patient? [Rubric: 0 = Not at all confident, 1 = Confident but required extended questioning, 2 = Confident but required some further questioning, 3 = Confident and required little or no questioning]
+10. Comments: Comments on the session. [Open-ended]
+
+Responses:
+--------------------
+
+Respondent 11:
+  Date: 2025-04-04
+  SessionName: IV (AF)
+  Identification: 3
+  Situation: 3
+  Background (history): 3
+  Background (examination): 3
+  Assessment: 3
+  Recommendation (clear recommendation): 3
+  Recommendation (global rating scale): 3
+  Comments: Clear communication and handover
+
+Respondent 20:
+  Date: 2025-05-02
+  SessionName: IV (VT)
+  Identification: 3
+  Situation: 3
+  Background (history): 2
+  Background (examination): -1
+  Assessment: 3
+  Recommendation (clear recommendation): 2
+  Recommendation (global rating scale): 3
+  Comments: Good
+
+Respondent 23:
+  Date: 2025-03-14
+  SessionName: II-Anaphylaxsis
+  Identification: 3
+  Situation: 3
+  Background (history): 2
+  Background (examination): 2
+  Assessment: 3
+  Recommendation (clear recommendation): 3
+  Recommendation (global rating scale): 3
+  Comments: Time: (11:43-11:58)
+Talking to registrav could not summarize the condition of patient very clearly
+DID: Sepsis I Anaphylaxsis given by team
+
+Respondent 6:
+  Date: 2025-04-04
+  SessionName: II (Anaphylactic Shock)
+  Identification: 3
+  Situation: 2
+  Background (history): 3
+  Background (examination): 3
+  Assessment: 2
+  Recommendation (clear recommendation): 2
+  Recommendation (global rating scale): 3
+  Comments: 
+
+Respondent 13:
+  Date: 2025-03-14
+  SessionName: I-VF
+  Identification: 3
+  Situation: 3
+  Background (history): 2
+  Background (examination): 1
+  Assessment: 2
+  Recommendation (clear recommendation): 2
+  Recommendation (global rating scale): 2
+  Comments: Time: (10:29-10:54)
+Ventricular fibrillation (CVS)
+Lack of communication btween 2 main interns
+Further brief to patient, ask patent concerns
+
+Respondent 10:
+  Date: 2025-03-14
+  SessionName: (MI)-VT
+  Identification: 2
+  Situation: 2
+  Background (history): 2
+  Background (examination): 2
+  Assessment: 2
+  Recommendation (clear recommendation): 2
+  Recommendation (global rating scale): 2
+  Comments: Time: (15:53-16:14)
+
+Respondent 21:
+  Date: 2025-05-16
+  SessionName: I (Myocardial infarction)
+  Identification: 3
+  Situation: 2
+  Background (history): 3
+  Background (examination): 1
+  Assessment: 2
+  Recommendation (clear recommendation): 3
+  Recommendation (global rating scale): 3
+  Comments: Diagnostic clarity is present
+Good and early assessment of condition is done
+

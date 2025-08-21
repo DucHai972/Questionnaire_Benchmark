@@ -1,0 +1,106 @@
+{
+  "questions": {
+    "Date": "What is the date of the session? [Open-ended]",
+    "SessionName": "What is the name of the session? [Open-ended]",
+    "Identification": "Identification of self, role, and patient. [Rubric: 0 = Requires direct prompting, 1 = Introduces themselves but only after a hint, 2 = Introduces themselves but information is incomplete, 3 = Introduces themselves and information is complete]",
+    "Situation": "Identifies the main problem(s). [Rubric: 0 = Unable to identify the main problem(s), 1 = Identifies the main problem(s) after extended prompting, 2 = Identifies the main problem(s) with fewer prompts needed, 3 = Identifies and prioritizes the main problem(s) unprompted]",
+    "Background (history)": "Gives appropriate history. [Rubric: 0 = History is unstructured or non-relevant, 1 = Relevant history but frequent clarification needed, 2 = Relevant history with few further questions needed, 3 = Comprehensive focused history]",
+    "Background (examination)": "Gives appropriate examination/observations. [Rubric: 0 = Observations are omitted or irrelevant, 1 = Observations reported but frequent clarification needed, 2 = Observations reported with few further questions needed, 3 = Comprehensive focused examination/observations]",
+    "Assessment": "Makes logical assessment (correlates problem, history, exam, context). [Rubric: 0 = No logical assessment, 1 = Assessment only after extended questioning, 2 = Assessment after minimal questioning, 3 = Comprehensive logical assessment without questioning]",
+    "Recommendation (clear recommendation)": "Makes a clear recommendation. [Rubric: 0 = No recommendation, 1 = Clear recommendation only after extended questioning, 2 = Clear recommendation after minimal questioning, 3 = Clear comprehensive recommendation without questioning]",
+    "Recommendation (global rating scale)": "Global Rating Scale (GRS) - How confident am I that I received an accurate picture of the patient? [Rubric: 0 = Not at all confident, 1 = Confident but required extended questioning, 2 = Confident but required some further questioning, 3 = Confident and required little or no questioning]",
+    "Comments": "Comments on the session. [Open-ended]"
+  },
+  "responses": [
+    {
+      "respondent": "17",
+      "answers": {
+        "Date": "2025-05-04",
+        "SessionName": "V (Hypoglycemia)",
+        "Identification": 3,
+        "Situation": 3,
+        "Background (history)": 3,
+        "Background (examination)": 3,
+        "Assessment": 3,
+        "Recommendation (clear recommendation)": 3,
+        "Recommendation (global rating scale)": 2,
+        "Comments": "Concise - clear\nSatisfactory"
+      }
+    },
+    {
+      "respondent": "21",
+      "answers": {
+        "Date": "2025-05-16",
+        "SessionName": "I (Myocardial infarction)",
+        "Identification": 3,
+        "Situation": 2,
+        "Background (history)": 3,
+        "Background (examination)": 1,
+        "Assessment": 2,
+        "Recommendation (clear recommendation)": 3,
+        "Recommendation (global rating scale)": 3,
+        "Comments": "Diagnostic clarity is present\nGood and early assessment of condition is done"
+      }
+    },
+    {
+      "respondent": "4",
+      "answers": {
+        "Date": "2025-05-16",
+        "SessionName": "III (Sepsis)",
+        "Identification": 3,
+        "Situation": 3,
+        "Background (history)": 3,
+        "Background (examination)": 2,
+        "Assessment": 2,
+        "Recommendation (clear recommendation)": 2,
+        "Recommendation (global rating scale)": 2,
+        "Comments": "Clinical handover and communication skills, satisfactory\nNo panic, no arrest team\nSatisfactory"
+      }
+    },
+    {
+      "respondent": "23",
+      "answers": {
+        "Date": "2025-03-14",
+        "SessionName": "II-Anaphylaxsis",
+        "Identification": 3,
+        "Situation": 3,
+        "Background (history)": 2,
+        "Background (examination)": 2,
+        "Assessment": 3,
+        "Recommendation (clear recommendation)": 3,
+        "Recommendation (global rating scale)": 3,
+        "Comments": "Time: (11:43-11:58)\nTalking to registrav could not summarize the condition of patient very clearly\nDID: Sepsis I Anaphylaxsis given by team"
+      }
+    },
+    {
+      "respondent": "20",
+      "answers": {
+        "Date": "2025-05-02",
+        "SessionName": "IV (VT)",
+        "Identification": 3,
+        "Situation": 3,
+        "Background (history)": 2,
+        "Background (examination)": -1,
+        "Assessment": 3,
+        "Recommendation (clear recommendation)": 2,
+        "Recommendation (global rating scale)": 3,
+        "Comments": "Good"
+      }
+    },
+    {
+      "respondent": "7",
+      "answers": {
+        "Date": "2025-03-14",
+        "SessionName": "III-Sepsis",
+        "Identification": 3,
+        "Situation": 3,
+        "Background (history)": 2,
+        "Background (examination)": 3,
+        "Assessment": 2,
+        "Recommendation (clear recommendation)": 2,
+        "Recommendation (global rating scale)": 2,
+        "Comments": "Time: (1:00-1:17)"
+      }
+    }
+  ]
+}

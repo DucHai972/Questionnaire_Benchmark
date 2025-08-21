@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+  <questions>
+    <question id="Year of birth">What is your date of birth? [Open-ended]</question>
+    <question id="Gender">What is your gender? [MCQ: 1. Male 2. Female]</question>
+    <question id="Socio-economic status">What is the socio-economic status of your home? [Likert 1–6: 1 = Very low, 6 = Very high]</question>
+    <question id="Ethnic identity">According to your culture, people, or physical features, you are or are recognized as: [MCQ: 1. Indigenous 2. Gypsy 3. Raizal from San Andres, Providencia and Santa Catalina Archipelago 4. Palenquero from San Basilio 5. Black, mulatto (Afro-descendant), Afro-Colombian 6. None of the above]</question>
+    <question id="Parental Education">
+      <base_question>How many years of education did your parents receive? [Open-ended]</base_question>
+      <sub_questions>
+        <sub_question id="Father">Father?</sub_question>
+        <sub_question id="Mother">Mother?</sub_question>
+      </sub_questions>
+    </question>
+    <question id="Life satisfaction">In general, how satisfied are you with all aspects of your life? [Likert 0–10: 0 = Not satisfied, 10 = Totally satisfied]</question>
+    <question id="Happiness">How happy did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Laughter">How much did you laugh yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Learning">Did you learn new or exciting things yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Enjoyment">How much did you enjoy the activities you did yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Worry">How worried did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Depression">How depressed did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Anger">How angry did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Stress">How much stress did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Loneliness">How lonely or unsupported did you feel yesterday? [Likert 0–10: 0 = At no time, 10 = All the time]</question>
+    <question id="Emotional Regulation Frequency">
+      <base_question>Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 4, where 0 is never, 1 is 'almost never', 2 is 'sometimes', 3 is 'fairly often', and 4 is 'very often', how often you experienced the following feelings during the last month: [Likert 0–4]</base_question>
+      <sub_questions>
+        <sub_question id="Upset by Unexpected Events">how often have you been upset because of something that happened unexpectedly?</sub_question>
+        <sub_question id="Unable to Control Important Things">how often have you felt that you were unable to control the important things in your life?</sub_question>
+        <sub_question id="Nervous and Stressed">how often have you felt nervous and stressed?</sub_question>
+        <sub_question id="Lacked Confidence Handling Problems">how often have you felt confident about your ability to handle your personal problems?</sub_question>
+        <sub_question id="Things Going Your Way">how often have you felt that things were going your way?</sub_question>
+        <sub_question id="Unable to Cope">how often have you found that you could not cope with all the things that you had to do?</sub_question>
+        <sub_question id="Irritated by Life">how often have you been able to control irritations in your life?</sub_question>
+        <sub_question id="On Top of Things">how often have you felt that you were on top of things?</sub_question>
+        <sub_question id="Angered by Uncontrollable Events">how often have you been angered because of things that happened that were outside of your control?</sub_question>
+        <sub_question id="Felt Overwhelmed">how often have you felt difficulties were piling up so high that you could not overcome them?</sub_question>
+      </sub_questions>
+    </question>
+    <question id="Anxiety Symptoms Frequency">
+      <base_question>Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 3, where 0 is 'Not at all', 1 is 'several days', 2 is 'more than half of the days', and 3 is 'Nearly every day'. Over the last two weeks, how often have you been bothered by the following problems? [Likert 0–3]</base_question>
+      <sub_questions>
+        <sub_question id="Feeling Nervous or On Edge">Feeling nervous, anxious, or on edge</sub_question>
+        <sub_question id="Uncontrollable Worrying">Not being able to stop or control worrying</sub_question>
+        <sub_question id="Excessive Worry">Worrying too much about different things</sub_question>
+        <sub_question id="Trouble Relaxing">Trouble relaxing</sub_question>
+        <sub_question id="Restlessness">Being so restless that it is hard to sit still</sub_question>
+        <sub_question id="Irritability">Becoming easily annoyed or irritable</sub_question>
+        <sub_question id="Fear Something Awful Might Happen">Feeling afraid, as if something awful might happen</sub_question>
+      </sub_questions>
+    </question>
+    <question id="Depressive Symptoms Frequency">
+      <base_question>Next, you will be asked questions about your emotional state. Please answer on a scale of 0 to 3, where 0 is 'Not at all', 1 is 'several days', 2 is 'more than half of the days', and 3 is 'Nearly every day'. Over the last two weeks, how often have you been bothered by the following problems?</base_question>
+      <sub_questions>
+        <sub_question id="Anhedonia">Little interest or pleasure in doing things</sub_question>
+        <sub_question id="Depressed Mood">Feeling down, depressed, or hopeless</sub_question>
+        <sub_question id="Sleep Problems">Trouble falling or staying asleep, or sleeping too much</sub_question>
+        <sub_question id="Fatigue">Feeling tired or having little energy</sub_question>
+        <sub_question id="Appetite Changes">Poor appetite or overeating</sub_question>
+        <sub_question id="Feelings of Worthlessness">Feeling bad about yourself or that you are a failure or have let yourself or your family down</sub_question>
+        <sub_question id="Concentration Difficulties">Trouble concentrating on things, such as reading the newspaper or watching television</sub_question>
+        <sub_question id="Psychomotor Changes">Moving or speaking so slowly that other people could have noticed. Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual</sub_question>
+        <sub_question id="Suicidal Thoughts">Thoughts that you would be better off dead, or of hurting yourself</sub_question>
+      </sub_questions>
+    </question>
+  </questions>
+  <responses>
+    <respondent id="36">
+      <answer question="Year of birth">2003.0</answer>
+      <answer question="Gender">2.0</answer>
+      <answer question="Socio-economic status">3.0</answer>
+      <answer question="Ethnic identity">6.0</answer>
+      <answer question="Life satisfaction">7.0</answer>
+      <answer question="Happiness">8.0</answer>
+      <answer question="Laughter">7.0</answer>
+      <answer question="Learning">7.0</answer>
+      <answer question="Enjoyment">8.0</answer>
+      <answer question="Worry">1.0</answer>
+      <answer question="Depression">0.0</answer>
+      <answer question="Anger">2.0</answer>
+      <answer question="Stress">2.0</answer>
+      <answer question="Loneliness">3.0</answer>
+      <answer question="Parental Education">
+      </answer>
+      <answer question="Emotional Regulation Frequency">
+        <sub_answer id="Upset by Unexpected Events">2.0</sub_answer>
+        <sub_answer id="Unable to Control Important Things">2.0</sub_answer>
+        <sub_answer id="Lacked Confidence Handling Problems">2.0</sub_answer>
+        <sub_answer id="Unable to Cope">2.0</sub_answer>
+        <sub_answer id="Irritated by Life">3.0</sub_answer>
+        <sub_answer id="On Top of Things">2.0</sub_answer>
+      </answer>
+      <answer question="Anxiety Symptoms Frequency">
+        <sub_answer id="Feeling Nervous or On Edge">1.0</sub_answer>
+        <sub_answer id="Trouble Relaxing">1.0</sub_answer>
+        <sub_answer id="Restlessness">1.0</sub_answer>
+        <sub_answer id="Irritability">1.0</sub_answer>
+        <sub_answer id="Fear Something Awful Might Happen">1.0</sub_answer>
+      </answer>
+      <answer question="Depressive Symptoms Frequency">
+        <sub_answer id="Anhedonia">0.0</sub_answer>
+        <sub_answer id="Sleep Problems">0.0</sub_answer>
+        <sub_answer id="Fatigue">1.0</sub_answer>
+        <sub_answer id="Appetite Changes">1.0</sub_answer>
+        <sub_answer id="Feelings of Worthlessness">0.0</sub_answer>
+        <sub_answer id="Concentration Difficulties">0.0</sub_answer>
+        <sub_answer id="Suicidal Thoughts">0.0</sub_answer>
+      </answer>
+    </respondent>
+    <respondent id="10">
+      <answer question="Year of birth">2002.0</answer>
+      <answer question="Gender">1.0</answer>
+      <answer question="Socio-economic status">3.0</answer>
+      <answer question="Ethnic identity">6.0</answer>
+      <answer question="Life satisfaction">8.0</answer>
+      <answer question="Happiness">10.0</answer>
+      <answer question="Laughter">10.0</answer>
+      <answer question="Learning">8.0</answer>
+      <answer question="Enjoyment">9.0</answer>
+      <answer question="Worry">0.0</answer>
+      <answer question="Depression">0.0</answer>
+      <answer question="Anger">2.0</answer>
+      <answer question="Stress">1.0</answer>
+      <answer question="Loneliness">0.0</answer>
+      <answer question="Parental Education">
+        <sub_answer id="Father">23.0</sub_answer>
+        <sub_answer id="Mother">22.0</sub_answer>
+      </answer>
+      <answer question="Emotional Regulation Frequency">
+        <sub_answer id="Upset by Unexpected Events">2.0</sub_answer>
+        <sub_answer id="Unable to Control Important Things">1.0</sub_answer>
+        <sub_answer id="Lacked Confidence Handling Problems">4.0</sub_answer>
+        <sub_answer id="Unable to Cope">2.0</sub_answer>
+        <sub_answer id="Irritated by Life">4.0</sub_answer>
+        <sub_answer id="On Top of Things">3.0</sub_answer>
+      </answer>
+      <answer question="Anxiety Symptoms Frequency">
+        <sub_answer id="Feeling Nervous or On Edge">0.0</sub_answer>
+        <sub_answer id="Trouble Relaxing">0.0</sub_answer>
+        <sub_answer id="Restlessness">0.0</sub_answer>
+        <sub_answer id="Irritability">1.0</sub_answer>
+        <sub_answer id="Fear Something Awful Might Happen">0.0</sub_answer>
+      </answer>
+      <answer question="Depressive Symptoms Frequency">
+        <sub_answer id="Anhedonia">0.0</sub_answer>
+        <sub_answer id="Sleep Problems">0.0</sub_answer>
+        <sub_answer id="Fatigue">1.0</sub_answer>
+        <sub_answer id="Appetite Changes">0.0</sub_answer>
+        <sub_answer id="Feelings of Worthlessness">0.0</sub_answer>
+        <sub_answer id="Concentration Difficulties">1.0</sub_answer>
+        <sub_answer id="Suicidal Thoughts">0.0</sub_answer>
+      </answer>
+    </respondent>
+    <respondent id="74">
+      <answer question="Year of birth">2002.0</answer>
+      <answer question="Gender">1.0</answer>
+      <answer question="Socio-economic status">5.0</answer>
+      <answer question="Ethnic identity">6.0</answer>
+      <answer question="Life satisfaction">3.0</answer>
+      <answer question="Happiness">3.0</answer>
+      <answer question="Laughter">2.0</answer>
+      <answer question="Learning">8.0</answer>
+      <answer question="Enjoyment">6.0</answer>
+      <answer question="Worry">2.0</answer>
+      <answer question="Depression">3.0</answer>
+      <answer question="Anger">3.0</answer>
+      <answer question="Stress">4.0</answer>
+      <answer question="Loneliness">10.0</answer>
+      <answer question="Parental Education">
+        <sub_answer id="Father">10.0</sub_answer>
+        <sub_answer id="Mother">15.0</sub_answer>
+      </answer>
+      <answer question="Emotional Regulation Frequency">
+        <sub_answer id="Upset by Unexpected Events">4.0</sub_answer>
+        <sub_answer id="Unable to Control Important Things">2.0</sub_answer>
+        <sub_answer id="Lacked Confidence Handling Problems">4.0</sub_answer>
+        <sub_answer id="Unable to Cope">1.0</sub_answer>
+        <sub_answer id="Irritated by Life">2.0</sub_answer>
+        <sub_answer id="On Top of Things">1.0</sub_answer>
+      </answer>
+      <answer question="Anxiety Symptoms Frequency">
+        <sub_answer id="Feeling Nervous or On Edge">2.0</sub_answer>
+        <sub_answer id="Trouble Relaxing">3.0</sub_answer>
+        <sub_answer id="Restlessness">2.0</sub_answer>
+        <sub_answer id="Irritability">1.0</sub_answer>
+        <sub_answer id="Fear Something Awful Might Happen">3.0</sub_answer>
+      </answer>
+      <answer question="Depressive Symptoms Frequency">
+        <sub_answer id="Anhedonia">3.0</sub_answer>
+        <sub_answer id="Sleep Problems">3.0</sub_answer>
+        <sub_answer id="Fatigue">1.0</sub_answer>
+        <sub_answer id="Appetite Changes">3.0</sub_answer>
+        <sub_answer id="Feelings of Worthlessness">3.0</sub_answer>
+        <sub_answer id="Concentration Difficulties">3.0</sub_answer>
+        <sub_answer id="Suicidal Thoughts">1.0</sub_answer>
+      </answer>
+    </respondent>
+    <respondent id="121">
+      <answer question="Year of birth">2005.0</answer>
+      <answer question="Gender">1.0</answer>
+      <answer question="Socio-economic status">4.0</answer>
+      <answer question="Ethnic identity">5.0</answer>
+      <answer question="Life satisfaction">8.0</answer>
+      <answer question="Happiness">7.0</answer>
+      <answer question="Laughter">6.0</answer>
+      <answer question="Learning">6.0</answer>
+      <answer question="Enjoyment">7.0</answer>
+      <answer question="Worry">3.0</answer>
+      <answer question="Depression">0.0</answer>
+      <answer question="Anger">1.0</answer>
+      <answer question="Stress">4.0</answer>
+      <answer question="Loneliness">4.0</answer>
+      <answer question="Parental Education">
+        <sub_answer id="Father">25.0</sub_answer>
+        <sub_answer id="Mother">20.0</sub_answer>
+      </answer>
+      <answer question="Emotional Regulation Frequency">
+        <sub_answer id="Upset by Unexpected Events">1.0</sub_answer>
+        <sub_answer id="Unable to Control Important Things">3.0</sub_answer>
+        <sub_answer id="Lacked Confidence Handling Problems">2.0</sub_answer>
+        <sub_answer id="Unable to Cope">1.0</sub_answer>
+        <sub_answer id="Irritated by Life">3.0</sub_answer>
+        <sub_answer id="On Top of Things">3.0</sub_answer>
+      </answer>
+      <answer question="Anxiety Symptoms Frequency">
+        <sub_answer id="Feeling Nervous or On Edge">3.0</sub_answer>
+        <sub_answer id="Trouble Relaxing">3.0</sub_answer>
+        <sub_answer id="Restlessness">0.0</sub_answer>
+        <sub_answer id="Irritability">1.0</sub_answer>
+        <sub_answer id="Fear Something Awful Might Happen">1.0</sub_answer>
+      </answer>
+      <answer question="Depressive Symptoms Frequency">
+        <sub_answer id="Anhedonia">1.0</sub_answer>
+        <sub_answer id="Sleep Problems">1.0</sub_answer>
+        <sub_answer id="Fatigue">3.0</sub_answer>
+        <sub_answer id="Appetite Changes">1.0</sub_answer>
+        <sub_answer id="Feelings of Worthlessness">0.0</sub_answer>
+        <sub_answer id="Concentration Difficulties">1.0</sub_answer>
+        <sub_answer id="Suicidal Thoughts">0.0</sub_answer>
+      </answer>
+    </respondent>
+    <respondent id="115">
+      <answer question="Year of birth">2004.0</answer>
+      <answer question="Gender">2.0</answer>
+      <answer question="Socio-economic status">5.0</answer>
+      <answer question="Ethnic identity">6.0</answer>
+      <answer question="Life satisfaction">7.0</answer>
+      <answer question="Happiness">4.0</answer>
+      <answer question="Laughter">9.0</answer>
+      <answer question="Learning">7.0</answer>
+      <answer question="Enjoyment">2.0</answer>
+      <answer question="Worry">3.0</answer>
+      <answer question="Depression">1.0</answer>
+      <answer question="Anger">3.0</answer>
+      <answer question="Stress">4.0</answer>
+      <answer question="Loneliness">10.0</answer>
+      <answer question="Parental Education">
+        <sub_answer id="Father">19.0</sub_answer>
+        <sub_answer id="Mother">28.0</sub_answer>
+      </answer>
+      <answer question="Emotional Regulation Frequency">
+        <sub_answer id="Upset by Unexpected Events">3.0</sub_answer>
+        <sub_answer id="Unable to Control Important Things">4.0</sub_answer>
+        <sub_answer id="Lacked Confidence Handling Problems">2.0</sub_answer>
+        <sub_answer id="Unable to Cope">4.0</sub_answer>
+        <sub_answer id="Irritated by Life">2.0</sub_answer>
+        <sub_answer id="On Top of Things">2.0</sub_answer>
+      </answer>
+      <answer question="Anxiety Symptoms Frequency">
+        <sub_answer id="Feeling Nervous or On Edge">2.0</sub_answer>
+        <sub_answer id="Trouble Relaxing">1.0</sub_answer>
+        <sub_answer id="Restlessness">1.0</sub_answer>
+        <sub_answer id="Irritability">2.0</sub_answer>
+        <sub_answer id="Fear Something Awful Might Happen">3.0</sub_answer>
+      </answer>
+      <answer question="Depressive Symptoms Frequency">
+        <sub_answer id="Anhedonia">3.0</sub_answer>
+        <sub_answer id="Sleep Problems">2.0</sub_answer>
+        <sub_answer id="Fatigue">3.0</sub_answer>
+        <sub_answer id="Appetite Changes">2.0</sub_answer>
+        <sub_answer id="Feelings of Worthlessness">3.0</sub_answer>
+        <sub_answer id="Concentration Difficulties">3.0</sub_answer>
+        <sub_answer id="Suicidal Thoughts">1.0</sub_answer>
+      </answer>
+    </respondent>
+    <respondent id="2">
+      <answer question="Year of birth">2001.0</answer>
+      <answer question="Gender">2.0</answer>
+      <answer question="Socio-economic status">3.0</answer>
+      <answer question="Ethnic identity">6.0</answer>
+      <answer question="Life satisfaction">5.0</answer>
+      <answer question="Happiness">7.0</answer>
+      <answer question="Laughter">7.0</answer>
+      <answer question="Learning">5.0</answer>
+      <answer question="Enjoyment">4.0</answer>
+      <answer question="Worry">1.0</answer>
+      <answer question="Depression">0.0</answer>
+      <answer question="Anger">3.0</answer>
+      <answer question="Stress">3.0</answer>
+      <answer question="Loneliness">3.0</answer>
+      <answer question="Parental Education">
+        <sub_answer id="Father">11.0</sub_answer>
+        <sub_answer id="Mother">11.0</sub_answer>
+      </answer>
+      <answer question="Emotional Regulation Frequency">
+        <sub_answer id="Upset by Unexpected Events">4.0</sub_answer>
+        <sub_answer id="Unable to Control Important Things">2.0</sub_answer>
+        <sub_answer id="Lacked Confidence Handling Problems">3.0</sub_answer>
+        <sub_answer id="Unable to Cope">2.0</sub_answer>
+        <sub_answer id="Irritated by Life">3.0</sub_answer>
+        <sub_answer id="On Top of Things">2.0</sub_answer>
+      </answer>
+      <answer question="Anxiety Symptoms Frequency">
+        <sub_answer id="Feeling Nervous or On Edge">1.0</sub_answer>
+        <sub_answer id="Trouble Relaxing">1.0</sub_answer>
+        <sub_answer id="Restlessness">0.0</sub_answer>
+        <sub_answer id="Irritability">2.0</sub_answer>
+        <sub_answer id="Fear Something Awful Might Happen">1.0</sub_answer>
+      </answer>
+      <answer question="Depressive Symptoms Frequency">
+        <sub_answer id="Anhedonia">0.0</sub_answer>
+        <sub_answer id="Sleep Problems">0.0</sub_answer>
+        <sub_answer id="Fatigue">2.0</sub_answer>
+        <sub_answer id="Appetite Changes">2.0</sub_answer>
+        <sub_answer id="Feelings of Worthlessness">1.0</sub_answer>
+        <sub_answer id="Concentration Difficulties">1.0</sub_answer>
+        <sub_answer id="Suicidal Thoughts">0.0</sub_answer>
+      </answer>
+    </respondent>
+    <respondent id="21">
+      <answer question="Year of birth">2003.0</answer>
+      <answer question="Gender">2.0</answer>
+      <answer question="Socio-economic status">4.0</answer>
+      <answer question="Ethnic identity">6.0</answer>
+      <answer question="Life satisfaction">5.0</answer>
+      <answer question="Happiness">1.0</answer>
+      <answer question="Laughter">0.0</answer>
+      <answer question="Learning">7.0</answer>
+      <answer question="Enjoyment">5.0</answer>
+      <answer question="Worry">0.0</answer>
+      <answer question="Depression">3.0</answer>
+      <answer question="Anger">4.0</answer>
+      <answer question="Stress">3.0</answer>
+      <answer question="Loneliness">10.0</answer>
+      <answer question="Parental Education">
+        <sub_answer id="Father">18.0</sub_answer>
+        <sub_answer id="Mother">11.0</sub_answer>
+      </answer>
+      <answer question="Emotional Regulation Frequency">
+        <sub_answer id="Upset by Unexpected Events">4.0</sub_answer>
+        <sub_answer id="Unable to Control Important Things">2.0</sub_answer>
+        <sub_answer id="Lacked Confidence Handling Problems">3.0</sub_answer>
+        <sub_answer id="Unable to Cope">1.0</sub_answer>
+        <sub_answer id="Irritated by Life">3.0</sub_answer>
+        <sub_answer id="On Top of Things">4.0</sub_answer>
+      </answer>
+      <answer question="Anxiety Symptoms Frequency">
+        <sub_answer id="Feeling Nervous or On Edge">3.0</sub_answer>
+        <sub_answer id="Trouble Relaxing">3.0</sub_answer>
+        <sub_answer id="Restlessness">3.0</sub_answer>
+        <sub_answer id="Irritability">2.0</sub_answer>
+        <sub_answer id="Fear Something Awful Might Happen">3.0</sub_answer>
+      </answer>
+      <answer question="Depressive Symptoms Frequency">
+        <sub_answer id="Anhedonia">0.0</sub_answer>
+        <sub_answer id="Sleep Problems">3.0</sub_answer>
+        <sub_answer id="Fatigue">2.0</sub_answer>
+        <sub_answer id="Appetite Changes">3.0</sub_answer>
+        <sub_answer id="Feelings of Worthlessness">0.0</sub_answer>
+        <sub_answer id="Concentration Difficulties">0.0</sub_answer>
+        <sub_answer id="Suicidal Thoughts">2.0</sub_answer>
+      </answer>
+    </respondent>
+  </responses>
+</questionnaire>

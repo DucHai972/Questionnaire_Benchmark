@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+  <questions>
+    <question id="MainBranch">MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]</question>
+    <question id="Employment">Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]</question>
+    <question id="EdLevel">EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]</question>
+    <question id="YearsCode">YearsCode: Total years of coding experience [Open-ended]</question>
+    <question id="YearsCodePro">YearsCodePro: Years of professional coding experience [Open-ended]</question>
+    <question id="DevType">DevType: Roles in development [Open-ended]</question>
+    <question id="OrgSize">OrgSize: Size of the organization they work in [Open-ended]</question>
+    <question id="Country">Country: Country of residence [Open-ended]</question>
+    <question id="CompTotal">CompTotal: Total compensation [Open-ended]</question>
+    <question id="CompFreq">CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]</question>
+    <question id="LanguageHaveWorkedWith">LanguageHaveWorkedWith: Programming languages worked with [Open-ended]</question>
+    <question id="LanguageWantToWorkWith">LanguageWantToWorkWith: Programming languages they want to use [Open-ended]</question>
+    <question id="ToolsTechHaveWorkedWith">ToolsTechHaveWorkedWith: Developer tools used [Open-ended]</question>
+    <question id="VersionControlSystem">VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]</question>
+  </questions>
+  <responses>
+    <respondent id="364">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">D</answer>
+      <answer question="YearsCode">12</answer>
+      <answer question="YearsCodePro">10</answer>
+      <answer question="DevType">Developer, front-end;Developer, full-stack;Developer, back-end</answer>
+      <answer question="OrgSize">10 to 19 employees</answer>
+      <answer question="Country">United Kingdom of Great Britain and Northern Ireland</answer>
+      <answer question="CompTotal">46000.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">Bash/Shell;HTML/CSS;JavaScript;PHP;SQL;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;Homebrew;npm</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="242">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">C</answer>
+      <answer question="YearsCode">31</answer>
+      <answer question="YearsCodePro">22</answer>
+      <answer question="DevType">Developer, full-stack</answer>
+      <answer question="OrgSize">10,000 or more employees</answer>
+      <answer question="Country">United States of America</answer>
+      <answer question="CompTotal">250000.0</answer>
+      <answer question="CompFreq">C</answer>
+      <answer question="LanguageHaveWorkedWith">Clojure</answer>
+      <answer question="LanguageWantToWorkWith">C;Clojure;Julia</answer>
+      <answer question="ToolsTechHaveWorkedWith">Homebrew;Kubernetes;Terraform</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="189">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">16</answer>
+      <answer question="YearsCodePro">12</answer>
+      <answer question="DevType">Developer, full-stack;Engineering manager;Cloud infrastructure engineer;Security professional</answer>
+      <answer question="OrgSize">20 to 99 employees</answer>
+      <answer question="Country">United Kingdom of Great Britain and Northern Ireland</answer>
+      <answer question="CompTotal">100000.0</answer>
+      <answer question="CompFreq">C</answer>
+      <answer question="LanguageHaveWorkedWith">Bash/Shell;HTML/CSS;JavaScript;PHP;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">HTML/CSS;JavaScript;PHP;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;npm;Terraform</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="133">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">6</answer>
+      <answer question="YearsCodePro">2</answer>
+      <answer question="DevType">Developer, mobile</answer>
+      <answer question="OrgSize">20 to 99 employees</answer>
+      <answer question="Country">Slovakia</answer>
+      <answer question="CompTotal">1680.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">C;C++;Dart;Go;Java;JavaScript;Solidity;SQL;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">C++;Dart;Elixir;Go;Java;JavaScript;Solidity;SQL;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;Homebrew;npm</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="397">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">C</answer>
+      <answer question="YearsCode">19</answer>
+      <answer question="YearsCodePro">10</answer>
+      <answer question="DevType">Developer, back-end</answer>
+      <answer question="OrgSize">10 to 19 employees</answer>
+      <answer question="Country">Russian Federation</answer>
+      <answer question="CompTotal">6500.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">HTML/CSS;JavaScript;PHP</answer>
+      <answer question="LanguageWantToWorkWith">Ruby</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="73195">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">15</answer>
+      <answer question="YearsCodePro">15</answer>
+      <answer question="DevType">Developer, front-end</answer>
+      <answer question="OrgSize">10,000 or more employees</answer>
+      <answer question="Country">United States of America</answer>
+      <answer question="CompTotal">180000.0</answer>
+      <answer question="CompFreq">C</answer>
+      <answer question="LanguageHaveWorkedWith">C#;HTML/CSS;JavaScript;PowerShell;SQL;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">JavaScript;Rust;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;npm</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="508">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">2</answer>
+      <answer question="YearsCodePro">1</answer>
+      <answer question="DevType">Developer, desktop or enterprise applications;Database administrator</answer>
+      <answer question="OrgSize">10,000 or more employees</answer>
+      <answer question="Country">Costa Rica</answer>
+      <answer question="CompTotal">800000.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">C#;C++;Python;SQL;Swift;VBA</answer>
+      <answer question="LanguageWantToWorkWith">C#;C++;Go;HTML/CSS;JavaScript;Kotlin;Python;SQL;Swift;TypeScript;VBA</answer>
+      <answer question="ToolsTechHaveWorkedWith">npm</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="73087">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">['A', 'C']</answer>
+      <answer question="EdLevel">H</answer>
+      <answer question="YearsCode">43</answer>
+      <answer question="YearsCodePro">25</answer>
+      <answer question="DevType">Data scientist or machine learning specialist;Developer, full-stack;Educator</answer>
+      <answer question="OrgSize">20 to 99 employees</answer>
+      <answer question="Country">Germany</answer>
+      <answer question="CompTotal">125000.0</answer>
+      <answer question="CompFreq">C</answer>
+      <answer question="LanguageHaveWorkedWith">Assembly;C;PHP;Python;R;SQL</answer>
+      <answer question="LanguageWantToWorkWith">C;Python</answer>
+      <answer question="ToolsTechHaveWorkedWith">Ansible;Docker;Kubernetes</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="72802">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">12</answer>
+      <answer question="YearsCodePro">10</answer>
+      <answer question="DevType">Developer, full-stack</answer>
+      <answer question="OrgSize">I don’t know</answer>
+      <answer question="Country">Bulgaria</answer>
+      <answer question="CompTotal">7200.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">C#;HTML/CSS;JavaScript;TypeScript</answer>
+      <answer question="LanguageWantToWorkWith">Haskell;HTML/CSS;JavaScript;LISP;Python;Scala;TypeScript</answer>
+      <answer question="ToolsTechHaveWorkedWith">npm;Yarn</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="29049">
+      <answer question="MainBranch">B</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">17</answer>
+      <answer question="YearsCodePro">15</answer>
+      <answer question="DevType">Developer, front-end;Engineer, data;Other (please specify):;Data or business analyst</answer>
+      <answer question="OrgSize">500 to 999 employees</answer>
+      <answer question="Country">United States of America</answer>
+      <answer question="CompTotal">5000.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">APL;Assembly;Bash/Shell;HTML/CSS;JavaScript;SQL</answer>
+      <answer question="LanguageWantToWorkWith">Go;Java</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker;Homebrew;Kubernetes;Yarn</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+    <respondent id="365">
+      <answer question="MainBranch">A</answer>
+      <answer question="Employment">A</answer>
+      <answer question="EdLevel">A</answer>
+      <answer question="YearsCode">9</answer>
+      <answer question="YearsCodePro">10</answer>
+      <answer question="DevType">Engineering manager</answer>
+      <answer question="OrgSize">500 to 999 employees</answer>
+      <answer question="Country">Israel</answer>
+      <answer question="CompTotal">52000.0</answer>
+      <answer question="CompFreq">B</answer>
+      <answer question="LanguageHaveWorkedWith">Clojure;Python;Ruby;Scala</answer>
+      <answer question="LanguageWantToWorkWith">Clojure;Go;Python</answer>
+      <answer question="ToolsTechHaveWorkedWith">Docker</answer>
+      <answer question="VersionControlSystem">A</answer>
+    </respondent>
+  </responses>
+</questionnaire>
