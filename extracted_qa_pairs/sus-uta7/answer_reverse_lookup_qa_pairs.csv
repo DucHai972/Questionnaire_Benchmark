@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Inconsistency' as 1.,18
+case_2,answer_reverse_lookup,List all respondents from the 'Middle' group who rated 'Need_to_Learn_Before_Use' as 2.,22
+case_3,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Integration_of_Functions' as 4.,"31, 78"
+case_4,answer_reverse_lookup,Find all respondents who rated 'Cumbersome_to_Use' as 3.,31
+case_5,answer_reverse_lookup,Which respondents are in the 'Intern' group?,84
+case_6,answer_reverse_lookup,Which respondents are in the 'Senior' group?,"11, 34"
+case_7,answer_reverse_lookup,List all respondents from the 'Senior' group who rated 'Frequent_Usage' as 5.,42
+case_8,answer_reverse_lookup,List all respondents from the 'Middle' group who rated 'Cumbersome_to_Use' as 1.,17
+case_9,answer_reverse_lookup,Which respondents are in the 'Junior' group?,79
+case_10,answer_reverse_lookup,Find all respondents who rated 'Integration_of_Functions' as 3.,55
+case_11,answer_reverse_lookup,Find all respondents who rated 'Need_for_Technical_Support' as 1.,"58, 72, 60, 66, 76"
+case_12,answer_reverse_lookup,Which respondents are in the 'Middle' group?,19
+case_13,answer_reverse_lookup,Which respondents are in the 'Intern' group?,"84, 30, 29, 83"
+case_14,answer_reverse_lookup,Find all respondents who rated 'Confidence_in_Use' as 4.,"14, 68"
+case_15,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Frequent_Usage' as 2.,31
+case_16,answer_reverse_lookup,Which respondents are in the 'Junior' group?,"47, 61"
+case_17,answer_reverse_lookup,Find all respondents who rated 'Ease_of_Learning' as 5.,"67, 54"
+case_18,answer_reverse_lookup,Which respondents are in the 'Middle' group?,"24, 43"
+case_19,answer_reverse_lookup,Find all respondents who rated 'Frequent_Usage' as 4.,"67, 66, 51, 68"
+case_20,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Inconsistency' as 3.,74
+case_21,answer_reverse_lookup,List all respondents from the 'Middle' group who rated 'System_Complexity' as 2.,22
+case_22,answer_reverse_lookup,List all respondents from the 'Senior' group who rated 'Need_for_Technical_Support' as 5.,11
+case_23,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'System_Complexity' as 5.,49
+case_24,answer_reverse_lookup,Find all respondents who rated 'Confidence_in_Use' as 4.,"50, 75, 22, 86"
+case_25,answer_reverse_lookup,Which respondents are in the 'Intern' group?,49
+case_26,answer_reverse_lookup,List all respondents who rated 'Inconsistency' and 'Integration_of_Functions' with the same score.,None
+case_27,answer_reverse_lookup,List all respondents who rated 'Need_to_Learn_Before_Use' and 'Confidence_in_Use' with the same score.,None
+case_28,answer_reverse_lookup,Which respondents from the 'Junior' group rated 'Frequent_Usage' as 4 and 'Confidence_in_Use' as 2?,23
+case_29,answer_reverse_lookup,List all respondents who rated 'Ease_of_Learning' and 'System_Complexity' with the same score.,None
+case_30,answer_reverse_lookup,Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.,"38, 4"
+case_31,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Inconsistency' with the same score.,69
+case_32,answer_reverse_lookup,Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.,"90, 31, 4, 5"
+case_33,answer_reverse_lookup,List all respondents who rated 'Confidence_in_Use' and 'Frequent_Usage' with the same score.,74
+case_34,answer_reverse_lookup,Which respondents from the 'Middle' group rated 'Integration_of_Functions' as 3 and 'Confidence_in_Use' as 2?,None
+case_35,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Ease_of_Learning' with the same score.,"71, 17, 37, 33, 36"
+case_36,answer_reverse_lookup,Find all respondents whose combined score for 'Integration_of_Functions' and 'Need_for_Technical_Support' is less than 6.,3
+case_37,answer_reverse_lookup,Which respondents from the 'Middle' group rated 'Inconsistency' as 3 and 'Cumbersome_to_Use' as 1?,None
+case_38,answer_reverse_lookup,List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.,"54, 55, 48, 6"
+case_39,answer_reverse_lookup,List all respondents who rated 'Integration_of_Functions' and 'Inconsistency' with the same score.,None
+case_40,answer_reverse_lookup,Which respondents from the 'Middle' group rated 'Cumbersome_to_Use' as 2 and 'Confidence_in_Use' as 5?,None
+case_41,answer_reverse_lookup,Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.,"49, 22, 74"
+case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"4, 36, 32, 70, 12"
+case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"19, 86, 64, 78"
+case_44,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Learning' is higher than the average 'Ease_of_Learning' for the 'Middle' group.,None
+case_45,answer_reverse_lookup,Find all respondents in the 'Intern' group whose 'Confidence_in_Use' is higher than the average 'Confidence_in_Use' for the 'Junior' group.,10
+case_46,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"52, 76, 82"
+case_47,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"46, 9, 56, 74, 44, 66"
+case_48,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Use' is higher than the average 'Ease_of_Use' for the 'Middle' group.,69
+case_49,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"9, 15, 71, 66"
+case_50,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"35, 82, 61"

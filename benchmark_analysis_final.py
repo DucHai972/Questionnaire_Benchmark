@@ -330,7 +330,7 @@ def generate_summary_statistics(results):
 
 def get_available_models():
     """Get list of available model result directories."""
-    results_dir = Path("/insight-fast/dnguyen/Q_Benchmark/benchmark_results")
+    results_dir = Path("/insight-fast/dnguyen/Questionnaire_Benchmark/benchmark_results")
     if results_dir.exists():
         return sorted([d.name for d in results_dir.iterdir() if d.is_dir()])
     return []
@@ -358,7 +358,7 @@ Examples:
                        help="Model to analyze (default: gemini-2.5-flash)")
     
     parser.add_argument("--output-dir",
-                       default="/insight-fast/dnguyen/Q_Benchmark/analysis_results_final",
+                       default="/insight-fast/dnguyen/Questionnaire_Benchmark/analysis_results_final",
                        help="Base output directory for results")
     
     parser.add_argument("--list", action="store_true",
@@ -373,7 +373,7 @@ Examples:
             print(f"  - {model}")
         return
     
-    base_path = f"/insight-fast/dnguyen/Q_Benchmark/benchmark_results/{args.model}"
+    base_path = f"/insight-fast/dnguyen/Questionnaire_Benchmark/benchmark_results/{args.model}"
     output_dir = f"{args.output_dir}/{args.model}"
     
     print("Starting Q-Benchmark results analysis (FINAL VERSION WITH IMPROVED EVALUATION)...")

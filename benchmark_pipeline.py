@@ -42,7 +42,7 @@ class SimpleLLMClient:
 
 class SimpleOpenAIClient(SimpleLLMClient):
     """Simple OpenAI API Client"""
-    
+
     def __init__(self, api_key: str, model_name: str = "gpt-4.1-mini"):
         super().__init__(api_key, model_name, "openai")
         try:
@@ -50,8 +50,8 @@ class SimpleOpenAIClient(SimpleLLMClient):
             self.client = OpenAI(api_key=api_key)
         except ImportError:
             raise ImportError("Please install openai: pip install openai")
-    
-    def generate(self, prompt: str, max_tokens: int = 1000) -> Dict[str, Any]:
+
+    def generate(self, prompt: str, max_tokens: int = 4000) -> Dict[str, Any]:
         """Generate response using OpenAI API"""
         start_time = time.time()
         try:
@@ -104,7 +104,12 @@ class SimpleOpenAIClient(SimpleLLMClient):
             
             end_time = time.time()
             response_content = response.choices[0].message.content or ""
-            
+
+            # Debug logging for empty responses
+            if not response_content or not response_content.strip():
+                logger.warning(f"⚠️ Empty response from OpenAI API - content is None or empty")
+                logger.warning(f"   Finish reason: {response.choices[0].finish_reason}")
+
             return {
                 "response": response_content.strip(),
                 "success": True,
@@ -172,16 +177,17 @@ class SimpleGoogleClient(SimpleLLMClient):
 class SimpleBenchmarkPipeline:
     """Simple benchmark pipeline for processing CSV prompt files"""
     
-    def __init__(self, converted_prompts_dir: str = "converted_prompts", init_clients: bool = True, 
-                 openai_model: str = "gpt-3.5-turbo", google_model: str = "gemini-1.5-flash", 
-                 variants: str = None):
+    def __init__(self, converted_prompts_dir: str = "converted_prompts", init_clients: bool = True,
+                 openai_model: str = "gpt-3.5-turbo", google_model: str = "gemini-1.5-flash",
+                 variants: str = None, output_dir_name: str = None):
         load_dotenv()
-        
+
         self.converted_prompts_dir = Path(converted_prompts_dir)
         self.results_dir = Path("benchmark_results")
         self.openai_model = openai_model
         self.google_model = google_model
         self.variants = variants
+        self.output_dir_name = output_dir_name
         
         # Create results directory
         self.results_dir.mkdir(exist_ok=True)
@@ -385,7 +391,10 @@ class SimpleBenchmarkPipeline:
             actual_model_name = actual_model_name.replace("/", "-").replace("\\", "-")
             
             # Create model-specific directory using actual model name
-            if self_aug_type:
+            if self.output_dir_name:
+                # Use custom output directory name if provided
+                model_dir_name = self.output_dir_name
+            elif self_aug_type:
                 model_dir_name = f"{actual_model_name}_{self_aug_type}"
             elif self.variants:
                 model_dir_name = f"{actual_model_name}_{self.variants}"
@@ -454,14 +463,17 @@ class SimpleBenchmarkPipeline:
                     return float('inf')
             
             sorted_prompts = sorted(existing_data.values(), key=lambda x: natural_sort_key(x['case_id']))
-            
-            fieldnames = ["case_id", "task", "question", "questionnaire", 
-                         "expected_answer", "prompt", "Response"]
-            
+
+            fieldnames = ["case_id", "task", "question", "questionnaire",
+                         "expected_answer", "prompt", "Response", "Correct"]
+
             with open(output_file, 'w', encoding='utf-8', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
                 writer.writeheader()
                 for prompt in sorted_prompts:
+                    # Ensure Correct field exists (default to empty)
+                    if 'Correct' not in prompt:
+                        prompt['Correct'] = ''
                     writer.writerow(prompt)
             return True
         except Exception as e:
@@ -506,17 +518,22 @@ class SimpleBenchmarkPipeline:
             
             # Generate response
             result = client.generate(processed_prompt)
-            
+
             # Check if blocked by safety filter
             if not result["success"] and "finish_reason" in str(result.get("error", "")) and "2" in str(result.get("error", "")):
                 logger.warning(f"🛡️ Safety filter detected for case_id {prompt_data.get('case_id', 'unknown')}, inserting safety filter response")
-                
+
                 # Insert safety filter blocked response
                 prompt_data["Response"] = "BLOCKED_BY_SAFETY_FILTER"
                 logger.info(f"🛡️ Inserted safety filter response for case_id {prompt_data.get('case_id', 'unknown')}")
             else:
                 # Update prompt data with actual response (successful or failed)
                 prompt_data["Response"] = result["response"]
+
+                # Debug logging for case_35 or empty responses
+                case_id = prompt_data.get('case_id', 'unknown')
+                if case_id == 'case_35' or not result["response"]:
+                    logger.warning(f"🔍 DEBUG {case_id}: Response='{result['response']}' (length={len(result['response'])}) success={result['success']}")
             
             # No evaluation - just store the response
             
@@ -676,6 +693,8 @@ def main():
                        help="Starting case number (default: 2)")
     parser.add_argument("--converted-prompts-dir", default="converted_prompts",
                        help="Directory containing converted prompt CSV files")
+    parser.add_argument("--output-dir-name",
+                       help="Custom output directory name under benchmark_results/ (overrides default model name)")
     parser.add_argument("--list", action="store_true",
                        help="List available datasets, tasks, and formats")
     
@@ -722,6 +741,8 @@ def main():
             print(f"Prompts Directory:    converted_prompts_variants/{args.variants}")
         else:
             print(f"Prompts Directory:    {args.converted_prompts_dir}")
+        if args.output_dir_name:
+            print(f"Output Directory:     benchmark_results/{args.output_dir_name}")
         print("="*60)
         print()
 
@@ -740,11 +761,12 @@ def main():
         print(f"\n[1/{len(available_variants)+1}] Running STANDARD (no variants)")
         try:
             pipeline = SimpleBenchmarkPipeline(
-                args.converted_prompts_dir, 
+                args.converted_prompts_dir,
                 init_clients=True,
                 openai_model=args.openai_model,
                 google_model=args.google_model,
-                variants=None
+                variants=None,
+                output_dir_name=args.output_dir_name
             )
             success = pipeline.run_benchmark(
                 dataset=args.dataset,
@@ -766,11 +788,12 @@ def main():
             try:
                 prompts_dir = f"converted_prompts_variants/{variant}"
                 pipeline = SimpleBenchmarkPipeline(
-                    prompts_dir, 
+                    prompts_dir,
                     init_clients=True,
                     openai_model=args.openai_model,
                     google_model=args.google_model,
-                    variants=variant
+                    variants=variant,
+                    output_dir_name=args.output_dir_name
                 )
                 success = pipeline.run_benchmark(
                     dataset=args.dataset,
@@ -814,11 +837,12 @@ def main():
             
         # Don't initialize clients if just listing
         pipeline = SimpleBenchmarkPipeline(
-            prompts_dir, 
+            prompts_dir,
             init_clients=not args.list,
             openai_model=args.openai_model,
             google_model=args.google_model,
-            variants=args.variants
+            variants=args.variants,
+            output_dir_name=args.output_dir_name
         )
     except Exception as e:
         logger.error(f"Failed to initialize pipeline: {e}")

@@ -1,0 +1,52 @@
+case_id,task,question,expected_answer
+case_1,answer_lookup,What is the Assessment of the respondent from the 'II (Anaphylaxsis)' session on '2025-05-04'?,2
+case_2,answer_lookup,What is the Identification of the respondent from the 'III-Sepsis' session on '2025-03-14'?,3
+case_3,answer_lookup,What is the Background (history) of respondent '14'?,2
+case_4,answer_lookup,What is the Background (history) of the respondent from the 'I - MI' session on '2025-05-16'?,3
+case_5,answer_lookup,What is the Date of the respondent from the 'III (Sepsis)' session on '2025-05-16'?,2025-05-16
+case_6,answer_lookup,What is the Situation of respondent '11'?,3
+case_7,answer_lookup,What is the Background (examination) of respondent '13'?,1
+case_8,answer_lookup,What is the Assessment of respondent '23'?,3
+case_9,answer_lookup,What is the Recommendation (global rating scale) of the respondent from the 'MI' session on '2025-04-04'?,1
+case_10,answer_lookup,What is the Recommendation (global rating scale) of respondent '9'?,2
+case_11,answer_lookup,What is the Background (examination) of the respondent from the 'II - Anaphylaxsis' session on '2025-05-04'?,3
+case_12,answer_lookup,What is the Assessment of the respondent from the 'IV (AF)' session on '2025-04-04'?,3
+case_13,answer_lookup,What is the Assessment of the respondent from the 'I (Myocardial infarction)' session on '2025-05-16'?,2
+case_14,answer_lookup,What is the Identification of respondent '15'?,3
+case_15,answer_lookup,What is the Background (history) of the respondent from the '(MI)-VT' session on '2025-03-14'?,2
+case_16,answer_lookup,What is the Situation of the respondent from the 'IV (VT)' session on '2025-05-02'?,3
+case_17,answer_lookup,What is the SessionName of the respondent from the 'II (Anaphylaxis)' session on '2025-05-02'?,II (Anaphylaxis)
+case_18,answer_lookup,What is the Identification of respondent '18'?,3
+case_19,answer_lookup,What is the Recommendation (global rating scale) of the respondent from the 'IV (VT)' session on '2025-05-02'?,3
+case_20,answer_lookup,What is the Date of the respondent from the 'II (Anaphylaxis)' session on '2025-05-02'?,2025-05-02
+case_21,answer_lookup,What is the Date of respondent '21'?,2025-05-16
+case_22,answer_lookup,What is the Background (history) of respondent '8'?,3
+case_23,answer_lookup,What is the Recommendation (clear recommendation) of respondent '5'?,2
+case_24,answer_lookup,What is the SessionName of the respondent from the 'II (Anaphylaxis)' session on '2025-05-02'?,II (Anaphylaxis)
+case_25,answer_lookup,What is the Background (examination) of the respondent from the 'IV (AF)' session on '2025-04-04'?,3
+case_26,answer_lookup,What is the Assessment of the respondent with the highest Recommendation (global rating scale) in the 'IV-Hypoglycemia' session?,3
+case_27,answer_lookup,What is the Date of the respondent whose score for 'Assessment' was 3 and score for 'Recommendation (clear recommendation)' was 2?,2025-05-04
+case_28,answer_lookup,What is the Background (history) of the respondent whose total score for 'Recommendation (clear recommendation)' and 'Assessment' was exactly 4?,3
+case_29,answer_lookup,What is the Comments of the respondent with the highest Situation in the 'IV-Hypoglycemia' session?,"Time: (2:36-2:53)
+Late response for considering consultation"
+case_30,answer_lookup,What is the Identification of the respondent whose score for 'Situation' was 3 and score for 'Assessment' was 3?,3
+case_31,answer_lookup,What is the Identification of the respondent whose total score for 'Assessment' and 'Background (history)' was exactly 5?,3
+case_32,answer_lookup,What is the SessionName of the respondent with the highest Situation in the 'II-Anaphylaxsis' session?,II-Anaphylaxsis
+case_33,answer_lookup,What is the Assessment of the respondent whose score for 'Background (history)' was 2 and score for 'Recommendation (clear recommendation)' was 2?,3
+case_34,answer_lookup,What is the Recommendation (global rating scale) of the respondent with the highest Background (history) in the 'III - Sepsis' session?,2
+case_35,answer_lookup,What is the Situation of the respondent whose score for 'Situation' was 3 and score for 'Background (examination)' was 3?,3
+case_36,answer_lookup,What is the Identification of the respondent whose score for 'Background (history)' was 2 and score for 'Assessment' was 3?,3
+case_37,answer_lookup,What is the Situation of the respondent with the highest Recommendation (clear recommendation) in the 'II - Anaphylaxsis' session?,3
+case_38,answer_lookup,What is the Recommendation (global rating scale) of the respondent with the highest Recommendation (global rating scale) in the 'II (Anaphylaxsis)' session?,2
+case_39,answer_lookup,What is the Situation of the respondent whose score for 'Situation' was 3 and score for 'Assessment' was 3?,3
+case_40,answer_lookup,What is the Recommendation (global rating scale) of the respondent whose total score for 'Background (examination)' and 'Assessment' was exactly 5?,3
+case_41,answer_lookup,What is the Recommendation (global rating scale) of the respondent from the 'II-Anaphylaxsis' session whose Recommendation (global rating scale) is higher than the average Recommendation (global rating scale) for all sessions on '2025-03-14'?,3
+case_42,answer_lookup,What is the Background (examination) of the respondent whose score for 'Background (examination)' was 1 and score for 'Recommendation (clear recommendation)' was 3?,1
+case_43,answer_lookup,What is the Recommendation (global rating scale) of the respondent with the highest Identification in the 'I-VF' session?,2
+case_44,answer_lookup,What is the Background (history) of the respondent whose score for 'Background (history)' was 2 and score for 'Recommendation (clear recommendation)' was 2?,2
+case_45,answer_lookup,What is the Recommendation (clear recommendation) of the respondent whose total score for 'Recommendation (clear recommendation)' and 'Situation' was exactly 4?,2
+case_46,answer_lookup,What is the Date of the respondent with the highest Background (history) in the 'IV (AF)' session?,2025-04-04
+case_47,answer_lookup,What is the Background (examination) of the respondent whose score for 'Identification' was 3 and score for 'Background (history)' was 3?,2
+case_48,answer_lookup,What is the Situation of the respondent whose score for 'Situation' was 3 and score for 'Recommendation (clear recommendation)' was 3?,3
+case_49,answer_lookup,What is the Recommendation (global rating scale) of the respondent from the 'II - Anaphylaxsis' session whose Background (history) is higher than the average Background (history) for all sessions on '2025-05-04'?,3
+case_50,answer_lookup,What is the Recommendation (clear recommendation) of the respondent from the 'IV (VT)' session whose Situation is higher than the average Situation for all sessions on '2025-05-02'?,2

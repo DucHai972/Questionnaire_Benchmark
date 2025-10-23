@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '19', excluding the respondent themselves.",None
+case_2,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '7', excluding the respondent themselves.",23
+case_3,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '9'?,None
+case_4,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '16', excluding the respondent themselves.",None
+case_5,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '9'?,None
+case_6,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '20'?,22
+case_7,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '15'.,"20, 13, 2, 8"
+case_8,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '16', excluding the respondent themselves.",20
+case_9,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '2'?,None
+case_10,multi_hop_relational_inference,List all respondents who scored the same on 'Background (history)' as respondent '13'.,"23, 10, 14, 2"
+case_11,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '3', excluding the respondent themselves.","11, 6, 2"
+case_12,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '13'.,"10, 5, 22"
+case_13,multi_hop_relational_inference,List all respondents who scored the same on 'Assessment' as respondent '5'.,"11, 17, 3, 14, 20, 1, 23"
+case_14,multi_hop_relational_inference,List all respondents who scored the same on 'Background (history)' as respondent '16'.,"11, 8, 5"
+case_15,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '21', excluding the respondent themselves.",4
+case_16,multi_hop_relational_inference,List all respondents who scored the same on 'Background (history)' as respondent '23'.,"20, 13, 18"
+case_17,multi_hop_relational_inference,List all respondents who scored the same on 'Situation' as respondent '15'.,"14, 12, 22, 8"
+case_18,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '22', excluding the respondent themselves.",None
+case_19,multi_hop_relational_inference,List all respondents who scored the same on 'Background (examination)' as respondent '22'.,"15, 17, 6, 7, 3, 5"
+case_20,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '4'?,None
+case_21,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '17', excluding the respondent themselves.","9, 15"
+case_22,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '23'?,None
+case_23,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '13', excluding the respondent themselves.",None
+case_24,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '5', excluding the respondent themselves.","18, 17"
+case_25,multi_hop_relational_inference,List all respondents who scored the same on 'Situation' as respondent '4'.,"23, 5, 16, 15, 19, 9, 14, 18"
+case_26,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '13' and also scored 1 on 'Recommendation (global rating scale)'?,None
+case_27,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '12' and also scored perfectly on 'Background (examination)'.,"3, 17"
+case_28,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '8' and also scored 1 on 'Background (history)'?,None
+case_29,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '23' and also scored 2 on 'Identification'?,None
+case_30,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'communication'.,None
+case_31,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'Good'.,None
+case_32,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '1' and also scored perfectly on 'Recommendation (global rating scale)'.,"6, 16, 22, 5, 8"
+case_33,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '13' and whose comments contain the word 'Clear'.,None
+case_34,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '7' and also scored 3 on 'Recommendation (global rating scale)'?,None
+case_35,multi_hop_relational_inference,List all respondents who scored the same on 'Situation' as respondent '20' and also scored perfectly on 'Recommendation (clear recommendation)'.,"11, 17"
+case_36,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '2' and also scored 3 on 'Background (history)'?,"3, 6, 11"
+case_37,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'communication'.,None
+case_38,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '19' and also scored 0 on 'Background (history)'?,None
+case_39,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '8' and whose comments contain the word 'Overall'.,None
+case_40,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '22' and also scored 0 on 'Identification'?,None
+case_41,multi_hop_relational_inference,Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions that happened on the same date as respondent '16's session.,"21, 9"
+case_42,multi_hop_relational_inference,Which respondents are from a session name where the average 'Background (examination)' score is higher than the overall average for all sessions?,"15, 7, 16"
+case_43,multi_hop_relational_inference,Find all respondents whose 'Recommendation (global rating scale)' is higher than the average 'Recommendation (global rating scale)' for all sessions that happened on the same date as respondent '19's session.,None
+case_44,multi_hop_relational_inference,Find all respondents whose 'Identification' is higher than the average 'Identification' for all sessions that happened on the same date as respondent '23's session.,"23, 6, 21, 12, 17, 8, 4, 16, 13, 15"
+case_45,multi_hop_relational_inference,Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '17's session.,None
+case_46,multi_hop_relational_inference,Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions that happened on the same date as respondent '19's session.,"17, 19, 3, 11, 23"
+case_47,multi_hop_relational_inference,Which respondents are from a session name where the average 'Recommendation (clear recommendation)' score is higher than the overall average for all sessions?,"12, 19, 17, 16, 9, 3"
+case_48,multi_hop_relational_inference,Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '23's session.,"23, 11, 8, 12, 17, 5, 4"
+case_49,multi_hop_relational_inference,Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '17's session.,None
+case_50,multi_hop_relational_inference,Which respondents are from a session name where the average 'Recommendation (global rating scale)' score is higher than the overall average for all sessions?,"20, 11, 19, 3, 23, 22"

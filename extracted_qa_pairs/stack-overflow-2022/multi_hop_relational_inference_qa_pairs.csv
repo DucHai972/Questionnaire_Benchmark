@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72821'?,"192, 72964"
+case_2,multi_hop_relational_inference,"Find all respondents from the same country as respondent '437', excluding the respondent themselves.",None
+case_3,multi_hop_relational_inference,List all respondents who have the same education level as respondent '29043'.,"492, 29071, 72700, 72741, 72869, 73007"
+case_4,multi_hop_relational_inference,"Find all respondents from the same country as respondent '73094', excluding the respondent themselves.",277
+case_5,multi_hop_relational_inference,"Find all respondents from the same country as respondent '73129', excluding the respondent themselves.",None
+case_6,multi_hop_relational_inference,"Find all respondents from the same country as respondent '72858', excluding the respondent themselves.","396, 260"
+case_7,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72825'.,"72763, 29060, 72878"
+case_8,multi_hop_relational_inference,"Find all respondents from the same country as respondent '73075', excluding the respondent themselves.","202, 355, 72749"
+case_9,multi_hop_relational_inference,List all respondents who have the same education level as respondent '388'.,"72895, 63, 73050, 72840, 537, 52, 72741"
+case_10,multi_hop_relational_inference,"Find all respondents from the same country as respondent '72647', excluding the respondent themselves.",73128
+case_11,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '297'?,"72981, 73015, 347, 72793, 73017, 469, 332, 72823"
+case_12,multi_hop_relational_inference,"Find all respondents from the same country as respondent '72815', excluding the respondent themselves.",None
+case_13,multi_hop_relational_inference,"Find all respondents from the same country as respondent '72815', excluding the respondent themselves.",None
+case_14,multi_hop_relational_inference,"Find all respondents from the same country as respondent '106', excluding the respondent themselves.","484, 277"
+case_15,multi_hop_relational_inference,List all respondents who have the same education level as respondent '225'.,72659
+case_16,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73047'?,"73051, 268, 373, 73129, 73191, 73219, 73020"
+case_17,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72945'?,None
+case_18,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?,"73084, 72858, 72921, 73219, 73069, 73018"
+case_19,multi_hop_relational_inference,List all respondents who have the same education level as respondent '382'.,"184, 537, 57, 72710, 219"
+case_20,multi_hop_relational_inference,List all respondents who have the same education level as respondent '203'.,"72762, 501, 73043, 72824, 491, 72856, 349"
+case_21,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72739'.,"64, 72804, 73102, 73190, 440, 72831, 155, 72823"
+case_22,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73125'?,None
+case_23,multi_hop_relational_inference,"Find all respondents from the same country as respondent '189', excluding the respondent themselves.","73106, 511"
+case_24,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72927'.,"489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 73103"
+case_25,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?,"192, 73052, 72626, 72802, 29034, 73150, 392, 104, 72878"
+case_26,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.,"331, 29111, 352, 73076, 479, 192, 72873, 487, 72720"
+case_27,multi_hop_relational_inference,Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?,None
+case_28,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '72825' and whose programming languages include 'TypeScript'.,72826
+case_29,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '444' and whose programming languages include 'C++'.,"133, 362"
+case_30,multi_hop_relational_inference,Which respondents are from the same country as respondent '73030' and also have more than 5 years of coding experience?,None
+case_31,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '441' and whose programming languages include 'Go'.,"72978, 72776, 389"
+case_32,multi_hop_relational_inference,Which respondents are from the same country as respondent '100' and also have more than 5 years of coding experience?,None
+case_33,multi_hop_relational_inference,Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?,"72998, 355, 58, 277"
+case_34,multi_hop_relational_inference,Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?,None
+case_35,multi_hop_relational_inference,Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?,"72680, 73195, 72801"
+case_36,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.,"72827, 154, 547, 29061"
+case_37,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.,"162, 73119, 157, 222"
+case_38,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '501' and whose programming languages include 'TypeScript'.,None
+case_39,multi_hop_relational_inference,Which respondents are from the same country as respondent '192' and also have more than 3 years of coding experience?,"72664, 72897, 206, 73075"
+case_40,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.,"29071, 29122, 73106, 343, 29124, 540"
+case_41,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '423'.,"72928, 186"
+case_42,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"159, 173, 72937, 491"
+case_43,multi_hop_relational_inference,"List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.","72734, 72763, 73208, 441, 72850, 215"
+case_44,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.,"73096, 72843, 73153, 73093, 73131, 72916"
+case_45,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.,"72753, 72668, 319, 259, 72837"
+case_46,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73069'.,"73069, 468, 73067, 72734, 206, 72965, 391"
+case_47,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"73021, 29067, 72970, 72805, 72856, 72827"
+case_48,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72965'.,73144
+case_49,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '547'.,547
+case_50,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73259'.,"242, 73259, 184"

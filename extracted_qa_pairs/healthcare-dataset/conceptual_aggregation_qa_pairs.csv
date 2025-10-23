@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,conceptual_aggregation,How many respondents have Gender = 'Male' and Medical Condition = 'Hypertension'?,1
+case_2,conceptual_aggregation,How many respondents have Gender = 'Female' and Insurance Provider = 'Cigna'?,0
+case_3,conceptual_aggregation,Count the respondents whose Billing Amount is greater than 10000.,9
+case_4,conceptual_aggregation,How many respondents have a Medication of 'Penicillin'?,3
+case_5,conceptual_aggregation,How many respondents have a Test Results of 'Abnormal'?,5
+case_6,conceptual_aggregation,Count the respondents whose Billing Amount is greater than 40000.,1
+case_7,conceptual_aggregation,How many respondents have a Test Results of 'Inconclusive'?,5
+case_8,conceptual_aggregation,How many respondents have a Test Results of 'Inconclusive'?,2
+case_9,conceptual_aggregation,How many respondents have a Medication of 'Aspirin'?,3
+case_10,conceptual_aggregation,How many respondents have Gender = 'Male' and Insurance Provider = 'Medicare'?,0
+case_11,conceptual_aggregation,Count the respondents whose Age is greater than 60.,2
+case_12,conceptual_aggregation,How many respondents have a Medical Condition of 'Asthma'?,4
+case_13,conceptual_aggregation,How many respondents have Gender = 'Male' and Medical Condition = 'Asthma'?,0
+case_14,conceptual_aggregation,How many respondents have Gender = 'Female' and Admission Type = 'Urgent'?,0
+case_15,conceptual_aggregation,How many respondents have Gender = 'Female' and Insurance Provider = 'Medicare'?,2
+case_16,conceptual_aggregation,How many respondents have Gender = 'Female' and Admission Type = 'Emergency'?,2
+case_17,conceptual_aggregation,How many respondents have a Medical Condition of 'Cancer'?,1
+case_18,conceptual_aggregation,How many respondents have Gender = 'Male' and Admission Type = 'Elective'?,2
+case_19,conceptual_aggregation,How many respondents have Gender = 'Female' and Insurance Provider = 'UnitedHealthcare'?,0
+case_20,conceptual_aggregation,How many respondents have Gender = 'Female' and Medical Condition = 'Asthma'?,0
+case_21,conceptual_aggregation,How many respondents have a Blood Type of 'O+'?,1
+case_22,conceptual_aggregation,How many respondents have Gender = 'Female' and Medical Condition = 'Diabetes'?,1
+case_23,conceptual_aggregation,How many respondents have a Blood Type of 'A+'?,1
+case_24,conceptual_aggregation,How many respondents have Gender = 'Male' and Insurance Provider = 'Aetna'?,2
+case_25,conceptual_aggregation,How many respondents have Gender = 'Male' and Admission Type = 'Urgent'?,1
+case_26,conceptual_aggregation,How many respondents with Gender = 'Female' and Admission Type = 'Emergency' have a Billing Amount below 30000?,1
+case_27,conceptual_aggregation,How many respondents from 'HOSP_96' are over the age of 60 and are not taking 'Aspirin'?,0
+case_28,conceptual_aggregation,Count the respondents whose length of stay is between 15 and 25 days and who were admitted for an 'Emergency' procedure.,1
+case_29,conceptual_aggregation,How many respondents with Gender = 'Female' and Admission Type = 'Emergency' have a Billing Amount below 30000?,0
+case_30,conceptual_aggregation,How many respondents with Gender = 'Female' and Admission Type = 'Elective' have a Billing Amount below 40000?,1
+case_31,conceptual_aggregation,Count the respondents whose length of stay is between 10 and 20 days and who were admitted for an 'Emergency' procedure.,0
+case_32,conceptual_aggregation,Count the respondents whose length of stay is between 15 and 25 days and who were admitted for an 'Emergency' procedure.,0
+case_33,conceptual_aggregation,Count the respondents whose length of stay is between 10 and 20 days and who were admitted for an 'Elective' procedure.,0
+case_34,conceptual_aggregation,How many respondents with Gender = 'Male' and Admission Type = 'Elective' have a Billing Amount below 30000?,0
+case_35,conceptual_aggregation,Count the respondents whose length of stay is between 10 and 30 days and who were admitted for an 'Elective' procedure.,2
+case_36,conceptual_aggregation,Count the respondents whose length of stay is between 5 and 35 days and who were admitted for an 'Emergency' procedure.,2
+case_37,conceptual_aggregation,How many respondents from 'HOSP_53' are over the age of 65 and are not taking 'Aspirin'?,0
+case_38,conceptual_aggregation,How many respondents from 'HOSP_34' are over the age of 50 and are not taking 'Aspirin'?,0
+case_39,conceptual_aggregation,How many respondents with Gender = 'Male' and Admission Type = 'Emergency' have a Billing Amount below 40000?,2
+case_40,conceptual_aggregation,Count the respondents whose length of stay is between 10 and 40 days and who were admitted for an 'Urgent' procedure.,1
+case_41,conceptual_aggregation,Count the respondents who are in a hospital where the number of patients with Arthritis is greater than the number of patients with Asthma.,2
+case_42,conceptual_aggregation,How many respondents have a Billing Amount that is higher than the average Billing Amount for their Admission Type?,4
+case_43,conceptual_aggregation,Count the respondents who are in a hospital where the number of patients with Asthma is greater than the number of patients with Arthritis.,5
+case_44,conceptual_aggregation,How many respondents have a Billing Amount that is higher than the average Billing Amount for their Admission Type?,6
+case_45,conceptual_aggregation,How many respondents have a Billing Amount that is higher than the average Billing Amount for their Admission Type?,2
+case_46,conceptual_aggregation,Count the respondents who are in a hospital where the number of patients with Obesity is greater than the number of patients with Arthritis.,3
+case_47,conceptual_aggregation,How many respondents have a Billing Amount that is higher than the average Billing Amount for their Admission Type?,6
+case_48,conceptual_aggregation,Count the respondents who are in a hospital where the number of patients with Cancer is greater than the number of patients with Diabetes.,1
+case_49,conceptual_aggregation,How many respondents over the age of 60 have a length of stay that is longer than the average for their specific Admission Type?,2
+case_50,conceptual_aggregation,Count the respondents who are in a hospital where the number of patients with Cancer is greater than the number of patients with Asthma.,1

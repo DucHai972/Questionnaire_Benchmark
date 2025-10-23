@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,rule_based_querying,List all respondents from the '(MI)-VT' session whose 'Recommendation (global rating scale)' is exactly 0.,[]
+case_2,rule_based_querying,Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?,"['8', '11', '3']"
+case_3,rule_based_querying,Find all respondents whose 'Recommendation (clear recommendation)' score is between 0 and 2.,"['18', '7', '2', '13', '20', '4', '22']"
+case_4,rule_based_querying,List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 0.,[]
+case_5,rule_based_querying,List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 2.,['10']
+case_6,rule_based_querying,List all respondents from the 'III - Sepsis' session whose 'Assessment' is exactly 2.,['15']
+case_7,rule_based_querying,List all respondents from the 'MI' session whose 'Assessment' is exactly 2.,[]
+case_8,rule_based_querying,Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 3.,"['10', '5', '7', '11', '8', '13', '19', '16', '9', '20', '14']"
+case_9,rule_based_querying,List all respondents from the 'II (Anaphylaxis)' session whose 'Identification' is exactly 0.,[]
+case_10,rule_based_querying,Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?,"['6', '21', '20', '3', '22', '19']"
+case_11,rule_based_querying,List all respondents from the 'III-Sepsis' session whose 'Background (examination)' is exactly 2.,[]
+case_12,rule_based_querying,Find all respondents whose 'Assessment' score is between 0 and 1.,[]
+case_13,rule_based_querying,List all respondents from the 'II (Anaphylactic Shock)' session whose 'Background (history)' is exactly 3.,['6']
+case_14,rule_based_querying,Find all respondents whose 'Assessment' score is between 0 and 1.,[]
+case_15,rule_based_querying,List all respondents from the 'MI' session whose 'Recommendation (global rating scale)' is exactly 0.,[]
+case_16,rule_based_querying,Which respondents scored higher than 1 on 'Situation'?,"['2', '21', '1', '6', '3', '16', '14', '11', '10', '17', '23', '9']"
+case_17,rule_based_querying,Which respondents scored higher than 2 on 'Assessment'?,"['23', '16']"
+case_18,rule_based_querying,List all respondents from the 'V (Hypoglycemia)' session whose 'Background (examination)' is exactly 1.,[]
+case_19,rule_based_querying,Find all respondents whose 'Background (examination)' score is between 0 and 1.,"['13', '21']"
+case_20,rule_based_querying,Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 2.,"['13', '17', '2', '4', '14']"
+case_21,rule_based_querying,Find all respondents whose 'Background (history)' score is between 0 and 2.,"['20', '13', '23']"
+case_22,rule_based_querying,List all respondents from the 'I (Myocardial infarction)' session whose 'Background (examination)' is exactly 3.,[]
+case_23,rule_based_querying,Find all respondents whose 'Background (examination)' score is between 0 and 1.,['13']
+case_24,rule_based_querying,List all respondents from the 'II - Anaphylaxsis' session whose 'Background (examination)' is exactly 1.,[]
+case_25,rule_based_querying,List all respondents from the 'MI' session whose 'Background (history)' is exactly 0.,[]
+case_26,rule_based_querying,Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 1 and a 'Recommendation (global rating scale)' of less than 2?,[]
+case_27,rule_based_querying,Which respondents from sessions on '2025-03-14' have a 'Recommendation (global rating scale)' of 3 and a 'Identification' of less than 2?,[]
+case_28,rule_based_querying,Find all respondents whose total score for 'Background (examination)' and 'Assessment' is greater than 3.,"['3', '18', '8', '19', '17', '6', '22', '23', '5', '14']"
+case_29,rule_based_querying,List all respondents whose 'Assessment' score is equal to their 'Situation' score.,"['16', '5', '6', '14', '10']"
+case_30,rule_based_querying,Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 2 and a 'Situation' of less than 2?,[]
+case_31,rule_based_querying,Which respondents from sessions on '2025-05-16' have a 'Background (history)' of 3 and a 'Background (examination)' of less than 2?,[]
+case_32,rule_based_querying,List all respondents whose 'Background (examination)' score is equal to their 'Recommendation (clear recommendation)' score.,"['10', '11', '3']"
+case_33,rule_based_querying,Find all respondents whose total score for 'Assessment' and 'Background (examination)' is greater than 4.,"['11', '16', '19', '23', '5', '14']"
+case_34,rule_based_querying,List all respondents whose 'Identification' score is equal to their 'Background (history)' score.,"['12', '4', '19', '21', '6', '8']"
+case_35,rule_based_querying,Find all respondents whose total score for 'Situation' and 'Recommendation (clear recommendation)' is greater than 4.,"['15', '3', '16', '5', '22', '8', '18']"
+case_36,rule_based_querying,List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.,"['23', '9']"
+case_37,rule_based_querying,List all respondents whose 'Background (history)' score is equal to their 'Assessment' score.,['3']
+case_38,rule_based_querying,List all respondents whose 'Recommendation (global rating scale)' score is equal to their 'Assessment' score.,"['13', '11', '4', '23', '5', '9']"
+case_39,rule_based_querying,List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.,"['19', '12', '17', '11', '10', '23']"
+case_40,rule_based_querying,Find all respondents whose total score for 'Assessment' and 'Situation' is greater than 4.,"['5', '12', '1', '16', '4', '14', '3', '2', '17', '22', '20']"
+case_41,rule_based_querying,List all respondents whose 'Recommendation (global rating scale)' is within 1 point of the lowest 'Assessment' for their session name.,"['10', '11', '15', '7', '17', '16', '12', '18', '8']"
+case_42,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"['3', '10', '2', '4', '13']"
+case_43,rule_based_querying,Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?,"['17', '22', '11']"
+case_44,rule_based_querying,List all respondents whose 'Background (history)' is within 2 point of the lowest 'Recommendation (global rating scale)' for their session name.,"['21', '6', '22', '14', '13', '1', '7', '15', '10', '17', '20']"
+case_45,rule_based_querying,Find all respondents whose 'Background (examination)' is greater than the average 'Background (examination)' for their session name.,[]
+case_46,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"['15', '9', '13', '10']"
+case_47,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"['4', '15', '10', '3', '2']"
+case_48,rule_based_querying,Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?,"['12', '5', '17', '19']"
+case_49,rule_based_querying,Find all respondents whose 'Assessment' is greater than the average 'Assessment' for their session name.,"['16', '20']"
+case_50,rule_based_querying,List all respondents whose 'Background (history)' is within 1 point of the lowest 'Identification' for their session name.,"['15', '20', '2', '12', '16', '5', '7', '14', '18']"

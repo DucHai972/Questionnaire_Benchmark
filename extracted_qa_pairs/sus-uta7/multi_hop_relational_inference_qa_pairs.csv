@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,multi_hop_relational_inference,Which respondents are in the same group as respondent '9'?,73
+case_2,multi_hop_relational_inference,Which respondents are in the same group as respondent '47'?,8
+case_3,multi_hop_relational_inference,List all respondents who rated 'System_Complexity' the same as respondent '76'.,"31, 70, 17, 48, 78, 81"
+case_4,multi_hop_relational_inference,Which respondents are in the same group as respondent '20'?,"39, 51, 62"
+case_5,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '84'.,80
+case_6,multi_hop_relational_inference,Which respondents are in the same group as respondent '34'?,11
+case_7,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '51', excluding the respondent themselves.","42, 20, 7"
+case_8,multi_hop_relational_inference,Which respondents are in the same group as respondent '25'?,"30, 48, 49"
+case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"60, 48"
+case_10,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.","74, 62"
+case_11,multi_hop_relational_inference,List all respondents who rated 'Inconsistency' the same as respondent '61'.,"25, 24"
+case_12,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.",68
+case_13,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '24'.,None
+case_14,multi_hop_relational_inference,Which respondents are in the same group as respondent '79'?,"14, 68, 32"
+case_15,multi_hop_relational_inference,Which respondents are in the same group as respondent '8'?,3
+case_16,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '58', excluding the respondent themselves.","62, 37, 54, 30"
+case_17,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.,"67, 54, 38"
+case_18,multi_hop_relational_inference,List all respondents who rated 'Need_to_Learn_Before_Use' the same as respondent '26'.,None
+case_19,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '38', excluding the respondent themselves.","67, 16, 66, 51, 19"
+case_20,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.,"88, 22"
+case_21,multi_hop_relational_inference,List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.,"89, 82, 37"
+case_22,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.","32, 4, 79, 58, 90, 16, 30"
+case_23,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.","38, 76, 40, 49"
+case_24,multi_hop_relational_inference,Which respondents are in the same group as respondent '22'?,"50, 24"
+case_25,multi_hop_relational_inference,"Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.","49, 28"
+case_26,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '26' and who also strongly agree that the system is easy to learn (score of 5).,None
+case_27,multi_hop_relational_inference,Which respondents are in the same group as respondent '62' and also rated 'System_Complexity' as 4?,None
+case_28,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '82' and who also strongly agree that the system is easy to learn (score of 5).,29
+case_29,multi_hop_relational_inference,Which respondents are in the same group as respondent '78' and also rated 'System_Complexity' as 5?,None
+case_30,multi_hop_relational_inference,Which respondents are in the same group as respondent '70' and also rated 'System_Complexity' as 5?,None
+case_31,multi_hop_relational_inference,List all respondents who share the same 'Frequent_Usage' score as respondent '6' but are not in the same group.,None
+case_32,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '90' and who also strongly agree that the system is easy to learn (score of 5).,"10, 28, 5"
+case_33,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '84' but are not in the same group.,None
+case_34,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '40' and who also strongly agree that the system is easy to learn (score of 5).,"30, 13"
+case_35,multi_hop_relational_inference,Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?,"43, 17, 37, 33, 73"
+case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,3
+case_37,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '88' but are not in the same group.,"78, 80, 81"
+case_38,multi_hop_relational_inference,List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.,"55, 14, 47, 48, 6"
+case_39,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.,None
+case_40,multi_hop_relational_inference,List all respondents who share the same 'Need_for_Technical_Support' score as respondent '5' but are not in the same group.,"59, 75, 32"
+case_41,multi_hop_relational_inference,Find all respondents whose 'Need_to_Learn_Before_Use' is higher than the average 'Need_to_Learn_Before_Use' for the 'Intern' group.,"49, 89"
+case_42,multi_hop_relational_inference,List all respondents who share the same 'Need_for_Technical_Support' score as respondent '12' but are not in the same group.,None
+case_43,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,None
+case_44,multi_hop_relational_inference,Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Junior' group.,49
+case_45,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,None
+case_46,multi_hop_relational_inference,List all respondents whose total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') is lower than the average for all respondents in the 'Senior' group.,"52, 82"
+case_47,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,None
+case_48,multi_hop_relational_inference,List all respondents whose total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') is lower than the average for all respondents in the 'Senior' group.,"39, 65, 25"
+case_49,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,None
+case_50,multi_hop_relational_inference,Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Middle' group.,"64, 35, 89, 61"

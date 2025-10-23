@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,conceptual_aggregation,How many respondents participated in a 'I - MI' session?,2
+case_2,conceptual_aggregation,How many respondents participated in a 'IV-Hypoglycemia' session?,1
+case_3,conceptual_aggregation,Count the respondents who scored 3 on 'Background (examination)'.,6
+case_4,conceptual_aggregation,How many respondents participated in a 'IV - VT' session?,1
+case_5,conceptual_aggregation,Count the respondents who scored 3 on 'Background (examination)'.,3
+case_6,conceptual_aggregation,How many respondents participated in a 'I (Myocardial infarction)' session?,1
+case_7,conceptual_aggregation,Count the respondents who scored 2 on 'Background (examination)'.,5
+case_8,conceptual_aggregation,How many respondents from sessions on '2025-03-14' scored 2 on 'Recommendation (global rating scale)'?,2
+case_9,conceptual_aggregation,How many respondents from sessions on '2025-05-16' scored 3 on 'Recommendation (clear recommendation)'?,1
+case_10,conceptual_aggregation,How many respondents from sessions on '2025-03-14' scored 2 on 'Recommendation (clear recommendation)'?,1
+case_11,conceptual_aggregation,Count the respondents who scored 3 on 'Background (history)'.,2
+case_12,conceptual_aggregation,How many respondents from sessions on '2025-05-04' scored 2 on 'Background (history)'?,2
+case_13,conceptual_aggregation,Count the respondents who scored 2 on 'Situation'.,2
+case_14,conceptual_aggregation,How many respondents from sessions on '2025-05-04' scored 2 on 'Assessment'?,1
+case_15,conceptual_aggregation,Count the respondents who scored 2 on 'Recommendation (global rating scale)'.,1
+case_16,conceptual_aggregation,Count the respondents who scored 3 on 'Identification'.,7
+case_17,conceptual_aggregation,How many respondents from sessions on '2025-05-04' scored 3 on 'Situation'?,3
+case_18,conceptual_aggregation,How many respondents participated in a '(MI)-VT' session?,1
+case_19,conceptual_aggregation,How many respondents participated in a 'III (Sepsis)' session?,1
+case_20,conceptual_aggregation,How many respondents from sessions on '2025-05-04' scored 3 on 'Situation'?,1
+case_21,conceptual_aggregation,Count the respondents who scored 3 on 'Recommendation (global rating scale)'.,5
+case_22,conceptual_aggregation,How many respondents participated in a 'III (Sepsis)' session?,2
+case_23,conceptual_aggregation,How many respondents from sessions on '2025-05-04' scored 2 on 'Recommendation (clear recommendation)'?,3
+case_24,conceptual_aggregation,Count the respondents who scored 3 on 'Recommendation (clear recommendation)'.,2
+case_25,conceptual_aggregation,How many respondents from sessions on '2025-05-16' scored 2 on 'Background (examination)'?,1
+case_26,conceptual_aggregation,How many respondents who scored 2 on 'Recommendation (clear recommendation)' also have 'Comments' that contain the word 'reflected'?,0
+case_27,conceptual_aggregation,Count the respondents whose total score for 'Background (examination)' and 'Assessment' is greater than 5.,1
+case_28,conceptual_aggregation,How many respondents from the 'II (Anaphylaxsis)' session scored 3 on 'Situation' and 2 on 'Assessment'?,1
+case_29,conceptual_aggregation,Count the respondents whose total score for 'Recommendation (clear recommendation)' and 'Situation' is greater than 5.,2
+case_30,conceptual_aggregation,How many respondents from the 'II (Anaphylactic Shock)' session scored 3 on 'Background (examination)' and 2 on 'Recommendation (clear recommendation)'?,1
+case_31,conceptual_aggregation,How many respondents who scored 2 on 'Background (examination)' also have 'Comments' that contain the word 'communication'?,2
+case_32,conceptual_aggregation,How many respondents who scored 3 on 'Background (examination)' also have 'Comments' that contain the word 'reflected'?,0
+case_33,conceptual_aggregation,Count the respondents whose total score for 'Recommendation (clear recommendation)' and 'Background (history)' is greater than 5.,4
+case_34,conceptual_aggregation,How many respondents from the '(MI)-VT' session scored 2 on 'Assessment' and 2 on 'Recommendation (clear recommendation)'?,1
+case_35,conceptual_aggregation,How many respondents from the 'I-VF' session scored 2 on 'Assessment' and 3 on 'Situation'?,1
+case_36,conceptual_aggregation,How many respondents who scored 2 on 'Recommendation (global rating scale)' also have 'Comments' that contain the word 'unclear'?,1
+case_37,conceptual_aggregation,How many respondents from the 'IV - VT' session scored 2 on 'Recommendation (global rating scale)' and 3 on 'Situation'?,1
+case_38,conceptual_aggregation,Count the respondents whose total score for 'Recommendation (global rating scale)' and 'Assessment' is greater than 5.,3
+case_39,conceptual_aggregation,How many respondents from the 'II (Anaphylaxis)' session scored 3 on 'Background (examination)' and 3 on 'Recommendation (clear recommendation)'?,1
+case_40,conceptual_aggregation,How many respondents who scored 3 on 'Background (examination)' also have 'Comments' that contain the word 'unclear'?,0
+case_41,conceptual_aggregation,Count the respondents who participated in a session where the average 'Recommendation (global rating scale)' for that session name is greater than 2.5.,8
+case_42,conceptual_aggregation,Count the respondents who participated in a session where the average 'Situation' for that session name is greater than 2.0.,7
+case_43,conceptual_aggregation,Count the respondents who participated in a session where the average 'Background (examination)' for that session name is greater than 2.0.,6
+case_44,conceptual_aggregation,Count the respondents who participated in a session where the average 'Assessment' for that session name is greater than 2.5.,2
+case_45,conceptual_aggregation,How many respondents whose comments contain 'Good' also have a total score across all rubric items that is below the average total score for all sessions?,1
+case_46,conceptual_aggregation,Count the respondents who participated in a session where the average 'Situation' for that session name is greater than 2.0.,7
+case_47,conceptual_aggregation,How many respondents have a 'Identification' score that is higher than the average 'Identification' for all sessions on the same date?,3
+case_48,conceptual_aggregation,How many respondents have a 'Background (examination)' score that is higher than the average 'Background (examination)' for all sessions on the same date?,3
+case_49,conceptual_aggregation,How many respondents whose comments contain 'Clear' also have a total score across all rubric items that is below the average total score for all sessions?,0
+case_50,conceptual_aggregation,How many respondents whose comments contain 'Satisfactory' also have a total score across all rubric items that is below the average total score for all sessions?,2

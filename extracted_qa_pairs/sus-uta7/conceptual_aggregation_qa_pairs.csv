@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,conceptual_aggregation,How many respondents from the 'Intern' rated 'Need_for_Technical_Support' as 1?,1
+case_2,conceptual_aggregation,How many respondents are in the 'Intern' group?,1
+case_3,conceptual_aggregation,How many respondents from the 'Intern' rated 'Ease_of_Learning' as 3?,2
+case_4,conceptual_aggregation,Count the respondents who rated 'Cumbersome_to_Use' as 3.,1
+case_5,conceptual_aggregation,How many respondents are in the 'Middle' group?,1
+case_6,conceptual_aggregation,How many respondents from the 'Intern' rated 'Cumbersome_to_Use' as 1?,1
+case_7,conceptual_aggregation,How many respondents from the 'Intern' rated 'Confidence_in_Use' as 5?,2
+case_8,conceptual_aggregation,How many respondents are in the 'Intern' group?,4
+case_9,conceptual_aggregation,Count the respondents who rated 'Ease_of_Use' as 2.,1
+case_10,conceptual_aggregation,How many respondents from the 'Senior' rated 'Need_to_Learn_Before_Use' as 4?,1
+case_11,conceptual_aggregation,How many respondents from the 'Senior' rated 'Integration_of_Functions' as 3?,1
+case_12,conceptual_aggregation,How many respondents are in the 'Junior' group?,2
+case_13,conceptual_aggregation,Count the respondents who rated 'Ease_of_Use' as 1.,2
+case_14,conceptual_aggregation,Count the respondents who rated 'Cumbersome_to_Use' as 4.,1
+case_15,conceptual_aggregation,Count the respondents who rated 'Ease_of_Use' as 4.,1
+case_16,conceptual_aggregation,Count the respondents who rated 'Need_to_Learn_Before_Use' as 1.,5
+case_17,conceptual_aggregation,How many respondents are in the 'Senior' group?,2
+case_18,conceptual_aggregation,How many respondents from the 'Intern' rated 'Cumbersome_to_Use' as 3?,1
+case_19,conceptual_aggregation,How many respondents from the 'Junior' rated 'Integration_of_Functions' as 4?,1
+case_20,conceptual_aggregation,How many respondents are in the 'Senior' group?,3
+case_21,conceptual_aggregation,How many respondents are in the 'Middle' group?,4
+case_22,conceptual_aggregation,How many respondents are in the 'Intern' group?,5
+case_23,conceptual_aggregation,How many respondents are in the 'Intern' group?,1
+case_24,conceptual_aggregation,Count the respondents who rated 'Need_to_Learn_Before_Use' as 2.,2
+case_25,conceptual_aggregation,How many respondents from the 'Senior' rated 'Confidence_in_Use' as 5?,1
+case_26,conceptual_aggregation,How many respondents from the 'Middle' group rated 'Cumbersome_to_Use' as 5 and 'Need_for_Technical_Support' as 4?,1
+case_27,conceptual_aggregation,Count the respondents whose combined score for 'Frequent_Usage' and 'Ease_of_Learning' is less than 6.,2
+case_28,conceptual_aggregation,How many respondents from the 'Junior' group rated 'Frequent_Usage' as 4 and 'Ease_of_Learning' as 4?,1
+case_29,conceptual_aggregation,How many respondents rated 'Frequent_Usage' and 'Integration_of_Functions' with the same score?,3
+case_30,conceptual_aggregation,Count the respondents whose combined score for 'Frequent_Usage' and 'Need_for_Technical_Support' is less than 6.,1
+case_31,conceptual_aggregation,How many respondents rated 'Frequent_Usage' and 'System_Complexity' with the same score?,3
+case_32,conceptual_aggregation,Count the respondents whose combined score for 'System_Complexity' and 'Ease_of_Use' is less than 6.,4
+case_33,conceptual_aggregation,Count the respondents whose combined score for 'Need_to_Learn_Before_Use' and 'Frequent_Usage' is less than 3.,2
+case_34,conceptual_aggregation,How many respondents from the 'Middle' group rated 'Need_to_Learn_Before_Use' as 4 and 'Frequent_Usage' as 1?,0
+case_35,conceptual_aggregation,Count the respondents whose combined score for 'Ease_of_Use' and 'Frequent_Usage' is less than 8.,4
+case_36,conceptual_aggregation,How many respondents from the 'Junior' group rated 'Need_to_Learn_Before_Use' as 3 and 'Inconsistency' as 4?,0
+case_37,conceptual_aggregation,How many respondents rated 'Frequent_Usage' and 'Need_to_Learn_Before_Use' with the same score?,0
+case_38,conceptual_aggregation,Count the respondents whose combined score for 'Need_for_Technical_Support' and 'Inconsistency' is less than 2.,0
+case_39,conceptual_aggregation,How many respondents rated 'System_Complexity' and 'Ease_of_Use' with the same score?,1
+case_40,conceptual_aggregation,How many respondents from the 'Junior' group rated 'Integration_of_Functions' as 5 and 'System_Complexity' as 1?,1
+case_41,conceptual_aggregation,Count the respondents who are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score.,0
+case_42,conceptual_aggregation,How many respondents in the 'Junior' group have a 'Need_to_Learn_Before_Use' score that is higher than the average 'Need_to_Learn_Before_Use' for the 'Intern' group?,1
+case_43,conceptual_aggregation,How many respondents in the 'Intern' group have a 'Need_to_Learn_Before_Use' score that is higher than the average 'Need_to_Learn_Before_Use' for the 'Senior' group?,3
+case_44,conceptual_aggregation,Count the respondents who are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score.,0
+case_45,conceptual_aggregation,How many respondents have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents not in their group?,4
+case_46,conceptual_aggregation,Count the respondents who are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score.,0
+case_47,conceptual_aggregation,Count the respondents who are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score.,0
+case_48,conceptual_aggregation,Count the respondents who are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score.,0
+case_49,conceptual_aggregation,Count the respondents who are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score.,0
+case_50,conceptual_aggregation,How many respondents have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents not in their group?,3

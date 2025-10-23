@@ -35,15 +35,21 @@ def normalize_response_text(text: str) -> str:
 def parse_expected_answer(expected: str) -> Union[List[str], str]:
     """
     Parse expected answer which might be in various formats.
-    
+
     Args:
         expected (str): Expected answer string
-        
+
     Returns:
         Union[List[str], str]: Parsed expected answer
     """
     expected = expected.strip()
-    
+
+    # Strip outer quotes first (handles cases like "['1', '2']")
+    if expected.startswith('"') and expected.endswith('"'):
+        expected = expected[1:-1].strip()
+    elif expected.startswith("'") and expected.endswith("'"):
+        expected = expected[1:-1].strip()
+
     # Try to parse as JSON/Python list
     if expected.startswith('[') and expected.endswith(']'):
         try:
@@ -91,14 +97,17 @@ def extract_numbers_and_identifiers(text: str) -> List[str]:
     results = []
     for pattern in patterns:
         matches = re.findall(pattern, text, re.IGNORECASE)
-        results.extend(matches)
-        
-        # Also extract just the numeric part from word+number patterns
+
+        # For word+number patterns (like Respondent107), only extract the numeric part
+        # This prevents "Respondent107" and "107" both being added (causing set mismatch)
         if pattern == r'\b[A-Za-z]+\d+\b':
             for match in matches:
                 number_part = re.search(r'\d+', match)
                 if number_part:
                     results.append(number_part.group())
+        else:
+            # For all other patterns, add the full match
+            results.extend(matches)
     
     # Remove duplicates while preserving order
     seen = set()
@@ -220,36 +229,36 @@ def evaluate_respondent_count(response: str, expected_answer: str) -> bool:
 def evaluate_multi_hop_inference(response: str, expected_answer: str) -> bool:
     """
     Evaluation for multi-hop relational inference tasks.
-    
-    Multi-hop inference often requires finding relationships and should allow
-    partial matches when the model finds some but not all related entities.
-    
+
+    Multi-hop inference requires finding relationships and matching all
+    related entities exactly (no partial matches).
+
     Args:
         response (str): Model response
         expected_answer (str): Expected answer
-        
+
     Returns:
-        bool: True if response matches expected answer
+        bool: True if response matches expected answer exactly
     """
-    # Use the same logic as answer_reverse_lookup (allows partial matches)
+    # Use the same logic as answer_reverse_lookup (exact set matching)
     return evaluate_answer_reverse_lookup(response, expected_answer)
 
 
 def evaluate_answer_reverse_lookup(response: str, expected_answer: str) -> bool:
     """
     Evaluation for answer reverse lookup tasks.
-    
+
     This function handles various response formats for reverse lookup:
     - "None" responses should match "None" expectations
     - "Respondent107" should match "107"
-    - Partial matches in comma-separated lists
-    
+    - Exact set matching for lists (all items must match)
+
     Args:
         response (str): Model response
         expected_answer (str): Expected answer
-        
+
     Returns:
-        bool: True if response matches expected answer
+        bool: True if response matches expected answer exactly
     """
     if not response or not response.strip():
         return False
@@ -261,20 +270,20 @@ def evaluate_answer_reverse_lookup(response: str, expected_answer: str) -> bool:
     if response_normalized.lower() == "none" and str(expected_parsed).lower() == "none":
         return True
     
-    # Case 1: Expected answer is a list - check if response contains any of the expected items
+    # Case 1: Expected answer is a list - check if response matches all expected items exactly
     if isinstance(expected_parsed, list):
         # Extract all identifiers from response
         response_items = extract_numbers_and_identifiers(response_normalized)
-        
+
         # Convert expected to strings for comparison
         expected_items = [str(item).strip() for item in expected_parsed]
-        
-        # For reverse lookup, check if ANY expected item is found in response (not exact set match)
+
+        # For reverse lookup, require exact set match (order doesn't matter)
         response_set = set(response_items)
         expected_set = set(expected_items)
-        
-        # Return True if response contains any of the expected items
-        return bool(response_set.intersection(expected_set))
+
+        # Return True if sets match exactly
+        return response_set == expected_set
     
     # Case 2: Expected answer is a single value
     else:

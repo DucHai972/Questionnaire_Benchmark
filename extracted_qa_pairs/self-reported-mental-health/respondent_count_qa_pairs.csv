@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,respondent_count,Count the respondents who are male.,3
+case_2,respondent_count,Count the respondents who are male.,6
+case_3,respondent_count,Count the respondents who are female.,1
+case_4,respondent_count,Count the respondents with a 'Life satisfaction' of 5 or higher.,11
+case_5,respondent_count,Count the respondents who are male.,3
+case_6,respondent_count,Count the respondents with a 'Loneliness' of 2 or lower.,2
+case_7,respondent_count,Count the respondents who are female.,1
+case_8,respondent_count,Count the respondents with a 'Socio-economic status' of 3 who were born in 1998.,0
+case_9,respondent_count,Count the respondents with a 'Socio-economic status' of 1 who were born in 2003.,0
+case_10,respondent_count,Count the respondents born after 2003.,3
+case_11,respondent_count,Count the respondents with a 'Socio-economic status' of 4 who were born in 2006.,0
+case_12,respondent_count,Count the respondents born before 2005.,6
+case_13,respondent_count,Count the respondents who are female.,4
+case_14,respondent_count,Count the respondents with a 'Socio-economic status' of 3 who were born in 2001.,0
+case_15,respondent_count,Count the respondents who are male.,7
+case_16,respondent_count,Count the respondents born after 2002.,10
+case_17,respondent_count,Count the respondents who are female.,2
+case_18,respondent_count,Count the respondents who are male.,4
+case_19,respondent_count,Count the respondents who are male.,4
+case_20,respondent_count,Count the respondents born before 2004.,3
+case_21,respondent_count,Count the respondents who are female.,2
+case_22,respondent_count,Count the respondents born after 2002.,2
+case_23,respondent_count,Count the respondents born after 2002.,5
+case_24,respondent_count,Count the respondents born before 2005.,8
+case_25,respondent_count,Count the respondents with a 'Socio-economic status' of 4 who were born in 2005.,0
+case_26,respondent_count,Count the respondents whose total score for 'Depression' and 'Happiness' is exactly 10.,0
+case_27,respondent_count,Count the respondents born in 2003 who have a 'Stress' greater than 7 and a 'Life satisfaction' less than 3.,0
+case_28,respondent_count,Count the male respondents whose mother has more than 10 years of education and whose 'Life satisfaction' is 7 or higher.,0
+case_29,respondent_count,Count the respondents whose total score for 'Depression' and 'Worry' is exactly 15.,0
+case_30,respondent_count,Count the male respondents whose mother has more than 10 years of education and whose 'Life satisfaction' is 6 or higher.,0
+case_31,respondent_count,Count the respondents born in 2004 who have a 'Stress' greater than 5 and a 'Depression' less than 3.,0
+case_32,respondent_count,Count the respondents whose total score for 'Depression' and 'Life satisfaction' is exactly 12.,0
+case_33,respondent_count,Count the respondents whose total score for 'Life satisfaction' and 'Happiness' is exactly 15.,0
+case_34,respondent_count,Count the respondents whose total score for 'Loneliness' and 'Happiness' is exactly 10.,0
+case_35,respondent_count,Count the respondents born in 2002 who have a 'Life satisfaction' greater than 5 and a 'Happiness' less than 5.,1
+case_36,respondent_count,Count the respondents born in 2004 who have a 'Loneliness' greater than 6 and a 'Depression' less than 3.,1
+case_37,respondent_count,Count the respondents whose total score for 'Depression' and 'Stress' is exactly 20.,0
+case_38,respondent_count,Count the female respondents whose mother has more than 10 years of education and whose 'Life satisfaction' is 7 or higher.,0
+case_39,respondent_count,Count the respondents born in 2001 who have a 'Loneliness' greater than 5 and a 'Stress' less than 3.,0
+case_40,respondent_count,Count the female respondents whose mother has more than 12 years of education and whose 'Life satisfaction' is 8 or higher.,0
+case_41,respondent_count,Count the respondents whose combined 'Depression' and 'Stress' score is lower than the average combined 'Depression' and 'Stress' score for their gender.,4
+case_42,respondent_count,Count the respondents whose 'Worry' is higher than the average 'Worry' for their gender.,3
+case_43,respondent_count,Count the respondents whose 'Stress' is higher than the average 'Stress' for their gender.,4
+case_44,respondent_count,Count the respondents who were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'.,10
+case_45,respondent_count,Count the respondents who were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'.,7
+case_46,respondent_count,Count the respondents whose combined 'Worry' and 'Life satisfaction' score is lower than the average combined 'Worry' and 'Life satisfaction' score for their gender.,3
+case_47,respondent_count,Count the respondents who were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'.,6
+case_48,respondent_count,Count the respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,0
+case_49,respondent_count,Count the respondents whose combined 'Life satisfaction' and 'Depression' score is lower than the average combined 'Life satisfaction' and 'Depression' score for their gender.,4
+case_50,respondent_count,Count the respondents who were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'.,5

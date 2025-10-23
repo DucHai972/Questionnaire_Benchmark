@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.,None
+case_2,answer_reverse_lookup,Which respondents are 6.0?,20
+case_3,answer_reverse_lookup,Which respondents are 6.0?,"82, 139, 21, 36, 99, 40, 55, 17"
+case_4,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2003.,"85, 16"
+case_5,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2004.,70
+case_6,answer_reverse_lookup,Which respondents are 1999.0?,100
+case_7,answer_reverse_lookup,Find all respondents with a Worry of 1.,"110, 35, 119, 47"
+case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,84
+case_9,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.,None
+case_10,answer_reverse_lookup,Which respondents are 6.0?,"18, 8, 64, 52, 6, 40, 62, 33"
+case_11,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2003.,56
+case_12,answer_reverse_lookup,Which respondents are male?,"148, 97, 102, 20, 63"
+case_13,answer_reverse_lookup,Which respondents are 6.0?,"89, 137, 110, 95, 18"
+case_14,answer_reverse_lookup,Which respondents are 2004.0?,40
+case_15,answer_reverse_lookup,Which respondents are male?,"138, 124, 120, 112, 69, 83, 63, 23, 72"
+case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,None
+case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,None
+case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8.,"126, 143, 24, 57, 104, 63"
+case_19,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.,95
+case_20,answer_reverse_lookup,Which respondents are 3.0?,"65, 50, 81"
+case_21,answer_reverse_lookup,Find all respondents with a Life satisfaction of 5.,71
+case_22,answer_reverse_lookup,Which respondents are 6.0?,"93, 78, 4, 137, 33, 71, 12"
+case_23,answer_reverse_lookup,Find all respondents with a Happiness of 5.,"142, 27"
+case_24,answer_reverse_lookup,Which respondents are 5.0?,123
+case_25,answer_reverse_lookup,Which respondents are 2002.0?,"14, 30, 103, 148"
+case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,64
+case_27,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Life satisfaction' of exactly 8?,98
+case_28,answer_reverse_lookup,Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.,None
+case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?,"142, 121"
+case_30,answer_reverse_lookup,Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.,None
+case_31,answer_reverse_lookup,Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.,140
+case_32,answer_reverse_lookup,Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?,"146, 104, 70, 129"
+case_33,answer_reverse_lookup,Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?,111
+case_34,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?,"45, 114"
+case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"24, 83, 42"
+case_36,answer_reverse_lookup,Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.,"103, 10, 81, 104"
+case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,114
+case_38,answer_reverse_lookup,Which respondents have a total score for 'Happiness' and 'Life satisfaction' of exactly 15?,113
+case_39,answer_reverse_lookup,Find all respondents born in 2005 with a Happiness greater than 4 and a Loneliness less than 5.,128
+case_40,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?,"124, 121"
+case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"130, 73, 77"
+case_42,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"149, 126, 39, 115, 138, 124, 89, 86, 142, 97"
+case_43,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"60, 106, 12, 82, 122"
+case_44,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"39, 10, 113, 135, 4"
+case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,"40, 68, 21, 85"
+case_46,answer_reverse_lookup,Find all respondents whose Learning is higher than the average Learning for their gender.,"98, 82, 125, 139, 10, 74, 24"
+case_47,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"114, 77, 8, 84, 15"
+case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"96, 111, 38, 63, 136"
+case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"150, 37"
+case_50,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"66, 41, 19, 114, 109"

@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,answer_lookup,What is the Inconsistency of respondent '73'?,1
+case_2,answer_lookup,What is the Need_for_Technical_Support of respondent '40'?,1
+case_3,answer_lookup,What is the Group of respondent '78'?,Intern
+case_4,answer_lookup,What is the Group of the respondent who rated Cumbersome_to_Use as 4?,Middle
+case_5,answer_lookup,What is the Frequent_Usage of the respondent from the Junior group?,4
+case_6,answer_lookup,What is the Group of the respondent who rated Cumbersome_to_Use as 1?,Senior
+case_7,answer_lookup,What is the Group of the respondent who rated Inconsistency as 1?,Middle
+case_8,answer_lookup,What is the Confidence_in_Use of the respondent from the Senior group?,5
+case_9,answer_lookup,What is the Need_for_Technical_Support of respondent '48'?,1
+case_10,answer_lookup,What is the System_Complexity of the respondent from the Middle group?,1
+case_11,answer_lookup,What is the Frequent_Usage of the respondent from the Senior group?,2
+case_12,answer_lookup,What is the Need_to_Learn_Before_Use of respondent '85'?,1
+case_13,answer_lookup,What is the Ease_of_Learning of the respondent from the Senior group?,4
+case_14,answer_lookup,What is the Need_to_Learn_Before_Use of respondent '84'?,1
+case_15,answer_lookup,What is the Cumbersome_to_Use of respondent '67'?,1
+case_16,answer_lookup,What is the Group of the respondent who rated Confidence_in_Use as 1?,Junior
+case_17,answer_lookup,What is the Group of the respondent who rated Confidence_in_Use as 5?,Senior
+case_18,answer_lookup,What is the Inconsistency of respondent '31'?,1
+case_19,answer_lookup,What is the Confidence_in_Use of the respondent from the Middle group?,5
+case_20,answer_lookup,What is the Group of the respondent who rated Integration_of_Functions as 5?,Senior
+case_21,answer_lookup,What is the Group of the respondent who rated System_Complexity as 2?,Middle
+case_22,answer_lookup,What is the Frequent_Usage of the respondent from the Middle group?,4
+case_23,answer_lookup,What is the Ease_of_Learning of respondent '38'?,4
+case_24,answer_lookup,What is the Group of the respondent who rated Integration_of_Functions as 5?,Senior
+case_25,answer_lookup,What is the Confidence_in_Use of the respondent from the Junior group?,1
+case_26,answer_lookup,What is the Cumbersome_to_Use of the respondent whose combined score for Need_for_Technical_Support and Integration_of_Functions was exactly 6?,5
+case_27,answer_lookup,What is the Ease_of_Use of the respondent whose combined score for System_Complexity and Confidence_in_Use was exactly 8?,1
+case_28,answer_lookup,What is the Inconsistency of the respondent from the Intern group who rated Need_to_Learn_Before_Use as 1 and Ease_of_Use as 4?,1
+case_29,answer_lookup,What is the Inconsistency of the respondent from the Junior group with the highest Ease_of_Use score?,2
+case_30,answer_lookup,What is the Frequent_Usage of the respondent from the Middle group who rated Need_to_Learn_Before_Use as 1 and Integration_of_Functions as 5?,5
+case_31,answer_lookup,What is the Frequent_Usage of the respondent from the Senior group who rated Need_to_Learn_Before_Use as 1 and Need_for_Technical_Support as 1?,5
+case_32,answer_lookup,What is the Confidence_in_Use of the respondent from the Intern group with the highest Cumbersome_to_Use score?,2
+case_33,answer_lookup,What is the Frequent_Usage of the respondent from the Senior group with the lowest Integration_of_Functions score?,1
+case_34,answer_lookup,What is the Need_for_Technical_Support of the respondent from the Intern group who rated Ease_of_Use as 5 and Need_to_Learn_Before_Use as 1?,1
+case_35,answer_lookup,What is the Group of the respondent whose combined score for Inconsistency and System_Complexity was exactly 2?,Middle
+case_36,answer_lookup,What is the Inconsistency of the respondent from the Junior group with the highest Integration_of_Functions score?,1
+case_37,answer_lookup,What is the Need_to_Learn_Before_Use of the respondent from the Middle group with the lowest Confidence_in_Use score?,5
+case_38,answer_lookup,What is the Confidence_in_Use of the respondent whose combined score for System_Complexity and Integration_of_Functions was exactly 5?,4
+case_39,answer_lookup,What is the Group of the respondent from the Intern group who rated Ease_of_Use as 3 and Inconsistency as 4?,Intern
+case_40,answer_lookup,What is the Frequent_Usage of the respondent from the Junior group who rated Need_to_Learn_Before_Use as 1 and Inconsistency as 2?,4
+case_41,answer_lookup,What is the Integration_of_Functions of the respondent from the Intern group whose System_Complexity is higher than the average System_Complexity for the Junior group in this case?,5
+case_42,answer_lookup,What is the Inconsistency of the respondent from the Junior group whose Need_for_Technical_Support is lower than the average Need_for_Technical_Support for the Intern group in this case?,1
+case_43,answer_lookup,What is the Confidence_in_Use of the respondent from the Senior group with the highest Inconsistency score?,4
+case_44,answer_lookup,What is the Need_to_Learn_Before_Use of the respondent whose combined score for Confidence_in_Use and Ease_of_Learning was exactly 10?,1
+case_45,answer_lookup,What is the Group of the respondent from the Senior group who rated Cumbersome_to_Use as 1 and Need_for_Technical_Support as 5?,Senior
+case_46,answer_lookup,What is the Cumbersome_to_Use of the respondent from the Senior group who rated Confidence_in_Use as 5 and Integration_of_Functions as 5?,1
+case_47,answer_lookup,What is the Need_to_Learn_Before_Use of the respondent from the Senior group whose Integration_of_Functions is lower than the average Integration_of_Functions for the Intern group in this case?,1
+case_48,answer_lookup,What is the Inconsistency of the respondent from the Middle group whose System_Complexity is higher than the average System_Complexity for the Intern group in this case?,4
+case_49,answer_lookup,What is the Inconsistency of the respondent from the Middle group who rated Integration_of_Functions as 5 and Inconsistency as 1?,1
+case_50,answer_lookup,What is the Integration_of_Functions of the respondent from the Intern group with the lowest Ease_of_Use score?,2

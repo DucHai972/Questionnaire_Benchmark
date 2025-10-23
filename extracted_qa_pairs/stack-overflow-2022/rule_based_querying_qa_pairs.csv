@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"['72976', '72759']"
+case_2,rule_based_querying,Which respondents have a 'CompTotal' greater than 206000?,"['448', '73030']"
+case_3,rule_based_querying,List all respondents from 'Sweden' whose 'YearsCode' is less than 15.,[]
+case_4,rule_based_querying,List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.,[]
+case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"['401', '309', '122', '73007', '308']"
+case_6,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"['72681', '539']"
+case_7,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"['471', '72987', '73090', '72836']"
+case_8,rule_based_querying,List all respondents from 'Israel' whose 'YearsCodePro' is less than 12.,['29106']
+case_9,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 2 and 7.,"['448', '72647', '487', '73142', '73013', '72683', '383']"
+case_10,rule_based_querying,List all respondents from 'Austria' whose 'CompTotal' is less than 73500.,"['29060', '168']"
+case_11,rule_based_querying,Which respondents have a 'CompTotal' greater than 45000?,"['72725', '194', '168']"
+case_12,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"['72784', '72913', '29061', '468']"
+case_13,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"['72927', '73128', '469', '72801', '29098', '143']"
+case_14,rule_based_querying,Find all respondents whose 'CompTotal' is between 118800 and 254700.,['484']
+case_15,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"['245', '73070', '72796']"
+case_16,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 15?,['222']
+case_17,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 2 and 12.,"['29115', '73196', '489', '491', '29111', '72965']"
+case_18,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 5?,"['238', '72700', '486', '539']"
+case_19,rule_based_querying,List all respondents from 'Poland' whose 'YearsCode' is less than 15.,['72932']
+case_20,rule_based_querying,Which respondents have a 'CompTotal' greater than 95000?,"['379', '375', '72898']"
+case_21,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 10?,"['72891', '73136', '235', '73075']"
+case_22,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"['72909', '179', '73023']"
+case_23,rule_based_querying,Find all respondents whose 'CompTotal' is between 46320 and 176580.,"['157', '72719', '73073']"
+case_24,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"['72905', '72904', '73143', '73010']"
+case_25,rule_based_querying,Which respondents have a 'CompTotal' greater than 58500?,"['72669', '215', '308', '240', '355']"
+case_26,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"['72751', '224']"
+case_27,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"['413', '72915', '72592']"
+case_28,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 135000.,"['73043', '222', '73259', '29115', '29154']"
+case_29,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 63500.,"['73050', '72730', '72825', '72763', '73217']"
+case_30,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,['73093']
+case_31,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 93000.,"['255', '268', '263', '73148', '338', '72683']"
+case_32,rule_based_querying,Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?,[]
+case_33,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"['73190', '255']"
+case_34,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 120000.,"['72813', '447', '73064', '73142']"
+case_35,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"['123', '73196', '72973']"
+case_36,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 164000.,"['382', '317', '72970', '72803', '73107', '72815']"
+case_37,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 106500.,"['72826', '407', '72594', '73020', '404', '29124']"
+case_38,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 220000.,"['72877', '152', '29106', '312']"
+case_39,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 314000.,"['245', '73085', '72913', '459', '73262']"
+case_40,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"['224', '72964', '489', '202', '29154', '215']"
+case_41,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,['508']
+case_42,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,['73030']
+case_43,rule_based_querying,List all respondents whose 'YearsCode' is within 25% of the highest 'YearsCode' in their edlevel.,"['72651', '73191', '529']"
+case_44,rule_based_querying,Find all respondents whose 'YearsCodePro' is greater than the average 'YearsCodePro' for their edlevel.,"['73217', '361', '469', '393', '72634', '73101']"
+case_45,rule_based_querying,List all respondents whose 'CompTotal' is within 10% of the highest 'CompTotal' in their country.,"['395', '72710', '52', '73069', '203', '29071', '73101', '382', '72927']"
+case_46,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"['547', '72731']"
+case_47,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"['29115', '72969']"
+case_48,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"['73150', '486']"
+case_49,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"['306', '547']"
+case_50,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,['29141']

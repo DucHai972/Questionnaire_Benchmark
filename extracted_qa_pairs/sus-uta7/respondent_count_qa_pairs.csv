@@ -1,0 +1,51 @@
+case_id,task,question,expected_answer
+case_1,respondent_count,Count the respondents who are in the 'Intern' group.,1
+case_2,respondent_count,Count the respondents who are in the 'Middle' group.,3
+case_3,respondent_count,Count the respondents who are in the 'Middle' group.,2
+case_4,respondent_count,Count the respondents from the 'Junior' group who rated 'Need_to_Learn_Before_Use' as 1.,0
+case_5,respondent_count,Count the respondents who are in the 'Senior' group.,3
+case_6,respondent_count,Count the respondents who are in the 'Intern' group.,1
+case_7,respondent_count,Count the respondents who rated 'Frequent_Usage' as 1.,1
+case_8,respondent_count,Count the respondents from the 'Intern' group who rated 'Inconsistency' as 1.,2
+case_9,respondent_count,Count the respondents who rated 'Confidence_in_Use' as 2.,0
+case_10,respondent_count,Count the respondents who are in the 'Intern' group.,1
+case_11,respondent_count,Count the respondents from the 'Junior' group who rated 'Ease_of_Learning' as 5.,1
+case_12,respondent_count,Count the respondents who are in the 'Senior' group.,2
+case_13,respondent_count,Count the respondents from the 'Senior' group who rated 'Ease_of_Learning' as 5.,1
+case_14,respondent_count,Count the respondents who are in the 'Junior' group.,4
+case_15,respondent_count,Count the respondents from the 'Intern' group who rated 'Frequent_Usage' as 4.,0
+case_16,respondent_count,Count the respondents who rated 'Integration_of_Functions' as 1.,1
+case_17,respondent_count,Count the respondents who are in the 'Senior' group.,2
+case_18,respondent_count,Count the respondents from the 'Junior' group who rated 'Confidence_in_Use' as 3.,0
+case_19,respondent_count,Count the respondents who are in the 'Senior' group.,4
+case_20,respondent_count,Count the respondents from the 'Middle' group who rated 'Ease_of_Use' as 3.,1
+case_21,respondent_count,Count the respondents who are in the 'Middle' group.,4
+case_22,respondent_count,Count the respondents from the 'Junior' group who rated 'Cumbersome_to_Use' as 4.,0
+case_23,respondent_count,Count the respondents who are in the 'Senior' group.,5
+case_24,respondent_count,Count the respondents who rated 'Cumbersome_to_Use' as 1.,2
+case_25,respondent_count,Count the respondents who rated 'Need_to_Learn_Before_Use' as 2.,0
+case_26,respondent_count,Count the respondents whose combined score for 'Ease_of_Use' and 'System_Complexity' is less than 6.,0
+case_27,respondent_count,Count the respondents from the 'Intern' group who rated 'System_Complexity' as 2 and 'Integration_of_Functions' as 5.,0
+case_28,respondent_count,Count the respondents whose combined score for 'Frequent_Usage' and 'Need_to_Learn_Before_Use' is less than 5.,2
+case_29,respondent_count,Count the respondents who rated 'Need_to_Learn_Before_Use' and 'Inconsistency' with the same score.,7
+case_30,respondent_count,Count the respondents from the 'Middle' group who rated 'System_Complexity' as 2 and 'Cumbersome_to_Use' as 4.,0
+case_31,respondent_count,Count the respondents from the 'Middle' group who rated 'System_Complexity' as 3 and 'Inconsistency' as 1.,0
+case_32,respondent_count,Count the respondents whose combined score for 'Frequent_Usage' and 'System_Complexity' is less than 8.,9
+case_33,respondent_count,Count the respondents whose combined score for 'Cumbersome_to_Use' and 'System_Complexity' is less than 4.,5
+case_34,respondent_count,Count the respondents from the 'Senior' group who rated 'Ease_of_Learning' as 4 and 'Frequent_Usage' as 2.,1
+case_35,respondent_count,Count the respondents from the 'Junior' group who rated 'Cumbersome_to_Use' as 1 and 'System_Complexity' as 1.,1
+case_36,respondent_count,Count the respondents who rated 'Ease_of_Learning' and 'Inconsistency' with the same score.,1
+case_37,respondent_count,Count the respondents who rated 'Inconsistency' and 'Ease_of_Use' with the same score.,0
+case_38,respondent_count,Count the respondents who rated 'Integration_of_Functions' and 'Inconsistency' with the same score.,1
+case_39,respondent_count,Count the respondents who rated 'Frequent_Usage' and 'System_Complexity' with the same score.,3
+case_40,respondent_count,Count the respondents who rated 'Need_to_Learn_Before_Use' and 'Integration_of_Functions' with the same score.,0
+case_41,respondent_count,Count the respondents who have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents not in their group.,3
+case_42,respondent_count,Count the respondents who have a 'System_Complexity' score that is higher than the average 'System_Complexity' score for their group.,3
+case_43,respondent_count,Count the respondents who have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents not in their group.,4
+case_44,respondent_count,Count the respondents who have a 'Integration_of_Functions' score that is higher than the average 'Integration_of_Functions' score for their group.,3
+case_45,respondent_count,Count the respondents who have a 'Confidence_in_Use' score that is higher than the average 'Confidence_in_Use' score for their group.,4
+case_46,respondent_count,Count the respondents who have a 'Integration_of_Functions' score that is higher than the average 'Integration_of_Functions' score for their group.,2
+case_47,respondent_count,Count the respondents in the 'Junior' group who have a 'Cumbersome_to_Use' score that is higher than the average 'Cumbersome_to_Use' for the 'Middle' group.,0
+case_48,respondent_count,Count the respondents who have a 'Ease_of_Use' score that is higher than the average 'Ease_of_Use' score for their group.,3
+case_49,respondent_count,Count the respondents who have a 'Need_for_Technical_Support' score that is higher than the average 'Need_for_Technical_Support' score for their group.,2
+case_50,respondent_count,Count the respondents who have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents not in their group.,3

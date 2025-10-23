@@ -36,42 +36,64 @@ class RobustCSVParserImproved:
     
     def parse_file(self, file_path):
         """
-        Parse a malformed CSV file and return proper records.
-        
+        Parse a CSV file and return proper records with correct quote unescaping.
+
+        This now uses Python's standard csv module which properly handles CSV escaping.
+        Falls back to manual parsing only if standard parsing fails.
+
         Args:
             file_path (str): Path to the CSV file
-            
+
         Returns:
             list: List of dictionaries representing rows
         """
+        # FIRST: Try standard CSV parser (handles escaping correctly)
+        try:
+            import csv
+            records = []
+            with open(file_path, 'r', encoding='utf-8', newline='') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    # Only accept rows with valid case_id
+                    if row.get('case_id', '').strip().startswith('case_'):
+                        records.append(dict(row))
+
+            if records:
+                print(f"Successfully parsed {len(records)} records from {file_path} using standard CSV parser")
+                return records
+        except Exception as e:
+            print(f"Standard CSV parser failed for {file_path}: {e}")
+            print(f"Falling back to manual parsing...")
+
+        # FALLBACK: Manual parsing for truly corrupted files
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
-            
+
             # Split by lines and find record boundaries
             lines = content.split('\n')
-            
+
             # First line should be the header
             if not lines or not lines[0].startswith('case_id'):
                 raise ValueError(f"Invalid header in {file_path}")
-            
+
             header = lines[0].strip()
             expected_header = ','.join(self.expected_columns)
             if header != expected_header:
                 print(f"Warning: Header mismatch in {file_path}")
                 print(f"Expected: {expected_header}")
                 print(f"Found: {header}")
-            
+
             # Find all case_id lines (record starts)
             record_starts = []
             for i, line in enumerate(lines[1:], 1):  # Skip header
                 if line.startswith('case_'):
                     record_starts.append(i)
-            
+
             if not record_starts:
                 print(f"Warning: No case records found in {file_path}")
                 return []
-            
+
             # Parse each record
             records = []
             for i, start_idx in enumerate(record_starts):
@@ -80,22 +102,49 @@ class RobustCSVParserImproved:
                     end_idx = record_starts[i + 1]
                 else:
                     end_idx = len(lines)
-                
+
                 # Extract record content
                 record_lines = lines[start_idx:end_idx]
                 record_content = '\n'.join(record_lines).strip()
-                
+
                 # Parse the record
                 record = self._parse_record(record_content, file_path, start_idx)
                 if record:
+                    # IMPORTANT: Unescape CSV quotes
+                    for key, value in record.items():
+                        if isinstance(value, str):
+                            record[key] = self._unescape_csv_quotes(value)
                     records.append(record)
-            
-            print(f"Successfully parsed {len(records)} records from {file_path}")
+
+            print(f"Successfully parsed {len(records)} records from {file_path} using manual parser")
             return records
-            
+
         except Exception as e:
             print(f"Error parsing {file_path}: {e}")
             return []
+
+    def _unescape_csv_quotes(self, value):
+        """
+        Unescape CSV quotes according to RFC 4180.
+        In CSV, "" inside a quoted field represents a single ".
+
+        Args:
+            value (str): Value potentially with escaped quotes
+
+        Returns:
+            str: Value with quotes unescaped
+        """
+        if not value:
+            return value
+
+        # Remove outer quotes if present
+        if value.startswith('"') and value.endswith('"') and len(value) >= 2:
+            value = value[1:-1]
+
+        # Replace doubled quotes with single quotes
+        value = value.replace('""', '"')
+
+        return value
     
     def _parse_record(self, record_content, file_path, line_num):
         """
