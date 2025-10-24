@@ -1,0 +1,3366 @@
+case_id,task,question,questionnaire,expected_answer,prompt,Response,Correct
+case_41,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""364"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 46000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""242"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""31"",
+        ""YearsCodePro"": ""22"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 250000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Clojure"",
+        ""LanguageWantToWorkWith"": ""C;Clojure;Julia"",
+        ""ToolsTechHaveWorkedWith"": ""Homebrew;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""189"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, full-stack;Engineering manager;Cloud infrastructure engineer;Security professional"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;JavaScript;PHP;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""133"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, mobile"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Slovakia"",
+        ""CompTotal"": 1680.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;C++;Dart;Go;Java;JavaScript;Solidity;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C++;Dart;Elixir;Go;Java;JavaScript;Solidity;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""397"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""19"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""Russian Federation"",
+        ""CompTotal"": 6500.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;PHP"",
+        ""LanguageWantToWorkWith"": ""Ruby"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73195"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, front-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 180000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;PowerShell;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""508"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""2"",
+        ""YearsCodePro"": ""1"",
+        ""DevType"": ""Developer, desktop or enterprise applications;Database administrator"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Costa Rica"",
+        ""CompTotal"": 800000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;C++;Python;SQL;Swift;VBA"",
+        ""LanguageWantToWorkWith"": ""C#;C++;Go;HTML/CSS;JavaScript;Kotlin;Python;SQL;Swift;TypeScript;VBA"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73087"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""['A', 'C']"",
+        ""EdLevel"": ""H"",
+        ""YearsCode"": ""43"",
+        ""YearsCodePro"": ""25"",
+        ""DevType"": ""Data scientist or machine learning specialist;Developer, full-stack;Educator"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 125000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Assembly;C;PHP;Python;R;SQL"",
+        ""LanguageWantToWorkWith"": ""C;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72802"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""I don\u2019t know"",
+        ""Country"": ""Bulgaria"",
+        ""CompTotal"": 7200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Haskell;HTML/CSS;JavaScript;LISP;Python;Scala;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""29049"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""17"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, front-end;Engineer, data;Other (please specify):;Data or business analyst"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 5000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""APL;Assembly;Bash/Shell;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""Go;Java"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""365"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Engineering manager"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""Israel"",
+        ""CompTotal"": 52000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Clojure;Python;Ruby;Scala"",
+        ""LanguageWantToWorkWith"": ""Clojure;Go;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}",['508'],"<example>
+Find all respondents whose 'YearsCodePro' is between 5 and 15.
+
+DATA:
+
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""364"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 46000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""242"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""31"",
+        ""YearsCodePro"": ""22"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 250000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Clojure"",
+        ""LanguageWantToWorkWith"": ""C;Clojure;Julia"",
+        ""ToolsTechHaveWorkedWith"": ""Homebrew;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""189"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, full-stack;Engineering manager;Cloud infrastructure engineer;Security professional"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;JavaScript;PHP;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""133"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, mobile"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Slovakia"",
+        ""CompTotal"": 1680.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;C++;Dart;Go;Java;JavaScript;Solidity;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C++;Dart;Elixir;Go;Java;JavaScript;Solidity;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""397"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""19"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""Russian Federation"",
+        ""CompTotal"": 6500.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;PHP"",
+        ""LanguageWantToWorkWith"": ""Ruby"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73195"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, front-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 180000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;PowerShell;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""508"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""2"",
+        ""YearsCodePro"": ""1"",
+        ""DevType"": ""Developer, desktop or enterprise applications;Database administrator"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Costa Rica"",
+        ""CompTotal"": 800000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;C++;Python;SQL;Swift;VBA"",
+        ""LanguageWantToWorkWith"": ""C#;C++;Go;HTML/CSS;JavaScript;Kotlin;Python;SQL;Swift;TypeScript;VBA"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73087"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""['A', 'C']"",
+        ""EdLevel"": ""H"",
+        ""YearsCode"": ""43"",
+        ""YearsCodePro"": ""25"",
+        ""DevType"": ""Data scientist or machine learning specialist;Developer, full-stack;Educator"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 125000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Assembly;C;PHP;Python;R;SQL"",
+        ""LanguageWantToWorkWith"": ""C;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72802"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""I don\u2019t know"",
+        ""Country"": ""Bulgaria"",
+        ""CompTotal"": 7200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Haskell;HTML/CSS;JavaScript;LISP;Python;Scala;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""29049"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""17"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, front-end;Engineer, data;Other (please specify):;Data or business analyst"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 5000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""APL;Assembly;Bash/Shell;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""Go;Java"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""365"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Engineering manager"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""Israel"",
+        ""CompTotal"": 52000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Clojure;Python;Ruby;Scala"",
+        ""LanguageWantToWorkWith"": ""Clojure;Go;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+
+Answer: ['72976', '72759']
+</example>
+
+<questionnaire>
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""364"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 46000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""242"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""31"",
+        ""YearsCodePro"": ""22"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 250000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Clojure"",
+        ""LanguageWantToWorkWith"": ""C;Clojure;Julia"",
+        ""ToolsTechHaveWorkedWith"": ""Homebrew;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""189"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, full-stack;Engineering manager;Cloud infrastructure engineer;Security professional"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;JavaScript;PHP;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""133"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, mobile"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Slovakia"",
+        ""CompTotal"": 1680.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;C++;Dart;Go;Java;JavaScript;Solidity;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C++;Dart;Elixir;Go;Java;JavaScript;Solidity;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""397"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""19"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""Russian Federation"",
+        ""CompTotal"": 6500.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;PHP"",
+        ""LanguageWantToWorkWith"": ""Ruby"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73195"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, front-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 180000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;PowerShell;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""508"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""2"",
+        ""YearsCodePro"": ""1"",
+        ""DevType"": ""Developer, desktop or enterprise applications;Database administrator"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Costa Rica"",
+        ""CompTotal"": 800000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;C++;Python;SQL;Swift;VBA"",
+        ""LanguageWantToWorkWith"": ""C#;C++;Go;HTML/CSS;JavaScript;Kotlin;Python;SQL;Swift;TypeScript;VBA"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73087"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""['A', 'C']"",
+        ""EdLevel"": ""H"",
+        ""YearsCode"": ""43"",
+        ""YearsCodePro"": ""25"",
+        ""DevType"": ""Data scientist or machine learning specialist;Developer, full-stack;Educator"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 125000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Assembly;C;PHP;Python;R;SQL"",
+        ""LanguageWantToWorkWith"": ""C;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72802"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""I don\u2019t know"",
+        ""Country"": ""Bulgaria"",
+        ""CompTotal"": 7200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Haskell;HTML/CSS;JavaScript;LISP;Python;Scala;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""29049"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""17"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, front-end;Engineer, data;Other (please specify):;Data or business analyst"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 5000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""APL;Assembly;Bash/Shell;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""Go;Java"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""365"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Engineering manager"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""Israel"",
+        ""CompTotal"": 52000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Clojure;Python;Ruby;Scala"",
+        ""LanguageWantToWorkWith"": ""Clojure;Go;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+</questionnaire>
+
+<role>
+You are a meticulous data analyst AI. Your primary function is to accurately analyze structured data and provide precise, verifiable answers.
+
+</role>
+
+<format>
+You will be given a dataset with two key parts:
+
+A 'questions' section: This is your data dictionary or schema. It is the single source of truth for understanding what each field and score means. Refer to it carefully.
+
+A 'responses' section: This contains the raw data from each individual respondent.
+
+To answer the question correctly, you must first use the 'questions' schema to fully understand the context and meaning of the data points within the 'responses'. Do not rely on any prior knowledge outside of this provided data. Base your entire analysis on the information given.
+
+</format>
+
+<output>
+Provide your final answer directly and concisely. Output must be the human-readable value, not an option code.
+
+Rules:
+- For MCQ fields, map any letter codes in the Responses (case-insensitive) to the corresponding option text from the Questions schema, and output only that text. Do NOT include the letter or both.
+  Example: If the schema is ""[MCQ: A. Abnormal B. Inconclusive C. Normal]"" and the response is ""a"", output ""Abnormal"".
+- For open-ended fields, output the exact text value.
+- If the question asks for a count, provide only the number (e.g., ""42"").
+- If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
+- Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
+
+</output>
+
+<task>
+Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?
+</task>",508,False
+case_46,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""486"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2800000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""123"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Poland"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;Haskell;JavaScript;Python;Rust;SQL"",
+        ""LanguageWantToWorkWith"": ""Haskell;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""547"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, desktop or enterprise applications;Educator;Engineering manager"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 300000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""134"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, back-end;DevOps specialist"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Belgium"",
+        ""CompTotal"": 7200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72746"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""3"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, front-end"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""China"",
+        ""CompTotal"": 439000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;Java;JavaScript;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72739"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Engineering manager"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 180000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C++;Python"",
+        ""LanguageWantToWorkWith"": ""Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""300"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Hungary"",
+        ""CompTotal"": 1000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Erlang"",
+        ""LanguageWantToWorkWith"": ""Elixir;Erlang;Java;Python;Rust;Scala;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""479"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""4"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, full-stack;Educator"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;Python;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;JavaScript;Kotlin;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72731"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;Engineering manager"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 280000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Java;JavaScript;Python;Scala;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python;R;Scala;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""396"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""['A', 'C']"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""28"",
+        ""YearsCodePro"": ""34"",
+        ""DevType"": ""Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Delphi;HTML/CSS;PowerShell;Python;Ruby;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Delphi;Python;Ruby;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""162"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Engineer, data;Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Python;Rust"",
+        ""LanguageWantToWorkWith"": ""Rust"",
+        ""ToolsTechHaveWorkedWith"": ""Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}","""['547', '72731']""","<example>
+Find all respondents whose 'YearsCodePro' is between 5 and 15.
+
+DATA:
+
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""486"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2800000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""123"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Poland"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;Haskell;JavaScript;Python;Rust;SQL"",
+        ""LanguageWantToWorkWith"": ""Haskell;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""547"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, desktop or enterprise applications;Educator;Engineering manager"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 300000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""134"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, back-end;DevOps specialist"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Belgium"",
+        ""CompTotal"": 7200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72746"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""3"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, front-end"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""China"",
+        ""CompTotal"": 439000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;Java;JavaScript;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72739"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Engineering manager"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 180000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C++;Python"",
+        ""LanguageWantToWorkWith"": ""Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""300"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Hungary"",
+        ""CompTotal"": 1000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Erlang"",
+        ""LanguageWantToWorkWith"": ""Elixir;Erlang;Java;Python;Rust;Scala;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""479"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""4"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, full-stack;Educator"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;Python;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;JavaScript;Kotlin;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72731"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;Engineering manager"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 280000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Java;JavaScript;Python;Scala;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python;R;Scala;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""396"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""['A', 'C']"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""28"",
+        ""YearsCodePro"": ""34"",
+        ""DevType"": ""Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Delphi;HTML/CSS;PowerShell;Python;Ruby;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Delphi;Python;Ruby;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""162"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Engineer, data;Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Python;Rust"",
+        ""LanguageWantToWorkWith"": ""Rust"",
+        ""ToolsTechHaveWorkedWith"": ""Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+
+Answer: ['72976', '72759']
+</example>
+
+<questionnaire>
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""486"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2800000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""123"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Poland"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;Haskell;JavaScript;Python;Rust;SQL"",
+        ""LanguageWantToWorkWith"": ""Haskell;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""547"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, desktop or enterprise applications;Educator;Engineering manager"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 300000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""134"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, back-end;DevOps specialist"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Belgium"",
+        ""CompTotal"": 7200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72746"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""3"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, front-end"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""China"",
+        ""CompTotal"": 439000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;Java;JavaScript;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72739"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""16"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Engineering manager"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 180000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C++;Python"",
+        ""LanguageWantToWorkWith"": ""Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""300"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Hungary"",
+        ""CompTotal"": 1000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Erlang"",
+        ""LanguageWantToWorkWith"": ""Elixir;Erlang;Java;Python;Rust;Scala;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""479"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""4"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, full-stack;Educator"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;Python;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;JavaScript;Kotlin;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72731"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;Engineering manager"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 280000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Java;JavaScript;Python;Scala;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python;R;Scala;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""396"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""['A', 'C']"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""28"",
+        ""YearsCodePro"": ""34"",
+        ""DevType"": ""Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Delphi;HTML/CSS;PowerShell;Python;Ruby;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Delphi;Python;Ruby;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""162"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Engineer, data;Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 100000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Python;Rust"",
+        ""LanguageWantToWorkWith"": ""Rust"",
+        ""ToolsTechHaveWorkedWith"": ""Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+</questionnaire>
+
+<role>
+You are a meticulous data analyst AI. Your primary function is to accurately analyze structured data and provide precise, verifiable answers.
+
+</role>
+
+<format>
+You will be given a dataset with two key parts:
+
+A 'questions' section: This is your data dictionary or schema. It is the single source of truth for understanding what each field and score means. Refer to it carefully.
+
+A 'responses' section: This contains the raw data from each individual respondent.
+
+To answer the question correctly, you must first use the 'questions' schema to fully understand the context and meaning of the data points within the 'responses'. Do not rely on any prior knowledge outside of this provided data. Base your entire analysis on the information given.
+
+</format>
+
+<output>
+Provide your final answer directly and concisely. Output must be the human-readable value, not an option code.
+
+Rules:
+- For MCQ fields, map any letter codes in the Responses (case-insensitive) to the corresponding option text from the Questions schema, and output only that text. Do NOT include the letter or both.
+  Example: If the schema is ""[MCQ: A. Abnormal B. Inconclusive C. Normal]"" and the response is ""a"", output ""Abnormal"".
+- For open-ended fields, output the exact text value.
+- If the question asks for a count, provide only the number (e.g., ""42"").
+- If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
+- Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
+
+</output>
+
+<task>
+Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?
+</task>","486, 72731",False
+case_47,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""72664"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""25"",
+        ""YearsCodePro"": ""25"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;JavaScript;Perl;Python;Ruby;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Perl;Python;Ruby;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""29115"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, back-end;DevOps specialist;Cloud infrastructure engineer"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2000000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Java;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72969"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;DevOps specialist"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 147000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C++;Python"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C++;HTML/CSS;JavaScript;Python;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72728"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""14"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 200000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;C++;Dart;HTML/CSS;JavaScript;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;C++;Dart;F#;HTML/CSS;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""392"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""7"",
+        ""DevType"": ""Engineer, site reliability;Developer, back-end;DevOps specialist;System administrator"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Spain"",
+        ""CompTotal"": 60000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Go;Groovy;HTML/CSS;Java;JavaScript;Kotlin;Ruby;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73047"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;Developer, QA or test;DevOps specialist;Security professional"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 90000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;Python"",
+        ""LanguageWantToWorkWith"": ""Assembly;Go;HTML/CSS;JavaScript;Kotlin"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72813"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""23"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72867"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""C"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Engineer, data;Database administrator"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 8000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Assembly;Bash/Shell;C;HTML/CSS;Java;JavaScript;PowerShell;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""PowerShell;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72799"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""14"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 90000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C;C#;C++;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""['A', 'Other (please specify):']""
+      }
+    },
+    {
+      ""respondent"": ""211"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""18"",
+        ""YearsCodePro"": ""18"",
+        ""DevType"": ""Developer, full-stack;Product manager"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 207000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C#;Dart;Haskell;HTML/CSS;Java;JavaScript;Kotlin;Objective-C;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C#;F#;Go;HTML/CSS;JavaScript;Rust;Swift"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Pulumi;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""223"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""China"",
+        ""CompTotal"": 55000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;Go;HTML/CSS;JavaScript;PowerShell;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;F#;HTML/CSS;JavaScript;PowerShell;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}","""['29115', '72969']""","<example>
+Find all respondents whose 'YearsCodePro' is between 5 and 15.
+
+DATA:
+
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""72664"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""25"",
+        ""YearsCodePro"": ""25"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;JavaScript;Perl;Python;Ruby;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Perl;Python;Ruby;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""29115"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, back-end;DevOps specialist;Cloud infrastructure engineer"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2000000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Java;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72969"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;DevOps specialist"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 147000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C++;Python"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C++;HTML/CSS;JavaScript;Python;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72728"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""14"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 200000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;C++;Dart;HTML/CSS;JavaScript;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;C++;Dart;F#;HTML/CSS;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""392"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""7"",
+        ""DevType"": ""Engineer, site reliability;Developer, back-end;DevOps specialist;System administrator"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Spain"",
+        ""CompTotal"": 60000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Go;Groovy;HTML/CSS;Java;JavaScript;Kotlin;Ruby;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73047"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;Developer, QA or test;DevOps specialist;Security professional"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 90000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;Python"",
+        ""LanguageWantToWorkWith"": ""Assembly;Go;HTML/CSS;JavaScript;Kotlin"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72813"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""23"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72867"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""C"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Engineer, data;Database administrator"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 8000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Assembly;Bash/Shell;C;HTML/CSS;Java;JavaScript;PowerShell;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""PowerShell;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72799"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""14"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 90000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C;C#;C++;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""['A', 'Other (please specify):']""
+      }
+    },
+    {
+      ""respondent"": ""211"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""18"",
+        ""YearsCodePro"": ""18"",
+        ""DevType"": ""Developer, full-stack;Product manager"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 207000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C#;Dart;Haskell;HTML/CSS;Java;JavaScript;Kotlin;Objective-C;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C#;F#;Go;HTML/CSS;JavaScript;Rust;Swift"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Pulumi;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""223"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""China"",
+        ""CompTotal"": 55000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;Go;HTML/CSS;JavaScript;PowerShell;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;F#;HTML/CSS;JavaScript;PowerShell;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+
+Answer: ['72976', '72759']
+</example>
+
+<questionnaire>
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""72664"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""25"",
+        ""YearsCodePro"": ""25"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;JavaScript;Perl;Python;Ruby;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Perl;Python;Ruby;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""29115"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, back-end;DevOps specialist;Cloud infrastructure engineer"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2000000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Java;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72969"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;DevOps specialist"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 147000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C++;Python"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C++;HTML/CSS;JavaScript;Python;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72728"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""14"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 200000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;C++;Dart;HTML/CSS;JavaScript;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;C++;Dart;F#;HTML/CSS;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""392"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""12"",
+        ""YearsCodePro"": ""7"",
+        ""DevType"": ""Engineer, site reliability;Developer, back-end;DevOps specialist;System administrator"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Spain"",
+        ""CompTotal"": 60000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Go;Groovy;HTML/CSS;Java;JavaScript;Kotlin;Ruby;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;npm;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73047"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, back-end;Developer, QA or test;DevOps specialist;Security professional"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 90000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;Python"",
+        ""LanguageWantToWorkWith"": ""Assembly;Go;HTML/CSS;JavaScript;Kotlin"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Kubernetes"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72813"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""23"",
+        ""YearsCodePro"": ""15"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;Go;HTML/CSS;JavaScript;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72867"",
+      ""answers"": {
+        ""MainBranch"": ""B"",
+        ""Employment"": ""C"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Engineer, data;Database administrator"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 8000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Assembly;Bash/Shell;C;HTML/CSS;Java;JavaScript;PowerShell;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""PowerShell;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Kubernetes;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72799"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""14"",
+        ""YearsCodePro"": ""10"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""Canada"",
+        ""CompTotal"": 90000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C;C#;C++;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""HTML/CSS;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""['A', 'Other (please specify):']""
+      }
+    },
+    {
+      ""respondent"": ""211"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""18"",
+        ""YearsCodePro"": ""18"",
+        ""DevType"": ""Developer, full-stack;Product manager"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 207000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C#;Dart;Haskell;HTML/CSS;Java;JavaScript;Kotlin;Objective-C;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C#;F#;Go;HTML/CSS;JavaScript;Rust;Swift"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Pulumi;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""223"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""China"",
+        ""CompTotal"": 55000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;Go;HTML/CSS;JavaScript;PowerShell;TypeScript"",
+        ""LanguageWantToWorkWith"": ""C#;F#;HTML/CSS;JavaScript;PowerShell;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+</questionnaire>
+
+<role>
+You are a meticulous data analyst AI. Your primary function is to accurately analyze structured data and provide precise, verifiable answers.
+
+</role>
+
+<format>
+You will be given a dataset with two key parts:
+
+A 'questions' section: This is your data dictionary or schema. It is the single source of truth for understanding what each field and score means. Refer to it carefully.
+
+A 'responses' section: This contains the raw data from each individual respondent.
+
+To answer the question correctly, you must first use the 'questions' schema to fully understand the context and meaning of the data points within the 'responses'. Do not rely on any prior knowledge outside of this provided data. Base your entire analysis on the information given.
+
+</format>
+
+<output>
+Provide your final answer directly and concisely. Output must be the human-readable value, not an option code.
+
+Rules:
+- For MCQ fields, map any letter codes in the Responses (case-insensitive) to the corresponding option text from the Questions schema, and output only that text. Do NOT include the letter or both.
+  Example: If the schema is ""[MCQ: A. Abnormal B. Inconclusive C. Normal]"" and the response is ""a"", output ""Abnormal"".
+- For open-ended fields, output the exact text value.
+- If the question asks for a count, provide only the number (e.g., ""42"").
+- If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
+- Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
+
+</output>
+
+<task>
+Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?
+</task>","29115, 72969",False
+case_48,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""529"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""4"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, mobile"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 60000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""JavaScript"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""492"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""6"",
+        ""DevType"": ""Data scientist or machine learning specialist;Developer, front-end;Developer, full-stack;Developer, back-end;Developer, mobile;DevOps specialist;Cloud infrastructure engineer;Blockchain"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Hong Kong (S.A.R.)"",
+        ""CompTotal"": 33000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C#;Dart;Go;HTML/CSS;JavaScript;Python;Solidity;SQL;Swift;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;HTML/CSS;JavaScript;Python;Rust;Solidity;SQL;Swift;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Pulumi;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73010"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""5"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Designer"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""Austria"",
+        ""CompTotal"": 3200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Elixir;HTML/CSS;JavaScript;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""448"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""C"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 10000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;C++;Go;HTML/CSS;Java;JavaScript;PHP;SQL;VBA"",
+        ""LanguageWantToWorkWith"": ""C;C#;C++;Java;JavaScript;Kotlin;PHP;Python;Solidity;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72735"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""6"",
+        ""DevType"": ""Engineer, data;Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 73000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Dart;Go;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Homebrew;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73150"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""22"",
+        ""YearsCodePro"": ""19"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Bangladesh"",
+        ""CompTotal"": 350000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;Kotlin;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Erlang;Rust"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""486"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2800000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72958"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Developer, desktop or enterprise applications;Database administrator;Developer, embedded applications or devices;Cloud infrastructure engineer"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 44000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C;C#;C++;HTML/CSS;JavaScript;PowerShell;Python;Rust;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C;C#;C++;Elixir;Erlang;HTML/CSS;JavaScript;PowerShell;Python;Rust;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Unity 3D;Unreal Engine"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}","""['73150', '486']""","<example>
+Find all respondents whose 'YearsCodePro' is between 5 and 15.
+
+DATA:
+
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""529"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""4"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, mobile"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 60000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""JavaScript"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""492"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""6"",
+        ""DevType"": ""Data scientist or machine learning specialist;Developer, front-end;Developer, full-stack;Developer, back-end;Developer, mobile;DevOps specialist;Cloud infrastructure engineer;Blockchain"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Hong Kong (S.A.R.)"",
+        ""CompTotal"": 33000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C#;Dart;Go;HTML/CSS;JavaScript;Python;Solidity;SQL;Swift;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;HTML/CSS;JavaScript;Python;Rust;Solidity;SQL;Swift;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Pulumi;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73010"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""5"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Designer"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""Austria"",
+        ""CompTotal"": 3200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Elixir;HTML/CSS;JavaScript;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""448"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""C"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 10000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;C++;Go;HTML/CSS;Java;JavaScript;PHP;SQL;VBA"",
+        ""LanguageWantToWorkWith"": ""C;C#;C++;Java;JavaScript;Kotlin;PHP;Python;Solidity;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72735"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""6"",
+        ""DevType"": ""Engineer, data;Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 73000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Dart;Go;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Homebrew;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73150"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""22"",
+        ""YearsCodePro"": ""19"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Bangladesh"",
+        ""CompTotal"": 350000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;Kotlin;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Erlang;Rust"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""486"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2800000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72958"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Developer, desktop or enterprise applications;Database administrator;Developer, embedded applications or devices;Cloud infrastructure engineer"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 44000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C;C#;C++;HTML/CSS;JavaScript;PowerShell;Python;Rust;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C;C#;C++;Elixir;Erlang;HTML/CSS;JavaScript;PowerShell;Python;Rust;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Unity 3D;Unreal Engine"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+
+Answer: ['72976', '72759']
+</example>
+
+<questionnaire>
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""529"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""4"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, mobile"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 60000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""JavaScript"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;JavaScript;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""492"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""7"",
+        ""YearsCodePro"": ""6"",
+        ""DevType"": ""Data scientist or machine learning specialist;Developer, front-end;Developer, full-stack;Developer, back-end;Developer, mobile;DevOps specialist;Cloud infrastructure engineer;Blockchain"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Hong Kong (S.A.R.)"",
+        ""CompTotal"": 33000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C#;Dart;Go;HTML/CSS;JavaScript;Python;Solidity;SQL;Swift;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;HTML/CSS;JavaScript;Python;Rust;Solidity;SQL;Swift;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Pulumi;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73010"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""5"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Designer"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""Austria"",
+        ""CompTotal"": 3200.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Elixir;HTML/CSS;JavaScript;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""448"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""C"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""2 to 9 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 10000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;C++;Go;HTML/CSS;Java;JavaScript;PHP;SQL;VBA"",
+        ""LanguageWantToWorkWith"": ""C;C#;C++;Java;JavaScript;Kotlin;PHP;Python;Solidity;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72735"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""10"",
+        ""YearsCodePro"": ""6"",
+        ""DevType"": ""Engineer, data;Developer, back-end"",
+        ""OrgSize"": ""10,000 or more employees"",
+        ""Country"": ""Germany"",
+        ""CompTotal"": 73000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Dart;Go;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Dart;Go;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;Homebrew;Terraform"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""73150"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""22"",
+        ""YearsCodePro"": ""19"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Bangladesh"",
+        ""CompTotal"": 350000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;Java;JavaScript;Kotlin;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Erlang;Rust"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""486"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""8"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack"",
+        ""OrgSize"": ""1,000 to 4,999 employees"",
+        ""Country"": ""India"",
+        ""CompTotal"": 2800000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72958"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""5"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Developer, desktop or enterprise applications;Database administrator;Developer, embedded applications or devices;Cloud infrastructure engineer"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 44000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;C;C#;C++;HTML/CSS;JavaScript;PowerShell;Python;Rust;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;C;C#;C++;Elixir;Erlang;HTML/CSS;JavaScript;PowerShell;Python;Rust;SQL;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;Kubernetes;npm;Unity 3D;Unreal Engine"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+</questionnaire>
+
+<role>
+You are a meticulous data analyst AI. Your primary function is to accurately analyze structured data and provide precise, verifiable answers.
+
+</role>
+
+<format>
+You will be given a dataset with two key parts:
+
+A 'questions' section: This is your data dictionary or schema. It is the single source of truth for understanding what each field and score means. Refer to it carefully.
+
+A 'responses' section: This contains the raw data from each individual respondent.
+
+To answer the question correctly, you must first use the 'questions' schema to fully understand the context and meaning of the data points within the 'responses'. Do not rely on any prior knowledge outside of this provided data. Base your entire analysis on the information given.
+
+</format>
+
+<output>
+Provide your final answer directly and concisely. Output must be the human-readable value, not an option code.
+
+Rules:
+- For MCQ fields, map any letter codes in the Responses (case-insensitive) to the corresponding option text from the Questions schema, and output only that text. Do NOT include the letter or both.
+  Example: If the schema is ""[MCQ: A. Abnormal B. Inconclusive C. Normal]"" and the response is ""a"", output ""Abnormal"".
+- For open-ended fields, output the exact text value.
+- If the question asks for a count, provide only the number (e.g., ""42"").
+- If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
+- Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
+
+</output>
+
+<task>
+Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?
+</task>","486, 73150",False
+case_49,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""306"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""3"",
+        ""YearsCodePro"": ""1"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Developer, desktop or enterprise applications;Designer"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 55000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript"",
+        ""LanguageWantToWorkWith"": ""C#;Go;HTML/CSS;JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72784"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Developer, back-end;Developer, desktop or enterprise applications;Designer"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 80000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;Java;JavaScript;LISP;PowerShell;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;Java;JavaScript;PowerShell;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Puppet"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72669"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""18"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""Czech Republic"",
+        ""CompTotal"": 67000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""547"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, desktop or enterprise applications;Educator;Engineering manager"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 300000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72659"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""40"",
+        ""YearsCodePro"": ""45"",
+        ""DevType"": ""Engineer, data"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Spain"",
+        ""CompTotal"": 21000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;Python;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Python;Scala;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""115"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""20"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer;System administrator"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;Kotlin;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""123"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Poland"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;Haskell;JavaScript;Python;Rust;SQL"",
+        ""LanguageWantToWorkWith"": ""Haskell;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""113"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Database administrator"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 70000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Go;HTML/CSS;JavaScript;Kotlin;PHP;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;PHP;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""238"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 36000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""JavaScript;PHP;Python;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;PHP;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}","""['306', '547']""","<example>
+Find all respondents whose 'YearsCodePro' is between 5 and 15.
+
+DATA:
+
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""306"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""3"",
+        ""YearsCodePro"": ""1"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Developer, desktop or enterprise applications;Designer"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 55000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript"",
+        ""LanguageWantToWorkWith"": ""C#;Go;HTML/CSS;JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72784"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Developer, back-end;Developer, desktop or enterprise applications;Designer"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 80000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;Java;JavaScript;LISP;PowerShell;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;Java;JavaScript;PowerShell;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Puppet"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72669"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""18"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""Czech Republic"",
+        ""CompTotal"": 67000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""547"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, desktop or enterprise applications;Educator;Engineering manager"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 300000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72659"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""40"",
+        ""YearsCodePro"": ""45"",
+        ""DevType"": ""Engineer, data"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Spain"",
+        ""CompTotal"": 21000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;Python;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Python;Scala;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""115"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""20"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer;System administrator"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;Kotlin;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""123"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Poland"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;Haskell;JavaScript;Python;Rust;SQL"",
+        ""LanguageWantToWorkWith"": ""Haskell;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""113"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Database administrator"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 70000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Go;HTML/CSS;JavaScript;Kotlin;PHP;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;PHP;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""238"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 36000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""JavaScript;PHP;Python;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;PHP;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+
+Answer: ['72976', '72759']
+</example>
+
+<questionnaire>
+{
+  ""questions"": {
+    ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
+    ""Employment"": ""Employment: Employment status [MCQ-Multi: A. Employed, full-time B. Employed, part-time C. Independent contractor, freelancer, or self-employed D. Not employed, but looking for work E. Not employed, and not looking for work F. Student, full-time G. Student, part-time H. Retired I. Prefer not to say]"",
+    ""EdLevel"": ""EdLevel: Highest level of education [MCQ: A. Primary/elementary school B. Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.) C. Some college/university study without earning a degree D. Associate degree (A.A., A.S., etc.) E. Bachelor's degree (B.A., B.S., B.Eng., etc.) F. Master's degree (M.A., M.S., M.Eng., MBA, etc.) G. Professional degree (JD, MD, etc.) H. Other doctoral degree (Ph.D., Ed.D., etc.) I. Something else]"",
+    ""YearsCode"": ""YearsCode: Total years of coding experience [Open-ended]"",
+    ""YearsCodePro"": ""YearsCodePro: Years of professional coding experience [Open-ended]"",
+    ""DevType"": ""DevType: Roles in development [Open-ended]"",
+    ""OrgSize"": ""OrgSize: Size of the organization they work in [Open-ended]"",
+    ""Country"": ""Country: Country of residence [Open-ended]"",
+    ""CompTotal"": ""CompTotal: Total compensation [Open-ended]"",
+    ""CompFreq"": ""CompFreq: Compensation frequency [MCQ: A. Weekly B. Monthly C. Yearly]"",
+    ""LanguageHaveWorkedWith"": ""LanguageHaveWorkedWith: Programming languages worked with [Open-ended]"",
+    ""LanguageWantToWorkWith"": ""LanguageWantToWorkWith: Programming languages they want to use [Open-ended]"",
+    ""ToolsTechHaveWorkedWith"": ""ToolsTechHaveWorkedWith: Developer tools used [Open-ended]"",
+    ""VersionControlSystem"": ""VersionControlSystem: Version control systems used [MCQ: A. Git B. Mercurial C. SVN D. I don't use one]""
+  },
+  ""responses"": [
+    {
+      ""respondent"": ""306"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""3"",
+        ""YearsCodePro"": ""1"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Developer, desktop or enterprise applications;Designer"",
+        ""OrgSize"": ""500 to 999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 55000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""C#;HTML/CSS;JavaScript"",
+        ""LanguageWantToWorkWith"": ""C#;Go;HTML/CSS;JavaScript;Python"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72784"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""6"",
+        ""YearsCodePro"": ""3"",
+        ""DevType"": ""Developer, front-end;Developer, back-end;Developer, desktop or enterprise applications;Designer"",
+        ""OrgSize"": ""5,000 to 9,999 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 80000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;Java;JavaScript;LISP;PowerShell;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;Java;JavaScript;PowerShell;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Puppet"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72669"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""18"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, full-stack"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""Czech Republic"",
+        ""CompTotal"": 67000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;SQL"",
+        ""LanguageWantToWorkWith"": ""JavaScript;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""547"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""8"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, desktop or enterprise applications;Educator;Engineering manager"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""Iran, Islamic Republic of..."",
+        ""CompTotal"": 300000000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;Rust;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""72659"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""C"",
+        ""YearsCode"": ""40"",
+        ""YearsCodePro"": ""45"",
+        ""DevType"": ""Engineer, data"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Spain"",
+        ""CompTotal"": 21000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;Python;TypeScript"",
+        ""LanguageWantToWorkWith"": ""Python;Scala;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""115"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""D"",
+        ""YearsCode"": ""20"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Database administrator;DevOps specialist;Cloud infrastructure engineer;System administrator"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 150000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Bash/Shell;HTML/CSS;JavaScript;PHP;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Bash/Shell;HTML/CSS;Kotlin;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Ansible;Docker;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""123"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""2"",
+        ""DevType"": ""Developer, back-end"",
+        ""OrgSize"": ""100 to 499 employees"",
+        ""Country"": ""Poland"",
+        ""CompTotal"": 12000.0,
+        ""CompFreq"": ""B"",
+        ""LanguageHaveWorkedWith"": ""C;Haskell;JavaScript;Python;Rust;SQL"",
+        ""LanguageWantToWorkWith"": ""Haskell;Python;Rust;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""113"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""A"",
+        ""YearsCode"": ""9"",
+        ""YearsCodePro"": ""4"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end;Database administrator"",
+        ""OrgSize"": ""10 to 19 employees"",
+        ""Country"": ""United States of America"",
+        ""CompTotal"": 70000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""Go;HTML/CSS;JavaScript;Kotlin;PHP;Python;SQL"",
+        ""LanguageWantToWorkWith"": ""Go;HTML/CSS;JavaScript;PHP;Python;SQL"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;Homebrew;npm"",
+        ""VersionControlSystem"": ""A""
+      }
+    },
+    {
+      ""respondent"": ""238"",
+      ""answers"": {
+        ""MainBranch"": ""A"",
+        ""Employment"": ""A"",
+        ""EdLevel"": ""B"",
+        ""YearsCode"": ""15"",
+        ""YearsCodePro"": ""12"",
+        ""DevType"": ""Developer, front-end;Developer, full-stack;Developer, back-end"",
+        ""OrgSize"": ""20 to 99 employees"",
+        ""Country"": ""United Kingdom of Great Britain and Northern Ireland"",
+        ""CompTotal"": 36000.0,
+        ""CompFreq"": ""C"",
+        ""LanguageHaveWorkedWith"": ""JavaScript;PHP;Python;SQL;TypeScript"",
+        ""LanguageWantToWorkWith"": ""JavaScript;PHP;TypeScript"",
+        ""ToolsTechHaveWorkedWith"": ""Docker;npm;Yarn"",
+        ""VersionControlSystem"": ""A""
+      }
+    }
+  ]
+}
+</questionnaire>
+
+<role>
+You are a meticulous data analyst AI. Your primary function is to accurately analyze structured data and provide precise, verifiable answers.
+
+</role>
+
+<format>
+You will be given a dataset with two key parts:
+
+A 'questions' section: This is your data dictionary or schema. It is the single source of truth for understanding what each field and score means. Refer to it carefully.
+
+A 'responses' section: This contains the raw data from each individual respondent.
+
+To answer the question correctly, you must first use the 'questions' schema to fully understand the context and meaning of the data points within the 'responses'. Do not rely on any prior knowledge outside of this provided data. Base your entire analysis on the information given.
+
+</format>
+
+<output>
+Provide your final answer directly and concisely. Output must be the human-readable value, not an option code.
+
+Rules:
+- For MCQ fields, map any letter codes in the Responses (case-insensitive) to the corresponding option text from the Questions schema, and output only that text. Do NOT include the letter or both.
+  Example: If the schema is ""[MCQ: A. Abnormal B. Inconclusive C. Normal]"" and the response is ""a"", output ""Abnormal"".
+- For open-ended fields, output the exact text value.
+- If the question asks for a count, provide only the number (e.g., ""42"").
+- If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
+- Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
+
+</output>
+
+<task>
+Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?
+</task>","306, 547",False
