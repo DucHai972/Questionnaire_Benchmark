@@ -908,7 +908,7 @@ Rules:
 List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactly 4.
 </task>","The survey collects responses from 8 individuals across four distinct groups: Senior, Junior, Middle, and Intern. It includes ten Likert-scale questions, each rated from 1 (Strongly Disagree) to 5 (Strongly Agree), covering aspects like usage frequency, complexity, ease, support needs, integration, consistency, learning, cumbersomeness, and confidence. A notable pattern is that many respondents (76, 70, 17, 48, 81) scored highly (4 or 5) on positive attributes like 'Ease_of_Use' and 'Confidence_in_Use', while scoring low (1 or 2) on negative attributes like 'System_Complexity' and 'Cumbersome_to_Use'. Conversely, respondents like 31, 78, and 61 show lower scores on positive attributes and higher on negative ones, indicating a less favorable perception of the system. The 'Group' distribution appears somewhat uneven, with 'Intern' (D) having 3 respondents, 'Middle' (C) having 2, 'Senior' (A) having 2, and 'Junior' (B) having only 1 respondent.
 
-[]",True
+[]",False
 case_4,rule_based_querying,List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1279,7 +1279,7 @@ Rules:
 List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.
 </task>","The survey collects data on respondent groups (Senior, Junior, Middle, Intern) and various aspects of system usability and perception, measured on a 1-5 Likert scale. Most questions assess user experience, including frequency of usage, complexity, ease of use, need for support, integration, consistency, ease of learning, cumbersomeness, confidence, and learning requirements. The responses show a mix of agreement and disagreement across different user groups, with some respondents indicating high confidence and ease of use, while others express challenges. The data provides insights into specific user perceptions of the system's design and functionality.
 
-[]",True
+[]",False
 case_5,rule_based_querying,List all respondents from the 'Middle' group whose 'System_Complexity' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1979,7 +1979,7 @@ Rules:
 Find all respondents whose 'Need_for_Technical_Support' score is between 2 and 3.
 </task>","The survey collects data from five respondents across eleven questions, including one multiple-choice question for 'Group' and ten Likert-scale questions (1-5) assessing various aspects of system usability and user perception. The Likert scale questions cover topics such as usage frequency, system complexity, ease of use, technical support needs, function integration, consistency, ease of learning, cumbersomeness, confidence, and learning requirements. The respondent groups include Senior, Middle, and Intern, with a general trend towards positive perceptions of system ease of use and confidence among the sampled individuals.
 
-[]",True
+[]",False
 case_7,rule_based_querying,List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2308,7 +2308,7 @@ Rules:
 List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.
 </task>","The survey data includes responses from five individuals across four different groups: Senior, Middle, and Intern. Each respondent provided Likert scale ratings (1-5) for ten different aspects of system usage, such as 'Frequent_Usage', 'Ease_of_Use', and 'Confidence_in_Use', along with their 'Group' affiliation. The Likert scale ranges from 1 (Strongly Disagree) to 5 (Strongly Agree) for most questions, with some questions being negatively phrased (e.g., 'System_Complexity', 'Cumbersome_to_Use') where a lower score indicates a more positive perception.
 
-[]",True
+[]",False
 case_8,rule_based_querying,Find all respondents whose 'Inconsistency' score is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3379,7 +3379,7 @@ Rules:
 List all respondents from the 'Middle' group whose 'Need_for_Technical_Support' is exactly 4.
 </task>","The survey collects data on respondent groups (MCQ) and ten Likert-scale (1-5) items related to system usability and user confidence. All Likert scales range from 1 (Strongly Disagree) to 5 (Strongly Agree), with some questions framed negatively (e.g., 'System_Complexity', 'Inconsistency', 'Cumbersome_to_Use', 'Need_to_Learn_Before_Use') where lower scores indicate a more positive user experience. The dataset includes responses from five individuals, covering 'Senior', 'Middle', and 'Intern' groups. A general pattern of positive system perception is observed across most respondents, with high scores for ease of use and confidence, and low scores for complexity and need for support.
 
-[]",True
+[]",False
 case_11,rule_based_querying,Which respondents scored higher than 3 on 'Need_to_Learn_Before_Use'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -6438,7 +6438,7 @@ Rules:
 Find all respondents whose 'Cumbersome_to_Use' score is between 1 and 3.
 </task>","The survey collects data on user experience with a system, covering aspects like usage frequency, complexity, ease of use, and confidence. Responses are provided by five individuals across different groups (Senior, Middle, Junior). Most respondents rated the system positively on ease of use and confidence, with low scores for complexity and inconsistency. A common pattern is a low 'Cumbersome_to_Use' score, indicating the system is generally not found awkward. The data shows a range of opinions on 'Need_for_Technical_Support' and 'Need_to_Learn_Before_Use'.
 
-67, 54, 47, 38",False
+67, 54, 47, 38",True
 case_18,rule_based_querying,Which respondents scored higher than 2 on 'Ease_of_Learning'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9833,7 +9833,7 @@ Rules:
 List all respondents from the 'Middle' group whose 'Frequent_Usage' is exactly 3.
 </task>","The survey data includes responses from 7 individuals across four groups: Senior, Junior, Middle, and Intern. Each respondent provided Likert scale ratings (1-5) for ten different aspects of system usage, such as 'Frequent_Usage', 'System_Complexity', and 'Confidence_in_Use'. The data shows a variety of responses, with some respondents strongly agreeing or disagreeing on certain points, while others provide neutral scores. There are no respondents from the 'Junior' group in this dataset.
 
-[]",True
+[]",False
 case_25,rule_based_querying,List all respondents from the 'Senior' group whose 'Ease_of_Use' is exactly 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10862,7 +10862,7 @@ Rules:
 Find all respondents whose total score for 'Confidence_in_Use' and 'Ease_of_Learning' is less than 4.
 </task>","The survey collects data on respondent groups (MCQ) and ten different aspects of system usage and perception, all measured on a Likert 1-5 scale. All Likert scale responses fall within the 1 to 5 range, indicating varying degrees of agreement or disagreement. A common pattern observed is high scores (4 or 5) for positive attributes and low scores (1 or 2) for negative attributes, suggesting a generally positive perception of the system among respondents. The sample includes respondents from 'Intern', 'Middle', and 'Junior' groups. Based on the analysis, no respondent had a combined score for 'Confidence_in_Use' and 'Ease_of_Learning' that was less than 4.
 
-[]",True
+[]",False
 case_28,rule_based_querying,Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11317,7 +11317,7 @@ Rules:
 Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?
 </task>","The survey data includes responses from 8 individuals across four groups: Senior, Junior, Middle, and Intern. Each respondent provided Likert scale ratings (1-5) for ten different aspects of system usability, such as 'Frequent_Usage', 'System_Complexity', and 'Confidence_in_Use'. The responses show a range of opinions, with some respondents consistently giving high scores for positive attributes (e.g., Ease_of_Use, Integration_of_Functions) and low scores for negative ones (e.g., System_Complexity, Inconsistency), while others show more varied or less positive feedback. The data allows for analysis of user experience based on specific criteria and group affiliations.
 
-[]",True
+[]",False
 case_29,rule_based_querying,Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11898,7 +11898,7 @@ Rules:
 Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?
 </task>","The survey data comprises responses from eleven individuals across eleven distinct questions, covering respondent demographics and various aspects of system usability. Most questions utilize a 5-point Likert scale, with 'Group' being a multiple-choice category. A notable pattern is the high representation of 'Intern' respondents (Group D). Overall, the responses suggest a generally positive user experience, with high scores for ease of use and confidence, and low scores for perceived complexity or need for technical support. There are no obvious outliers or highly negative overall perceptions across the dataset.
 
-[]",True
+[]",False
 case_30,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12227,7 +12227,7 @@ Rules:
 List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.
 </task>","The survey collected data from five respondents across various aspects of system usability, including perceived complexity, ease of use, and confidence. All respondents consistently rated 'System_Complexity' as 1 (Strongly Disagree, meaning they found the system not complex) and 'Ease_of_Use' as 5 (Strongly Agree, meaning they found the system very easy to use). This indicates a strong positive perception of the system's simplicity and usability across the board. Consequently, no respondent's 'System_Complexity' score is greater than their 'Ease_of_Use' score.
 
-[]",True
+[]",False
 case_31,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13676,7 +13676,7 @@ Rules:
 Which respondents from the 'Junior' group have a 'Inconsistency' of 4 or more and a 'Confidence_in_Use' of less than 3?
 </task>","The survey collects data from eight respondents across four groups (Senior, Junior, Middle, Intern) on ten system perception attributes using a 5-point Likert scale. Most respondents exhibit positive perceptions, frequently scoring high on ease of use and confidence, and low on complexity and cumbersomeness. However, there's variation in aspects like frequent usage and perceived inconsistency. The dataset is relatively small, providing a snapshot of user feedback.
 
-[]",True
+[]",False
 case_34,rule_based_querying,Find all respondents whose total score for 'Inconsistency' and 'Confidence_in_Use' is less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16000,7 +16000,7 @@ Rules:
 Find all respondents whose total score for 'Need_for_Technical_Support' and 'Ease_of_Learning' is less than 4.
 </task>","The survey collects data from 10 respondents across four groups: Senior (A), Junior (B), Middle (C), and Intern (D). Each respondent provided scores on 10 Likert scale questions (1-5) covering various aspects of system usability and one multiple-choice question for their group. A common pattern observed is high scores for positive attributes like 'Ease_of_Use' and 'Confidence_in_Use', suggesting general satisfaction. Conversely, negative attributes such as 'System_Complexity' and 'Cumbersome_to_Use' generally received low scores, indicating a perception of simplicity and ease. The distribution of scores for 'Need_for_Technical_Support' is quite varied, while 'Ease_of_Learning' consistently shows high scores, implying the system is perceived as easy to learn.
 
-[]",True
+[]",False
 case_38,rule_based_querying,Which respondents from the 'Senior' group have a 'Confidence_in_Use' of 3 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>

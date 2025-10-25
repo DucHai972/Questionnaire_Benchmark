@@ -13907,7 +13907,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'Mercurial' for version control.
-</task>","72984, 332, 278, 73018, 73209",True
+</task>","72984, 332, 278, 73018, 73209",False
 case_29,answer_reverse_lookup,Find all respondents from 'Slovakia' with an education level of 'Some college/university study without earning a degree' who have worked with 'C++'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15857,7 +15857,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.
-</task>","73117, 261, 72941, 73085, 29115, 374, 364, 73059, 72824",True
+</task>","73117, 261, 72941, 73085, 29115, 374, 364, 73059, 72824",False
 case_32,answer_reverse_lookup,"""Find all respondents from 'Lithuania' with an education level of 'S., etc.)' who have worked with 'Kotlin'.""","@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -18883,7 +18883,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.
-</task>","499, 73190, 404, 513, 73075, 73112, 73053",True
+</task>","499, 73190, 404, 513, 73075, 73112, 73053",False
 case_37,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -19517,7 +19517,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.
-</task>","72945, 72932, 73117, 332, 29103",True
+</task>","72945, 72932, 73117, 332, 29103",False
 case_38,answer_reverse_lookup,Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -24205,7 +24205,7 @@ Rules:
 
 <task>
 Which respondents have more professional coding experience than the average for their education level?
-</task>","72945, 206, 73038, 267",True
+</task>","72945, 206, 73038, 267",False
 case_46,answer_reverse_lookup,List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -25329,7 +25329,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for their country.
-</task>","73190, 165, 72815",True
+</task>","73190, 165, 72815",False
 case_48,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 

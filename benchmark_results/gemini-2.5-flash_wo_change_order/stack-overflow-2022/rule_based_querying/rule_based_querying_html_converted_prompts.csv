@@ -378,7 +378,7 @@ Which respondents have a 'CompTotal' greater than 206000?
 </ul>
 </body>
 </html>
-</questionnaire>","448, 73030",False
+</questionnaire>","448, 73030",True
 case_3,rule_based_querying,List all respondents from 'Sweden' whose 'YearsCode' is less than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -860,7 +860,7 @@ List all respondents from 'Sweden' whose 'YearsCode' is less than 15.
 </ul>
 </body>
 </html>
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_4,rule_based_querying,List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1342,7 +1342,7 @@ List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
 </ul>
 </body>
 </html>
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -1722,7 +1722,7 @@ Which respondents have a 'YearsCode' greater than 5?
 </ul>
 </body>
 </html>
-</questionnaire>","401, 309, 122, 73007, 308",False
+</questionnaire>","401, 309, 122, 73007, 308",True
 case_6,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2102,7 +2102,7 @@ Find all respondents whose 'YearsCodePro' is between 5 and 15.
 </ul>
 </body>
 </html>
-</questionnaire>","72681, 539",False
+</questionnaire>","72681, 539",True
 case_7,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2839,7 +2839,7 @@ Which respondents have a 'YearsCode' greater than 15?
 </ul>
 </body>
 </html>
-</questionnaire>","471, 72987, 73090, 72836",False
+</questionnaire>","471, 72987, 73090, 72836",True
 case_8,rule_based_querying,List all respondents from 'Israel' whose 'YearsCodePro' is less than 12.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4160,7 +4160,7 @@ Find all respondents whose 'YearsCodePro' is between 2 and 7.
 </ul>
 </body>
 </html>
-</questionnaire>","448, 72647, 487, 73142, 73013, 72683, 383",False
+</questionnaire>","448, 72647, 487, 73142, 73013, 72683, 383",True
 case_10,rule_based_querying,List all respondents from 'Austria' whose 'CompTotal' is less than 73500.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4591,7 +4591,7 @@ List all respondents from 'Austria' whose 'CompTotal' is less than 73500.
 </ul>
 </body>
 </html>
-</questionnaire>","29060, 168",False
+</questionnaire>","29060, 168",True
 case_11,rule_based_querying,Which respondents have a 'CompTotal' greater than 45000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5659,7 +5659,7 @@ Find all respondents whose 'YearsCode' is between 5 and 10.
 </ul>
 </body>
 </html>
-</questionnaire>","72784, 72913, 29061, 468",False
+</questionnaire>","72784, 72913, 29061, 468",True
 case_13,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6396,7 +6396,7 @@ Find all respondents whose 'YearsCodePro' is between 5 and 15.
 </ul>
 </body>
 </html>
-</questionnaire>","72927, 73128, 469, 72801, 29098, 143",False
+</questionnaire>","72927, 73128, 469, 72801, 29098, 143",True
 case_14,rule_based_querying,Find all respondents whose 'CompTotal' is between 118800 and 254700.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7309,7 +7309,7 @@ Find all respondents whose 'YearsCode' is between 5 and 10.
 </ul>
 </body>
 </html>
-</questionnaire>","245, 73070, 72796",False
+</questionnaire>","245, 73070, 72796",True
 case_16,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8532,7 +8532,7 @@ Find all respondents whose 'YearsCodePro' is between 2 and 12.
 </ul>
 </body>
 </html>
-</questionnaire>","29115, 73196, 489, 491, 29111, 72965",False
+</questionnaire>","29115, 73196, 489, 491, 29111, 72965",True
 case_18,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8963,7 +8963,7 @@ Which respondents have a 'YearsCodePro' greater than 5?
 </ul>
 </body>
 </html>
-</questionnaire>","238, 72700, 486, 539",False
+</questionnaire>","238, 72700, 486, 539",True
 case_19,rule_based_querying,List all respondents from 'Poland' whose 'YearsCode' is less than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9978,7 +9978,7 @@ Which respondents have a 'CompTotal' greater than 95000?
 </ul>
 </body>
 </html>
-</questionnaire>","379, 375, 72898",False
+</questionnaire>","379, 375, 72898",True
 case_21,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10562,7 +10562,7 @@ Which respondents have a 'YearsCodePro' greater than 10?
 </ul>
 </body>
 </html>
-</questionnaire>","72891, 73136, 235, 73075",False
+</questionnaire>","72891, 73136, 235, 73075",True
 case_22,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11044,7 +11044,7 @@ Which respondents have a 'YearsCode' greater than 15?
 </ul>
 </body>
 </html>
-</questionnaire>","72909, 179, 73023",False
+</questionnaire>","72909, 179, 73023",True
 case_23,rule_based_querying,Find all respondents whose 'CompTotal' is between 46320 and 176580.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11679,7 +11679,7 @@ Find all respondents whose 'CompTotal' is between 46320 and 176580.
 </ul>
 </body>
 </html>
-</questionnaire>","157, 72719, 73073",False
+</questionnaire>","157, 72719, 73073",True
 case_24,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12796,7 +12796,7 @@ Which respondents have a 'CompTotal' greater than 58500?
 </ul>
 </body>
 </html>
-</questionnaire>","72669, 215, 308, 240, 355",False
+</questionnaire>","72669, 215, 308, 240, 355",True
 case_26,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13431,7 +13431,7 @@ List all respondents for whom their professional coding years are less than half
 </ul>
 </body>
 </html>
-</questionnaire>","72751, 224",False
+</questionnaire>","72751, 224",True
 case_27,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13862,7 +13862,7 @@ List all respondents for whom their professional coding years are less than half
 </ul>
 </body>
 </html>
-</questionnaire>","413, 72915, 72592",False
+</questionnaire>","413, 72915, 72592",True
 case_28,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 135000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14548,7 +14548,7 @@ Find all respondents whose calculated yearly compensation is greater than 135000
 </ul>
 </body>
 </html>
-</questionnaire>","73043, 222, 73259, 29115, 29154",False
+</questionnaire>","73043, 222, 73259, 29115, 29154",True
 case_29,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 63500.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15183,7 +15183,7 @@ Find all respondents whose calculated yearly compensation is greater than 63500.
 </ul>
 </body>
 </html>
-</questionnaire>","73050, 72730, 72825, 72763, 73217",False
+</questionnaire>","73050, 72730, 72825, 72763, 73217",True
 case_30,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16402,7 +16402,7 @@ Find all respondents whose calculated yearly compensation is greater than 93000.
 </ul>
 </body>
 </html>
-</questionnaire>","255, 268, 263, 73148, 338, 72683",False
+</questionnaire>","255, 268, 263, 73148, 338, 72683",True
 case_32,rule_based_querying,Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17037,7 +17037,7 @@ Which respondents from 'United States of America' have more than 5 'YearsCodePro
 </ul>
 </body>
 </html>
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_33,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17672,7 +17672,7 @@ List all respondents for whom their professional coding years are less than half
 </ul>
 </body>
 </html>
-</questionnaire>","73190, 255",False
+</questionnaire>","73190, 255",True
 case_34,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 120000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18256,7 +18256,7 @@ Find all respondents whose calculated yearly compensation is greater than 120000
 </ul>
 </body>
 </html>
-</questionnaire>","72813, 447, 73064, 73142",False
+</questionnaire>","72813, 447, 73064, 73142",True
 case_35,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18789,7 +18789,7 @@ List all respondents for whom their professional coding years are less than half
 </ul>
 </body>
 </html>
-</questionnaire>","123, 73196, 72973",False
+</questionnaire>","123, 73196, 72973",True
 case_36,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 164000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19526,7 +19526,7 @@ Find all respondents whose calculated yearly compensation is greater than 164000
 </ul>
 </body>
 </html>
-</questionnaire>","382, 317, 72970, 72803, 73107, 72815",False
+</questionnaire>","382, 317, 72970, 72803, 73107, 72815",True
 case_37,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 106500.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20805,7 +20805,7 @@ Find all respondents whose calculated yearly compensation is greater than 220000
 </ul>
 </body>
 </html>
-</questionnaire>","72877, 152, 29106, 312",False
+</questionnaire>","72877, 152, 29106, 312",True
 case_39,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 314000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -21440,7 +21440,7 @@ Find all respondents whose calculated yearly compensation is greater than 314000
 </ul>
 </body>
 </html>
-</questionnaire>","245, 73085, 72913, 459, 73262",False
+</questionnaire>","245, 73085, 72913, 459, 73262",True
 case_40,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22126,7 +22126,7 @@ List all respondents for whom their professional coding years are less than half
 </ul>
 </body>
 </html>
-</questionnaire>","224, 72964, 489, 202, 29154, 215",False
+</questionnaire>","224, 72964, 489, 202, 29154, 215",True
 case_41,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"<!DOCTYPE html>
 <html>
 <head>
@@ -24914,7 +24914,7 @@ Find all respondents whose 'YearsCodePro' is greater than the average 'YearsCode
 </ul>
 </body>
 </html>
-</questionnaire>","73217, 361, 469, 393, 72634, 73101",False
+</questionnaire>","73217, 361, 469, 393, 72634, 73101",True
 case_45,rule_based_querying,List all respondents whose 'CompTotal' is within 10% of the highest 'CompTotal' in their country.,"<!DOCTYPE html>
 <html>
 <head>
@@ -26286,7 +26286,7 @@ Which respondents have a yearly compensation that is higher than the average yea
 </ul>
 </body>
 </html>
-</questionnaire>","547, 72731",False
+</questionnaire>","547, 72731",True
 case_47,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"<!DOCTYPE html>
 <html>
 <head>
@@ -27565,7 +27565,7 @@ Which respondents have a yearly compensation that is higher than the average yea
 </ul>
 </body>
 </html>
-</questionnaire>","73150, 486",False
+</questionnaire>","73150, 486",True
 case_49,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"<!DOCTYPE html>
 <html>
 <head>

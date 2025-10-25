@@ -2771,7 +2771,7 @@ Find all respondents from the same country as respondent '72858', excluding the 
 </ul>
 </body>
 </html>
-</questionnaire>","260, 396",False
+</questionnaire>","260, 396",True
 case_7,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72825'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7351,7 +7351,7 @@ Find all respondents from the same country as respondent '106', excluding the re
 </html>
 </questionnaire>","May I proceed?
 
-277, 484",False
+277, 484",True
 case_15,multi_hop_relational_inference,List all respondents who have the same education level as respondent '225'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11547,7 +11547,7 @@ List all respondents who have the same education level as respondent '72739'.
 </html>
 </questionnaire>","Do you want the list to include respondent 72739 themself?
 
-64, 72804, 73102, 73190, 440, 72831, 155, 72823",True
+64, 72804, 73102, 73190, 440, 72831, 155, 72823",False
 case_22,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73125'?,"<!DOCTYPE html>
 <html>
 <head>

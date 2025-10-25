@@ -3784,7 +3784,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>","24, 25",False
+</task>","24, 25",True
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>

@@ -584,7 +584,7 @@ Rules:
 
 <task>
 List all respondents who have worked with the 'C++' language.
-</task>""""""""""""""","29061""",True
+</task>""""""""""""""","29061""",False
 case_3,answer_reverse_lookup,Which respondents are from 'Canada'?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1372,7 +1372,7 @@ Rules:
 
 <task>
 Which respondents are from 'Netherlands'?
-</task>""""""""""""""","Respondent72730""",True
+</task>""""""""""""""","Respondent72730""",False
 case_5,answer_reverse_lookup,Which respondents are from 'Estonia'?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2496,7 +2496,7 @@ Rules:
 
 <task>
 List all respondents who have worked with the 'Java' language.
-</task>""""""""""""""","Respondent72738""",True
+</task>""""""""""""""","Respondent72738""",False
 case_7,answer_reverse_lookup,List all respondents who have worked with the 'SQL' language.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3130,7 +3130,7 @@ Rules:
 
 <task>
 List all respondents who have worked with the 'SQL' language.
-</task>""""""""""""""","Respondent73015""",True
+</task>""""""""""""""","Respondent73015""",False
 case_8,answer_reverse_lookup,Which respondents are from 'Lithuania'?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -4840,7 +4840,7 @@ Rules:
 
 <task>
 List all respondents who have worked with the 'Java' language.
-</task>""""""""""""""","Respondent468""",True
+</task>""""""""""""""","Respondent468""",False
 case_11,answer_reverse_lookup,List all respondents who have worked with the 'Java' language.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5330,7 +5330,7 @@ Rules:
 
 <task>
 List all respondents who have worked with the 'Java' language.
-</task>""""""""""""""","441""",True
+</task>""""""""""""""","441""",False
 case_12,answer_reverse_lookup,Find all respondents with more than 10 years of professional coding experience.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5724,7 +5724,7 @@ Rules:
 
 <task>
 Find all respondents with more than 10 years of professional coding experience.
-</task>""""""""""""""","Respondent72669""",True
+</task>""""""""""""""","Respondent72669""",False
 case_13,answer_reverse_lookup,Find all respondents with more than 15 years of professional coding experience.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6358,7 +6358,7 @@ Rules:
 
 <task>
 Find all respondents with more than 15 years of professional coding experience.
-</task>""""""""""""""","73150""",True
+</task>""""""""""""""","73150""",False
 case_14,answer_reverse_lookup,Find all respondents with more than 5 years of professional coding experience.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6896,7 +6896,7 @@ Rules:
 
 <task>
 Find all respondents with more than 5 years of professional coding experience.
-</task>""""""""""""""","459""",True
+</task>""""""""""""""","459""",False
 case_15,answer_reverse_lookup,Which respondents are from 'United Kingdom of Great Britain and Northern Ireland'?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8414,7 +8414,7 @@ Rules:
 
 <task>
 Find all respondents with more than 5 years of professional coding experience.
-</task>""""""""""""""","Respondent72813""",True
+</task>""""""""""""""","Respondent72813""",False
 case_18,answer_reverse_lookup,Which respondents are from 'United States of America'?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9000,7 +9000,7 @@ Rules:
 
 <task>
 Which respondents are from 'United States of America'?
-</task>""""""""""""""","Respondent72668""",True
+</task>""""""""""""""","Respondent72668""",False
 case_19,answer_reverse_lookup,Find all respondents with more than 3 years of professional coding experience.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9586,7 +9586,7 @@ Rules:
 
 <task>
 Find all respondents with more than 3 years of professional coding experience.
-</task>""""""""""""""","499""",True
+</task>""""""""""""""","499""",False
 case_20,answer_reverse_lookup,Find all respondents with more than 15 years of professional coding experience.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -11248,7 +11248,7 @@ Rules:
 
 <task>
 Find all respondents with more than 3 years of professional coding experience.
-</task>""""""""""""""","72840""",True
+</task>""""""""""""""","72840""",False
 case_23,answer_reverse_lookup,Which respondents are from 'Brazil'?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -12036,7 +12036,7 @@ Rules:
 
 <task>
 Which respondents are from 'United Kingdom of Great Britain and Northern Ireland'?
-</task>""""""""""""""","72950""",True
+</task>""""""""""""""","72950""",False
 case_25,answer_reverse_lookup,List all respondents who have worked with the 'Python' language.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -12526,7 +12526,7 @@ Rules:
 
 <task>
 List all respondents who have worked with the 'Python' language.
-</task>""""""""""""""","Respondent363""",True
+</task>""""""""""""""","Respondent363""",False
 case_26,answer_reverse_lookup,"""""""""""""""Find all respondents from 'Germany' with an education level of 'S., etc.)' who have worked with 'Objective-C'.""""""""""""""","""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -13948,7 +13948,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'Mercurial' for version control.
-</task>""""""""""""""",73209,True
+</task>""""""""""""""",73209,False
 case_29,answer_reverse_lookup,Find all respondents from 'Slovakia' with an education level of 'Some college/university study without earning a degree' who have worked with 'C++'.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15216,7 +15216,7 @@ Rules:
 
 <task>
 Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?
-</task>""""""""""""""","72800""",True
+</task>""""""""""""""","72800""",False
 case_31,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -17704,7 +17704,7 @@ Rules:
 
 <task>
 Which respondents have between 5 and 10 years of total coding experience and work with the 'npm' tool?
-</task>""""""""""""""","Respondent72719""",True
+</task>""""""""""""""","Respondent72719""",False
 case_35,answer_reverse_lookup,"""""""""""""""Find all respondents from 'Sweden' with an education level of 'S., etc.)' who have worked with 'HTML/CSS'.""""""""""""""","""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -18924,7 +18924,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.
-</task>""""""""""""""","Respondent73053""",True
+</task>""""""""""""""","Respondent73053""",False
 case_37,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -19558,7 +19558,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.
-</task>""""""",Respondent29103,True
+</task>""""""",Respondent29103,False
 case_38,answer_reverse_lookup,Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -20730,7 +20730,7 @@ Rules:
 
 <task>
 Which respondents have between 2 and 12 years of total coding experience and work with the 'Yarn' tool?
-</task>""""""""""""""","529""",True
+</task>""""""""""""""","529""",False
 case_40,answer_reverse_lookup,Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -21998,7 +21998,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for their country.
-</task>""""""""""""""","Respondent171""",True
+</task>""""""""""""""","Respondent171""",False
 case_42,answer_reverse_lookup,Which respondents have more professional coding experience than the average for their education level?,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -22680,7 +22680,7 @@ Rules:
 
 <task>
 Which respondents have more professional coding experience than the average for their education level?
-</task>""""""""""""""","Respondent73209""",True
+</task>""""""""""""""","Respondent73209""",False
 case_43,answer_reverse_lookup,List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -24246,7 +24246,7 @@ Rules:
 
 <task>
 Which respondents have more professional coding experience than the average for their education level?
-</task>""""""","267""",True
+</task>""""""","267""",False
 case_46,answer_reverse_lookup,List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -25370,7 +25370,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for their country.
-</task>""""""","72878""",True
+</task>""""""","72878""",False
 case_48,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -26638,7 +26638,7 @@ Rules:
 
 <task>
 Which respondents have more professional coding experience than the average for their education level?
-</task>""""""""""""""","73043""",True
+</task>""""""""""""""","73043""",False
 case_50,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"""""""""""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 

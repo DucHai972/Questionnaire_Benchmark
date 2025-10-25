@@ -16039,7 +16039,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?","73198, 72958, 29109, 72800",False
+Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?","73198, 72958, 29109, 72800",True
 case_31,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -26085,7 +26085,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.",73124,True
+List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.",73124,False
 case_47,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"<!DOCTYPE html>
 <html>
 <head>

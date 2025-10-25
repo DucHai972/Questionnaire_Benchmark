@@ -14723,7 +14723,7 @@ Rules:
 Which respondents have between 5 and 10 years of total coding experience and work with the 'Ansible' tool?
 </task>","This survey gathers information on developers' professional backgrounds, including their primary identity, employment status, and education. It also collects data on their coding experience, development roles, organization size, country, and compensation. Furthermore, the survey identifies the programming languages and tools developers use or aspire to use, along with their preferred version control systems.
 
-None",True
+None",False
 case_28,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'Mercurial' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16526,7 +16526,7 @@ Rules:
 Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?
 </task>","This survey collects data on developers' professional identity, employment, education, coding experience, development roles, organization size, country, compensation, programming languages, tools, and version control systems. It uses a mix of multiple-choice and open-ended questions to gather detailed insights into their backgrounds and technical proficiencies. The responses are organized by unique respondent IDs, providing a structured dataset for analysis.
 
-73198, 72958, 29109, 72800",False
+73198, 72958, 29109, 72800",True
 case_31,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18533,7 +18533,7 @@ Rules:
 Find all respondents from 'Turkey' with an education level of 'Associate degree (A.A.,' who have worked with 'Dart'.
 </task>","This survey collects data on developers' professional identity, employment, education, coding experience, development roles, organization size, country of residence, compensation, and programming languages/tools used. It also includes information on version control systems. The data provides insights into various aspects of a developer's career and technical environment.
 
-None",True
+None",False
 case_34,answer_reverse_lookup,Which respondents have between 5 and 10 years of total coding experience and work with the 'npm' tool?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23182,7 +23182,7 @@ Rules:
 Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?
 </task>","This survey collects data on developers' professional identity, employment status, education level, coding experience, development roles, organization size, country of residence, compensation, programming languages, and developer tools.
 
-None",True
+None",False
 case_41,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25189,7 +25189,7 @@ Rules:
 List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.
 </task>","The survey collects comprehensive data on developers' professional profiles. It covers their primary professional identity, employment status, and educational background. Details on coding experience, both total and professional, are recorded, alongside their specific development roles and organization size. The survey also captures information on programming languages they have worked with and wish to work with, developer tools used, and version control systems. Compensation and country of residence are also included.
 
-308, 61, 222, 255, 359, 72584, 72805, 72848, 73057",False
+308, 61, 222, 255, 359, 72584, 72805, 72848, 73057",True
 case_44,answer_reverse_lookup,Which respondents have more professional coding experience than the average for their education level?,"<!DOCTYPE html>
 <html>
 <head>
@@ -26306,7 +26306,7 @@ Rules:
 Which respondents have more professional coding experience than the average for their education level?
 </task>","This survey collects data on developers' professional identity, employment status, education level, coding experience, developer type, organization size, country of residence, compensation, programming languages used, desired languages, developer tools, and version control systems. It provides a snapshot of various aspects of a developer's career and background.
 
-72945, 206, 73038, 267",True
+72945, 206, 73038, 267",False
 case_46,answer_reverse_lookup,List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.,"<!DOCTYPE html>
 <html>
 <head>

@@ -10006,7 +10006,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '382'.
-</task>","57, 184, 219, 537, 72710",False
+</task>","57, 184, 219, 537, 72710",True
 case_20,multi_hop_relational_inference,List all respondents who have the same education level as respondent '203'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12451,7 +12451,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '189', excluding the respondent themselves.
-</task>","511, 73106",False
+</task>","511, 73106",True
 case_24,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72927'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18130,7 +18130,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?
-</task>","58, 277, 355, 72998",False
+</task>","58, 277, 355, 72998",True
 case_34,multi_hop_relational_inference,Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19378,7 +19378,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?
-</task>","72680, 72801, 73195",False
+</task>","72680, 72801, 73195",True
 case_36,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23479,7 +23479,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '423'.
-</task>","186, 72928",False
+</task>","186, 72928",True
 case_42,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -29146,4 +29146,4 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73259'.
-</task>","184, 242, 73259",False
+</task>","184, 242, 73259",True

@@ -629,7 +629,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '29043'.
-</task>","492, 29071, 72700, 72741, 72869, 73007",
+</task>","492, 29071, 72700, 72741, 72869, 73007",True
 case_6,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72858', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -1362,7 +1362,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '72858', excluding the respondent themselves.
-</task>","396, 260",
+</task>","396, 260",True
 case_7,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72825'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2095,7 +2095,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '72825'.
-</task>","72763, 29060, 72878",
+</task>","72763, 29060, 72878",True
 case_8,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '73075', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -2624,7 +2624,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '73075', excluding the respondent themselves.
-</task>","202, 355, 72749",
+</task>","202, 355, 72749",True
 case_9,multi_hop_relational_inference,List all respondents who have the same education level as respondent '388'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3204,7 +3204,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '388'.
-</task>","72895, 63, 73050, 72840, 537, 52, 72741",
+</task>","72895, 63, 73050, 72840, 537, 52, 72741",True
 case_11,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '297'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3784,7 +3784,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '297'?
-</task>","72981, 73015, 347, 72793, 73017, 469, 332, 72823",
+</task>","72981, 73015, 347, 72793, 73017, 469, 332, 72823",True
 case_14,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '106', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -4517,7 +4517,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '106', excluding the respondent themselves.
-</task>","484, 277",
+</task>","484, 277",True
 case_16,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73047'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5097,7 +5097,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '73047'?
-</task>","73051, 268, 373, 73129, 73191, 73219, 73020",
+</task>","73051, 268, 373, 73129, 73191, 73219, 73020",True
 case_18,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5626,7 +5626,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?
-</task>","73084, 72858, 72921, 73219, 73069, 73018",
+</task>","73084, 72858, 72921, 73219, 73069, 73018",True
 case_19,multi_hop_relational_inference,List all respondents who have the same education level as respondent '382'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6257,7 +6257,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '382'.
-</task>","57, 184, 219, 537, 72710",
+</task>","57, 184, 219, 537, 72710",True
 case_20,multi_hop_relational_inference,List all respondents who have the same education level as respondent '203'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6837,7 +6837,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '203'.
-</task>","349, 491, 501, 72762, 72824, 72856, 73043",
+</task>","349, 491, 501, 72762, 72824, 72856, 73043",True
 case_21,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72739'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7570,7 +7570,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '72739'.
-</task>","64, 155, 440, 72804, 72823, 72831, 73102, 73190",
+</task>","64, 155, 440, 72804, 72823, 72831, 73102, 73190",True
 case_23,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '189', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -7997,7 +7997,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '189', excluding the respondent themselves.
-</task>","73106, 511",
+</task>","73106, 511",True
 case_24,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72927'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8730,7 +8730,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '72927'.
-</task>","489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 73103",
+</task>","489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 73103",True
 case_25,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9412,7 +9412,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?
-</task>","192, 73052, 72626, 72802, 29034, 73150, 392, 104, 72878",
+</task>","192, 73052, 72626, 72802, 29034, 73150, 392, 104, 72878",True
 case_26,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10043,7 +10043,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.
-</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",
+</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",False
 case_28,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '72825' and whose programming languages include 'TypeScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10470,7 +10470,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '72825' and whose programming languages include 'TypeScript'.
-</task>","72825, 72826",
+</task>","72825, 72826",True
 case_29,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '444' and whose programming languages include 'C++'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10846,7 +10846,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '444' and whose programming languages include 'C++'.
-</task>","133, 362",
+</task>","133, 362",True
 case_31,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '441' and whose programming languages include 'Go'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11426,7 +11426,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '441' and whose programming languages include 'Go'.
-</task>","389, 72776, 72978",
+</task>","389, 72776, 72978",True
 case_33,multi_hop_relational_inference,Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12006,7 +12006,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?
-</task>","72998, 355, 58, 277",
+</task>","72998, 355, 58, 277",True
 case_35,multi_hop_relational_inference,Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12637,7 +12637,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?
-</task>","72680, 334, 73195, 72801",
+</task>","72680, 334, 73195, 72801",False
 case_36,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13370,7 +13370,7 @@ Rules:
 
 <task>
 Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.
-</task>","154, 547, 29061, 72827",
+</task>","154, 547, 29061, 72827",True
 case_37,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14052,7 +14052,7 @@ Rules:
 
 <task>
 Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.
-</task>","162, 73119, 157, 222",
+</task>","162, 73119, 157, 222",True
 case_39,multi_hop_relational_inference,Which respondents are from the same country as respondent '192' and also have more than 3 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14734,7 +14734,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '192' and also have more than 3 years of coding experience?
-</task>","192, 206, 72664, 72897, 73075",
+</task>","192, 206, 72664, 72897, 73075",False
 case_40,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15467,7 +15467,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.
-</task>","343, 540, 29071, 29122, 29124, 73106",
+</task>","343, 540, 29071, 29122, 29124, 73106",True
 case_41,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '423'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16149,7 +16149,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '423'.
-</task>","186, 72928",
+</task>","186, 72928",True
 case_42,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16831,7 +16831,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>","159, 173, 184, 491, 72937",
+</task>","159, 173, 184, 491, 72937",False
 case_43,multi_hop_relational_inference,"""List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.""","<!DOCTYPE html>
 <html>
 <head>
@@ -17411,7 +17411,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.
-</task>","72734, 72763, 73208, 441, 72850, 215",
+</task>","72734, 72763, 73208, 441, 72850, 215",True
 case_44,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18042,7 +18042,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.
-</task>","73096, 72843, 73093, 72916",
+</task>","73096, 72843, 73093, 72916",False
 case_45,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18673,7 +18673,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.
-</task>","72753, 72668, 319, 259, 72837",
+</task>","72753, 72668, 319, 259, 72837",True
 case_46,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73069'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19253,7 +19253,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73069'.
-</task>","73069, 468, 73067, 72734, 206, 72965, 391",
+</task>","73069, 468, 73067, 72734, 206, 72965, 391",True
 case_47,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19986,7 +19986,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>","73021, 29067, 72970, 72805, 72856, 72827",
+</task>","73021, 29067, 72970, 72805, 72856, 72827",True
 case_50,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73259'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20515,4 +20515,4 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73259'.
-</task>","184, 242, 73259",
+</task>","184, 242, 73259",True

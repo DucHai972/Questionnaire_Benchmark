@@ -12233,7 +12233,7 @@ Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_
 </body>
 </html>
 
-</questionnaire>","4, 38",False
+</questionnaire>","4, 38",True
 case_31,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Inconsistency' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13227,7 +13227,7 @@ Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'Sy
 </body>
 </html>
 
-</questionnaire>","4, 5, 31, 90",False
+</questionnaire>","4, 5, 31, 90",True
 case_33,answer_reverse_lookup,List all respondents who rated 'Confidence_in_Use' and 'Frequent_Usage' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18162,7 +18162,7 @@ Find all respondents whose 'Inconsistency' score is higher than the average 'Inc
 </body>
 </html>
 
-</questionnaire>","22, 49, 74",False
+</questionnaire>","22, 49, 74",True
 case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18743,7 +18743,7 @@ Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_
 </body>
 </html>
 
-</questionnaire>","4, 12, 32, 36, 70",False
+</questionnaire>","4, 12, 32, 36, 70",True
 case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>

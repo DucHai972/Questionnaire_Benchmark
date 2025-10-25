@@ -906,7 +906,7 @@ Rules:
 List all respondents who rated 'System_Complexity' the same as respondent '76'.
 </task>","Survey specification: Each respondent entry contains a Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten Likert-scale items scored 1–5, where 1 = Strongly Disagree and 5 = Strongly Agree. The Likert items include System_Complexity, Ease_of_Use, Ease_of_Learning, and others as defined in the Questions schema. Responses are listed by respondent ID with the exact numeric scores recorded for each item. Use the schema to interpret MCQ codes and numeric Likert values when comparing responses.
 
-31, 70, 17, 48, 78, 81",True
+31, 70, 17, 48, 78, 81",False
 case_4,multi_hop_relational_inference,Which respondents are in the same group as respondent '20'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -1275,7 +1275,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20'?
-</task>","20, 39, 51, 62",True
+</task>","20, 39, 51, 62",False
 case_5,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '84'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2304,7 +2304,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '51', excluding the respondent themselves.
 </task>","Format specification and survey description: The dataset includes a Questions schema describing each field (one MCQ for Group and ten Likert items scored 1–5). Responses list each respondent by ID with values for every question per the schema. MCQ codes map to option text (A = Senior, B = Junior, C = Middle, D = Intern). Likert numeric fields use 1 = Strongly Disagree to 5 = Strongly Agree.
 
-42, 20, 7",True
+42, 20, 7",False
 case_8,multi_hop_relational_inference,Which respondents are in the same group as respondent '25'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2675,7 +2675,7 @@ Rules:
 Which respondents are in the same group as respondent '25'?
 </task>","This survey contains a Group multiple-choice field (A. Senior B. Junior C. Middle D. Intern) and ten Likert-scale usability items (1 = Strongly Disagree to 5 = Strongly Agree). Each respondent record lists an ID, the Group code, and numeric responses for the ten items. Group letter codes in responses map to the option text in the Questions schema and should be interpreted accordingly. The Questions section is the authoritative schema for field meanings and value mappings. The task is to find other respondent IDs sharing respondent 25's Group.
 
-30, 48, 49",True
+30, 48, 49",False
 case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3046,7 +3046,7 @@ Rules:
 Which respondents are in the same group as respondent '18'?
 </task>","This is a usability survey where ""Group"" is a multiple-choice field (A. Senior, B. Junior, C. Middle, D. Intern) and the remaining items are Likert-scale (1–5) usability statements. Responses list each respondent ID and their answers to the questions. Use the schema above to interpret MCQ codes (e.g., D → Intern) and Likert scores (1 = Strongly Disagree to 5 = Strongly Agree). The question asks for respondents who share respondent 18's group.
 
-60, 48, 18",True
+60, 48, 18",False
 case_10,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -3375,7 +3375,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.
 </task>","This survey records respondents' Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten Likert-scale usability items scored 1–5. All Likert fields use 1 = Strongly Disagree to 5 = Strongly Agree as defined in the Questions schema. Responses are provided per respondent ID with each field's value listed. MCQ Group codes in responses map to option letters A–D which correspond to the full group names in the schema. The task compares the numeric Ease_of_Use scores across respondents to find matches.
 
-74, 62",True
+74, 62",False
 case_11,multi_hop_relational_inference,List all respondents who rated 'Inconsistency' the same as respondent '61'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3828,7 +3828,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>","25, 24, 61",True
+</task>","25, 24, 61",False
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6103,7 +6103,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '58', excluding the respondent themselves.
 </task>","Format specification: 'Group' is a multiple-choice field (A. Senior B. Junior C. Middle D. Intern); all other questions are Likert 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). The Responses section lists respondent IDs and their answers for each question. Ease_of_Use records how easy the respondent thought the system was (Likert 1–5). We compare numeric Ease_of_Use scores across respondents to find matches.
 
-62, 37, 54, 30",True
+62, 37, 54, 30",False
 case_17,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7464,7 +7464,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '38', excluding the respondent themselves.
 </task>","This survey records respondent Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten Likert items rated 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. Each response entry lists respondent ID and values for Group and all Likert items (Frequent_Usage, System_Complexity, Ease_of_Use, etc.). The dataset provided contains multiple respondents with their numeric Likert scores. Use the Ease_of_Use numeric value to compare respondents.
 
-67, 16, 66, 51, 19",True
+67, 16, 66, 51, 19",False
 case_20,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8288,7 +8288,7 @@ Rules:
 List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.
 </task>","This survey captures respondent Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten usability items measured on a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree). Each respondent entry lists their Group and numeric responses for Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, and Need_to_Learn_Before_Use. The data dictionary defines meaning for each field and the allowed response scales. Respondents are identified by numeric IDs and their answers are provided verbatim in the Responses section.
 
-54, 89, 82, 37",True
+54, 89, 82, 37",False
 case_22,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -9408,7 +9408,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.
 </task>","Format/spec: This survey records respondents' Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten Likert items scored 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. Each respondent entry lists their numeric responses for Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, and Need_to_Learn_Before_Use. Use the schema to interpret MCQ codes (A–D) as the full group text and treat Likert values as numeric scores. Answers referencing IDs should be returned as a comma-separated list.
 
-38, 76, 40, 49",True
+38, 76, 40, 49",False
 case_24,multi_hop_relational_inference,Which respondents are in the same group as respondent '22'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9821,7 +9821,7 @@ Rules:
 Which respondents are in the same group as respondent '22'?
 </task>","The survey contains an MCQ ""Group"" (A. Senior, B. Junior, C. Middle, D. Intern) and ten Likert items scored 1–5 as defined in the Questions schema. Likert scores use 1 = Strongly Disagree up to 5 = Strongly Agree for usability statements (Frequent_Usage, Ease_of_Use, etc.). The Responses section lists each respondent by ID with their Group code and the ten item responses. Respondent 22's Group is C, which maps to Middle.
 
-50, 24",True
+50, 24",False
 case_25,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -10190,7 +10190,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.
-</task>","28, 49",False
+</task>","28, 49",True
 case_26,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '26' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -10519,7 +10519,7 @@ Rules:
 Find all respondents who gave the same 'Confidence_in_Use' score as respondent '26' and who also strongly agree that the system is easy to learn (score of 5).
 </task>","Survey format: 11-item questionnaire with one multiple-choice ""Group"" field (A. Senior, B. Junior, C. Middle, D. Intern) and ten Likert items scored 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. Responses include five respondents (26, 85, 27, 56, 77) with each Likert item recorded as an integer 1–5. ""Ease_of_Learning"" and ""Confidence_in_Use"" are Likert items used in the task. All analysis below is based solely on the provided Responses section.
 
-None",True
+None",False
 case_27,multi_hop_relational_inference,Which respondents are in the same group as respondent '62' and also rated 'System_Complexity' as 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10848,7 +10848,7 @@ Rules:
 Which respondents are in the same group as respondent '62' and also rated 'System_Complexity' as 4?
 </task>","Format/spec: The survey records one MCQ field ""Group"" with options A. Senior, B. Junior, C. Middle, D. Intern, and ten Likert items scored 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). Each respondent block lists the respondent ID and their answers for Group and each Likert question. All analysis must use the schema definitions above to interpret codes and scores. Group letter codes in responses map to the option text (e.g., C → Middle). Likert numeric values are used as given.
 
-None",True
+None",False
 case_28,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '82' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -11882,7 +11882,7 @@ Rules:
 Which respondents are in the same group as respondent '78' and also rated 'System_Complexity' as 5?
 </task>","The dataset has 11 fields: one MCQ ""Group"" (A. Senior B. Junior C. Middle D. Intern) and ten Likert items. Each Likert item is scored 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. The Responses section lists each respondent by ID with their answers for all fields. For MCQ values, letter codes correspond to the option text in the schema (e.g., D -> Intern). ""System_Complexity"" corresponds to the statement ""I found the system unnecessarily complex.""
 
-None",True
+None",False
 case_30,multi_hop_relational_inference,Which respondents are in the same group as respondent '70' and also rated 'System_Complexity' as 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12708,7 +12708,7 @@ Rules:
 List all respondents who share the same 'Frequent_Usage' score as respondent '6' but are not in the same group.
 </task>","This survey records each respondent's Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten Likert-scale usability items (1 = Strongly Disagree to 5 = Strongly Agree) including Frequent_Usage. Responses list respondent IDs with a Group code and numeric scores for each question. Use the Questions schema to map group codes to their option text when needed. The dataset provided contains responses for respondents 2, 61, 15, 51, 19, 88, 6, 18, and 69.
 
-None",True
+None",False
 case_32,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '90' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -13660,7 +13660,7 @@ Rules:
 List all respondents who share the same 'Ease_of_Learning' score as respondent '84' but are not in the same group.
 </task>","Survey specification: This is a usability survey where ""Group"" is a multiple-choice field (A. Senior, B. Junior, C. Middle, D. Intern) and the remaining items are Likert 1–5 responses (1 = Strongly Disagree, 5 = Strongly Agree). Each respondent record lists their Group and scores for Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, and Need_to_Learn_Before_Use. The target field for this task is Ease_of_Learning (Likert). Respondent 84 has Ease_of_Learning = 2 and Group = Intern.
 
-None",True
+None",False
 case_34,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '40' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -15980,7 +15980,7 @@ Rules:
 List all respondents who share the same 'Integration_of_Functions' score as respondent '88' but are not in the same group.
 </task>","Survey format: Group is a multiple-choice field with options A. Senior, B. Junior, C. Middle, D. Intern. The other items (Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, Need_to_Learn_Before_Use) are Likert-scale questions scored 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. Integration_of_Functions measures perceived integration of system functions on that 1–5 scale. Respondent 88 has Integration_of_Functions = 4 and belongs to Group Middle. The task finds other respondents with Integration_of_Functions = 4 who are not in Group Middle.
 
-78, 80, 81",True
+78, 80, 81",False
 case_38,multi_hop_relational_inference,List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17056,7 +17056,7 @@ Rules:
 List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.
 </task>","This survey records each respondent's Group (A. Senior, B. Junior, C. Middle, D. Intern) and ten usability questions scored on a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree). The 'Group' field is a multiple-choice with options: Senior, Junior, Middle, Intern. Each response lists values for Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, and Need_to_Learn_Before_Use. The dataset contains nine respondents (IDs: 27, 34, 50, 4, 25, 29, 51, 73, 1).
 
-None",True
+None",False
 case_40,multi_hop_relational_inference,List all respondents who share the same 'Need_for_Technical_Support' score as respondent '5' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17595,7 +17595,7 @@ Rules:
 List all respondents who share the same 'Need_for_Technical_Support' score as respondent '5' but are not in the same group.
 </task>","This survey records each respondent's Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten usability items rated on a 1–5 Likert scale. Likert scores are interpreted as 1 = Strongly Disagree through 5 = Strongly Agree. The Responses section gives each respondent ID with a Group code and numeric answers for all items. MCQ codes should be mapped to their option text (A → Senior, B → Junior, C → Middle, D → Intern).
 
-59, 75, 32",True
+59, 75, 32",False
 case_41,multi_hop_relational_inference,Find all respondents whose 'Need_to_Learn_Before_Use' is higher than the average 'Need_to_Learn_Before_Use' for the 'Intern' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18713,7 +18713,7 @@ Rules:
 List all respondents who share the same 'Need_for_Technical_Support' score as respondent '12' but are not in the same group.
 </task>","This survey records respondents' Group (MCQ: A = Senior, B = Junior, C = Middle, D = Intern) and ten Likert items scored 1–5. Likert items (e.g., Frequent_Usage, Need_for_Technical_Support) use 1 = Strongly Disagree through 5 = Strongly Agree. Responses list each respondent ID with their Group letter and numeric scores. Use the schema above to interpret MCQ letters into full group names.
 
-None",True
+None",False
 case_43,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -20786,7 +20786,7 @@ List all respondents whose total positive usability score ('Ease_of_Use' + 'Inte
 - Seniors in the dataset are respondents with Group = A; their average positive usability score is 9.0.
 - The task identifies respondents whose (Ease_of_Use + Integration_of_Functions) is strictly less than that Senior-group average.
 
-52, 82",True
+52, 82",False
 case_47,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,"<!DOCTYPE html>
 <html>
 <head>

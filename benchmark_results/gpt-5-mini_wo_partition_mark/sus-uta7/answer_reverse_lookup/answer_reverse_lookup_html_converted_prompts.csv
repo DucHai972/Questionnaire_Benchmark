@@ -11684,7 +11684,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.","4, 38",False
+Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.","4, 38",True
 case_31,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Inconsistency' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12640,7 +12640,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.","4, 5, 31, 90",False
+Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.","4, 5, 31, 90",True
 case_33,answer_reverse_lookup,List all respondents who rated 'Confidence_in_Use' and 'Frequent_Usage' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15886,7 +15886,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.","6, 48, 54, 55",False
+List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.","6, 48, 54, 55",True
 case_39,answer_reverse_lookup,List all respondents who rated 'Integration_of_Functions' and 'Inconsistency' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17404,7 +17404,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.","22, 49, 74",False
+Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.","22, 49, 74",True
 case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17966,7 +17966,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.","4, 12, 32, 36, 70",False
+Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.","4, 12, 32, 36, 70",True
 case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>

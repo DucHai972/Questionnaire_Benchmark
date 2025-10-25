@@ -2973,7 +2973,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_4,rule_based_querying,Which respondents have a 'Depression' score of 8 or higher?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -4261,7 +4261,7 @@ Rules:
 
 <task>
 Which respondents have a 'Depression' score of 8 or higher?
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,List all  male respondents born before 2004.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -7266,7 +7266,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_7,rule_based_querying,List all  female respondents born before 2004.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -34439,7 +34439,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2002.
-</task>",None,False
+</task>",None,True
 case_24,rule_based_querying,List all  female respondents born before 2002.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -39257,7 +39257,7 @@ Rules:
 
 <task>
 Find all respondents whose combined 'Stress' and 'Loneliness' score is exactly 3.
-</task>",None,False
+</task>",None,True
 case_27,rule_based_querying,Which  male respondents born after 2002 have a 'Happiness' score of 6 and a 'Depression' score of less than 3?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -46236,7 +46236,7 @@ Rules:
 
 <task>
 Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 5?
-</task>",None,False
+</task>",None,True
 case_31,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -57589,7 +57589,7 @@ Rules:
 
 <task>
 Which  male respondents born after 2003 have a 'Laughter' score of 7 and a 'Worry' score of less than 4?
-</task>",None,False
+</task>",None,True
 case_38,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .

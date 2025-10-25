@@ -15027,7 +15027,7 @@ Rules:
 
 <task>
 Count the respondents who are 'C' and whose yearly compensation is over 100000.
-</task>","Do you mean Employment = ""Independent contractor, freelancer, or self-employed"" (option C)? And should ""yearly compensation"" mean CompTotal only when CompFreq = ""Yearly"", or should I convert monthly/weekly amounts to annual equivalents (weekly×52, monthly×12) before comparing to 100000?",True
+</task>","Do you mean Employment = ""Independent contractor, freelancer, or self-employed"" (option C)? And should ""yearly compensation"" mean CompTotal only when CompFreq = ""Yearly"", or should I convert monthly/weekly amounts to annual equivalents (weekly×52, monthly×12) before comparing to 100000?",False
 case_27,respondent_count,Count the respondents who are 'A' and whose yearly compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>

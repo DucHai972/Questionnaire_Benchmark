@@ -19898,7 +19898,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.","154, 29061, 547, 72827",False
+Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.","154, 29061, 547, 72827",True
 case_37,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25715,7 +25715,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.",259,True
+List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.",259,False
 case_46,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73069'.,"<!DOCTYPE html>
 <html>
 <head>

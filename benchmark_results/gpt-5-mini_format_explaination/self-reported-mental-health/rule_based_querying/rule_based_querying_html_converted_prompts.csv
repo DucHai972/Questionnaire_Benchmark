@@ -11069,7 +11069,7 @@ Rules:
 List all  male respondents born before 2004.
 </task>","May I proceed to provide the list?
 
-77, 20, 93",False
+77, 20, 93",True
 case_9,rule_based_querying,Find all respondents whose 'Socio-economic status' is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36859,7 +36859,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2002.
-</task>",None,False
+</task>",None,True
 case_24,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -42018,7 +42018,7 @@ Rules:
 
 <task>
 Find all respondents whose combined 'Stress' and 'Loneliness' score is exactly 3.
-</task>","Do you want just the respondent IDs (comma-separated), or full respondent records?",False
+</task>","Do you want just the respondent IDs (comma-separated), or full respondent records?",True
 case_27,rule_based_querying,Which  male respondents born after 2002 have a 'Happiness' score of 6 and a 'Depression' score of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -63631,7 +63631,7 @@ Rules:
 List all respondents whose 'Enjoyment' is greater than their 'Anger'.
 </task>","May I proceed with the list of respondent IDs?
 
-88, 13, 12, 118, 32, 41, 113, 117, 1",False
+88, 13, 12, 118, 32, 41, 113, 117, 1",True
 case_39,rule_based_querying,List all respondents whose 'Laughter' is greater than their 'Worry'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -70754,7 +70754,7 @@ Rules:
 
 <task>
 List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.
-</task>","23, 81, 35",False
+</task>","23, 81, 35",True
 case_43,rule_based_querying,List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -72416,7 +72416,7 @@ Rules:
 
 <task>
 List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.
-</task>","Do you want missing parental-education values excluded when computing averages (i.e., compute each SES group's average father years using only respondents with a reported Father value)?",False
+</task>","Do you want missing parental-education values excluded when computing averages (i.e., compute each SES group's average father years using only respondents with a reported Father value)?",True
 case_44,rule_based_querying,Find all respondents whose 'Life satisfaction' is greater than the average 'Life satisfaction' for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -84176,7 +84176,7 @@ Rules:
 
 <task>
 Which respondents have a 'Enjoyment' score that is lower than the average 'Enjoyment' score for their gender?
-</task>","21, 22, 53, 72, 101, 138",False
+</task>","21, 22, 53, 72, 101, 138",True
 case_50,rule_based_querying,Which respondents have a total 'Depressive Symptoms Frequency' score that is lower than the average for all respondents born in the same year?,"<!DOCTYPE html>
 <html>
 <head>

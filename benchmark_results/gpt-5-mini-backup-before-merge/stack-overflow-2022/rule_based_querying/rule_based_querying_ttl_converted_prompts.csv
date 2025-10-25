@@ -1228,7 +1228,7 @@ Rules:
 
 <task>
 List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
-</task>""""""",None,False
+</task>""""""",None,True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8770,7 +8770,7 @@ Rules:
 
 <task>
 List all respondents from 'Poland' whose 'YearsCode' is less than 15.
-</task>""""""",Respondent72932,False
+</task>""""""",Respondent72932,True
 case_20,rule_based_querying,Which respondents have a 'CompTotal' greater than 95000?,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15668,7 +15668,7 @@ Rules:
 
 <task>
 Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?
-</task>""""""",None,False
+</task>""""""",None,True
 case_33,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -17964,7 +17964,7 @@ Rules:
 
 <task>
 Find all respondents whose calculated yearly compensation is greater than 164000.
-</task>""","Respondent382, Respondent317, Respondent72970, Respondent72803, Respondent73107, Respondent72815",False
+</task>""","Respondent382, Respondent317, Respondent72970, Respondent72803, Respondent73107, Respondent72815",True
 case_37,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 106500.,"""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 

@@ -4534,7 +4534,7 @@ Rules:
 Which respondents have a 'Depression' score of 8 or higher?
 </task>","Critical values for 'Depression' are scores from 0 to 10, where 0 means 'Not depressed' and 10 means 'Totally depressed'. The task requires identifying respondents with a 'Depression' score of 8 or higher. This range indicates a high level of reported depression.
 
-[]",True
+[]",False
 case_5,rule_based_querying,List all  male respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7724,7 +7724,7 @@ Rules:
 List all  female respondents born before 2003.
 </task>","Critical values for this query are 'Gender' and 'Year of birth'. Gender is a multiple-choice question where '1.0' represents Male and '2.0' represents Female. The 'Year of birth' is an open-ended numerical field. The condition for 'Year of birth' is strictly ""before 2003"", meaning the year must be 2002 or earlier.
 
-[]",True
+[]",False
 case_7,rule_based_querying,List all  female respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16050,7 +16050,7 @@ Rules:
 List all  male respondents born before 2002.
 </task>","The critical values for this query are the 'Year of birth' (must be less than 2002) and 'Gender' (must be 1.0 for Male). The 'Year of birth' is an open-ended numerical field, while 'Gender' is a multiple-choice question where '1. Male' is the relevant option. All other survey questions and their respective scales (Likert, open-ended) are not pertinent to filtering the respondents for this specific request. The range for 'Year of birth' observed in the data is from 2001 to 2005.
 
-[]",True
+[]",False
 case_12,rule_based_querying,List all  male respondents born before 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17567,7 +17567,7 @@ Rules:
 List all  male respondents born before 2003.
 </task>","The critical values for this query are the gender code for ""Male"" (1.0) and the year of birth threshold (before 2003). The ""Year of birth"" field is open-ended, with observed values ranging from 2001.0 to 2004.0. The ""Gender"" field is a multiple-choice question, where 1.0 represents ""Male"" and 2.0 represents ""Female"". To be included, a respondent must have a gender value of 1.0 and a year of birth strictly less than 2003.
 
-[]",True
+[]",False
 case_13,rule_based_querying,Which respondents have a 'Happiness' score of 7 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -27724,7 +27724,7 @@ After reviewing all respondents:
 -   None of these years are strictly less than 2003.0.
 Therefore, no female respondents were born before 2003.
 
-[]",True
+[]",False
 case_19,rule_based_querying,List all  male respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36855,7 +36855,7 @@ List all  female respondents born before 2002.
 
 No respondents meet both criteria.
 
-[]",True
+[]",False
 case_24,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -42015,7 +42015,7 @@ Rules:
 Find all respondents whose combined 'Stress' and 'Loneliness' score is exactly 3.
 </task>","The relevant fields for this task are 'Stress' and 'Loneliness', both measured on a Likert scale from 0 to 10. A score of 0 indicates ""At no time"", and 10 indicates ""All the time"". The objective is to find respondents whose sum of 'Stress' and 'Loneliness' scores is exactly 3. This means individual scores for these two variables must be low, ranging from 0 to 3 for each, to meet the specified sum.
 
-[]",True
+[]",False
 case_27,rule_based_querying,Which  male respondents born after 2002 have a 'Happiness' score of 6 and a 'Depression' score of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -49491,7 +49491,7 @@ Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 
 *   **Life satisfaction**: A Likert scale from 0 to 10. The target value is exactly 8.
 *   **Loneliness**: A Likert scale from 0 to 10. The target range is values strictly less than 5.
 
-[]",True
+[]",False
 case_31,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -61643,7 +61643,7 @@ Rules:
 Which  male respondents born after 2003 have a 'Laughter' score of 7 and a 'Worry' score of less than 4?
 </task>","Critical values and ranges for the survey related to the question are: Gender (Male = 1.0, Female = 2.0), Year of birth (open-ended, but the condition is > 2003), Laughter (Likert 0–10, condition is 7.0), and Worry (Likert 0–10, condition is < 4.0).
 
-[]",True
+[]",False
 case_38,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"<!DOCTYPE html>
 <html>
 <head>

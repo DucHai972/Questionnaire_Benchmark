@@ -356,7 +356,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '7', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_3,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '9'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -873,7 +873,7 @@ Rules:
 
 <task>
 Which respondents participated in the same session name as respondent '9'?
-</task>",,
+</task>","Respondent 5, Respondent 12",False
 case_4,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '16', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -1267,7 +1267,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '16', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_5,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '9'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -1778,7 +1778,7 @@ Rules:
 
 <task>
 Which respondents participated in the same session name as respondent '9'?
-</task>",,
+</task>","Respondent 5, Respondent 15, Respondent 17, Respondent 3, Respondent 16, Respondent 22, Respondent 10, Respondent 2, Respondent 6",False
 case_6,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '20'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2121,7 +2121,7 @@ Rules:
 
 <task>
 Which respondents participated in the same session name as respondent '20'?
-</task>",,
+</task>",,False
 case_7,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '15'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2605,7 +2605,26 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '15'.
-</task>",,
+</task>","To find the respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '15', we first need to identify respondent '15's score. According to the data, respondent '15' scored a '2' on 'Recommendation (clear recommendation)'.
+
+
+Next, we will go through each respondent's data to find those who also scored a '2' on 'Recommendation (clear recommendation)'.
+
+
+Respondent '3' scored a '3'.
+Respondent '21' scored a '3'.
+Respondent '23' scored a '3'.
+Respondent '20' scored a '2'.
+Respondent '17' scored a '3'.
+Respondent '13' scored a '2'.
+Respondent '2' scored a '2'.
+Respondent '8' scored a '2'.
+
+
+Therefore, the respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '15' are Respondent '20', Respondent '13', Respondent '2', and Respondent '8'.
+
+
+The final answer is: $\boxed{20, 13, 2, 8}$",False
 case_8,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '16', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -3038,7 +3057,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '16', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_9,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '2'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3555,7 +3574,11 @@ Rules:
 
 <task>
 Which respondents participated in the same session name as respondent '2'?
-</task>",,
+</task>","Respondent 2's session name is ""MI"". 
+
+After reviewing the data, I found that there are no other respondents with the exact session name ""MI"". 
+
+Therefore, the answer is: None",False
 case_10,multi_hop_relational_inference,List all respondents who scored the same on 'Background (history)' as respondent '13'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3952,7 +3975,7 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Background (history)' as respondent '13'.
-</task>",,
+</task>","Respondent 13 scored a 2 on 'Background (history)'. The respondents who scored the same are: Respondent 10, Respondent 14, Respondent 23.",False
 case_11,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '3', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -4472,7 +4495,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '3', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_12,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '13'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4872,7 +4895,7 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '13'.
-</task>",,
+</task>","Respondent 10, Respondent 5, Respondent 22",True
 case_13,multi_hop_relational_inference,List all respondents who scored the same on 'Assessment' as respondent '5'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5428,7 +5451,9 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Assessment' as respondent '5'.
-</task>",,
+</task>","Respondent 5 scored a 3 on 'Assessment'. The respondents who also scored a 3 on 'Assessment' are: Respondent 11, Respondent 17, Respondent 3, Respondent 14, Respondent 20, Respondent 23, Respondent 1. 
+
+The answer is: 11, 17, 3, 14, 20, 23, 1",False
 case_14,multi_hop_relational_inference,List all respondents who scored the same on 'Background (history)' as respondent '16'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5825,7 +5850,9 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Background (history)' as respondent '16'.
-</task>",,
+</task>","Respondent 16 scored a 3 on 'Background (history)'. The respondents who also scored a 3 on 'Background (history)' are Respondent 11, Respondent 8, and Respondent 5. 
+
+The answer is: 11, 8, 5",False
 case_15,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '21', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -6180,7 +6207,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '21', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_16,multi_hop_relational_inference,List all respondents who scored the same on 'Background (history)' as respondent '23'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6706,7 +6733,7 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Background (history)' as respondent '23'.
-</task>",,
+</task>","Respondent 13, Respondent 18",False
 case_17,multi_hop_relational_inference,List all respondents who scored the same on 'Situation' as respondent '15'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7016,7 +7043,7 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Situation' as respondent '15'.
-</task>",,
+</task>","Respondent 12, Respondent 14, Respondent 8, Respondent 22",True
 case_18,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '22', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -7485,7 +7512,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '22', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_19,multi_hop_relational_inference,List all respondents who scored the same on 'Background (examination)' as respondent '22'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8086,7 +8113,9 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Background (examination)' as respondent '22'.
-</task>",,
+</task>","Respondent 22 scored a 3 on 'Background (examination)'. The respondents who also scored a 3 on 'Background (examination)' are: Respondent 15, Respondent 7, Respondent 5, Respondent 17, Respondent 22, Respondent 3, Respondent 6. 
+
+The list of respondents who scored the same on 'Background (examination)' as respondent '22' is: 15, 7, 5, 17, 3, 6, 22",False
 case_20,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '4'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8402,7 +8431,7 @@ Rules:
 
 <task>
 Which respondents participated in the same session name as respondent '4'?
-</task>",,
+</task>",,False
 case_21,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '17', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -8748,7 +8777,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '17', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_22,multi_hop_relational_inference,Which respondents participated in the same session name as respondent '23'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9142,7 +9171,11 @@ Rules:
 
 <task>
 Which respondents participated in the same session name as respondent '23'?
-</task>",,
+</task>","Respondent 23's session name is II-Anaphylaxsis. 
+
+After reviewing the data, I found that there is no other respondent with the exact session name 'II-Anaphylaxsis'. However, Respondent 12 has a session name 'II (Anaphylaxis)', which is similar but not exactly the same. Since the session names are not identical, I will not include Respondent 12 in the list.
+
+Therefore, the answer is: None",False
 case_23,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '13', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -9461,7 +9494,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '13', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_24,multi_hop_relational_inference,"Find all respondents who had a session on the same date as respondent '5', excluding the respondent themselves.","<!DOCTYPE html>
 <html>
 <head>
@@ -9981,7 +10014,7 @@ Rules:
 
 <task>
 Find all respondents who had a session on the same date as respondent '5', excluding the respondent themselves.
-</task>",,
+</task>",,False
 case_25,multi_hop_relational_inference,List all respondents who scored the same on 'Situation' as respondent '4'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10591,7 +10624,11 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Situation' as respondent '4'.
-</task>",,
+</task>","To find the respondents who scored the same on 'Situation' as respondent '4', we first need to identify respondent '4's score on 'Situation'. According to the data, respondent '4' scored a 3 on 'Situation'. Now, we will list all respondents who also scored a 3 on 'Situation'.
+
+Respondents with a score of 3 on 'Situation' are: Respondent 23, Respondent 5, Respondent 16, Respondent 19, Respondent 9, Respondent 4, Respondent 18, Respondent 21 is not included because they scored a 2.
+
+The final answer is: $\boxed{23, 5, 16, 19, 9, 4, 18}$",False
 case_26,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '13' and also scored 1 on 'Recommendation (global rating scale)'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11159,7 +11196,7 @@ Rules:
 
 <task>
 Which respondents had a session on the same date as respondent '13' and also scored 1 on 'Recommendation (global rating scale)'?
-</task>",,
+</task>",,False
 case_27,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '12' and also scored perfectly on 'Background (examination)'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11763,7 +11800,39 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '12' and also scored perfectly on 'Background (examination)'.
-</task>",,
+</task>","To solve this task, we first need to identify the score of respondent '12' on 'Recommendation (clear recommendation)' and then find all respondents who scored the same. Additionally, we need to ensure these respondents also scored perfectly on 'Background (examination)'.
+
+
+Respondent '12' scored a '3' on 'Recommendation (clear recommendation)'.
+
+
+Now, let's identify respondents who scored '3' on 'Recommendation (clear recommendation)' and also scored '3' on 'Background (examination)'.
+
+
+From the data:
+
+
+- Respondent 3: Scored '3' on 'Recommendation (clear recommendation)' and '3' on 'Background (examination)'.
+- Respondent 4 did not score '3' on 'Recommendation (clear recommendation)'.
+- Respondent 16 did not score '3' on 'Recommendation (clear recommendation)'.
+- Respondent 20 did not score '3' on 'Background (examination)'.
+- Respondent 18 did not score '3' on 'Recommendation (clear recommendation)' or '3' on 'Background (examination)'.
+- Respondent 1 did not score '3' on 'Recommendation (clear recommendation)'.
+- Respondent 17 scored '3' on 'Recommendation (clear recommendation)' and '3' on 'Background (examination)'.
+- Respondent 8 did not score '3' on 'Recommendation (clear recommendation)'.
+- Respondent 12 ( themselves ) scored '3' on 'Recommendation (clear recommendation)' and '3' on 'Background (examination)'.
+- Respondent 23 scored '3' on 'Recommendation (clear recommendation)' but we need to check 'Background (examination)'.
+- Respondent 5 did not score '3' on 'Recommendation (clear recommendation)'.
+- Respondent 7 did not score '3' on 'Recommendation (clear recommendation)'.
+
+
+Respondent 23 scored '2' on 'Background (examination)', not '3'.
+
+
+Thus, the respondents who scored the same as respondent '12' on 'Recommendation (clear recommendation)' and also scored perfectly on 'Background (examination)' are Respondent 3, Respondent 12, and Respondent 17.
+
+
+The final answer is: $\boxed{3, 12, 17}$",False
 case_28,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '8' and also scored 1 on 'Background (history)'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12076,7 +12145,7 @@ Rules:
 
 <task>
 Which respondents had a session on the same date as respondent '8' and also scored 1 on 'Background (history)'?
-</task>",,
+</task>",,False
 case_29,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '23' and also scored 2 on 'Identification'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12473,7 +12542,7 @@ Rules:
 
 <task>
 Which respondents had a session on the same date as respondent '23' and also scored 2 on 'Identification'?
-</task>",,
+</task>",,False
 case_30,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'communication'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12789,7 +12858,7 @@ Rules:
 
 <task>
 Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'communication'.
-</task>",,
+</task>",,False
 case_31,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'Good'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13309,7 +13378,21 @@ Rules:
 
 <task>
 Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'Good'.
-</task>",,
+</task>","Respondent 12's session name is II (Anaphylaxis). 
+
+The respondents with the same session name are:
+- Respondent 5's session name is II - Anaphylaxsis, which can be considered the same as II (Anaphylaxis) due to a minor spelling variation.
+- Respondent 23's session name is II-Anaphylaxsis, which is also the same as II (Anaphylaxis) with a minor spelling variation.
+- Respondent 6's session name is II (Anaphylactic Shock), which is not exactly the same as II (Anaphylaxis).
+
+Among these, the respondents whose comments contain the word 'Good' are:
+- Respondent 5: Comments - ""Good clear and precise clinical handover Good""
+- Respondent 12 is excluded from the results as per the task, but Respondent 12's comments are ""Good"" which matches the criteria.
+- Respondent 23's comments do not contain the word 'Good'.
+- Respondent 6's comments are empty.
+
+Therefore, the respondents who participated in the same session name as respondent '12' and whose comments contain the word 'Good' are:
+5",False
 case_32,multi_hop_relational_inference,List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '1' and also scored perfectly on 'Recommendation (global rating scale)'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13910,7 +13993,7 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Recommendation (clear recommendation)' as respondent '1' and also scored perfectly on 'Recommendation (global rating scale)'.
-</task>",,
+</task>",,False
 case_33,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '13' and whose comments contain the word 'Clear'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14430,7 +14513,7 @@ Rules:
 
 <task>
 Find all respondents who participated in the same session name as respondent '13' and whose comments contain the word 'Clear'.
-</task>",,
+</task>",,False
 case_34,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '7' and also scored 3 on 'Recommendation (global rating scale)'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14986,7 +15069,7 @@ Rules:
 
 <task>
 Which respondents had a session on the same date as respondent '7' and also scored 3 on 'Recommendation (global rating scale)'?
-</task>",,
+</task>",,False
 case_35,multi_hop_relational_inference,List all respondents who scored the same on 'Situation' as respondent '20' and also scored perfectly on 'Recommendation (clear recommendation)'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15506,7 +15589,7 @@ Rules:
 
 <task>
 List all respondents who scored the same on 'Situation' as respondent '20' and also scored perfectly on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_36,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '2' and also scored 3 on 'Background (history)'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16098,7 +16181,7 @@ Rules:
 
 <task>
 Which respondents had a session on the same date as respondent '2' and also scored 3 on 'Background (history)'?
-</task>",,
+</task>",,False
 case_37,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'communication'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16606,7 +16689,7 @@ Rules:
 
 <task>
 Find all respondents who participated in the same session name as respondent '12' and whose comments contain the word 'communication'.
-</task>",,
+</task>",,False
 case_38,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '19' and also scored 0 on 'Background (history)'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17123,7 +17206,7 @@ Rules:
 
 <task>
 Which respondents had a session on the same date as respondent '19' and also scored 0 on 'Background (history)'?
-</task>",,
+</task>",,False
 case_39,multi_hop_relational_inference,Find all respondents who participated in the same session name as respondent '8' and whose comments contain the word 'Overall'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17715,7 +17798,7 @@ Rules:
 
 <task>
 Find all respondents who participated in the same session name as respondent '8' and whose comments contain the word 'Overall'.
-</task>",,
+</task>",,False
 case_40,multi_hop_relational_inference,Which respondents had a session on the same date as respondent '22' and also scored 0 on 'Identification'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18190,7 +18273,7 @@ Rules:
 
 <task>
 Which respondents had a session on the same date as respondent '22' and also scored 0 on 'Identification'?
-</task>",,
+</task>",,False
 case_41,multi_hop_relational_inference,Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions that happened on the same date as respondent '16's session.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18713,7 +18796,31 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions that happened on the same date as respondent '16's session.
-</task>",,
+</task>","To solve this task, we first need to identify the date of respondent '16's session and then find the average 'Recommendation (clear recommendation)' for all sessions on that date. Afterward, we will identify respondents with a 'Recommendation (clear recommendation)' higher than this average.
+
+1. **Identify the date of respondent '16's session**: 
+Respondent '16' had a session on 2025-05-02.
+
+2. **Find all sessions on the same date (2025-05-02)**:
+- Respondent 8: 2025-05-02
+- Respondent 1: 2025-05-02
+- Respondent 16: 2025-05-02
+
+3. **Calculate the average 'Recommendation (clear recommendation)' for these sessions**:
+- Respondent 8: 2
+- Respondent 1: 2
+- Respondent 16: 2
+Average = (2 + 2 + 2) / 3 = 6 / 3 = 2
+
+4. **Identify respondents with a 'Recommendation (clear recommendation)' higher than the average (2)**:
+Since the average is 2, we are looking for respondents with a score of 3.
+
+5. **List respondents with 'Recommendation (clear recommendation)' of 3 on the date 2025-05-02**:
+None of the respondents on this date have a score higher than 2. However, we need to check all respondents who had sessions on this date to see if any were missed and to correctly follow the instructions.
+
+Given the data and the specific question, the task is to find respondents whose 'Recommendation (clear recommendation)' is higher than the average for sessions on the same date as respondent '16'. Since the average 'Recommendation (clear recommendation)' for sessions on 2025-05-02 is 2, and no respondent on this date has a score higher than 2, the answer reflects this outcome.
+
+The final answer is: $\boxed{None}$",False
 case_42,multi_hop_relational_inference,Which respondents are from a session name where the average 'Background (examination)' score is higher than the overall average for all sessions?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19146,7 +19253,7 @@ Rules:
 
 <task>
 Which respondents are from a session name where the average 'Background (examination)' score is higher than the overall average for all sessions?
-</task>",,
+</task>",,False
 case_43,multi_hop_relational_inference,Find all respondents whose 'Recommendation (global rating scale)' is higher than the average 'Recommendation (global rating scale)' for all sessions that happened on the same date as respondent '19's session.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19621,7 +19728,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (global rating scale)' is higher than the average 'Recommendation (global rating scale)' for all sessions that happened on the same date as respondent '19's session.
-</task>",,
+</task>",,False
 case_44,multi_hop_relational_inference,Find all respondents whose 'Identification' is higher than the average 'Identification' for all sessions that happened on the same date as respondent '23's session.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20231,7 +20338,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Identification' is higher than the average 'Identification' for all sessions that happened on the same date as respondent '23's session.
-</task>",,
+</task>",,False
 case_45,multi_hop_relational_inference,Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '17's session.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20787,7 +20894,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '17's session.
-</task>",,
+</task>",,False
 case_46,multi_hop_relational_inference,Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions that happened on the same date as respondent '19's session.,"<!DOCTYPE html>
 <html>
 <head>
@@ -21352,7 +21459,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions that happened on the same date as respondent '19's session.
-</task>",,
+</task>",,False
 case_47,multi_hop_relational_inference,Which respondents are from a session name where the average 'Recommendation (clear recommendation)' score is higher than the overall average for all sessions?,"<!DOCTYPE html>
 <html>
 <head>
@@ -21953,7 +22060,7 @@ Rules:
 
 <task>
 Which respondents are from a session name where the average 'Recommendation (clear recommendation)' score is higher than the overall average for all sessions?
-</task>",,
+</task>",,False
 case_48,multi_hop_relational_inference,Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '23's session.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22473,7 +22580,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '23's session.
-</task>",,
+</task>",,False
 case_49,multi_hop_relational_inference,Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '17's session.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23077,7 +23184,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Situation' is higher than the average 'Situation' for all sessions that happened on the same date as respondent '17's session.
-</task>",,
+</task>",,False
 case_50,multi_hop_relational_inference,Which respondents are from a session name where the average 'Recommendation (global rating scale)' score is higher than the overall average for all sessions?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23684,4 +23791,4 @@ Rules:
 
 <task>
 Which respondents are from a session name where the average 'Recommendation (global rating scale)' score is higher than the overall average for all sessions?
-</task>",,
+</task>",,False

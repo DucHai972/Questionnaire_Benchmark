@@ -395,7 +395,7 @@ Checking other respondents:
 
 No other respondents are from 'Bangladesh'.
 
-None",True
+None",False
 case_3,multi_hop_relational_inference,List all respondents who have the same education level as respondent '29043'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12321,7 +12321,7 @@ Which respondents have the same 'MainBranch' (professional identity) as responde
 </questionnaire>","[REQUEST]
 The 'MainBranch' for respondent '73125' is 'B', which corresponds to ""I am not primarily a developer, but I write code sometimes as part of my work"". I will now check all other respondents to see if their 'MainBranch' is also 'B'.
 [/REQUEST]
-None",True
+None",False
 case_23,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '189', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -16317,7 +16317,7 @@ I will now identify all other respondents whose 'MainBranch' is also 'A' and who
 
 The respondents who meet the criteria are 133 and 362.
 [/REQUEST]
-133, 362",True
+133, 362",False
 case_30,multi_hop_relational_inference,Which respondents are from the same country as respondent '73030' and also have more than 5 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18039,7 +18039,7 @@ Now I will check all other respondents to see if their country is 'France' AND t
 
 No other respondents are from France. Therefore, no respondents meet both criteria.
 [/REQUEST]
-None",True
+None",False
 case_33,multi_hop_relational_inference,Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>

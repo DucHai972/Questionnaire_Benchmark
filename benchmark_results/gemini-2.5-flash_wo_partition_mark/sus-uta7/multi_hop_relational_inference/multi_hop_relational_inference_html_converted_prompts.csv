@@ -3644,7 +3644,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents who rated 'Inconsistency' the same as respondent '61'.","24, 25",False
+List all respondents who rated 'Inconsistency' the same as respondent '61'.","24, 25",True
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -14290,7 +14290,7 @@ Let's examine the respondents:
 
 The respondents who meet both criteria are 43, 17, 37, 33, and 73.
 
-43, 17, 37, 33, 73",True
+43, 17, 37, 33, 73",False
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>

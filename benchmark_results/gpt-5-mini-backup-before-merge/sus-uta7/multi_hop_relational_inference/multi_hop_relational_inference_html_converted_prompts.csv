@@ -1267,7 +1267,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20'?
-</task>""""""","20, 39, 51, 62",True
+</task>""""""","20, 39, 51, 62",False
 case_5,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '84'.,"""""""<!DOCTYPE html>
 <html>
 <head>
@@ -3794,7 +3794,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>""""""","24, 25, 61",True
+</task>""""""","24, 25, 61",False
 case_12,multi_hop_relational_inference,"""""""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""""""","""""""<!DOCTYPE html>
 <html>
 <head>
@@ -6374,7 +6374,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.
-</task>""""""","67, 54, 47, 38",True
+</task>""""""","67, 54, 47, 38",False
 case_18,multi_hop_relational_inference,List all respondents who rated 'Need_to_Learn_Before_Use' the same as respondent '26'.,"""""""<!DOCTYPE html>
 <html>
 <head>
@@ -8220,7 +8220,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.
-</task>""""""","54, 89, 82, 37",True
+</task>""""""","54, 89, 82, 37",False
 case_22,multi_hop_relational_inference,"""""""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""""""","""""""<!DOCTYPE html>
 <html>
 <head>
@@ -13097,7 +13097,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Confidence_in_Use' score as respondent '90' and who also strongly agree that the system is easy to learn (score of 5).
-</task>""""""","5, 10, 28, 90",True
+</task>""""""","5, 10, 28, 90",False
 case_33,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '84' but are not in the same group.,"""""""<!DOCTYPE html>
 <html>
 <head>
@@ -14167,7 +14167,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Confidence_in_Use' score as respondent '40' and who also strongly agree that the system is easy to learn (score of 5).
-</task>""""""","30, 40, 13",True
+</task>""""""","30, 40, 13",False
 case_35,multi_hop_relational_inference,Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?,"""""""<!DOCTYPE html>
 <html>
 <head>

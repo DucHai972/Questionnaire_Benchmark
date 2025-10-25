@@ -38232,7 +38232,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Count the respondents whose total score for 'Depression' and 'Happiness' is exactly 10.","Do you want me to count (A) the respondents who are male, or (B) the respondents whose Depression + Happiness total is exactly 10?",True
+Count the respondents whose total score for 'Depression' and 'Happiness' is exactly 10.","Do you want me to count (A) the respondents who are male, or (B) the respondents whose Depression + Happiness total is exactly 10?",False
 case_27,respondent_count,Count the respondents born in 2003 who have a 'Stress' greater than 7 and a 'Life satisfaction' less than 3.,"<!DOCTYPE html>
 <html>
 <head>

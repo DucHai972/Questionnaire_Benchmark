@@ -633,7 +633,7 @@ Rules:
 List all respondents who have worked with the 'C++' language.
 </task>","This survey collects data on developers' professional identity, employment, education, coding experience, roles, organization size, country, compensation, and programming languages/tools used. Most respondents are full-time developers with varying years of experience, primarily working in organizations ranging from 20 to 499 employees. The data shows a diverse set of programming languages and tools used, with Git being the most common version control system. Compensation varies significantly across different countries and roles.
 
-72973, 29061",True
+72973, 29061",False
 case_3,answer_reverse_lookup,Which respondents are from 'Canada'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -1495,7 +1495,7 @@ Rules:
 Which respondents are from 'Netherlands'?
 </task>","The survey data includes responses from 7 individuals, each identified by a unique respondent ID. Each respondent provides information across 14 different categories, including professional identity, employment status, education level, coding experience, developer type, organization size, country of residence, compensation details, programming languages used and desired, developer tools, and version control systems. The 'Country' field is an open-ended text field, allowing for specific country names to be recorded. Compensation frequency is a multiple-choice question, while other fields like 'YearsCode' and 'CompTotal' are open-ended numerical values.
 
-72761, 72730",True
+72761, 72730",False
 case_5,answer_reverse_lookup,Which respondents are from 'Estonia'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -13072,7 +13072,7 @@ Rules:
 Which respondents are from 'United Kingdom of Great Britain and Northern Ireland'?
 </task>","The survey collected data from 6 respondents on various aspects including professional identity, employment, education level, coding experience, developer type, organization size, country of residence, compensation, and programming languages/tools used. Most respondents are full-time employed developers with varying years of coding experience. Compensation details are provided with different frequencies (monthly or yearly). The data also captures the specific programming languages and tools developers have worked with and wish to work with.
 
-73200, 72950",True
+73200, 72950",False
 case_25,answer_reverse_lookup,List all respondents who have worked with the 'Python' language.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13605,7 +13605,7 @@ Rules:
 List all respondents who have worked with the 'Python' language.
 </task>","The survey collects data on developers' professional identity, employment, education, coding experience, development roles, organization size, country, compensation, and programming languages/tools used. Most respondents identify as professional developers, with full-time employment being common. Coding experience varies, from less than a year to 14 years, and many respondents work with multiple programming languages and tools. The data includes respondents from various countries, indicating a diverse geographical representation. Compensation details are provided, with frequencies being monthly or yearly.
 
-73020, 247, 123, 363",True
+73020, 247, 123, 363",False
 case_26,answer_reverse_lookup,"""Find all respondents from 'Germany' with an education level of 'S., etc.)' who have worked with 'Objective-C'.""","<!DOCTYPE html>
 <html>
 <head>
@@ -15891,7 +15891,7 @@ Find all respondents from 'Slovakia' with an education level of 'Some college/un
 </task>","Structural Information, Patterns, and Statistics:
 The survey collects detailed professional and technical information from developers, including their primary professional identity, employment status, education level, and years of coding experience. It also gathers data on their organization size, country of residence, and compensation details. Furthermore, the survey delves into the programming languages and developer tools respondents have worked with and wish to use, alongside their preferred version control systems. Most respondents are full-time employed developers with varying years of experience, predominantly using Git for version control. Compensation and language preferences show a wide range across different countries and roles.
 
-None",True
+None",False
 case_30,answer_reverse_lookup,Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16526,7 +16526,7 @@ Rules:
 Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?
 </task>","The survey collects detailed information on developers' professional identity, employment status, education level, coding experience (total and professional), development roles, organization size, country of residence, compensation, and tools/languages used. Most fields are open-ended, allowing for specific responses, while some are multiple-choice. Compensation details include total amount and frequency. The data provides insights into the demographics and technical proficiencies of the respondents.
 
-73198, 72958, 29109, 72800",False
+73198, 72958, 29109, 72800",True
 case_31,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18533,7 +18533,7 @@ Rules:
 Find all respondents from 'Turkey' with an education level of 'Associate degree (A.A.,' who have worked with 'Dart'.
 </task>","The survey collects data on professional identity, employment, education, coding experience, developer roles, organization size, country, compensation, and programming languages/tools used. All respondents in this sample identify as developers by profession and primarily use Git for version control. The majority of respondents are employed full-time, with compensation predominantly reported on a yearly basis. Most respondents are from the United States of America, with others from Spain, Turkey, Germany, and the United Kingdom. Common programming languages worked with include HTML/CSS, JavaScript, SQL, and TypeScript, reflecting diverse developer types.
 
-None",True
+None",False
 case_34,answer_reverse_lookup,Which respondents have between 5 and 10 years of total coding experience and work with the 'npm' tool?,"<!DOCTYPE html>
 <html>
 <head>
@@ -25188,7 +25188,7 @@ List all respondents who have worked with a language that is also one of the top
 </task>","[REQUEST]
 I have processed the data and identified the relevant information for each respondent, including their organization size, languages they have worked with, and languages they want to work with. I have then grouped respondents by organization size and determined the top 3 most desired languages for each group, handling ties by including all languages that share the rank within the top 3. Finally, I have checked each respondent to see if any of the languages they have worked with are present in the top 3 desired languages for their respective organization size group. I am ready to provide the list of qualifying respondent IDs.
 [/REQUEST]
-308, 73057, 61, 72805, 255, 359, 222, 72584, 72848",True
+308, 73057, 61, 72805, 255, 359, 222, 72584, 72848",False
 case_44,answer_reverse_lookup,Which respondents have more professional coding experience than the average for their education level?,"<!DOCTYPE html>
 <html>
 <head>
@@ -26350,7 +26350,7 @@ To determine which respondents have more professional coding experience than the
 *   **Respondent 267 (EdLevel B):** 6 years > 5.5 years (Included)
 *   **Respondent 420 (EdLevel C):** 7 years = 7.0 years (Not included)
 
-72945, 206, 73038, 267",True
+72945, 206, 73038, 267",False
 case_46,answer_reverse_lookup,List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.,"<!DOCTYPE html>
 <html>
 <head>
@@ -28947,7 +28947,7 @@ Rules:
 Which respondents have more professional coding experience than the average for their education level?
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary identity, employment status, education level, and coding experience. It also gathers information on their organization size, country of residence, compensation, and the programming languages and tools they use. The dataset includes responses from 12 individuals, with a notable concentration of respondents from the United States of America and a majority identifying as professional developers. Most respondents have worked with common web technologies like HTML/CSS and JavaScript, and Git is the overwhelmingly preferred version control system.
 
-72831, 29054, 73043",True
+72831, 29054, 73043",False
 case_50,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"<!DOCTYPE html>
 <html>
 <head>

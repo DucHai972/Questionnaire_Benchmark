@@ -356,7 +356,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?
-</task>",,
+</task>",,False
 case_3,rule_based_querying,Find all respondents whose 'Recommendation (clear recommendation)' score is between 0 and 2.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -837,7 +837,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (clear recommendation)' score is between 0 and 2.
-</task>",,
+</task>",,False
 case_4,rule_based_querying,List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 0.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1231,7 +1231,7 @@ Rules:
 
 <task>
 List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 0.
-</task>",,
+</task>",[],True
 case_5,rule_based_querying,List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 2.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1787,7 +1787,7 @@ Rules:
 
 <task>
 List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 2.
-</task>",,
+</task>",,False
 case_6,rule_based_querying,List all respondents from the 'III - Sepsis' session whose 'Assessment' is exactly 2.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2268,7 +2268,7 @@ Rules:
 
 <task>
 List all respondents from the 'III - Sepsis' session whose 'Assessment' is exactly 2.
-</task>",,
+</task>",,False
 case_7,rule_based_querying,List all respondents from the 'MI' session whose 'Assessment' is exactly 2.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2731,7 +2731,7 @@ Rules:
 
 <task>
 List all respondents from the 'MI' session whose 'Assessment' is exactly 2.
-</task>",,
+</task>",Respondent2,False
 case_8,rule_based_querying,Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 3.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3245,7 +3245,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 3.
-</task>",,
+</task>",,False
 case_9,rule_based_querying,List all respondents from the 'II (Anaphylaxis)' session whose 'Identification' is exactly 0.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3714,7 +3714,7 @@ Rules:
 
 <task>
 List all respondents from the 'II (Anaphylaxis)' session whose 'Identification' is exactly 0.
-</task>",,
+</task>",Respondent12,False
 case_10,rule_based_querying,Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -4267,7 +4267,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?
-</task>",,
+</task>",,False
 case_11,rule_based_querying,List all respondents from the 'III-Sepsis' session whose 'Background (examination)' is exactly 2.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -4655,7 +4655,7 @@ Rules:
 
 <task>
 List all respondents from the 'III-Sepsis' session whose 'Background (examination)' is exactly 2.
-</task>",,
+</task>",":Respondent7, :Respondent15",False
 case_12,rule_based_querying,Find all respondents whose 'Assessment' score is between 0 and 1.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5208,7 +5208,26 @@ Rules:
 
 <task>
 Find all respondents whose 'Assessment' score is between 0 and 1.
-</task>",,
+</task>","To find all respondents whose 'Assessment' score is between 0 and 1, we need to look at the 'responses' section and identify any respondent with a 'pred:Assessment' value of either 0 or 1.
+
+From the provided data, there are no respondents with an 'Assessment' score of 0. However, we do find respondents with scores, but none are between 0 and 1 exclusively, as the scores provided are either 2 or 3, with one exception:
+
+- Respondent1 has a score of 3.
+- Respondent12 has a score of 2.
+- Respondent16 has a score of 3.
+- Respondent18 has a score of 3.
+- Respondent19 has a score of 2.
+- Respondent20 has a score of 3.
+- Respondent21 has a score of 2.
+- Respondent22 has a score of 2.
+- Respondent23 has a score of 3.
+- Respondent5 has a score of 3.
+- Respondent9 has a score of 2.
+- Respondent14 has a score of 3.
+
+None of the respondents have a score of 0 or 1 for 'Assessment'. Therefore, the list of respondents whose 'Assessment' score is between 0 and 1 is empty.
+
+Answer: []",False
 case_13,rule_based_querying,List all respondents from the 'II (Anaphylactic Shock)' session whose 'Background (history)' is exactly 3.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5650,7 +5669,7 @@ Rules:
 
 <task>
 List all respondents from the 'II (Anaphylactic Shock)' session whose 'Background (history)' is exactly 3.
-</task>",,
+</task>",,False
 case_14,rule_based_querying,Find all respondents whose 'Assessment' score is between 0 and 1.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6053,7 +6072,22 @@ Rules:
 
 <task>
 Find all respondents whose 'Assessment' score is between 0 and 1.
-</task>",,
+</task>","To find all respondents whose 'Assessment' score is between 0 and 1, we need to look at the 'responses' section of the data and identify any respondent with an 'Assessment' score of 0 or 1.
+
+According to the provided data:
+
+- Respondent20 has an 'Assessment' score of ""3"".
+- Respondent17 has an 'Assessment' score of ""3"".
+- Respondent9 has an 'Assessment' score of ""2"".
+- Respondent12 has an 'Assessment' score of ""2"".
+- Respondent21 has an 'Assessment' score of ""2"".
+- Respondent13 has an 'Assessment' score of ""2"".
+- Respondent3 has an 'Assessment' score of ""3"".
+- Respondent23 has an 'Assessment' score of ""3"".
+
+None of the respondents have an 'Assessment' score of 0 or 1. Therefore, the list of respondents whose 'Assessment' score is between 0 and 1 is empty.
+
+Answer: []",False
 case_15,rule_based_querying,List all respondents from the 'MI' session whose 'Recommendation (global rating scale)' is exactly 0.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6567,7 +6601,10 @@ Rules:
 
 <task>
 List all respondents from the 'MI' session whose 'Recommendation (global rating scale)' is exactly 0.
-</task>",,
+</task>","[]
+ 
+
+There are no respondents from the 'MI' session with a 'Recommendation (global rating scale)' of exactly 0.",False
 case_16,rule_based_querying,Which respondents scored higher than 1 on 'Situation'?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -7111,7 +7148,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 1 on 'Situation'?
-</task>",,
+</task>",,False
 case_17,rule_based_querying,Which respondents scored higher than 2 on 'Assessment'?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -7400,7 +7437,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Assessment'?
-</task>",,
+</task>",,False
 case_18,rule_based_querying,List all respondents from the 'V (Hypoglycemia)' session whose 'Background (examination)' is exactly 1.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -7833,7 +7870,7 @@ Rules:
 
 <task>
 List all respondents from the 'V (Hypoglycemia)' session whose 'Background (examination)' is exactly 1.
-</task>",,
+</task>","There are no respondents from the 'V (Hypoglycemia)' session whose 'Background (examination)' is exactly 1. The only respondent from the 'V (Hypoglycemia)' session is Respondent1, and their 'Background_examination' score is 2.",False
 case_19,rule_based_querying,Find all respondents whose 'Background (examination)' score is between 0 and 1.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8239,7 +8276,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (examination)' score is between 0 and 1.
-</task>",,
+</task>",,False
 case_20,rule_based_querying,Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 2.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8720,7 +8757,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 2.
-</task>",,
+</task>",,False
 case_21,rule_based_querying,Find all respondents whose 'Background (history)' score is between 0 and 2.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9048,7 +9085,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (history)' score is between 0 and 2.
-</task>",,
+</task>",,False
 case_22,rule_based_querying,List all respondents from the 'I (Myocardial infarction)' session whose 'Background (examination)' is exactly 3.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9328,7 +9365,7 @@ Rules:
 
 <task>
 List all respondents from the 'I (Myocardial infarction)' session whose 'Background (examination)' is exactly 3.
-</task>",,
+</task>",Respondent16,False
 case_23,rule_based_querying,Find all respondents whose 'Background (examination)' score is between 0 and 1.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9818,7 +9855,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (examination)' score is between 0 and 1.
-</task>",,
+</task>",,False
 case_24,rule_based_querying,List all respondents from the 'II - Anaphylaxsis' session whose 'Background (examination)' is exactly 1.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10143,7 +10180,7 @@ Rules:
 
 <task>
 List all respondents from the 'II - Anaphylaxsis' session whose 'Background (examination)' is exactly 1.
-</task>",,
+</task>",None,True
 case_25,rule_based_querying,List all respondents from the 'MI' session whose 'Background (history)' is exactly 0.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10612,7 +10649,7 @@ Rules:
 
 <task>
 List all respondents from the 'MI' session whose 'Background (history)' is exactly 0.
-</task>",,
+</task>",There are no respondents from the 'MI' session whose 'Background (history)' is exactly 0.,False
 case_26,rule_based_querying,Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 1 and a 'Recommendation (global rating scale)' of less than 2?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10928,7 +10965,32 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 1 and a 'Recommendation (global rating scale)' of less than 2?
-</task>",,
+</task>","To answer this question, we need to analyze the 'responses' section of the data and find the respondents who match the given criteria.
+
+
+The criteria are:
+1. The session date is '2025-05-04'.
+2. The 'Recommendation (clear recommendation)' is 1, which according to the schema means ""Clear recommendation only after extended questioning"".
+3. The 'Recommendation (global rating scale)' is less than 2.
+
+
+From the 'responses' section, we can see that:
+
+
+- Respondent14 does not match because the session date is '2025-03-14', not '2025-05-04'.
+- Respondent15 does not match because the 'Recommendation (clear recommendation)' is 2, not 1.
+- Respondent17 does not match because the 'Recommendation (clear recommendation)' is 3, not 1, and the session name is ""V (Hypoglycemia)"", not matching the exact date criteria directly but more importantly, the recommendation criteria.
+- Respondent18 does not match because the 'Recommendation (clear recommendation)' is 2, not 1.
+- Respondent20 does not match because the session date is '2025-05-02', not '2025-05-04', and the 'Recommendation (clear recommendation)' is 2, not 1.
+
+
+However, none of the respondents directly match the criteria of having a 'Recommendation (clear recommendation)' of 1 and a 'Recommendation (global rating scale)' of less than 2 on the session date '2025-05-04'.
+
+
+Given the provided data, there are no respondents that meet the specified criteria. Therefore, the answer is:
+
+
+[]",False
 case_27,rule_based_querying,Which respondents from sessions on '2025-03-14' have a 'Recommendation (global rating scale)' of 3 and a 'Identification' of less than 2?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -11445,7 +11507,7 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-03-14' have a 'Recommendation (global rating scale)' of 3 and a 'Identification' of less than 2?
-</task>",,
+</task>",None,True
 case_28,rule_based_querying,Find all respondents whose total score for 'Background (examination)' and 'Assessment' is greater than 3.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -11974,7 +12036,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Background (examination)' and 'Assessment' is greater than 3.
-</task>",,
+</task>",,False
 case_29,rule_based_querying,List all respondents whose 'Assessment' score is equal to their 'Situation' score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -12410,7 +12472,7 @@ Rules:
 
 <task>
 List all respondents whose 'Assessment' score is equal to their 'Situation' score.
-</task>",,
+</task>",,False
 case_30,rule_based_querying,Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 2 and a 'Situation' of less than 2?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -12723,7 +12785,7 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 2 and a 'Situation' of less than 2?
-</task>",,
+</task>",None,True
 case_31,rule_based_querying,Which respondents from sessions on '2025-05-16' have a 'Background (history)' of 3 and a 'Background (examination)' of less than 2?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -13120,7 +13182,7 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-05-16' have a 'Background (history)' of 3 and a 'Background (examination)' of less than 2?
-</task>",,
+</task>",Respondent19,False
 case_32,rule_based_querying,List all respondents whose 'Background (examination)' score is equal to their 'Recommendation (clear recommendation)' score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -13586,7 +13648,7 @@ Rules:
 
 <task>
 List all respondents whose 'Background (examination)' score is equal to their 'Recommendation (clear recommendation)' score.
-</task>",,
+</task>",,False
 case_33,rule_based_querying,Find all respondents whose total score for 'Assessment' and 'Background (examination)' is greater than 4.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -14109,7 +14171,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Assessment' and 'Background (examination)' is greater than 4.
-</task>",,
+</task>",,False
 case_34,rule_based_querying,List all respondents whose 'Identification' score is equal to their 'Background (history)' score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -14623,7 +14685,7 @@ Rules:
 
 <task>
 List all respondents whose 'Identification' score is equal to their 'Background (history)' score.
-</task>",,
+</task>",,False
 case_35,rule_based_querying,Find all respondents whose total score for 'Situation' and 'Recommendation (clear recommendation)' is greater than 4.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15059,7 +15121,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Situation' and 'Recommendation (clear recommendation)' is greater than 4.
-</task>",,
+</task>",,False
 case_36,rule_based_querying,List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15504,7 +15566,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.
-</task>",,
+</task>",,False
 case_37,rule_based_querying,List all respondents whose 'Background (history)' score is equal to their 'Assessment' score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15904,7 +15966,7 @@ Rules:
 
 <task>
 List all respondents whose 'Background (history)' score is equal to their 'Assessment' score.
-</task>",,
+</task>",,False
 case_38,rule_based_querying,List all respondents whose 'Recommendation (global rating scale)' score is equal to their 'Assessment' score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -16466,7 +16528,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (global rating scale)' score is equal to their 'Assessment' score.
-</task>",,
+</task>",,False
 case_39,rule_based_querying,List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -17025,7 +17087,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.
-</task>",,
+</task>",,False
 case_40,rule_based_querying,Find all respondents whose total score for 'Assessment' and 'Situation' is greater than 4.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -17572,7 +17634,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Assessment' and 'Situation' is greater than 4.
-</task>",,
+</task>",,False
 case_41,rule_based_querying,List all respondents whose 'Recommendation (global rating scale)' is within 1 point of the lowest 'Assessment' for their session name.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -18035,7 +18097,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (global rating scale)' is within 1 point of the lowest 'Assessment' for their session name.
-</task>",,
+</task>",,False
 case_42,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -18558,7 +18620,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?
-</task>",,
+</task>",,False
 case_43,rule_based_querying,Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -18994,7 +19056,41 @@ Rules:
 
 <task>
 Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?
-</task>",,
+</task>","To determine which respondents have a total score across all rubric items that is higher than the average total score for all respondents, we first need to calculate the total score for each respondent and then find the average total score across all respondents.
+
+The rubric items are:
+- Identification
+- Situation
+- Background_history
+- Background_examination
+- Assessment
+- Recommendation_clear_recommendation
+- Recommendation_global_rating_scale
+
+We calculate the total score for each respondent by summing their scores on these items.
+
+1. Respondent17: 3 + 3 + 3 + 3 + 3 + 3 + 2 = 20
+2. Respondent6: 3 + 2 + 3 + 3 + 2 + 2 + 3 = 18
+3. Respondent18: 3 + 3 + 2 + 2 + 3 + 2 + 2 = 17
+4. Respondent22: 3 + 3 + 3 + 3 + 2 + 2 + 3 = 19
+5. Respondent11: 3 + 3 + 3 + 3 + 3 + 3 + 3 = 21
+6. Respondent21: 3 + 2 + 3 + 1 + 2 + 3 + 3 = 17
+7. Respondent14: 3 + 3 + 2 + 2 + 3 + 1 + 2 = 16
+8. Respondent15: 3 + 3 + 2 + 3 + 2 + 2 + 2 = 17
+9. Respondent4: 3 + 3 + 3 + 2 + 2 + 2 + 2 = 17
+
+Total scores: 20, 18, 17, 19, 21, 17, 16, 17, 17
+
+Average total score = (20 + 18 + 17 + 19 + 21 + 17 + 16 + 17 + 17) / 9
+Average total score = 162 / 9
+Average total score = 18
+
+Respondents with a total score higher than the average (18) are:
+- Respondent17 (20)
+- Respondent22 (19)
+- Respondent11 (21)
+
+Therefore, the respondents with a total score across all rubric items that is higher than the average total score for all respondents are Respondent11, Respondent17, Respondent22.",False
 case_44,rule_based_querying,List all respondents whose 'Background (history)' is within 2 point of the lowest 'Recommendation (global rating scale)' for their session name.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -19502,7 +19598,7 @@ Rules:
 
 <task>
 List all respondents whose 'Background (history)' is within 2 point of the lowest 'Recommendation (global rating scale)' for their session name.
-</task>",,
+</task>",,False
 case_45,rule_based_querying,Find all respondents whose 'Background (examination)' is greater than the average 'Background (examination)' for their session name.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -19899,7 +19995,35 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (examination)' is greater than the average 'Background (examination)' for their session name.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (examination)' score for each session name. Then, we compare each respondent's 'Background (examination)' score to this average to find those whose score is greater.
+
+Given the data, the session names and their corresponding 'Background (examination)' scores are as follows:
+
+1. II-Anaphylaxsis: Respondent23 (2)
+2. III-Sepsis: Respondent7 (3), Respondent3 (3), Respondent4 (2)
+3. IV (VT): Respondent22 (3)
+4. II (Anaphylaxsis): Respondent9 (2), Respondent12 (3)
+5. II (Anaphylactic Shock): Respondent6 (3)
+
+Calculating the average 'Background (examination)' score for each session:
+
+1. II-Anaphylaxsis: (2) / 1 = 2
+2. III-Sepsis: (3 + 3 + 2) / 3 = 8 / 3 = 2.67
+3. IV (VT): (3) / 1 = 3
+4. II (Anaphylaxsis): (2 + 3) / 2 = 5 / 2 = 2.5
+5. II (Anaphylactic Shock): (3) / 1 = 3
+
+Now, comparing each respondent's score to the average for their session:
+
+1. II-Anaphylaxsis: Respondent23 (2) is equal to the average, not greater.
+2. III-Sepsis: Respondent7 (3) and Respondent3 (3) are greater than the average (2.67), Respondent4 (2) is less than the average.
+3. IV (VT): Respondent22 (3) is equal to the average, not greater.
+4. II (Anaphylaxsis): Respondent9 (2) is less than the average (2.5), Respondent12 (3) is greater than the average.
+5. II (Anaphylactic Shock): Respondent6 (3) is equal to the average, not greater.
+
+Therefore, the respondents whose 'Background (examination)' score is greater than the average for their session name are:
+
+Respondent7, Respondent3, Respondent12",False
 case_46,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -20377,7 +20501,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?
-</task>",,
+</task>",,False
 case_47,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -20930,7 +21054,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?
-</task>",,
+</task>",,False
 case_48,rule_based_querying,Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -21336,7 +21460,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?
-</task>",,
+</task>",,False
 case_49,rule_based_querying,Find all respondents whose 'Assessment' is greater than the average 'Assessment' for their session name.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -21856,7 +21980,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Assessment' is greater than the average 'Assessment' for their session name.
-</task>",,
+</task>",,False
 case_50,rule_based_querying,List all respondents whose 'Background (history)' is within 1 point of the lowest 'Identification' for their session name.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -22319,4 +22443,4 @@ Rules:
 
 <task>
 List all respondents whose 'Background (history)' is within 1 point of the lowest 'Identification' for their session name.
-</task>",,
+</task>",,False

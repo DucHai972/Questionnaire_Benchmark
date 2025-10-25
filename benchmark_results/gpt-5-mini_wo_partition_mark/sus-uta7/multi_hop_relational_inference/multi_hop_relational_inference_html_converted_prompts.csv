@@ -2546,7 +2546,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are in the same group as respondent '25'?","25, 30, 48, 49",True
+Which respondents are in the same group as respondent '25'?","25, 30, 48, 49",False
 case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -4952,7 +4952,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are in the same group as respondent '79'?","14, 32, 68",False
+Which respondents are in the same group as respondent '79'?","14, 32, 68",True
 case_15,multi_hop_relational_inference,Which respondents are in the same group as respondent '8'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5826,7 +5826,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents who gave the same 'Ease_of_Use' score as respondent '58', excluding the respondent themselves.","30, 37, 54, 62",False
+Find all respondents who gave the same 'Ease_of_Use' score as respondent '58', excluding the respondent themselves.","30, 37, 54, 62",True
 case_17,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7924,7 +7924,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.","54, 89, 82, 37",True
+List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.","54, 89, 82, 37",False
 case_22,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -9404,7 +9404,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are in the same group as respondent '22'?","24, 50",False
+Which respondents are in the same group as respondent '22'?","24, 50",True
 case_25,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -15886,7 +15886,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.","6, 14, 47, 48, 55",False
+List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.","6, 14, 47, 48, 55",True
 case_39,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>

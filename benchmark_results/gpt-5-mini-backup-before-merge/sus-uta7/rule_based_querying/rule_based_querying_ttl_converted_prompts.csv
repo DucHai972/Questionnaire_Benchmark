@@ -816,7 +816,7 @@ Rules:
 
 <task>
 List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactly 4.
-</task>""""""",None,False
+</task>""""""",None,True
 case_4,rule_based_querying,List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1147,7 +1147,7 @@ Rules:
 
 <task>
 List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.
-</task>""""""",None,False
+</task>""""""",None,True
 case_5,rule_based_querying,List all respondents from the 'Middle' group whose 'System_Complexity' is exactly 4.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1770,7 +1770,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Need_for_Technical_Support' score is between 2 and 3.
-</task>""""""",None,False
+</task>""""""",None,True
 case_7,rule_based_querying,List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2062,7 +2062,7 @@ Rules:
 
 <task>
 List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.
-</task>""""""",None,False
+</task>""""""",None,True
 case_8,rule_based_querying,Find all respondents whose 'Inconsistency' score is between 1 and 3.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3016,7 +3016,7 @@ Rules:
 
 <task>
 List all respondents from the 'Middle' group whose 'Need_for_Technical_Support' is exactly 4.
-</task>""""""",None,False
+</task>""""""",None,True
 case_11,rule_based_querying,Which respondents scored higher than 3 on 'Need_to_Learn_Before_Use'?,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8820,7 +8820,7 @@ Rules:
 
 <task>
 List all respondents from the 'Middle' group whose 'Frequent_Usage' is exactly 3.
-</task>""""""",None,False
+</task>""""""",None,True
 case_25,rule_based_querying,List all respondents from the 'Senior' group whose 'Ease_of_Use' is exactly 3.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9151,7 +9151,7 @@ Rules:
 
 <task>
 List all respondents from the 'Senior' group whose 'Ease_of_Use' is exactly 3.
-</task>""""""",None,False
+</task>""""""",None,True
 case_26,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Need_for_Technical_Support' score.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9443,7 +9443,7 @@ Rules:
 
 <task>
 List all respondents whose 'System_Complexity' score is greater than their 'Need_for_Technical_Support' score.
-</task>""""""",Respondent56,False
+</task>""""""",Respondent56,True
 case_27,rule_based_querying,Find all respondents whose total score for 'Confidence_in_Use' and 'Ease_of_Learning' is less than 4.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9735,7 +9735,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Confidence_in_Use' and 'Ease_of_Learning' is less than 4.
-</task>""""""",None,False
+</task>""""""",None,True
 case_28,rule_based_querying,Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10144,7 +10144,7 @@ Rules:
 
 <task>
 Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?
-</task>""""""",None,False
+</task>""""""",None,True
 case_29,rule_based_querying,Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10670,7 +10670,7 @@ Rules:
 
 <task>
 Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?
-</task>""""""",None,False
+</task>""""""",None,True
 case_30,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10962,7 +10962,7 @@ Rules:
 
 <task>
 List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.
-</task>""""""",None,False
+</task>""""""",None,True
 case_31,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -12267,7 +12267,7 @@ Rules:
 
 <task>
 Which respondents from the 'Junior' group have a 'Inconsistency' of 4 or more and a 'Confidence_in_Use' of less than 3?
-</task>""""""",None,False
+</task>""""""",None,True
 case_34,rule_based_querying,Find all respondents whose total score for 'Inconsistency' and 'Confidence_in_Use' is less than 6.,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -14371,7 +14371,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Need_for_Technical_Support' and 'Ease_of_Learning' is less than 4.
-</task>""""""",None,False
+</task>""""""",None,True
 case_38,rule_based_querying,Which respondents from the 'Senior' group have a 'Confidence_in_Use' of 3 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"""""""@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -20663,4 +20663,4 @@ Rules:
 
 <task>
 List all respondents whose 'System_Complexity' is within 1 point of the highest 'Cumbersome_to_Use' for their group.
-</task>""","Respondent35, Respondent43, Respondent61, Respondent64, Respondent82",False
+</task>""","Respondent35, Respondent43, Respondent61, Respondent64, Respondent82",True

@@ -908,7 +908,7 @@ Rules:
 List all respondents from the 'Intern' group who rated 'Integration_of_Functions' as 4.
 </task>","This dataset is a usability survey: Group is a multiple-choice field (A. Senior, B. Junior, C. Middle, D. Intern) and the remaining items are Likert 1–5 responses (1 = Strongly Disagree, 5 = Strongly Agree). Each respondent entry lists an ID and values for all questions per the Questions schema. Use the schema to map MCQ letters to their full option text and interpret Likert numeric meanings. All analysis below is based only on the provided data.
 
-31, 78",True
+31, 78",False
 case_4,answer_reverse_lookup,Find all respondents who rated 'Cumbersome_to_Use' as 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1979,7 +1979,7 @@ Rules:
 Which respondents are in the 'Senior' group?
 </task>","Format/specification: The survey has a Group MCQ (A. Senior B. Junior C. Middle D. Intern) and multiple Likert items scored 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. Responses list respondent IDs with their Group code and answers for each question. Group codes in Responses are mapped to the option text per the schema (e.g., A → Senior). The dataset contains five respondents: 74, 11, 63, 34, and 5.
 
-11, 34",True
+11, 34",False
 case_7,answer_reverse_lookup,List all respondents from the 'Senior' group who rated 'Frequent_Usage' as 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3839,7 +3839,7 @@ Rules:
 Find all respondents who rated 'Need_for_Technical_Support' as 1.
 </task>","Format/spec: ""Group"" is a multiple-choice field (A. Senior B. Junior C. Middle D. Intern). All other fields are Likert-scale 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. The Responses section lists each respondent by ID and their answers for every field. Use the schema to interpret any letter codes and the numeric Likert meanings.
 
-58, 72, 60, 66, 76",True
+58, 72, 60, 66, 76",False
 case_12,answer_reverse_lookup,Which respondents are in the 'Middle' group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5202,7 +5202,7 @@ Rules:
 Find all respondents who rated 'Confidence_in_Use' as 4.
 </task>","Format: 'Group' is a multiple-choice field (A. Senior, B. Junior, C. Middle, D. Intern); all other items are Likert-scale (1–5) as defined in the Questions schema. Each respondent entry lists an ID and values for the fields; Likert values use 1 = Strongly Disagree to 5 = Strongly Agree. 'Confidence_in_Use' corresponds to ""I felt very confident using the system."" Below are respondent IDs with Confidence_in_Use = 4.
 
-14, 68",True
+14, 68",False
 case_15,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Frequent_Usage' as 2.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6112,7 +6112,7 @@ Rules:
 Which respondents are in the 'Junior' group?
 </task>","The Questions section defines each field: Group is an MCQ with A. Senior, B. Junior, C. Middle, D. Intern; other items are 1–5 Likert scales where 1 = Strongly Disagree and 5 = Strongly Agree. The Responses section lists each respondent by ID with their answers for every field. MCQ letter codes in Responses map to the option text in the schema (e.g., B → Junior). All analysis is based solely on the provided schema and responses.
 
-47, 61",True
+47, 61",False
 case_17,answer_reverse_lookup,Find all respondents who rated 'Ease_of_Learning' as 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6441,7 +6441,7 @@ Rules:
 Find all respondents who rated 'Ease_of_Learning' as 5.
 </task>","This is a usability survey with a questions schema listing a Group MCQ (A. Senior B. Junior C. Middle D. Intern) and several Likert-scale items scored 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). Each respondent record contains their Group and numeric responses for Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, and Need_to_Learn_Before_Use. The dataset includes five respondents (IDs 67, 54, 39, 47, 38) with their answers recorded exactly as numbers or MCQ codes. Use the schema mappings when interpreting MCQ codes and treat Likert values as literal numeric ratings.
 
-67, 54",True
+67, 54",False
 case_18,answer_reverse_lookup,Which respondents are in the 'Middle' group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -6854,7 +6854,7 @@ Rules:
 Which respondents are in the 'Middle' group?
 </task>","Format/spec: 'Group' is MCQ (A. Senior B. Junior C. Middle D. Intern). Other items are Likert 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). Responses list each respondent ID with field values per the schema. Below are respondents mapped to the ""Middle"" group.
 
-24, 43",True
+24, 43",False
 case_19,answer_reverse_lookup,Find all respondents who rated 'Frequent_Usage' as 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7477,7 +7477,7 @@ Rules:
 Find all respondents who rated 'Frequent_Usage' as 4.
 </task>","This survey records each respondent's Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten Likert-scale usability items rated 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). The key items include Frequent_Usage, System_Complexity, Ease_of_Use, Inconsistency, Ease_of_Learning, etc., as defined in the Questions schema. Responses list each respondent by ID with their answers to every field; MCQ codes must be mapped to the option text per the schema. All analysis below is based solely on the provided schema and responses.
 
-67, 66, 51, 68",True
+67, 66, 51, 68",False
 case_20,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Inconsistency' as 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9840,7 +9840,7 @@ Find all respondents who rated 'Confidence_in_Use' as 4.
 - Each respondent entry lists their ID and values for Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, and Need_to_Learn_Before_Use.
 - The target field for this task is Confidence_in_Use (Likert 1–5).
 
-50, 75, 22, 86",True
+50, 75, 22, 86",False
 case_25,answer_reverse_lookup,Which respondents are in the 'Intern' group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10540,7 +10540,7 @@ Rules:
 List all respondents who rated 'Inconsistency' and 'Integration_of_Functions' with the same score.
 </task>","This survey records each respondent's Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and eleven Likert items (1 = Strongly Disagree to 5 = Strongly Agree) about system usability. The responses section lists values per respondent ID for all fields including ""Integration_of_Functions"" and ""Inconsistency"". Interpret MCQ letter codes using the schema (e.g., A → Senior) and treat all Likert values as numeric scores. Analysis must be based solely on the provided schema and responses.
 
-None",True
+None",False
 case_27,answer_reverse_lookup,List all respondents who rated 'Need_to_Learn_Before_Use' and 'Confidence_in_Use' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11915,7 +11915,7 @@ List all respondents who rated 'Ease_of_Learning' and 'System_Complexity' with t
 - Each respondent entry lists an ID and their answers for all questions per the schema.
 - Use the schema to interpret MCQ codes and numeric scores; analysis is based solely on the provided responses.
 
-None",True
+None",False
 case_30,answer_reverse_lookup,Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12244,7 +12244,7 @@ Rules:
 Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.
 </task>","This survey records respondents' Group (MCQ with options A. Senior, B. Junior, C. Middle, D. Intern) and multiple Likert-scale usability items scored 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). Each respondent entry lists their ID and numeric responses for all fields. The Likert items include Frequent_Usage and Cumbersome_to_Use, which can be arithmetically combined. All analysis below is based solely on the provided schema and response values. Numeric sums are computed by adding the specified Likert scores.
 
-38, 4",True
+38, 4",False
 case_31,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Inconsistency' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13238,7 +13238,7 @@ Rules:
 Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.
 </task>","The survey records respondent Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and several usability items measured on a 1–5 Likert scale (1 = Strongly Disagree, 5 = Strongly Agree). Each response entry lists respondent ID and numeric answers for System_Complexity and Need_to_Learn_Before_Use among other items. The task compares the numeric sums of System_Complexity and Need_to_Learn_Before_Use for each respondent. Only respondents whose combined score is strictly less than 3 are selected.
 
-90, 31, 4, 5",True
+90, 31, 4, 5",False
 case_33,answer_reverse_lookup,List all respondents who rated 'Confidence_in_Use' and 'Frequent_Usage' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14325,7 +14325,7 @@ Which respondents from the 'Middle' group rated 'Integration_of_Functions' as 3 
 - Use the schema mapping to interpret MCQ codes into full option text when reporting results.
 
 Final answer:
-None",True
+None",False
 case_35,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Ease_of_Learning' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16030,7 +16030,7 @@ Rules:
 Which respondents from the 'Middle' group rated 'Inconsistency' as 3 and 'Cumbersome_to_Use' as 1?
 </task>","This survey records respondents' Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and several Likert 1–5 usability items. Each response lists values for Frequent_Usage, System_Complexity, Ease_of_Use, Need_for_Technical_Support, Integration_of_Functions, Inconsistency, Ease_of_Learning, Cumbersome_to_Use, Confidence_in_Use, and Need_to_Learn_Before_Use. MCQ letters map to option text per the schema (A = Senior, B = Junior, C = Middle, D = Intern). All analysis uses only the provided schema and response data.
 
-None",True
+None",False
 case_38,answer_reverse_lookup,List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16611,7 +16611,7 @@ Rules:
 List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.
 </task>","Format/specification: The survey contains one MCQ field ""Group"" with options A. Senior, B. Junior, C. Middle, D. Intern, and ten Likert items scored 1 (Strongly Disagree) to 5 (Strongly Agree). Responses list each respondent by ID with their Group code and numeric answers for all Likert items. All comparisons use the numeric Likert values as given in the Responses section. Output below lists respondent IDs whose ""Need_to_Learn_Before_Use"" and ""Cumbersome_to_Use"" scores are identical.
 
-54, 55, 48, 6",True
+54, 55, 48, 6",False
 case_39,answer_reverse_lookup,List all respondents who rated 'Integration_of_Functions' and 'Inconsistency' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17108,7 +17108,7 @@ Rules:
 List all respondents who rated 'Integration_of_Functions' and 'Inconsistency' with the same score.
 </task>","This survey captures each respondent's Group (MCQ: A. Senior B. Junior C. Middle D. Intern) and ten Likert-rated usability items scored 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). Responses are given per respondent ID with numeric values for fields including Integration_of_Functions and Inconsistency. To answer the task, compare the numeric scores of Integration_of_Functions and Inconsistency for each respondent. All conclusions are drawn strictly from the provided schema and response blocks.
 
-None",True
+None",False
 case_40,answer_reverse_lookup,Which respondents from the 'Middle' group rated 'Cumbersome_to_Use' as 2 and 'Confidence_in_Use' as 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17647,7 +17647,7 @@ Rules:
 Which respondents from the 'Middle' group rated 'Cumbersome_to_Use' as 2 and 'Confidence_in_Use' as 5?
 </task>","This dataset records each respondent's Group (A = Senior, B = Junior, C = Middle, D = Intern) and their answers to usability statements rated on a 1–5 Likert scale. Each Likert item uses 1 = Strongly Disagree up to 5 = Strongly Agree. The Responses section lists respondent IDs with their letter-coded Group and numeric answers for every question. Use the Questions schema to map MCQ letters to their full group names when interpreting Group values.
 
-None",True
+None",False
 case_41,answer_reverse_lookup,Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18184,7 +18184,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.
-</task>","22, 49, 74",False
+</task>","22, 49, 74",True
 case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18763,7 +18763,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.
-</task>","4, 12, 32, 36, 70",False
+</task>","4, 12, 32, 36, 70",True
 case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19843,7 +19843,7 @@ Find all respondents in the 'Junior' group whose 'Ease_of_Learning' is higher th
 - For outputs, MCQ letters are mapped to their option text and numeric fields are compared using the given 1–5 scale.
 - Ease_of_Learning values are numeric and averaged per group to filter respondents.
 
-None",True
+None",False
 case_45,answer_reverse_lookup,Find all respondents in the 'Intern' group whose 'Confidence_in_Use' is higher than the average 'Confidence_in_Use' for the 'Junior' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -21456,7 +21456,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","9, 44, 46, 56, 66, 74",False
+</task>","9, 44, 46, 56, 66, 74",True
 case_48,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Use' is higher than the average 'Ease_of_Use' for the 'Middle' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22986,4 +22986,4 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","35, 61, 82",False
+</task>","35, 61, 82",True

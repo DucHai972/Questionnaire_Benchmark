@@ -981,7 +981,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '29043'.
-</task>""""""""""""""","73007""",True
+</task>""""""""""""""","73007""",False
 case_4,multi_hop_relational_inference,"""""""""""""""Find all respondents from the same country as respondent '73094', excluding the respondent themselves.""""""""""""""","""""""""""""""# Survey Data
 
 ## Questions
@@ -2685,7 +2685,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '72858', excluding the respondent themselves.
-</task>""""""""""""""","260""",True
+</task>""""""""""""""","260""",False
 case_7,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72825'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -3406,7 +3406,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '72825'.
-</task>""""""""""""""","72878""",True
+</task>""""""""""""""","72878""",False
 case_8,multi_hop_relational_inference,"""""""""""""""Find all respondents from the same country as respondent '73075', excluding the respondent themselves.""""""""""""""","""""""""""""""# Survey Data
 
 ## Questions
@@ -3923,7 +3923,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '73075', excluding the respondent themselves.
-</task>""""""""""""""","72749""",True
+</task>""""""""""""""","72749""",False
 case_9,multi_hop_relational_inference,List all respondents who have the same education level as respondent '388'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -4491,7 +4491,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '388'.
-</task>""""""""""""""","72741""",True
+</task>""""""""""""""","72741""",False
 case_10,multi_hop_relational_inference,"""""""""""""""Find all respondents from the same country as respondent '72647', excluding the respondent themselves.""""""""""""""","""""""""""""""# Survey Data
 
 ## Questions
@@ -5423,7 +5423,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '297'?
-</task>""""""""""""""","72823""",True
+</task>""""""""""""""","72823""",False
 case_12,multi_hop_relational_inference,"""""""""""""""Find all respondents from the same country as respondent '72815', excluding the respondent themselves.""""""""""""""","""""""""""""""# Survey Data
 
 ## Questions
@@ -7127,7 +7127,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '106', excluding the respondent themselves.
-</task>""""""""""""""","277""",True
+</task>""""""""""""""","277""",False
 case_15,multi_hop_relational_inference,List all respondents who have the same education level as respondent '225'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -8212,7 +8212,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '73047'?
-</task>""""""""""""""","73020""",True
+</task>""""""""""""""","73020""",False
 case_17,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72945'?,"""""""""""""""# Survey Data
 
 ## Questions
@@ -9297,7 +9297,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?
-</task>""""""""""""""","73018""",True
+</task>""""""""""""""","73018""",False
 case_19,multi_hop_relational_inference,List all respondents who have the same education level as respondent '382'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -9916,7 +9916,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '382'.
-</task>""""""""""""""","219""",True
+</task>""""""""""""""","219""",False
 case_20,multi_hop_relational_inference,List all respondents who have the same education level as respondent '203'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -10484,7 +10484,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '203'.
-</task>""""""""""""""","72856""",True
+</task>""""""""""""""","72856""",False
 case_21,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72739'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -11205,7 +11205,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '72739'.
-</task>""""""""""""""","72823""",True
+</task>""""""""""""""","72823""",False
 case_22,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73125'?,"""""""""""""""# Survey Data
 
 ## Questions
@@ -12341,7 +12341,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '189', excluding the respondent themselves.
-</task>""""""""""""""","511""",True
+</task>""""""""""""""","511""",False
 case_24,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72927'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -13062,7 +13062,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '72927'.
-</task>""""""""""""""","73198""",True
+</task>""""""""""""""","73198""",False
 case_25,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?,"""""""""""""""# Survey Data
 
 ## Questions
@@ -13732,7 +13732,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?
-</task>""""""""""""""","72878""",True
+</task>""""""""""""""","72878""",False
 case_26,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -14351,7 +14351,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.
-</task>""""""""""""""","72720""",True
+</task>""""""""""""""","72720""",False
 case_27,multi_hop_relational_inference,Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?,"""""""""""""""# Survey Data
 
 ## Questions
@@ -15749,7 +15749,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '444' and whose programming languages include 'C++'.
-</task>""""""""""""""","362""",True
+</task>""""""""""""""","362""",False
 case_30,multi_hop_relational_inference,Which respondents are from the same country as respondent '73030' and also have more than 5 years of coding experience?,"""""""""""""""# Survey Data
 
 ## Questions
@@ -16834,7 +16834,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '441' and whose programming languages include 'Go'.
-</task>""""""""""""""","72978""",True
+</task>""""""""""""""","72978""",False
 case_32,multi_hop_relational_inference,Which respondents are from the same country as respondent '100' and also have more than 5 years of coding experience?,"""""""""""""""# Survey Data
 
 ## Questions
@@ -17970,7 +17970,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?
-</task>""""""""""""""","277""",True
+</task>""""""""""""""","277""",False
 case_34,multi_hop_relational_inference,Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?,"""""""""""""""# Survey Data
 
 ## Questions
@@ -19208,7 +19208,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?
-</task>""""""""""""""","73195""",True
+</task>""""""""""""""","73195""",False
 case_36,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -19929,7 +19929,7 @@ Rules:
 
 <task>
 Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.
-</task>""""""""""""""","72827""",True
+</task>""""""""""""""","72827""",False
 case_37,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -20599,7 +20599,7 @@ Rules:
 
 <task>
 Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.
-</task>""""""""""""""","222""",True
+</task>""""""""""""""","222""",False
 case_38,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '501' and whose programming languages include 'TypeScript'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -21888,7 +21888,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '192' and also have more than 3 years of coding experience?
-</task>""""""""""""""","73075""",True
+</task>""""""""""""""","73075""",False
 case_40,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.,"""""""# Survey Data
 
 ## Questions
@@ -22609,7 +22609,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.
-</task>""""""","540""",True
+</task>""""""","540""",False
 case_41,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '423'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -23279,7 +23279,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '423'.
-</task>""""""""""""""","186""",True
+</task>""""""""""""""","186""",False
 case_42,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"""""""# Survey Data
 
 ## Questions
@@ -23949,7 +23949,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>""""""","72937""",True
+</task>""""""","72937""",False
 case_43,multi_hop_relational_inference,"""""""""""""""List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.""""""""""""""","""""""""""""""# Survey Data
 
 ## Questions
@@ -24517,7 +24517,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.
-</task>""""""""""""""","215""",True
+</task>""""""""""""""","215""",False
 case_44,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -25136,7 +25136,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.
-</task>""""""""""""""","72916""",True
+</task>""""""""""""""","72916""",False
 case_45,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -25755,7 +25755,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.
-</task>""""""""""""""","72837""",True
+</task>""""""""""""""","72837""",False
 case_46,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73069'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -26323,7 +26323,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73069'.
-</task>""""""""""""""","391""",True
+</task>""""""""""""""","391""",False
 case_47,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -27044,7 +27044,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>""""""""""""""","73021""",True
+</task>""""""""""""""","73021""",False
 case_48,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72965'.,"""""""""""""""# Survey Data
 
 ## Questions
@@ -28901,4 +28901,4 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73259'.
-</task>""""""""""""""","73259""",True
+</task>""""""""""""""","73259""",False

@@ -17088,7 +17088,7 @@ Rules:
 Count the respondents who are '['A', 'C']' and whose yearly compensation is over 100000.
 </task>","Critical values for this analysis include the 'Employment' status, specifically respondents who are 'Employed, full-time' or 'Independent contractor, freelancer, or self-employed'. Another critical value is the 'CompTotal' which, in conjunction with 'CompFreq', determines the yearly compensation. The threshold for yearly compensation is over 100000. All compensation amounts must be standardized to a yearly basis before comparison.
 
-4",True
+4",False
 case_31,respondent_count,"""Count the respondents who are 'A', use 'Ansible', and have worked with 'Groovy'.""","<!DOCTYPE html>
 <html>
 <head>
@@ -23220,7 +23220,7 @@ Rules:
 Count the respondents who are 'C' and whose yearly compensation is over 100000.
 </task>","Critical values for this query are the 'CompFreq' being 'C' (Yearly) and 'CompTotal' being greater than 100000. The 'CompFreq' field is a multiple-choice question with options for Weekly, Monthly, and Yearly compensation. The 'CompTotal' field is an open-ended numerical value representing total compensation. We need to filter respondents who meet both these conditions simultaneously.
 
-2",True
+2",False
 case_40,respondent_count,Count the respondents from 'United States of America' with an education level of 'Some college/university study without earning a degree' who have worked with 'Bash/Shell'.,"<!DOCTYPE html>
 <html>
 <head>

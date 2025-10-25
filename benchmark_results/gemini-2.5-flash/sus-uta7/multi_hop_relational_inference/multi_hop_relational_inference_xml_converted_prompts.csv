@@ -834,7 +834,7 @@ The respondents who also rated 'System_Complexity' as '1' are:
 
 Excluding respondent '76' itself, the list of respondents is:
 
-17, 31, 48, 70, 78, 81",True
+17, 31, 48, 70, 78, 81",False
 case_4,multi_hop_relational_inference,Which respondents are in the same group as respondent '20'?,"<?xml version=""1.0"" encoding=""UTF-8""?>
 <questionnaire>
   <questions>
@@ -3467,7 +3467,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>","24, 25, 61",True
+</task>","24, 25, 61",False
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<?xml version=""1.0"" encoding=""UTF-8""?>
 <questionnaire>
   <questions>
@@ -13527,7 +13527,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?
-</task>","43, 17, 20, 37, 33, 73",True
+</task>","43, 17, 20, 37, 33, 73",False
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"<?xml version=""1.0"" encoding=""UTF-8""?>
 <questionnaire>
   <questions>

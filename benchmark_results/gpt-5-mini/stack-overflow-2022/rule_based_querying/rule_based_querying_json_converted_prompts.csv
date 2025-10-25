@@ -1390,7 +1390,7 @@ Rules:
 
 <task>
 List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"{
   ""questions"": {
     ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
@@ -17897,7 +17897,7 @@ Rules:
 
 <task>
 Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?
-</task>",None,False
+</task>",None,True
 case_33,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"{
   ""questions"": {
     ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",

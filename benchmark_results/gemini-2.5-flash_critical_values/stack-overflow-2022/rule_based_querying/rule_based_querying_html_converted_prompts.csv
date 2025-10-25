@@ -860,7 +860,7 @@ Rules:
 List all respondents from 'Sweden' whose 'YearsCode' is less than 15.
 </task>","The critical country for filtering is 'Sweden'. The critical range for 'YearsCode' is values strictly less than 15. I will iterate through each respondent, check their 'Country' and then their 'YearsCode' against these criteria.
 
-[]",True
+[]",False
 case_4,rule_based_querying,List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1342,7 +1342,7 @@ Rules:
 List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
 </task>","The critical values for this query are the country 'Viet Nam' and a 'CompTotal' less than 55000. Each respondent's country and total compensation must be checked against these conditions. Only respondents from 'Viet Nam' are considered, and among those, only if their 'CompTotal' is strictly below 55000. After reviewing all respondents, no one meets both criteria simultaneously.
 
-[]",True
+[]",False
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -13425,7 +13425,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","Critical values for this task are 'YearsCodePro' and 'YearsCode'. The condition requires comparing these two numerical values for each respondent. Specifically, we are looking for respondents where the 'YearsCodePro' value is strictly less than half of the 'YearsCode' value. This involves a simple division and comparison for each entry.
 
-72751, 224",False
+72751, 224",True
 case_27,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13856,7 +13856,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","The critical values are 'YearsCode' (total years of coding experience) and 'YearsCodePro' (years of professional coding experience). The task requires comparing these two values for each respondent. Specifically, we need to find respondents where 'YearsCodePro' is strictly less than half of 'YearsCode'. This involves a numerical comparison after extracting the integer values from the respective fields.
 
-413, 72915, 72592",False
+413, 72915, 72592",True
 case_28,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 135000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22806,7 +22806,7 @@ Rules:
 Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?
 </task>","Critical values and ranges for this analysis involve the 'CompTotal' and 'CompFreq' fields, which are used to calculate each respondent's yearly compensation. The 'EdLevel' field is critical for grouping respondents, as the average compensation is calculated per education level. The core condition is that a respondent's yearly compensation must exceed double the average yearly compensation for their specific 'EdLevel'. This requires precise calculation of averages and a strict comparison.
 
-508",False
+508",True
 case_42,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"<!DOCTYPE html>
 <html>
 <head>
@@ -24793,7 +24793,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is greater than the average 'YearsCodePro' for their edlevel.
 </task>","The critical values for this analysis are the 'YearsCodePro' for each respondent and their corresponding 'EdLevel'. The task requires calculating the average 'YearsCodePro' for each distinct 'EdLevel' group. Then, for each respondent, their individual 'YearsCodePro' must be compared against the calculated average for their specific 'EdLevel' to determine if it is strictly greater.
 
-73217, 361, 469, 393, 72634, 73101",False
+73217, 361, 469, 393, 72634, 73101",True
 case_45,rule_based_querying,List all respondents whose 'CompTotal' is within 10% of the highest 'CompTotal' in their country.,"<!DOCTYPE html>
 <html>
 <head>
@@ -26884,7 +26884,7 @@ Rules:
 Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?
 </task>","Critical values and ranges for this analysis include the 'CompTotal' which represents the compensation amount, and 'CompFreq' which indicates whether this compensation is weekly, monthly, or yearly, requiring conversion to a standardized yearly value. The 'EdLevel' field is critical for grouping respondents, as the average compensation is calculated per education level. Finally, the threshold for selection is a respondent's yearly compensation being strictly more than double the calculated average for their specific 'EdLevel'.
 
-29115, 72969",False
+29115, 72969",True
 case_48,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"<!DOCTYPE html>
 <html>
 <head>
@@ -27417,7 +27417,7 @@ Rules:
 Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?
 </task>","The critical values for this task are the 'CompTotal' and 'CompFreq' for each respondent, which are used to calculate their standardized yearly compensation. The 'EdLevel' is also critical as it defines the groups for which the average compensation is calculated. The comparison involves checking if an individual's yearly compensation is strictly greater than the average yearly compensation within their specific education level group.
 
-73150, 486",False
+73150, 486",True
 case_49,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"<!DOCTYPE html>
 <html>
 <head>

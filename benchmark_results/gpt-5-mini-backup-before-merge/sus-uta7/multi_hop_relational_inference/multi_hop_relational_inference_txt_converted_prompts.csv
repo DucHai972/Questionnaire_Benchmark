@@ -828,7 +828,7 @@ Rules:
 
 <task>
 List all respondents who rated 'System_Complexity' the same as respondent '76'.
-</task>""""""","17, 31, 48, 70, 76, 78, 81",True
+</task>""""""","17, 31, 48, 70, 76, 78, 81",False
 case_4,multi_hop_relational_inference,Which respondents are in the same group as respondent '20'?,"""""""Survey Data
 ==================================================
 
@@ -2435,7 +2435,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '25'?
-</task>""""""","25, 30, 48, 49",True
+</task>""""""","25, 30, 48, 49",False
 case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"""""""Survey Data
 ==================================================
 
@@ -3485,7 +3485,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>""""""","25, 24, 61",True
+</task>""""""","25, 24, 61",False
 case_12,multi_hop_relational_inference,"""""""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""""""","""""""Survey Data
 ==================================================
 
@@ -4730,7 +4730,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '79'?
-</task>""""""","14, 79, 68, 32",True
+</task>""""""","14, 79, 68, 32",False
 case_15,multi_hop_relational_inference,Which respondents are in the same group as respondent '8'?,"""""""Survey Data
 ==================================================
 
@@ -5858,7 +5858,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.
-</task>""""""","67, 54, 47, 38",True
+</task>""""""","67, 54, 47, 38",False
 case_18,multi_hop_relational_inference,List all respondents who rated 'Need_to_Learn_Before_Use' the same as respondent '26'.,"""""""Survey Data
 ==================================================
 
@@ -7259,7 +7259,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.
-</task>""""""","88, 82, 22",True
+</task>""""""","88, 82, 22",False
 case_21,multi_hop_relational_inference,List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.,"""""""Survey Data
 ==================================================
 
@@ -12044,7 +12044,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Confidence_in_Use' score as respondent '90' and who also strongly agree that the system is easy to learn (score of 5).
-</task>""""""","5, 10, 28, 90",True
+</task>""""""","5, 10, 28, 90",False
 case_33,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '84' but are not in the same group.,"""""""Survey Data
 ==================================================
 
@@ -13030,7 +13030,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Confidence_in_Use' score as respondent '40' and who also strongly agree that the system is easy to learn (score of 5).
-</task>""""""","13, 30, 40",True
+</task>""""""","13, 30, 40",False
 case_35,multi_hop_relational_inference,Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?,"""""""Survey Data
 ==================================================
 
@@ -13601,7 +13601,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?
-</task>""""""","17, 20, 33, 37, 43, 73",True
+</task>""""""","17, 20, 33, 37, 43, 73",False
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"""""""Survey Data
 ==================================================
 

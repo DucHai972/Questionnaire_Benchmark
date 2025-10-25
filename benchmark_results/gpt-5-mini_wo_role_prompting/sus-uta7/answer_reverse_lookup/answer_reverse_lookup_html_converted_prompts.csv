@@ -7386,7 +7386,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Frequent_Usage' as 4.
-</task>","51, 66, 67, 68",False
+</task>","51, 66, 67, 68",True
 case_20,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Inconsistency' as 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17960,7 +17960,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.
-</task>","22, 49, 74",False
+</task>","22, 49, 74",True
 case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18536,7 +18536,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.
-</task>","4, 12, 32, 36, 70",False
+</task>","4, 12, 32, 36, 70",True
 case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19154,7 +19154,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","19, 64, 78, 86",False
+</task>","19, 64, 78, 86",True
 case_44,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Learning' is higher than the average 'Ease_of_Learning' for the 'Middle' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22232,7 +22232,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","9, 15, 66, 71",False
+</task>","9, 15, 66, 71",True
 case_50,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -22724,4 +22724,4 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","35, 61, 82",False
+</task>","35, 61, 82",True

@@ -378,7 +378,7 @@ Rules:
 Which respondents have a 'CompTotal' greater than 206000?
 </task>","Format/specification: This is a developer survey with a schema describing each field (e.g., MainBranch, Employment, EdLevel are multiple-choice; YearsCode and YearsCodePro are open-ended numeric; CompTotal is open-ended numeric and CompFreq is multiple-choice). MCQ fields use letter codes which map to the option text shown in the Questions schema. Responses are provided per respondent ID with exact open-ended values as given. Use the schema as the sole source for interpreting coded answers.
 
-448, 73030",False
+448, 73030",True
 case_3,rule_based_querying,List all respondents from 'Sweden' whose 'YearsCode' is less than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -864,7 +864,7 @@ List all respondents from 'Sweden' whose 'YearsCode' is less than 15.
 - Open-ended fields contain free-text or numeric answers (e.g., YearsCode, Country, DevType).
 - Use the schema as the single source of truth when interpreting coded responses; all analysis below is based only on the provided data.
 
-No respondents",False
+No respondents",True
 case_4,rule_based_querying,List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1351,7 +1351,7 @@ List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
 - All analysis must use only the provided schema and responses.
 
 Final answer:
-None",False
+None",True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -1731,7 +1731,7 @@ Rules:
 Which respondents have a 'YearsCode' greater than 5?
 </task>","Format/specification: This dataset is a developer survey with a schema listing each question and its response type (MCQ or open-ended). Key fields include YearsCode (total years coding, open-ended) and YearsCodePro (years professional, open-ended), plus demographic and tooling fields. Responses are provided per respondent ID with exact field values matching the schema. Use the schema to interpret MCQ codes into their full text where required.
 
-401, 309, 122, 73007, 308",False
+401, 309, 122, 73007, 308",True
 case_6,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2111,7 +2111,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is between 5 and 15.
 </task>","Format/specification: This survey records respondent-level data with a Questions schema (field names and meanings, including which are multiple-choice and their option texts) and a Responses section containing each respondent's answers keyed by respondent ID. MCQ fields use letter codes in Responses that map to full option text as defined in the Questions schema; open-ended fields contain free-text or numeric values. Key fields include YearsCode (total coding years) and YearsCodePro (years of professional coding experience). All analysis must use only the provided schema and responses.
 
-539, 72681",False
+539, 72681",True
 case_7,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2848,7 +2848,7 @@ Rules:
 Which respondents have a 'YearsCode' greater than 15?
 </task>","This survey captures developer-related information: question schema lists field definitions (including MCQ options) and the responses section contains each respondent's answers by ID. YearsCode and YearsCodePro are open-ended numeric fields for total and professional coding experience, respectively. MCQ fields use letter codes that map to the option text in the schema. All analysis below is based solely on the provided Questions and Responses.
 
-471, 72987, 73090, 72836",False
+471, 72987, 73090, 72836",True
 case_8,rule_based_querying,List all respondents from 'Israel' whose 'YearsCodePro' is less than 12.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3483,7 +3483,7 @@ Rules:
 List all respondents from 'Israel' whose 'YearsCodePro' is less than 12.
 </task>","Survey contains a questions schema describing each field (MCQ and open-ended) and a responses section with individual respondent records keyed by respondent ID. MCQ fields map letter codes to option texts; open-ended fields contain literal values. All analysis must use only the provided schema and responses. The dataset includes fields like Country and YearsCodePro used for filtering.
 
-29106",False
+29106",True
 case_9,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 2 and 7.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4169,7 +4169,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is between 2 and 7.
 </task>","The dataset includes a Questions schema defining each field (including MCQ option texts) and a Responses section listing each respondent's answers by numeric ID. YearsCodePro is defined as ""Years of professional coding experience"" and is an open-ended numeric field. MCQ fields use letter codes in Responses that map to the option text given in the Questions schema. Use the schema as the single source of truth when interpreting coded responses.
 
-448, 72647, 487, 73142, 73013, 72683, 383",False
+448, 72647, 487, 73142, 73013, 72683, 383",True
 case_10,rule_based_querying,List all respondents from 'Austria' whose 'CompTotal' is less than 73500.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4600,7 +4600,7 @@ Rules:
 List all respondents from 'Austria' whose 'CompTotal' is less than 73500.
 </task>","This is a developer survey dataset where the Questions section defines each field (type and options) and the Responses section contains individual respondent records identified by ID. Multiple-choice questions use letter codes mapped to the option text in the schema; open-ended fields contain raw text or numeric values. Key numeric fields include YearsCode, YearsCodePro, and CompTotal (total compensation). Country is an open-ended field indicating respondent residence. Use the schema as the authoritative mapping for any coded responses.
 
-29060, 168",False
+29060, 168",True
 case_11,rule_based_querying,Which respondents have a 'CompTotal' greater than 45000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5083,7 +5083,7 @@ Which respondents have a 'CompTotal' greater than 45000?
 </task>","Format specification and description:
 The survey records respondents' professional and demographic information (e.g., MainBranch, Employment, EdLevel) and open-ended developer details (YearsCode, YearsCodePro, DevType, tools, languages). Multiple-choice (MCQ) fields use letter codes that map to explicit option texts in the Questions schema; when reporting MCQ answers, output the mapped text, not the code. Numeric fields like CompTotal are open-ended numeric responses representing total compensation; CompFreq indicates frequency as Weekly, Monthly, or Yearly. Responses are listed per respondent ID with field values as provided.
 
-72725, 194, 168",False
+72725, 194, 168",True
 case_12,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5667,7 +5667,7 @@ Rules:
 Find all respondents whose 'YearsCode' is between 5 and 10.
 </task>","This survey collects developers' professional and demographic information: primary professional identity, employment status, education level, total and professional years of coding, development roles, organization size, country, compensation, languages/tools used, and version control systems. Several fields use multiple-choice codes (e.g., MainBranch, Employment, EdLevel, CompFreq, VersionControlSystem) with mappings given in the schema; YearsCode and YearsCodePro are open-ended (numeric). Language and tool questions are open-ended lists. Compensation frequency is categorical (Weekly/Monthly/Yearly). Use the schema to interpret coded responses.
 
-72784, 72913, 29061, 468",False
+72784, 72913, 29061, 468",True
 case_13,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6404,7 +6404,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is between 5 and 15.
 </task>","This survey captures developers' demographic and professional data (employment, education, YearsCode, YearsCodePro, DevType, OrgSize, Country, compensation, languages/tools, version control). The Questions section defines each field and MCQ option texts; Responses contains per-respondent values keyed by respondent ID. YearsCode and YearsCodePro are open-ended numeric fields for total and professional coding years. Use YearsCodePro to filter respondents with professional experience in the specified range.
 
-72927, 73128, 469, 72801, 29098, 143",False
+72927, 73128, 469, 72801, 29098, 143",True
 case_14,rule_based_querying,Find all respondents whose 'CompTotal' is between 118800 and 254700.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6835,7 +6835,7 @@ Rules:
 Find all respondents whose 'CompTotal' is between 118800 and 254700.
 </task>","The dataset has a ""Questions"" section that defines each field, including MCQ options and which items are open-ended. The ""Responses"" section lists each respondent by ID with values for those fields. CompTotal is defined as Total compensation and is an open-ended numeric field (presumably in the respondent's currency/value). Use the Questions schema to interpret any coded MCQ values when needed and rely solely on the provided responses for analysis.
 
-484",False
+484",True
 case_15,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7322,7 +7322,7 @@ Find all respondents whose 'YearsCode' is between 5 and 10.
 - All analysis must use only the provided schema and responses. 
 - Respondent IDs identify each record.
 
-245, 73070, 72796",False
+245, 73070, 72796",True
 case_16,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8059,7 +8059,7 @@ Rules:
 Which respondents have a 'YearsCodePro' greater than 15?
 </task>","The survey captures developer demographics and work details using a schema of labeled questions (MCQ, MCQ-Multi, and open-ended). Key fields include MainBranch (primary professional identity), Employment (employment status), EdLevel (education level), YearsCode and YearsCodePro (total and professional coding experience), DevType, OrgSize, Country, compensation fields, languages, tools, and version control. Responses are organized by respondent ID with values adhering to the schema; MCQ codes map to options in the questions. YearsCodePro is an open-ended field representing years of professional coding experience (numeric or descriptive).
 
-222",False
+222",True
 case_17,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 2 and 12.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8541,7 +8541,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is between 2 and 12.
 </task>","Format/specification: The dataset contains a Questions section (a schema explaining each field, including MCQ option text) and a Responses section (individual respondent records keyed by respondent ID). MCQ fields use letter codes in Responses which map to option text in Questions; open-ended fields contain raw text or numeric values. YearsCodePro records years of professional coding experience as an open-ended numeric field. Use the Questions schema as the authoritative mapping for interpreting coded responses.
 
-29115, 73196, 489, 491, 29111, 72965",False
+29115, 73196, 489, 491, 29111, 72965",True
 case_18,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8972,7 +8972,7 @@ Rules:
 Which respondents have a 'YearsCodePro' greater than 5?
 </task>","This dataset is a developer survey where the Questions section defines each field (including multiple-choice options) and the Responses section contains per-respondent answers by ID. Fields include MainBranch, Employment, EdLevel, YearsCode (total years coding), and YearsCodePro (years of professional coding), among others. MCQ fields use letter codes that map to the option text in the schema; open-ended fields contain the exact response values. YearsCodePro is an open-ended numeric field indicating years of professional coding experience.
 
-238, 72700, 486, 539",False
+238, 72700, 486, 539",True
 case_19,rule_based_querying,List all respondents from 'Poland' whose 'YearsCode' is less than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9557,7 +9557,7 @@ List all respondents from 'Poland' whose 'YearsCode' is less than 15.
 </task>","Format/specification and survey description:
 This dataset is a developer-focused survey with a questions schema describing each field (MCQ options and open-ended fields) and a responses section listing individual respondents by ID. Fields include demographics, employment, education, YearsCode and YearsCodePro (open-ended numeric), development roles, tools, languages, compensation, and version control. MCQ fields use letter codes in responses that map to full option text in the schema. Responses are provided as exact text or numbers per respondent entry.
 
-72932",False
+72932",True
 case_20,rule_based_querying,Which respondents have a 'CompTotal' greater than 95000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9988,7 +9988,7 @@ Rules:
 Which respondents have a 'CompTotal' greater than 95000?
 </task>","This dataset is a developer-focused survey with a 'Questions' schema that defines each field (MCQ or open-ended) and its possible options. MCQ fields are encoded with letter choices that map to the option text in the schema; open-ended fields contain raw text or numeric values. CompTotal is an open-ended numeric field representing total compensation. The Responses section contains six individual respondent records matching the schema.
 
-379, 375, 72898",False
+379, 375, 72898",True
 case_21,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11054,7 +11054,7 @@ Rules:
 Which respondents have a 'YearsCode' greater than 15?
 </task>","Format/specification: The ""Questions"" section defines each field's meaning and any MCQ options (mapping letters to option text). The ""Responses"" section lists each respondent by ID with field values; open-ended fields contain exact text or numbers. For MCQ answers, letters correspond to the option text in the schema. Use the schema as the sole source of truth when interpreting codes or values.
 
-72909, 179, 73023",False
+72909, 179, 73023",True
 case_23,rule_based_querying,Find all respondents whose 'CompTotal' is between 46320 and 176580.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11689,7 +11689,7 @@ Rules:
 Find all respondents whose 'CompTotal' is between 46320 and 176580.
 </task>","This survey collects developer demographics and professional information including role, employment status, education level, years of coding experience (total and professional), development roles, organization size, country, compensation, programming languages, tools, and version control systems. The schema defines MCQ options for MainBranch, Employment, EdLevel, and CompFreq; YearsCode and YearsCodePro are open-ended numeric fields; CompTotal is an open-ended numeric compensation value. Programming languages, tools, and dev roles are open-ended lists. Use the schema to map any letter codes to their full option text when present.
 
-157, 72719, 73073",False
+157, 72719, 73073",True
 case_24,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12171,7 +12171,7 @@ Rules:
 Find all respondents whose 'YearsCode' is between 5 and 10.
 </task>","This dataset includes a questions schema (MCQ and open-ended) and a set of respondent records from a developer-focused survey. Key fields include MainBranch, Employment, EdLevel (MCQ fields with letter-coded options) and open-ended numeric fields YearsCode and YearsCodePro representing total and professional coding experience. Responses are organized by respondent ID with exact values provided for each field. MCQ letter codes map to the option text in the schema when interpreting answers.
 
-72905, 72904, 73143, 73010",False
+72905, 72904, 73143, 73010",True
 case_25,rule_based_querying,Which respondents have a 'CompTotal' greater than 58500?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12806,7 +12806,7 @@ Rules:
 Which respondents have a 'CompTotal' greater than 58500?
 </task>","The dataset contains a Questions section (a schema describing each field, including MCQ option mappings) and a Responses section (one block per respondent with field values). MCQ fields use letter codes that map to option text as defined in the Questions section; open-ended fields contain verbatim values. CompTotal is an open-ended numeric field representing total compensation and CompFreq gives the payment frequency per the MCQ options. Use the schema to interpret coded responses and then filter respondents by the numeric CompTotal value.
 
-72669, 215, 308, 240, 355",False
+72669, 215, 308, 240, 355",True
 case_26,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13441,7 +13441,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","This dataset includes a Questions schema defining each survey field (including MCQ options) and a Responses section with individual respondent records. MCQ fields map letter codes to their full text; YearsCode and YearsCodePro are open-ended numeric fields for total and professional coding years. Each respondent entry lists values for all schema fields under their respondent ID. The task compares YearsCodePro to YearsCode for each respondent. Below are respondent IDs where YearsCodePro is less than half of YearsCode.
 
-72751, 224",False
+72751, 224",True
 case_27,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13872,7 +13872,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","This survey captures developer-related information: MCQ fields (e.g., MainBranch, Employment, EdLevel, CompFreq, VersionControlSystem) and open-ended fields (e.g., YearsCode, YearsCodePro, DevType, Country, CompTotal). Each respondent entry lists those fields with numeric YearsCode and YearsCodePro values representing total and professional coding years. MCQ responses are encoded as letters per the schema and should be interpreted using the provided option text. Use YearsCode and YearsCodePro to compute any comparisons between total and professional experience.
 
-413, 72915, 72592",False
+413, 72915, 72592",True
 case_28,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 135000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15673,7 +15673,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","The questionnaire documents developer demographics and work-related fields, including multiple-choice and open-ended items (e.g., MainBranch, Employment, YearsCode, YearsCodePro). The Questions section defines each field and maps MCQ letter codes to full option texts; YearsCode and YearsCodePro are open-ended numeric fields for total and professional coding years respectively. The Responses section lists individual respondent records with those fields filled. Analysis must be based solely on the provided schema and responses, using MCQ mappings where applicable.
 
-73093",False
+73093",True
 case_31,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 93000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16408,7 +16408,7 @@ Rules:
 
 <task>
 Find all respondents whose calculated yearly compensation is greater than 93000.
-</task>","255, 263, 268, 338, 72683, 73148",False
+</task>","255, 263, 268, 338, 72683, 73148",True
 case_32,rule_based_querying,Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17043,7 +17043,7 @@ Rules:
 Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?
 </task>","This dataset contains a questions schema (data dictionary) and a list of respondent records. Fields include MCQ items (coded letters) and open-ended fields such as YearsCode, YearsCodePro, Country, CompTotal, and CompFreq. MCQ codes must be interpreted using the schema (e.g., CompFreq C = Yearly). Each respondent block is keyed by an ID and provides their answers as text values. All analysis must be based only on the provided schema and responses.
 
-None",False
+None",True
 case_33,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17678,7 +17678,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","This dataset is a developer survey with a Questions section that defines each field (including MCQ option texts) and a Responses section listing individual respondents by ID. Key numeric fields are YearsCode (total years coding) and YearsCodePro (years of professional coding); most other fields are open-ended or MCQ-coded per the schema. MCQ fields use letter codes that must be mapped to the option text from the Questions section when reporting. For this task, compare YearsCodePro to half of YearsCode (strictly less than). Output should be respondent IDs as a comma-separated list.
 
-73190, 255",False
+73190, 255",True
 case_34,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 120000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18260,7 +18260,7 @@ Rules:
 
 <task>
 Find all respondents whose calculated yearly compensation is greater than 120000.
-</task>","72813, 447, 73064, 73142",False
+</task>","72813, 447, 73064, 73142",True
 case_35,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18793,7 +18793,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","This survey records developer demographics, employment, education, tools/languages used, and coding experience; YearsCode is total coding years and YearsCodePro is professional coding years. MCQ fields in the schema map letter codes to defined option texts, while open-ended fields contain exact text responses. The responses section lists each respondent's values for these fields. All analysis below uses only the provided schema and responses.
 
-123, 73196, 72973",False
+123, 73196, 72973",True
 case_36,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 164000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22121,7 +22121,7 @@ Rules:
 
 <task>
 List all respondents for whom their professional coding years are less than half their total coding years.
-</task>","224, 72964, 489, 202, 29154, 215",False
+</task>","224, 72964, 489, 202, 29154, 215",True
 case_41,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"<!DOCTYPE html>
 <html>
 <head>

@@ -10136,7 +10136,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>","""Please specify which field you are referring to when you ask ""Which respondents are 6.0?"".""",True
+</task>","""Please specify which field you are referring to when you ask ""Which respondents are 6.0?"".""",False
 case_11,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -38909,7 +38909,7 @@ Rules:
 
 <task>
 Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.
-</task>","10, 81, 103, 104",False
+</task>","10, 81, 103, 104",True
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -46597,7 +46597,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","39, 86, 89, 97, 115, 124, 126, 138, 142, 149",False
+</task>","39, 86, 89, 97, 115, 124, 126, 138, 142, 149",True
 case_43,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -47815,7 +47815,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","60, 106, 82, 12, 122",False
+</task>","60, 106, 82, 12, 122",True
 case_44,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -49145,7 +49145,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","4, 10, 39, 113, 135",False
+</task>","4, 10, 39, 113, 135",True
 case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -52705,7 +52705,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","15, 77, 8, 84, 114",False
+</task>","15, 77, 8, 84, 114",True
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -53935,7 +53935,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","96, 111, 136, 38, 63",False
+</task>","96, 111, 136, 38, 63",True
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"<!DOCTYPE html>
 <html>
 <head>

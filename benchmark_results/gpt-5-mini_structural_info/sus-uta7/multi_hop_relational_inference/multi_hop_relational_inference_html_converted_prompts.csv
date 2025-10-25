@@ -904,7 +904,7 @@ Rules:
 
 <task>
 List all respondents who rated 'System_Complexity' the same as respondent '76'.
-</task>","17, 31, 48, 70, 78, 81",False
+</task>","17, 31, 48, 70, 78, 81",True
 case_4,multi_hop_relational_inference,Which respondents are in the same group as respondent '20'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2298,7 +2298,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '51', excluding the respondent themselves.
 </task>","The survey has 11 questions: one MCQ ""Group"" (A–D) and ten Likert items scored 1–5. There are 5 respondents: 42, 20, 51, 84, and 7. Group counts are: Senior (A) = 1, Junior (B) = 0, Middle (C) = 2, Intern (D) = 2. Ease_of_Use is skewed high: four respondents rated it 5 and one rated it 1, so the mode is 5. System_Complexity is mostly low (1) and Confidence_in_Use is mostly high (5), with respondent 84 being an outlier in several items.
 
-42, 20, 7",True
+42, 20, 7",False
 case_8,multi_hop_relational_inference,Which respondents are in the same group as respondent '25'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2669,7 +2669,7 @@ Rules:
 Which respondents are in the same group as respondent '25'?
 </task>","The survey contains one MCQ (""Group"": A. Senior B. Junior C. Middle D. Intern) and ten Likert (1–5) items measuring usability constructs. There are 6 respondents in the dataset: 30, 48, 49, 17, 25, and 6. Group distribution: Intern appears 4 times (respondents 30, 48, 49, 25), Middle once (17), Senior once (6); Junior does not appear. Likert responses are skewed toward positive ratings (many 5s for Ease_of_Use, Integration_of_Functions, Ease_of_Learning, Confidence_in_Use). Intern-group responses vary: 30 and 48 report low complexity/support needs, while 49 reports higher complexity and need-to-learn.
 
-30, 48, 49",True
+30, 48, 49",False
 case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3367,7 +3367,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.
 </task>","The dataset contains 11 items per respondent: one MCQ ""Group"" (A–D) and ten Likert items (1–5); five respondents are present (IDs 74, 5, 55, 62, 2). The MCQ Group options map as A: Senior, B: Junior, C: Middle, D: Intern. Likert items use a 1–5 scale and there are no missing values in the provided responses. Group distribution is Middle (C) = 3, Senior (A) = 1, Intern (D) = 1, Junior (B) = 0. Ease_of_Use responses are: three 5s (74, 5, 62), one 4 (2), and one 2 (55).
 
-74, 62",True
+74, 62",False
 case_11,multi_hop_relational_inference,List all respondents who rated 'Inconsistency' the same as respondent '61'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7446,7 +7446,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '38', excluding the respondent themselves.
 </task>","May I proceed?
 
-16, 19, 51, 66, 67",False
+16, 19, 51, 66, 67",True
 case_20,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8891,7 +8891,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.
 </task>","The dataset includes one MCQ field ""Group"" (A. Senior B. Junior C. Middle D. Intern) and ten Likert-scale items (1–5) measuring usability constructs. There are 12 respondents in total. Group counts are: Senior (A) = 2, Junior (B) = 3, Middle (C) = 2, Intern (D) = 5. Ease_of_Use scores range from 1 to 5, with 8 respondents (67%) giving a score of 5. Four respondents gave scores below 5 (two gave 4, one gave 2, one gave 1).
 
-32, 4, 79, 58, 90, 16, 30",True
+32, 4, 79, 58, 90, 16, 30",False
 case_23,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -9388,7 +9388,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.
 </task>","The survey schema contains 11 fields: one multiple-choice Group (A–D) and ten Likert items scored 1–5. There are 9 respondents in the dataset (IDs 38, 11, 3, 76, 40, 55, 49, 68, 46). Group membership is skewed toward ""A"" with 5 respondents, ""B"" has 2, and ""C"" and ""D"" have 1 each. Ease_of_Use responses range from 1 to 5 with a mean of about 3.89. The most common Ease_of_Use rating is 5 (given by 5 respondents).
 
-38, 76, 40, 49",True
+38, 76, 40, 49",False
 case_24,multi_hop_relational_inference,Which respondents are in the same group as respondent '22'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9799,7 +9799,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '22'?
-</task>","24, 50",False
+</task>","24, 50",True
 case_25,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -10824,7 +10824,7 @@ Rules:
 Which respondents are in the same group as respondent '62' and also rated 'System_Complexity' as 4?
 </task>","There are 11 survey items per respondent: one multiple-choice ""Group"" (A–D) and ten Likert 1–5 questions. The dataset contains 5 respondents (IDs 84, 62, 90, 36, 37). Group membership appears as D:2 respondents (84, 90), C:2 respondents (62, 37), B:1 respondent (36); no A (Senior) entries. System_Complexity ratings in this sample are mostly low: values observed are 1 (four respondents) and 3 (one respondent). Ease_of_Use and Integration_of_Functions tend to be high (many 4s and 5s) while Cumbersome_to_Use is mostly low (1–2) except respondent 84 who rated it 4.
 
-None",True
+None",False
 case_28,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '82' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -16525,7 +16525,7 @@ Rules:
 List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.
 </task>","The questionnaire contains one MCQ (Group) and ten Likert (1–5) items; responses are provided for 11 respondents. Group membership is distributed as: A = 2, B = 2, C = 3, D = 4. Most respondents (10/11) rated System_Complexity as 1 (Strongly Disagree that it was complex). The Inconsistency item shows a mode of 1 (seven respondents) with a single maximum of 5 (respondent 9). Ease_of_Use and Integration_of_Functions are generally high across respondents.
 
-55, 14, 47, 48, 6",True
+55, 14, 47, 48, 6",False
 case_39,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>

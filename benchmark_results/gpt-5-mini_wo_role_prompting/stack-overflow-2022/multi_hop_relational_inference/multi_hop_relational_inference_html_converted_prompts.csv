@@ -2740,7 +2740,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '72858', excluding the respondent themselves.
-</task>","260, 396",False
+</task>","260, 396",True
 case_7,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72825'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4581,7 +4581,7 @@ Rules:
 List all respondents who have the same education level as respondent '388'.
 </task>","Do you want me to include respondent 388 in the list? 
 
-72895, 63, 73050, 72840, 537, 52, 72741",True
+72895, 63, 73050, 72840, 537, 52, 72741",False
 case_10,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72647', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -18326,7 +18326,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?
-</task>","73006, 72998, 355, 58, 277",True
+</task>","73006, 72998, 355, 58, 277",False
 case_34,multi_hop_relational_inference,Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>

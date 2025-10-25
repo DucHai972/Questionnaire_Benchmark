@@ -5413,7 +5413,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have the same 'MainBranch' (professional identity) as respondent '297'?","332, 347, 469, 72793, 72823, 72981, 73015, 73017",False
+Which respondents have the same 'MainBranch' (professional identity) as respondent '297'?","332, 347, 469, 72793, 72823, 72981, 73015, 73017",True
 case_12,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72815', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -14326,7 +14326,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.","331, 192, 352, 479, 487, 29111, 72720, 72873, 73076",False
+List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.","331, 192, 352, 479, 487, 29111, 72720, 72873, 73076",True
 case_27,multi_hop_relational_inference,Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -20587,7 +20587,7 @@ However, I can answer the second question you provided in the thought process: "
 
 The respondents who meet both criteria are 162, 73119, 157, and 222.
 
-162, 73119, 157, 222",True
+162, 73119, 157, 222",False
 case_38,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '501' and whose programming languages include 'TypeScript'.,"<!DOCTYPE html>
 <html>
 <head>

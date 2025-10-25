@@ -1661,7 +1661,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>",,
+</task>",None,False
 case_3,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3468,7 +3468,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>",,
+</task>",None,False
 case_4,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5440,7 +5440,7 @@ Rules:
 
 <task>
 List all respondents with a 'Gender' of Male who were born in 2003.
-</task>",,
+</task>","Respondent 85, Respondent 16",True
 case_5,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7412,7 +7412,7 @@ Rules:
 
 <task>
 List all respondents with a 'Gender' of Female who were born in 2004.
-</task>",,
+</task>","Respondent 57, Respondent 125, Respondent 70",True
 case_6,answer_reverse_lookup,Which respondents are 1999.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9393,7 +9393,7 @@ Rules:
 
 <task>
 Which respondents are 1999.0?
-</task>",,
+</task>",Respondent 100,True
 case_7,answer_reverse_lookup,Find all respondents with a Worry of 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10438,7 +10438,7 @@ Rules:
 
 <task>
 Find all respondents with a Worry of 1.
-</task>",,
+</task>","Respondent 22, Respondent 110, Respondent 35, Respondent 119, Respondent 47",False
 case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11468,7 +11468,7 @@ Rules:
 
 <task>
 List all respondents with a 'Gender' of Male who were born in 2002.
-</task>",,
+</task>",Respondent 84,True
 case_9,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13275,7 +13275,7 @@ Rules:
 
 <task>
 List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.
-</task>",,
+</task>",None,True
 case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -15079,7 +15079,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>",,
+</task>",None,False
 case_11,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17219,7 +17219,7 @@ Rules:
 
 <task>
 List all respondents with a 'Gender' of Female who were born in 2003.
-</task>",,
+</task>",Respondent 56,True
 case_12,answer_reverse_lookup,Which respondents are male?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18885,7 +18885,7 @@ Rules:
 
 <task>
 Which respondents are male?
-</task>",,
+</task>","Respondent 148, Respondent 97, Respondent 102, Respondent 20, Respondent 63, Respondent 27",False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19924,7 +19924,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>",,
+</task>",Respondent 89,False
 case_14,answer_reverse_lookup,Which respondents are 2004.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -21731,7 +21731,7 @@ Rules:
 
 <task>
 Which respondents are 2004.0?
-</task>",,
+</task>",Respondent 40,True
 case_15,answer_reverse_lookup,Which respondents are male?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23394,7 +23394,7 @@ Rules:
 
 <task>
 Which respondents are male?
-</task>",,
+</task>","Respondent 138, Respondent 124, Respondent 120, Respondent 112, Respondent 69, Respondent 83, Respondent 63, Respondent 23, Respondent 72",True
 case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25525,7 +25525,7 @@ Rules:
 
 <task>
 List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.
-</task>",,
+</task>",None,True
 case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27182,7 +27182,7 @@ Rules:
 
 <task>
 List all respondents with a 'Gender' of Male who were born in 1998.
-</task>",,
+</task>",None,True
 case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8.,"<!DOCTYPE html>
 <html>
 <head>
@@ -29163,7 +29163,7 @@ Rules:
 
 <task>
 Find all respondents with a Life satisfaction of 8.
-</task>",,
+</task>","Respondent 126, Respondent 104, Respondent 63",False
 case_19,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.,"<!DOCTYPE html>
 <html>
 <head>
@@ -30829,7 +30829,7 @@ Rules:
 
 <task>
 List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.
-</task>",,
+</task>",Respondent 95,True
 case_20,answer_reverse_lookup,Which respondents are 3.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -32654,7 +32654,7 @@ Rules:
 
 <task>
 Which respondents are 3.0?
-</task>",,
+</task>",None,False
 case_21,answer_reverse_lookup,Find all respondents with a Life satisfaction of 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -34161,7 +34161,7 @@ Rules:
 
 <task>
 Find all respondents with a Life satisfaction of 5.
-</task>",,
+</task>","Respondent 71, Respondent 26",True
 case_22,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -35674,7 +35674,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>",,
+</task>",None,False
 case_23,answer_reverse_lookup,Find all respondents with a Happiness of 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36716,7 +36716,7 @@ Rules:
 
 <task>
 Find all respondents with a Happiness of 5.
-</task>",,
+</task>","Respondent 142, Respondent 27",True
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -37755,7 +37755,7 @@ Rules:
 
 <task>
 Which respondents are 5.0?
-</task>",,
+</task>",None,False
 case_25,answer_reverse_lookup,Which respondents are 2002.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -39574,7 +39574,7 @@ Rules:
 
 <task>
 Which respondents are 2002.0?
-</task>",,
+</task>","Respondent 14, Respondent 30, Respondent 103, Respondent 148",True
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -40607,7 +40607,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?
-</task>",,
+</task>",,False
 case_27,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Life satisfaction' of exactly 8?,"<!DOCTYPE html>
 <html>
 <head>
@@ -41784,7 +41784,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Stress' and 'Life satisfaction' of exactly 8?
-</task>",,
+</task>",None,False
 case_28,answer_reverse_lookup,Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -43918,7 +43918,7 @@ Rules:
 
 <task>
 Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.
-</task>",,
+</task>",None,True
 case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -45272,7 +45272,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?
-</task>",,
+</task>",,False
 case_30,answer_reverse_lookup,Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -46950,7 +46950,7 @@ Rules:
 
 <task>
 Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.
-</task>",,
+</task>",,False
 case_31,answer_reverse_lookup,Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -48454,7 +48454,7 @@ Rules:
 
 <task>
 Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.
-</task>",,
+</task>",Respondent 140,True
 case_32,answer_reverse_lookup,Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?,"<!DOCTYPE html>
 <html>
 <head>
@@ -50288,7 +50288,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?
-</task>",,
+</task>",,False
 case_33,answer_reverse_lookup,Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?,"<!DOCTYPE html>
 <html>
 <head>
@@ -52254,7 +52254,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?
-</task>",,
+</task>",Respondent 113,False
 case_34,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?,"<!DOCTYPE html>
 <html>
 <head>
@@ -54061,7 +54061,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?
-</task>",,
+</task>",,False
 case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -56045,7 +56045,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?
-</task>",,
+</task>",,False
 case_36,answer_reverse_lookup,Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -57873,7 +57873,7 @@ Rules:
 
 <task>
 Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.
-</task>",,
+</task>",,False
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -60022,7 +60022,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?
-</task>",,
+</task>",Respondent 14,False
 case_38,answer_reverse_lookup,Which respondents have a total score for 'Happiness' and 'Life satisfaction' of exactly 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -62162,7 +62162,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Happiness' and 'Life satisfaction' of exactly 15?
-</task>",,
+</task>",,False
 case_39,answer_reverse_lookup,Find all respondents born in 2005 with a Happiness greater than 4 and a Loneliness less than 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -63675,7 +63675,7 @@ Rules:
 
 <task>
 Find all respondents born in 2005 with a Happiness greater than 4 and a Loneliness less than 5.
-</task>",,
+</task>",,False
 case_40,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?,"<!DOCTYPE html>
 <html>
 <head>
@@ -65515,7 +65515,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?
-</task>",,
+</task>",,False
 case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -67184,7 +67184,7 @@ Rules:
 
 <task>
 Find all respondents whose Laughter is higher than the average Laughter for their gender.
-</task>",,
+</task>",,False
 case_42,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -69321,7 +69321,47 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>",,
+</task>","To solve this, we first need to calculate the overall average 'Life satisfaction' across all respondents. Then, we calculate the average 'Life satisfaction' for each year of birth. Finally, we identify the respondents born in years where the average 'Life satisfaction' for that year exceeds the overall average.
+
+1. **Calculate Overall Average 'Life satisfaction':**
+
+From the data provided:
+- Respondent 149: 8.0
+- Respondent 126: 8.0
+- Respondent 39: 9.0
+- Respondent 115: 7.0
+- Respondent 138: 6.0
+- Respondent 124: 7.0
+- Respondent 89: 9.0
+- Respondent 86: 8.0
+- Respondent 142: 7.0
+- Respondent 140: 3.0
+- Respondent 97: 6.0
+- Respondent 117: 6.0
+
+Sum of 'Life satisfaction' = 8.0 + 8.0 + 9.0 + 7.0 + 6.0 + 7.0 + 9.0 + 8.0 + 7.0 + 3.0 + 6.0 + 6.0 = 84.0
+
+Number of respondents = 12
+
+Overall average 'Life satisfaction' = Sum of 'Life satisfaction' / Number of respondents = 84.0 / 12 = 7.0
+
+2. **Calculate Average 'Life satisfaction' for Each Year of Birth:**
+
+- **2001:** Respondent 140 = 3.0
+- **2002:** Respondents 89, 97 = (9.0 + 6.0) / 2 = 7.5
+- **2003:** Respondent 117 = 6.0
+- **2004:** Respondents 149, 115, 86, 142 = (8.0 + 7.0 + 8.0 + 7.0) / 4 = 7.5
+- **2005:** Respondents 126, 39, 138, 124 = (8.0 + 9.0 + 6.0 + 7.0) / 4 = 7.5
+
+3. **Identify Respondents with Average 'Life satisfaction' Greater Than Overall Average:**
+
+The overall average 'Life satisfaction' is 7.0. Years with an average 'Life satisfaction' greater than 7.0 are 2002, 2004, and 2005.
+
+- **2002:** Respondents 89, 97
+- **2004:** Respondents 149, 115, 86, 142
+- **2005:** Respondents 126, 39, 138, 124
+
+Therefore, the respondents born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction' are Respondents 89, 97, 149, 115, 86, 142, 126, 39, 138, 124.",False
 case_43,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -71134,7 +71174,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>",,
+</task>",,False
 case_44,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -73115,7 +73155,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>",,
+</task>",,False
 case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -74775,7 +74815,7 @@ Rules:
 
 <task>
 List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.
-</task>",,
+</task>",,False
 case_46,answer_reverse_lookup,Find all respondents whose Learning is higher than the average Learning for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -76909,7 +76949,7 @@ Rules:
 
 <task>
 Find all respondents whose Learning is higher than the average Learning for their gender.
-</task>",,
+</task>",,False
 case_47,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -78413,7 +78453,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>",,
+</task>",,False
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -80244,7 +80284,47 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>",,
+</task>","To solve this, we first need to calculate the overall average 'Life satisfaction' across all respondents. Then, we calculate the average 'Life satisfaction' for each year of birth. Finally, we identify the respondents born in years where the average 'Life satisfaction' for that year exceeds the overall average.
+
+1. **Calculate Overall Average 'Life satisfaction':**
+
+From the data:
+- Respondent 96: 10.0
+- Respondent 111: 10.0
+- Respondent 38: 10.0
+- Respondent 63: 8.0
+- Respondent 136: 6.0
+- Respondent 106: 5.0
+- Respondent 145: 8.0
+- Respondent 47: 8.0
+- Respondent 44: 6.0
+- Respondent 45: 10.0
+
+Sum of 'Life satisfaction' = 10.0 + 10.0 + 10.0 + 8.0 + 6.0 + 5.0 + 8.0 + 8.0 + 6.0 + 10.0 = 81.0
+
+Number of respondents = 10
+
+Overall average 'Life satisfaction' = Sum of 'Life satisfaction' / Number of respondents = 81.0 / 10 = 8.1
+
+2. **Calculate Average 'Life satisfaction' for Each Year of Birth:**
+
+- **2002:** Respondent 106 (5.0), Respondent 45 (10.0)
+  - Average for 2002 = (5.0 + 10.0) / 2 = 7.5
+- **2003:** Respondent 47 (8.0), Respondent 44 (6.0)
+  - Average for 2003 = (8.0 + 6.0) / 2 = 7.0
+- **2004:** Respondent 38 (10.0), Respondent 63 (8.0)
+  - Average for 2004 = (10.0 + 8.0) / 2 = 9.0
+- **2005:** Respondent 96 (10.0), Respondent 111 (10.0), Respondent 136 (6.0)
+  - Average for 2005 = (10.0 + 10.0 + 6.0) / 3 = 8.67
+- **2022:** Respondent 145 (8.0)
+  - Average for 2022 = 8.0
+
+3. **Identify Respondents with Average 'Life satisfaction' for Their Year of Birth Greater Than the Overall Average (8.1):**
+
+- Only the year **2004** has an average 'Life satisfaction' (9.0) greater than the overall average (8.1).
+- Respondents born in **2004** are Respondent 38 and Respondent 63.
+
+Therefore, the respondents who were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction' are **Respondent 38** and **Respondent 63**.",False
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -81751,7 +81831,7 @@ Rules:
 
 <task>
 Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.
-</task>",,
+</task>",,False
 case_50,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -83741,4 +83821,4 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>",,
+</task>",,False

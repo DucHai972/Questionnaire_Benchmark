@@ -25719,7 +25719,7 @@ Rules:
 
 <task>
 How many respondents have a total compensation (yearly) that is higher than the average compensation for their country?
-</task>","Should I normalize all CompTotal values to yearly equivalents (Weekly ×52, Monthly ×12) and use those when computing country averages, or should I compare only respondents who reported Yearly compensation?",True
+</task>","Should I normalize all CompTotal values to yearly equivalents (Weekly ×52, Monthly ×12) and use those when computing country averages, or should I compare only respondents who reported Yearly compensation?",False
 case_45,conceptual_aggregation,How many respondents have a total compensation (yearly) that is higher than the average compensation for their country?,"<!DOCTYPE html>
 <html>
 <head>

@@ -798,7 +798,7 @@ Rules:
 
 <task>
 List all respondents from 'Sweden' whose 'YearsCode' is less than 15.
-</task>",None,False
+</task>",None,True
 case_4,rule_based_querying,List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.,"Survey Data
 ==================================================
 
@@ -1246,7 +1246,7 @@ Rules:
 
 <task>
 List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"Survey Data
 ==================================================
 

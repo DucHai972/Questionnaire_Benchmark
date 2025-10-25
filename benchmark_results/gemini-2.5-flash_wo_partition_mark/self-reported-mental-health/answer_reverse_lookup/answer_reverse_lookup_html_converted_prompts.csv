@@ -1648,7 +1648,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 6.0?",,False
+Which respondents are 6.0?",None,False
 case_3,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2236,7 +2236,7 @@ case_3,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""82, 139, 21, 36, 99, 40, 55, 17""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","82, 139, 21, 36, 99, 40, 55, 17","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -3442,7 +3442,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 6.0?",,False
+Which respondents are 6.0?",None,False
 case_4,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4085,7 +4085,7 @@ case_4,answer_reverse_lookup,List all respondents with a 'Gender' of Male who we
   </li>
 </ul>
 </body>
-</html>","""85, 16""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","85, 16","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -7360,7 +7360,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents with a 'Gender' of Female who were born in 2004.",,False
+List all respondents with a 'Gender' of Female who were born in 2004.",Respondent 70,True
 case_6,answer_reverse_lookup,Which respondents are 1999.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9328,7 +9328,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 1999.0?",,False
+Which respondents are 1999.0?",None,False
 case_7,answer_reverse_lookup,Find all respondents with a Worry of 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9662,7 +9662,7 @@ case_7,answer_reverse_lookup,Find all respondents with a Worry of 1.,"<!DOCTYPE 
   </li>
 </ul>
 </body>
-</html>","""110, 35, 119, 47""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","110, 35, 119, 47","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -10360,7 +10360,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents with a Worry of 1.",,False
+Find all respondents with a Worry of 1.",None,False
 case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13758,7 +13758,7 @@ case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""18, 8, 64, 52, 6, 40, 62, 33""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","18, 8, 64, 52, 6, 40, 62, 33","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -14962,7 +14962,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 6.0?",,False
+Which respondents are 6.0?",None,False
 case_11,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17089,7 +17089,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents with a 'Gender' of Female who were born in 2003.",,False
+List all respondents with a 'Gender' of Female who were born in 2003.",None,False
 case_12,answer_reverse_lookup,Which respondents are male?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17630,7 +17630,7 @@ case_12,answer_reverse_lookup,Which respondents are male?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""148, 97, 102, 20, 63""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","148, 97, 102, 20, 63","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -18742,7 +18742,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are male?","148, 97, 102, 20, 63",True
+Which respondents are male?",None,False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19074,7 +19074,7 @@ case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""89, 137, 110, 95, 18""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","89, 137, 110, 95, 18","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -19768,7 +19768,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 6.0?",,False
+Which respondents are 6.0?",None,False
 case_14,answer_reverse_lookup,Which respondents are 2004.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -21562,7 +21562,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 2004.0?",,False
+Which respondents are 2004.0?",None,False
 case_15,answer_reverse_lookup,Which respondents are male?,"<!DOCTYPE html>
 <html>
 <head>
@@ -22102,7 +22102,7 @@ case_15,answer_reverse_lookup,Which respondents are male?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""138, 124, 120, 112, 69, 83, 63, 23, 72""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","138, 124, 120, 112, 69, 83, 63, 23, 72","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -23212,7 +23212,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are male?",,False
+Which respondents are male?",None,False
 case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -26974,7 +26974,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents with a 'Gender' of Male who were born in 1998.",None,True
+List all respondents with a 'Gender' of Male who were born in 1998.",Respondent 133,False
 case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27620,7 +27620,7 @@ case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8
   </li>
 </ul>
 </body>
-</html>","""126, 143, 24, 57, 104, 63""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","126, 143, 24, 57, 104, 63","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -28942,7 +28942,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents with a Life satisfaction of 8.",,False
+Find all respondents with a Life satisfaction of 8.",None,False
 case_19,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.,"<!DOCTYPE html>
 <html>
 <head>
@@ -30595,7 +30595,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.",,False
+List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.",95,True
 case_20,answer_reverse_lookup,Which respondents are 3.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -31189,7 +31189,7 @@ case_20,answer_reverse_lookup,Which respondents are 3.0?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""65, 50, 81""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","65, 50, 81","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -32407,7 +32407,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 3.0?",,False
+Which respondents are 3.0?",None,False
 case_21,answer_reverse_lookup,Find all respondents with a Life satisfaction of 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -33901,7 +33901,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents with a Life satisfaction of 5.",,False
+Find all respondents with a Life satisfaction of 5.",None,False
 case_22,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -34391,7 +34391,7 @@ case_22,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""93, 78, 4, 137, 33, 71, 12""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","93, 78, 4, 137, 33, 71, 12","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -35401,7 +35401,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 6.0?",,False
+Which respondents are 6.0?",None,False
 case_23,answer_reverse_lookup,Find all respondents with a Happiness of 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -35734,7 +35734,7 @@ case_23,answer_reverse_lookup,Find all respondents with a Happiness of 5.,"<!DOC
   </li>
 </ul>
 </body>
-</html>","""142, 27""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","142, 27","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -36430,7 +36430,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents with a Happiness of 5.",,False
+Find all respondents with a Happiness of 5.",None,False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -37456,7 +37456,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 5.0?",,False
+Which respondents are 5.0?",None,False
 case_25,answer_reverse_lookup,Which respondents are 2002.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -38048,7 +38048,7 @@ case_25,answer_reverse_lookup,Which respondents are 2002.0?,"<!DOCTYPE html>
   </li>
 </ul>
 </body>
-</html>","""14, 30, 103, 148""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","14, 30, 103, 148","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -39262,7 +39262,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents are 2002.0?",,False
+Which respondents are 2002.0?",None,False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -40282,7 +40282,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?",,False
+Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?",None,False
 case_27,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Life satisfaction' of exactly 8?,"<!DOCTYPE html>
 <html>
 <head>
@@ -41446,7 +41446,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Stress' and 'Life satisfaction' of exactly 8?",,False
+Which respondents have a total score for 'Stress' and 'Life satisfaction' of exactly 8?",Respondent 98,True
 case_28,answer_reverse_lookup,Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -44004,7 +44004,7 @@ case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneline
   </li>
 </ul>
 </body>
-</html>","""142, 121""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","142, 121","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -48661,7 +48661,7 @@ case_32,answer_reverse_lookup,Which respondents have a total score for 'Enjoymen
   </li>
 </ul>
 </body>
-</html>","""146, 104, 70, 129""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","146, 104, 70, 129","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -49885,7 +49885,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?",,False
+Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?",None,False
 case_33,answer_reverse_lookup,Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?,"<!DOCTYPE html>
 <html>
 <head>
@@ -51838,7 +51838,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?",,False
+Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?",None,False
 case_34,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?,"<!DOCTYPE html>
 <html>
 <head>
@@ -52426,7 +52426,7 @@ case_34,answer_reverse_lookup,Which respondents have a total score for 'Stress' 
   </li>
 </ul>
 </body>
-</html>","""45, 114""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","45, 114","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -53632,8 +53632,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?","[REQUEST]
-133",False
+Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?",Respondent 133,False
 case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -54280,7 +54279,7 @@ case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' 
   </li>
 </ul>
 </body>
-</html>","""24, 83, 42""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","24, 83, 42","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -55604,7 +55603,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?",105,False
+Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?",Respondent 105,False
 case_36,answer_reverse_lookup,Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -56199,7 +56198,7 @@ case_36,answer_reverse_lookup,Find all respondents born in 2002 with a Enjoyment
   </li>
 </ul>
 </body>
-</html>","""103, 10, 81, 104""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","103, 10, 81, 104","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -57419,7 +57418,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.","103, 10, 81, 104",True
+Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.",None,False
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -61682,10 +61681,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Happiness' and 'Life satisfaction' of exactly 15?","[REQUEST]
-I have analyzed the data and am ready to provide the answer.
-[/REQUEST]
-105",False
+Which respondents have a total score for 'Happiness' and 'Life satisfaction' of exactly 15?",105,False
 case_39,answer_reverse_lookup,Find all respondents born in 2005 with a Happiness greater than 4 and a Loneliness less than 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -63784,7 +63780,7 @@ case_40,answer_reverse_lookup,Which respondents have a total score for 'Loneline
   </li>
 </ul>
 </body>
-</html>","""124, 121""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","124, 121","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -65012,7 +65008,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?",,False
+Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?",None,False
 case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -65554,7 +65550,7 @@ case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than
   </li>
 </ul>
 </body>
-</html>","""130, 73, 77""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","130, 73, 77","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -66668,7 +66664,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose Laughter is higher than the average Laughter for their gender.",,False
+Find all respondents whose Laughter is higher than the average Laughter for their gender.",None,False
 case_42,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -67366,7 +67362,7 @@ case_42,answer_reverse_lookup,Which respondents were born in a year where the av
   </li>
 </ul>
 </body>
-</html>","""149, 126, 39, 115, 138, 124, 89, 86, 142, 97""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","149, 126, 39, 115, 138, 124, 89, 86, 142, 97","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -68792,7 +68788,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",,False
+Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",None,False
 case_43,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -69382,7 +69378,7 @@ case_43,answer_reverse_lookup,Which respondents were born in a year where the av
   </li>
 </ul>
 </body>
-</html>","""60, 106, 12, 82, 122""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","60, 106, 12, 82, 122","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -70592,7 +70588,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",,False
+Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",None,False
 case_44,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -71238,7 +71234,7 @@ case_44,answer_reverse_lookup,Which respondents were born in a year where the av
   </li>
 </ul>
 </body>
-</html>","""39, 10, 113, 135, 4""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","39, 10, 113, 135, 4","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -72560,70 +72556,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?","[REQUEST]
-I need to calculate the overall average 'Life satisfaction' first.
-Then, for each 'Year of birth', I will calculate the average 'Life satisfaction'.
-Finally, I will compare each year's average with the overall average and list the respondents born in the years where the average 'Life satisfaction' was greater than the overall average.
-
-**1. Calculate Overall Average 'Life satisfaction':**
-- Respondent 39: 9.0
-- Respondent 127: 8.0
-- Respondent 10: 8.0
-- Respondent 33: 5.0
-- Respondent 129: 7.0
-- Respondent 85: 7.0
-- Respondent 26: 4.0
-- Respondent 113: 7.0
-- Respondent 135: 10.0
-- Respondent 117: 6.0
-- Respondent 4: 9.0
-
-Total sum of 'Life satisfaction' = 9.0 + 8.0 + 8.0 + 5.0 + 7.0 + 7.0 + 4.0 + 7.0 + 10.0 + 6.0 + 9.0 = 80.0
-Total number of respondents = 11
-Overall average 'Life satisfaction' = 80.0 / 11 = 7.27 (approximately)
-
-**2. Calculate Average 'Life satisfaction' per 'Year of birth':**
-- **Year 1993:**
-    - Respondent 135: 10.0
-    - Average for 1993 = 10.0 / 1 = 10.0
-- **Year 2001:**
-    - Respondent 4: 9.0
-    - Average for 2001 = 9.0 / 1 = 9.0
-- **Year 2002:**
-    - Respondent 10: 8.0
-    - Respondent 113: 7.0
-    - Average for 2002 = (8.0 + 7.0) / 2 = 15.0 / 2 = 7.5
-- **Year 2003:**
-    - Respondent 85: 7.0
-    - Respondent 117: 6.0
-    - Average for 2003 = (7.0 + 6.0) / 2 = 13.0 / 2 = 6.5
-- **Year 2004:**
-    - Respondent 127: 8.0
-    - Respondent 33: 5.0
-    - Respondent 129: 7.0
-    - Respondent 26: 4.0
-    - Average for 2004 = (8.0 + 5.0 + 7.0 + 4.0) / 4 = 24.0 / 4 = 6.0
-- **Year 2005:**
-    - Respondent 39: 9.0
-    - Average for 2005 = 9.0 / 1 = 9.0
-
-**3. Identify Years where Average 'Life satisfaction' > Overall Average (7.27):**
-- Year 1993: 10.0 > 7.27 (Yes)
-- Year 2001: 9.0 > 7.27 (Yes)
-- Year 2002: 7.5 > 7.27 (Yes)
-- Year 2003: 6.5 > 7.27 (No)
-- Year 2004: 6.0 > 7.27 (No)
-- Year 2005: 9.0 > 7.27 (Yes)
-
-The years are 1993, 2001, 2002, 2005.
-
-**4. List Respondents born in these identified years:**
-- From 1993: Respondent 135
-- From 2001: Respondent 4
-- From 2002: Respondent 10, Respondent 113
-- From 2005: Respondent 39
-
-4, 10, 39, 113, 135",False
+Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",None,False
 case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -73162,7 +73095,7 @@ case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Sympt
   </li>
 </ul>
 </body>
-</html>","""40, 68, 21, 85""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","40, 68, 21, 85","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -74270,7 +74203,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.",Respondent 105,False
+List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.",105,False
 case_46,answer_reverse_lookup,Find all respondents whose Learning is higher than the average Learning for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -74967,7 +74900,7 @@ case_46,answer_reverse_lookup,Find all respondents whose Learning is higher than
   </li>
 </ul>
 </body>
-</html>","""98, 82, 125, 139, 10, 74, 24""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","98, 82, 125, 139, 10, 74, 24","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -76391,7 +76324,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose Learning is higher than the average Learning for their gender.",,False
+Find all respondents whose Learning is higher than the average Learning for their gender.",None,False
 case_47,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -76878,7 +76811,7 @@ case_47,answer_reverse_lookup,Which respondents were born in a year where the av
   </li>
 </ul>
 </body>
-</html>","""114, 77, 8, 84, 15""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","114, 77, 8, 84, 15","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -77882,7 +77815,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",,False
+Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",None,False
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -78478,7 +78411,7 @@ case_48,answer_reverse_lookup,Which respondents were born in a year where the av
   </li>
 </ul>
 </body>
-</html>","""96, 111, 38, 63, 136""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","96, 111, 38, 63, 136","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -79700,7 +79633,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",,False
+Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",None,False
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -80188,7 +80121,7 @@ case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher tha
   </li>
 </ul>
 </body>
-</html>","""150, 37""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","150, 37","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -81194,7 +81127,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.",,False
+Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.",None,False
 case_50,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -81843,7 +81776,7 @@ case_50,answer_reverse_lookup,Which respondents were born in a year where the av
   </li>
 </ul>
 </body>
-</html>","""66, 41, 19, 114, 109""","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
+</html>","66, 41, 19, 114, 109","List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
 
@@ -83171,4 +83104,4 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",,False
+Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?",None,False

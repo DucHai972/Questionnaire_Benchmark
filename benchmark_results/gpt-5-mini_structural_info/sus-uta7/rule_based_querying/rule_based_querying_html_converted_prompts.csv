@@ -451,7 +451,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Inconsistency' score is between 2 and 5.
-</task>","12, 22, 86",False
+</task>","12, 22, 86",True
 case_3,rule_based_querying,List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -904,7 +904,7 @@ Rules:
 
 <task>
 List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactly 4.
-</task>",None,False
+</task>",None,True
 case_4,rule_based_querying,List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1273,7 +1273,7 @@ Rules:
 
 <task>
 List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,List all respondents from the 'Middle' group whose 'System_Complexity' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2667,7 +2667,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Inconsistency' score is between 1 and 3.
-</task>","30, 48, 17, 6",False
+</task>","30, 48, 17, 6",True
 case_9,rule_based_querying,Find all respondents whose 'System_Complexity' score is between 1 and 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5682,7 +5682,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Confidence_in_Use'?
-</task>","2, 67, 5, 21, 3, 8, 88",False
+</task>","2, 67, 5, 21, 3, 8, 88",True
 case_16,rule_based_querying,Find all respondents whose 'Need_for_Technical_Support' score is between 1 and 2.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7951,7 +7951,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Confidence_in_Use'?
-</task>","88, 20, 34, 87, 82, 13, 42, 74, 22",False
+</task>","88, 20, 34, 87, 82, 13, 42, 74, 22",True
 case_21,rule_based_querying,Which respondents scored higher than 2 on 'Integration_of_Functions'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8901,7 +8901,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Integration_of_Functions'?
-</task>","18, 32, 4, 79, 58, 90, 16, 84, 45, 11, 30",False
+</task>","18, 32, 4, 79, 58, 90, 16, 84, 45, 11, 30",True
 case_23,rule_based_querying,List all respondents from the 'Senior' group whose 'Need_for_Technical_Support' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9396,7 +9396,7 @@ Rules:
 
 <task>
 List all respondents from the 'Senior' group whose 'Need_for_Technical_Support' is exactly 1.
-</task>","76, 55",False
+</task>","76, 55",True
 case_24,rule_based_querying,List all respondents from the 'Middle' group whose 'Frequent_Usage' is exactly 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10178,7 +10178,7 @@ Rules:
 
 <task>
 List all respondents from the 'Senior' group whose 'Ease_of_Use' is exactly 3.
-</task>",None,False
+</task>",None,True
 case_26,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Need_for_Technical_Support' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10834,7 +10834,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Confidence_in_Use' and 'Ease_of_Learning' is less than 4.
-</task>",None,False
+</task>",None,True
 case_28,rule_based_querying,Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11287,7 +11287,7 @@ Rules:
 
 <task>
 Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?
-</task>",None,False
+</task>",None,True
 case_29,rule_based_querying,Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -13187,7 +13187,7 @@ Rules:
 
 <task>
 List all respondents whose 'Need_to_Learn_Before_Use' score is greater than their 'Ease_of_Learning' score.
-</task>","39, 64",False
+</task>","39, 64",True
 case_33,rule_based_querying,Which respondents from the 'Junior' group have a 'Inconsistency' of 4 or more and a 'Confidence_in_Use' of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14263,7 +14263,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Inconsistency' and 'Confidence_in_Use' is less than 6.
-</task>","44, 46, 55",False
+</task>","44, 46, 55",True
 case_35,rule_based_querying,List all respondents whose 'Need_to_Learn_Before_Use' score is greater than their 'Confidence_in_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15421,7 +15421,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Inconsistency' and 'Frequent_Usage' is less than 4.
-</task>","8, 11, 81",False
+</task>","8, 11, 81",True
 case_37,rule_based_querying,Find all respondents whose total score for 'Need_for_Technical_Support' and 'Ease_of_Learning' is less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15958,7 +15958,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Need_for_Technical_Support' and 'Ease_of_Learning' is less than 4.
-</task>",None,False
+</task>",None,True
 case_38,rule_based_querying,Which respondents from the 'Senior' group have a 'Confidence_in_Use' of 3 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17034,7 +17034,7 @@ Rules:
 Find all respondents whose total score for 'Cumbersome_to_Use' and 'Integration_of_Functions' is less than 6.
 </task>","May I proceed?
 
-34, 4, 29, 73",False
+34, 4, 29, 73",True
 case_40,rule_based_querying,Find all respondents whose total score for 'Integration_of_Functions' and 'Inconsistency' is less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18687,7 +18687,7 @@ Rules:
 
 <task>
 Which respondents have an 'Ease_of_Use' score that is higher than the average 'Ease_of_Use' score for their group?
-</task>","4, 12, 32, 36, 70",False
+</task>","4, 12, 32, 36, 70",True
 case_43,rule_based_querying,Which respondents have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents in a different group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -20298,7 +20298,7 @@ Rules:
 
 <task>
 Which respondents have an 'Ease_of_Use' score that is higher than the average 'Ease_of_Use' score for their group?
-</task>","11, 33, 44, 54, 62, 63",False
+</task>","11, 33, 44, 54, 62, 63",True
 case_46,rule_based_querying,Which respondents have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents in a different group?,"<!DOCTYPE html>
 <html>
 <head>

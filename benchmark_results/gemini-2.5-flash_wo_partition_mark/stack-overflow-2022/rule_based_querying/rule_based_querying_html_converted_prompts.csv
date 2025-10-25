@@ -1291,7 +1291,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.",None,False
+List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.",None,True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2017,7 +2017,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose 'YearsCodePro' is between 5 and 15.","72681, 539",False
+Find all respondents whose 'YearsCodePro' is between 5 and 15.","72681, 539",True
 case_7,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5486,7 +5486,7 @@ Rules:
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
 Find all respondents whose 'YearsCode' is between 5 and 10.","[REQUEST]
-72784, 72913, 29061, 468",False
+72784, 72913, 29061, 468",True
 case_13,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6206,7 +6206,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose 'YearsCodePro' is between 5 and 15.","72927, 73128, 469, 72801, 29098, 143",False
+Find all respondents whose 'YearsCodePro' is between 5 and 15.","72927, 73128, 469, 72801, 29098, 143",True
 case_14,rule_based_querying,Find all respondents whose 'CompTotal' is between 118800 and 254700.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7086,7 +7086,7 @@ Rules:
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
 Find all respondents whose 'YearsCode' is between 5 and 10.","[REQUEST]
-245, 73070, 72796",False
+245, 73070, 72796",True
 case_16,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8271,7 +8271,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose 'YearsCodePro' is between 2 and 12.","29115, 73196, 489, 491, 29111, 72965",False
+Find all respondents whose 'YearsCodePro' is between 2 and 12.","29115, 73196, 489, 491, 29111, 72965",True
 case_18,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8685,7 +8685,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a 'YearsCodePro' greater than 5?","238, 72700, 486, 539",False
+Which respondents have a 'YearsCodePro' greater than 5?","238, 72700, 486, 539",True
 case_19,rule_based_querying,List all respondents from 'Poland' whose 'YearsCode' is less than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10233,7 +10233,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a 'YearsCodePro' greater than 10?","72891, 73136, 235, 73075",False
+Which respondents have a 'YearsCodePro' greater than 10?","72891, 73136, 235, 73075",True
 case_22,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11317,7 +11317,7 @@ Rules:
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
 Find all respondents whose 'CompTotal' is between 46320 and 176580.","[REQUEST]
-157, 72719, 73073",False
+157, 72719, 73073",True
 case_24,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11782,7 +11782,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose 'YearsCode' is between 5 and 10.","72905, 72904, 73143, 73010",False
+Find all respondents whose 'YearsCode' is between 5 and 10.","72905, 72904, 73143, 73010",True
 case_25,rule_based_querying,Which respondents have a 'CompTotal' greater than 58500?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12400,7 +12400,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a 'CompTotal' greater than 58500?","72669, 215, 308, 240, 355",False
+Which respondents have a 'CompTotal' greater than 58500?","72669, 215, 308, 240, 355",True
 case_26,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14720,7 +14720,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose calculated yearly compensation is greater than 63500.","73050, 72730, 72825, 72763, 73217",False
+Find all respondents whose calculated yearly compensation is greater than 63500.","73050, 72730, 72825, 72763, 73217",True
 case_30,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16539,7 +16539,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?",None,False
+Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?",None,True
 case_33,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>

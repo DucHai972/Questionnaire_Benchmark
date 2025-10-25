@@ -378,7 +378,7 @@ Rules:
 Find all respondents from the same country as respondent '437', excluding the respondent themselves.
 </task>","This survey records respondents' professional and demographic details relevant to software development, with a schema defining each question (e.g., MainBranch, Employment, EdLevel, Country, etc.). Several fields are multiple-choice (letters mapped to full option text in the schema) while others are open-ended (free text or numeric). Responses list individual respondents by ID with values for each question. Use the schema to interpret coded responses and match values across respondents.
 
-None",True
+None",False
 case_3,multi_hop_relational_inference,List all respondents who have the same education level as respondent '29043'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2030,7 +2030,7 @@ Rules:
 Find all respondents from the same country as respondent '73129', excluding the respondent themselves.
 </task>","This dataset includes a Questions section (a schema mapping MCQ letter codes to option texts and describing open-ended fields) and a Responses section with individual respondent records. MCQ fields use letter codes in Responses that must be interpreted using the Questions schema; open-ended fields are recorded verbatim. Each respondent is identified by an ID and has fields such as MainBranch, Country, YearsCode, etc. All analysis must use only the provided schema and responses. The task was to find respondents sharing the same Country value as respondent 73129 (Japan), excluding that respondent.
 
-None",True
+None",False
 case_6,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72858', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -4619,7 +4619,7 @@ Rules:
 List all respondents who have the same education level as respondent '388'.
 </task>","Survey format: This dataset contains a questions schema (MCQ and open-ended field definitions) and a responses section with one record per respondent. MCQ fields use letter codes that map to the option text in the schema (e.g., EdLevel A = Primary/elementary school). All analysis must use the schema to interpret coded responses. The task is to find respondents sharing respondent 388's EdLevel.
 
-72895, 63, 73050, 72840, 537, 52, 72741",True
+72895, 63, 73050, 72840, 537, 52, 72741",False
 case_10,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72647', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6165,7 +6165,7 @@ Rules:
 Find all respondents from the same country as respondent '72815', excluding the respondent themselves.
 </task>","This dataset contains a questions schema (field names, descriptions, and MCQ option text) and a responses section listing each respondent by ID with their answers. MCQ fields use letter codes in responses which map to the option text defined in the schema; open-ended fields contain exact text values. Country is an open-ended field indicating each respondent's country of residence. Use the schema to interpret MCQ codes before comparing or reporting values.
 
-None",True
+None",False
 case_13,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72815', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6596,7 +6596,7 @@ Rules:
 Find all respondents from the same country as respondent '72815', excluding the respondent themselves.
 </task>","This dataset is a developer survey: the Questions section defines each field (including MCQ option text), and the Responses section lists individual respondent records matching that schema. MCQ fields use letter codes which map to the option text provided in the Questions section. All answers must be based solely on the provided schema and responses. The task asks to find respondents residing in the same Country as respondent 72815 (Switzerland), excluding 72815.
 
-None",True
+None",False
 case_14,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '106', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -7337,7 +7337,7 @@ Find all respondents from the same country as respondent '106', excluding the re
 - The Responses section lists individual respondents by ID with values for each field.
 - Using the schema, we match respondents by the Country value of respondent 106 (""United States of America"").
 
-484, 277",True
+484, 277",False
 case_15,multi_hop_relational_inference,List all respondents who have the same education level as respondent '225'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9040,7 +9040,7 @@ Which respondents have the same 'MainBranch' (professional identity) as responde
 - Responses list contains respondent IDs and their answers; MCQ answers are letter-coded in Responses and must be mapped to the option text from the Questions schema.
 - All analysis below is based solely on the provided schema and responses.
 
-None",True
+None",False
 case_18,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12270,7 +12270,7 @@ Which respondents have the same 'MainBranch' (professional identity) as responde
 - Other fields include Employment (multi-select), EdLevel, YearsCode, YearsCodePro, DevType, OrgSize, Country, CompTotal, CompFreq, language/tool usage, and VersionControlSystem.
 - Each respondent block lists the answered value for every question; letters in MCQ fields map to the option text in the schema.
 
-None",True
+None",False
 case_23,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '189', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -16199,7 +16199,7 @@ Rules:
 List all respondents who have the same 'MainBranch' as respondent '444' and whose programming languages include 'C++'.
 </task>","This dataset is a developer survey containing fields such as MainBranch, Employment, EdLevel, YearsCode, YearsCodePro, DevType, OrgSize, Country, CompTotal, CompFreq, LanguageHaveWorkedWith, ToolsTechHaveWorkedWith, and VersionControlSystem. MainBranch is a multiple-choice field where option A is ""I am a developer by profession"". Responses list each respondent ID with open-ended and coded answers; LanguageHaveWorkedWith lists languages separated by semicolons. The task is to find respondents who share respondent 444's MainBranch and whose LanguageHaveWorkedWith includes ""C++"".
 
-133, 362",True
+133, 362",False
 case_30,multi_hop_relational_inference,Which respondents are from the same country as respondent '73030' and also have more than 5 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16737,7 +16737,7 @@ Which respondents are from the same country as respondent '73030' and also have 
 - Use the schema to translate any MCQ codes to their full option text when required.
 
 Final answer:
-None",True
+None",False
 case_31,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '441' and whose programming languages include 'Go'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17903,7 +17903,7 @@ Rules:
 Which respondents are from the same country as respondent '100' and also have more than 5 years of coding experience?
 </task>","This dataset includes a Questions section (the schema) describing each survey field and allowed options, and a Responses section listing individual respondent data by ID. MCQ fields use letter codes mapped to option text; open-ended fields contain free-text values. Country is an open-ended field representing each respondent's country of residence; YearsCode is an open-ended numeric field for total years coding. All analysis below is based solely on the provided schema and responses.
 
-None",True
+None",False
 case_33,multi_hop_relational_inference,Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18485,7 +18485,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?
-</task>","73006, 72998, 355, 58, 277",True
+</task>","73006, 72998, 355, 58, 277",False
 case_34,multi_hop_relational_inference,Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -25815,7 +25815,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.
-</task>",73131,True
+</task>",73131,False
 case_45,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.,"<!DOCTYPE html>
 <html>
 <head>

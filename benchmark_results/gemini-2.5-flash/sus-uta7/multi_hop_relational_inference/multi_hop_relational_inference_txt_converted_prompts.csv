@@ -13601,7 +13601,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?
-</task>","43, 17, 20, 37, 33, 73",True
+</task>","43, 17, 20, 37, 33, 73",False
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"Survey Data
 ==================================================
 
@@ -18985,7 +18985,7 @@ Rules:
 
 <task>
 List all respondents whose total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') is lower than the average for all respondents in the 'Senior' group.
-</task>","52,",True
+</task>","52,",False
 case_47,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,"Survey Data
 ==================================================
 

@@ -9501,7 +9501,7 @@ Which respondents have the same 'MainBranch' (professional identity) as responde
 </task>","[REQUEST]
 The 'MainBranch' value for respondent '72856' is 'A', which corresponds to ""I am a developer by profession"". I will now identify all other respondents who also have 'MainBranch' as 'A'.
 [/REQUEST]
-73084, 72858, 72921, 73219, 73069, 73018",True
+73084, 72858, 72921, 73219, 73069, 73018",False
 case_19,multi_hop_relational_inference,List all respondents who have the same education level as respondent '382'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13334,7 +13334,7 @@ Rules:
 List all respondents who have the same education level as respondent '72927'.
 </task>","[REQUEST] I will first identify the 'EdLevel' of respondent '72927'. Then, I will find all other respondents who share the exact same 'EdLevel' and list their IDs.
 
-489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 73103",True
+489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 73103",False
 case_25,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -29545,4 +29545,4 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73259'.
-</task>","242, 184, 73259",False
+</task>","242, 184, 73259",True

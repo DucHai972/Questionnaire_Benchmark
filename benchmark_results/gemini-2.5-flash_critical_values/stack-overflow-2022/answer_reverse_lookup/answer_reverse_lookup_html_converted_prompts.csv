@@ -6218,7 +6218,7 @@ Rules:
 Find all respondents with more than 10 years of professional coding experience.
 </task>","The critical values for this question are the 'YearsCodePro' field, which represents years of professional coding experience. The task requires identifying respondents whose 'YearsCodePro' value is strictly greater than 10. This is an open-ended numerical field, so direct comparison of the reported years is necessary for each respondent.
 
-391, 72669",True
+391, 72669",False
 case_13,answer_reverse_lookup,Find all respondents with more than 15 years of professional coding experience.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6904,7 +6904,7 @@ Rules:
 Find all respondents with more than 15 years of professional coding experience.
 </task>","Critical values for this task are the 'YearsCodePro' field, which indicates years of professional coding experience. The question requires identifying respondents whose 'YearsCodePro' value is strictly greater than 15. This involves comparing the numerical value of professional coding experience for each respondent against the threshold of 15 years. Only respondents exceeding this threshold will be included in the final answer.
 
-72859, 73064, 73150",True
+72859, 73064, 73150",False
 case_14,answer_reverse_lookup,Find all respondents with more than 5 years of professional coding experience.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7488,7 +7488,7 @@ Rules:
 Find all respondents with more than 5 years of professional coding experience.
 </task>","Critical values for this question are found in the 'YearsCodePro' field, which indicates years of professional coding experience. The task requires identifying respondents with more than 5 years of experience, meaning values strictly greater than 5. Respondents with 5 years or less are excluded.
 
-29098, 459",True
+29098, 459",False
 case_15,answer_reverse_lookup,Which respondents are from 'United Kingdom of Great Britain and Northern Ireland'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9138,7 +9138,7 @@ Rules:
 Find all respondents with more than 5 years of professional coding experience.
 </task>","Critical values for this query are the 'YearsCodePro' field, which represents the years of professional coding experience. The task requires identifying respondents whose 'YearsCodePro' value is strictly greater than 5. This involves comparing the numerical value of 'YearsCodePro' for each respondent against the threshold of 5.
 
-29071, 72843, 72813",True
+29071, 72843, 72813",False
 case_18,answer_reverse_lookup,Which respondents are from 'United States of America'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10407,7 +10407,7 @@ Rules:
 Find all respondents with more than 3 years of professional coding experience.
 </task>","The critical value for this query is the 'YearsCodePro' field, which represents years of professional coding experience. The task requires identifying respondents whose 'YearsCodePro' value is strictly greater than 3. This means respondents with 3 years or less of professional experience will be excluded. The range of 'YearsCodePro' in the provided data varies from 3 to 21 years.
 
-72893, 403, 72731, 223, 29054, 72843, 73153, 499",True
+72893, 403, 72731, 223, 29054, 72843, 73153, 499",False
 case_20,answer_reverse_lookup,Find all respondents with more than 15 years of professional coding experience.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12210,7 +12210,7 @@ Rules:
 Find all respondents with more than 3 years of professional coding experience.
 </task>","The critical value for this query is the ""YearsCodePro"" field, which represents years of professional coding experience. The task requires identifying respondents whose professional coding experience is strictly greater than 3 years. Therefore, any respondent with 3 years or less of professional coding experience will be excluded.
 
-29109, 72856, 323, 72679, 73120, 73211, 73012, 272, 72840",True
+29109, 72856, 323, 72679, 73120, 73211, 73012, 272, 72840",False
 case_23,answer_reverse_lookup,Which respondents are from 'Brazil'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14722,7 +14722,7 @@ Rules:
 Which respondents have between 5 and 10 years of total coding experience and work with the 'Ansible' tool?
 </task>","Critical values for this query are the 'YearsCode' falling within the inclusive range of 5 to 10 years, and the 'ToolsTechHaveWorkedWith' field containing 'Ansible'. Each respondent's data is evaluated against these two conditions. The 'YearsCode' is an open-ended numerical value, while 'ToolsTechHaveWorkedWith' is a semi-colon separated list of tools.
 
-None.",True
+None.",False
 case_28,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'Mercurial' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15890,7 +15890,7 @@ Rules:
 Find all respondents from 'Slovakia' with an education level of 'Some college/university study without earning a degree' who have worked with 'C++'.
 </task>","Critical values for this query are the exact country 'Slovakia', the specific education level 'Some college/university study without earning a degree' (which corresponds to 'C' in the EdLevel MCQ), and the presence of 'C++' within the 'LanguageHaveWorkedWith' field. Each respondent's data must be checked against these three criteria simultaneously. The 'Country' field is open-ended, requiring an exact string match. The 'EdLevel' field is a multiple-choice question, requiring mapping the response code to the full text. The 'LanguageHaveWorkedWith' field is open-ended and contains a semi-colon separated list, requiring a check for the presence of 'C++'.
 
-None",True
+None",False
 case_30,answer_reverse_lookup,Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17897,7 +17897,7 @@ Rules:
 Find all respondents from 'Lithuania' with an education level of 'S., etc.)' who have worked with 'Kotlin'.
 </task>","The critical values for this query are 'Lithuania' for the country of residence, 'Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)' (corresponding to option B) for the education level, and 'Kotlin' within the list of programming languages worked with. All three conditions must be met by a respondent. The `Country` and `LanguageHaveWorkedWith` fields are open-ended, while `EdLevel` is a multiple-choice question requiring mapping the text to its corresponding letter code.
 
-None",True
+None",False
 case_33,answer_reverse_lookup,"""Find all respondents from 'Turkey' with an education level of 'Associate degree (A.A.,' who have worked with 'Dart'.""","<!DOCTYPE html>
 <html>
 <head>
@@ -19218,7 +19218,7 @@ Rules:
 Which respondents have between 5 and 10 years of total coding experience and work with the 'npm' tool?
 </task>","Critical values for this query are 'YearsCode' ranging from 5 to 10 (inclusive) and the presence of 'npm' within the 'ToolsTechHaveWorkedWith' field. The 'YearsCode' field is open-ended, representing the total years of coding experience. The 'ToolsTechHaveWorkedWith' field is also open-ended, listing various developer tools used, separated by semicolons. Each respondent's data must be checked against both these criteria simultaneously.
 
-323, 29047, 72719",True
+323, 29047, 72719",False
 case_35,answer_reverse_lookup,"""Find all respondents from 'Sweden' with an education level of 'S., etc.)' who have worked with 'HTML/CSS'.""","<!DOCTYPE html>
 <html>
 <head>
@@ -22495,7 +22495,7 @@ Rules:
 Which respondents have between 2 and 12 years of total coding experience and work with the 'Yarn' tool?
 </task>","Critical values for this query are the range of total coding experience, specifically between 2 and 12 years, and the presence of 'Yarn' within the list of developer tools used. The `YearsCode` field is an open-ended numerical value, while `ToolsTechHaveWorkedWith` is an open-ended field that can contain multiple tools separated by semicolons. Each respondent's data must be checked against both these criteria simultaneously.
 
-72805, 529",True
+72805, 529",False
 case_40,answer_reverse_lookup,Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23181,7 +23181,7 @@ Rules:
 Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?
 </task>","Critical values for this query are the range for 'YearsCode' (8 to 13, inclusive) and the specific tool 'Docker' within 'ToolsTechHaveWorkedWith'. The query requires respondents to meet both criteria simultaneously.
 
-None",True
+None",False
 case_41,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23867,7 +23867,7 @@ Rules:
 Find all respondents whose total compensation is higher than the average compensation for their country.
 </task>","The critical values for this analysis are the 'Country' of residence and the 'CompTotal' for each respondent. The 'CompTotal' values vary significantly across respondents, ranging from 4,500.0 to 200,000,000.0. The core of the task involves calculating the average compensation for each specific country represented in the dataset. This country-specific average then serves as a critical threshold against which each respondent's individual compensation is compared. Only respondents whose compensation strictly exceeds their country's average are identified.
 
-391, 171, 60, 72947",True
+391, 171, 60, 72947",False
 case_42,answer_reverse_lookup,Which respondents have more professional coding experience than the average for their education level?,"<!DOCTYPE html>
 <html>
 <head>
@@ -24604,7 +24604,7 @@ Rules:
 Which respondents have more professional coding experience than the average for their education level?
 </task>","The critical values in this analysis are the 'YearsCodePro' (years of professional coding experience) for each respondent and their 'EdLevel' (highest level of education). The analysis involves calculating the average 'YearsCodePro' for each distinct 'EdLevel' group. Specifically, the average professional coding experience for respondents with 'Primary/elementary school' education is 6.5 years, for 'Some college/university study without earning a degree' is 8 years, and for 'Associate degree' is 12 years. Respondents are then identified if their individual 'YearsCodePro' is greater than the calculated average for their respective education level.
 
-134, 72987, 73209",True
+134, 72987, 73209",False
 case_43,answer_reverse_lookup,List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25189,7 +25189,7 @@ List all respondents who have worked with a language that is also one of the top
 </task>","[REQUEST]
 I have processed the data and identified the relevant information for each respondent, including their organization size, languages they have worked with, and languages they want to work with. I have then grouped respondents by organization size and determined the top 3 most desired languages for each group, handling ties by including all languages that share the rank within the top 3. Finally, I have checked each respondent to see if any of the languages they have worked with are present in the top 3 desired languages for their respective organization size group. I am ready to provide the list of qualifying respondent IDs.
 [/REQUEST]
-308, 73057, 61, 72805, 255, 359, 222, 72584, 72848",True
+308, 73057, 61, 72805, 255, 359, 222, 72584, 72848",False
 case_44,answer_reverse_lookup,Which respondents have more professional coding experience than the average for their education level?,"<!DOCTYPE html>
 <html>
 <head>
@@ -26307,7 +26307,7 @@ Which respondents have more professional coding experience than the average for 
 </task>","Critical values and ranges:
 The analysis focuses on the 'YearsCodePro' and 'EdLevel' fields. 'YearsCodePro' values range from ""Less than 1 year"" (treated as 0 for calculation) up to 12 years. 'EdLevel' categorizes respondents into distinct educational backgrounds, which is crucial for calculating group-specific averages. The average professional coding experience varies by education level, with the lowest average being 2.0 years for those with an Associate degree and the highest being 7.0 years for those with some college/university study.
 
-72945, 206, 73038, 267",True
+72945, 206, 73038, 267",False
 case_46,answer_reverse_lookup,List all respondents who have worked with a language that is also one of the top 3 most desired languages among all respondents in their same organization size.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27526,7 +27526,7 @@ Rules:
 Find all respondents whose total compensation is higher than the average compensation for their country.
 </task>","Critical values for compensation range from 40,000.0 (Mexico) to 3,500,000.0 (Viet Nam). The average compensation is calculated per country, which means respondents from countries with only one entry (Norway, Viet Nam, Greece, Mexico, Czech Republic) cannot have compensation strictly ""higher than"" their country's average. The United States of America has the most respondents (4), allowing for a meaningful comparison against its calculated average. Switzerland has two respondents, also allowing for a comparison.
 
-73190, 165, 72878",True
+73190, 165, 72878",False
 case_48,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"<!DOCTYPE html>
 <html>
 <head>
@@ -28898,7 +28898,7 @@ Rules:
 Which respondents have more professional coding experience than the average for their education level?
 </task>","The critical values for this analysis are the 'YearsCodePro' for each respondent and the calculated average 'YearsCodePro' for each 'EdLevel'. The education levels present in the data are 'Primary/elementary school' (A), 'Secondary school' (B), 'Some college/university study without earning a degree' (C), and 'Other doctoral degree' (H). The average professional coding experience for 'Primary/elementary school' is 5.0 years, for 'Secondary school' is 2.0 years, for 'Some college/university study without earning a degree' is 3.0 years, and for 'Other doctoral degree' is 4.0 years. Respondents are identified by comparing their individual 'YearsCodePro' against these calculated averages for their specific education level.
 
-72831, 29054, 73043",True
+72831, 29054, 73043",False
 case_50,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"<!DOCTYPE html>
 <html>
 <head>

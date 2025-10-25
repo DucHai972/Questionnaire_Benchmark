@@ -9140,7 +9140,7 @@ Rules:
 Find all respondents with more than 5 years of professional coding experience.
 </task>","The dataset includes a Questions schema defining each field and its response type (MCQ, MCQ-Multi, or open-ended), and a Responses section with individual respondent records keyed by ID. MCQ fields list option letters and text; open-ended fields contain free-text or numeric answers. YearsCodePro is the ""Years of professional coding experience"" field and is open-ended (numeric). The task is to identify respondents whose YearsCodePro value is greater than 5.
 
-29071, 72843, 72813",True
+29071, 72843, 72813",False
 case_18,answer_reverse_lookup,Which respondents are from 'United States of America'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9775,7 +9775,7 @@ Rules:
 Which respondents are from 'United States of America'?
 </task>","This survey captures developer demographics and work-related data: a questions schema (MCQ and open-ended fields) and responses from 10 respondents. MCQ fields use letter codes (A, B, C, etc.) which map to the option text in the schema; open-ended fields contain verbatim text. Key fields include Country (open-ended), DevType, OrgSize, CompTotal, and VersionControlSystem. Responses list each respondent by numeric ID with their answers.
 
-73119, 406, 72668",True
+73119, 406, 72668",False
 case_19,answer_reverse_lookup,Find all respondents with more than 3 years of professional coding experience.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10414,7 +10414,7 @@ Find all respondents with more than 3 years of professional coding experience.
 - YearsCodePro is ""Years of professional coding experience"" (open-ended numeric) and is used to filter respondents.
 - The task: find respondents whose YearsCodePro > 3.
 
-72893, 403, 72731, 223, 29054, 72843, 73153, 499",True
+72893, 403, 72731, 223, 29054, 72843, 73153, 499",False
 case_20,answer_reverse_lookup,Find all respondents with more than 15 years of professional coding experience.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14729,7 +14729,7 @@ Rules:
 Which respondents have between 5 and 10 years of total coding experience and work with the 'Ansible' tool?
 </task>","This survey is a developer-focused questionnaire with a Questions schema describing each field (MCQ and open-ended) and their allowed responses. MCQ fields use letter codes (A, B, C, ...) mapped to the option text in the schema; open-ended fields contain literal text or numbers. The Responses section lists individual respondents with values for each question (e.g., YearsCode, ToolsTechHaveWorkedWith, Country). Use YearsCode (total years coding) and ToolsTechHaveWorkedWith (tools used) to filter respondents.
 
-None",True
+None",False
 case_28,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'Mercurial' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15158,7 +15158,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'Mercurial' for version control.
-</task>",73209,True
+</task>",73209,False
 case_29,answer_reverse_lookup,Find all respondents from 'Slovakia' with an education level of 'Some college/university study without earning a degree' who have worked with 'C++'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16530,7 +16530,7 @@ Rules:
 Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?
 </task>","Format/spec: This is a developer survey where each question in the schema defines the meaning and allowed responses (e.g., MainBranch, Employment, EdLevel, YearsCode, YearsCodePro, DevType, OrgSize, Country, CompTotal, CompFreq, LanguageHaveWorkedWith, LanguageWantToWorkWith, ToolsTechHaveWorkedWith, VersionControlSystem). MCQ fields map letter codes to option text as specified in the Questions section; open-ended fields contain exact text values. The Responses section lists individual respondent records by ID with values for each field. Use the schema as the single source of truth to interpret responses.
 
-73198, 72958, 29109, 72800",False
+73198, 72958, 29109, 72800",True
 case_31,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -21236,7 +21236,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.
-</task>",29103,True
+</task>",29103,False
 case_38,answer_reverse_lookup,Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23192,7 +23192,7 @@ Rules:
 Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?
 </task>","This dataset is a developer survey capturing demographics (e.g., Country, Employment, EdLevel), coding experience (YearsCode, YearsCodePro), roles (DevType), organization size (OrgSize), compensation, languages, tools, and version control usage. MCQ fields map letter codes to option text per the Questions schema; open-ended fields contain verbatim responses. ToolsTechHaveWorkedWith lists developer tools used (semicolon-separated). The question filters respondents by total years coding (YearsCode) and presence of ""Docker"" in ToolsTechHaveWorkedWith.
 
-None",True
+None",False
 case_41,answer_reverse_lookup,Find all respondents whose total compensation is higher than the average compensation for their country.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23876,7 +23876,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for their country.
-</task>","60, 171, 391, 72947",False
+</task>","60, 171, 391, 72947",True
 case_42,answer_reverse_lookup,Which respondents have more professional coding experience than the average for their education level?,"<!DOCTYPE html>
 <html>
 <head>

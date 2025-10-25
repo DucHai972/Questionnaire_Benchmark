@@ -5451,7 +5451,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 2003.
 </task>","Critical values for this query are 'Gender' as 1.0 (Male) and 'Year of birth' as 2003.0. The 'Gender' field is a multiple-choice question with two options, Male and Female, represented by 1.0 and 2.0 respectively. The 'Year of birth' is an open-ended numerical field. The data includes respondents born across several years, with the earliest being 1999 and the latest 2006.
 
-85, 16",True
+85, 16",False
 case_5,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10461,7 +10461,7 @@ Rules:
 Find all respondents with a Worry of 1.
 </task>","Critical values and ranges for the survey related to 'Worry' are defined by a Likert scale from 0 to 10, where 0 means 'At no time' and 10 means 'All the time'. The task specifically asks for respondents with a 'Worry' score of 1.0, which indicates they felt worried 'several days' or 'almost never' depending on the context of the question, but here it's 0-10 so 1.0 is a very low level of worry.
 
-110, 35, 119, 47",True
+110, 35, 119, 47",False
 case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13306,7 +13306,7 @@ Rules:
 List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.
 </task>","Critical values for 'Ethnic identity' are integers from 1 to 6, with 5.0 specifically meaning ""Black, mulatto (Afro-descendant), Afro-Colombian"". The critical value for 'Year of birth' is 2001.0. Both conditions must be met for a respondent to be included. The data shows various years of birth and ethnic identities, but no respondent has both an 'Ethnic identity' of 5.0 and a 'Year of birth' of 2001.0.
 
-None",True
+None",False
 case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18933,7 +18933,7 @@ Rules:
 Which respondents are male?
 </task>","The 'Gender' question is a multiple-choice question with options 1. Male and 2. Female. To identify male respondents, we need to find those with a 'Gender' value of 1.0. The 'Socio-economic status' is a Likert scale from 1 to 6, indicating very low to very high status. 'Year of birth' is an open-ended field, providing the specific birth year. Other fields like 'Life satisfaction', 'Happiness', 'Laughter', 'Learning', 'Enjoyment', 'Worry', 'Depression', 'Anger', 'Stress', and 'Loneliness' are Likert scales from 0 to 10. 'Emotional Regulation Frequency' uses a 0-4 Likert scale, and 'Anxiety Symptoms Frequency' and 'Depressive Symptoms Frequency' use a 0-3 Likert scale.
 
-148, 97, 102, 20, 63",True
+148, 97, 102, 20, 63",False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19976,7 +19976,7 @@ Rules:
 Which respondents are 6.0?
 </task>","The value 6.0 appears in several Likert scales and a multiple-choice question. For 'Socio-economic status', 6.0 signifies 'Very high' on a 1-6 scale. In 'Ethnic identity', 6.0 means 'None of the above' from the given options. For 'Life satisfaction', 'Happiness', 'Laughter', 'Learning', 'Enjoyment', 'Worry', 'Depression', 'Anger', 'Stress', and 'Loneliness', 6.0 is a point on a 0-10 scale, indicating a moderate to high level. The value 6.0 is outside the valid range for 'Emotional Regulation Frequency' (0-4) and 'Anxiety/Depressive Symptoms Frequency' (0-3).
 
-89, 137, 110, 95, 18",True
+89, 137, 110, 95, 18",False
 case_14,answer_reverse_lookup,Which respondents are 2004.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23454,7 +23454,7 @@ Rules:
 Which respondents are male?
 </task>","Critical values and ranges for the survey include the 'Socio-economic status' ranging from 1 (Very low) to 6 (Very high), and 'Life satisfaction', 'Happiness', 'Laughter', 'Learning', 'Enjoyment', 'Worry', 'Depression', 'Anger', 'Stress', and 'Loneliness' all on a Likert scale of 0 to 10. 'Emotional Regulation Frequency' is measured on a 0 to 4 scale, while 'Anxiety Symptoms Frequency' and 'Depressive Symptoms Frequency' are on a 0 to 3 scale. 'Year of birth' and 'Parental Education' are open-ended numerical fields. 'Gender' and 'Ethnic identity' are multiple-choice questions with specific numerical codes.
 
-138, 124, 120, 112, 69, 83, 63, 23, 72",True
+138, 124, 120, 112, 69, 83, 63, 23, 72",False
 case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25589,7 +25589,7 @@ Rules:
 List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.
 </task>","Critical values for 'Socio-economic status' range from 1.0 (Very low) to 6.0 (Very high), with the query specifically targeting 2.0. The 'Year of birth' is an open-ended field, and the critical value for this query is 2002.0. To be included, a respondent must have both a 'Socio-economic status' of 2.0 and a 'Year of birth' of 2002.0. No respondents in the provided data meet both of these specific criteria.
 
-None",True
+None",False
 case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27250,7 +27250,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 1998.
 </task>","Critical values and ranges for the survey include 'Year of birth' as an open-ended numerical value, with observed years ranging from 1998 to 2005. 'Gender' is a multiple-choice question with options 1.0 (Male) and 2.0 (Female). 'Socio-economic status' is a Likert scale from 1.0 (Very low) to 6.0 (Very high). Several emotional state questions like 'Life satisfaction' and 'Happiness' use a Likert scale from 0.0 to 10.0. Frequency questions for 'Emotional Regulation' range from 0.0 to 4.0, and 'Anxiety Symptoms' and 'Depressive Symptoms' from 0.0 to 3.0.
 
-None",True
+None",False
 case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8.,"<!DOCTYPE html>
 <html>
 <head>
@@ -29235,7 +29235,7 @@ Rules:
 Find all respondents with a Life satisfaction of 8.
 </task>","Critical values and ranges for 'Life satisfaction' are from 0 to 10, where 0 means 'Not satisfied' and 10 means 'Totally satisfied'. The question asks for respondents with a specific 'Life satisfaction' value of 8.0. This value indicates a high level of satisfaction, falling within the upper range of the Likert scale.
 
-126, 143, 24, 57, 104, 63",True
+126, 143, 24, 57, 104, 63",False
 case_19,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36809,7 +36809,7 @@ Rules:
 Find all respondents with a Happiness of 5.
 </task>","The 'Happiness' question is measured on a Likert scale from 0 to 10, where 0 indicates 'At no time' and 10 indicates 'All the time'. A value of 5 represents a moderate level of happiness. The question specifically asks about the respondent's happiness level yesterday. The range of possible responses for happiness is between 0 and 10, inclusive.
 
-142, 27",True
+142, 27",False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -39675,7 +39675,7 @@ Rules:
 Which respondents are 2002.0?
 </task>","The critical value for this query is the 'Year of birth' field, specifically looking for the year 2002.0. This is an open-ended field, meaning respondents provided a direct numerical value for their birth year. The task requires identifying all respondents whose 'Year of birth' exactly matches 2002.0. No specific ranges or other criteria are involved in this particular question.
 
-14, 30, 103, 148",True
+14, 30, 103, 148",False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -44031,7 +44031,7 @@ Rules:
 Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.
 </task>","The 'Year of birth' is an open-ended numerical field, representing the year a respondent was born. 'Worry' and 'Anger' are both measured on a Likert scale from 0 to 10, where 0 means 'At no time' and 10 means 'All the time'. The query specifically looks for respondents born in 2002, with a 'Worry' score strictly greater than 4, and an 'Anger' score strictly less than 4.
 
-None",True
+None",False
 case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -45389,7 +45389,7 @@ Rules:
 Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?
 </task>","'Loneliness' and 'Learning' are both measured on a Likert scale from 0 to 10. The critical value for the sum of these two scores is exactly 10. The range for each individual score is 0 to 10, meaning the total sum can range from 0 (0+0) to 20 (10+10). We are looking for respondents whose combined score falls precisely in the middle of this possible range.
 
-142, 121",True
+142, 121",False
 case_30,answer_reverse_lookup,Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -47071,7 +47071,7 @@ Rules:
 Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.
 </task>","Critical values and ranges for the survey include 'Year of birth' as an open-ended numerical value, 'Loneliness' measured on a Likert scale from 0 to 10, and 'Happiness' also on a Likert scale from 0 to 10. The task requires filtering respondents based on a specific birth year (2004.0), a 'Loneliness' score strictly greater than 6.0, and a 'Happiness' score strictly less than 4.0. Each respondent's data must be checked against these three conditions simultaneously.
 
-None",True
+None",False
 case_31,answer_reverse_lookup,Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -50417,7 +50417,7 @@ Rules:
 Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?
 </task>","Critical values and ranges: The 'Enjoyment' and 'Stress' fields are both measured on a Likert scale from 0 to 10. The task requires summing these two scores for each respondent. The target total score for this sum is exactly 11.
 
-146, 104, 70, 129",True
+146, 104, 70, 129",False
 case_33,answer_reverse_lookup,Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?,"<!DOCTYPE html>
 <html>
 <head>
@@ -54198,7 +54198,7 @@ Rules:
 Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?
 </task>","The 'Stress' score ranges from 0 to 10, indicating how much stress was felt yesterday, with 0 being 'At no time' and 10 being 'All the time'. The 'Learning' score also ranges from 0 to 10, indicating how much new or exciting things were learned yesterday, with 0 being 'At no time' and 10 being 'All the time'. The critical value for the combined total of 'Stress' and 'Learning' is exactly 9.
 
-45, 114",True
+45, 114",False
 case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -56186,7 +56186,7 @@ Rules:
 Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?
 </task>","Critical values for 'Stress' and 'Anger' range from 0 (At no time) to 10 (All the time). The task requires identifying respondents whose combined score for 'Stress' and 'Anger' is exactly 4. This involves summing the individual scores for these two emotional states for each respondent.
 
-24, 83, 42",True
+24, 83, 42",False
 case_36,answer_reverse_lookup,Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -65676,7 +65676,7 @@ Rules:
 Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?
 </task>","Critical values and ranges for the relevant fields are as follows: 'Loneliness' is measured on a Likert scale from 0 (At no time) to 10 (All the time). 'Enjoyment' is also measured on a Likert scale from 0 (At no time) to 10 (All the time). The total score for 'Loneliness' and 'Enjoyment' can therefore range from a minimum of 0 (0+0) to a maximum of 20 (10+10). The task requires identifying respondents whose combined score for these two measures is exactly 11.
 
-124, 121",True
+124, 121",False
 case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -67349,7 +67349,7 @@ Rules:
 Find all respondents whose Laughter is higher than the average Laughter for their gender.
 </task>","The 'Laughter' variable measures how much a respondent laughed yesterday on a Likert scale from 0 (At no time) to 10 (All the time). The 'Gender' variable categorizes respondents as 1.0 (Male) or 2.0 (Female). To answer the question, the average 'Laughter' score for each gender group must first be calculated. Then, each respondent's 'Laughter' score is compared against the average for their specific gender. Only respondents whose 'Laughter' score is strictly greater than their gender's average are included in the final list.
 
-130, 73, 77",True
+130, 73, 77",False
 case_42,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -74972,7 +74972,7 @@ Rules:
 List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.
 </task>","The 'Socio-economic status' is a Likert scale ranging from 1 (Very low) to 6 (Very high). The 'Depressive Symptoms Frequency' questions are scored on a Likert scale from 0 (Not at all) to 3 (Nearly every day). There are 9 potential sub-questions for 'Depressive Symptoms Frequency', meaning a respondent's total score for this section could range from 0 to 27 if all questions were answered. However, some respondents have missing sub-questions, so their total score is based only on the available responses. The task requires comparing individual total scores to the average within their specific socio-economic status group.
 
-40, 68, 21, 85",True
+40, 68, 21, 85",False
 case_46,answer_reverse_lookup,Find all respondents whose Learning is higher than the average Learning for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -81964,7 +81964,7 @@ Rules:
 Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.
 </task>","'Enjoyment' is measured on a Likert scale from 0 (At no time) to 10 (All the time). 'Gender' is a multiple-choice question with 1 for Male and 2 for Female. The average 'Enjoyment' for male respondents is 6.25, and for female respondents, it is also 6.25. The task is to identify respondents whose 'Enjoyment' score exceeds this average for their gender.
 
-150, 37",True
+150, 37",False
 case_50,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -83958,4 +83958,4 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","Critical values and ranges for 'Life satisfaction' are from 0 (Not satisfied) to 10 (Totally satisfied). The 'Year of birth' is an open-ended numerical value. The overall average 'Life satisfaction' across all respondents is approximately 6.64. Years of birth with an average 'Life satisfaction' greater than this overall average are 2005 (average 8.0) and 2003 (average 7.75).
 
-66, 41, 19, 114, 109",True
+66, 41, 19, 114, 109",False

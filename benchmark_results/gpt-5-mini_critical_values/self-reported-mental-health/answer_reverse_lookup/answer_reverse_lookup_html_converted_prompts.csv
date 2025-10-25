@@ -5448,7 +5448,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 2003.
 </task>","Year of birth is an open-ended numeric field (e.g., 2003.0) representing the respondent's birth year. Gender is an MCQ where 1 = Male and 2 = Female (responses shown as numeric codes like 1.0). Socio-economic status uses a Likert 1–6 scale (1 = Very low, 6 = Very high). To find male respondents born in 2003, filter records with Gender = 1.0 and Year of birth = 2003.0. Respondent IDs are given in the headings and should be reported as a comma-separated list.
 
-85, 16",True
+85, 16",False
 case_5,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10458,7 +10458,7 @@ Rules:
 Find all respondents with a Worry of 1.
 </task>","Worry is measured on a Likert 0–10 scale where 0 = At no time and 10 = All the time. Responses use numeric values (e.g., 1.0) corresponding to these scale points. The task selects respondents whose Worry value equals 1 (very low worry). Only the respondents listed in the Responses section are considered. Other affect items use the same 0–10 scaling; demographic fields follow their own formats.
 
-110, 35, 119, 47",True
+110, 35, 119, 47",False
 case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13308,7 +13308,7 @@ Rules:
 List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.
 </task>","Critical values and ranges: ""Year of birth"" is an open-ended numeric field (examples: 2001.0, 2002.0, 2003.0, 2005.0). ""Gender"" is MCQ with codes 1 = Male and 2 = Female. ""Socio-economic status"" is a Likert 1–6 (1 = Very low, 6 = Very high). ""Ethnic identity"" is MCQ with 1 = Indigenous, 2 = Gypsy, 3 = Raizal from San Andres, Providencia and Santa Catalina Archipelago, 4 = Palenquero from San Basilio, 5 = Black, mulatto (Afro-descendant), Afro-Colombian, 6 = None of the above. Emotional and wellbeing scales: life satisfaction/happiness/etc. are 0–10; Emotional Regulation items are 0–4; Anxiety and Depressive Symptoms items are 0–3.
 
-None",True
+None",False
 case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18928,7 +18928,7 @@ Rules:
 Which respondents are male?
 </task>","Critical values and ranges: Gender is a multiple-choice field where 1 = Male and 2 = Female. Socio-economic status is a Likert 1–6 scale (1 = Very low, 6 = Very high). Life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, and loneliness are on a 0–10 scale (0 = lowest, 10 = highest). Emotional Regulation Frequency items use a 0–4 scale (0 = never, 4 = very often). Anxiety and Depressive Symptoms Frequency items use a 0–3 scale (0 = Not at all, 3 = Nearly every day).
 
-148, 97, 102, 20, 63",True
+148, 97, 102, 20, 63",False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23449,7 +23449,7 @@ Rules:
 Which respondents are male?
 </task>","Gender is an MCQ: 1 = Male, 2 = Female. Socio-economic status is a Likert 1–6 scale where 1 = Very low and 6 = Very high. Life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, and loneliness are measured 0–10 (0 = Not at no time/Not satisfied, 10 = All the time/Totally satisfied). Emotional Regulation Frequency items use 0–4 (0 = never, 4 = very often); Anxiety and Depressive Symptoms Frequency items use 0–3 (0 = Not at all, 3 = Nearly every day). Year of birth and Parental Education are open-ended (numeric years).
 
-138, 124, 120, 112, 69, 83, 63, 23, 72",True
+138, 124, 120, 112, 69, 83, 63, 23, 72",False
 case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25588,7 +25588,7 @@ List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002
 - ""Gender"" is MCQ with 1 = Male and 2 = Female.
 - Wellbeing items (life satisfaction, happiness, etc.) use a 0–10 scale; Emotional Regulation uses 0–4; Anxiety and Depressive symptoms use 0–3.
 
-None",True
+None",False
 case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27249,7 +27249,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 1998.
 </task>","Year of birth is an open-ended numeric field (e.g., 1998.0, 2002.0); Gender is MCQ with 1 = Male and 2 = Female. Socio-economic status is a Likert 1–6 (1 = Very low, 6 = Very high). Life satisfaction, Happiness, Laughter, Learning, Enjoyment, Worry, Depression, Anger, Stress, and Loneliness use Likert 0–10. Emotional Regulation items use 0–4 (0 = never, 4 = very often); Anxiety and Depressive Symptoms use 0–3 (0 = Not at all, 3 = Nearly every day); Parental Education is open-ended years.
 
-None",True
+None",False
 case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8.,"<!DOCTYPE html>
 <html>
 <head>
@@ -29234,7 +29234,7 @@ Rules:
 Find all respondents with a Life satisfaction of 8.
 </task>","Critical values and ranges: Gender is a multiple-choice coded field (1 = Male, 2 = Female). Socio-economic status is a Likert 1–6 scale where 1 = Very low and 6 = Very high. Life satisfaction is a Likert 0–10 scale where 0 = Not satisfied and 10 = Totally satisfied (the query looks for value 8). Emotional Regulation Frequency items use a 0–4 scale (0 = never, 4 = very often). Anxiety and Depressive Symptoms Frequency items use a 0–3 scale (0 = Not at all, 3 = Nearly every day).
 
-126, 143, 24, 57, 104, 63",True
+126, 143, 24, 57, 104, 63",False
 case_19,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36809,7 +36809,7 @@ Rules:
 Find all respondents with a Happiness of 5.
 </task>","Happiness is measured on a Likert 0–10 scale where 0 = At no time and 10 = All the time. Socio-economic status is a Likert 1–6 scale where 1 = Very low and 6 = Very high. Emotional Regulation Frequency items use a 0–4 scale where 0 = never and 4 = very often. Anxiety and Depressive Symptoms Frequency items use a 0–3 scale where 0 = Not at all and 3 = Nearly every day. Gender and Ethnic identity are MCQs with defined category labels; Parental education and Year of birth are open-ended numeric values.
 
-142, 27",True
+142, 27",False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -39679,7 +39679,7 @@ Rules:
 Which respondents are 2002.0?
 </task>","Year of birth is an open-ended numeric field (values like 1999.0, 2002.0, etc.). Gender is MCQ with codes 1 = Male and 2 = Female. Socio-economic status is a Likert scale 1–6 (1 = Very low, 6 = Very high). Life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, and loneliness are 0–10 scales (0 = lowest, 10 = highest). Emotional regulation items are 0–4 (0 = never, 4 = very often) and anxiety/depressive symptom items are 0–3 (0 = Not at all, 3 = Nearly every day).
 
-14, 30, 103, 148",True
+14, 30, 103, 148",False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -44044,7 +44044,7 @@ Anger is a 0–10 Likert scale with the same anchors.
 The task requires year = 2002, Worry > 4 (strictly greater), and Anger < 4 (strictly less).  
 Only Respondent 77 was born in 2002 (Worry = 1.0, Anger = 2.0), so no respondent meets Worry > 4.
 
-None",True
+None",False
 case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -45402,7 +45402,7 @@ Rules:
 Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?
 </task>","Critical values and ranges: ""Learning"" and ""Loneliness"" are both measured on a Likert 0–10 scale (0 = At no time, 10 = All the time). Each individual score therefore ranges 0 to 10 and their combined total ranges 0 to 20. The task requires respondents whose sum of these two fields equals exactly 10. All response values in the dataset are numeric (e.g., 9.0, 1.0).
 
-142, 121",True
+142, 121",False
 case_30,answer_reverse_lookup,Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -47084,7 +47084,7 @@ Rules:
 Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.
 </task>","Critical values/ranges: ""Year of birth"" is an open-ended numeric field (e.g., 2004.0). ""Happiness"" is a Likert 0–10 scale where 0 = At no time and 10 = All the time; the criterion ""less than 4"" means scores 0–3. ""Loneliness"" is a Likert 0–10 scale where 0 = At no time and 10 = All the time; the criterion ""greater than 6"" means scores 7–10. Select respondents must have Year of birth = 2004 and meet both numeric thresholds above.
 
-None",True
+None",False
 case_31,answer_reverse_lookup,Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -54215,7 +54215,7 @@ Rules:
 Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?
 </task>","Critical values and ranges: ""Learning"" and ""Stress"" are both measured on a 0–10 Likert scale (0 = At no time, 10 = All the time). Responses show numeric values (e.g., 7.0) representing points on these scales. To answer the task we sum each respondent's Learning and Stress scores and check for a total of exactly 9. Only respondents whose summed numeric values equal 9 are included. Calculations are performed using the values in the Responses section.
 
-45, 114",True
+45, 114",False
 case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -65699,7 +65699,7 @@ Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly
 - The task is to find respondents whose combined score equals exactly 11 using the provided response values.  
 - All values used come directly from the Responses section of the questionnaire.
 
-124, 121",True
+124, 121",False
 case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -71326,7 +71326,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","12, 60, 82, 106, 122",False
+</task>","12, 60, 82, 106, 122",True
 case_44,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -78613,7 +78613,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","8, 15, 77, 84, 114",False
+</task>","8, 15, 77, 84, 114",True
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -80446,7 +80446,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","96, 111, 136, 38, 63",False
+</task>","96, 111, 136, 38, 63",True
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -81957,7 +81957,7 @@ Rules:
 Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.
 </task>","Please confirm you want only the respondent IDs (comma-separated).
 
-37, 150",False
+37, 150",True
 case_50,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>

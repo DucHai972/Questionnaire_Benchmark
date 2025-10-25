@@ -14651,7 +14651,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.
-</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",True
+</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",False
 case_27,multi_hop_relational_inference,Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -22344,7 +22344,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '192' and also have more than 3 years of coding experience?
-</task>","192, 206, 72664, 72897, 73075",True
+</task>","192, 206, 72664, 72897, 73075",False
 case_40,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -24441,7 +24441,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>","159, 173, 184, 491, 72937",True
+</task>","159, 173, 184, 491, 72937",False
 case_43,multi_hop_relational_inference,"""List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.""","<!DOCTYPE html>
 <html>
 <head>
@@ -25652,7 +25652,7 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.
-</task>","72843, 73093, 72916, 134",True
+</task>","72843, 73093, 72916, 134",False
 case_45,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -26887,7 +26887,7 @@ Find all respondents whose total compensation is higher than the average compens
     *   Respondent 72965: CompTotal 50000.0 (50000.0 > 23500.0) - Yes
     *   Respondent 391: CompTotal 130000.0 (130000.0 > 23500.0) - Yes
 
-73069, 468, 73067, 72734, 206, 72965, 391",True
+73069, 468, 73067, 72734, 206, 72965, 391",False
 case_47,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"<!DOCTYPE html>
 <html>
 <head>

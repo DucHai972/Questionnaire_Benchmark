@@ -14241,7 +14241,7 @@ Rules:
 How many respondents from 'Thailand' with an education level of 'S., etc.)' have worked with 'JavaScript'?
 </task>","The dataset comprises survey responses from 9 individuals, each with a unique ID and detailed information across 13 fields. These fields cover aspects such as professional identity, employment status, education level, years of coding experience, development roles, organizational size, country of residence, compensation details, and programming languages/tools used or desired. Multiple-choice questions are represented by letter codes, which map to descriptive text in the schema, while open-ended fields often contain semicolon-separated lists. A notable pattern in this sample is that all respondents identify as professional developers and utilize Git for version control.
 
-0",True
+0",False
 case_27,conceptual_aggregation,How many respondents from 'Spain' with an education level of 'Some college/university study without earning a degree' have worked with 'TypeScript'?,"<!DOCTYPE html>
 <html>
 <head>

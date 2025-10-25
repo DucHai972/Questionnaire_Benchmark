@@ -828,7 +828,7 @@ Rules:
 
 <task>
 List all respondents from the 'Intern' group who rated 'Integration_of_Functions' as 4.
-</task>""""""""""""""","78""",True
+</task>""""""""""""""","78""",False
 case_4,answer_reverse_lookup,Find all respondents who rated 'Cumbersome_to_Use' as 3.,"""""""""""""""Survey Data
 ==================================================
 
@@ -1800,7 +1800,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Senior' group?
-</task>""""""""""""""","34""",True
+</task>""""""""""""""","34""",False
 case_7,answer_reverse_lookup,List all respondents from the 'Senior' group who rated 'Frequent_Usage' as 5.,"""""""""""""""Survey Data
 ==================================================
 
@@ -3485,7 +3485,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Need_for_Technical_Support' as 1.
-</task>""""""""""""""","76""",True
+</task>""""""""""""""","76""",False
 case_12,answer_reverse_lookup,Which respondents are in the 'Middle' group?,"""""""""""""""Survey Data
 ==================================================
 
@@ -4393,7 +4393,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Intern' group?
-</task>""""""""""""""","83""",True
+</task>""""""""""""""","83""",False
 case_14,answer_reverse_lookup,Find all respondents who rated 'Confidence_in_Use' as 4.,"""""""""""""""Survey Data
 ==================================================
 
@@ -4730,7 +4730,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Confidence_in_Use' as 4.
-</task>""""""""""""""","68""",True
+</task>""""""""""""""","68""",False
 case_15,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Frequent_Usage' as 2.,"""""""""""""""Survey Data
 ==================================================
 
@@ -5560,7 +5560,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Junior' group?
-</task>""""""""""""""","61""",True
+</task>""""""""""""""","61""",False
 case_17,answer_reverse_lookup,Find all respondents who rated 'Ease_of_Learning' as 5.,"""""""""""""""Survey Data
 ==================================================
 
@@ -5858,7 +5858,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Ease_of_Learning' as 5.
-</task>""""""""""""""","54""",True
+</task>""""""""""""""","54""",False
 case_18,answer_reverse_lookup,Which respondents are in the 'Middle' group?,"""""""""""""""Survey Data
 ==================================================
 
@@ -6234,7 +6234,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Middle' group?
-</task>""""""""""""""","43""",True
+</task>""""""""""""""","43""",False
 case_19,answer_reverse_lookup,Find all respondents who rated 'Frequent_Usage' as 4.,"""""""""""""""Survey Data
 ==================================================
 
@@ -6805,7 +6805,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Frequent_Usage' as 4.
-</task>""""""""""""""","68""",True
+</task>""""""""""""""","68""",False
 case_20,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Inconsistency' as 3.,"""""""""""""""Survey Data
 ==================================================
 
@@ -8958,7 +8958,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Confidence_in_Use' as 4.
-</task>""""""""""""""","86""",True
+</task>""""""""""""""","86""",False
 case_25,answer_reverse_lookup,Which respondents are in the 'Intern' group?,"""""""""""""""Survey Data
 ==================================================
 
@@ -11136,7 +11136,7 @@ Rules:
 
 <task>
 Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.
-</task>""""""""""""""","38""",True
+</task>""""""""""""""","38""",False
 case_31,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Inconsistency' with the same score.,"""""""""""""""Survey Data
 ==================================================
 
@@ -12044,7 +12044,7 @@ Rules:
 
 <task>
 Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.
-</task>""""""""""""""","5""",True
+</task>""""""""""""""","5""",False
 case_33,answer_reverse_lookup,List all respondents who rated 'Confidence_in_Use' and 'Frequent_Usage' with the same score.,"""""""""""""""Survey Data
 ==================================================
 
@@ -13601,7 +13601,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Ease_of_Use' and 'Ease_of_Learning' with the same score.
-</task>""""""""""""""","36""",True
+</task>""""""""""""""","36""",False
 case_36,answer_reverse_lookup,Find all respondents whose combined score for 'Integration_of_Functions' and 'Need_for_Technical_Support' is less than 6.,"""""""""""""""Survey Data
 ==================================================
 
@@ -15119,7 +15119,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.
-</task>""""""""""""""","6""",True
+</task>""""""""""""""","6""",False
 case_39,answer_reverse_lookup,List all respondents who rated 'Integration_of_Functions' and 'Inconsistency' with the same score.,"""""""""""""""Survey Data
 ==================================================
 
@@ -16559,7 +16559,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.
-</task>""""""""""""""","74""",True
+</task>""""""""""""""","74""",False
 case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"""""""""""""""Survey Data
 ==================================================
 
@@ -17091,7 +17091,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.
-</task>""""""""""""""","70""",True
+</task>""""""""""""""","70""",False
 case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"""""""""""""""Survey Data
 ==================================================
 
@@ -17662,7 +17662,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>""""""""""""""","86""",True
+</task>""""""""""""""","86""",False
 case_44,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Learning' is higher than the average 'Ease_of_Learning' for the 'Middle' group.,"""""""""""""""Survey Data
 ==================================================
 
@@ -18985,7 +18985,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>""""""""""""""","82""",True
+</task>""""""""""""""","82""",False
 case_47,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"""""""""""""""Survey Data
 ==================================================
 
@@ -19556,7 +19556,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>""""""""""""""","74""",True
+</task>""""""""""""""","74""",False
 case_48,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Use' is higher than the average 'Ease_of_Use' for the 'Middle' group.,"""""""""""""""Survey Data
 ==================================================
 
@@ -20503,7 +20503,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>""""""""""""""","71""",True
+</task>""""""""""""""","71""",False
 case_50,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"""""""""""""""Survey Data
 ==================================================
 
@@ -20957,4 +20957,4 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>""""""""""""""","82""",True
+</task>""""""""""""""","82""",False

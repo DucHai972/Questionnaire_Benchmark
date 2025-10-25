@@ -422,23 +422,7 @@ Rules:
 
 <task>
 What is the billing amount of the respondent 56?
-</task>","Okay, let's tackle this question. The task is to find the billing amount for respondent 56.
-
-First, I need to locate the data for respondent 56 in the provided responses. Scrolling through the responses, I see there's a section for Respondent 56. Let me check that.
-
-Under Respondent 56, each data point is listed. The entries include Age, Gender, Blood Type, etc. I need to find the ""Billing Amount"" entry. 
-
-Looking at the list, here's the line:
-<li><strong>Billing Amount:</strong> 19747</li>
-
-The question is asking for the billing amount, which is an open-ended field according to the questions section. The output rules state that for open-ended fields, I should output the exact text value. 
-
-So, the value here is 19747. There's no need to convert or map it since it's not an MCQ. Just report the number as is. 
-
-I should double-check to make sure I'm looking at the correct respondent. Yes, it's definitely Respondent 56. No other respondents have the same ID. The answer is straightforward here.
-</think>
-
-19747",
+</task>",,False
 case_3,answer_lookup,What is the insurance provider of the respondent 57?,"<!DOCTYPE html>
 <html>
 <head>
@@ -811,18 +795,7 @@ Rules:
 
 <task>
 What is the insurance provider of the respondent 57?
-</task>","Okay, let's tackle this question. The task is to find the insurance provider of respondent 57.
-
-First, I need to look at the data provided. The questionnaire has a section for each respondent, each with various details. Let me locate Respondent 57 in the responses.
-
-Looking through the responses, there's a section for Respondent 57. Under their details, there's an entry for Insurance Provider. The value listed is 'd'. 
-
-Now, I need to refer back to the questions section to understand what 'd' corresponds to. The Insurance Provider question is an MCQ with options: A. Aetna, B. Blue Cross, C. Cigna, D. Medicare, E. UnitedHealthcare. 
-
-Since the response is 'd', that maps to Medicare. So, the insurance provider for respondent 57 is Medicare. I should make sure there's no other possible interpretation, but the mapping seems straightforward here. No other respondents have conflicting data, and the answer should be directly taken from the MCQ options.
-</think>
-
-Medicare",
+</task>",,False
 case_4,answer_lookup,What is the admission type of the respondent 72?,"<!DOCTYPE html>
 <html>
 <head>
@@ -1552,22 +1525,7 @@ Rules:
 
 <task>
 What is the admission type of the respondent 72?
-</task>","Okay, let's tackle this question. The task is to find the admission type of Respondent 72.
-
-First, I need to look at the data provided. The user has given a structured HTML document with both the questions (schema) and the responses. 
-
-Starting with the questions section, under ""Admission Type,"" the options are listed as [MCQ: A. Elective B. Emergency C. Urgent]. So, each letter corresponds to one of these options. 
-
-Now, moving to the responses. I need to find Respondent 72. Scrolling through the responses, there's a section for Respondent 72. In their details, the Admission Type is listed as ""b"". 
-
-According to the schema, option B is ""Emergency"". So, the admission type for Respondent 72 should be Emergency. 
-
-I should double-check to make sure I didn't mix up the letters. The options are A. Elective, B. Emergency, C. Urgent. Yes, B is Emergency. The response for Respondent 72 is ""b"", so the correct answer is Emergency. No other respondents are involved here, just confirming the specific entry for 72. 
-
-Also, the output rules specify to use the text from the schema, not the letter code. So the final answer is ""Emergency"".
-</think>
-
-Emergency",
+</task>",,False
 case_5,answer_lookup,What is the medical condition of the patient with medication = 'Penicillin' and room number = '482'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2195,32 +2153,7 @@ Rules:
 
 <task>
 What is the medical condition of the patient with medication = 'Penicillin' and room number = '482'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medical condition of a patient who is taking Penicillin and is in room number 482. 
-
-First, I need to look at the data provided. The responses are listed under different respondents, each with various details. Let me go through each respondent one by one to check for the medication and room number.
-
-Starting with Respondent 89: Their medication is 'b', which according to the questions section maps to B. Ibuprofen. The room number is 424. So this isn't the one.
-
-Next, Respondent 68: Medication is 'b' again (Ibuprofen), room 231. Not matching.
-
-Respondent 12: Medication 'b' (Ibuprofen), room 428. Still not the right room.
-
-Respondent 118: Medication 'b' (Ibuprofen), room 212. Nope.
-
-Respondent 138: Medication 'd' which is Paracetamol, room 133. Doesn't fit.
-
-Respondent 32: Medication 'c' (Lipitor), room 500. Not matching.
-
-Respondent 97: Medication 'd' (Paracetamol), room 307. Still not.
-
-Respondent 21: Medication 'e' which should be Penicillin. Let's check the room number here. Room is 251. So medication matches, but room doesn't. So not this one.
-
-Respondent 142: Medication is 'e' (Penicillin), and room number is 482. Oh, here we go. Both conditions are met here. Now, looking at their medical condition. The response for medical condition is 'b'. According to the questions, the medical condition options are A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. So 'b' maps to Asthma. 
-
-Wait, let me double-check. The medical condition for Respondent 142 is listed as 'b'. The options are A. Arthritis, B. Asthma, etc. So yes, 'b' is Asthma. Therefore, the answer should be Asthma.
-</think>
-
-Asthma",
+</task>",,False
 case_6,answer_lookup,What is the billing amount of the patient with blood type = 'AB+' and medical condition = 'Diabetes'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2848,42 +2781,42 @@ Rules:
 
 <task>
 What is the billing amount of the patient with blood type = 'AB+' and medical condition = 'Diabetes'?
-</task>","Okay, let's tackle this question step by step. The task is to find the billing amount of a patient with blood type 'AB+' and medical condition 'Diabetes'. 
+</task>","Okay, let's tackle this question. The task is to find the billing amount of a patient with blood type AB+ and medical condition Diabetes. 
 
-First, I need to refer to the questions section to understand the MCQ options. For blood type, the options are A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. So 'AB+' corresponds to option C. For medical condition, the options are A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. So 'Diabetes' is option D.
+First, I need to refer to the questions section to understand the MCQ options. For blood type, the options are A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. So, AB+ corresponds to option C. For medical condition, the options are A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. Diabetes is option D.
 
-Now, I'll go through each respondent in the responses to find those who have both blood type 'C' (AB+) and medical condition 'D' (Diabetes). 
+Now, I'll go through each respondent in the responses section and check if their blood type is 'c' (AB+) and medical condition is 'd' (Diabetes). 
 
-Looking at Respondent 50: Blood Type is 'a' (A+), Medical Condition is 'd' (Diabetes). Blood type doesn't match. 
+Looking at Respondent 50: Blood Type is 'a' (A+), so no. Respondent 12 has blood type 'c' (AB+), and medical condition 'd' (Diabetes). Wait, let me check. Respondent 12's medical condition is listed as 'd', which maps to Diabetes. Their billing amount is 45820. 
 
-Respondent 12: Blood Type is 'c' (AB+), Medical Condition is 'd' (Diabetes). That's a match. Their billing amount is 45820. 
+Wait, are there others? Let me check all respondents. Respondent 26: Blood Type is 'c' (AB+), medical condition is 'd' (Diabetes). Their billing amount is 23737. 
 
-Respondent 26: Blood Type is 'c' (AB+), Medical Condition is 'd' (Diabetes). Another match. Their billing amount is 23737. 
+So there are two patients matching the criteria. But the question asks for ""the patient"", implying a single answer. Wait, maybe I made a mistake. Let me double-check.
 
-Wait, are there two patients that meet the criteria? Let me check again. 
+Respondent 12: Blood Type is 'c' (AB+), Medical Condition 'd' (Diabetes). Billing amount 45820. 
 
-Respondent 12: Blood Type 'c' (AB+), Medical Condition 'd' (Diabetes) – correct. Billing amount 45820. 
+Respondent 26: Blood Type 'c' (AB+), Medical Condition 'd' (Diabetes). Billing amount 23737. 
 
-Respondent 26: Blood Type 'c' (AB+), Medical Condition 'd' (Diabetes) – correct. Billing amount 23737. 
+So there are two patients. But the question might be expecting one. Wait, maybe I misread. Let me check again. The task is to find the billing amount of the patient (singular) with those attributes. But according to the data, there are two such patients. However, the answer should be both? But the output rules say if it's a list, provide a comma-separated list. 
 
-So there are two patients. But the question asks for ""the patient"", which might imply a single answer. Wait, maybe I made a mistake. Let me check again. 
+Wait, the output rules state: ""If the question asks for a list of names or IDs, provide a simple comma-separated list."" But here, the question is asking for the billing amount. The question is phrased as ""the patient"", which might imply a single answer, but the data has two. So perhaps the correct answer is both billing amounts. 
 
-Wait, the question is phrased as ""the patient"", which could be singular. But according to the data, there are two respondents matching. However, perhaps I need to check if there's a typo or if I misread. 
+But let me check again. Let's go through each respondent:
 
-Looking back: Respondent 12's medical condition is 'd' (Diabetes), blood type 'c' (AB+). Billing amount 45820. 
+Respondent 12: Blood Type 'c' (AB+), Medical Condition 'd' (Diabetes). Billing 45820.
 
-Respondent 26: medical condition 'd' (Diabetes), blood type 'c' (AB+). Billing amount 23737. 
+Respondent 26: Blood Type 'c' (AB+), Medical Condition 'd' (Diabetes). Billing 23737.
 
-So both are correct. But the question might expect both values. However, the output rules say if the question asks for a list, provide a comma-separated list. The question is phrased as ""the patient"", but if there are multiple, perhaps the answer should list both. 
+So both of these meet the criteria. Therefore, the answer should be both amounts separated by commas. But the example given in the problem had a single answer. However, the example's data might have only one matching entry. In this case, the user's task might have two entries. So according to the output rules, if the question asks for a count, provide the number. But here, it's asking for the billing amount. Since there are two patients, the answer should list both billing amounts. 
 
-But the example given in the initial prompt had a single answer. Let me check the example again. The example question was about admission type 'Emergency' (option B) and discharge date '2021-03-05'. The answer was 57. Looking at the data, Respondent 75 has discharge date 2021-01-26, which doesn't match. Wait, in the example data, the correct answer was 57, but looking at the provided data, I don't see a respondent with discharge date 2021-03-05. Wait, maybe the example was simplified. But in any case, the example answer was a single value. 
+But the output rules also say, ""If the question asks for a list of names or IDs, provide a simple comma-separated list."" The question here is about billing amounts, not names or IDs, but perhaps the same rule applies. So the answer would be ""45820, 23737"". 
 
-But in the current task, there are two respondents that meet the criteria. So the answer should be both billing amounts. However, the output rules state that if the question asks for a count, provide the number, or if a list, provide a comma-separated list. The question is asking for the billing amount, which could be multiple. So the correct answer would be ""45820, 23737"". 
+But I need to confirm. Let me check the output rules again. The output rules state: ""If the question asks for a count, provide only the number (e.g., '42'). If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., '17, 21, 23')."" Since the question is asking for the billing amount, which is a value, but there are two patients, the answer should list both amounts. 
 
-But let me double-check. Are there any other respondents with blood type 'c' and medical condition 'd'? Respondent 12 and 26. Yes. So the answer is both billing amounts.
+Therefore, the correct answer is 45820 and 23737, separated by commas.
 </think>
 
-23737, 45820",
+45820, 23737",True
 case_7,answer_lookup,What is the medical condition of the patient with room number = '406' and date of admission = '2022-07-08'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3460,24 +3393,7 @@ Rules:
 
 <task>
 What is the medical condition of the patient with room number = '406' and date of admission = '2022-07-08'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medical condition of a patient who has room number 406 and was admitted on 2022-07-08. 
-
-First, I need to look through the responses provided for each respondent and check their room number and date of admission. The medical condition is an MCQ, so once I find the correct respondent, I'll map their answer to the corresponding option in the questions section.
-
-Looking at the respondents one by one:
-
-- **Respondent 117**: Room 249, Admission 2021-01-17. Doesn't match.
-- **Respondent 94**: Room 327, Admission 2020-08-26. No.
-- **Respondent 42**: Room 152, Admission 2019-08-16. Not it.
-- **Respondent 95**: Room 138, Admission 2019-08-20. Nope.
-- **Respondent 91**: Room 406, Admission 2022-07-08. This matches both criteria!
-  
-Now, checking Respondent 91's medical condition. The response is 'b'. The medical condition options are: A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. So 'b' corresponds to Asthma. 
-
-Therefore, the medical condition is Asthma.
-</think>
-
-Asthma",
+</task>",,False
 case_8,answer_lookup,What is the medication of the patient with medical condition = 'Diabetes' and age = '21'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -4003,63 +3919,7 @@ Rules:
 
 <task>
 What is the medication of the patient with medical condition = 'Diabetes' and age = '21'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medication of a patient who has a medical condition of Diabetes and is 21 years old. 
-
-First, I need to look at the data provided. The dataset includes several respondents, each with various attributes. Let me start by identifying the relevant fields mentioned in the question: Medical Condition, Age, and Medication.
-
-The Medical Condition is an MCQ field. According to the questions section, the options are:
-A. Arthritis
-B. Asthma
-C. Cancer
-D. Diabetes
-E. Hypertension
-F. Obesity
-
-So, the patient we're looking for should have Medical Condition code 'D'. 
-
-Next, the Age is an open-ended field, so we need to find a respondent with Age exactly '21'.
-
-Now, I'll go through each respondent in the data to check these two criteria and then note their Medication.
-
-Looking at Respondent 42:
-- Age: 76 (not 21)
-- Medical Condition: c (Cancer)
-- So, skip.
-
-Respondent 119:
-- Age: 23 (not 21)
-- Medical Condition: f (Obesity)
-- Skip.
-
-Respondent 98:
-- Age: 34
-- Medical Condition: b (Asthma)
-- Not matching.
-
-Respondent 70:
-- Age: 49
-- Medical Condition: d (Diabetes)
-- Age doesn't match. Skip.
-
-Respondent 143:
-- Age: 80
-- Medical Condition: d (Diabetes)
-- Age not 21. Skip.
-
-Respondent 57:
-- Age: 21 (matches)
-- Medical Condition: d (Diabetes) (code 'd' corresponds to Diabetes)
-- Medication: d (from the Medication options: A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin)
-- So, Medication code 'd' is Paracetamol.
-
-Other respondents:
-Respondent 84: Age 40, Medical Condition f (Obesity)
-Respondent 15: Age 69, Medical Condition a (Arthritis)
-
-Only Respondent 57 meets both criteria. Therefore, the medication is Paracetamol.
-</think>
-
-Paracetamol",
+</task>",,False
 case_9,answer_lookup,What is the medication of the patient with age = '45' and billing amount = '6176'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -4585,18 +4445,7 @@ Rules:
 
 <task>
 What is the medication of the patient with age = '45' and billing amount = '6176'?
-</task>","Okay, let's tackle this question. The task is to find the medication of the patient who is 45 years old and has a billing amount of 6176. 
-
-First, I need to look through the responses to find the respondent that matches both criteria. Let's start by checking each respondent's age and billing amount.
-
-Looking at Respondent 9 first: Their age is 45, and the billing amount is 6176. That matches both conditions. Now, I need to check the medication they were prescribed. The medication field for Respondent 9 is listed as 'c'. 
-
-Next, I refer back to the questions section to decode the medication options. The medication options are [MCQ: A. Aspirin B. Ibuprofen C. Lipitor D. Paracetamol E. Penicillin]. The code 'c' corresponds to Lipitor. 
-
-I should verify that there are no other respondents with age 45 and billing amount 6176. Scanning through the other respondents, none of them have both age 45 and billing amount 6176. So, the answer should be Lipitor.
-</think>
-
-Lipitor",
+</task>",,False
 case_10,answer_lookup,What is the billing amount of the patient with medical condition = 'Hypertension' and discharge date = '2022-01-16'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5275,20 +5124,7 @@ Rules:
 
 <task>
 What is the billing amount of the patient with medical condition = 'Hypertension' and discharge date = '2022-01-16'?
-</task>","Okay, let's tackle this question step by step. The task is to find the billing amount for a patient with a medical condition of 'Hypertension' and a discharge date of '2022-01-16'. 
-
-First, I need to refer to the questions section to understand the structure. The medical condition is an MCQ with options A to F. 'Hypertension' is option E. The discharge date is an open-ended field, so I just need to match the exact date.
-
-Now, looking at the responses for each respondent, I need to check two things: their medical condition code and their discharge date. Let's go through each respondent one by one.
-
-Starting with Respondent 118. Their medical condition is listed as 'e', which according to the schema maps to 'Hypertension'. The discharge date is '2022-01-16', which matches exactly. Their billing amount is 8451. 
-
-I should check the other respondents to ensure there's no one else with the same criteria. For example, Respondent 37 has medical condition 'd' (Diabetes) and discharge date '2022-07-18'—doesn't match. Respondent 68's medical condition is 'c' (Cancer), discharge date '2022-09-18'. Respondent 36's medical condition is 'a' (Arthritis), discharge date '2022-07-31'. The others have different medical conditions or discharge dates. 
-
-So, only Respondent 118 meets both conditions. The billing amount is 8451. I need to present this as the answer, following the output rules which state to provide the exact value for open-ended fields. No need to convert codes here since billing amount is open-ended. The answer is 8451.
-</think>
-
-8451",
+</task>",,False
 case_11,answer_lookup,What is the blood type of the respondent 40?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5814,16 +5650,7 @@ Rules:
 
 <task>
 What is the blood type of the respondent 40?
-</task>","Okay, let's tackle this question. The task is to find the blood type of Respondent 40.
-
-First, I need to look at the data provided. The user has given a structured HTML document with questions and responses. The questions section defines each field, including Blood Type as an MCQ with options A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-.
-
-Now, looking at the responses for Respondent 40, under Blood Type, the entry is 'c'. According to the MCQ options, option C corresponds to AB+. So the answer should be AB+.
-
-Wait, let me double-check. The Blood Type options are listed as C. AB+ and D. AB-. Respondent 40's Blood Type is 'c', which is option C. So yes, AB+ is correct. No other respondents are involved here, just need to map the code to the correct option from the schema.
-</think>
-
-AB+",
+</task>",,False
 case_12,answer_lookup,What is the doctor of the patient with discharge date = '2021-03-11' and medication = 'Ibuprofen'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -6502,31 +6329,7 @@ Rules:
 
 <task>
 What is the doctor of the patient with discharge date = '2021-03-11' and medication = 'Ibuprofen'?
-</task>","Okay, let's tackle this question step by step. The task is to find the doctor of the patient who has a discharge date of '2021-03-11' and is taking 'Ibuprofen' as their medication. 
-
-First, I need to understand the structure of the data provided. The dataset includes a list of respondents, each with various attributes. The key fields here are 'Discharge Date', 'Medication', and 'Doctor'. 
-
-Starting with the 'Discharge Date', I need to look through each respondent's data to find any entries where the discharge date is exactly '2021-03-11'. Let me go through each respondent one by one.
-
-Looking at Respondent 17: Discharge date is 2021-08-12. Not a match.
-Respondent 99: Discharge date is 2019-07-05. Nope.
-Respondent 98: Discharge date is 2021-03-11. That's a match. Now check the medication. The medication for Respondent 98 is listed as 'b'. According to the questions, the Medication options are [A. Aspirin B. Ibuprofen C. Lipitor D. Paracetamol E. Penicillin]. So 'b' corresponds to Ibuprofen. Perfect, that's the combination we need. The doctor here is DOC_98. 
-
-Wait, but I should check the other respondents to ensure there's no other entry that matches both criteria. Let's continue checking the rest to be thorough.
-
-Respondent 120: Discharge date 2021-07-01. Not matching.
-Respondent 136: 2023-07-05. No.
-Respondent 65: 2021-12-09. No.
-Respondent 142: 2020-02-09. No.
-Respondent 3: 2019-10-19. No.
-Respondent 30: 2023-06-15. No.
-Respondent 138: 2023-09-05. No.
-Respondent 69: 2022-01-12. No.
-
-Only Respondent 98 meets both the discharge date and medication criteria. Therefore, the doctor's name is DOC_98. The answer should be the exact value from the 'Doctor' field, which is an open-ended question, so we just output the text as is.
-</think>
-
-DOC_98",
+</task>",,False
 case_13,answer_lookup,What is the medication of the patient with medical condition = 'Cancer' and age = '67'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -7154,22 +6957,7 @@ Rules:
 
 <task>
 What is the medication of the patient with medical condition = 'Cancer' and age = '67'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medication of a patient who has a medical condition of 'Cancer' and is 67 years old. 
-
-First, I need to refer to the questions section to understand the structure. The medical condition is an MCQ with options A to F. 'Cancer' is option C. The medication is also an MCQ with options A to E. So, in the responses, the medication will be represented by a letter, which I need to map to the corresponding drug.
-
-Now, looking at the responses, I need to check each respondent who is 67 years old. Let's go through each respondent:
-
-- Respondent 29: Age 27, not 67. Skip.
-- Respondent 76: Age 70. Nope.
-- Respondent 112: Age 67. Let's check their medical condition. The response for medical condition is 'c'. According to the schema, 'c' is Cancer. So this is a match. Now, their medication is 'e'. The medication options are A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. So 'e' maps to Penicillin. 
-
-Other respondents: Respondent 41 is 44, 117 is 58, 1 is 53, 68 is 26, 129 is 35, 46 is 22, 130 is 30. None of these are 67 except Respondent 112. 
-
-So the answer should be Penicillin.
-</think>
-
-Penicillin",
+</task>",,False
 case_14,answer_lookup,What is the admission type of the patient with blood type = 'AB+' and age = '37'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -7593,25 +7381,7 @@ Rules:
 
 <task>
 What is the admission type of the patient with blood type = 'AB+' and age = '37'?
-</task>","Okay, let's tackle this question. The task is to find the admission type of a patient with blood type 'AB+' and age 37. 
-
-First, I need to look at the data provided. Let's start by understanding the schema. The blood type is an MCQ with options A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. So, if a response has 'c' for blood type, that maps to AB+.
-
-Next, the age is an open-ended field, so we look for the exact value 37. 
-
-Now, checking each respondent:
-
-- Respondent 77: Blood type is 'b' (A-), age 59. Doesn't match.
-- Respondent 130: Blood type 'g' (O+), age 30. No.
-- Respondent 51: Blood type 'e' (B+), age 49. Not matching.
-- Respondent 40: Age is 37. Blood type is 'c', which according to the schema is AB+. That's a match. Now, check the admission type. The admission type options are A. Elective, B. Emergency, C. Urgent. Respondent 40's admission type is 'a', which maps to Elective. So the answer should be Elective.
-- Respondent 96: Blood type 'a' (A+), age 18. No.
-- Respondent 42: Blood type 'g' (O+), age 76. Doesn't fit.
-
-So the only matching patient is Respondent 40, and their admission type is Elective.
-</think>
-
-Elective",
+</task>",,False
 case_15,answer_lookup,What is the billing amount of the respondent 126?,"<!DOCTYPE html>
 <html>
 <head>
@@ -7984,18 +7754,7 @@ Rules:
 
 <task>
 What is the billing amount of the respondent 126?
-</task>","Okay, let's tackle this question. The task is to find the billing amount of Respondent 126.
-
-First, I need to locate Respondent 126 in the provided data. Looking through the responses, there's a section for each respondent numbered 83, 126, 5, 29, and 93. So Respondent 126 is the second one listed.
-
-Now, under Respondent 126's details, each data point is listed. The question asks for the billing amount. Scanning through their list, I see the entry: <strong>Billing Amount:</strong> 33682. 
-
-Since the billing amount is an open-ended question (as per the questions section), the answer should be the exact value provided. There's no need to convert any codes here. The value is 33682. 
-
-I should double-check to make sure I didn't mix up respondents. Yes, Respondent 126's billing amount is clearly 33682. No other steps are needed because it's a direct data point.
-</think>
-
-33682",
+</task>",,False
 case_16,answer_lookup,What is the hospital of the respondent 62?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8572,29 +8331,7 @@ Rules:
 
 <task>
 What is the hospital of the respondent 62?
-</task>","Okay, let's tackle this question. The task is to find the hospital of respondent 62.
-
-First, I need to look at the data provided. The user mentioned that the data includes a 'questions' section and a 'responses' section. The 'responses' section has multiple respondents, each with their details. 
-
-Looking at the 'Responses' part, I need to find Respondent 62. Scrolling through the list, there's a section labeled ""Respondent 62"". Under that, there's a list of items. Each item corresponds to a question from the 'questions' section. 
-
-The question asks for the hospital, so I need to find the entry under ""Hospital"" for Respondent 62. Scanning the list for Respondent 62's details:
-
-- Age: 27
-- Gender: b
-- Blood Type: g
-- Medical Condition: c
-- Date of Admission: 2024-02-22
-- Doctor: DOC_62
-- Hospital: HOSP_62
-- ... (other fields)
-
-Here, the ""Hospital"" entry is ""HOSP_62"". Since ""Hospital"" is an open-ended question (as per the schema), the answer should be the exact value provided, which is HOSP_62. There's no need to convert any codes here because it's an open-ended response. 
-
-I should double-check to make sure I didn't mix up respondents. Yes, Respondent 62's hospital is clearly listed as HOSP_62. No other processing is needed here. The answer is straightforward.
-</think>
-
-HOSP_62",
+</task>",,False
 case_17,answer_lookup,What is the admission type of the patient with billing amount = '32562' and date of admission = '2024-03-17'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9069,34 +8806,7 @@ Rules:
 
 <task>
 What is the admission type of the patient with billing amount = '32562' and date of admission = '2024-03-17'?
-</task>","Okay, let's tackle this question step by step. The task is to find the admission type of the patient who has a billing amount of 32562 and a date of admission on 2024-03-17. 
-
-First, I need to look through the responses provided for each respondent. Let's start by checking each respondent's data one by one.
-
-Starting with Respondent 122: Their billing amount is 48996, which doesn't match 32562. Also, their date of admission is 2021-12-26. So, not the one we're looking for.
-
-Next, Respondent 141: Billing amount is 46378, which is higher than 32562. Date of admission is 2020-10-26. Doesn't match either.
-
-Respondent 43 has a billing amount of 10710. That's way lower, so skip.
-
-Respondent 68's billing amount is 19183. Still not matching. Date of admission is 2022-08-22. Nope.
-
-Respondent 136: Billing amount is 4398. Not the right number. Date is 2023-06-25. Moving on.
-
-Respondent 109: Billing amount is 35522. Closer, but not 32562. Date is 2022-05-13. Not matching.
-
-Now, Respondent 55: Billing amount is 32562. That's the exact number we need. Date of admission is 2024-03-17, which matches the question's criteria. 
-
-Looking at their admission type, the response is 'b'. According to the questions schema, the Admission Type MCQ options are A. Elective, B. Emergency, C. Urgent. So 'b' corresponds to Emergency. 
-
-Wait, but the answer needs to be the text, not the letter. So the admission type here is Emergency. 
-
-Let me double-check to make sure there are no other respondents with the same billing amount and date. Scanning through the list again, no one else has 32562 and 2024-03-17. So Respondent 55 is the correct one. 
-
-Therefore, the admission type is Emergency.
-</think>
-
-Emergency",
+</task>",,False
 case_18,answer_lookup,What is the medical condition of the respondent 80?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9622,16 +9332,7 @@ Rules:
 
 <task>
 What is the medical condition of the respondent 80?
-</task>","Okay, let's tackle this question. The task is to find the medical condition of Respondent 80.
-
-First, I need to look at the data provided. The questionnaire has a section for each respondent, each with various details. For Respondent 80, under the ""Medical Condition"" entry, the data shows ""c"". 
-
-Now, I need to refer back to the questions section to understand what ""c"" corresponds to. The Medical Condition question is a multiple-choice question (MCQ) with options: A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. 
-
-Since the response is ""c"", that maps to option C, which is Cancer. The output rules specify to use the text from the schema, not the letter code, so the answer should be ""Cancer"".
-</think>
-
-Cancer",
+</task>",,False
 case_19,answer_lookup,What is the hospital of the respondent 87?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10157,14 +9858,7 @@ Rules:
 
 <task>
 What is the hospital of the respondent 87?
-</task>","Okay, let's tackle this question. The task is to find the hospital of respondent 87.
-
-First, I need to locate the data for respondent 87. Looking through the responses section, I see there's a ""Respondent 87"" heading. Under that, there's a list of details. Each list item has a strong tag indicating the field name. 
-
-I need to find the one with ""Hospital:"". Scanning through the items, I see ""<li><strong>Hospital:</strong> HOSP_87</li>"". The value here is HOSP_87. Since ""Hospital"" is an open-ended question according to the schema, the answer should be the exact text provided. No need to convert any codes here. So the hospital name is HOSP_87.
-</think>
-
-HOSP_87",
+</task>",,False
 case_20,answer_lookup,What is the doctor of the patient with hospital = 'HOSP_85' and date of admission = '2022-10-29'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10537,24 +10231,7 @@ Rules:
 
 <task>
 What is the doctor of the patient with hospital = 'HOSP_85' and date of admission = '2022-10-29'?
-</task>","Okay, let's tackle this question step by step. The task is to find the doctor of the patient who was admitted to HOSP_85 on 2022-10-29. 
-
-First, I need to look through the responses section to find the respondent that matches both the hospital and the date of admission. Let's go through each respondent one by one.
-
-Starting with Respondent 59: Their hospital is HOSP_59 and admission date is 2020-05-30. Doesn't match.
-
-Next, Respondent 18: Hospital is HOSP_18, admission date 2019-08-18. Not a match either.
-
-Respondent 9: Hospital HOSP_09, admission 2020-09-24. Still not the right one.
-
-Now, Respondent 85: Hospital is HOSP_85, and the date of admission is 2022-10-29. That's exactly the criteria we're looking for. The doctor listed here is DOC_85. 
-
-Just to be thorough, check Respondent 19: Their hospital is HOSP_19 and admission date 2023-01-07. Nope. 
-
-So the answer should be DOC_85. The question asks for the doctor's name, which is an open-ended field, so we just output the exact value provided.
-</think>
-
-DOC_85",
+</task>",,False
 case_21,answer_lookup,What is the insurance provider of the respondent 55?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11080,18 +10757,7 @@ Rules:
 
 <task>
 What is the insurance provider of the respondent 55?
-</task>","Okay, let's tackle this question. The task is to find the insurance provider for Respondent 55.
-
-First, I need to look at the data provided. The user mentioned that the data includes a 'questions' section and a 'responses' section. The insurance provider is an MCQ field, so I need to check the options in the questions to map the response code to the actual provider.
-
-Looking at the Questions section under Insurance Provider, the options are: A. Aetna B. Blue Cross C. Cigna D. Medicare E. UnitedHealthcare. So each letter corresponds to one of these providers.
-
-Now, I need to find Respondent 55 in the Responses. Scrolling through the respondents, I see ""Respondent 55"" listed. In their details, the Insurance Provider is listed as ""d"". 
-
-According to the MCQ options, D is Medicare. So the insurance provider for Respondent 55 should be Medicare. I need to make sure there's no other respondent with the same ID and that the code hasn't been misread. Also, checking that the answer should be the text, not the letter. Yep, looks correct.
-</think>
-
-Medicare",
+</task>",,False
 case_22,answer_lookup,What is the blood type of the respondent 111?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11617,16 +11283,7 @@ Rules:
 
 <task>
 What is the blood type of the respondent 111?
-</task>","Okay, let's tackle this question. The task is to find the blood type of Respondent 111.
-
-First, I need to look at the data provided. The user has given a structured HTML document with questions and responses. The questions section defines each field, including Blood Type as an MCQ with options A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-.
-
-Now, I need to check the responses for Respondent 111. Scrolling down to their section, under Blood Type, it says 'd'. According to the MCQ options, option D corresponds to AB-. So the answer should be AB-.
-
-Wait, let me double-check. The options are A to H, each with specific blood types. Respondent 111's Blood Type is 'd', which is option D. The question's MCQ for Blood Type lists D as AB-. So yes, the correct answer is AB-.
-</think>
-
-AB-",
+</task>",,False
 case_23,answer_lookup,What is the blood type of the patient with test results = 'Normal' and room number = '476'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12356,42 +12013,7 @@ Rules:
 
 <task>
 What is the blood type of the patient with test results = 'Normal' and room number = '476'?
-</task>","Okay, let's tackle this question step by step. The task is to find the blood type of a patient who has test results marked as 'Normal' and is in room number 476. 
-
-First, I need to refer to the questions section to understand the structure. The 'Test Results' field is an MCQ with options A. Abnormal, B. Inconclusive, C. Normal. So, if a response has 'c' for test results, that maps to 'Normal'. 
-
-Next, the 'Room Number' is an open-ended field, so we're looking for the exact value '476'. 
-
-Now, I'll go through each respondent in the data to check these two conditions. Let's start with Respondent 14. Their test result is 'b', which is Inconclusive, and room 255. Not a match.
-
-Respondent 26: Test result 'a' (Abnormal), room 241. Nope.
-
-Respondent 16: Test result 'c' (Normal), room 162. The test result matches, but the room number is wrong.
-
-Respondent 104: Test result 'b' (Inconclusive), room 300. Not matching.
-
-Respondent 87: Let's check. Test result is 'c' (Normal), and room number is 476. Oh, that's a match! Now, their blood type is listed as 'a'. Looking back at the Blood Type options: A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. So 'a' corresponds to A+. 
-
-Wait, but I need to confirm if there are any other respondents that might fit. Let me check the rest just to be thorough.
-
-Respondent 28: Test result 'b' (Inconclusive), room 492. No.
-
-Respondent 64: Test result 'a' (Abnormal), room 135. Nope.
-
-Respondent 50: Test result 'b' (Inconclusive), room 440. Not matching.
-
-Respondent 49: Test result 'c' (Normal), room 130. Room number doesn't match.
-
-Respondent 138: Test result 'a' (Abnormal), room 133. No.
-
-Respondent 115: Test result 'c' (Normal), room 277. Room number is different.
-
-Respondent 36: Test result 'c' (Normal), room 205. Not 476.
-
-So the only respondent that meets both conditions is Respondent 87. Their blood type is 'a', which translates to A+ according to the schema. Therefore, the answer should be A+.
-</think>
-
-A+",
+</task>",,False
 case_24,answer_lookup,What is the billing amount of the lowest billing patient?,"<!DOCTYPE html>
 <html>
 <head>
@@ -13070,28 +12692,7 @@ Rules:
 
 <task>
 What is the billing amount of the lowest billing patient?
-</task>","Okay, let's tackle this question: ""What is the billing amount of the lowest billing patient?"" 
-
-First, I need to understand the data structure. The dataset has a list of respondents, each with various attributes. The relevant fields here are ""Billing Amount,"" which is an open-ended question, so the responses should be numerical values.
-
-Looking at the responses for each respondent, I need to go through each one and note their billing amounts. Then, find the smallest value among them. Let's list them out:
-
-- Respondent 47: 25504
-- Respondent 72: 30437
-- Respondent 119: 6768
-- Respondent 64: 45354
-- Respondent 20: -503
-- Respondent 114: 20258
-- Respondent 141: 46378
-- Respondent 26: 23737
-- Respondent 13: 23685
-- Respondent 139: 18843
-- Respondent 4: 37406
-
-Now, looking at these numbers, the smallest one is -503 from Respondent 20. Since billing amounts can be negative (possibly indicating a credit or overpayment), that's the lowest. So the answer should be -503.
-</think>
-
--503",
+</task>",,False
 case_25,answer_lookup,What is the medication of the respondent 125?,"<!DOCTYPE html>
 <html>
 <head>
@@ -13515,14 +13116,7 @@ Rules:
 
 <task>
 What is the medication of the respondent 125?
-</task>","Okay, let's tackle this question. The task is to find the medication of respondent 125.
-
-First, I need to look at the data provided. The questionnaire has a list of questions, including the medication question. The medication is an MCQ with options: A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin.
-
-Now, I need to check the responses for respondent 125. Scrolling down to their section, under Medication, it says 'e'. According to the schema, option E is Penicillin. So the answer should be Penicillin. Let me double-check to make sure I didn't mix up any letters. Yes, E is Penicillin. No other respondent 125 details are conflicting here. The answer is straightforward.
-</think>
-
-Penicillin",
+</task>",,False
 case_26,answer_lookup,What is the gender of the patient with the lowest billing amount among those with discharge date = '2019-12-13'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14201,22 +13795,7 @@ Rules:
 
 <task>
 What is the gender of the patient with the lowest billing amount among those with discharge date = '2019-12-13'?
-</task>","Okay, let's tackle this question step by step. The task is to find the gender of the patient with the lowest billing amount among those who were discharged on '2019-12-13'. 
-
-First, I need to look through all the respondents in the data provided and filter out those whose discharge date is exactly '2019-12-13'. Let me go through each respondent one by one.
-
-Starting with Respondent 16. Their discharge date is listed as 2019-12-13. That's a match. Their billing amount is 36992. Let's note that down. 
-
-Now, checking the other respondents: Respondent 43's discharge date is 2023-04-21, which doesn't match. Respondent 98's is 2021-03-11. Respondent 1's is 2023-09-23. Respondent 100's is 2023-08-25. Respondent 68's is 2022-09-18. Respondent 117's is 2021-07-31. Respondent 74's is 2021-06-03. Respondent 109's is 2022-06-10. Respondent 143's is 2022-09-27. Respondent 125's is 2020-02-12. 
-
-So, only Respondent 16 has the discharge date of 2019-12-13. Now, since there's only one patient in that discharge date, they automatically have the lowest (and only) billing amount. 
-
-Next, I need to find their gender. Looking at Respondent 16's data: Gender is listed as 'a'. The question's schema for Gender is [MCQ: A. Female B. Male]. So 'a' corresponds to Female. 
-
-Therefore, the answer should be Female.
-</think>
-
-Female",
+</task>",,False
 case_27,answer_lookup,What is the billing amount of the patient with medical condition = 'Asthma' and blood type = 'B-'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14691,32 +14270,7 @@ Rules:
 
 <task>
 What is the billing amount of the patient with medical condition = 'Asthma' and blood type = 'B-'?
-</task>","Okay, let's tackle this question step by step. The task is to find the billing amount of a patient who has the medical condition 'Asthma' and blood type 'B-'. 
-
-First, I need to refer to the questions section to understand the MCQ options. For the medical condition, the options are A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. So, if a respondent's answer is 'b', that maps to Asthma.
-
-For blood type, the options are A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. So, blood type 'F' corresponds to B-.
-
-Now, I need to go through each respondent in the responses section and check if their medical condition is 'b' (Asthma) and blood type is 'f' (B-).
-
-Looking at Respondent 49: Medical condition is 'a' (Arthritis), blood type 'g' (O+). Not a match.
-
-Respondent 76: Medical condition 'e' (Hypertension), blood type 'b' (A-). Not a match.
-
-Respondent 56: Medical condition 'f' (Obesity), blood type 'c' (AB+). No.
-
-Respondent 15: Medical condition 'a' (Arthritis), blood type 'e' (B+). Not matching.
-
-Respondent 149: Medical condition 'f' (Obesity), blood type 'a' (A+). Nope.
-
-Respondent 139: Medical condition is 'b' (Asthma), blood type 'f' (B-). This looks like a match. Their billing amount is 18843.
-
-Respondent 16: Medical condition 'e' (Hypertension), blood type 'a' (A+). Not relevant.
-
-So, the only matching respondent is 139, and their billing amount is 18843.
-</think>
-
-18843",
+</task>",,False
 case_28,answer_lookup,What is the admission type of the patient with the lowest billing amount among those with medication = 'Ibuprofen'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -15344,33 +14898,7 @@ Rules:
 
 <task>
 What is the admission type of the patient with the lowest billing amount among those with medication = 'Ibuprofen'?
-</task>","Okay, let's tackle this question step by step. The task is to find the admission type of the patient with the lowest billing amount among those who were prescribed Ibuprofen. 
-
-First, I need to understand the data structure. The questions section tells me that ""Medication"" is an MCQ with options A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. So, any response with 'b' (case-insensitive) under Medication corresponds to Ibuprofen.
-
-Next, I need to look through all respondents and filter those who have Medication 'b'. Then, among those, find the one with the lowest billing amount. Once identified, check their Admission Type, which is another MCQ: A. Elective, B. Emergency, C. Urgent. The response code here will map to one of these.
-
-Looking at the responses:
-
-- Respondent 15: Medication is 'd' (Paracetamol) – not Ibuprofen.
-- Respondent 13: Medication 'a' (Aspirin) – no.
-- Respondent 150: 'd' (Paracetamol) – no.
-- Respondent 123: 'e' (Penicillin) – no.
-- Respondent 129: 'b' (Ibuprofen). Billing amount 30358.
-- Respondent 136: 'b' (Ibuprofen). Billing amount 4398.
-- Respondent 41: 'd' (Paracetamol) – no.
-- Respondent 131: 'b' (Ibuprofen). Billing amount 14238.
-- Respondent 21: 'e' (Penicillin) – no.
-- Respondent 48: 'e' (Penicillin) – no.
-
-So, the respondents with Ibuprofen are 129, 136, and 131. Now, compare their billing amounts: 30358, 4398, and 14238. The lowest is 4398 (Respondent 136). 
-
-Now, check Respondent 136's Admission Type. Their Admission Type is 'c'. According to the schema, 'C' is Urgent. 
-
-Therefore, the admission type is Urgent.
-</think>
-
-Urgent",
+</task>",,False
 case_29,answer_lookup,What is the test results of the patient with insurance provider = 'Cigna' and blood type = 'A+'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -15794,28 +15322,7 @@ Rules:
 
 <task>
 What is the test results of the patient with insurance provider = 'Cigna' and blood type = 'A+'?
-</task>","Okay, let's tackle this question step by step. The task is to find the test results of a patient who has an insurance provider of 'Cigna' and a blood type of 'A+'. 
-
-First, I need to refer to the questions section to understand the MCQ options. For the insurance provider, the options are A. Aetna, B. Blue Cross, C. Cigna, D. Medicare, E. UnitedHealthcare. So, the code 'c' corresponds to Cigna. For blood type, the options are A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. Therefore, blood type 'A+' is option 'a'.
-
-Now, I'll go through each respondent in the responses section to find those who have both insurance provider 'c' and blood type 'a'.
-
-Looking at Respondent 18: Insurance is 'b' (Blue Cross), blood type 'e' (B+). Not matching.
-
-Respondent 61: Insurance 'c' (Cigna), blood type 'e' (B+). Blood type doesn't match.
-
-Respondent 104: Insurance 'c' (Cigna), blood type 'b' (A-). Blood type is A-, not A+. Not a match.
-
-Respondent 31: Insurance 'd' (Medicare), blood type 'h' (O-). Doesn't fit.
-
-Respondent 146: Insurance 'c' (Cigna), blood type 'f' (B-). Not matching.
-
-Respondent 64: Insurance 'c' (Cigna), blood type 'a' (A+). This matches both criteria. Now, check the test results. The test results options are A. Abnormal, B. Inconclusive, C. Normal. Respondent 64's test result is 'a', which maps to Abnormal.
-
-So, the answer should be Abnormal.
-</think>
-
-Abnormal",
+</task>",,False
 case_30,answer_lookup,What is the age of the patient with the lowest age among those with hospital = 'HOSP_108'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16188,26 +15695,7 @@ Rules:
 
 <task>
 What is the age of the patient with the lowest age among those with hospital = 'HOSP_108'?
-</task>","Okay, let's tackle this question. The task is to find the age of the patient with the lowest age among those who are in the hospital 'HOSP_108'. 
-
-First, I need to look through the responses section and identify all respondents who have their hospital listed as 'HOSP_108'. Let me check each respondent one by one.
-
-Starting with Respondent 21: Their hospital is HOSP_21. Not the one we're looking for. 
-
-Next, Respondent 108: The hospital here is HOSP_108. That's a match. Their age is 63. 
-
-Respondent 150's hospital is HOSP_150, so that's not it. 
-
-Respondent 145 is in HOSP_145. 
-
-Respondent 134 is in HOSP_134. 
-
-So, only Respondent 108 is in HOSP_108. Since there's only one patient in that hospital, the lowest age is 63. 
-
-Wait, but the question says ""patients"" plural. Maybe I missed another respondent? Let me check again. No, looking at all the responses, only Respondent 108 has hospital HOSP_108. Therefore, the answer is 63.
-</think>
-
-63",
+</task>",,False
 case_31,answer_lookup,What is the discharge date of the patient with the lowest age among those with gender = 'Male'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16835,31 +16323,7 @@ Rules:
 
 <task>
 What is the discharge date of the patient with the lowest age among those with gender = 'Male'?
-</task>","Okay, let's tackle this question step by step. The task is to find the discharge date of the patient with the lowest age among those whose gender is 'Male'. 
-
-First, I need to refer to the data provided. The questions section tells me that the 'Gender' field is an MCQ with options A. Female and B. Male. So, in the responses, a 'b' under Gender corresponds to Male.
-
-Now, I'll go through each respondent in the responses and check their Gender. For each Male respondent, I'll note their Age and Discharge Date. Then, among all the Males, I need to find the one with the smallest Age and report their Discharge Date.
-
-Looking at the respondents:
-
-- Respondent 67: Gender is 'a' (Female) – skip.
-- Respondent 53: Gender 'b' (Male), Age 38. Discharge Date 2023-12-12.
-- Respondent 81: Gender 'a' (Female) – skip.
-- Respondent 62: Gender 'b' (Male), Age 27. Discharge Date 2024-02-04.
-- Respondent 68: Gender 'a' (Female) – skip.
-- Respondent 102: Gender 'b' (Male), Age 59. Discharge Date 2020-06-01.
-- Respondent 34: Gender 'a' (Female) – skip.
-- Respondent 77: Gender 'b' (Male), Age 59. Discharge Date 2024-02-10.
-- Respondent 118: Gender 'a' (Female) – skip.
-- Respondent 19: Gender 'a' (Female) – skip.
-
-So the Male respondents are 53, 62, 102, and 77. Their ages are 38, 27, 59, and 59 respectively. The youngest among them is 27 years old (Respondent 62). His Discharge Date is 2024-02-04. 
-
-Wait, but let me double-check. Respondent 62's Admission Date is 2024-02-22 and Discharge Date is 2024-02-04. That seems odd because the discharge date is before the admission date. That might be a data entry error, but according to the data provided, that's what's listed. Since the task is to report the discharge date as per the data, regardless of inconsistencies, the answer would still be 2024-02-04.
-</think>
-
-2024-02-04",
+</task>",,False
 case_32,answer_lookup,What is the medication of the patient with the highest billing amount among those with room number = '144'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17232,24 +16696,7 @@ Rules:
 
 <task>
 What is the medication of the patient with the highest billing amount among those with room number = '144'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medication of the patient with the highest billing amount among those who have room number '144'. 
-
-First, I need to look through the responses and filter out the respondents with room number 144. Let's check each respondent:
-
-- **Respondent 118**: Room Number is 212. Not 144, so skip.
-- **Respondent 145**: Room Number is 144. This one is relevant.
-- **Respondent 26**: Room Number is 241. Not 144.
-- **Respondent 19**: Room Number is 333. No.
-- **Respondent 138**: Room Number is 133. Nope.
-
-So only Respondent 145 has room number 144. Now, check their billing amount. For Respondent 145, the Billing Amount is 46430. Since there's only one person in room 144, they automatically have the highest billing amount in that room. 
-
-Next, find their medication. The medication field for Respondent 145 is 'e'. Looking at the questions schema, the Medication options are: A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. So 'e' corresponds to Penicillin. 
-
-Therefore, the answer should be Penicillin.
-</think>
-
-Penicillin",
+</task>",,False
 case_33,answer_lookup,What is the discharge date of the respondent 63?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17775,18 +17222,7 @@ Rules:
 
 <task>
 What is the discharge date of the respondent 63?
-</task>","Okay, let's tackle this question. The task is to find the discharge date of respondent 63.
-
-First, I need to locate respondent 63 in the provided data. Scrolling through the responses, I see there's a section for Respondent 63. Let me check that.
-
-Under Respondent 63's details, there's a list of items. Each item corresponds to a question from the schema. The discharge date is one of the fields. Looking at the list, I see the line: <li><strong>Discharge Date:</strong> 2023-06-10</li>.
-
-Since the discharge date is an open-ended question (as per the schema), the answer should be the exact value provided. The value here is ""2023-06-10"". There's no need to convert any codes here because it's an open-ended response. 
-
-I should double-check to make sure I'm looking at the correct respondent. Yes, it's definitely Respondent 63. The discharge date is listed as 2023-06-10. No other processing is needed here. The answer is straightforward.
-</think>
-
-2023-06-10",
+</task>",,False
 case_34,answer_lookup,What is the medication of the lowest patient with admission type = 'Elective' and medical condition = 'Cancer'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18261,26 +17697,7 @@ Rules:
 
 <task>
 What is the medication of the lowest patient with admission type = 'Elective' and medical condition = 'Cancer'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medication of the lowest patient with admission type 'Elective' and medical condition 'Cancer'. 
-
-First, I need to understand the data structure. The questions section defines each field. For example, 'Admission Type' is an MCQ with options A. Elective, B. Emergency, C. Urgent. Similarly, 'Medical Condition' has options including C. Cancer. 'Medication' is another MCQ with options like E. Penicillin.
-
-Now, looking at the responses, I need to filter patients who have Admission Type 'Elective' (which is option 'a' in the data) and Medical Condition 'Cancer' (option 'c'). Then, among those patients, find the one with the lowest age and report their medication.
-
-Let's go through each respondent:
-
-- **Respondent 113**: Admission Type is 'a' (Elective), Medical Condition is 'e' (Hypertension). Doesn't match Cancer, so skip.
-- **Respondent 140**: Admission Type 'a' (Elective), Medical Condition 'c' (Cancer). Age 49. Medication is 'e' which maps to Penicillin.
-- **Respondent 78**: Admission Type 'c' (Urgent). Not Elective. Skip.
-- **Respondent 136**: Admission Type 'c' (Urgent). Skip.
-- **Respondent 3**: Admission Type 'c' (Urgent). Skip.
-- **Respondent 142**: Admission Type 'a' (Elective), Medical Condition 'b' (Asthma). Not Cancer. Skip.
-- **Respondent 77**: Admission Type 'b' (Emergency). Skip.
-
-Only Respondent 140 meets both criteria. Their age is 49, which is the lowest (and only) in this filtered group. Their medication is 'e', which corresponds to Penicillin.
-</think>
-
-Penicillin",
+</task>",,False
 case_35,answer_lookup,What is the room number of the patient with the lowest age among those with date of admission = '2019-11-06'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18704,28 +18121,7 @@ Rules:
 
 <task>
 What is the room number of the patient with the lowest age among those with date of admission = '2019-11-06'?
-</task>","Okay, let's tackle this problem step by step. The question is asking for the room number of the patient with the lowest age among those admitted on '2019-11-06'. 
-
-First, I need to look through the responses to find all patients whose Date of Admission is exactly '2019-11-06'. Let's check each respondent one by one.
-
-Starting with Respondent 35: Their Date of Admission is 2019-11-21. Not the one we need. 
-
-Respondent 68's admission date is 2022-08-22. Nope. 
-
-Respondent 30 was admitted on 2023-05-24. Not matching. 
-
-Respondent 28's admission date is 2019-11-05. Close, but not the 6th. 
-
-Respondent 142: Date of Admission is 2019-11-06. That's a match. Their age is 37. 
-
-Respondent 40 was admitted on 2020-03-02. Not relevant here. 
-
-So, only Respondent 142 has the admission date of 2019-11-06. Now, since there's only one patient in that group, their age is 37, which is automatically the lowest (and only) age in that group. Therefore, their room number is 482. 
-
-Wait, but let me double-check if there are any other respondents with the same admission date. The other respondents have different dates, so no. So the answer should be 482.
-</think>
-
-Answer: 482",
+</task>",,False
 case_36,answer_lookup,What is the gender of the patient with the highest age among those with blood type = 'B+'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19302,50 +18698,7 @@ Rules:
 
 <task>
 What is the gender of the patient with the highest age among those with blood type = 'B+'?
-</task>","Okay, let's tackle this question step by step. The task is to find the gender of the patient with the highest age among those who have blood type B+. 
-
-First, I need to recall the structure of the data provided. The questions section defines each field, including Blood Type as a multiple-choice question with options A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. So, blood type 'B+' corresponds to option E.
-
-Now, looking at the responses for each respondent, I need to check their Blood Type and Age. Let's go through each respondent one by one.
-
-Starting with Respondent 73: Blood Type is h, which according to the schema is O-. Not B+, so skip.
-
-Respondent 54: Blood Type a (A+). Not B+.
-
-Respondent 88: Blood Type a (A+). Still not B+.
-
-Respondent 53: Blood Type a (A+). Nope.
-
-Respondent 68: Blood Type g (O+). Not B+.
-
-Respondent 130: Blood Type g (O+). Not matching.
-
-Respondent 126: Blood Type g (O+). No.
-
-Respondent 65: Blood Type g (O+). Still not B+.
-
-Respondent 14: Blood Type e. Wait, the options for Blood Type are E. B+, F. B-, G. O+, H. O-. So option E is B+. Let me check Respondent 14's Blood Type. It's listed as e, which maps to B+? Wait, the options are E. B+ and F. B-. So yes, 'e' in the response corresponds to B+.
-
-So Respondent 14 has Blood Type B+. Their age is 85. Now, are there any other respondents with Blood Type B+? Let me check again to make sure I didn't miss any.
-
-Looking through all respondents again:
-
-- 73: h (O-)
-- 54: a (A+)
-- 88: a (A+)
-- 53: a (A+)
-- 68: g (O+)
-- 130: g (O+)
-- 126: g (O+)
-- 65: g (O+)
-- 14: e (B+)
-
-Only Respondent 14 has Blood Type B+. So the highest age among B+ patients is 85. Now, check the gender. The Gender field for Respondent 14 is 'a', which maps to Female (since the options are A. Female, B. Male). 
-
-Therefore, the gender is Female.
-</think>
-
-Female",
+</task>",,False
 case_37,answer_lookup,What is the admission type of the patient with the highest billing amount among those with room number = '302'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19769,25 +19122,7 @@ Rules:
 
 <task>
 What is the admission type of the patient with the highest billing amount among those with room number = '302'?
-</task>","Okay, let's tackle this question step by step. The task is to find the admission type of the patient with the highest billing amount among those in room number 302. 
-
-First, I need to look through the responses and filter out all patients with room number 302. Let's check each respondent's data.
-
-Looking at Respondent 109: Room Number is 213. Not 302. Skip.
-Respondent 71: Room 212. Nope.
-Respondent 12: Room 428. Not relevant.
-Respondent 1: Room 418. No.
-Respondent 86: Room 302. Yes, this one. Their billing amount is 21784.
-Respondent 34: Room 410. Not 302.
-
-So only Respondent 86 is in room 302. Now, check their billing amount. It's 21784. Since there's only one patient in room 302, they automatically have the highest billing amount in that room. 
-
-Now, find their admission type. The Admission Type in the questions is a MCQ with options A. Elective, B. Emergency, C. Urgent. Respondent 86's Admission Type is 'a', which maps to Elective. 
-
-Therefore, the admission type is Elective.
-</think>
-
-Elective",
+</task>",,False
 case_38,answer_lookup,What is the hospital of the patient with doctor = 'DOC_03' and blood type = 'B-'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -20364,30 +19699,7 @@ Rules:
 
 <task>
 What is the hospital of the patient with doctor = 'DOC_03' and blood type = 'B-'?
-</task>","Okay, let's tackle this question step by step. The task is to find the hospital of the patient who has a doctor named 'DOC_03' and a blood type of 'B-'. 
-
-First, I need to refer to the data provided. The questions section tells me that 'Blood Type' is an MCQ with options A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. So, the code 'F' corresponds to B-.
-
-Looking at the responses, I need to check each respondent's 'Doctor' and 'Blood Type' fields. Let's go through each respondent one by one.
-
-Starting with Respondent 42: Doctor is DOC_42, Blood Type is 'g' which maps to O+. Not a match.
-
-Respondent 114: Doctor is DOC_114, Blood Type 'd' (AB-). Not matching.
-
-Respondent 142: Doctor DOC_142, Blood Type 'g' (O+). No.
-
-Respondent 110: Doctor DOC_110, Blood Type 'e' (B+). Not it.
-
-Respondent 144: Doctor DOC_144, Blood Type 'a' (A+). Doesn't fit.
-
-Respondent 3: Here, the Doctor is DOC_03. Blood Type is 'f', which according to the schema is B-. Both conditions are met. The hospital for Respondent 3 is HOSP_03.
-
-I should check the remaining respondents to ensure there are no others. Respondent 29: DOC_29, Blood Type 'd' (AB-). Respondent 20: DOC_20, Blood Type 'b' (A-). Respondent 39: DOC_39, Blood Type 'd' (AB-). None of these match. 
-
-So, the only matching entry is Respondent 3, and their hospital is HOSP_03.
-</think>
-
-HOSP_03",
+</task>",,False
 case_39,answer_lookup,What is the test results of the patient with the highest billing amount among those with admission type = 'Urgent'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -20760,30 +20072,7 @@ Rules:
 
 <task>
 What is the test results of the patient with the highest billing amount among those with admission type = 'Urgent'?
-</task>","Okay, let's tackle this question step by step. The task is to find the test results of the patient with the highest billing amount among those with an admission type of 'Urgent'. 
-
-First, I need to understand the data structure. The questions section defines each field. The admission type is an MCQ with options A. Elective, B. Emergency, C. Urgent. So, in the responses, if someone has admission type 'c', that maps to 'Urgent'. 
-
-Looking at the responses, there are five respondents: 95, 150, 142, 38, and 111. I need to check each of these to see which ones have admission type 'Urgent'. 
-
-Starting with Respondent 95: Their admission type is 'a', which is Elective. Not Urgent.
-
-Respondent 150: Admission type is 'a' again, Elective. 
-
-Respondent 142: Also 'a', Elective. 
-
-Respondent 38: Admission type is 'c', which according to the schema is Urgent. So this is a candidate. Their billing amount is 8409.
-
-Respondent 111: Admission type is 'b', which is Emergency. 
-
-So among all respondents, only Respondent 38 has an admission type of Urgent. Therefore, they are the only one in consideration. The billing amount here is 8409. Since there's no other Urgent case, this is the highest. 
-
-Now, the test results for Respondent 38 are 'b'. The test results MCQ options are A. Abnormal, B. Inconclusive, C. Normal. So 'b' maps to Inconclusive. 
-
-Therefore, the answer should be Inconclusive.
-</think>
-
-Inconclusive",
+</task>",,False
 case_40,answer_lookup,What is the medical condition of the patient with the highest billing amount among those with hospital = 'HOSP_27'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -21258,26 +20547,7 @@ Rules:
 
 <task>
 What is the medical condition of the patient with the highest billing amount among those with hospital = 'HOSP_27'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medical condition of the patient with the highest billing amount at HOSP_27. 
-
-First, I need to look through all the respondents and filter out those who have the hospital listed as 'HOSP_27'. Let me check each respondent's hospital entry.
-
-Looking at Respondent 11: Hospital is HOSP_11. Not the one we need.
-Respondent 79: HOSP_79. Nope.
-Respondent 94: HOSP_94. Still not.
-Respondent 92: HOSP_92. Not it.
-Respondent 54: HOSP_54. No.
-Respondent 64: HOSP_64. Not matching.
-Ah, Respondent 27: Hospital is HOSP_27. That's the one we need.
-
-Now, for Respondent 27, check the billing amount. The billing amount is 30591. Since there's only one respondent in HOSP_27, this is the highest (and only) billing amount there. 
-
-Next, find their medical condition. The medical condition for Respondent 27 is listed as 'a'. Referring back to the questions section, the medical condition options are A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. So 'a' maps to Arthritis.
-
-So the answer should be Arthritis.
-</think>
-
-Arthritis",
+</task>",,False
 case_41,answer_lookup,What is the blood type of the patient whose billing amount is the highest above the average billing amount for all patients with gender = 'Female' in this case?,"<!DOCTYPE html>
 <html>
 <head>
@@ -21905,19 +21175,25 @@ Rules:
 
 <task>
 What is the blood type of the patient whose billing amount is the highest above the average billing amount for all patients with gender = 'Female' in this case?
-</task>","Okay, let's tackle this problem step by step. The question is asking for the blood type of the patient who has the highest billing amount above the average for all female patients. 
+</task>","Okay, let's tackle this question step by step. The task is to find the blood type of the patient with the highest billing amount that's above the average billing amount for all female patients. 
 
-First, I need to identify all female patients. The gender field in the responses uses 'a' for Female and 'b' for Male according to the schema. So I'll go through each respondent and check their gender.
+First, I need to identify all female patients. The gender options are A. Female and B. Male. So, looking at each respondent's gender field, any with 'a' (case-insensitive) is female. Let's go through each respondent:
 
-Looking at the respondents:
-- Respondent 144: Gender 'a' → Female
-- Respondent 40: Gender 'a' → Female
-- Respondent 42: Gender 'a' → Female
-- Respondent 46: Gender 'a' → Female
-- Respondent 86: Gender 'a' → Female
-- Respondent 64: Gender 'a' → Female
+- Respondent 144: Gender is 'a' → Female
+- Respondent 105: 'b' → Male
+- Respondent 40: 'a' → Female
+- Respondent 61: 'b' → Male
+- Respondent 42: 'a' → Female
+- Respondent 46: 'a' → Female
+- Respondent 106: 'b' → Male
+- Respondent 7: 'b' → Male
+- Respondent 86: 'a' → Female
+- Respondent 64: 'a' → Female
 
-So there are six female patients. Now, I need to collect their billing amounts to calculate the average. Let's list them out:
+So the female respondents are 144, 40, 42, 46, 86, 64. Now, I need to collect their billing amounts.
+
+Let's list them:
+
 - 144: 16320
 - 40: 17696
 - 42: 14362
@@ -21925,26 +21201,31 @@ So there are six female patients. Now, I need to collect their billing amounts t
 - 86: 21784
 - 64: 45354
 
-Adding these up: 16320 + 17696 = 34016; 34016 +14362 = 48378; 48378 +42697 = 91075; 91075 +21784 = 112,859; 112,859 +45354 = 158,213. 
+Next, calculate the average billing amount for these females. Sum all these amounts and divide by 6.
 
-Now, divide by 6 to get the average: 158,213 /6 ≈ 26,368.83.
+Sum: 16320 + 17696 = 34016; 34016 +14362 = 48378; 48378 +42697 = 91075; 91075 +21784 = 112,859; 112,859 +45354 = 158,213.
 
-Next, I need to find each female's billing amount and see how much each is above this average. Then, find the one with the highest amount above average.
+Average: 158,213 / 6 ≈ 26,368.83.
 
-Calculating the difference for each:
-- 144: 16,320 - 26,368.83 = -10,048.83 (below average)
-- 40: 17,696 - 26,368.83 = -8,672.83 (below)
-- 42: 14,362 - 26,368.83 = -12,006.83 (below)
-- 46: 42,697 - 26,368.83 = +16,328.17
-- 86: 21,784 - 26,368.83 = -4,584.83 (below)
-- 64: 45,354 - 26,368.83 = +18,985.17
+Now, find which female patients have a billing amount above this average. Let's check each:
 
-The highest above average is 45,354 (Respondent 64) with a difference of ~18,985.17. So the patient with the highest billing above average is Respondent 64. Now, check their blood type. 
+- 144: 16,320 → below
+- 40: 17,696 → below
+- 42: 14,362 → below
+- 46: 42,697 → above (42,697 > 26,368.83)
+- 86: 21,784 → below
+- 64: 45,354 → above (45,354 > 26,368.83)
 
-Looking at Respondent 64's data: Blood Type is 'a'. According to the schema, Blood Type options are A. A+, B. A- etc. 'a' corresponds to A+. So the answer should be A+.
+So the patients with billing above average are Respondent 46 (42,697) and 64 (45,354). Now, among these two, the highest billing is 45,354 (Respondent 64). 
+
+Looking at Respondent 64's blood type: Blood Type is 'a'. According to the schema, Blood Type options are A. A+, B. A-, etc. So 'a' corresponds to A+. 
+
+Wait, the options for Blood Type are [A. A+ B. A- C. AB+ D. AB- E. B+ F. B- G. O+ H. O-]. So 'a' is A+, 'b' is A-, etc. So Respondent 64's blood type is A+.
+
+But wait, let me double-check. Respondent 64's blood type is listed as 'a'. The options are A. A+, so 'a' maps to A+. Therefore, the answer should be A+.
 </think>
 
-Answer: A+",
+A+",True
 case_42,answer_lookup,What is the admission type of the patient with the highest age among those with insurance provider = 'Blue Cross'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -22521,30 +21802,7 @@ Rules:
 
 <task>
 What is the admission type of the patient with the highest age among those with insurance provider = 'Blue Cross'?
-</task>","Okay, let's tackle this question step by step. The task is to find the admission type of the patient with the highest age who has an insurance provider of 'Blue Cross'. 
-
-First, I need to understand the data structure. The questions section tells me that 'Insurance Provider' is an MCQ with options A. Aetna, B. Blue Cross, C. Cigna, D. Medicare, E. UnitedHealthcare. So, in the responses, if someone has selected 'b' for insurance provider, that maps to Blue Cross.
-
-Next, I need to look through all respondents and filter those who have insurance provider 'b' (Blue Cross). Then, among those, find the one with the highest age and report their admission type. The admission type is another MCQ: A. Elective, B. Emergency, C. Urgent. So, the response code (a, b, c) needs to be mapped to these options.
-
-Looking at the responses:
-
-- Respondent 41: Insurance Provider is 'd' (Medicare) – not Blue Cross.
-- Respondent 28: Insurance Provider 'a' (Aetna) – nope.
-- Respondent 98: Insurance Provider 'e' (UnitedHealthcare) – no.
-- Respondent 10: Insurance Provider 'c' (Cigna) – not Blue Cross.
-- Respondent 121: Insurance Provider 'c' (Cigna) – no.
-- Respondent 57: Insurance Provider 'd' (Medicare) – nope.
-- Respondent 52: Insurance Provider 'b' (Blue Cross). Age is 26. Admission Type 'a' (Elective).
-- Respondent 118: Insurance Provider 'a' (Aetna) – no.
-- Respondent 90: Insurance Provider 'a' (Aetna) – no.
-
-So the only respondent with Blue Cross is Respondent 52. Their age is 26. Since there's only one in this case, the highest age is 26. The admission type for Respondent 52 is 'a', which maps to Elective. 
-
-Therefore, the answer should be Elective.
-</think>
-
-Elective",
+</task>",,False
 case_43,answer_lookup,What is the age of the patient whose age is the highest above the average age for all patients with insurance provider = 'Medicare' in this case?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23121,36 +22379,7 @@ Rules:
 
 <task>
 What is the age of the patient whose age is the highest above the average age for all patients with insurance provider = 'Medicare' in this case?
-</task>","Okay, let's tackle this problem step by step. The task is to find the age of the patient who has the highest age above the average age of all patients with the insurance provider 'Medicare'. 
-
-First, I need to identify all patients who have 'Medicare' as their insurance provider. According to the questions section, the Insurance Provider is an MCQ with options A. Aetna, B. Blue Cross, C. Cigna, D. Medicare, E. UnitedHealthcare. So, in the responses, the code 'd' corresponds to Medicare.
-
-Looking through each respondent's data:
-
-- Respondent 59: Insurance Provider is 'e' (UnitedHealthcare) – not Medicare.
-- Respondent 58: 'c' (Cigna) – no.
-- Respondent 7: 'c' (Cigna) – no.
-- Respondent 50: 'a' (Aetna) – no.
-- Respondent 103: 'd' (Medicare) – yes. Age is 81.
-- Respondent 85: 'd' (Medicare) – yes. Age is 67.
-- Respondent 72: 'd' (Medicare) – yes. Age is 72.
-- Respondent 18: 'b' (Blue Cross) – no.
-- Respondent 90: 'a' (Aetna) – no.
-
-So the Medicare patients are Respondents 103, 85, and 72. Their ages are 81, 67, and 72.
-
-Next, calculate the average age of these three. Sum: 81 + 67 + 72 = 220. Average is 220 / 3 ≈ 73.33.
-
-Now, find how much each of these ages is above the average. 
-
-- 81 - 73.33 = 7.67
-- 67 - 73.33 = -6.33 (below average)
-- 72 - 73.33 = -1.33 (below average)
-
-The highest above average is 81, which is 7.67 years above. Therefore, the patient with age 81 (Respondent 103) is the answer.
-</think>
-
-81",
+</task>",,False
 case_44,answer_lookup,What is the blood type of the patient whose age is the highest above the average age for all patients with admission type = 'Emergency' in this case?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23829,43 +23058,7 @@ Rules:
 
 <task>
 What is the blood type of the patient whose age is the highest above the average age for all patients with admission type = 'Emergency' in this case?
-</task>","Okay, let's tackle this question step by step. The task is to find the blood type of the patient who has the highest age above the average age of all patients with an admission type of 'Emergency'. 
-
-First, I need to identify which respondents have an admission type of 'Emergency'. Looking at the Admission Type in the questions section, the options are A. Elective, B. Emergency, C. Urgent. So, in the responses, any Admission Type listed as 'b' corresponds to Emergency.
-
-Now, I'll go through each respondent's data to check their Admission Type. Let's list them out:
-
-- Respondent 138: Admission Type is 'a' → Elective. Not needed.
-- Respondent 85: Admission Type 'b' → Emergency. Age 67.
-- Respondent 8: Admission Type 'a' → Elective. Exclude.
-- Respondent 30: Admission Type 'b' → Emergency. Age 25.
-- Respondent 67: Admission Type 'b' → Emergency. Age 21.
-- Respondent 46: Admission Type 'c' → Urgent. Exclude.
-- Respondent 149: Admission Type 'b' → Emergency. Age 63.
-- Respondent 68: Admission Type 'c' → Urgent. Exclude.
-- Respondent 10: Admission Type 'c' → Urgent. Exclude.
-- Respondent 28: Admission Type 'c' → Urgent. Exclude.
-- Respondent 112: Admission Type 'c' → Urgent. Exclude.
-
-So the Emergency patients are Respondents 85 (67), 30 (25), 67 (21), and 149 (63). 
-
-Next, calculate the average age of these four. Let's add their ages: 67 + 25 + 21 + 63 = 176. Divide by 4: 176 / 4 = 44. The average age is 44.
-
-Now, find the patient whose age is the highest above this average. Each patient's age minus the average:
-
-- 67 - 44 = +23
-- 25 - 44 = -19
-- 21 - 44 = -23
-- 63 - 44 = +19
-
-The highest above average is Respondent 85 at 67, which is 23 years above the average. 
-
-Finally, check the blood type for Respondent 85. The Blood Type options are A. A+, B. A-, C. AB+, D. AB-, E. B+, F. B-, G. O+, H. O-. Respondent 85's Blood Type is 'g', which corresponds to O+. 
-
-So the answer should be O+.
-</think>
-
-O+",
+</task>",,False
 case_45,answer_lookup,What is the insurance provider of the patient with the lowest age among those with test results = 'Abnormal'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -24493,31 +23686,7 @@ Rules:
 
 <task>
 What is the insurance provider of the patient with the lowest age among those with test results = 'Abnormal'?
-</task>","Okay, let's tackle this question step by step. The task is to find the insurance provider of the patient with the lowest age among those who have test results marked as 'Abnormal'. 
-
-First, I need to understand the data structure. The questions section tells me that 'Test Results' is an MCQ with options A. Abnormal, B. Inconclusive, C. Normal. So, in the responses, if a respondent has 'a' under Test Results, that maps to 'Abnormal'. 
-
-Next, I need to look at all respondents where Test Results is 'Abnormal'. Let's go through each respondent one by one.
-
-Starting with Respondent 81: Test Results is 'a' which is Abnormal. Age is 42.
-Respondent 112: Test Results is 'b' (Inconclusive), so skip.
-Respondent 131: Test Results 'b' (Inconclusive), skip.
-Respondent 30: Test Results 'a' (Abnormal). Age 25.
-Respondent 99: Test Results 'b' (Inconclusive), skip.
-Respondent 148: Test Results 'a' (Abnormal). Age 20.
-Respondent 49: Test Results 'c' (Normal), skip.
-Respondent 66: Test Results 'b' (Inconclusive), skip.
-Respondent 12: Test Results 'b' (Inconclusive), skip.
-Respondent 1: Test Results 'a' (Abnormal). Age 53.
-
-So the relevant respondents are 81 (42), 30 (25), 148 (20), and 1 (53). Among these, the lowest age is 20 from Respondent 148. 
-
-Now, check the Insurance Provider for Respondent 148. The Insurance Provider is 'e'. Looking back at the questions, Insurance Provider options are A. Aetna, B. Blue Cross, C. Cigna, D. Medicare, E. UnitedHealthcare. So 'e' maps to UnitedHealthcare. 
-
-Therefore, the answer should be UnitedHealthcare.
-</think>
-
-UnitedHealthcare",
+</task>",,False
 case_46,answer_lookup,What is the age of the patient whose billing amount is the highest above the average billing amount for all patients with blood type = 'AB-' in this case?,"<!DOCTYPE html>
 <html>
 <head>
@@ -25045,37 +24214,37 @@ Rules:
 What is the age of the patient whose billing amount is the highest above the average billing amount for all patients with blood type = 'AB-' in this case?
 </task>","Okay, let's tackle this question step by step. The task is to find the age of the patient whose billing amount is the highest above the average billing amount for all patients with blood type 'AB-'. 
 
-First, I need to identify which respondents have blood type 'AB-'. Looking at the questions section, the Blood Type MCQ options are A. A+, B. A-, C. AB+, D. AB-, etc. So, in the responses, if a respondent's Blood Type is 'd', that corresponds to AB-.
+First, I need to identify which respondents have blood type 'AB-'. Looking at the questions section, the Blood Type MCQ options are A. A+, B. A-, C. AB+, D. AB-, etc. So, blood type 'd' corresponds to AB-. 
 
 Now, I'll go through each respondent's data to check their Blood Type. Let's list them out:
 
 - Respondent 94: Blood Type is 'd' → AB-
 - Respondent 111: Blood Type is 'd' → AB-
-- Respondent 18: Blood Type is 'e' → B+ (so not AB-)
-- Respondent 85: Blood Type is 'g' → O+ (nope)
-- Respondent 81: Blood Type is 'h' → O- (nope)
-- Respondent 32: Blood Type is 'a' → A+ (nope)
-- Respondent 77: Blood Type is 'b' → A- (nope)
-- Respondent 130: Blood Type is 'g' → O+ (nope)
+- Respondent 18: Blood Type 'e' → B+
+- Respondent 85: Blood Type 'g' → O+
+- Respondent 81: Blood Type 'h' → O-
+- Respondent 32: Blood Type 'a' → A+
+- Respondent 77: Blood Type 'b' → A-
+- Respondent 130: Blood Type 'g' → O+
 
-So only Respondents 94 and 111 have blood type AB-.
+So, only Respondents 94 and 111 have blood type AB-.
 
 Next, I need to calculate the average billing amount for these two. Let's get their billing amounts:
 
 - Respondent 94: 40134
 - Respondent 111: 3126
 
-Average = (40134 + 3126) / 2 = 43260 / 2 = 21630
+Average = (40134 + 3126) / 2 = 43260 / 2 = 21630.
 
-Now, find how much each of these two is above this average. 
+Now, find how much each of these two is above the average. 
 
-For Respondent 94: 40134 - 21630 = 18504 above average
-For Respondent 111: 3126 - 21630 = -18504 (which is below average)
+For Respondent 94: 40134 - 21630 = 18504 above average.
+For Respondent 111: 3126 - 21630 = -18504 (which is below average).
 
-So the highest above average is Respondent 94 with 18504 over. Therefore, the age of this patient is 81.
+So, the highest above average is Respondent 94 with 18504. Therefore, the age of this patient is 81.
 </think>
 
-Answer: 81",
+Answer: 81",True
 case_47,answer_lookup,What is the admission type of the respondent 98?,"<!DOCTYPE html>
 <html>
 <head>
@@ -25652,20 +24821,7 @@ Rules:
 
 <task>
 What is the admission type of the respondent 98?
-</task>","Okay, let's tackle this question. The task is to find the admission type for Respondent 98.
-
-First, I need to look at the data provided. The user mentioned that the answer should be based on the given dataset, so I'll focus on that. 
-
-Looking at the ""Questions"" section, the Admission Type is an MCQ with options A. Elective, B. Emergency, C. Urgent. So, each response under Admission Type in the data corresponds to one of these options.
-
-Now, I need to find Respondent 98 in the ""Responses"" section. Scrolling through the respondents, I see a section for Respondent 98. Their Admission Type is listed as 'a'. 
-
-According to the schema, 'a' maps to Elective. So the admission type for Respondent 98 should be Elective. I need to make sure there's no other respondent with the same ID or any typos. Checking again, yes, it's definitely Respondent 98 with Admission Type 'a'. 
-
-The output rules say to provide the mapped text, not the letter. So the answer is Elective.
-</think>
-
-Elective",
+</task>",,False
 case_48,answer_lookup,What is the medical condition of the patient whose billing amount is the highest above the average billing amount for all patients with medication = 'Aspirin' in this case?,"<!DOCTYPE html>
 <html>
 <head>
@@ -26140,44 +25296,42 @@ Rules:
 
 <task>
 What is the medical condition of the patient whose billing amount is the highest above the average billing amount for all patients with medication = 'Aspirin' in this case?
-</task>","Okay, let's tackle this question step by step. The task is to find the medical condition of the patient who has the highest billing amount above the average for all patients taking Aspirin. 
+</task>","Okay, let's tackle this question step by step. The task is to find the medical condition of the patient with the highest billing amount that's above the average billing amount for all patients taking 'Aspirin'. 
 
-First, I need to identify all patients whose medication is Aspirin. Looking at the Medication field in the questions, the options are A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. So, in the responses, any patient with Medication 'a' is taking Aspirin.
+First, I need to identify which patients are taking Aspirin. Looking at the Medication field in the responses, the options are A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. So, any response with 'a' in the Medication field is taking Aspirin.
 
-Now, let's go through each respondent's data to find those with Medication 'a' (Aspirin). 
+Now, let's go through each respondent's Medication entry:
 
 - Respondent 146: Medication is 'e' → Penicillin. Not Aspirin.
 - Respondent 78: Medication is 'a' → Aspirin. So this patient is included.
-- Respondent 104: Medication is 'e' → Penicillin. Excluded.
-- Respondent 141: Medication is 'c' → Lipitor. Excluded.
-- Respondent 1: Medication is 'c' → Lipitor. Excluded.
-- Respondent 74: Medication is 'a' → Aspirin. Included.
-- Respondent 54: Medication is 'a' → Aspirin. Included.
+- Respondent 104: 'e' → Penicillin. Excluded.
+- Respondent 141: 'c' → Lipitor. Excluded.
+- Respondent 1: 'c' → Lipitor. Excluded.
+- Respondent 74: 'a' → Aspirin. Included.
+- Respondent 54: 'a' → Aspirin. Included.
 
 So the patients on Aspirin are Respondents 78, 74, and 54.
 
-Next, calculate the average billing amount for these three. Let's get their billing amounts:
+Next, I need to calculate the average billing amount for these three. Let's get their billing amounts:
 
 - Respondent 78: 23068
 - Respondent 74: 40783
 - Respondent 54: 10664
 
-Adding these: 23068 + 40783 = 63851; 63851 + 10664 = 74515. Average is 74515 / 3 ≈ 24838.33.
+Adding these up: 23068 + 40783 = 63851; 63851 + 10664 = 74515. Then divide by 3 to get the average. 74515 / 3 ≈ 24838.33.
 
-Now, find each patient's billing amount compared to this average. 
+Now, find which of these patients have a billing amount higher than this average. Let's check each:
 
-- Respondent 78: 23068 - 24838.33 ≈ -1770.33 (below average)
-- Respondent 74: 40783 - 24838.33 ≈ +15944.67 (above average)
-- Respondent 54: 10664 - 24838.33 ≈ -14174.33 (below)
+- Respondent 78: 23068 → 23068 < 24838.33 → No.
+- Respondent 74: 40783 → 40783 > 24838.33 → Yes.
+- Respondent 54: 10664 → 10664 < 24838.33 → No.
 
-The highest above average is Respondent 74 with +15944.67. 
+So only Respondent 74 has a billing amount above the average. Now, check their Medical Condition. The options for Medical Condition are A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. Respondent 74's Medical Condition is 'a', which maps to Arthritis. 
 
-Now, check Respondent 74's medical condition. The options for Medical Condition are A. Arthritis, B. Asthma, C. Cancer, D. Diabetes, E. Hypertension, F. Obesity. Respondent 74's Medical Condition is 'a', which maps to Arthritis. 
-
-So the answer should be Arthritis.
+Therefore, the answer should be Arthritis.
 </think>
 
-Arthritis",
+Arthritis",True
 case_49,answer_lookup,What is the medication of the patient whose age is the highest above the average age for all patients with insurance provider = 'Medicare' in this case?,"<!DOCTYPE html>
 <html>
 <head>
@@ -26856,45 +26010,27 @@ Rules:
 
 <task>
 What is the medication of the patient whose age is the highest above the average age for all patients with insurance provider = 'Medicare' in this case?
-</task>","Okay, let's tackle this problem step by step. The question is asking for the medication of the patient who is the oldest above the average age of all patients with insurance provider 'Medicare'. 
+</task>","Okay, let's tackle this problem step by step. The question is asking for the medication of the patient who has the highest age above the average age of all patients with insurance provider 'Medicare'. 
 
-First, I need to identify all patients with insurance provider 'Medicare'. Looking at the questions section, the insurance provider is an MCQ where option D is Medicare. So in the responses, any respondent with Insurance Provider 'd' is under Medicare.
+First, I need to identify all patients with insurance provider 'Medicare'. Looking at the questions section, the Insurance Provider is an MCQ with options A. Aetna, B. Blue Cross, C. Cigna, D. Medicare, E. UnitedHealthcare. So, in the responses, any patient with Insurance Provider 'd' is using Medicare.
 
-Now, let's go through each respondent and check their insurance provider. 
+Now, let's go through each respondent and check their Insurance Provider. 
 
 - Respondent 149: Insurance Provider is 'd' → Medicare. Age 63.
 - Respondent 55: Insurance Provider 'd' → Medicare. Age 30.
 - Respondent 73: Insurance Provider 'd' → Medicare. Age 21.
-- Are there others? Let me check all respondents again. 
+- Any others? Let me check the rest. Respondent 114 has 'b', 83 has 'e', 120 has 'a', 131 has 'e', 122 has 'c', 44 has 'c', 22 has 'a', 132 has 'e'. So only 149, 55, and 73 are on Medicare.
 
-Looking at the list:
-- Respondent 83: Insurance Provider 'e' → UnitedHealthcare.
-- Respondent 120: 'a' → Aetna.
-- Respondent 114: 'b' → Blue Cross.
-- Respondent 131: 'e' → UnitedHealthcare.
-- Respondent 122: 'c' → Cigna.
-- Respondent 44: 'c' → Cigna.
-- Respondent 22: 'a' → Aetna.
-- Respondent 132: 'e' → UnitedHealthcare.
+Next, calculate the average age of these three. Their ages are 63, 30, and 21. Sum is 63 + 30 + 21 = 114. Divided by 3, the average age is 38.
 
-So only Respondents 149, 55, and 73 have insurance provider 'd' (Medicare). Their ages are 63, 30, and 21 respectively.
+Now, find the patient whose age is the highest above this average. The ages are 63 (63-38=25), 30 (30-38=-8), 21 (21-38=-17). The highest above average is 63, which is 25 years above. So the patient is Respondent 149.
 
-Next, calculate the average age of these three. Sum: 63 + 30 + 21 = 114. Average is 114 / 3 = 38.
+Looking at Respondent 149's medication: the response is 'b'. The medication options are A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. So 'b' maps to Ibuprofen.
 
-Now, find the patient whose age is the highest above this average. Each patient's age minus the average:
-
-- 63 - 38 = +25
-- 30 - 38 = -8
-- 21 - 38 = -17
-
-The highest above average is 63 (25 years above average). This is Respondent 149. 
-
-Now, check the medication for Respondent 149. The medication is an MCQ with options A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. Respondent 149's medication is 'b', which corresponds to Ibuprofen. 
-
-So the answer should be Ibuprofen.
+Therefore, the answer should be Ibuprofen.
 </think>
 
-Ibuprofen",
+Ibuprofen",True
 case_50,answer_lookup,What is the medication of the patient with the highest billing amount among those with room number = '422'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -27522,31 +26658,4 @@ Rules:
 
 <task>
 What is the medication of the patient with the highest billing amount among those with room number = '422'?
-</task>","Okay, let's tackle this question step by step. The task is to find the medication of the patient with the highest billing amount among those who have room number 422. 
-
-First, I need to look through all the respondents and filter out those with room number 422. Let me go through each respondent one by one.
-
-Starting with Respondent 24: Room Number is 295. Not 422. Skip.
-
-Respondent 61: Room 478. Nope.
-
-Respondent 80: Room 196. Not it.
-
-Respondent 58: Room 414. Still not 422.
-
-Respondent 51: Room 275. No.
-
-Respondent 38: Room 422. Oh, here's one. Let's note their billing amount, which is 8409. Their medication is 'd'. Looking at the questions, medication options are A. Aspirin, B. Ibuprofen, C. Lipitor, D. Paracetamol, E. Penicillin. So 'd' maps to Paracetamol. But I need to check if there are other respondents with room 422 and compare their billing amounts.
-
-Next, Respondent 7: Room 368. Not 422.
-
-Respondent 12: Room 428. No.
-
-Respondent 63: Room 451. Nope.
-
-Respondent 122: Room 104. Not 422.
-
-So the only respondent with room number 422 is Respondent 38. Their billing amount is 8409, and their medication is Paracetamol. Since there's only one patient in room 422, they automatically have the highest billing amount in that room. Therefore, the answer should be Paracetamol.
-</think>
-
-Paracetamol",
+</task>",,False

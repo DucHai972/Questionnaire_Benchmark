@@ -1967,7 +1967,7 @@ List all  male respondents born before 2003.
 </html>
 </questionnaire>","Please confirm you want respondent IDs only.
 
-100",False
+100",True
 case_3,rule_based_querying,List all  male respondents born before 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5745,7 +5745,7 @@ List all  male respondents born before 2004.
 </html>
 </questionnaire>","Do you want respondent IDs only (comma-separated)?
 
-23, 84",False
+23, 84",True
 case_6,rule_based_querying,List all  female respondents born before 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11064,7 +11064,7 @@ List all  male respondents born before 2004.
 </ul>
 </body>
 </html>
-</questionnaire>","20, 77, 93",False
+</questionnaire>","20, 77, 93",True
 case_9,rule_based_querying,Find all respondents whose 'Socio-economic status' is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12265,7 +12265,7 @@ Find all respondents whose 'Socio-economic status' is between 1 and 3.
 </html>
 </questionnaire>","May I proceed to provide the list of respondent IDs?
 
-2, 35, 78, 86, 98",False
+2, 35, 78, 86, 98",True
 case_10,rule_based_querying,Which respondents have a 'Laughter' score of 8 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14088,7 +14088,7 @@ Which respondents have a 'Laughter' score of 8 or higher?
 </ul>
 </body>
 </html>
-</questionnaire>","113, 77, 52, 81, 46",False
+</questionnaire>","113, 77, 52, 81, 46",True
 case_11,rule_based_querying,List all  male respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20138,7 +20138,7 @@ Which respondents have a 'Learning' score of 7 or higher?
 </html>
 </questionnaire>","Request: Do you want respondent IDs only (comma-separated)?
 
-109, 97, 115, 150",False
+109, 97, 115, 150",True
 case_15,rule_based_querying,List all  male respondents born before 2005.,"<!DOCTYPE html>
 <html>
 <head>
@@ -24080,7 +24080,7 @@ List all  male respondents born before 2004.
 </html>
 </questionnaire>","Request: Do you want respondent IDs only?
 
-85",False
+85",True
 case_17,rule_based_querying,Find all respondents whose 'Year of birth' is between 2002 and 2005.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25585,7 +25585,7 @@ Find all respondents whose 'Year of birth' is between 2002 and 2005.
 </ul>
 </body>
 </html>
-</questionnaire>","115, 96, 101, 119, 129, 39, 89, 7",False
+</questionnaire>","115, 96, 101, 119, 129, 39, 89, 7",True
 case_18,rule_based_querying,List all  female respondents born before 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -29858,7 +29858,7 @@ List all  male respondents born before 2002.
 </ul>
 </body>
 </html>
-</questionnaire>","18, 88",False
+</questionnaire>","18, 88",True
 case_20,rule_based_querying,Which respondents have a 'Enjoyment' score of 7 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -31056,7 +31056,7 @@ Which respondents have a 'Enjoyment' score of 7 or higher?
 </html>
 </questionnaire>","May I proceed with the final answer?
 
-63, 45, 142, 41",False
+63, 45, 142, 41",True
 case_21,rule_based_querying,Find all respondents whose 'Year of birth' is between 1999 and 2005.,"<!DOCTYPE html>
 <html>
 <head>
@@ -32887,7 +32887,7 @@ Find all respondents whose 'Year of birth' is between 1999 and 2005.
 </html>
 </questionnaire>","May I proceed to provide the list of respondent IDs?
 
-144, 110, 119, 60, 104, 48, 111, 102, 8, 51",False
+144, 110, 119, 60, 104, 48, 111, 102, 8, 51",True
 case_22,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -35031,7 +35031,7 @@ List all  female respondents born before 2002.
 </ul>
 </body>
 </html>
-</questionnaire>","2, 17, 48, 94",False
+</questionnaire>","2, 17, 48, 94",True
 case_23,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -38701,7 +38701,7 @@ List all  female respondents born before 2002.
 </ul>
 </body>
 </html>
-</questionnaire>","Do you want just the respondent IDs (e.g., ""35"") or the full respondent records for each match?",False
+</questionnaire>","Do you want just the respondent IDs (e.g., ""35"") or the full respondent records for each match?",True
 case_25,rule_based_querying,Find all respondents whose 'Year of birth' is between 1999 and 2005.,"<!DOCTYPE html>
 <html>
 <head>
@@ -40049,7 +40049,7 @@ Find all respondents whose 'Year of birth' is between 1999 and 2005.
 </html>
 </questionnaire>","May I proceed with the respondent IDs?
 
-96, 37, 131, 100, 108, 36, 148",False
+96, 37, 131, 100, 108, 36, 148",True
 case_26,rule_based_querying,Find all respondents whose combined 'Stress' and 'Loneliness' score is exactly 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -47826,7 +47826,7 @@ Which  female respondents born after 2004 have a 'Life satisfaction' score of 6 
 </html>
 </questionnaire>","Please confirm you want the final answer.
 
-118",False
+118",True
 case_30,rule_based_querying,Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -51333,7 +51333,7 @@ List all respondents whose 'Enjoyment' is greater than their 'Anger'.
 </ul>
 </body>
 </html>
-</questionnaire>","9, 116, 68, 23, 113, 31, 61, 54, 110",False
+</questionnaire>","9, 116, 68, 23, 113, 31, 61, 54, 110",True
 case_32,rule_based_querying,List all respondents whose 'Happiness' is greater than their 'Depression'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -56489,7 +56489,7 @@ Which  male respondents born after 2004 have a 'Life satisfaction' score of 8 an
 </html>
 </questionnaire>","May I proceed to provide the final answer?
 
-126",False
+126",True
 case_35,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -58471,7 +58471,7 @@ List all respondents whose 'Enjoyment' is greater than their 'Anger'.
 </ul>
 </body>
 </html>
-</questionnaire>","116, 20, 24, 104, 132, 72, 95, 117, 125, 84, 149",False
+</questionnaire>","116, 20, 24, 104, 132, 72, 95, 117, 125, 84, 149",True
 case_36,rule_based_querying,Find all respondents whose total score for 'Emotional Regulation Frequency' is greater than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -65612,7 +65612,7 @@ List all respondents whose 'Laughter' is greater than their 'Worry'.
 </html>
 </questionnaire>","May I proceed with the list of respondent IDs?
 
-52, 34, 78, 41, 71, 24, 93, 65, 22, 96",False
+52, 34, 78, 41, 71, 24, 93, 65, 22, 96",True
 case_40,rule_based_querying,Find all respondents whose combined 'Depression' and 'Stress' score is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -67125,7 +67125,7 @@ Find all respondents whose combined 'Depression' and 'Stress' score is exactly 4
 </html>
 </questionnaire>","May I proceed?
 
-60",False
+60",True
 case_41,rule_based_querying,List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.,"<!DOCTYPE html>
 <html>
 <head>

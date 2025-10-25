@@ -467,7 +467,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-05-02' who scored 3 on 'Background (examination)'.
-</task>",,
+</task>",None,True
 case_3,answer_reverse_lookup,Which respondents participated in a 'III - Sepsis' session?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -795,7 +795,7 @@ Rules:
 
 <task>
 Which respondents participated in a 'III - Sepsis' session?
-</task>",,
+</task>",,False
 case_4,answer_reverse_lookup,List all respondents from sessions on '2025-03-14' who scored 3 on 'Recommendation (clear recommendation)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1354,7 +1354,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-03-14' who scored 3 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_5,answer_reverse_lookup,Find all respondents who scored 3 on 'Background (examination)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1640,7 +1640,7 @@ Rules:
 
 <task>
 Find all respondents who scored 3 on 'Background (examination)'.
-</task>",,
+</task>",,False
 case_6,answer_reverse_lookup,Which respondents participated in a 'IV (AF)' session?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2190,7 +2190,7 @@ Rules:
 
 <task>
 Which respondents participated in a 'IV (AF)' session?
-</task>",,
+</task>",,False
 case_7,answer_reverse_lookup,Find all respondents who scored 2 on 'Recommendation (clear recommendation)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2737,7 +2737,7 @@ Rules:
 
 <task>
 Find all respondents who scored 2 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_8,answer_reverse_lookup,List all respondents from sessions on '2025-05-02' who scored 2 on 'Background (examination)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3131,7 +3131,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-05-02' who scored 2 on 'Background (examination)'.
-</task>",,
+</task>",,False
 case_9,answer_reverse_lookup,List all respondents from sessions on '2025-05-16' who scored 1 on 'Background (examination)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3648,7 +3648,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-05-16' who scored 1 on 'Background (examination)'.
-</task>",,
+</task>",,False
 case_10,answer_reverse_lookup,Which respondents participated in a 'I (Myocardial infarction)' session?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -4168,7 +4168,7 @@ Rules:
 
 <task>
 Which respondents participated in a 'I (Myocardial infarction)' session?
-</task>",,
+</task>",,False
 case_11,answer_reverse_lookup,List all respondents from sessions on '2025-05-04' who scored 3 on 'Recommendation (clear recommendation)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -4679,7 +4679,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-05-04' who scored 3 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_12,answer_reverse_lookup,List all respondents from sessions on '2025-04-04' who scored 2 on 'Assessment'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5160,7 +5160,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-04-04' who scored 2 on 'Assessment'.
-</task>",,
+</task>",,False
 case_13,answer_reverse_lookup,Find all respondents who scored 2 on 'Recommendation (global rating scale)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5443,7 +5443,7 @@ Rules:
 
 <task>
 Find all respondents who scored 2 on 'Recommendation (global rating scale)'.
-</task>",,
+</task>",,False
 case_14,answer_reverse_lookup,Which respondents participated in a 'III-Sepsis' session?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5795,7 +5795,7 @@ Rules:
 
 <task>
 Which respondents participated in a 'III-Sepsis' session?
-</task>",,
+</task>",,False
 case_15,answer_reverse_lookup,Find all respondents who scored 3 on 'Recommendation (clear recommendation)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6273,7 +6273,7 @@ Rules:
 
 <task>
 Find all respondents who scored 3 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_16,answer_reverse_lookup,Which respondents participated in a 'V (Hypoglycemia)' session?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6592,7 +6592,7 @@ Rules:
 
 <task>
 Which respondents participated in a 'V (Hypoglycemia)' session?
-</task>",,
+</task>",,False
 case_17,answer_reverse_lookup,Find all respondents who scored 3 on 'Situation'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6956,7 +6956,7 @@ Rules:
 
 <task>
 Find all respondents who scored 3 on 'Situation'.
-</task>",,
+</task>",,False
 case_18,answer_reverse_lookup,Find all respondents who scored 3 on 'Assessment'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -7392,7 +7392,7 @@ Rules:
 
 <task>
 Find all respondents who scored 3 on 'Assessment'.
-</task>",,
+</task>",,False
 case_19,answer_reverse_lookup,List all respondents from sessions on '2025-03-14' who scored 3 on 'Assessment'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -7687,7 +7687,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-03-14' who scored 3 on 'Assessment'.
-</task>",,
+</task>",,False
 case_20,answer_reverse_lookup,Find all respondents who scored 2 on 'Identification'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8090,7 +8090,7 @@ Rules:
 
 <task>
 Find all respondents who scored 2 on 'Identification'.
-</task>",,
+</task>",,False
 case_21,answer_reverse_lookup,Find all respondents who scored 2 on 'Background (examination)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8562,7 +8562,7 @@ Rules:
 
 <task>
 Find all respondents who scored 2 on 'Background (examination)'.
-</task>",,
+</task>",,False
 case_22,answer_reverse_lookup,Find all respondents who scored 2 on 'Background (history)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8884,7 +8884,7 @@ Rules:
 
 <task>
 Find all respondents who scored 2 on 'Background (history)'.
-</task>",,
+</task>",,False
 case_23,answer_reverse_lookup,List all respondents from sessions on '2025-05-02' who scored 2 on 'Recommendation (global rating scale)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9239,7 +9239,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-05-02' who scored 2 on 'Recommendation (global rating scale)'.
-</task>",,
+</task>",,False
 case_24,answer_reverse_lookup,List all respondents from sessions on '2025-05-02' who scored 2 on 'Recommendation (clear recommendation)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -9753,7 +9753,7 @@ Rules:
 
 <task>
 List all respondents from sessions on '2025-05-02' who scored 2 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_25,answer_reverse_lookup,Find all respondents who scored 2 on 'Assessment'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10270,7 +10270,7 @@ Rules:
 
 <task>
 Find all respondents who scored 2 on 'Assessment'.
-</task>",,
+</task>",,False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Recommendation (global rating scale)' and 'Identification' greater than 5?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -10697,7 +10697,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Recommendation (global rating scale)' and 'Identification' greater than 5?
-</task>",,
+</task>",,False
 case_27,answer_reverse_lookup,List all respondents who scored 3 on 'Identification' and whose 'Comments' contain the word 'reflected'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -11211,7 +11211,7 @@ Rules:
 
 <task>
 List all respondents who scored 3 on 'Identification' and whose 'Comments' contain the word 'reflected'.
-</task>",,
+</task>",,False
 case_28,answer_reverse_lookup,Which respondents have a total score for 'Situation' and 'Assessment' greater than 5?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -11608,7 +11608,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Situation' and 'Assessment' greater than 5?
-</task>",,
+</task>",,False
 case_29,answer_reverse_lookup,Find all respondents from the 'III (Sepsis)' session who scored 2 on 'Assessment' and 3 on 'Situation'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -12116,7 +12116,7 @@ Rules:
 
 <task>
 Find all respondents from the 'III (Sepsis)' session who scored 2 on 'Assessment' and 3 on 'Situation'.
-</task>",,
+</task>","Respondent15, Respondent8, Respondent4",False
 case_30,answer_reverse_lookup,Which respondents have a total score for 'Assessment' and 'Recommendation (clear recommendation)' greater than 4?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -12582,7 +12582,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Assessment' and 'Recommendation (clear recommendation)' greater than 4?
-</task>",,
+</task>",,False
 case_31,answer_reverse_lookup,Which respondents have a total score for 'Background (history)' and 'Assessment' greater than 5?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -13012,7 +13012,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Background (history)' and 'Assessment' greater than 5?
-</task>",,
+</task>",,False
 case_32,answer_reverse_lookup,Find all respondents from the 'IV (VT)' session who scored 3 on 'Identification' and 3 on 'Background (examination)'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -13409,7 +13409,7 @@ Rules:
 
 <task>
 Find all respondents from the 'IV (VT)' session who scored 3 on 'Identification' and 3 on 'Background (examination)'.
-</task>",,
+</task>",,False
 case_33,answer_reverse_lookup,Which respondents have a total score for 'Assessment' and 'Situation' greater than 5?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -13911,7 +13911,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Assessment' and 'Situation' greater than 5?
-</task>",,
+</task>",,False
 case_34,answer_reverse_lookup,Which respondents have a total score for 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)' greater than 5?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -14464,7 +14464,77 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)' greater than 5?
-</task>",,
+</task>","To solve this task, we need to identify the respondents who have a total score for 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)' greater than 5. 
+
+From the 'questions' section, we understand that:
+- 'Recommendation (global rating scale)' is scored as follows: 0 = Not at all confident, 1 = Confident but required extended questioning, 2 = Confident but required some further questioning, 3 = Confident and required little or no questioning.
+- 'Recommendation (clear recommendation)' is scored as follows: 0 = No recommendation, 1 = Clear recommendation only after extended questioning, 2 = Clear recommendation after minimal questioning, 3 = Clear comprehensive recommendation without questioning.
+
+We will go through each respondent's data in the 'responses' section and calculate the total score for these two recommendations.
+
+1. Respondent21: 
+   - Recommendation (global rating scale) = 3
+   - Recommendation (clear recommendation) = 3
+   Total score = 3 + 3 = 6 (Greater than 5)
+
+2. Respondent22: 
+   - Recommendation (global rating scale) = 3
+   - Recommendation (clear recommendation) = 2
+   Total score = 3 + 2 = 5 (Not greater than 5)
+
+3. Respondent2: 
+   - Recommendation (global rating scale) = 1
+   - Recommendation (clear recommendation) = 2
+   Total score = 1 + 2 = 3 (Not greater than 5)
+
+4. Respondent5: 
+   - Recommendation (global rating scale) = 3
+   - Recommendation (clear recommendation) = 2
+   Total score = 3 + 2 = 5 (Not greater than 5)
+
+5. Respondent20: 
+   - Recommendation (global rating scale) = 3
+   - Recommendation (clear recommendation) = 2
+   Total score = 3 + 2 = 5 (Not greater than 5)
+
+6. Respondent10: 
+   - Recommendation (global rating scale) = 2
+   - Recommendation (clear recommendation) = 2
+   Total score = 2 + 2 = 4 (Not greater than 5)
+
+7. Respondent3: 
+   - Recommendation (global rating scale) = 3
+   - Recommendation (clear recommendation) = 3
+   Total score = 3 + 3 = 6 (Greater than 5)
+
+8. Respondent8: 
+   - Recommendation (global rating scale) = 3
+   - Recommendation (clear recommendation) = 2
+   Total score = 3 + 2 = 5 (Not greater than 5)
+
+9. Respondent23: 
+   - Recommendation (global rating scale) = 3
+   - Recommendation (clear recommendation) = 3
+   Total score = 3 + 3 = 6 (Greater than 5)
+
+10. Respondent9: 
+    - Recommendation (global rating scale) = 2
+    - Recommendation (clear recommendation) = 3
+    Total score = 2 + 3 = 5 (Not greater than 5)
+
+11. Respondent13: 
+    - Recommendation (global rating scale) = 2
+    - Recommendation (clear recommendation) = 2
+    Total score = 2 + 2 = 4 (Not greater than 5)
+
+12. Respondent7: 
+    - Recommendation (global rating scale) = 2
+    - Recommendation (clear recommendation) = 2
+    Total score = 2 + 2 = 4 (Not greater than 5)
+
+The respondents with a total score greater than 5 are: Respondent21, Respondent3, Respondent23.
+
+The final answer is: Respondent21, Respondent3, Respondent23.",False
 case_35,answer_reverse_lookup,List all respondents who scored 3 on 'Identification' and whose 'Comments' contain the word 'Overall'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15020,7 +15090,7 @@ Rules:
 
 <task>
 List all respondents who scored 3 on 'Identification' and whose 'Comments' contain the word 'Overall'.
-</task>",,
+</task>",None,True
 case_36,answer_reverse_lookup,List all respondents who scored 1 on 'Recommendation (global rating scale)' and whose 'Comments' contain the word 'Clear'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15573,7 +15643,7 @@ Rules:
 
 <task>
 List all respondents who scored 1 on 'Recommendation (global rating scale)' and whose 'Comments' contain the word 'Clear'.
-</task>",,
+</task>",Respondent2,False
 case_37,answer_reverse_lookup,List all respondents who scored 3 on 'Identification' and whose 'Comments' contain the word 'Time'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15961,7 +16031,7 @@ Rules:
 
 <task>
 List all respondents who scored 3 on 'Identification' and whose 'Comments' contain the word 'Time'.
-</task>",,
+</task>","10, 14",True
 case_38,answer_reverse_lookup,Which respondents have a total score for 'Background (history)' and 'Background (examination)' greater than 4?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -16430,7 +16500,69 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Background (history)' and 'Background (examination)' greater than 4?
-</task>",,
+</task>","To solve this task, we need to identify the respondents who have a total score for 'Background (history)' and 'Background (examination)' greater than 4. 
+
+From the 'questions' section, we know that:
+- 'Background (history)' is represented by :QBackground_history and has a rubric where 0 = History is unstructured or non-relevant, 1 = Relevant history but frequent clarification needed, 2 = Relevant history with few further questions needed, 3 = Comprehensive focused history.
+- 'Background (examination)' is represented by :QBackground_examination and has a rubric where 0 = Observations are omitted or irrelevant, 1 = Observations reported but frequent clarification needed, 2 = Observations reported with few further questions needed, 3 = Comprehensive focused examination/observations.
+
+We will go through each respondent in the 'responses' section and calculate their total score for 'Background (history)' and 'Background (examination)'.
+
+
+:Respondent23: 
+- Background_history: 2
+- Background_examination: 2
+Total score: 4
+
+:Respondent10: 
+- Background_history: 2
+- Background_examination: 2
+Total score: 4
+
+:Respondent15: 
+- Background_history: 2
+- Background_examination: 3
+Total score: 5
+
+:Respondent3: 
+- Background_history: 3
+- Background_examination: 3
+Total score: 6
+
+:Respondent8: 
+- Background_history: 3
+- Background_examination: 2
+Total score: 5
+
+:Respondent9: 
+- Background_history: 2
+- Background_examination: 2
+Total score: 4
+
+:Respondent7: 
+- Background_history: 2
+- Background_examination: 3
+Total score: 5
+
+:Respondent14: 
+- Background_history: 2
+- Background_examination: 2
+Total score: 4
+
+:Respondent2: 
+- Background_history: 2
+- Background_examination: 3
+Total score: 5
+
+:Respondent18: 
+- Background_history: 2
+- Background_examination: 2
+Total score: 4
+
+The respondents with a total score greater than 4 are: 
+15, 3, 8, 7, 2 
+
+These respondents meet the condition specified in the task.",False
 case_39,answer_reverse_lookup,List all respondents who scored 3 on 'Recommendation (clear recommendation)' and whose 'Comments' contain the word 'unclear'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -16860,7 +16992,7 @@ Rules:
 
 <task>
 List all respondents who scored 3 on 'Recommendation (clear recommendation)' and whose 'Comments' contain the word 'unclear'.
-</task>",,
+</task>",Respondent9,True
 case_40,answer_reverse_lookup,List all respondents who scored 2 on 'Assessment' and whose 'Comments' contain the word 'Clear'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -17419,7 +17551,7 @@ Rules:
 
 <task>
 List all respondents who scored 2 on 'Assessment' and whose 'Comments' contain the word 'Clear'.
-</task>",,
+</task>","Respondent15, Respondent4, Respondent22, Respondent9, Respondent19, Respondent8",False
 case_41,answer_reverse_lookup,Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions on the same date.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -17930,7 +18062,51 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (clear recommendation)' is higher than the average 'Recommendation (clear recommendation)' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Recommendation (clear recommendation)' for all sessions on each date. Then, we compare each respondent's 'Recommendation (clear recommendation)' score to this average for their respective date.
+
+1. **Calculate Average 'Recommendation (clear recommendation)' for Each Date:**
+
+- For '2025-04-04':
+  - Respondent11: 3
+  - Respondent3: 3
+  - Average = (3 + 3) / 2 = 3
+
+- For '2025-05-02':
+  - Respondent20: 2
+  - Respondent1: 2
+  - Respondent8: 2
+  - Average = (2 + 2 + 2) / 3 = 2
+
+- For '2025-05-04':
+  - Respondent9: 3
+  - Respondent17: 3
+  - Average = (3 + 3) / 2 = 3
+
+- For '2025-05-16':
+  - Respondent22: 2
+  - Respondent21: 3
+  - Average = (2 + 3) / 2 = 2.5
+
+- For '2025-03-14':
+  - Respondent10: 2
+  - Respondent13: 2
+  - Average = (2 + 2) / 2 = 2
+
+2. **Identify Respondents with 'Recommendation (clear recommendation)' Higher than the Average for Their Date:**
+
+- '2025-04-04': Both Respondent11 and Respondent3 have a score of 3, which is equal to the average. None are higher than the average.
+
+- '2025-05-02': All respondents (Respondent20, Respondent1, Respondent8) have a score of 2, which is equal to the average. None are higher than the average.
+
+- '2025-05-04': Both Respondent9 and Respondent17 have a score of 3, which is equal to the average. None are higher than the average.
+
+- '2025-05-16': Respondent21 has a score of 3, which is higher than the average of 2.5.
+
+- '2025-03-14': Both Respondent10 and Respondent13 have a score of 2, which is equal to the average. None are higher than the average.
+
+**Respondents with 'Recommendation (clear recommendation)' higher than the average for their date:** Respondent21. 
+
+The final answer is: $\boxed{21}$",True
 case_42,answer_reverse_lookup,Find all respondents whose 'Identification' is higher than the average 'Identification' for all sessions on the same date.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -18363,7 +18539,19 @@ Rules:
 
 <task>
 Find all respondents whose 'Identification' is higher than the average 'Identification' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Identification' score for each date, and then find the respondents whose 'Identification' score is higher than this average for their respective dates.
+
+1. Calculate the average 'Identification' score for each date:
+   - For '2025-05-02', there is only one respondent, :Respondent16, with an 'Identification' score of 3. The average is 3.
+   - For '2025-05-04', there are three respondents (:Respondent17, :Respondent15, :Respondent9) with 'Identification' scores of 3. The average is 3.
+   - For '2025-05-16', there is only one respondent, :Respondent21, with an 'Identification' score of 3. The average is 3.
+   - For '2025-04-04', there are two respondents (:Respondent6, :Respondent2) with 'Identification' scores of 3. The average is 3.
+   - For '2025-03-14', there are two respondents (:Respondent14, :Respondent23) with 'Identification' scores of 3. The average is 3.
+
+2. Identify respondents whose 'Identification' score is higher than the average for their date:
+   - Since all respondents have an 'Identification' score of 3 and the averages for all dates are 3, there are no respondents with a score higher than the average for their respective dates.
+
+Therefore, the list of respondents whose 'Identification' is higher than the average 'Identification' for all sessions on the same date is empty.",False
 case_43,answer_reverse_lookup,Which respondents participated in a session where the average 'Assessment' for that session name is greater than 2.0?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -18877,7 +19065,39 @@ Rules:
 
 <task>
 Which respondents participated in a session where the average 'Assessment' for that session name is greater than 2.0?
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Assessment' score for each session name. Then, we identify the sessions with an average 'Assessment' score greater than 2.0 and list the respondents who participated in those sessions.
+
+1. **Calculate Average 'Assessment' Score for Each Session Name:**
+
+From the provided data, we calculate the average 'Assessment' score for each unique session name.
+
+- **II (Anaphylaxis)**: Respondent12 (Assessment = 2), Respondent8 (Assessment = 2) => Average = (2 + 2) / 2 = 2
+- **IV-Hypoglycemia**: Respondent14 (Assessment = 3) => Average = 3
+- **IV (AF)**: Respondent11 (Assessment = 3) => Average = 3
+- **I (Myocardial infarction)**: Respondent21 (Assessment = 2) => Average = 2
+- **III (Sepsis)**: Respondent4 (Assessment = 2), Respondent8 (not in this session, mistake in previous step) => Average = 2
+- **II (Anaphylactic Shock)**: Respondent6 (Assessment = 2) => Average = 2
+- **IV (VT)**: Respondent20 (Assessment = 3), Respondent22 (Assessment = 2) => Average = (3 + 2) / 2 = 2.5
+- **II-Anaphylaxsis**: Respondent23 (Assessment = 3) => Average = 3
+- **II - Anaphylaxsis**: Respondent5 (Assessment = 3) => Average = 3
+
+2. **Identify Sessions with Average 'Assessment' Greater Than 2.0:**
+
+- **IV-Hypoglycemia**: Average = 3
+- **IV (AF)**: Average = 3
+- **II-Anaphylaxsis**: Average = 3
+- **II - Anaphylaxsis**: Average = 3
+- **IV (VT)**: Average = 2.5
+
+3. **List Respondents in Identified Sessions:**
+
+- **IV-Hypoglycemia**: Respondent14
+- **IV (AF)**: Respondent11
+- **II-Anaphylaxsis**: Respondent23
+- **II - Anaphylaxsis**: Respondent5
+- **IV (VT)**: Respondent20, Respondent22
+
+Therefore, the respondents who participated in sessions where the average 'Assessment' for that session name is greater than 2.0 are: Respondent14, Respondent11, Respondent23, Respondent5, Respondent20, Respondent22.",False
 case_44,answer_reverse_lookup,Find all respondents whose 'Background (examination)' is higher than the average 'Background (examination)' for all sessions on the same date.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -19397,7 +19617,62 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (examination)' is higher than the average 'Background (examination)' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (examination)' score for each date, and then identify respondents whose 'Background (examination)' score is higher than this average for their respective session dates.
+
+1. **Calculate Average 'Background (examination)' Scores by Date:**
+
+From the provided data, we can calculate the average 'Background (examination)' score for each date by summing up all 'Background (examination)' scores for a given date and then dividing by the number of respondents for that date.
+
+- **2025-05-04:**
+  - Respondent18: 2
+  - Respondent15: 3
+  - Respondent9: 2
+  Average = (2 + 3 + 2) / 3 = 7 / 3 = 2.33
+
+- **2025-04-04:**
+  - Respondent2: 3
+  - Respondent3: 3
+  - Respondent11: 3
+  Average = (3 + 3 + 3) / 3 = 9 / 3 = 3
+
+- **2025-05-16:**
+  - Respondent19: 3
+  - Respondent4: 2
+  Average = (3 + 2) / 2 = 5 / 2 = 2.5
+
+- **2025-03-14:**
+  - Respondent13: 1
+  - Respondent7: 3
+  - Respondent23: 2
+  Average = (1 + 3 + 2) / 3 = 6 / 3 = 2
+
+2. **Identify Respondents with Higher 'Background (examination)' Scores:**
+
+Now, compare each respondent's 'Background (examination)' score to the average for their session date.
+
+- **2025-05-04:**
+  - Respondent18: 2 (not higher than 2.33)
+  - Respondent15: 3 (higher than 2.33)
+  - Respondent9: 2 (not higher than 2.33)
+
+- **2025-04-04:**
+  - Since the average is 3, and all respondents have a score of 3, none are higher than the average.
+
+- **2025-05-16:**
+  - Respondent19: 3 (higher than 2.5)
+  - Respondent4: 2 (not higher than 2.5)
+
+- **2025-03-14:**
+  - Respondent13: 1 (not higher than 2)
+  - Respondent7: 3 (higher than 2)
+  - Respondent23: 2 (not higher than 2)
+
+**Respondents with Higher 'Background (examination)' Scores:**
+- Respondent15
+- Respondent19
+- Respondent7
+
+Therefore, the respondents whose 'Background (examination)' is higher than the average 'Background (examination)' for all sessions on the same date are Respondent15, Respondent19, and Respondent7.",False
 case_45,answer_reverse_lookup,List all respondents who scored perfectly on 'Identification' and 'Background (history)' and whose 'Background (examination)' is below the average for all sessions.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -19788,7 +20063,50 @@ Rules:
 
 <task>
 List all respondents who scored perfectly on 'Identification' and 'Background (history)' and whose 'Background (examination)' is below the average for all sessions.
-</task>",,
+</task>","To solve this task, we first need to understand the requirements and calculate the necessary values based on the provided data.
+
+1. **Identify respondents who scored perfectly on 'Identification'**: This means they have a score of ""3"" for `pred:Identification`.
+2. **Identify respondents who scored perfectly on 'Background (history)'**: This means they have a score of ""3"" for `pred:Background_history`.
+3. **Calculate the average score for 'Background (examination)' across all sessions**: We need to sum up all scores for `pred:Background_examination` and divide by the number of respondents to find the average.
+4. **Identify respondents whose 'Background (examination)' score is below this average**: After calculating the average, we compare each respondent's `pred:Background_examination` score to this average.
+
+Let's calculate the average `pred:Background_examination` score first:
+
+- Respondent22: 3
+- Respondent18: 2
+- Respondent15: 3
+- Respondent14: 2
+- Respondent2: 3
+- Respondent7: 3
+- Respondent17: 3
+- Respondent12: 3
+
+Sum of scores = 3 + 2 + 3 + 2 + 3 + 3 + 3 + 3 = 22
+
+Number of respondents = 8
+
+Average score = Sum of scores / Number of respondents = 22 / 8 = 2.75
+
+Now, let's identify the respondents who meet all the criteria:
+
+1. Scored perfectly on 'Identification' (score of 3).
+2. Scored perfectly on 'Background (history)' (score of 3).
+3. 'Background (examination)' score is below the average (less than 2.75).
+
+Based on the data:
+
+- Respondent22: Identification=3, Background_history=3, Background_examination=3 (Does not meet the criteria because Background_examination is not below average)
+- Respondent18: Identification=3, Background_history=2, Background_examination=2 (Does not meet the criteria because Background_history is not perfect)
+- Respondent15: Identification=3, Background_history=2, Background_examination=3 (Does not meet the criteria because Background_history is not perfect)
+- Respondent14: Identification=3, Background_history=2, Background_examination=2 (Does not meet the criteria because Background_history is not perfect)
+- Respondent2: Identification=3, Background_history=2, Background_examination=3 (Does not meet the criteria because Background_history is not perfect)
+- Respondent7: Identification=3, Background_history=2, Background_examination=3 (Does not meet the criteria because Background_history is not perfect)
+- Respondent17: Identification=3, Background_history=3, Background_examination=3 (Does not meet the criteria because Background_examination is not below average)
+- Respondent12: Identification=3, Background_history=3, Background_examination=3 (Does not meet the criteria because Background_examination is not below average)
+
+None of the respondents meet the criteria of having a perfect score in 'Identification' and 'Background (history)' and a 'Background (examination)' score below the average. 
+
+The final answer is: $\boxed{None}$",False
 case_46,answer_reverse_lookup,List all respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)' and whose 'Background (history)' is below the average for all sessions.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -20326,7 +20644,50 @@ Rules:
 
 <task>
 List all respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)' and whose 'Background (history)' is below the average for all sessions.
-</task>",,
+</task>","To solve this task, we first need to calculate the average score for 'Background (history)' across all sessions. Then, we identify respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)', and finally, we filter these respondents to only include those whose 'Background (history)' score is below the calculated average.
+
+1. **Calculate the average 'Background (history)' score**:
+   - Respondent16: 3
+   - Respondent21: 3
+   - Respondent15: 2
+   - Respondent2: 2
+   - Respondent7: 2
+   - Respondent9: 2
+   - Respondent5: 3
+   - Respondent10: 2
+   - Respondent8: 3
+   - Respondent12: 3
+   - Respondent22: 3
+   - Respondent20: 2
+   - Total score: 3 + 3 + 2 + 2 + 2 + 2 + 3 + 2 + 3 + 3 + 3 + 2 = 30
+   - Number of respondents: 12
+   - Average score: 30 / 12 = 2.5
+
+2. **Identify respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)'**:
+   - Perfect score for 'Recommendation (global rating scale)' is 3.
+   - Perfect score for 'Recommendation (clear recommendation)' is 3.
+   - Respondents with perfect scores in both:
+     - Respondent16: No (Recommendation_clear_recommendation = 2)
+     - Respondent21: No (Situation = 2, but this is not a criterion; however, Recommendation_global_rating_scale = 3 and Recommendation_clear_recommendation = 3, so yes)
+     - Respondent15: No (Recommendation_clear_recommendation = 2)
+     - Respondent2: No (Recommendation_global_rating_scale = 1)
+     - Respondent7: No (Recommendation_clear_recommendation = 2)
+     - Respondent9: No (Recommendation_global_rating_scale = 2)
+     - Respondent5: No (Recommendation_clear_recommendation = 2)
+     - Respondent10: No (Recommendation_global_rating_scale = 2 and Recommendation_clear_recommendation = 2)
+     - Respondent8: No (Recommendation_clear_recommendation = 2)
+     - Respondent12: Yes (Recommendation_global_rating_scale = 3 and Recommendation_clear_recommendation = 3)
+     - Respondent22: No (Recommendation_clear_recommendation = 2)
+     - Respondent20: No (Recommendation_clear_recommendation = 2)
+   - Respondents who scored perfectly: Respondent21, Respondent12
+
+3. **Filter to include only those with 'Background (history)' below the average**:
+   - Average 'Background (history)' score: 2.5
+   - Respondent21: Background_history = 3 (not below average)
+   - Respondent12: Background_history = 3 (not below average)
+   - Neither of the respondents with perfect scores in 'Recommendation (global rating scale)' and 'Recommendation (clear recommendation)' have a 'Background (history)' score below the average.
+
+Given the steps above, there are **no respondents** who meet all the specified criteria.",False
 case_47,answer_reverse_lookup,Find all respondents whose 'Background (history)' is higher than the average 'Background (history)' for all sessions on the same date.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -20717,7 +21078,37 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (history)' is higher than the average 'Background (history)' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (history)' score for each date, and then identify respondents whose 'Background (history)' score is higher than this average for their respective session dates.
+
+Given the data, let's calculate the average 'Background (history)' score for each date:
+
+1. **2025-05-16**: Respondent21 has a score of 3.
+2. **2025-05-04**: Respondent18 has a score of 2.
+3. **2025-05-02**: Respondents20, 8, and 1 have scores of 2, 3, and 2 respectively.
+4. **2025-04-04**: Respondent6 has a score of 3.
+5. **2025-03-14**: Respondents10 and 14 have scores of 2 and 2 respectively.
+
+Now, let's calculate the average for each date:
+- **2025-05-16**: Average = 3 (only one respondent)
+- **2025-05-04**: Average = 2 (only one respondent)
+- **2025-05-02**: Average = (2 + 3 + 2) / 3 = 7 / 3 = 2.33
+- **2025-04-04**: Average = 3 (only one respondent)
+- **2025-03-14**: Average = (2 + 2) / 2 = 4 / 2 = 2
+
+Next, we compare each respondent's 'Background (history)' score to the average for their session date:
+- **2025-05-16**: Respondent21's score (3) is equal to the average, so they do not exceed it.
+- **2025-05-04**: Respondent18's score (2) is equal to the average, so they do not exceed it.
+- **2025-05-02**: 
+  - Respondent20's score (2) is less than the average (2.33), so they do not exceed it.
+  - Respondent8's score (3) is higher than the average (2.33), so they exceed it.
+  - Respondent1's score (2) is less than the average (2.33), so they do not exceed it.
+- **2025-04-04**: Respondent6's score (3) is equal to the average, so they do not exceed it.
+- **2025-03-14**: 
+  - Respondent10's score (2) is equal to the average, so they do not exceed it.
+  - Respondent14's score (2) is equal to the average, so they do not exceed it.
+
+Therefore, the respondents whose 'Background (history)' is higher than the average 'Background (history)' for all sessions on the same date are:
+Respondent8",True
 case_48,answer_reverse_lookup,List all respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Situation' and whose 'Identification' is below the average for all sessions.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -21114,7 +21505,40 @@ Rules:
 
 <task>
 List all respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Situation' and whose 'Identification' is below the average for all sessions.
-</task>",,
+</task>","To solve this task, we first need to calculate the average score for 'Identification' across all sessions. Then, we identify respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Situation', and finally, filter those whose 'Identification' score is below this average.
+
+1. **Calculate the average 'Identification' score**:
+   - Respondent8: 3
+   - Respondent4: 3
+   - Respondent15: 3
+   - Respondent22: 3
+   - Respondent5: 3
+   - Respondent16: 3
+   - Respondent10: 2
+   - Respondent9: 3
+   - Total score: 3+3+3+3+3+3+2+3 = 23
+   - Number of respondents: 8
+   - Average 'Identification' score: 23 / 8 = 2.875
+
+2. **Identify respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Situation'**:
+   - Perfect score on 'Recommendation (global rating scale)' means a score of 3.
+   - Perfect score on 'Situation' means a score of 3.
+   - Respondents who meet these criteria:
+     - Respondent8: Scores 3 on both
+     - Respondent4: Does not score 3 on 'Recommendation (global rating scale)'
+     - Respondent15: Does not score 3 on 'Recommendation (global rating scale)'
+     - Respondent22: Scores 3 on both
+     - Respondent5: Scores 3 on both
+     - Respondent16: Scores 3 on both
+     - Respondent10: Does not score 3 on either
+     - Respondent9: Does not score 3 on 'Recommendation (global rating scale)'
+
+3. **Filter respondents whose 'Identification' score is below the average**:
+   - Average 'Identification' score is 2.875.
+   - Respondents with perfect scores on 'Recommendation (global rating scale)' and 'Situation' and 'Identification' below average:
+     - None, since all respondents who scored perfectly on the mentioned fields also scored 3 on 'Identification', which is above the average.
+
+Given the steps above, there are **no respondents** who meet all the specified criteria because all respondents who scored perfectly on 'Recommendation (global rating scale)' and 'Situation' also had an 'Identification' score of 3, which is above the calculated average of 2.875.",False
 case_49,answer_reverse_lookup,Which respondents participated in a session where the average 'Background (examination)' for that session name is greater than 2.0?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -21628,7 +22052,28 @@ Rules:
 
 <task>
 Which respondents participated in a session where the average 'Background (examination)' for that session name is greater than 2.0?
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (examination)' score for each session name. Then, we identify which respondents participated in sessions where this average is greater than 2.0.
+
+1. **Calculate Average 'Background (examination)' for Each Session Name:**
+
+- **III - Sepsis**: Respondent15 (3), Respondent8 does not belong to this date but for completeness, if considering all dates, Respondent8 (2) and Respondent7 (3). However, since the question focuses on the date '2025-05-04', we only consider Respondent15 (3). Average = 3.
+- **IV - VT**: Respondent18 (2).
+- **II - Anaphylaxsis**: Respondent5 (3), Respondent9 (2). Average = (3 + 2) / 2 = 2.5.
+- **II (Anaphylaxsis)** and **II-Anaphylaxsis** seem to refer to the same session type, but given the data, we treat **II - Anaphylaxsis** as seen on '2025-05-04'.
+- **III (Sepsis)**: Not directly relevant as the specific session name **III - Sepsis** is what we're averaging for the '2025-05-04' date.
+
+2. **Identify Sessions with Average 'Background (examination)' > 2.0:**
+
+- **III - Sepsis**: Average = 3, which is greater than 2.0.
+- **II - Anaphylaxsis**: Average = 2.5, which is greater than 2.0.
+- **IV - VT**: Average = 2, which is not greater than 2.0.
+
+3. **List Respondents in These Sessions:**
+
+- **III - Sepsis**: Respondent15.
+- **II - Anaphylaxsis**: Respondent5, Respondent9.
+
+Therefore, the respondents who participated in sessions where the average 'Background (examination)' for that session name is greater than 2.0 are: Respondent15, Respondent5, Respondent9.",False
 case_50,answer_reverse_lookup,Find all respondents whose 'Background (history)' is higher than the average 'Background (history)' for all sessions on the same date.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -22055,4 +22500,46 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (history)' is higher than the average 'Background (history)' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (history)' score for each date, and then identify respondents whose 'Background (history)' score is higher than this average for their respective session dates.
+
+Given the data, let's calculate the average 'Background (history)' score for each date:
+
+1. **2025-04-04**:
+   - Respondent3: 3
+   - Respondent11: 3
+   Average = (3 + 3) / 2 = 3
+
+2. **2025-05-02**:
+   - Respondent1: 2
+   - Respondent12: 3
+   Average = (2 + 3) / 2 = 2.5
+
+3. **2025-03-14**:
+   - Respondent14: 2
+   - Respondent10: 2
+   Average = (2 + 2) / 2 = 2
+
+4. **2025-05-04**:
+   - Respondent9: 2
+   - Respondent17: 3
+   Average = (2 + 3) / 2 = 2.5
+
+5. **2025-05-16**:
+   - Respondent22: 3
+   Since there's only one respondent for this date, the average is 3.
+
+Now, let's identify respondents whose 'Background (history)' score is higher than the average for their session date:
+
+1. **2025-04-04**: Both Respondent3 and Respondent11 have a score of 3, which is equal to the average. None are higher than the average.
+
+2. **2025-05-02**: Respondent12 has a score of 3, which is higher than the average of 2.5.
+
+3. **2025-03-14**: Neither Respondent14 nor Respondent10 has a score higher than the average of 2.
+
+4. **2025-05-04**: Respondent17 has a score of 3, which is higher than the average of 2.5.
+
+5. **2025-05-16**: Respondent22 has a score of 3, which is equal to the average since there's only one respondent for this date.
+
+Therefore, the respondents whose 'Background (history)' is higher than the average for all sessions on the same date are:
+
+Respondent12, Respondent17",False

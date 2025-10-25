@@ -858,7 +858,7 @@ Rules:
 
 <task>
 List all respondents from 'Sweden' whose 'YearsCode' is less than 15.
-</task>","The survey data includes information on professional identity, employment, education level, coding experience (total and professional), developer type, organization size, country, compensation, programming languages, tools, and version control systems for seven respondents. Most respondents are employed full-time developers with varying years of coding experience. Compensation details are provided with different frequencies. The data covers a range of countries and organizational sizes.",False
+</task>","The survey data includes information on professional identity, employment, education level, coding experience (total and professional), developer type, organization size, country, compensation, programming languages, tools, and version control systems for seven respondents. Most respondents are employed full-time developers with varying years of coding experience. Compensation details are provided with different frequencies. The data covers a range of countries and organizational sizes.",True
 case_4,rule_based_querying,List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1720,7 +1720,7 @@ Rules:
 Which respondents have a 'YearsCode' greater than 5?
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary professional identity, employment status, education level, and coding experience. It also gathers information on their organization size, country of residence, and compensation details. Furthermore, the survey delves into the programming languages and developer tools respondents have worked with or wish to work with, along with their preferred version control systems. All fields are clearly defined, with some being multiple-choice and others open-ended, allowing for both structured and detailed responses.
 
-401, 309, 122, 73007, 308",False
+401, 309, 122, 73007, 308",True
 case_6,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2100,7 +2100,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is between 5 and 15.
 </task>","The survey data includes information on professional identity, employment, education, coding experience (total and professional), developer roles, organization size, country, compensation, programming languages, tools, and version control systems. Most fields are open-ended, allowing for detailed responses, while some are multiple-choice, providing structured categories. The 'YearsCodePro' field, which is open-ended, represents the years of professional coding experience. The dataset contains responses from five individuals, offering a small sample of developer profiles.
 
-72681, 539",False
+72681, 539",True
 case_7,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2837,7 +2837,7 @@ Rules:
 Which respondents have a 'YearsCode' greater than 15?
 </task>","The survey data includes information on professional identity, employment, education level, coding experience (total and professional), developer type, organization size, country, compensation, programming languages, developer tools, and version control systems. Most respondents identify as professional developers and are employed full-time. The 'YearsCode' and 'YearsCodePro' fields are open-ended numerical values, indicating varying levels of experience among the respondents. Compensation details are provided with different frequencies (monthly, yearly).
 
-471, 72987, 73090, 72836",False
+471, 72987, 73090, 72836",True
 case_8,rule_based_querying,List all respondents from 'Israel' whose 'YearsCodePro' is less than 12.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4158,7 +4158,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is between 2 and 7.
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary professional identity, employment status, education level, and years of coding experience (both total and professional). It also gathers information on their developer roles, organization size, country of residence, and compensation details. Furthermore, the survey identifies programming languages and developer tools respondents have worked with or wish to work with, along with their preferred version control systems. The data is structured with clear labels for each field, and responses are provided for individual respondents, each identified by a unique numerical ID.
 
-448, 72647, 487, 73142, 73013, 72683, 383",False
+448, 72647, 487, 73142, 73013, 72683, 383",True
 case_10,rule_based_querying,List all respondents from 'Austria' whose 'CompTotal' is less than 73500.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4589,7 +4589,7 @@ Rules:
 List all respondents from 'Austria' whose 'CompTotal' is less than 73500.
 </task>","The survey data includes information on professional identity, employment, education, coding experience (total and professional), developer roles, organization size, country, compensation, programming languages, tools, and version control systems. Most fields are open-ended, allowing for detailed responses, while some are multiple-choice or multiple-choice multi-select. Compensation details include both total amount and frequency. The dataset provides a snapshot of various aspects of developers' professional lives.
 
-29060, 168",False
+29060, 168",True
 case_11,rule_based_querying,Which respondents have a 'CompTotal' greater than 45000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5071,7 +5071,7 @@ Rules:
 Which respondents have a 'CompTotal' greater than 45000?
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary identity, employment status, education level, and years of coding experience. It also gathers information on their professional coding experience, developer roles, organization size, country of residence, and total compensation. Additionally, the survey records details about programming languages and tools they have worked with or wish to use, and their preferred version control systems. The 'YearsCodePro' and 'CompTotal' fields are open-ended, allowing for numerical values, while 'MainBranch', 'Employment', 'EdLevel', 'CompFreq', and 'VersionControlSystem' are multiple-choice questions.
 
-72725, 194, 168",False
+72725, 194, 168",True
 case_12,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5655,7 +5655,7 @@ Rules:
 Find all respondents whose 'YearsCode' is between 5 and 10.
 </task>","The survey data includes information on professional identity, employment, education level, coding experience (total and professional), developer type, organization size, country, compensation, programming languages, tools, and version control systems. Most fields are open-ended or multiple-choice, with some allowing multiple selections. The 'YearsCode' and 'YearsCodePro' fields are numerical, representing years of experience. Compensation details include total amount and frequency. The dataset provides a snapshot of developer demographics and work habits across various countries.
 
-72784, 72913, 29061, 468",False
+72784, 72913, 29061, 468",True
 case_13,rule_based_querying,Find all respondents whose 'YearsCodePro' is between 5 and 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6823,7 +6823,7 @@ Rules:
 Find all respondents whose 'CompTotal' is between 118800 and 254700.
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary identity, employment status, education level, and years of coding experience (both total and professional). It also gathers information on their development roles, organization size, country of residence, and compensation details. Furthermore, the survey explores programming languages and tools respondents have worked with or wish to use, along with their version control system preferences. Most fields are open-ended, allowing for detailed responses, while some, like 'MainBranch' and 'Employment', are multiple-choice.
 
-484",False
+484",True
 case_15,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7305,7 +7305,7 @@ Rules:
 Find all respondents whose 'YearsCode' is between 5 and 10.
 </task>","The survey collects data on professional identity, employment, education level, coding experience (total and professional), developer roles, organization size, country, compensation, programming languages, tools, and version control systems. Most fields are open-ended, allowing for detailed responses, while some are multiple-choice or multi-select. All respondents in this sample identify as professional developers and are employed full-time, with primary/elementary school listed as their highest education level. The 'YearsCode' and 'YearsCodePro' fields are numerical, indicating years of experience. Compensation details include total amount and frequency.
 
-245, 73070, 72796",False
+245, 73070, 72796",True
 case_16,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8524,7 +8524,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is between 2 and 12.
 </task>","The survey data includes information on professional identity, employment, education level, coding experience (total and professional), developer type, organization size, country, compensation, programming languages, and version control systems. Most respondents are full-time employed developers with primary/elementary school as their highest education level. The 'YearsCodePro' field, which is open-ended, indicates the number of years of professional coding experience, and is a key numerical attribute for filtering respondents. Compensation is also an open-ended numerical field, while other fields like 'MainBranch' and 'Employment' use multiple-choice options. The data provides a snapshot of various aspects of developers' professional lives.
 
-29115, 73196, 489, 491, 29111, 72965",False
+29115, 73196, 489, 491, 29111, 72965",True
 case_18,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8955,7 +8955,7 @@ Rules:
 Which respondents have a 'YearsCodePro' greater than 5?
 </task>","The survey data includes information on professional identity, employment, education level, coding experience, developer type, organization size, country, compensation, programming languages, tools, and version control systems. Each respondent is uniquely identified by an ID. Several fields are open-ended, such as 'YearsCodePro', while others are multiple-choice, like 'MainBranch' and 'Employment'. Compensation details include both total amount and frequency. The data provides a snapshot of various aspects of developers' professional lives.
 
-238, 72700, 486, 539",False
+238, 72700, 486, 539",True
 case_19,rule_based_querying,List all respondents from 'Poland' whose 'YearsCode' is less than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9539,7 +9539,7 @@ Rules:
 List all respondents from 'Poland' whose 'YearsCode' is less than 15.
 </task>","The survey data includes information on professional identity, employment, education, coding experience, developer roles, organization size, country, compensation, programming languages, tools, and version control systems. Most fields are open-ended, allowing for detailed responses, while some are multiple-choice questions. Compensation frequency is categorized into weekly, monthly, or yearly, and version control systems are limited to a few specific options. The dataset provides a snapshot of various aspects of developers' professional lives and technical proficiencies.
 
-72932",False
+72932",True
 case_20,rule_based_querying,Which respondents have a 'CompTotal' greater than 95000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9970,7 +9970,7 @@ Rules:
 Which respondents have a 'CompTotal' greater than 95000?
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary identity, employment status, education, coding experience, and compensation. Most respondents in this sample identify as professional developers and are employed full-time. The 'YearsCodePro' and 'YearsCode' fields are open-ended, indicating quantitative data, while other fields like 'MainBranch' and 'Employment' are multiple-choice. Compensation ('CompTotal') is also an open-ended numerical field, and its frequency ('CompFreq') is a multiple-choice question. The data provides insights into the demographics and professional profiles of the surveyed individuals.
 
-379, 375, 72898",False
+379, 375, 72898",True
 case_21,rule_based_querying,Which respondents have a 'YearsCodePro' greater than 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10554,7 +10554,7 @@ Rules:
 Which respondents have a 'YearsCodePro' greater than 10?
 </task>","The survey collects data on various aspects of developers' professional lives, including their coding experience, employment status, education, and technical skills. Most respondents identify as professional developers employed full-time, with a significant portion having extensive coding experience. The 'YearsCodePro' field, an open-ended numerical entry, indicates professional coding tenure, while 'LanguageHaveWorkedWith' and 'ToolsTechHaveWorkedWith' capture specific technologies. Compensation details are also recorded, often on a yearly basis, alongside organizational size and country of residence.
 
-72891, 73136, 235, 73075",False
+72891, 73136, 235, 73075",True
 case_22,rule_based_querying,Which respondents have a 'YearsCode' greater than 15?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11036,7 +11036,7 @@ Rules:
 Which respondents have a 'YearsCode' greater than 15?
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary identity, employment status, education level, and years of coding experience. It differentiates between total coding experience ('YearsCode') and professional coding experience ('YearsCodePro'). Compensation details, programming languages, and tools used are also recorded, along with organizational size and country of residence. Most fields are open-ended or multiple-choice, with some allowing for multiple selections. The dataset includes responses from seven individuals, providing a snapshot of their diverse backgrounds and work environments.
 
-72909, 179, 73023",False
+72909, 179, 73023",True
 case_23,rule_based_querying,Find all respondents whose 'CompTotal' is between 46320 and 176580.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11671,7 +11671,7 @@ Rules:
 Find all respondents whose 'CompTotal' is between 46320 and 176580.
 </task>","This survey collects data on various aspects of developers' professional lives, including their coding experience, employment details, education level, and compensation. The dataset is structured with a clear schema defining each question type, followed by individual respondent data. Most fields are open-ended, allowing for diverse responses, while some are multiple-choice or multi-select. Compensation and coding experience are provided as numerical values, enabling quantitative analysis.
 
-157, 72719, 73073",False
+157, 72719, 73073",True
 case_24,rule_based_querying,Find all respondents whose 'YearsCode' is between 5 and 10.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12788,7 +12788,7 @@ Rules:
 Which respondents have a 'CompTotal' greater than 58500?
 </task>","The survey data includes information on professional identity, employment, education level, coding experience (total and professional), developer type, organization size, country, compensation, programming languages, developer tools, and version control systems. Most fields are open-ended or multiple-choice, with some numerical values for years of experience and compensation. The 'MainBranch' and 'Employment' fields show a strong prevalence of full-time professional developers. Compensation values vary widely, indicating diverse economic contexts among respondents.
 
-72669, 215, 308, 240, 355",False
+72669, 215, 308, 240, 355",True
 case_26,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13423,7 +13423,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","The survey data includes information on various aspects of developers' professional lives, such as their primary identity, employment status, education level, and coding experience. It captures both total years of coding and professional coding experience, along with details on their developer roles, organization size, country, and compensation. The data also lists programming languages and tools they have worked with or wish to work with, and their preferred version control systems. Responses are structured by individual respondent IDs, with each data point clearly labeled.
 
-72751, 224",False
+72751, 224",True
 case_27,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14540,7 +14540,7 @@ Rules:
 Find all respondents whose calculated yearly compensation is greater than 135000.
 </task>","The survey gathers comprehensive data on developers' professional backgrounds, including their primary identity, employment status, education level, and years of coding experience (both total and professional). It also details their specific developer roles, the size of their organizations, country of residence, and compensation information (total amount and frequency). Furthermore, the survey captures information on programming languages and developer tools respondents have worked with or wish to use, along with their preferred version control systems. A common pattern observed is the prevalence of Git as the version control system of choice. The compensation frequency varies, requiring calculation to standardize to a yearly basis for comparison.
 
-73043, 222, 73259, 29115, 29154",False
+73043, 222, 73259, 29115, 29154",True
 case_29,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 63500.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15657,7 +15657,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","The survey data includes questions on professional identity, employment, education level, years of coding experience (total and professional), developer type, organization size, country, compensation, programming languages, tools, and version control systems. Responses are provided for seven different respondents, each detailing their answers to these questions. The data is structured with clear headings for each respondent and list items for each survey question and its corresponding answer.
 
-73093",False
+73093",True
 case_31,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 93000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16394,7 +16394,7 @@ Rules:
 Find all respondents whose calculated yearly compensation is greater than 93000.
 </task>","The survey data includes information on professional identity, employment, education, coding experience (total and professional), developer roles, organization size, country, compensation, programming languages, tools, and version control systems. Compensation details are provided as a total amount and frequency (weekly, monthly, or yearly), requiring calculation for a standardized yearly figure. The dataset contains a mix of multiple-choice and open-ended questions, offering insights into various aspects of developers' professional lives. Each respondent's data is structured under a unique ID, allowing for individual analysis.
 
-255, 268, 263, 73148, 338, 72683",False
+255, 268, 263, 73148, 338, 72683",True
 case_32,rule_based_querying,Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18782,7 +18782,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","The survey collects detailed information on developers' professional backgrounds, including their primary identity, employment status, education level, and years of coding experience (both total and professional). It also gathers data on their specific developer roles, organization size, country of residence, and compensation details. Furthermore, the survey identifies the programming languages and developer tools respondents have worked with or wish to work with, along with their preferred version control systems. The data includes a mix of multiple-choice, multiple-choice multi-select, and open-ended questions, providing a comprehensive profile for each respondent.
 
-123, 73196, 72973",False
+123, 73196, 72973",True
 case_36,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 164000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19519,7 +19519,7 @@ Rules:
 Find all respondents whose calculated yearly compensation is greater than 164000.
 </task>","The survey data includes information on professional identity, employment status, education level, coding experience (total and professional), developer roles, organization size, country, total compensation, and compensation frequency, among other technical details. Most respondents identify as professional developers and are employed full-time, with varying levels of coding experience. Compensation details are provided with a frequency, requiring calculation to standardize to a yearly basis for comparison. The dataset covers a range of countries and organization sizes, offering insights into the global developer landscape.
 
-382, 317, 72970, 72803, 73107, 72815",False
+382, 317, 72970, 72803, 73107, 72815",True
 case_37,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 106500.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20789,7 +20789,7 @@ Rules:
 Find all respondents whose calculated yearly compensation is greater than 220000.
 </task>","The survey data includes information on professional identity, employment status, education level, coding experience, developer roles, organization size, country, compensation, programming languages, and developer tools. Most fields are open-ended or multiple-choice questions, with compensation details requiring calculation based on frequency. The dataset contains responses from eight individuals, providing a snapshot of various professional backgrounds and technical proficiencies.
 
-72877, 152, 29106, 312",False
+72877, 152, 29106, 312",True
 case_39,rule_based_querying,Find all respondents whose calculated yearly compensation is greater than 314000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -21424,7 +21424,7 @@ Rules:
 Find all respondents whose calculated yearly compensation is greater than 314000.
 </task>","This survey collects data on various aspects of developers' professional lives, including their primary identity, employment status, education, coding experience (total and professional), developer roles, organization size, country, compensation details, and programming languages/tools used. The compensation data includes both the total amount and the frequency (weekly, monthly, or yearly). Most respondents are full-time employed developers with varying years of coding experience and professional experience. The data shows a diverse range of compensation figures and frequencies across different countries and organization sizes.
 
-245, 73085, 72913, 459, 73262",False
+245, 73085, 72913, 459, 73262",True
 case_40,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22110,7 +22110,7 @@ Rules:
 List all respondents for whom their professional coding years are less than half their total coding years.
 </task>","The survey collects data on various aspects of developers' professional lives, including their coding experience, education, employment, and technical skills. It features a mix of multiple-choice questions (MCQ) for categorical data like 'MainBranch' and 'Employment', and open-ended fields for numerical or free-text responses such as 'YearsCode' and 'DevType'. Compensation details are also captured, including total amount and frequency. The 'Responses' section provides individual data points for each respondent, identified by a unique ID.
 
-224, 72964, 489, 202, 29154, 215",False
+224, 72964, 489, 202, 29154, 215",True
 case_41,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"<!DOCTYPE html>
 <html>
 <head>
@@ -24094,7 +24094,7 @@ Rules:
 List all respondents whose 'YearsCode' is within 25% of the highest 'YearsCode' in their edlevel.
 </task>","The survey collects detailed information on developers' professional backgrounds, including their primary identity, employment status, education level, and years of coding experience (both total and professional). It also gathers data on their specific developer roles, organization size, country of residence, and compensation details. Furthermore, the survey identifies the programming languages and developer tools respondents have worked with or wish to use, along with their preferred version control systems. The data indicates a diverse set of respondents with varying levels of experience and educational backgrounds.
 
-72651, 73191, 529",False
+72651, 73191, 529",True
 case_44,rule_based_querying,Find all respondents whose 'YearsCodePro' is greater than the average 'YearsCodePro' for their edlevel.,"<!DOCTYPE html>
 <html>
 <head>
@@ -24780,7 +24780,7 @@ Rules:
 Find all respondents whose 'YearsCodePro' is greater than the average 'YearsCodePro' for their edlevel.
 </task>","The survey collects comprehensive data on developers' professional backgrounds, including their primary identity, employment, education, and years of coding experience. It also details their specific development roles, organization size, country, and compensation, alongside their preferred and used programming languages, tools, and version control systems. Most respondents in this dataset are full-time professional developers, with 'Primary/elementary school' being the most frequent reported education level. 'Git' is the only version control system mentioned across all respondents. The 'YearsCodePro' and 'YearsCode' fields are open-ended, allowing for a wide range of experience levels.
 
-73217, 361, 469, 393, 72634, 73101",False
+73217, 361, 469, 393, 72634, 73101",True
 case_45,rule_based_querying,List all respondents whose 'CompTotal' is within 10% of the highest 'CompTotal' in their country.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25466,7 +25466,7 @@ Rules:
 List all respondents whose 'CompTotal' is within 10% of the highest 'CompTotal' in their country.
 </task>","The survey data is structured in HTML, comprising a 'Questions' section that serves as a schema, detailing field names, descriptions, and response types (MCQ, MCQ-Multi, Open-ended). The 'Responses' section contains individual respondent data, with each respondent's information presented as an unordered list of key-value pairs. Key fields include professional identity, employment status, education level, years of coding experience, compensation, and programming languages used. The dataset features respondents from diverse countries, showcasing a range of professional backgrounds and compensation figures.
 
-395, 72710, 52, 73069, 203, 29071, 73101, 382, 72927",False
+395, 72710, 52, 73069, 203, 29071, 73101, 382, 72927",True
 case_46,rule_based_querying,Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?,"<!DOCTYPE html>
 <html>
 <head>
@@ -26152,7 +26152,7 @@ Rules:
 Which respondents have a yearly compensation that is higher than the average yearly compensation for all respondents with the same education level?
 </task>","The survey collects detailed professional and technical information from developers, including their primary identity, employment status, education level, and years of coding experience. It also gathers data on their professional coding experience, developer roles, organization size, and country of residence. Financial aspects like total compensation and frequency are recorded, alongside programming languages and tools used or desired, and version control systems. The data includes both multiple-choice and open-ended questions, providing a comprehensive snapshot of developer profiles. Compensation frequency varies, requiring normalization to yearly figures for accurate comparison.
 
-547, 72731",False
+547, 72731",True
 case_47,rule_based_querying,Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?,"<!DOCTYPE html>
 <html>
 <head>
@@ -28590,4 +28590,4 @@ Rules:
 Which respondents have a calculated yearly compensation that is more than double the average for their EdLevel?
 </task>","The survey collects data on various aspects of developers' professional lives, including their primary identity, employment status, education level, coding experience, and compensation. All respondents in this specific dataset identify as professional developers and primarily hold full-time employment. A striking pattern is that every respondent in this sample reported 'Primary/elementary school' as their highest education level. Compensation figures show a wide range, with one respondent's significantly higher earnings heavily influencing the average for their education group. Most respondents utilize Git for version control and frequently work with JavaScript and Docker.
 
-29141",False
+29141",True

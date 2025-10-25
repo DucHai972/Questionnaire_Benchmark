@@ -1253,7 +1253,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'Socio-economic status' as respondent '14'.
-</task>","14, 65, 142",True
+</task>","14, 65, 142",False
 case_4,multi_hop_relational_inference,"""Find all respondents with the same gender as respondent '90', excluding the respondent themselves.""","@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -4967,7 +4967,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'Socio-economic status' as respondent '2'.
-</task>","Respondent2, Respondent10, Respondent36",True
+</task>","Respondent2, Respondent10, Respondent36",False
 case_9,multi_hop_relational_inference,"""Find all respondents with the same gender as respondent '108', excluding the respondent themselves.""","@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -9719,7 +9719,7 @@ Rules:
 
 <task>
 Which respondents were born in the same year as respondent '107'?
-</task>","18, 107, 140",True
+</task>","18, 107, 140",False
 case_12,multi_hop_relational_inference,"""Find all respondents with the same gender as respondent '121', excluding the respondent themselves.""","@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -26656,7 +26656,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '58' and also have a 'Life satisfaction' score greater than 5?
-</task>","Respondent15, Respondent32, Respondent40, Respondent42, Respondent58, Respondent83, Respondent89, Respondent129",True
+</task>","Respondent15, Respondent32, Respondent40, Respondent42, Respondent58, Respondent83, Respondent89, Respondent129",False
 case_32,multi_hop_relational_inference,Which respondents are the same gender as respondent '51' and also have a 'Life satisfaction' score greater than 5?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -28649,7 +28649,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '51' and also have a 'Life satisfaction' score greater than 5?
-</task>","24, 44, 51, 78, 142",True
+</task>","24, 44, 51, 78, 142",False
 case_34,multi_hop_relational_inference,List all respondents who have the same 'Socio-economic status' as respondent '140' and report a 'Stress' score of less than 4.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -32110,7 +32110,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '107' and also have a 'Life satisfaction' score greater than 5?
-</task>","Respondent107, Respondent88, Respondent124",True
+</task>","Respondent107, Respondent88, Respondent124",False
 case_36,multi_hop_relational_inference,Which respondents are the same gender as respondent '28' and also have a 'Life satisfaction' score greater than 6?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -33800,7 +33800,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '28' and also have a 'Life satisfaction' score greater than 6?
-</task>","28, 34, 89, 95",True
+</task>","28, 34, 89, 95",False
 case_37,multi_hop_relational_inference,Which respondents are the same gender as respondent '75' and also have a 'Life satisfaction' score greater than 6?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -41587,7 +41587,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Happiness' score is higher than the average 'Happiness' for all respondents born in the same year as respondent '133'.
-</task>",Respondent10,True
+</task>",Respondent10,False
 case_45,multi_hop_relational_inference,Find all respondents whose 'Happiness' score is higher than the average 'Happiness' for all respondents born in the same year as respondent '130'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .
@@ -43118,7 +43118,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Happiness' score is higher than the average 'Happiness' for all respondents born in the same year as respondent '130'.
-</task>","Respondent84, Respondent130",True
+</task>","Respondent84, Respondent130",False
 case_46,multi_hop_relational_inference,List all respondents who have more years of father's education than the average mother's education for all respondents with the same 'Socio-economic status'.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .

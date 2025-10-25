@@ -1246,7 +1246,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20'?
-</task>","20, 39, 51, 62",True
+</task>","20, 39, 51, 62",False
 case_5,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '84'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2962,7 +2962,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '18'?
-</task>","48, 60",False
+</task>","48, 60",True
 case_10,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -3724,7 +3724,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>","25, 24, 61",True
+</task>","25, 24, 61",False
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -5944,7 +5944,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '58', excluding the respondent themselves.
-</task>","30, 37, 54, 62",False
+</task>","30, 37, 54, 62",True
 case_17,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9580,7 +9580,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '22'?
-</task>","24, 50",False
+</task>","24, 50",True
 case_25,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -14548,7 +14548,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?
-</task>","17, 33, 37, 43, 73",False
+</task>","17, 33, 37, 43, 73",True
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16174,7 +16174,7 @@ Rules:
 
 <task>
 List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.
-</task>","6, 14, 47, 48, 55",False
+</task>","6, 14, 47, 48, 55",True
 case_39,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17188,7 +17188,7 @@ Rules:
 
 <task>
 List all respondents who share the same 'Need_for_Technical_Support' score as respondent '5' but are not in the same group.
-</task>","32, 59, 75",False
+</task>","32, 59, 75",True
 case_41,multi_hop_relational_inference,Find all respondents whose 'Need_to_Learn_Before_Use' is higher than the average 'Need_to_Learn_Before_Use' for the 'Intern' group.,"<!DOCTYPE html>
 <html>
 <head>

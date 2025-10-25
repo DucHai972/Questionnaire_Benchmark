@@ -17089,7 +17089,7 @@ Count the respondents who are '['A', 'C']' and whose yearly compensation is over
 </ul>
 </body>
 </html>
-</questionnaire>","Shall I proceed with counting respondents who have Employment = ['A', 'C'] and yearly compensation > 100000?",True
+</questionnaire>","Shall I proceed with counting respondents who have Employment = ['A', 'C'] and yearly compensation > 100000?",False
 case_31,respondent_count,"""Count the respondents who are 'A', use 'Ansible', and have worked with 'Groovy'.""","<!DOCTYPE html>
 <html>
 <head>
@@ -23212,7 +23212,7 @@ Count the respondents who are 'C' and whose yearly compensation is over 100000.
 </ul>
 </body>
 </html>
-</questionnaire>","Do you mean respondents whose Employment is option C (""Independent contractor, freelancer, or self-employed""), or respondents whose CompFreq is option C (""Yearly"")? Also should I only count cases where CompFreq = Yearly and CompTotal > 100000 (no conversion), or should I convert monthly/weekly CompTotal to yearly before comparing?",True
+</questionnaire>","Do you mean respondents whose Employment is option C (""Independent contractor, freelancer, or self-employed""), or respondents whose CompFreq is option C (""Yearly"")? Also should I only count cases where CompFreq = Yearly and CompTotal > 100000 (no conversion), or should I convert monthly/weekly CompTotal to yearly before comparing?",False
 case_40,respondent_count,Count the respondents from 'United States of America' with an education level of 'Some college/university study without earning a degree' who have worked with 'Bash/Shell'.,"<!DOCTYPE html>
 <html>
 <head>

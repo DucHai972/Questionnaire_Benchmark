@@ -1,5 +1,5 @@
 case_id,task,question,questionnaire,expected_answer,prompt,Response,Correct
-case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,"<!DOCTYPE html>
+case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
 <title>Survey Data</title>
@@ -67,34 +67,32 @@ case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Sympt
   </li>
 </ul>
 <h1>Responses</h1>
-<h2>Respondent 105</h2>
+<h2>Respondent 58</h2>
 <ul>
-  <li><strong>Year of birth:</strong> 2002.0</li>
+  <li><strong>Year of birth:</strong> 2004.0</li>
   <li><strong>Gender:</strong> 1.0</li>
   <li><strong>Socio-economic status:</strong> 1.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Ethnic identity:</strong> 5.0</li>
   <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 6.0</li>
-  <li><strong>Laughter:</strong> 5.0</li>
-  <li><strong>Learning:</strong> 9.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 10.0</li>
+  <li><strong>Learning:</strong> 7.0</li>
+  <li><strong>Enjoyment:</strong> 10.0</li>
   <li><strong>Worry:</strong> 1.0</li>
   <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 8.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
-      <li><strong>Father:</strong> 11.0</li>
-      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
       <li><strong>Unable to Control Important Things:</strong> 1.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
       <li><strong>Irritated by Life:</strong> 3.0</li>
       <li><strong>On Top of Things:</strong> 3.0</li>
     </ul>
@@ -103,19 +101,328 @@ case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Sympt
     <ul>
       <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
       <li><strong>Trouble Relaxing:</strong> 0.0</li>
-      <li><strong>Restlessness:</strong> 1.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
       <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
     </ul>
   </li>
   <li><strong>Depressive Symptoms Frequency:</strong>
     <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
+      <li><strong>Appetite Changes:</strong> 2.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 18</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2001.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 5.0</li>
+  <li><strong>Happiness:</strong> 4.0</li>
+  <li><strong>Laughter:</strong> 3.0</li>
+  <li><strong>Learning:</strong> 6.0</li>
+  <li><strong>Enjoyment:</strong> 0.0</li>
+  <li><strong>Worry:</strong> 2.0</li>
+  <li><strong>Depression:</strong> 2.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 8.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+      <li><strong>Mother:</strong> 16.0</li>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 1.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 2.0</li>
+      <li><strong>Sleep Problems:</strong> 2.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 0.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 3.0</li>
+      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 1.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 11</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 1998.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 4.0</li>
+  <li><strong>Ethnic identity:</strong> 5.0</li>
+  <li><strong>Life satisfaction:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 5.0</li>
+  <li><strong>Laughter:</strong> 7.0</li>
+  <li><strong>Learning:</strong> 1.0</li>
+  <li><strong>Enjoyment:</strong> 8.0</li>
+  <li><strong>Worry:</strong> 0.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 2.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 10.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 2.0</li>
+      <li><strong>Sleep Problems:</strong> 3.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
+      <li><strong>Appetite Changes:</strong> 1.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 3.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 8</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2003.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 1.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 6.0</li>
+  <li><strong>Laughter:</strong> 7.0</li>
+  <li><strong>Learning:</strong> 8.0</li>
+  <li><strong>Enjoyment:</strong> 7.0</li>
+  <li><strong>Worry:</strong> 2.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 4.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 7.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+      <li><strong>Father:</strong> 11.0</li>
+      <li><strong>Mother:</strong> 14.0</li>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 4.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 4.0</li>
+      <li><strong>Irritated by Life:</strong> 1.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 2.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
       <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 2.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 64</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2005.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
+  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 7.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 8.0</li>
+  <li><strong>Learning:</strong> 8.0</li>
+  <li><strong>Enjoyment:</strong> 9.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 3.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
+      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 1.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 3.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 1.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 52</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2005.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 5.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 7.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 9.0</li>
+  <li><strong>Learning:</strong> 9.0</li>
+  <li><strong>Enjoyment:</strong> 10.0</li>
+  <li><strong>Worry:</strong> 0.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 0.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 0.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 4.0</li>
+      <li><strong>Unable to Cope:</strong> 1.0</li>
+      <li><strong>Irritated by Life:</strong> 4.0</li>
+      <li><strong>On Top of Things:</strong> 4.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
+      <li><strong>Trouble Relaxing:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 1.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
       <li><strong>Appetite Changes:</strong> 0.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 6</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2006.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 2.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 6.0</li>
+  <li><strong>Happiness:</strong> 5.0</li>
+  <li><strong>Laughter:</strong> 5.0</li>
+  <li><strong>Learning:</strong> 5.0</li>
+  <li><strong>Enjoyment:</strong> 6.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 2.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 0.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 2.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 0.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 3.0</li>
       <li><strong>Suicidal Thoughts:</strong> 0.0</li>
     </ul>
   </li>
@@ -171,243 +478,88 @@ case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Sympt
     </ul>
   </li>
 </ul>
-<h2>Respondent 20</h2>
+<h2>Respondent 62</h2>
 <ul>
   <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 6.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 9.0</li>
-  <li><strong>Happiness:</strong> 10.0</li>
-  <li><strong>Laughter:</strong> 7.0</li>
-  <li><strong>Learning:</strong> 10.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 2.0</li>
-  <li><strong>Loneliness:</strong> 2.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 22.0</li>
-      <li><strong>Mother:</strong> 28.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 4.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 1.0</li>
-      <li><strong>Irritability:</strong> 0.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
-      <li><strong>Appetite Changes:</strong> 0.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 121</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2005.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
   <li><strong>Socio-economic status:</strong> 4.0</li>
-  <li><strong>Ethnic identity:</strong> 5.0</li>
-  <li><strong>Life satisfaction:</strong> 8.0</li>
-  <li><strong>Happiness:</strong> 7.0</li>
-  <li><strong>Laughter:</strong> 6.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 3.0</li>
+  <li><strong>Happiness:</strong> 6.0</li>
+  <li><strong>Laughter:</strong> 8.0</li>
   <li><strong>Learning:</strong> 6.0</li>
-  <li><strong>Enjoyment:</strong> 7.0</li>
+  <li><strong>Enjoyment:</strong> 6.0</li>
   <li><strong>Worry:</strong> 3.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 3.0</li>
+  <li><strong>Anger:</strong> 4.0</li>
   <li><strong>Stress:</strong> 4.0</li>
-  <li><strong>Loneliness:</strong> 4.0</li>
+  <li><strong>Loneliness:</strong> 5.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
-      <li><strong>Father:</strong> 25.0</li>
-      <li><strong>Mother:</strong> 20.0</li>
+      <li><strong>Father:</strong> 11.0</li>
+      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 4.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 4.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
     </ul>
   </li>
   <li><strong>Anxiety Symptoms Frequency:</strong>
     <ul>
       <li><strong>Feeling Nervous or On Edge:</strong> 3.0</li>
       <li><strong>Trouble Relaxing:</strong> 3.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 1.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 3.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 1.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 68</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2004.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 6.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 5.0</li>
-  <li><strong>Happiness:</strong> 5.0</li>
-  <li><strong>Laughter:</strong> 10.0</li>
-  <li><strong>Learning:</strong> 5.0</li>
-  <li><strong>Enjoyment:</strong> 3.0</li>
-  <li><strong>Worry:</strong> 0.0</li>
-  <li><strong>Depression:</strong> 1.0</li>
-  <li><strong>Anger:</strong> 1.0</li>
-  <li><strong>Stress:</strong> 1.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 20.0</li>
-      <li><strong>Mother:</strong> 20.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 0.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 0.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 0.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
-      <li><strong>Trouble Relaxing:</strong> 0.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 2.0</li>
+      <li><strong>Irritability:</strong> 3.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 3.0</li>
     </ul>
   </li>
   <li><strong>Depressive Symptoms Frequency:</strong>
     <ul>
       <li><strong>Anhedonia:</strong> 3.0</li>
-      <li><strong>Sleep Problems:</strong> 3.0</li>
-      <li><strong>Fatigue:</strong> 3.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
       <li><strong>Appetite Changes:</strong> 3.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 3.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 3.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 3.0</li>
     </ul>
   </li>
 </ul>
-<h2>Respondent 87</h2>
+<h2>Respondent 33</h2>
 <ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Year of birth:</strong> 2004.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
+  <li><strong>Socio-economic status:</strong> 2.0</li>
   <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 8.0</li>
-  <li><strong>Laughter:</strong> 6.0</li>
-  <li><strong>Learning:</strong> 8.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 2.0</li>
-  <li><strong>Depression:</strong> 1.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 5.0</li>
+  <li><strong>Life satisfaction:</strong> 5.0</li>
+  <li><strong>Happiness:</strong> 4.0</li>
+  <li><strong>Laughter:</strong> 4.0</li>
+  <li><strong>Learning:</strong> 6.0</li>
+  <li><strong>Enjoyment:</strong> 4.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 4.0</li>
+  <li><strong>Loneliness:</strong> 2.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
+      <li><strong>Father:</strong> 7.0</li>
+      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
       <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 2.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 1.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 1.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
-      <li><strong>Concentration Difficulties:</strong> 1.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 102</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2002.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 5.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 8.0</li>
-  <li><strong>Laughter:</strong> 8.0</li>
-  <li><strong>Learning:</strong> 7.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 0.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
       <li><strong>On Top of Things:</strong> 2.0</li>
     </ul>
   </li>
@@ -416,111 +568,7 @@ case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Sympt
       <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
       <li><strong>Trouble Relaxing:</strong> 1.0</li>
       <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 21</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 2.0</li>
-  <li><strong>Socio-economic status:</strong> 4.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 5.0</li>
-  <li><strong>Happiness:</strong> 1.0</li>
-  <li><strong>Laughter:</strong> 0.0</li>
-  <li><strong>Learning:</strong> 7.0</li>
-  <li><strong>Enjoyment:</strong> 5.0</li>
-  <li><strong>Worry:</strong> 0.0</li>
-  <li><strong>Depression:</strong> 3.0</li>
-  <li><strong>Anger:</strong> 4.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 18.0</li>
-      <li><strong>Mother:</strong> 11.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 4.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 4.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 3.0</li>
-      <li><strong>Trouble Relaxing:</strong> 3.0</li>
-      <li><strong>Restlessness:</strong> 3.0</li>
-      <li><strong>Irritability:</strong> 2.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 3.0</li>
-      <li><strong>Fatigue:</strong> 2.0</li>
-      <li><strong>Appetite Changes:</strong> 3.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 2.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 85</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 1.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 7.0</li>
-  <li><strong>Laughter:</strong> 5.0</li>
-  <li><strong>Learning:</strong> 6.0</li>
-  <li><strong>Enjoyment:</strong> 7.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 3.0</li>
-  <li><strong>Stress:</strong> 2.0</li>
-  <li><strong>Loneliness:</strong> 4.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 4.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 2.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
       <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
     </ul>
   </li>
@@ -528,16 +576,16 @@ case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Sympt
     <ul>
       <li><strong>Anhedonia:</strong> 1.0</li>
       <li><strong>Sleep Problems:</strong> 2.0</li>
-      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Fatigue:</strong> 3.0</li>
       <li><strong>Appetite Changes:</strong> 1.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
       <li><strong>Suicidal Thoughts:</strong> 0.0</li>
     </ul>
   </li>
 </ul>
 </body>
-</html>","""40, 68, 21, 85""","<example>
+</html>","""18, 8, 64, 52, 6, 40, 62, 33""","<example>
 List all respondents with a 'Socio-economic status' of 1.0 who were born in 2002.
 
 DATA:
@@ -610,34 +658,32 @@ DATA:
   </li>
 </ul>
 <h1>Responses</h1>
-<h2>Respondent 105</h2>
+<h2>Respondent 58</h2>
 <ul>
-  <li><strong>Year of birth:</strong> 2002.0</li>
+  <li><strong>Year of birth:</strong> 2004.0</li>
   <li><strong>Gender:</strong> 1.0</li>
   <li><strong>Socio-economic status:</strong> 1.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Ethnic identity:</strong> 5.0</li>
   <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 6.0</li>
-  <li><strong>Laughter:</strong> 5.0</li>
-  <li><strong>Learning:</strong> 9.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 10.0</li>
+  <li><strong>Learning:</strong> 7.0</li>
+  <li><strong>Enjoyment:</strong> 10.0</li>
   <li><strong>Worry:</strong> 1.0</li>
   <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 8.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
-      <li><strong>Father:</strong> 11.0</li>
-      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
       <li><strong>Unable to Control Important Things:</strong> 1.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
       <li><strong>Irritated by Life:</strong> 3.0</li>
       <li><strong>On Top of Things:</strong> 3.0</li>
     </ul>
@@ -646,19 +692,328 @@ DATA:
     <ul>
       <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
       <li><strong>Trouble Relaxing:</strong> 0.0</li>
-      <li><strong>Restlessness:</strong> 1.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
       <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
     </ul>
   </li>
   <li><strong>Depressive Symptoms Frequency:</strong>
     <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
+      <li><strong>Appetite Changes:</strong> 2.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 18</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2001.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 5.0</li>
+  <li><strong>Happiness:</strong> 4.0</li>
+  <li><strong>Laughter:</strong> 3.0</li>
+  <li><strong>Learning:</strong> 6.0</li>
+  <li><strong>Enjoyment:</strong> 0.0</li>
+  <li><strong>Worry:</strong> 2.0</li>
+  <li><strong>Depression:</strong> 2.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 8.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+      <li><strong>Mother:</strong> 16.0</li>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 1.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 2.0</li>
+      <li><strong>Sleep Problems:</strong> 2.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 0.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 3.0</li>
+      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 1.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 11</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 1998.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 4.0</li>
+  <li><strong>Ethnic identity:</strong> 5.0</li>
+  <li><strong>Life satisfaction:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 5.0</li>
+  <li><strong>Laughter:</strong> 7.0</li>
+  <li><strong>Learning:</strong> 1.0</li>
+  <li><strong>Enjoyment:</strong> 8.0</li>
+  <li><strong>Worry:</strong> 0.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 2.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 10.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 2.0</li>
+      <li><strong>Sleep Problems:</strong> 3.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
+      <li><strong>Appetite Changes:</strong> 1.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 3.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 8</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2003.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 1.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 6.0</li>
+  <li><strong>Laughter:</strong> 7.0</li>
+  <li><strong>Learning:</strong> 8.0</li>
+  <li><strong>Enjoyment:</strong> 7.0</li>
+  <li><strong>Worry:</strong> 2.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 4.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 7.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+      <li><strong>Father:</strong> 11.0</li>
+      <li><strong>Mother:</strong> 14.0</li>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 4.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 4.0</li>
+      <li><strong>Irritated by Life:</strong> 1.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 2.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
       <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 2.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 64</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2005.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
+  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 7.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 8.0</li>
+  <li><strong>Learning:</strong> 8.0</li>
+  <li><strong>Enjoyment:</strong> 9.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 3.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
+      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 1.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 3.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 1.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 52</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2005.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 5.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 7.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 9.0</li>
+  <li><strong>Learning:</strong> 9.0</li>
+  <li><strong>Enjoyment:</strong> 10.0</li>
+  <li><strong>Worry:</strong> 0.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 0.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 0.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 4.0</li>
+      <li><strong>Unable to Cope:</strong> 1.0</li>
+      <li><strong>Irritated by Life:</strong> 4.0</li>
+      <li><strong>On Top of Things:</strong> 4.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
+      <li><strong>Trouble Relaxing:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 1.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
       <li><strong>Appetite Changes:</strong> 0.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 6</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2006.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 2.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 6.0</li>
+  <li><strong>Happiness:</strong> 5.0</li>
+  <li><strong>Laughter:</strong> 5.0</li>
+  <li><strong>Learning:</strong> 5.0</li>
+  <li><strong>Enjoyment:</strong> 6.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 2.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 0.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 2.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 0.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 3.0</li>
       <li><strong>Suicidal Thoughts:</strong> 0.0</li>
     </ul>
   </li>
@@ -714,243 +1069,88 @@ DATA:
     </ul>
   </li>
 </ul>
-<h2>Respondent 20</h2>
+<h2>Respondent 62</h2>
 <ul>
   <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 6.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 9.0</li>
-  <li><strong>Happiness:</strong> 10.0</li>
-  <li><strong>Laughter:</strong> 7.0</li>
-  <li><strong>Learning:</strong> 10.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 2.0</li>
-  <li><strong>Loneliness:</strong> 2.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 22.0</li>
-      <li><strong>Mother:</strong> 28.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 4.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 1.0</li>
-      <li><strong>Irritability:</strong> 0.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
-      <li><strong>Appetite Changes:</strong> 0.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 121</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2005.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
   <li><strong>Socio-economic status:</strong> 4.0</li>
-  <li><strong>Ethnic identity:</strong> 5.0</li>
-  <li><strong>Life satisfaction:</strong> 8.0</li>
-  <li><strong>Happiness:</strong> 7.0</li>
-  <li><strong>Laughter:</strong> 6.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 3.0</li>
+  <li><strong>Happiness:</strong> 6.0</li>
+  <li><strong>Laughter:</strong> 8.0</li>
   <li><strong>Learning:</strong> 6.0</li>
-  <li><strong>Enjoyment:</strong> 7.0</li>
+  <li><strong>Enjoyment:</strong> 6.0</li>
   <li><strong>Worry:</strong> 3.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 3.0</li>
+  <li><strong>Anger:</strong> 4.0</li>
   <li><strong>Stress:</strong> 4.0</li>
-  <li><strong>Loneliness:</strong> 4.0</li>
+  <li><strong>Loneliness:</strong> 5.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
-      <li><strong>Father:</strong> 25.0</li>
-      <li><strong>Mother:</strong> 20.0</li>
+      <li><strong>Father:</strong> 11.0</li>
+      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 4.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 4.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
     </ul>
   </li>
   <li><strong>Anxiety Symptoms Frequency:</strong>
     <ul>
       <li><strong>Feeling Nervous or On Edge:</strong> 3.0</li>
       <li><strong>Trouble Relaxing:</strong> 3.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 1.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 3.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 1.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 68</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2004.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 6.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 5.0</li>
-  <li><strong>Happiness:</strong> 5.0</li>
-  <li><strong>Laughter:</strong> 10.0</li>
-  <li><strong>Learning:</strong> 5.0</li>
-  <li><strong>Enjoyment:</strong> 3.0</li>
-  <li><strong>Worry:</strong> 0.0</li>
-  <li><strong>Depression:</strong> 1.0</li>
-  <li><strong>Anger:</strong> 1.0</li>
-  <li><strong>Stress:</strong> 1.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 20.0</li>
-      <li><strong>Mother:</strong> 20.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 0.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 0.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 0.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
-      <li><strong>Trouble Relaxing:</strong> 0.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 2.0</li>
+      <li><strong>Irritability:</strong> 3.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 3.0</li>
     </ul>
   </li>
   <li><strong>Depressive Symptoms Frequency:</strong>
     <ul>
       <li><strong>Anhedonia:</strong> 3.0</li>
-      <li><strong>Sleep Problems:</strong> 3.0</li>
-      <li><strong>Fatigue:</strong> 3.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
       <li><strong>Appetite Changes:</strong> 3.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 3.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 3.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 3.0</li>
     </ul>
   </li>
 </ul>
-<h2>Respondent 87</h2>
+<h2>Respondent 33</h2>
 <ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Year of birth:</strong> 2004.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
+  <li><strong>Socio-economic status:</strong> 2.0</li>
   <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 8.0</li>
-  <li><strong>Laughter:</strong> 6.0</li>
-  <li><strong>Learning:</strong> 8.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 2.0</li>
-  <li><strong>Depression:</strong> 1.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 5.0</li>
+  <li><strong>Life satisfaction:</strong> 5.0</li>
+  <li><strong>Happiness:</strong> 4.0</li>
+  <li><strong>Laughter:</strong> 4.0</li>
+  <li><strong>Learning:</strong> 6.0</li>
+  <li><strong>Enjoyment:</strong> 4.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 4.0</li>
+  <li><strong>Loneliness:</strong> 2.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
+      <li><strong>Father:</strong> 7.0</li>
+      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
       <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 2.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 1.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 1.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
-      <li><strong>Concentration Difficulties:</strong> 1.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 102</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2002.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 5.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 8.0</li>
-  <li><strong>Laughter:</strong> 8.0</li>
-  <li><strong>Learning:</strong> 7.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 0.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
       <li><strong>On Top of Things:</strong> 2.0</li>
     </ul>
   </li>
@@ -959,111 +1159,7 @@ DATA:
       <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
       <li><strong>Trouble Relaxing:</strong> 1.0</li>
       <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 21</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 2.0</li>
-  <li><strong>Socio-economic status:</strong> 4.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 5.0</li>
-  <li><strong>Happiness:</strong> 1.0</li>
-  <li><strong>Laughter:</strong> 0.0</li>
-  <li><strong>Learning:</strong> 7.0</li>
-  <li><strong>Enjoyment:</strong> 5.0</li>
-  <li><strong>Worry:</strong> 0.0</li>
-  <li><strong>Depression:</strong> 3.0</li>
-  <li><strong>Anger:</strong> 4.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 18.0</li>
-      <li><strong>Mother:</strong> 11.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 4.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 4.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 3.0</li>
-      <li><strong>Trouble Relaxing:</strong> 3.0</li>
-      <li><strong>Restlessness:</strong> 3.0</li>
-      <li><strong>Irritability:</strong> 2.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 3.0</li>
-      <li><strong>Fatigue:</strong> 2.0</li>
-      <li><strong>Appetite Changes:</strong> 3.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 2.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 85</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 1.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 7.0</li>
-  <li><strong>Laughter:</strong> 5.0</li>
-  <li><strong>Learning:</strong> 6.0</li>
-  <li><strong>Enjoyment:</strong> 7.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 3.0</li>
-  <li><strong>Stress:</strong> 2.0</li>
-  <li><strong>Loneliness:</strong> 4.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 4.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 2.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
       <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
     </ul>
   </li>
@@ -1071,10 +1167,10 @@ DATA:
     <ul>
       <li><strong>Anhedonia:</strong> 1.0</li>
       <li><strong>Sleep Problems:</strong> 2.0</li>
-      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Fatigue:</strong> 3.0</li>
       <li><strong>Appetite Changes:</strong> 1.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
       <li><strong>Suicidal Thoughts:</strong> 0.0</li>
     </ul>
   </li>
@@ -1154,34 +1250,32 @@ Answer: None
   </li>
 </ul>
 <h1>Responses</h1>
-<h2>Respondent 105</h2>
+<h2>Respondent 58</h2>
 <ul>
-  <li><strong>Year of birth:</strong> 2002.0</li>
+  <li><strong>Year of birth:</strong> 2004.0</li>
   <li><strong>Gender:</strong> 1.0</li>
   <li><strong>Socio-economic status:</strong> 1.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Ethnic identity:</strong> 5.0</li>
   <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 6.0</li>
-  <li><strong>Laughter:</strong> 5.0</li>
-  <li><strong>Learning:</strong> 9.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 10.0</li>
+  <li><strong>Learning:</strong> 7.0</li>
+  <li><strong>Enjoyment:</strong> 10.0</li>
   <li><strong>Worry:</strong> 1.0</li>
   <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 8.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
-      <li><strong>Father:</strong> 11.0</li>
-      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
       <li><strong>Unable to Control Important Things:</strong> 1.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
       <li><strong>Irritated by Life:</strong> 3.0</li>
       <li><strong>On Top of Things:</strong> 3.0</li>
     </ul>
@@ -1190,19 +1284,328 @@ Answer: None
     <ul>
       <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
       <li><strong>Trouble Relaxing:</strong> 0.0</li>
-      <li><strong>Restlessness:</strong> 1.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
       <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
     </ul>
   </li>
   <li><strong>Depressive Symptoms Frequency:</strong>
     <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
+      <li><strong>Appetite Changes:</strong> 2.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 18</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2001.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 5.0</li>
+  <li><strong>Happiness:</strong> 4.0</li>
+  <li><strong>Laughter:</strong> 3.0</li>
+  <li><strong>Learning:</strong> 6.0</li>
+  <li><strong>Enjoyment:</strong> 0.0</li>
+  <li><strong>Worry:</strong> 2.0</li>
+  <li><strong>Depression:</strong> 2.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 8.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+      <li><strong>Mother:</strong> 16.0</li>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 1.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 2.0</li>
+      <li><strong>Sleep Problems:</strong> 2.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 0.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 3.0</li>
+      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 1.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 11</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 1998.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 4.0</li>
+  <li><strong>Ethnic identity:</strong> 5.0</li>
+  <li><strong>Life satisfaction:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 5.0</li>
+  <li><strong>Laughter:</strong> 7.0</li>
+  <li><strong>Learning:</strong> 1.0</li>
+  <li><strong>Enjoyment:</strong> 8.0</li>
+  <li><strong>Worry:</strong> 0.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 2.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 10.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 2.0</li>
+      <li><strong>Sleep Problems:</strong> 3.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
+      <li><strong>Appetite Changes:</strong> 1.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 3.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 8</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2003.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 1.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 8.0</li>
+  <li><strong>Happiness:</strong> 6.0</li>
+  <li><strong>Laughter:</strong> 7.0</li>
+  <li><strong>Learning:</strong> 8.0</li>
+  <li><strong>Enjoyment:</strong> 7.0</li>
+  <li><strong>Worry:</strong> 2.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 4.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 7.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+      <li><strong>Father:</strong> 11.0</li>
+      <li><strong>Mother:</strong> 14.0</li>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 4.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 4.0</li>
+      <li><strong>Irritated by Life:</strong> 1.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 2.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
       <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 2.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 64</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2005.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
+  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 7.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 8.0</li>
+  <li><strong>Learning:</strong> 8.0</li>
+  <li><strong>Enjoyment:</strong> 9.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 1.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 3.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 2.0</li>
+      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 1.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 1.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 3.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 1.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 0.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 52</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2005.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 5.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 7.0</li>
+  <li><strong>Happiness:</strong> 9.0</li>
+  <li><strong>Laughter:</strong> 9.0</li>
+  <li><strong>Learning:</strong> 9.0</li>
+  <li><strong>Enjoyment:</strong> 10.0</li>
+  <li><strong>Worry:</strong> 0.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 2.0</li>
+  <li><strong>Loneliness:</strong> 0.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 0.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 4.0</li>
+      <li><strong>Unable to Cope:</strong> 1.0</li>
+      <li><strong>Irritated by Life:</strong> 4.0</li>
+      <li><strong>On Top of Things:</strong> 4.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
+      <li><strong>Trouble Relaxing:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 1.0</li>
+      <li><strong>Fatigue:</strong> 1.0</li>
       <li><strong>Appetite Changes:</strong> 0.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+    </ul>
+  </li>
+</ul>
+<h2>Respondent 6</h2>
+<ul>
+  <li><strong>Year of birth:</strong> 2006.0</li>
+  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Socio-economic status:</strong> 2.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 6.0</li>
+  <li><strong>Happiness:</strong> 5.0</li>
+  <li><strong>Laughter:</strong> 5.0</li>
+  <li><strong>Learning:</strong> 5.0</li>
+  <li><strong>Enjoyment:</strong> 6.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 2.0</li>
+  <li><strong>Stress:</strong> 3.0</li>
+  <li><strong>Loneliness:</strong> 0.0</li>
+  <li><strong>Parental Education:</strong>
+    <ul>
+    </ul>
+  </li>
+  <li><strong>Emotional Regulation Frequency:</strong>
+    <ul>
+      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Anxiety Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
+      <li><strong>Trouble Relaxing:</strong> 2.0</li>
+      <li><strong>Restlessness:</strong> 0.0</li>
+      <li><strong>Irritability:</strong> 2.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 2.0</li>
+    </ul>
+  </li>
+  <li><strong>Depressive Symptoms Frequency:</strong>
+    <ul>
+      <li><strong>Anhedonia:</strong> 1.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Appetite Changes:</strong> 0.0</li>
+      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
+      <li><strong>Concentration Difficulties:</strong> 3.0</li>
       <li><strong>Suicidal Thoughts:</strong> 0.0</li>
     </ul>
   </li>
@@ -1258,243 +1661,88 @@ Answer: None
     </ul>
   </li>
 </ul>
-<h2>Respondent 20</h2>
+<h2>Respondent 62</h2>
 <ul>
   <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 6.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 9.0</li>
-  <li><strong>Happiness:</strong> 10.0</li>
-  <li><strong>Laughter:</strong> 7.0</li>
-  <li><strong>Learning:</strong> 10.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 2.0</li>
-  <li><strong>Loneliness:</strong> 2.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 22.0</li>
-      <li><strong>Mother:</strong> 28.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 4.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 1.0</li>
-      <li><strong>Irritability:</strong> 0.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
-      <li><strong>Appetite Changes:</strong> 0.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 121</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2005.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
   <li><strong>Socio-economic status:</strong> 4.0</li>
-  <li><strong>Ethnic identity:</strong> 5.0</li>
-  <li><strong>Life satisfaction:</strong> 8.0</li>
-  <li><strong>Happiness:</strong> 7.0</li>
-  <li><strong>Laughter:</strong> 6.0</li>
+  <li><strong>Ethnic identity:</strong> 6.0</li>
+  <li><strong>Life satisfaction:</strong> 3.0</li>
+  <li><strong>Happiness:</strong> 6.0</li>
+  <li><strong>Laughter:</strong> 8.0</li>
   <li><strong>Learning:</strong> 6.0</li>
-  <li><strong>Enjoyment:</strong> 7.0</li>
+  <li><strong>Enjoyment:</strong> 6.0</li>
   <li><strong>Worry:</strong> 3.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 3.0</li>
+  <li><strong>Anger:</strong> 4.0</li>
   <li><strong>Stress:</strong> 4.0</li>
-  <li><strong>Loneliness:</strong> 4.0</li>
+  <li><strong>Loneliness:</strong> 5.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
-      <li><strong>Father:</strong> 25.0</li>
-      <li><strong>Mother:</strong> 20.0</li>
+      <li><strong>Father:</strong> 11.0</li>
+      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
+      <li><strong>Upset by Unexpected Events:</strong> 3.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 4.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 4.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
+      <li><strong>On Top of Things:</strong> 2.0</li>
     </ul>
   </li>
   <li><strong>Anxiety Symptoms Frequency:</strong>
     <ul>
       <li><strong>Feeling Nervous or On Edge:</strong> 3.0</li>
       <li><strong>Trouble Relaxing:</strong> 3.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 1.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 3.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 1.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 68</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2004.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 6.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 5.0</li>
-  <li><strong>Happiness:</strong> 5.0</li>
-  <li><strong>Laughter:</strong> 10.0</li>
-  <li><strong>Learning:</strong> 5.0</li>
-  <li><strong>Enjoyment:</strong> 3.0</li>
-  <li><strong>Worry:</strong> 0.0</li>
-  <li><strong>Depression:</strong> 1.0</li>
-  <li><strong>Anger:</strong> 1.0</li>
-  <li><strong>Stress:</strong> 1.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 20.0</li>
-      <li><strong>Mother:</strong> 20.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 0.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 0.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 0.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 0.0</li>
-      <li><strong>Trouble Relaxing:</strong> 0.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
+      <li><strong>Restlessness:</strong> 2.0</li>
+      <li><strong>Irritability:</strong> 3.0</li>
+      <li><strong>Fear Something Awful Might Happen:</strong> 3.0</li>
     </ul>
   </li>
   <li><strong>Depressive Symptoms Frequency:</strong>
     <ul>
       <li><strong>Anhedonia:</strong> 3.0</li>
-      <li><strong>Sleep Problems:</strong> 3.0</li>
-      <li><strong>Fatigue:</strong> 3.0</li>
+      <li><strong>Sleep Problems:</strong> 0.0</li>
+      <li><strong>Fatigue:</strong> 2.0</li>
       <li><strong>Appetite Changes:</strong> 3.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 3.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
+      <li><strong>Concentration Difficulties:</strong> 3.0</li>
+      <li><strong>Suicidal Thoughts:</strong> 3.0</li>
     </ul>
   </li>
 </ul>
-<h2>Respondent 87</h2>
+<h2>Respondent 33</h2>
 <ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 3.0</li>
+  <li><strong>Year of birth:</strong> 2004.0</li>
+  <li><strong>Gender:</strong> 2.0</li>
+  <li><strong>Socio-economic status:</strong> 2.0</li>
   <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 8.0</li>
-  <li><strong>Laughter:</strong> 6.0</li>
-  <li><strong>Learning:</strong> 8.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 2.0</li>
-  <li><strong>Depression:</strong> 1.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 5.0</li>
+  <li><strong>Life satisfaction:</strong> 5.0</li>
+  <li><strong>Happiness:</strong> 4.0</li>
+  <li><strong>Laughter:</strong> 4.0</li>
+  <li><strong>Learning:</strong> 6.0</li>
+  <li><strong>Enjoyment:</strong> 4.0</li>
+  <li><strong>Worry:</strong> 1.0</li>
+  <li><strong>Depression:</strong> 0.0</li>
+  <li><strong>Anger:</strong> 3.0</li>
+  <li><strong>Stress:</strong> 4.0</li>
+  <li><strong>Loneliness:</strong> 2.0</li>
   <li><strong>Parental Education:</strong>
     <ul>
+      <li><strong>Father:</strong> 7.0</li>
+      <li><strong>Mother:</strong> 11.0</li>
     </ul>
   </li>
   <li><strong>Emotional Regulation Frequency:</strong>
     <ul>
       <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 3.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 2.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 1.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 1.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 1.0</li>
-      <li><strong>Concentration Difficulties:</strong> 1.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 102</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2002.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 5.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 8.0</li>
-  <li><strong>Laughter:</strong> 8.0</li>
-  <li><strong>Learning:</strong> 7.0</li>
-  <li><strong>Enjoyment:</strong> 8.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 2.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 0.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 1.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
+      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
       <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 2.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
+      <li><strong>Unable to Cope:</strong> 3.0</li>
+      <li><strong>Irritated by Life:</strong> 2.0</li>
       <li><strong>On Top of Things:</strong> 2.0</li>
     </ul>
   </li>
@@ -1503,111 +1751,7 @@ Answer: None
       <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
       <li><strong>Trouble Relaxing:</strong> 1.0</li>
       <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 1.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 0.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 1.0</li>
-      <li><strong>Fatigue:</strong> 0.0</li>
-      <li><strong>Appetite Changes:</strong> 1.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 0.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 21</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 2.0</li>
-  <li><strong>Socio-economic status:</strong> 4.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 5.0</li>
-  <li><strong>Happiness:</strong> 1.0</li>
-  <li><strong>Laughter:</strong> 0.0</li>
-  <li><strong>Learning:</strong> 7.0</li>
-  <li><strong>Enjoyment:</strong> 5.0</li>
-  <li><strong>Worry:</strong> 0.0</li>
-  <li><strong>Depression:</strong> 3.0</li>
-  <li><strong>Anger:</strong> 4.0</li>
-  <li><strong>Stress:</strong> 3.0</li>
-  <li><strong>Loneliness:</strong> 10.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-      <li><strong>Father:</strong> 18.0</li>
-      <li><strong>Mother:</strong> 11.0</li>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 4.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 2.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 3.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 4.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 3.0</li>
-      <li><strong>Trouble Relaxing:</strong> 3.0</li>
-      <li><strong>Restlessness:</strong> 3.0</li>
-      <li><strong>Irritability:</strong> 2.0</li>
-      <li><strong>Fear Something Awful Might Happen:</strong> 3.0</li>
-    </ul>
-  </li>
-  <li><strong>Depressive Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Anhedonia:</strong> 0.0</li>
-      <li><strong>Sleep Problems:</strong> 3.0</li>
-      <li><strong>Fatigue:</strong> 2.0</li>
-      <li><strong>Appetite Changes:</strong> 3.0</li>
-      <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 0.0</li>
-      <li><strong>Suicidal Thoughts:</strong> 2.0</li>
-    </ul>
-  </li>
-</ul>
-<h2>Respondent 85</h2>
-<ul>
-  <li><strong>Year of birth:</strong> 2003.0</li>
-  <li><strong>Gender:</strong> 1.0</li>
-  <li><strong>Socio-economic status:</strong> 1.0</li>
-  <li><strong>Ethnic identity:</strong> 6.0</li>
-  <li><strong>Life satisfaction:</strong> 7.0</li>
-  <li><strong>Happiness:</strong> 7.0</li>
-  <li><strong>Laughter:</strong> 5.0</li>
-  <li><strong>Learning:</strong> 6.0</li>
-  <li><strong>Enjoyment:</strong> 7.0</li>
-  <li><strong>Worry:</strong> 1.0</li>
-  <li><strong>Depression:</strong> 0.0</li>
-  <li><strong>Anger:</strong> 3.0</li>
-  <li><strong>Stress:</strong> 2.0</li>
-  <li><strong>Loneliness:</strong> 4.0</li>
-  <li><strong>Parental Education:</strong>
-    <ul>
-    </ul>
-  </li>
-  <li><strong>Emotional Regulation Frequency:</strong>
-    <ul>
-      <li><strong>Upset by Unexpected Events:</strong> 2.0</li>
-      <li><strong>Unable to Control Important Things:</strong> 1.0</li>
-      <li><strong>Lacked Confidence Handling Problems:</strong> 2.0</li>
-      <li><strong>Unable to Cope:</strong> 1.0</li>
-      <li><strong>Irritated by Life:</strong> 3.0</li>
-      <li><strong>On Top of Things:</strong> 4.0</li>
-    </ul>
-  </li>
-  <li><strong>Anxiety Symptoms Frequency:</strong>
-    <ul>
-      <li><strong>Feeling Nervous or On Edge:</strong> 1.0</li>
-      <li><strong>Trouble Relaxing:</strong> 1.0</li>
-      <li><strong>Restlessness:</strong> 0.0</li>
-      <li><strong>Irritability:</strong> 2.0</li>
+      <li><strong>Irritability:</strong> 0.0</li>
       <li><strong>Fear Something Awful Might Happen:</strong> 1.0</li>
     </ul>
   </li>
@@ -1615,10 +1759,10 @@ Answer: None
     <ul>
       <li><strong>Anhedonia:</strong> 1.0</li>
       <li><strong>Sleep Problems:</strong> 2.0</li>
-      <li><strong>Fatigue:</strong> 2.0</li>
+      <li><strong>Fatigue:</strong> 3.0</li>
       <li><strong>Appetite Changes:</strong> 1.0</li>
       <li><strong>Feelings of Worthlessness:</strong> 0.0</li>
-      <li><strong>Concentration Difficulties:</strong> 2.0</li>
+      <li><strong>Concentration Difficulties:</strong> 1.0</li>
       <li><strong>Suicidal Thoughts:</strong> 0.0</li>
     </ul>
   </li>
@@ -1643,6 +1787,8 @@ To answer the question correctly, you must first use the 'questions' schema to f
 
 </format>
 
+Before providing final answer, please [REQUEST]
+
 <output>
 Provide your final answer directly and concisely. Output must be the human-readable value, not an option code.
 
@@ -1657,5 +1803,5 @@ Rules:
 </output>
 
 <task>
-List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.
-</task>","21, 40, 68, 85",False
+Which respondents are 6.0?
+</task>",,False

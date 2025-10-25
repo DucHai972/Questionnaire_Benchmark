@@ -916,7 +916,7 @@ List all respondents from the 'Intern' group who rated 'Integration_of_Functions
 - The task selects respondents with Group = D (Intern) and Integration_of_Functions = 4.  
 - From the provided responses, the matching respondents are 31 and 78.
 
-31, 78",True
+31, 78",False
 case_4,answer_reverse_lookup,Find all respondents who rated 'Cumbersome_to_Use' as 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1991,7 +1991,7 @@ Rules:
 Which respondents are in the 'Senior' group?
 </task>","The 'Group' field uses codes A = Senior, B = Junior, C = Middle, D = Intern. The attitude items are 5-point Likert scales (1–5) where 1 = Strongly Disagree and 5 = Strongly Agree. Higher scores indicate stronger agreement with each prompt. Negative-usability items (e.g., System_Complexity, Inconsistency, Cumbersome_to_Use, Need_for_Technical_Support, Need_to_Learn_Before_Use) reflect worse perceptions when scores are high; positive-usability items (e.g., Ease_of_Use, Integration_of_Functions, Ease_of_Learning, Confidence_in_Use, Frequent_Usage) reflect better perceptions when scores are high. Valid values: Group ∈ {A,B,C,D}; Likert responses ∈ {1,2,3,4,5}.
 
-11, 34",True
+11, 34",False
 case_7,answer_reverse_lookup,List all respondents from the 'Senior' group who rated 'Frequent_Usage' as 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4850,7 +4850,7 @@ Which respondents are in the 'Intern' group?
 - Each respondent is identified by a numeric ID (e.g., Respondent 34) and their Group value is given as the letter code to be mapped to the option text.
 - Use the schema mapping to interpret any Group letter as the corresponding role name.
 
-84, 30, 29, 83",True
+84, 30, 29, 83",False
 case_14,answer_reverse_lookup,Find all respondents who rated 'Confidence_in_Use' as 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5225,7 +5225,7 @@ Find all respondents who rated 'Confidence_in_Use' as 4.
 - The Group field is a multiple-choice coded A–D corresponding to Senior, Junior, Middle, Intern respectively per the schema.
 - Valid numeric responses for all Likert items are integers 1 through 5.
 
-14, 68",True
+14, 68",False
 case_15,answer_reverse_lookup,List all respondents from the 'Intern' group who rated 'Frequent_Usage' as 2.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6139,7 +6139,7 @@ Which respondents are in the 'Junior' group?
 - In the responses, Group values are given as letter codes which must be mapped to the option text.
 - To find Juniors, select respondents with Group = B (Junior).
 
-47, 61",True
+47, 61",False
 case_17,answer_reverse_lookup,Find all respondents who rated 'Ease_of_Learning' as 5.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6472,7 +6472,7 @@ Find all respondents who rated 'Ease_of_Learning' as 5.
 - The 'Group' question is a multiple-choice coded A. Senior, B. Junior, C. Middle, D. Intern.  
 - Relevant Ease_of_Learning responses in the dataset are: Respondent 67 = 5, Respondent 54 = 5, Respondent 39 = 2, Respondent 47 = 3, Respondent 38 = 4.
 
-67, 54",True
+67, 54",False
 case_18,answer_reverse_lookup,Which respondents are in the 'Middle' group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -6885,7 +6885,7 @@ Rules:
 Which respondents are in the 'Middle' group?
 </task>","Group codes: A = Senior, B = Junior, C = Middle, D = Intern. The survey uses Likert scales 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree for all attitude items. Higher scores on negatively-worded items (e.g., System_Complexity, Inconsistency, Cumbersome_to_Use, Need_for_Technical_Support, Need_to_Learn_Before_Use) indicate more negative assessments. Higher scores on positively-worded items (e.g., Frequent_Usage, Ease_of_Use, Integration_of_Functions, Ease_of_Learning, Confidence_in_Use) indicate more positive assessments. Respondents are identified by numeric IDs paired with their Group codes and responses.
 
-24, 43",True
+24, 43",False
 case_19,answer_reverse_lookup,Find all respondents who rated 'Frequent_Usage' as 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9890,7 +9890,7 @@ Find all respondents who rated 'Confidence_in_Use' as 4.
 - Critical values are 1 and 5, representing strongest disagreement and strongest agreement respectively.  
 - Every numerical response in the dataset falls within the 1–5 range.
 
-50, 75, 22, 86",True
+50, 75, 22, 86",False
 case_25,answer_reverse_lookup,Which respondents are in the 'Intern' group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10594,7 +10594,7 @@ Rules:
 List all respondents who rated 'Inconsistency' and 'Integration_of_Functions' with the same score.
 </task>","Critical values and ranges: All Likert items use a 1–5 scale where 1 = Strongly Disagree and 5 = Strongly Agree. ""Group"" is an MCQ with A = Senior, B = Junior, C = Middle, D = Intern. Both Integration_of_Functions and Inconsistency are Likert items (numeric 1–5), so comparing them means comparing their numeric scores. We consider respondents matched only if the two numeric scores are equal. 
 
-None",True
+None",False
 case_27,answer_reverse_lookup,List all respondents who rated 'Need_to_Learn_Before_Use' and 'Confidence_in_Use' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10923,7 +10923,7 @@ Rules:
 List all respondents who rated 'Need_to_Learn_Before_Use' and 'Confidence_in_Use' with the same score.
 </task>","All Likert items use a 1–5 scale where 1 = Strongly Disagree and 5 = Strongly Agree. Need_to_Learn_Before_Use indicates how much a respondent needed to learn before using the system (higher means more need). Confidence_in_Use indicates how confident the respondent felt using the system (higher means more confident). Both fields are integer values from 1 to 5; equality requires identical numeric scores. Checked respondents: 84, 62, 90, 36, 37.
 
-None",True
+None",False
 case_28,answer_reverse_lookup,Which respondents from the 'Junior' group rated 'Frequent_Usage' as 4 and 'Confidence_in_Use' as 2?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12290,7 +12290,7 @@ Rules:
 Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.
 </task>","The 'Group' field is a multiple-choice with codes A. Senior B. Junior C. Middle D. Intern. All Likert items use a 1–5 scale where 1 = Strongly Disagree and 5 = Strongly Agree. 'Frequent_Usage' and 'Cumbersome_to_Use' are numeric Likert scores in the 1–5 range. Their combined score (sum) therefore ranges from 2 to 10. The condition combined score < 6 corresponds to sums of 2, 3, 4, or 5.
 
-38, 4",True
+38, 4",False
 case_31,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Inconsistency' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13282,7 +13282,7 @@ Rules:
 
 <task>
 Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.
-</task>","4, 5, 31, 90",False
+</task>","4, 5, 31, 90",True
 case_33,answer_reverse_lookup,List all respondents who rated 'Confidence_in_Use' and 'Frequent_Usage' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16075,7 +16075,7 @@ Which respondents from the 'Middle' group rated 'Inconsistency' as 3 and 'Cumber
 - Therefore valid values for Inconsistency and Cumbersome_to_Use are integers 1 through 5; the query targets Inconsistency = 3 and Cumbersome_to_Use = 1 for Group C (Middle).
 - Respondent IDs in the dataset are numeric (e.g., 88, 78) and should be returned as a comma-separated list if any match.
 
-None",True
+None",False
 case_38,answer_reverse_lookup,List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18225,7 +18225,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.
-</task>","22, 49, 74",False
+</task>","22, 49, 74",True
 case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18804,7 +18804,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.
-</task>","4, 12, 32, 36, 70",False
+</task>","4, 12, 32, 36, 70",True
 case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19425,7 +19425,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","19, 64, 78, 86",False
+</task>","19, 64, 78, 86",True
 case_44,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Learning' is higher than the average 'Ease_of_Learning' for the 'Middle' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19884,7 +19884,7 @@ Find all respondents in the 'Junior' group whose 'Ease_of_Learning' is higher th
 - Junior group (B) respondents: 23 with Ease_of_Learning = 4.
 - Since the maximum possible score is 5 and the Middle-group average is 5, no Junior respondent has Ease_of_Learning > 5.
 
-None",True
+None",False
 case_45,answer_reverse_lookup,Find all respondents in the 'Intern' group whose 'Confidence_in_Use' is higher than the average 'Confidence_in_Use' for the 'Junior' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23027,4 +23027,4 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","35, 61, 82",False
+</task>","35, 61, 82",True

@@ -942,7 +942,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '29043'.
-</task>","492, 29071, 29043, 72700, 72741, 72869, 73007",True
+</task>","492, 29071, 29043, 72700, 72741, 72869, 73007",False
 case_4,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '73094', excluding the respondent themselves.""","Survey Data
 ==================================================
 
@@ -12510,7 +12510,7 @@ Rules:
 
 <task>
 List all respondents who have the same education level as respondent '72927'.
-</task>","489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 72927, 73103",True
+</task>","489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 72927, 73103",False
 case_25,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?,"Survey Data
 ==================================================
 
@@ -13742,7 +13742,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.
-</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",True
+</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",False
 case_27,multi_hop_relational_inference,Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?,"Survey Data
 ==================================================
 
@@ -22942,7 +22942,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>","159, 184, 173, 72937, 491",True
+</task>","159, 184, 173, 72937, 491",False
 case_43,multi_hop_relational_inference,"""List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.""","Survey Data
 ==================================================
 

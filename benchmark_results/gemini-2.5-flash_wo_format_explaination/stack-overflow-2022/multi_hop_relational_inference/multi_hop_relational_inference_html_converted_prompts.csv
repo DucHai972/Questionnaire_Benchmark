@@ -20104,7 +20104,7 @@ Rules:
 
 <task>
 Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.
-</task>","407, 72827, 154, 547, 29061",True
+</task>","407, 72827, 154, 547, 29061",False
 case_37,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27274,7 +27274,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>","72805, 72827, 72856, 29067, 72970, 73021",False
+</task>","72805, 72827, 72856, 29067, 72970, 73021",True
 case_48,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72965'.,"<!DOCTYPE html>
 <html>
 <head>

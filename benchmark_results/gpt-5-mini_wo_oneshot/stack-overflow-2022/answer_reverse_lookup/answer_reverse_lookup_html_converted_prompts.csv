@@ -10282,7 +10282,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'Mercurial' for version control.
-</task>",73209,True
+</task>",73209,False
 case_29,answer_reverse_lookup,Find all respondents from 'Slovakia' with an education level of 'Some college/university study without earning a degree' who have worked with 'C++'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11210,7 +11210,7 @@ Rules:
 
 <task>
 Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?
-</task>","73198, 72958, 29109, 72800",False
+</task>","73198, 72958, 29109, 72800",True
 case_31,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14390,7 +14390,7 @@ Rules:
 
 <task>
 List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.
-</task>",29103,True
+</task>",29103,False
 case_38,answer_reverse_lookup,Which respondents have between 8 and 13 years of total coding experience and work with the 'Docker' tool?,"<!DOCTYPE html>
 <html>
 <head>

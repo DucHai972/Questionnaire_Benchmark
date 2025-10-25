@@ -380,7 +380,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?
-</task>",,
+</task>",,False
 case_3,rule_based_querying,Find all respondents whose 'Recommendation (clear recommendation)' score is between 0 and 2.,"# Survey Data
 
 ## Questions
@@ -894,7 +894,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (clear recommendation)' score is between 0 and 2.
-</task>",,
+</task>",,False
 case_4,rule_based_querying,List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 0.,"# Survey Data
 
 ## Questions
@@ -1315,7 +1315,8 @@ Rules:
 
 <task>
 List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 0.
-</task>",,
+</task>","[]
+There are no respondents from the '(MI)-VT' session with an 'Identification' of exactly 0.",False
 case_5,rule_based_querying,List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 2.,"# Survey Data
 
 ## Questions
@@ -1910,7 +1911,7 @@ Rules:
 
 <task>
 List all respondents from the '(MI)-VT' session whose 'Identification' is exactly 2.
-</task>",,
+</task>",,False
 case_6,rule_based_querying,List all respondents from the 'III - Sepsis' session whose 'Assessment' is exactly 2.,"# Survey Data
 
 ## Questions
@@ -2424,7 +2425,7 @@ Rules:
 
 <task>
 List all respondents from the 'III - Sepsis' session whose 'Assessment' is exactly 2.
-</task>",,
+</task>",,False
 case_7,rule_based_querying,List all respondents from the 'MI' session whose 'Assessment' is exactly 2.,"# Survey Data
 
 ## Questions
@@ -2920,7 +2921,7 @@ Rules:
 
 <task>
 List all respondents from the 'MI' session whose 'Assessment' is exactly 2.
-</task>",,
+</task>",Respondent 2,False
 case_8,rule_based_querying,Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 3.,"# Survey Data
 
 ## Questions
@@ -3470,7 +3471,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 3.
-</task>",,
+</task>",,False
 case_9,rule_based_querying,List all respondents from the 'II (Anaphylaxis)' session whose 'Identification' is exactly 0.,"# Survey Data
 
 ## Questions
@@ -3972,7 +3973,7 @@ Rules:
 
 <task>
 List all respondents from the 'II (Anaphylaxis)' session whose 'Identification' is exactly 0.
-</task>",,
+</task>",Respondent 12,False
 case_10,rule_based_querying,Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?,"# Survey Data
 
 ## Questions
@@ -4564,7 +4565,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Recommendation (global rating scale)'?
-</task>",,
+</task>",,False
 case_11,rule_based_querying,List all respondents from the 'III-Sepsis' session whose 'Background (examination)' is exactly 2.,"# Survey Data
 
 ## Questions
@@ -4979,7 +4980,7 @@ Rules:
 
 <task>
 List all respondents from the 'III-Sepsis' session whose 'Background (examination)' is exactly 2.
-</task>",,
+</task>","Respondent 15, Respondent 7",False
 case_12,rule_based_querying,Find all respondents whose 'Assessment' score is between 0 and 1.,"# Survey Data
 
 ## Questions
@@ -5571,7 +5572,10 @@ Rules:
 
 <task>
 Find all respondents whose 'Assessment' score is between 0 and 1.
-</task>",,
+</task>","After carefully reviewing the provided data, I found that there are no respondents with an 'Assessment' score between 0 and 1. All respondents have an 'Assessment' score of 2 or 3. 
+
+Therefore, the answer is: 
+[]",False
 case_13,rule_based_querying,List all respondents from the 'II (Anaphylactic Shock)' session whose 'Background (history)' is exactly 3.,"# Survey Data
 
 ## Questions
@@ -6043,7 +6047,7 @@ Rules:
 
 <task>
 List all respondents from the 'II (Anaphylactic Shock)' session whose 'Background (history)' is exactly 3.
-</task>",,
+</task>",,False
 case_14,rule_based_querying,Find all respondents whose 'Assessment' score is between 0 and 1.,"# Survey Data
 
 ## Questions
@@ -6473,7 +6477,10 @@ Rules:
 
 <task>
 Find all respondents whose 'Assessment' score is between 0 and 1.
-</task>",,
+</task>","After carefully reviewing the provided data, I found that there are no respondents with an 'Assessment' score between 0 and 1. All respondents have an 'Assessment' score of 2 or 3. 
+
+Therefore, the answer is: 
+[]",False
 case_15,rule_based_querying,List all respondents from the 'MI' session whose 'Recommendation (global rating scale)' is exactly 0.,"# Survey Data
 
 ## Questions
@@ -7023,7 +7030,8 @@ Rules:
 
 <task>
 List all respondents from the 'MI' session whose 'Recommendation (global rating scale)' is exactly 0.
-</task>",,
+</task>","[]
+There are no respondents from the 'MI' session with a 'Recommendation (global rating scale)' of exactly 0.",False
 case_16,rule_based_querying,Which respondents scored higher than 1 on 'Situation'?,"# Survey Data
 
 ## Questions
@@ -7606,7 +7614,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 1 on 'Situation'?
-</task>",,
+</task>",,False
 case_17,rule_based_querying,Which respondents scored higher than 2 on 'Assessment'?,"# Survey Data
 
 ## Questions
@@ -7913,7 +7921,7 @@ Rules:
 
 <task>
 Which respondents scored higher than 2 on 'Assessment'?
-</task>",,
+</task>",,False
 case_18,rule_based_querying,List all respondents from the 'V (Hypoglycemia)' session whose 'Background (examination)' is exactly 1.,"# Survey Data
 
 ## Questions
@@ -8376,7 +8384,7 @@ Rules:
 
 <task>
 List all respondents from the 'V (Hypoglycemia)' session whose 'Background (examination)' is exactly 1.
-</task>",,
+</task>",Respondent 1,False
 case_19,rule_based_querying,Find all respondents whose 'Background (examination)' score is between 0 and 1.,"# Survey Data
 
 ## Questions
@@ -8809,7 +8817,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (examination)' score is between 0 and 1.
-</task>",,
+</task>",,False
 case_20,rule_based_querying,Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 2.,"# Survey Data
 
 ## Questions
@@ -9323,7 +9331,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Recommendation (global rating scale)' score is between 1 and 2.
-</task>",,
+</task>",,False
 case_21,rule_based_querying,Find all respondents whose 'Background (history)' score is between 0 and 2.,"# Survey Data
 
 ## Questions
@@ -9672,7 +9680,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (history)' score is between 0 and 2.
-</task>",,
+</task>",,False
 case_22,rule_based_querying,List all respondents from the 'I (Myocardial infarction)' session whose 'Background (examination)' is exactly 3.,"# Survey Data
 
 ## Questions
@@ -9970,7 +9978,7 @@ Rules:
 
 <task>
 List all respondents from the 'I (Myocardial infarction)' session whose 'Background (examination)' is exactly 3.
-</task>",,
+</task>",Respondent 16,False
 case_23,rule_based_querying,Find all respondents whose 'Background (examination)' score is between 0 and 1.,"# Survey Data
 
 ## Questions
@@ -10493,7 +10501,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (examination)' score is between 0 and 1.
-</task>",,
+</task>",,False
 case_24,rule_based_querying,List all respondents from the 'II - Anaphylaxsis' session whose 'Background (examination)' is exactly 1.,"# Survey Data
 
 ## Questions
@@ -10839,7 +10847,7 @@ Rules:
 
 <task>
 List all respondents from the 'II - Anaphylaxsis' session whose 'Background (examination)' is exactly 1.
-</task>",,
+</task>",None,True
 case_25,rule_based_querying,List all respondents from the 'MI' session whose 'Background (history)' is exactly 0.,"# Survey Data
 
 ## Questions
@@ -11341,7 +11349,7 @@ Rules:
 
 <task>
 List all respondents from the 'MI' session whose 'Background (history)' is exactly 0.
-</task>",,
+</task>",[],True
 case_26,rule_based_querying,Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 1 and a 'Recommendation (global rating scale)' of less than 2?,"# Survey Data
 
 ## Questions
@@ -11678,7 +11686,7 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 1 and a 'Recommendation (global rating scale)' of less than 2?
-</task>",,
+</task>",Respondent 14,False
 case_27,rule_based_querying,Which respondents from sessions on '2025-03-14' have a 'Recommendation (global rating scale)' of 3 and a 'Identification' of less than 2?,"# Survey Data
 
 ## Questions
@@ -12231,7 +12239,7 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-03-14' have a 'Recommendation (global rating scale)' of 3 and a 'Identification' of less than 2?
-</task>",,
+</task>",Respondent 7,False
 case_28,rule_based_querying,Find all respondents whose total score for 'Background (examination)' and 'Assessment' is greater than 3.,"# Survey Data
 
 ## Questions
@@ -12796,7 +12804,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Background (examination)' and 'Assessment' is greater than 3.
-</task>",,
+</task>",,False
 case_29,rule_based_querying,List all respondents whose 'Assessment' score is equal to their 'Situation' score.,"# Survey Data
 
 ## Questions
@@ -13262,7 +13270,7 @@ Rules:
 
 <task>
 List all respondents whose 'Assessment' score is equal to their 'Situation' score.
-</task>",,
+</task>",,False
 case_30,rule_based_querying,Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 2 and a 'Situation' of less than 2?,"# Survey Data
 
 ## Questions
@@ -13596,7 +13604,7 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-05-04' have a 'Recommendation (clear recommendation)' of 2 and a 'Situation' of less than 2?
-</task>",,
+</task>","Respondent 9, Respondent 15",False
 case_31,rule_based_querying,Which respondents from sessions on '2025-05-16' have a 'Background (history)' of 3 and a 'Background (examination)' of less than 2?,"# Survey Data
 
 ## Questions
@@ -14020,7 +14028,7 @@ Rules:
 
 <task>
 Which respondents from sessions on '2025-05-16' have a 'Background (history)' of 3 and a 'Background (examination)' of less than 2?
-</task>",,
+</task>",Respondent 19,False
 case_32,rule_based_querying,List all respondents whose 'Background (examination)' score is equal to their 'Recommendation (clear recommendation)' score.,"# Survey Data
 
 ## Questions
@@ -14519,7 +14527,7 @@ Rules:
 
 <task>
 List all respondents whose 'Background (examination)' score is equal to their 'Recommendation (clear recommendation)' score.
-</task>",,
+</task>",,False
 case_33,rule_based_querying,Find all respondents whose total score for 'Assessment' and 'Background (examination)' is greater than 4.,"# Survey Data
 
 ## Questions
@@ -15078,7 +15086,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Assessment' and 'Background (examination)' is greater than 4.
-</task>",,
+</task>",,False
 case_34,rule_based_querying,List all respondents whose 'Identification' score is equal to their 'Background (history)' score.,"# Survey Data
 
 ## Questions
@@ -15628,7 +15636,7 @@ Rules:
 
 <task>
 List all respondents whose 'Identification' score is equal to their 'Background (history)' score.
-</task>",,
+</task>",,False
 case_35,rule_based_querying,Find all respondents whose total score for 'Situation' and 'Recommendation (clear recommendation)' is greater than 4.,"# Survey Data
 
 ## Questions
@@ -16094,7 +16102,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Situation' and 'Recommendation (clear recommendation)' is greater than 4.
-</task>",,
+</task>",,False
 case_36,rule_based_querying,List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.,"# Survey Data
 
 ## Questions
@@ -16569,7 +16577,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.
-</task>",,
+</task>",,False
 case_37,rule_based_querying,List all respondents whose 'Background (history)' score is equal to their 'Assessment' score.,"# Survey Data
 
 ## Questions
@@ -16996,7 +17004,7 @@ Rules:
 
 <task>
 List all respondents whose 'Background (history)' score is equal to their 'Assessment' score.
-</task>",,
+</task>",,False
 case_38,rule_based_querying,List all respondents whose 'Recommendation (global rating scale)' score is equal to their 'Assessment' score.,"# Survey Data
 
 ## Questions
@@ -17597,7 +17605,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (global rating scale)' score is equal to their 'Assessment' score.
-</task>",,
+</task>",,False
 case_39,rule_based_querying,List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.,"# Survey Data
 
 ## Questions
@@ -18195,7 +18203,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (clear recommendation)' score is equal to their 'Situation' score.
-</task>",,
+</task>",,False
 case_40,rule_based_querying,Find all respondents whose total score for 'Assessment' and 'Situation' is greater than 4.,"# Survey Data
 
 ## Questions
@@ -18781,7 +18789,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Assessment' and 'Situation' is greater than 4.
-</task>",,
+</task>",,False
 case_41,rule_based_querying,List all respondents whose 'Recommendation (global rating scale)' is within 1 point of the lowest 'Assessment' for their session name.,"# Survey Data
 
 ## Questions
@@ -19277,7 +19285,7 @@ Rules:
 
 <task>
 List all respondents whose 'Recommendation (global rating scale)' is within 1 point of the lowest 'Assessment' for their session name.
-</task>",,
+</task>",,False
 case_42,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"# Survey Data
 
 ## Questions
@@ -19836,7 +19844,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?
-</task>",,
+</task>",,False
 case_43,rule_based_querying,Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?,"# Survey Data
 
 ## Questions
@@ -20302,7 +20310,122 @@ Rules:
 
 <task>
 Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?
-</task>",,
+</task>","To solve this task, we first need to calculate the total score for each respondent across all rubric items and then find the average total score for all respondents. Afterward, we can identify which respondents have a total score higher than the average.
+
+The rubric items are:
+- **Identification**
+- **Situation**
+- **Background (history)**
+- **Background (examination)**
+- **Assessment**
+- **Recommendation (clear recommendation)**
+- **Recommendation (global rating scale)**
+
+Let's calculate the total score for each respondent:
+
+### Respondent 17
+- **Identification:** 3
+- **Situation:** 3
+- **Background (history):** 3
+- **Background (examination):** 3
+- **Assessment:** 3
+- **Recommendation (clear recommendation):** 3
+- **Recommendation (global rating scale):** 2
+Total: 3 + 3 + 3 + 3 + 3 + 3 + 2 = 20
+
+### Respondent 6
+- **Identification:** 3
+- **Situation:** 2
+- **Background (history):** 3
+- **Background (examination):** 3
+- **Assessment:** 2
+- **Recommendation (clear recommendation):** 2
+- **Recommendation (global rating scale):** 3
+Total: 3 + 2 + 3 + 3 + 2 + 2 + 3 = 18
+
+### Respondent 18
+- **Identification:** 3
+- **Situation:** 3
+- **Background (history):** 2
+- **Background (examination):** 2
+- **Assessment:** 3
+- **Recommendation (clear recommendation):** 2
+- **Recommendation (global rating scale):** 2
+Total: 3 + 3 + 2 + 2 + 3 + 2 + 2 = 17
+
+### Respondent 22
+- **Identification:** 3
+- **Situation:** 3
+- **Background (history):** 3
+- **Background (examination):** 3
+- **Assessment:** 2
+- **Recommendation (clear recommendation):** 2
+- **Recommendation (global rating scale):** 3
+Total: 3 + 3 + 3 + 3 + 2 + 2 + 3 = 19
+
+### Respondent 11
+- **Identification:** 3
+- **Situation:** 3
+- **Background (history):** 3
+- **Background (examination):** 3
+- **Assessment:** 3
+- **Recommendation (clear recommendation):** 3
+- **Recommendation (global rating scale):** 3
+Total: 3 + 3 + 3 + 3 + 3 + 3 + 3 = 21
+
+### Respondent 21
+- **Identification:** 3
+- **Situation:** 2
+- **Background (history):** 3
+- **Background (examination):** 1
+- **Assessment:** 2
+- **Recommendation (clear recommendation):** 3
+- **Recommendation (global rating scale):** 3
+Total: 3 + 2 + 3 + 1 + 2 + 3 + 3 = 17
+
+### Respondent 14
+- **Identification:** 3
+- **Situation:** 3
+- **Background (history):** 2
+- **Background (examination):** 2
+- **Assessment:** 3
+- **Recommendation (clear recommendation):** 1
+- **Recommendation (global rating scale):** 2
+Total: 3 + 3 + 2 + 2 + 3 + 1 + 2 = 16
+
+### Respondent 15
+- **Identification:** 3
+- **Situation:** 3
+- **Background (history):** 2
+- **Background (examination):** 3
+- **Assessment:** 2
+- **Recommendation (clear recommendation):** 2
+- **Recommendation (global rating scale):** 2
+Total: 3 + 3 + 2 + 3 + 2 + 2 + 2 = 17
+
+### Respondent 4
+- **Identification:** 3
+- **Situation:** 3
+- **Background (history):** 3
+- **Background (examination):** 2
+- **Assessment:** 2
+- **Recommendation (clear recommendation):** 2
+- **Recommendation (global rating scale):** 2
+Total: 3 + 3 + 3 + 2 + 2 + 2 + 2 = 17
+
+Now, let's calculate the average total score:
+Average = (20 + 18 + 17 + 19 + 21 + 17 + 16 + 17 + 17) / 9
+Average = 166 / 9
+Average = 18.44
+
+Respondents with a total score higher than the average (18.44) are:
+- Respondent 17 (Total: 20)
+- Respondent 11 (Total: 21)
+- Respondent 22 (Total: 19)
+
+Since 19 is indeed higher than 18.44, Respondent 22 should also be included.
+
+The final answer is: $\boxed{17, 11, 22}$",False
 case_44,rule_based_querying,List all respondents whose 'Background (history)' is within 2 point of the lowest 'Recommendation (global rating scale)' for their session name.,"# Survey Data
 
 ## Questions
@@ -20846,7 +20969,7 @@ Rules:
 
 <task>
 List all respondents whose 'Background (history)' is within 2 point of the lowest 'Recommendation (global rating scale)' for their session name.
-</task>",,
+</task>",,False
 case_45,rule_based_querying,Find all respondents whose 'Background (examination)' is greater than the average 'Background (examination)' for their session name.,"# Survey Data
 
 ## Questions
@@ -21270,7 +21393,62 @@ Rules:
 
 <task>
 Find all respondents whose 'Background (examination)' is greater than the average 'Background (examination)' for their session name.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (examination)' score for each session name. Then, we compare each respondent's 'Background (examination)' score to this average to find those whose score is greater.
+
+Given the data:
+
+1. **Respondent 23**: SessionName = II-Anaphylaxsis, Background (examination) = 2
+2. **Respondent 7**: SessionName = III-Sepsis, Background (examination) = 3
+3. **Respondent 22**: SessionName = IV (VT), Background (examination) = 3
+4. **Respondent 9**: SessionName = II (Anaphylaxsis), Background (examination) = 2
+5. **Respondent 3**: SessionName = III-Sepsis, Background (examination) = 3
+6. **Respondent 4**: SessionName = III (Sepsis), Background (examination) = 2
+7. **Respondent 6**: SessionName = II (Anaphylactic Shock), Background (examination) = 3
+8. **Respondent 12**: SessionName = II (Anaphylaxis), Background (examination) = 3
+
+First, let's group the respondents by their session names and calculate the average 'Background (examination)' for each group:
+
+1. **II-Anaphylaxsis** and **II (Anaphylaxsis)** and **II (Anaphylactic Shock)** and **II (Anaphylaxis)** can be considered as the same session for simplicity, given the minor variations in naming. 
+   - Respondent 23: 2
+   - Respondent 9: 2
+   - Respondent 6: 3
+   - Respondent 12: 3
+   - Average = (2 + 2 + 3 + 3) / 4 = 10 / 4 = 2.5
+
+2. **III-Sepsis** and **III (Sepsis)** can also be considered the same.
+   - Respondent 7: 3
+   - Respondent 3: 3
+   - Respondent 4: 2
+   - Average = (3 + 3 + 2) / 3 = 8 / 3 = 2.6667
+
+3. **IV (VT)**:
+   - Respondent 22: 3
+   - Since there's only one respondent, the average is 3.
+
+Now, comparing each respondent's 'Background (examination)' score to the average for their session:
+
+1. For **II-Anaphylaxsis/II (Anaphylaxsis)/II (Anaphylactic Shock)/II (Anaphylaxis)** (Average = 2.5):
+   - Respondent 23: 2 (less than average)
+   - Respondent 9: 2 (less than average)
+   - Respondent 6: 3 (greater than average)
+   - Respondent 12: 3 (greater than average)
+
+2. For **III-Sepsis/III (Sepsis)** (Average = 2.6667):
+   - Respondent 7: 3 (greater than average)
+   - Respondent 3: 3 (greater than average)
+   - Respondent 4: 2 (less than average)
+
+3. For **IV (VT)** (Average = 3):
+   - Respondent 22: 3 (equal to average, not greater)
+
+Thus, the respondents whose 'Background (examination)' is greater than the average for their session name are:
+
+- Respondent 6
+- Respondent 12
+- Respondent 7
+- Respondent 3
+
+Output: 6, 12, 7, 3",False
 case_46,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"# Survey Data
 
 ## Questions
@@ -21781,7 +21959,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?
-</task>",,
+</task>",,False
 case_47,rule_based_querying,Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?,"# Survey Data
 
 ## Questions
@@ -22373,7 +22551,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all items that is lower than the average total score for all sessions on the same date?
-</task>",,
+</task>",,False
 case_48,rule_based_querying,Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?,"# Survey Data
 
 ## Questions
@@ -22806,7 +22984,7 @@ Rules:
 
 <task>
 Which respondents have a total score across all rubric items that is higher than the average total score for all respondents?
-</task>",,
+</task>",,False
 case_49,rule_based_querying,Find all respondents whose 'Assessment' is greater than the average 'Assessment' for their session name.,"# Survey Data
 
 ## Questions
@@ -23362,7 +23540,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Assessment' is greater than the average 'Assessment' for their session name.
-</task>",,
+</task>",,False
 case_50,rule_based_querying,List all respondents whose 'Background (history)' is within 1 point of the lowest 'Identification' for their session name.,"# Survey Data
 
 ## Questions
@@ -23858,4 +24036,4 @@ Rules:
 
 <task>
 List all respondents whose 'Background (history)' is within 1 point of the lowest 'Identification' for their session name.
-</task>",,
+</task>",,False

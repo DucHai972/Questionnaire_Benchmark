@@ -407,7 +407,7 @@ Rules:
 
 <task>
 List all respondents from the 'Intern' group who rated 'Integration_of_Functions' as 4.
-</task>","Respondent31, Respondent78",
+</task>","Respondent31, Respondent78",True
 case_6,answer_reverse_lookup,Which respondents are in the 'Senior' group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -699,7 +699,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Senior' group?
-</task>","Respondent11, Respondent34",
+</task>","Respondent11, Respondent34",True
 case_11,answer_reverse_lookup,Find all respondents who rated 'Need_for_Technical_Support' as 1.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1108,7 +1108,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Need_for_Technical_Support' as 1.
-</task>","Respondent58, Respondent72, Respondent60, Respondent66, Respondent76",
+</task>","Respondent58, Respondent72, Respondent60, Respondent66, Respondent76",True
 case_13,answer_reverse_lookup,Which respondents are in the 'Intern' group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1634,7 +1634,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Intern' group?
-</task>","Respondent84, Respondent30, Respondent29, Respondent83",
+</task>","Respondent84, Respondent30, Respondent29, Respondent83",True
 case_14,answer_reverse_lookup,Find all respondents who rated 'Confidence_in_Use' as 4.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -1965,7 +1965,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Confidence_in_Use' as 4.
-</task>","Respondent14, Respondent68",
+</task>","Respondent14, Respondent68",True
 case_16,answer_reverse_lookup,Which respondents are in the 'Junior' group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2335,7 +2335,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Junior' group?
-</task>","Respondent47, Respondent61",
+</task>","Respondent47, Respondent61",True
 case_17,answer_reverse_lookup,Find all respondents who rated 'Ease_of_Learning' as 5.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2627,7 +2627,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Ease_of_Learning' as 5.
-</task>","Respondent67, Respondent54",
+</task>","Respondent67, Respondent54",True
 case_18,answer_reverse_lookup,Which respondents are in the 'Middle' group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -2997,7 +2997,7 @@ Rules:
 
 <task>
 Which respondents are in the 'Middle' group?
-</task>","Respondent24, Respondent43",
+</task>","Respondent24, Respondent43",True
 case_19,answer_reverse_lookup,Find all respondents who rated 'Frequent_Usage' as 4.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3562,7 +3562,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Frequent_Usage' as 4.
-</task>","Respondent67, Respondent66, Respondent51, Respondent68",
+</task>","Respondent67, Respondent66, Respondent51, Respondent68",True
 case_24,answer_reverse_lookup,Find all respondents who rated 'Confidence_in_Use' as 4.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -3932,7 +3932,7 @@ Rules:
 
 <task>
 Find all respondents who rated 'Confidence_in_Use' as 4.
-</task>","50, 75, 22, 86",
+</task>","50, 75, 22, 86",True
 case_30,answer_reverse_lookup,Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -4224,7 +4224,7 @@ Rules:
 
 <task>
 Find all respondents whose combined score for 'Cumbersome_to_Use' and 'Frequent_Usage' is less than 6.
-</task>","Respondent38, Respondent4",
+</task>","Respondent38, Respondent4",True
 case_32,answer_reverse_lookup,Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -4672,7 +4672,7 @@ Rules:
 
 <task>
 Find all respondents whose combined score for 'Need_to_Learn_Before_Use' and 'System_Complexity' is less than 3.
-</task>","Respondent90, Respondent31, Respondent4, Respondent5",
+</task>","Respondent90, Respondent31, Respondent4, Respondent5",True
 case_35,answer_reverse_lookup,List all respondents who rated 'Ease_of_Use' and 'Ease_of_Learning' with the same score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5237,7 +5237,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Ease_of_Use' and 'Ease_of_Learning' with the same score.
-</task>","Respondent71, Respondent17, Respondent37, Respondent33, Respondent36",
+</task>","Respondent71, Respondent17, Respondent37, Respondent33, Respondent36",True
 case_38,answer_reverse_lookup,List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -5763,7 +5763,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Need_to_Learn_Before_Use' and 'Cumbersome_to_Use' with the same score.
-</task>","Respondent54, Respondent55, Respondent48, Respondent6",
+</task>","Respondent54, Respondent55, Respondent48, Respondent6",True
 case_41,answer_reverse_lookup,Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6250,7 +6250,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Inconsistency' score is higher than the average 'Inconsistency' score for their group.
-</task>","Respondent22, Respondent49, Respondent74",
+</task>","Respondent22, Respondent49, Respondent74",True
 case_42,answer_reverse_lookup,Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -6776,7 +6776,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_of_Use' score for their group.
-</task>","4, 12, 32, 36, 70",
+</task>","4, 12, 32, 36, 70",True
 case_46,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -7185,7 +7185,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","Respondent52, Respondent76, Respondent82",
+</task>","Respondent52, Respondent76, Respondent82",True
 case_47,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -7750,7 +7750,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","Respondent9, Respondent44, Respondent46, Respondent56, Respondent66, Respondent74",
+</task>","Respondent9, Respondent44, Respondent46, Respondent56, Respondent66, Respondent74",True
 case_49,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8276,7 +8276,7 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","Respondent9, Respondent15, Respondent66, Respondent71",
+</task>","Respondent9, Respondent15, Respondent66, Respondent71",True
 case_50,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -8724,4 +8724,4 @@ Rules:
 
 <task>
 Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?
-</task>","Respondent35, Respondent61, Respondent82",
+</task>","Respondent35, Respondent61, Respondent82",True

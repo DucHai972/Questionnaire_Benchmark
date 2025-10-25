@@ -1013,7 +1013,7 @@ Rules:
 List all respondents who have the same education level as respondent '29043'.
 </task>","The survey data includes responses from 10 individuals, detailing their professional identity, employment status, education level, coding experience, developer type, organization size, country, compensation, programming languages, and version control system usage. All respondents are identified as 'I am a developer by profession' for their 'MainBranch'. The 'Employment' field shows a mix of full-time employed individuals, with some also being independent contractors or part-time employed. Education levels vary, but a significant portion of respondents have a 'Primary/elementary school' as their highest level of education. Coding experience ranges from 3 to 48 years, with professional experience from 2 to 25 years, indicating a diverse range of expertise. Most respondents use Git as their version control system.
 
-492, 29071, 72700, 72741, 72869, 73007",True
+492, 29071, 72700, 72741, 72869, 73007",False
 case_4,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '73094', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -2028,7 +2028,7 @@ Rules:
 Find all respondents from the same country as respondent '73129', excluding the respondent themselves.
 </task>","The survey collects data on professional identity, employment, education, coding experience, developer roles, organization size, country, compensation, programming languages, developer tools, and version control systems. Most questions are multiple-choice, with some allowing multiple selections or open-ended text. Compensation details include total amount and frequency. The dataset contains responses from eight individuals, providing a snapshot of various developer profiles across different countries and experience levels.
 
-None",True
+None",False
 case_6,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72858', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -2765,7 +2765,7 @@ Rules:
 Find all respondents from the same country as respondent '72858', excluding the respondent themselves.
 </task>","The survey data includes information from 12 respondents covering various professional and personal details. Each respondent's data is structured with fields like 'MainBranch', 'Employment', 'EdLevel', 'YearsCode', 'Country', and more. The 'MainBranch' field, indicating primary professional identity, is a multiple-choice question, as are 'Employment', 'EdLevel', 'CompFreq', and 'VersionControlSystem'. Other fields like 'YearsCode', 'DevType', 'OrgSize', 'Country', 'CompTotal', 'LanguageHaveWorkedWith', 'LanguageWantToWorkWith', and 'ToolsTechHaveWorkedWith' are open-ended. The dataset provides a snapshot of developers' backgrounds, experience, and tool usage across different countries and organization sizes.
 
-396, 260",True
+396, 260",False
 case_7,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72825'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3504,7 +3504,7 @@ List all respondents who have the same education level as respondent '72825'.
 
 72825's 'EdLevel' is 'B', which corresponds to ""Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)"".
 
-Respondents with the same education level are: 72763, 29060, 72878.",True
+Respondents with the same education level are: 72763, 29060, 72878.",False
 case_8,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '73075', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -4043,7 +4043,7 @@ Other respondents from the United States of America are:
 - Respondent '355'
 - Respondent '72749'
 
-202, 355, 72749",True
+202, 355, 72749",False
 case_9,multi_hop_relational_inference,List all respondents who have the same education level as respondent '388'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6175,7 +6175,7 @@ Rules:
 Find all respondents from the same country as respondent '72815', excluding the respondent themselves.
 </task>","The survey collects detailed professional and demographic information from respondents, including their primary professional identity, employment status, education level, and coding experience. It also gathers data on their country of residence, organization size, and compensation details. Furthermore, the survey delves into technical aspects, listing programming languages and developer tools respondents have worked with or wish to use, along with their version control system preferences. The 'MainBranch' and 'Employment' fields are multiple-choice questions, while 'YearsCode' and 'YearsCodePro' are open-ended numerical inputs. The dataset provided contains responses from nine individuals, offering a snapshot of various developer profiles.
 
-None",True
+None",False
 case_13,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72815', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -9044,7 +9044,7 @@ Rules:
 Which respondents have the same 'MainBranch' (professional identity) as respondent '72945'?
 </task>","The survey gathers detailed professional and technical information, including primary professional identity, employment, education, and coding experience. Most respondents in this specific dataset identify as professional developers, with only one respondent indicating a different primary professional identity. The data combines multiple-choice questions with open-ended fields for comprehensive insights into developer roles, organization sizes, and compensation. Programming language and tool usage are captured as lists, showcasing the varied technical environments of the respondents. Version control system usage is also recorded, predominantly showing Git as the preferred system.
 
-None",True
+None",False
 case_18,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12699,7 +12699,7 @@ Rules:
 Find all respondents from the same country as respondent '189', excluding the respondent themselves.
 </task>","The survey data includes responses from six individuals, each detailing their professional identity, employment status, education level, coding experience, developer roles, organization size, country, compensation, and tools/languages used. All respondents identify as ""I am a developer by profession"" and are employed full-time, with their highest education level being ""Primary/elementary school"". The years of coding experience vary significantly, ranging from 4 to 30 years, while professional coding experience ranges from 4 to 16 years. Compensation totals and frequencies also differ, with most reporting yearly compensation. The data provides a snapshot of various developer profiles across different countries and organizational sizes.
 
-73106, 511",True
+73106, 511",False
 case_24,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72927'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13436,7 +13436,7 @@ Rules:
 List all respondents who have the same education level as respondent '72927'.
 </task>","The survey data includes information on professional identity, employment status, education level, coding experience, developer type, organization size, country, compensation, programming languages, developer tools, and version control systems. Most respondents are developers by profession (MainBranch: A) and are employed full-time (Employment: A). A significant number of respondents have a primary/elementary school as their highest education level. The years of coding experience vary widely, from less than 1 year to 28 years, indicating a diverse range of experience levels among the participants. Many respondents work with common web technologies like HTML/CSS and JavaScript, and Git is the predominant version control system used.
 
-489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 73103",True
+489, 72850, 73198, 72941, 72893, 73195, 72714, 29049, 73103",False
 case_25,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '73200'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14125,7 +14125,7 @@ Which respondents have the same 'MainBranch' (professional identity) as responde
 Respondent '73200' has a 'MainBranch' of 'A', which corresponds to ""I am a developer by profession"".
 
 The respondents with the same 'MainBranch' as '73200' are:
-192, 73052, 72626, 72802, 29034, 73150, 392, 104, 72878",True
+192, 73052, 72626, 72802, 29034, 73150, 392, 104, 72878",False
 case_26,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14760,7 +14760,7 @@ Rules:
 List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.
 </task>","The survey collects detailed information on developers' professional identity, employment status, education level, coding experience (both total and professional), specific developer roles, organization size, country of residence, and compensation details. It also captures their proficiency and preferences in programming languages, developer tools, and version control systems. In this specific dataset, all respondents identify as professional developers and have experience with JavaScript. The majority are employed full-time and hold a primary/elementary school education level. Coding experience varies widely, from 4 to 25 years, with professional experience ranging from 1 to 25 years.
 
-331, 29111, 352, 73076, 479, 192, 72873, 487, 72720",True
+331, 29111, 352, 73076, 479, 192, 72873, 487, 72720",False
 case_27,multi_hop_relational_inference,Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -15395,7 +15395,7 @@ Rules:
 Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?
 </task>","The survey gathers information on professional identity, employment status, education level, and coding experience, including both total and professional years. It also covers developer roles, organization size, country of residence, and compensation details. Respondents frequently report being developers by profession (MainBranch: A) and employed full-time (Employment: A). Programming languages and developer tools are captured as open-ended lists, indicating a wide variety of technologies in use. Version control systems are primarily Git, with some respondents also using SVN.
 
-None",True
+None",False
 case_28,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '72825' and whose programming languages include 'TypeScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16739,7 +16739,7 @@ Rules:
 Which respondents are from the same country as respondent '73030' and also have more than 5 years of coding experience?
 </task>","The survey collects demographic and professional data from developers, including their primary professional identity, employment status, education level, and coding experience. Most respondents in this dataset are professional developers, primarily employed full-time and using Git for version control. Coding experience varies, with total years ranging from 4 to 14 and professional experience from 1 to 8 years. The dataset includes respondents from the United States of America, Iran, Netherlands, and Norway, with the USA being the most represented country.
 
-None",True
+None",False
 case_31,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '441' and whose programming languages include 'Go'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19126,7 +19126,7 @@ Rules:
 Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?
 </task>","The survey gathers detailed information on developers' professional identities, employment, education, and extensive coding experience, including both total and professional years. Most respondents identify as professional developers employed full-time, indicating a focus on active industry professionals. The data reveals a strong prevalence of JavaScript, TypeScript, and HTML/CSS among programming languages used and desired, alongside common tools like Docker and npm. Git is almost universally adopted as the version control system. Compensation and organization size vary widely, reflecting diverse professional contexts.
 
-None",True
+None",False
 case_35,multi_hop_relational_inference,Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19761,7 +19761,7 @@ Rules:
 Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?
 </task>","The survey data includes information on professional identity, employment, education level, coding experience, developer type, organization size, country, compensation, programming languages, developer tools, and version control systems for ten respondents. All respondents in this dataset identify as ""I am a developer by profession"" (MainBranch: A) and are employed full-time (Employment: A). The years of coding experience range from 8 to 16 years, indicating a group of experienced coders. Most respondents use Git as their version control system.
 
-72680, 73195, 72801",True
+72680, 73195, 72801",False
 case_36,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20498,7 +20498,7 @@ Rules:
 Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.
 </task>","The survey gathers comprehensive data on developers' professional identities, employment, education, and coding experience, including both total and professional years. It also covers their specific developer roles, organization size, country of residence, and compensation details (total and frequency). Furthermore, the survey captures information on programming languages and tools developers have worked with or wish to use, along with their version control system preferences. Responses include a mix of single-choice, multi-choice, and open-ended formats, providing a rich dataset for understanding developer demographics and technical proficiencies.
 
-407, 72827, 154, 547, 29061",True
+407, 72827, 154, 547, 29061",False
 case_37,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22503,7 +22503,7 @@ Rules:
 Which respondents are from the same country as respondent '192' and also have more than 3 years of coding experience?
 </task>","The survey data includes responses from 11 individuals, covering professional identity, employment, education, coding experience, developer roles, organization size, country, compensation, programming languages, tools, and version control systems. Most respondents identify as professional developers and are employed full-time. The years of coding experience vary widely, from 5 to 26 years, indicating a mix of junior and senior professionals. Compensation details are provided with different frequencies (weekly, monthly, yearly), and a common version control system used is Git. The dataset represents a diverse group of developers from various countries and organizational sizes.
 
-72664, 72897, 206, 73075",True
+72664, 72897, 206, 73075",False
 case_40,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25209,7 +25209,7 @@ Respondents whose professional coding experience is lower than 10 years:
 *   Respondent 72850: YearsCodePro: 6
 *   Respondent 215: YearsCodePro: 1
 
-72734, 72763, 73208, 441, 72850, 215",True
+72734, 72763, 73208, 441, 72850, 215",False
 case_44,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72950'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27800,7 +27800,7 @@ Rules:
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
 </task>","The survey data includes responses from 12 individuals, detailing their professional identity, employment status, education level, coding experience, and other professional attributes. All respondents identify as developers by profession ('MainBranch: A'). The 'YearsCodePro' field, representing professional coding experience, varies significantly among respondents, ranging from 2 to 25 years. Organization sizes also show a wide distribution, from 2-9 employees to 10,000 or more. Compensation details are provided with varying frequencies (monthly, yearly), and programming languages and tools used are diverse across the group.
 
-73021, 29067, 72970, 72805, 72856, 72827",True
+73021, 29067, 72970, 72805, 72856, 72827",False
 case_48,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72965'.,"<!DOCTYPE html>
 <html>
 <head>

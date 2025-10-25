@@ -3834,7 +3834,7 @@ List all respondents who rated 'Inconsistency' the same as respondent '61'.
 </body>
 </html>
 
-</questionnaire>","24, 25",False
+</questionnaire>","24, 25",True
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -5199,7 +5199,7 @@ Which respondents are in the same group as respondent '79'?
 </body>
 </html>
 
-</questionnaire>","14, 32, 68",False
+</questionnaire>","14, 32, 68",True
 case_15,multi_hop_relational_inference,Which respondents are in the same group as respondent '8'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -10549,7 +10549,7 @@ Now, check other respondents:
 
 No respondents meet the first condition (same 'Confidence_in_Use' score as respondent '26'). Therefore, no respondents can meet both conditions.
 
-None",True
+None",False
 case_27,multi_hop_relational_inference,Which respondents are in the same group as respondent '62' and also rated 'System_Complexity' as 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19486,7 +19486,7 @@ To answer the question, I need to perform the following steps:
 
 No group meets the condition where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score. Therefore, there are no respondents in such a group.
 
-None",True
+None",False
 case_44,multi_hop_relational_inference,Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Junior' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22013,7 +22013,7 @@ List all respondents whose total positive usability score ('Ease_of_Use' + 'Inte
 </body>
 </html>
 
-</questionnaire>","25, 39, 65",False
+</questionnaire>","25, 39, 65",True
 case_49,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -22653,7 +22653,7 @@ To answer the question, I need to perform the following steps:
 **Step 6: Identify respondents.**
 Since none of the groups have an average 'System_Complexity' score higher than their average 'Ease_of_Use' score, there are no respondents that meet the criteria.
 
-</request>",True
+</request>",False
 case_50,multi_hop_relational_inference,Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Middle' group.,"<!DOCTYPE html>
 <html>
 <head>

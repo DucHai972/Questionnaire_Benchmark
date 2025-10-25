@@ -908,7 +908,7 @@ Rules:
 List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactly 4.
 </task>","Critical values for 'Group' are the categories: Senior, Junior, Middle, and Intern. The critical value for 'Confidence_in_Use' is 4, which represents a high level of confidence. The range for 'Confidence_in_Use' is a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree). The task requires identifying respondents who belong to the 'Junior' group and have an exact score of 4 for 'Confidence_in_Use'.
 
-[]",True
+[]",False
 case_4,rule_based_querying,List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1279,7 +1279,7 @@ Rules:
 List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.
 </task>","Critical values and ranges for this query involve the 'Group' and 'Need_for_Technical_Support' fields. The 'Group' field is a categorical variable with four options: Senior, Junior, Middle, and Intern. The 'Need_for_Technical_Support' field is a Likert scale ranging from 1 (Strongly Disagree) to 5 (Strongly Agree). The query specifically targets respondents belonging to the 'Intern' group and those who scored exactly 1 on 'Need_for_Technical_Support', indicating they strongly disagree with needing technical assistance.
 
-[]",True
+[]",False
 case_5,rule_based_querying,List all respondents from the 'Middle' group whose 'System_Complexity' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1650,7 +1650,7 @@ Rules:
 List all respondents from the 'Middle' group whose 'System_Complexity' is exactly 4.
 </task>","Critical values for 'Group' are A (Senior), B (Junior), C (Middle), and D (Intern). The question specifically targets the 'Middle' group. For 'System_Complexity', the range is 1 to 5, where 1 means 'Strongly Disagree' (system is not complex) and 5 means 'Strongly Agree' (system is very complex). The question requires an exact score of 4 for 'System_Complexity'.
 
-[]",True
+[]",False
 case_6,rule_based_querying,Find all respondents whose 'Need_for_Technical_Support' score is between 2 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1979,7 +1979,7 @@ Rules:
 Find all respondents whose 'Need_for_Technical_Support' score is between 2 and 3.
 </task>","The survey uses a Likert scale from 1 to 5 for most questions, where 1 typically means 'Strongly Disagree' and 5 means 'Strongly Agree'. The 'Group' question is a multiple-choice question with options A, B, C, and D. The task requires identifying respondents based on a specific score range for 'Need_for_Technical_Support'.
 
-[]",True
+[]",False
 case_7,rule_based_querying,List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2308,7 +2308,7 @@ Rules:
 List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.
 </task>","The 'Group' field categorizes respondents into Senior, Junior, Middle, or Intern, with 'A' representing 'Senior'. The 'Need_to_Learn_Before_Use' field uses a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree), indicating the extent to which a respondent felt they needed to learn before using the system. The critical value for 'Need_to_Learn_Before_Use' is exactly 1, meaning the respondent strongly disagreed with needing to learn a lot.
 
-[]",True
+[]",False
 case_8,rule_based_querying,Find all respondents whose 'Inconsistency' score is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3379,7 +3379,7 @@ Rules:
 List all respondents from the 'Middle' group whose 'Need_for_Technical_Support' is exactly 4.
 </task>","Critical values for 'Group' are A (Senior), B (Junior), C (Middle), and D (Intern). The 'Need_for_Technical_Support' is a Likert scale ranging from 1 (Strongly Disagree) to 5 (Strongly Agree). The task requires identifying respondents who belong to the 'Middle' group (C) and have a 'Need_for_Technical_Support' score of exactly 4.
 
-[]",True
+[]",False
 case_11,rule_based_querying,Which respondents scored higher than 3 on 'Need_to_Learn_Before_Use'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11316,7 +11316,7 @@ Rules:
 Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?
 </task>","Critical values and ranges for this query involve specific categories for 'Group' and numerical thresholds for Likert scale responses. The 'Group' field is a categorical variable, where 'Junior' is mapped to 'B'. 'System_Complexity' and 'Need_to_Learn_Before_Use' are Likert scale responses ranging from 1 (Strongly Disagree) to 5 (Strongly Agree). For 'System_Complexity', the critical range is 4 or more, indicating agreement or strong agreement that the system is complex. For 'Need_to_Learn_Before_Use', the critical range is less than 4, indicating disagreement or neutrality regarding the need for extensive prior learning.
 
-[]",True
+[]",False
 case_29,rule_based_querying,Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11897,7 +11897,7 @@ Rules:
 Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?
 </task>","The 'Group' variable is categorical, with 'Middle' (C) being the specific group of interest. 'Cumbersome_to_Use' is a Likert scale from 1 to 5, where scores of 4 or more (4, 5) are critical. 'Ease_of_Use' is also a Likert scale from 1 to 5, with scores of less than 3 (1, 2) being critical. Respondents must satisfy all three conditions simultaneously: be from the 'Middle' group, have a 'Cumbersome_to_Use' score of 4 or more, and an 'Ease_of_Use' score of less than 3.
 
-[]",True
+[]",False
 case_30,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12226,7 +12226,7 @@ Rules:
 List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.
 </task>","The relevant scores for 'System_Complexity' and 'Ease_of_Use' are on a Likert scale from 1 to 5, where 1 is ""Strongly Disagree"" and 5 is ""Strongly Agree"". For 'System_Complexity', a higher score indicates more perceived complexity, while for 'Ease_of_Use', a higher score indicates greater ease. The task requires identifying respondents where the 'System_Complexity' score is numerically greater than the 'Ease_of_Use' score. This condition would highlight cases where users found the system more complex than easy.
 
-[]",True
+[]",False
 case_31,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13675,7 +13675,7 @@ Rules:
 Which respondents from the 'Junior' group have a 'Inconsistency' of 4 or more and a 'Confidence_in_Use' of less than 3?
 </task>","Critical values and ranges for this query are: 'Group' must be 'Junior' (which is 'B' in the data). 'Inconsistency' scores, on a Likert scale of 1-5, must be 4 or 5. 'Confidence_in_Use' scores, also on a Likert scale of 1-5, must be 1 or 2.
 
-[]",True
+[]",False
 case_34,rule_based_querying,Find all respondents whose total score for 'Inconsistency' and 'Confidence_in_Use' is less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15999,7 +15999,7 @@ Rules:
 Find all respondents whose total score for 'Need_for_Technical_Support' and 'Ease_of_Learning' is less than 4.
 </task>","The survey utilizes a Likert scale from 1 to 5, where 1 typically signifies ""Strongly Disagree"" and 5 ""Strongly Agree"". For 'Need_for_Technical_Support', a lower score indicates less need for assistance, which is positive for system independence. Conversely, for 'Ease_of_Learning', a higher score denotes easier learning, also a positive attribute. The critical condition for this task is a combined score for these two metrics that is strictly less than 4, meaning the sum must be either 2 or 3. This implies respondents would need to have very low scores (1 or 2) on both questions simultaneously.
 
-[]",True
+[]",False
 case_38,rule_based_querying,Which respondents from the 'Senior' group have a 'Confidence_in_Use' of 3 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>

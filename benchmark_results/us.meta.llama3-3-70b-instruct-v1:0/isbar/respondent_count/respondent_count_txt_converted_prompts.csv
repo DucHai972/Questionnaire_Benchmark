@@ -518,7 +518,7 @@ Rules:
 
 <task>
 Count the respondents from sessions on '2025-05-04' who scored 1 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_3,respondent_count,Count the respondents who participated in a session on '2025-04-04'.,"Survey Data
 ==================================================
 
@@ -891,7 +891,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a session on '2025-04-04'.
-</task>",,
+</task>",,False
 case_4,respondent_count,Count the respondents who participated in a 'IV (AF)' session.,"Survey Data
 ==================================================
 
@@ -1216,7 +1216,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'IV (AF)' session.
-</task>",,
+</task>",,False
 case_5,respondent_count,Count the respondents who participated in a session on '2025-05-16'.,"Survey Data
 ==================================================
 
@@ -1625,7 +1625,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a session on '2025-05-16'.
-</task>",,
+</task>",,False
 case_6,respondent_count,Count the respondents who participated in a session on '2025-04-04'.,"Survey Data
 ==================================================
 
@@ -2106,7 +2106,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a session on '2025-04-04'.
-</task>",,
+</task>",,False
 case_7,respondent_count,Count the respondents who participated in a 'II-Anaphylaxsis' session.,"Survey Data
 ==================================================
 
@@ -2671,7 +2671,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'II-Anaphylaxsis' session.
-</task>",,
+</task>",1,True
 case_8,respondent_count,Count the respondents who participated in a session on '2025-03-14'.,"Survey Data
 ==================================================
 
@@ -3227,7 +3227,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a session on '2025-03-14'.
-</task>",,
+</task>",,False
 case_9,respondent_count,Count the respondents who scored 2 on 'Background (examination)'.,"Survey Data
 ==================================================
 
@@ -3738,7 +3738,7 @@ Rules:
 
 <task>
 Count the respondents who scored 2 on 'Background (examination)'.
-</task>",,
+</task>",,False
 case_10,respondent_count,Count the respondents who scored 2 on 'Assessment'.,"Survey Data
 ==================================================
 
@@ -4192,7 +4192,7 @@ Rules:
 
 <task>
 Count the respondents who scored 2 on 'Assessment'.
-</task>",,
+</task>",,False
 case_11,respondent_count,Count the respondents who participated in a 'V (Hypoglycemia)' session.,"Survey Data
 ==================================================
 
@@ -4673,7 +4673,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'V (Hypoglycemia)' session.
-</task>",,
+</task>",,False
 case_12,respondent_count,Count the respondents who scored 3 on 'Recommendation (clear recommendation)'.,"Survey Data
 ==================================================
 
@@ -5037,7 +5037,7 @@ Rules:
 
 <task>
 Count the respondents who scored 3 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_13,respondent_count,Count the respondents who scored 1 on 'Background (examination)'.,"Survey Data
 ==================================================
 
@@ -5404,7 +5404,7 @@ Rules:
 
 <task>
 Count the respondents who scored 1 on 'Background (examination)'.
-</task>",,
+</task>",,False
 case_14,respondent_count,Count the respondents who participated in a 'II - Anaphylaxsis' session.,"Survey Data
 ==================================================
 
@@ -5963,7 +5963,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'II - Anaphylaxsis' session.
-</task>",,
+</task>",2,False
 case_15,respondent_count,Count the respondents who participated in a 'I (Myocardial infarction)' session.,"Survey Data
 ==================================================
 
@@ -6252,7 +6252,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'I (Myocardial infarction)' session.
-</task>",,
+</task>",,False
 case_16,respondent_count,Count the respondents who participated in a session on '2025-04-04'.,"Survey Data
 ==================================================
 
@@ -6664,7 +6664,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a session on '2025-04-04'.
-</task>",,
+</task>",,False
 case_17,respondent_count,Count the respondents who scored 1 on 'Recommendation (clear recommendation)'.,"Survey Data
 ==================================================
 
@@ -6959,7 +6959,7 @@ Rules:
 
 <task>
 Count the respondents who scored 1 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",,False
 case_18,respondent_count,Count the respondents who participated in a 'I-VF' session.,"Survey Data
 ==================================================
 
@@ -7515,7 +7515,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'I-VF' session.
-</task>",,
+</task>",,False
 case_19,respondent_count,Count the respondents who scored 2 on 'Recommendation (global rating scale)'.,"Survey Data
 ==================================================
 
@@ -7807,7 +7807,7 @@ Rules:
 
 <task>
 Count the respondents who scored 2 on 'Recommendation (global rating scale)'.
-</task>",,
+</task>",,False
 case_20,respondent_count,Count the respondents who participated in a 'IV (VT)' session.,"Survey Data
 ==================================================
 
@@ -8291,7 +8291,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'IV (VT)' session.
-</task>",,
+</task>",,False
 case_21,respondent_count,Count the respondents who participated in a 'I - MI' session.,"Survey Data
 ==================================================
 
@@ -8730,7 +8730,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'I - MI' session.
-</task>",,
+</task>",,False
 case_22,respondent_count,Count the respondents who participated in a 'IV (AF)' session.,"Survey Data
 ==================================================
 
@@ -9163,7 +9163,7 @@ Rules:
 
 <task>
 Count the respondents who participated in a 'IV (AF)' session.
-</task>",,
+</task>",,False
 case_23,respondent_count,Count the respondents from sessions on '2025-05-04' who scored 3 on 'Assessment'.,"Survey Data
 ==================================================
 
@@ -9677,7 +9677,7 @@ Rules:
 
 <task>
 Count the respondents from sessions on '2025-05-04' who scored 3 on 'Assessment'.
-</task>",,
+</task>",,False
 case_24,respondent_count,Count the respondents from sessions on '2025-04-04' who scored 1 on 'Recommendation (global rating scale)'.,"Survey Data
 ==================================================
 
@@ -10116,7 +10116,7 @@ Rules:
 
 <task>
 Count the respondents from sessions on '2025-04-04' who scored 1 on 'Recommendation (global rating scale)'.
-</task>",,
+</task>",,False
 case_25,respondent_count,Count the respondents who scored 3 on 'Recommendation (clear recommendation)'.,"Survey Data
 ==================================================
 
@@ -10525,7 +10525,7 @@ Rules:
 
 <task>
 Count the respondents who scored 3 on 'Recommendation (clear recommendation)'.
-</task>",,
+</task>",1,False
 case_26,respondent_count,Count the respondents from the 'II (Anaphylactic Shock)' session who scored 1 on 'Background (history)' and 2 on 'Situation'.,"Survey Data
 ==================================================
 
@@ -11009,7 +11009,7 @@ Rules:
 
 <task>
 Count the respondents from the 'II (Anaphylactic Shock)' session who scored 1 on 'Background (history)' and 2 on 'Situation'.
-</task>",,
+</task>",0,True
 case_27,respondent_count,Count the respondents who scored 0 on 'Background (history)' and whose 'Comments' contain the word 'Clear'.,"Survey Data
 ==================================================
 
@@ -11556,7 +11556,7 @@ Rules:
 
 <task>
 Count the respondents who scored 0 on 'Background (history)' and whose 'Comments' contain the word 'Clear'.
-</task>",,
+</task>",0,True
 case_28,respondent_count,Count the respondents whose total score for 'Recommendation (global rating scale)' and 'Background (history)' is greater than 5.,"Survey Data
 ==================================================
 
@@ -11923,7 +11923,26 @@ Rules:
 
 <task>
 Count the respondents whose total score for 'Recommendation (global rating scale)' and 'Background (history)' is greater than 5.
-</task>",,
+</task>","To solve this task, we need to calculate the total score for 'Recommendation (global rating scale)' and 'Background (history)' for each respondent and then count the respondents whose total score is greater than 5.
+
+Based on the provided data:
+
+- Respondent 14: 'Recommendation (global rating scale)' = 2, 'Background (history)' = 2, Total = 4
+- Respondent 6: 'Recommendation (global rating scale)' = 3, 'Background (history)' = 3, Total = 6
+- Respondent 2: 'Recommendation (global rating scale)' = 1, 'Background (history)' = 2, Total = 3
+- Respondent 13: 'Recommendation (global rating scale)' = 2, 'Background (history)' = 2, Total = 4
+- Respondent 16: 'Recommendation (global rating scale)' = 3, 'Background (history)' = 3, Total = 6
+- Respondent 22: 'Recommendation (global rating scale)' = 3, 'Background (history)' = 3, Total = 6
+- Respondent 10: 'Recommendation (global rating scale)' = 2, 'Background (history)' = 2, Total = 4
+
+The respondents with a total score greater than 5 are:
+- Respondent 6
+- Respondent 16
+- Respondent 22
+
+There are 3 respondents whose total score for 'Recommendation (global rating scale)' and 'Background (history)' is greater than 5.
+
+Answer: 3",True
 case_29,respondent_count,Count the respondents whose total score for 'Background (history)' and 'Recommendation (global rating scale)' is greater than 3.,"Survey Data
 ==================================================
 
@@ -12212,7 +12231,26 @@ Rules:
 
 <task>
 Count the respondents whose total score for 'Background (history)' and 'Recommendation (global rating scale)' is greater than 3.
-</task>",,
+</task>","To solve this task, we need to calculate the total score for 'Background (history)' and 'Recommendation (global rating scale)' for each respondent and then count the respondents whose total score is greater than 3.
+
+Based on the provided data:
+
+- Respondent 1: Background (history) = 2, Recommendation (global rating scale) = 2, Total = 4
+- Respondent 10: Background (history) = 2, Recommendation (global rating scale) = 2, Total = 4
+- Respondent 19: Background (history) = 3, Recommendation (global rating scale) = 3, Total = 6
+- Respondent 20: Background (history) = 2, Recommendation (global rating scale) = 3, Total = 5
+- Respondent 4: Background (history) = 3, Recommendation (global rating scale) = 2, Total = 5
+
+The respondents with a total score greater than 3 are:
+- Respondent 1 (Total = 4)
+- Respondent 10 (Total = 4)
+- Respondent 19 (Total = 6)
+- Respondent 20 (Total = 5)
+- Respondent 4 (Total = 5)
+
+There are 5 respondents whose total score for 'Background (history)' and 'Recommendation (global rating scale)' is greater than 3.
+
+Answer: 5",True
 case_30,respondent_count,Count the respondents who scored 2 on 'Recommendation (global rating scale)' and whose 'Comments' contain the word 'communication'.,"Survey Data
 ==================================================
 
@@ -12699,7 +12737,7 @@ Rules:
 
 <task>
 Count the respondents who scored 2 on 'Recommendation (global rating scale)' and whose 'Comments' contain the word 'communication'.
-</task>",,
+</task>",4,False
 case_31,respondent_count,Count the respondents whose total score for 'Identification' and 'Assessment' is greater than 6.,"Survey Data
 ==================================================
 
@@ -13093,7 +13131,22 @@ Rules:
 
 <task>
 Count the respondents whose total score for 'Identification' and 'Assessment' is greater than 6.
-</task>",,
+</task>","To solve this task, we need to calculate the total score for 'Identification' and 'Assessment' for each respondent and then count the respondents whose total score is greater than 6.
+
+Based on the provided data:
+
+- Respondent 11: Identification = 3, Assessment = 3, Total = 6
+- Respondent 6: Identification = 3, Assessment = 2, Total = 5
+- Respondent 15: Identification = 3, Assessment = 2, Total = 5
+- Respondent 9: Identification = 3, Assessment = 2, Total = 5
+- Respondent 22: Identification = 3, Assessment = 2, Total = 5
+- Respondent 1: Identification = -1, Assessment = 3, Total = 2
+- Respondent 23: Identification = 3, Assessment = 3, Total = 6
+- Respondent 10: Identification = 2, Assessment = 2, Total = 4
+
+Only none of the respondents have a total score greater than 6.
+
+Answer: 0",True
 case_32,respondent_count,Count the respondents from the 'V (Hypoglycemia)' session who scored 0 on 'Identification' and 1 on 'Assessment'.,"Survey Data
 ==================================================
 
@@ -13649,7 +13702,7 @@ Rules:
 
 <task>
 Count the respondents from the 'V (Hypoglycemia)' session who scored 0 on 'Identification' and 1 on 'Assessment'.
-</task>",,
+</task>",0,True
 case_33,respondent_count,Count the respondents from the 'IV (AF)' session who scored 0 on 'Background (examination)' and 2 on 'Identification'.,"Survey Data
 ==================================================
 
@@ -14091,7 +14144,7 @@ Rules:
 
 <task>
 Count the respondents from the 'IV (AF)' session who scored 0 on 'Background (examination)' and 2 on 'Identification'.
-</task>",,
+</task>",0,True
 case_34,respondent_count,Count the respondents from the 'II-Anaphylaxsis' session who scored 0 on 'Recommendation (global rating scale)' and 2 on 'Situation'.,"Survey Data
 ==================================================
 
@@ -14566,7 +14619,7 @@ Rules:
 
 <task>
 Count the respondents from the 'II-Anaphylaxsis' session who scored 0 on 'Recommendation (global rating scale)' and 2 on 'Situation'.
-</task>",,
+</task>",0,True
 case_35,respondent_count,Count the respondents from the 'IV (VT)' session who scored 1 on 'Recommendation (global rating scale)' and 0 on 'Background (examination)'.,"Survey Data
 ==================================================
 
@@ -14975,7 +15028,7 @@ Rules:
 
 <task>
 Count the respondents from the 'IV (VT)' session who scored 1 on 'Recommendation (global rating scale)' and 0 on 'Background (examination)'.
-</task>",,
+</task>",0,True
 case_36,respondent_count,Count the respondents whose total score for 'Assessment' and 'Identification' is greater than 6.,"Survey Data
 ==================================================
 
@@ -15456,7 +15509,24 @@ Rules:
 
 <task>
 Count the respondents whose total score for 'Assessment' and 'Identification' is greater than 6.
-</task>",,
+</task>","To solve this task, we need to calculate the total score for 'Assessment' and 'Identification' for each respondent and then count the number of respondents whose total score is greater than 6.
+
+Based on the provided data:
+
+- Respondent 20: Assessment = 3, Identification = 3, Total = 6
+- Respondent 8: Assessment = 2, Identification = 3, Total = 5
+- Respondent 22: Assessment = 2, Identification = 3, Total = 5
+- Respondent 5: Assessment = 3, Identification = 3, Total = 6
+- Respondent 16: Assessment = 3, Identification = 3, Total = 6
+- Respondent 23: Assessment = 3, Identification = 3, Total = 6
+- Respondent 15: Assessment = 2, Identification = 3, Total = 5
+- Respondent 12: Assessment = 2, Identification = 3, Total = 5
+- Respondent 7: Assessment = 2, Identification = 3, Total = 5
+- Respondent 19: Assessment = 2, Identification = 3, Total = 5
+
+None of the respondents have a total score greater than 6. 
+
+Answer: 0",True
 case_37,respondent_count,Count the respondents whose total score for 'Identification' and 'Recommendation (global rating scale)' is greater than 5.,"Survey Data
 ==================================================
 
@@ -16003,7 +16073,32 @@ Rules:
 
 <task>
 Count the respondents whose total score for 'Identification' and 'Recommendation (global rating scale)' is greater than 5.
-</task>",,
+</task>","To solve this task, we need to calculate the total score for 'Identification' and 'Recommendation (global rating scale)' for each respondent and then count the respondents whose total score is greater than 5.
+
+Based on the provided data:
+
+1. Respondent 16: Identification (3) + Recommendation (global rating scale) (3) = 6
+2. Respondent 18: Identification (3) + Recommendation (global rating scale) (2) = 5
+3. Respondent 7: Identification (3) + Recommendation (global rating scale) (2) = 5
+4. Respondent 8: Identification (3) + Recommendation (global rating scale) (3) = 6
+5. Respondent 3: Identification (0) + Recommendation (global rating scale) (3) = 3
+6. Respondent 17: Identification (3) + Recommendation (global rating scale) (2) = 5
+7. Respondent 15: Identification (3) + Recommendation (global rating scale) (2) = 5
+8. Respondent 12: Identification (3) + Recommendation (global rating scale) (3) = 6
+9. Respondent 2: Identification (3) + Recommendation (global rating scale) (1) = 4
+10. Respondent 10: Identification (2) + Recommendation (global rating scale) (2) = 4
+11. Respondent 22: Identification (3) + Recommendation (global rating scale) (3) = 6
+12. Respondent 1: Identification (-1) + Recommendation (global rating scale) (2) = 1
+
+The respondents with a total score greater than 5 are:
+- Respondent 16
+- Respondent 8
+- Respondent 12
+- Respondent 22
+
+There are 4 respondents whose total score for 'Identification' and 'Recommendation (global rating scale)' is greater than 5, but since the question asks for a count and not a list of names or IDs, the answer is simply the count.
+
+Answer: 4",True
 case_38,respondent_count,Count the respondents who scored 3 on 'Recommendation (clear recommendation)' and whose 'Comments' contain the word 'Overall'.,"Survey Data
 ==================================================
 
@@ -16559,7 +16654,7 @@ Rules:
 
 <task>
 Count the respondents who scored 3 on 'Recommendation (clear recommendation)' and whose 'Comments' contain the word 'Overall'.
-</task>",,
+</task>",0,True
 case_39,respondent_count,Count the respondents from the 'I - MI' session who scored 0 on 'Identification' and 2 on 'Situation'.,"Survey Data
 ==================================================
 
@@ -17106,7 +17201,7 @@ Rules:
 
 <task>
 Count the respondents from the 'I - MI' session who scored 0 on 'Identification' and 2 on 'Situation'.
-</task>",,
+</task>",0,True
 case_40,respondent_count,Count the respondents whose total score for 'Situation' and 'Background (history)' is greater than 3.,"Survey Data
 ==================================================
 
@@ -17623,7 +17718,36 @@ Rules:
 
 <task>
 Count the respondents whose total score for 'Situation' and 'Background (history)' is greater than 3.
-</task>",,
+</task>","To solve this task, we need to go through each respondent's data, calculate the total score for 'Situation' and 'Background (history)', and then count how many of these totals are greater than 3.
+
+1. Respondent 22: Situation = 3, Background (history) = 3, Total = 6
+2. Respondent 10: Situation = 2, Background (history) = 2, Total = 4
+3. Respondent 1: Situation = 2, Background (history) = 2, Total = 4
+4. Respondent 13: Situation = 3, Background (history) = 2, Total = 5
+5. Respondent 9: Situation = 3, Background (history) = 2, Total = 5
+6. Respondent 21: Situation = 2, Background (history) = 3, Total = 5
+7. Respondent 7: Situation = 3, Background (history) = 2, Total = 5
+8. Respondent 3: Situation = 2, Background (history) = 3, Total = 5
+9. Respondent 18: Situation = 3, Background (history) = 2, Total = 5
+10. Respondent 17: Situation = 3, Background (history) = 3, Total = 6
+11. Respondent 6: Situation = 2, Background (history) = 3, Total = 5
+
+Now, let's count the respondents whose total score for 'Situation' and 'Background (history)' is greater than 3:
+- Respondent 22: 6 (greater than 3)
+- Respondent 10: 4 (greater than 3)
+- Respondent 1: 4 (greater than 3)
+- Respondent 13: 5 (greater than 3)
+- Respondent 9: 5 (greater than 3)
+- Respondent 21: 5 (greater than 3)
+- Respondent 7: 5 (greater than 3)
+- Respondent 3: 5 (greater than 3)
+- Respondent 18: 5 (greater than 3)
+- Respondent 17: 6 (greater than 3)
+- Respondent 6: 5 (greater than 3)
+
+All respondents have a total score greater than 3. 
+
+The final answer is: 11",True
 case_41,respondent_count,Count the respondents whose 'Identification' is higher than the average 'Identification' for all sessions on the same date.,"Survey Data
 ==================================================
 
@@ -18023,7 +18147,36 @@ Rules:
 
 <task>
 Count the respondents whose 'Identification' is higher than the average 'Identification' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Identification' score for each date, and then count the respondents whose 'Identification' score is higher than the average for their respective session dates.
+
+Given data:
+
+- Respondent 18: Date = 2025-05-04, Identification = 3
+- Respondent 2: Date = 2025-04-04, Identification = 3
+- Respondent 3: Date = 2025-04-04, Identification = 0
+- Respondent 16: Date = 2025-05-02, Identification = 3
+- Respondent 22: Date = 2025-05-16, Identification = 3
+- Respondent 10: Date = 2025-03-14, Identification = 2
+- Respondent 14: Date = 2025-03-14, Identification = 3
+- Respondent 6: Date = 2025-04-04, Identification = 3
+
+First, calculate the average 'Identification' score for each date:
+
+- 2025-05-04: (3) / 1 = 3
+- 2025-04-04: (3 + 0 + 3) / 3 = 6 / 3 = 2
+- 2025-05-02: (3) / 1 = 3
+- 2025-05-16: (3) / 1 = 3
+- 2025-03-14: (2 + 3) / 2 = 5 / 2 = 2.5
+
+Then, identify respondents with 'Identification' scores higher than the average for their date:
+
+- 2025-05-04: Average = 3, Respondent 18 has 3, which is not higher than the average.
+- 2025-04-04: Average = 2, Respondents 2 and 6 have 3, which is higher than the average.
+- 2025-05-02: Average = 3, Respondent 16 has 3, which is not higher than the average.
+- 2025-05-16: Average = 3, Respondent 22 has 3, which is not higher than the average.
+- 2025-03-14: Average = 2.5, Respondent 14 has 3, which is higher than the average.
+
+Count of respondents whose 'Identification' is higher than the average for all sessions on the same date: 3 (Respondents 2, 6, and 14).",True
 case_42,respondent_count,Count the respondents whose total score across all rubric items is below the average total score for all sessions.,"Survey Data
 ==================================================
 
@@ -18474,7 +18627,52 @@ Rules:
 
 <task>
 Count the respondents whose total score across all rubric items is below the average total score for all sessions.
-</task>",,
+</task>","To solve this task, we first need to calculate the total score for each respondent across all rubric items, then find the average total score for all sessions, and finally count the respondents whose total score is below this average.
+
+The rubric items are:
+- Identification
+- Situation
+- Background (history)
+- Background (examination)
+- Assessment
+- Recommendation (clear recommendation)
+- Recommendation (global rating scale)
+
+Let's calculate the total score for each respondent:
+
+1. Respondent 21: 3 + 2 + 3 + 1 + 2 + 3 + 3 = 17
+2. Respondent 23: 3 + 3 + 2 + 2 + 3 + 3 + 3 = 19
+3. Respondent 14: 3 + 3 + 2 + 2 + 3 + 1 + 2 = 16
+4. Respondent 12: 3 + 3 + 3 + 3 + 2 + 3 + 3 = 20
+5. Respondent 13: 3 + 3 + 2 + 1 + 2 + 2 + 2 = 15
+6. Respondent 15: 3 + 3 + 2 + 3 + 2 + 2 + 2 = 17
+7. Respondent 19: 3 + 3 + 3 + 3 + 2 + 3 + 3 = 20
+8. Respondent 17: 3 + 3 + 3 + 3 + 3 + 3 + 2 = 20
+9. Respondent 2: 3 + 3 + 2 + 3 + 3 + 2 + 1 = 17
+
+Total scores: 17, 19, 16, 20, 15, 17, 20, 20, 17
+
+Average total score = (17 + 19 + 16 + 20 + 15 + 17 + 20 + 20 + 17) / 9
+Average total score = 162 / 9
+Average total score = 18
+
+Now, let's count the respondents whose total score is below the average (18):
+
+- Respondent 21: 17 (below)
+- Respondent 23: 19 (above)
+- Respondent 14: 16 (below)
+- Respondent 12: 20 (above)
+- Respondent 13: 15 (below)
+- Respondent 15: 17 (below)
+- Respondent 19: 20 (above)
+- Respondent 17: 20 (above)
+- Respondent 2: 17 (below)
+
+Respondents with scores below the average: 21, 14, 13, 15, 2
+
+Count of respondents: 5
+
+The final answer is: 5",True
 case_43,respondent_count,Count the respondents whose 'Background (examination)' score is equal to the average 'Background (examination)' score for all sessions that occurred on the same date.,"Survey Data
 ==================================================
 
@@ -19039,7 +19237,50 @@ Rules:
 
 <task>
 Count the respondents whose 'Background (examination)' score is equal to the average 'Background (examination)' score for all sessions that occurred on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (examination)' score for each date, and then count the respondents whose 'Background (examination)' score matches this average for their respective session dates.
+
+1. **Calculate Average 'Background (examination)' Score by Date:**
+
+- For '2025-05-02':
+  - Respondent 12: Background (examination) = 3
+  - Respondent 20: Background (examination) = -1
+  - Respondent 1: Background (examination) = 2
+  - Average = (3 + (-1) + 2) / 3 = 4 / 3 = 1.33
+
+- For '2025-05-04':
+  - Respondent 5: Background (examination) = 3
+  - Respondent 18: Background (examination) = 2
+  - Respondent 17: Background (examination) = 3
+  - Average = (3 + 2 + 3) / 3 = 8 / 3 = 2.67
+
+- For '2025-05-16':
+  - Respondent 21: Background (examination) = 1
+  - Respondent 4: Background (examination) = 2
+  - Respondent 22: Background (examination) = 3
+  - Average = (1 + 2 + 3) / 3 = 6 / 3 = 2
+
+- For '2025-03-14':
+  - Respondent 13: Background (examination) = 1
+  - Respondent 23: Background (examination) = 2
+  - Average = (1 + 2) / 2 = 3 / 2 = 1.5
+
+- For '2025-04-04':
+  - Respondent 6: Background (examination) = 3
+  - Since there's only one respondent for this date, the average is 3.
+
+2. **Count Respondents with 'Background (examination)' Score Equal to the Average for Their Session Date:**
+
+- For '2025-05-02', the average is 1.33. No respondent has a score of 1.33.
+- For '2025-05-04', the average is 2.67. No respondent has a score of 2.67.
+- For '2025-05-16', the average is 2. Respondent 4 has a score of 2.
+- For '2025-03-14', the average is 1.5. No respondent has a score of 1.5.
+- For '2025-04-04', the average is 3. Respondent 6 has a score of 3.
+
+**Respondents Matching the Average 'Background (examination)' Score for Their Date:**
+- Respondent 4 (Date: 2025-05-16, Score: 2)
+- Respondent 6 (Date: 2025-04-04, Score: 3)
+
+**Count:** 2",True
 case_44,respondent_count,Count the respondents who participated in a session where the average 'Assessment' for that session name is greater than 1.5.,"Survey Data
 ==================================================
 
@@ -19526,7 +19767,28 @@ Rules:
 
 <task>
 Count the respondents who participated in a session where the average 'Assessment' for that session name is greater than 1.5.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Assessment' score for each session name. Then, we identify which sessions have an average 'Assessment' score greater than 1.5. Finally, we count the respondents who participated in those sessions.
+
+1. Calculate the average 'Assessment' score for each session name:
+   - III (Sepsis): Respondents 15 and 8. Scores are 2 and 2, respectively. Average = (2 + 2) / 2 = 2.
+   - IV (VT): Respondent 22. Score is 2. Average = 2.
+   - IV - VT: Respondent 18. Score is 3. Average = 3.
+   - IV-Hypoglycemia: Respondent 14. Score is 3. Average = 3.
+   - I (Myocardial infarction): Respondent 21. Score is 2. Average = 2.
+   - I-VF: Respondent 13. Score is 2. Average = 2.
+   - V (Hypoglycemia): Respondent 17. Score is 3. Average = 3.
+   - I - MI: Respondent 16. Score is 3. Average = 3.
+   - II (Anaphylactic Shock): Respondent 6. Score is 2. Average = 2.
+
+2. Identify sessions with an average 'Assessment' score greater than 1.5:
+   - All sessions have an average score greater than 1.5 except none, since the lowest average is 2, which is already greater than 1.5.
+
+3. Count the respondents in sessions with an average 'Assessment' score greater than 1.5:
+   - Since all sessions have an average score greater than 1.5, we count all respondents.
+   - Respondents: 15, 22, 18, 14, 21, 13, 8, 17, 16, 6.
+   - Total count = 10.
+
+The final answer is: $\boxed{10}$",True
 case_45,respondent_count,Count the respondents whose 'Background (examination)' is higher than the average 'Background (examination)' for all sessions on the same date.,"Survey Data
 ==================================================
 
@@ -19962,7 +20224,41 @@ Rules:
 
 <task>
 Count the respondents whose 'Background (examination)' is higher than the average 'Background (examination)' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (examination)' score for each date, and then compare each respondent's score to this average to determine if it's higher.
+
+Given data:
+
+- Respondent 9: Date = 2025-05-04, Background (examination) = 2
+- Respondent 7: Date = 2025-03-14, Background (examination) = 3
+- Respondent 4: Date = 2025-05-16, Background (examination) = 2
+- Respondent 2: Date = 2025-04-04, Background (examination) = 3
+- Respondent 14: Date = 2025-03-14, Background (examination) = 2
+- Respondent 1: Date = 2025-05-02, Background (examination) = 2
+- Respondent 8: Date = 2025-05-02, Background (examination) = 2
+- Respondent 22: Date = 2025-05-16, Background (examination) = 3
+- Respondent 20: Date = 2025-05-02, Background (examination) = -1
+
+Calculating averages for each date:
+- 2025-05-04: (2) / 1 = 2
+- 2025-03-14: (3 + 2) / 2 = 2.5
+- 2025-05-16: (2 + 3) / 2 = 2.5
+- 2025-04-04: (3) / 1 = 3
+- 2025-05-02: (2 + 2 + -1) / 3 = 1
+
+Now, comparing each respondent's 'Background (examination)' score to the average for their respective date:
+- Respondent 9 (2025-05-04): 2 == 2 (not higher)
+- Respondent 7 (2025-03-14): 3 > 2.5 (higher)
+- Respondent 4 (2025-05-16): 2 < 2.5 (not higher)
+- Respondent 2 (2025-04-04): 3 == 3 (not higher)
+- Respondent 14 (2025-03-14): 2 < 2.5 (not higher)
+- Respondent 1 (2025-05-02): 2 > 1 (higher)
+- Respondent 8 (2025-05-02): 2 > 1 (higher)
+- Respondent 22 (2025-05-16): 3 > 2.5 (higher)
+- Respondent 20 (2025-05-02): -1 < 1 (not higher)
+
+Counting respondents with scores higher than the average for their date: 4 (Respondent 7, Respondent 1, Respondent 8, Respondent 22).
+
+The final answer is: 4",True
 case_46,respondent_count,Count the respondents who participated in a session where the average 'Assessment' for that session name is greater than 2.0.,"Survey Data
 ==================================================
 
@@ -20374,7 +20670,45 @@ Rules:
 
 <task>
 Count the respondents who participated in a session where the average 'Assessment' for that session name is greater than 2.0.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Assessment' score for each session name, and then count the respondents who participated in sessions where this average is greater than 2.0.
+
+Given the data:
+
+1. Respondent 20: SessionName = IV (VT), Assessment = 3
+2. Respondent 2: SessionName = MI, Assessment = 3
+3. Respondent 15: SessionName = III - Sepsis, Assessment = 2
+4. Respondent 23: SessionName = II-Anaphylaxsis, Assessment = 3
+5. Respondent 22: SessionName = IV (VT), Assessment = 2
+6. Respondent 8: SessionName = III (Sepsis), Assessment = 2
+7. Respondent 19: SessionName = I - MI, Assessment = 2
+8. Respondent 13: SessionName = I-VF, Assessment = 2
+
+First, calculate the average 'Assessment' score for each unique SessionName:
+
+- IV (VT): (3 + 2) / 2 = 2.5
+- MI: 3 / 1 = 3
+- III - Sepsis: 2 / 1 = 2
+- II-Anaphylaxsis: 3 / 1 = 3
+- III (Sepsis): 2 / 1 = 2
+- I - MI: 2 / 1 = 2
+- I-VF: 2 / 1 = 2
+
+Then, identify the sessions with an average 'Assessment' greater than 2.0:
+
+- IV (VT) with average = 2.5
+- MI with average = 3
+- II-Anaphylaxsis with average = 3
+
+Count the respondents in these sessions:
+
+- Respondent 20 (IV (VT))
+- Respondent 22 (IV (VT))
+- Respondent 2 (MI)
+- Respondent 23 (II-Anaphylaxsis)
+
+There are 4 respondents who participated in sessions where the average 'Assessment' is greater than 2.0.
+
+Answer: 4",True
 case_47,respondent_count,Count the respondents whose total score across all rubric items is below the average total score for all sessions.,"Survey Data
 ==================================================
 
@@ -20891,7 +21225,52 @@ Rules:
 
 <task>
 Count the respondents whose total score across all rubric items is below the average total score for all sessions.
-</task>",,
+</task>","To solve this task, we first need to calculate the total score for each respondent across all rubric items, then find the average total score for all sessions, and finally count the respondents whose total score is below this average.
+
+The rubric items are:
+- Identification
+- Situation
+- Background (history)
+- Background (examination)
+- Assessment
+- Recommendation (clear recommendation)
+- Recommendation (global rating scale)
+
+Each of these items has a score from 0 to 3.
+
+Let's calculate the total score for each respondent:
+
+1. Respondent 8: 3 + 3 + 3 + 2 + 2 + 2 + 3 = 18
+2. Respondent 18: 3 + 3 + 2 + 2 + 3 + 2 + 2 = 17
+3. Respondent 7: 3 + 3 + 2 + 3 + 2 + 2 + 2 = 17
+4. Respondent 2: 3 + 3 + 2 + 3 + 3 + 2 + 1 = 17
+5. Respondent 5: 3 + 3 + 3 + 3 + 3 + 2 + 3 = 20
+6. Respondent 17: 3 + 3 + 3 + 3 + 3 + 3 + 2 = 20
+7. Respondent 10: 2 + 2 + 2 + 2 + 2 + 2 + 2 = 14
+8. Respondent 23: 3 + 3 + 2 + 2 + 3 + 3 + 3 = 19
+9. Respondent 14: 3 + 3 + 2 + 2 + 3 + 1 + 2 = 16
+10. Respondent 12: 3 + 3 + 3 + 3 + 2 + 3 + 3 = 20
+11. Respondent 22: 3 + 3 + 3 + 3 + 2 + 2 + 3 = 19
+
+Now, let's calculate the average total score:
+Total sum = 18 + 17 + 17 + 17 + 20 + 20 + 14 + 19 + 16 + 20 + 19 = 187
+Number of respondents = 11
+Average total score = Total sum / Number of respondents = 187 / 11 = 17
+
+Next, we count the respondents whose total score is below the average (17):
+- Respondent 18: 17
+- Respondent 7: 17
+- Respondent 2: 17
+- Respondent 10: 14
+- Respondent 14: 16
+
+These respondents have scores below or equal to the average. However, since the task asks for scores ""below"" the average, we only consider those strictly less than 17:
+- Respondent 10: 14
+- Respondent 14: 16
+
+Thus, there are 2 respondents with total scores strictly below the average total score for all sessions, but considering the instruction to count those ""below"" the average, and given that scores of 17 are exactly at the average, not below it, the correct count should reflect only those with scores less than 17.
+
+The final answer is: $\boxed{2}$",True
 case_48,respondent_count,Count the respondents whose 'Assessment' is higher than the average 'Assessment' for all sessions on the same date.,"Survey Data
 ==================================================
 
@@ -21369,7 +21748,25 @@ Rules:
 
 <task>
 Count the respondents whose 'Assessment' is higher than the average 'Assessment' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Assessment' score for each date, and then count the respondents whose 'Assessment' score is higher than the average 'Assessment' score for their respective date.
+
+1. Calculate the average 'Assessment' score for each date:
+   - For '2025-05-16': Respondents 19 and 22 have 'Assessment' scores of 2 and 2, respectively. The average is (2 + 2) / 2 = 2.
+   - For '2025-05-02': Respondents 20 and 8 have 'Assessment' scores of 3 and 2, respectively. The average is (3 + 2) / 2 = 2.5.
+   - For '2025-04-04': Respondent 11 has an 'Assessment' score of 3. The average is 3.
+   - For '2025-03-14': Respondents 10 and 7 have 'Assessment' scores of 2 and 2, respectively. The average is (2 + 2) / 2 = 2.
+   - For '2025-05-04': Respondents 5, 17, and 18 have 'Assessment' scores of 3, 3, and 3, respectively. The average is (3 + 3 + 3) / 3 = 3.
+
+2. Count the respondents whose 'Assessment' score is higher than the average 'Assessment' score for their date:
+   - For '2025-05-16': No respondents have a score higher than 2.
+   - For '2025-05-02': Respondent 20 has a score of 3, which is higher than the average of 2.5. Respondent 8 does not.
+   - For '2025-04-04': No respondents have a score higher than 3, as the average is exactly 3 and there's only one respondent.
+   - For '2025-03-14': No respondents have a score higher than 2.
+   - For '2025-05-04': No respondents have a score higher than 3, as all have a score of 3, which is the average.
+
+Therefore, the only respondent whose 'Assessment' score is higher than the average for their date is Respondent 20.
+
+The final answer is: 1",True
 case_49,respondent_count,Count the respondents whose 'Recommendation (clear recommendation)' score is equal to the average 'Recommendation (clear recommendation)' score for all sessions that occurred on the same date.,"Survey Data
 ==================================================
 
@@ -21850,7 +22247,44 @@ Rules:
 
 <task>
 Count the respondents whose 'Recommendation (clear recommendation)' score is equal to the average 'Recommendation (clear recommendation)' score for all sessions that occurred on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Recommendation (clear recommendation)' score for each date, and then count the respondents whose score matches this average for their respective session dates.
+
+Given data:
+
+- Respondent 2: Date = 2025-04-04, Recommendation (clear recommendation) = 2
+- Respondent 18: Date = 2025-05-04, Recommendation (clear recommendation) = 2
+- Respondent 19: Date = 2025-05-16, Recommendation (clear recommendation) = 3
+- Respondent 6: Date = 2025-04-04, Recommendation (clear recommendation) = 2
+- Respondent 14: Date = 2025-03-14, Recommendation (clear recommendation) = 1
+- Respondent 22: Date = 2025-05-16, Recommendation (clear recommendation) = 2
+- Respondent 16: Date = 2025-05-02, Recommendation (clear recommendation) = 2
+- Respondent 23: Date = 2025-03-14, Recommendation (clear recommendation) = 3
+- Respondent 20: Date = 2025-05-02, Recommendation (clear recommendation) = 2
+- Respondent 11: Date = 2025-04-04, Recommendation (clear recommendation) = 3
+
+Calculating average 'Recommendation (clear recommendation)' scores by date:
+
+1. 2025-04-04: (2 + 2 + 3) / 3 = 7 / 3 = 2.33
+2. 2025-05-04: (2) / 1 = 2
+3. 2025-05-16: (3 + 2) / 2 = 5 / 2 = 2.5
+4. 2025-03-14: (1 + 3) / 2 = 4 / 2 = 2
+5. 2025-05-02: (2 + 2) / 2 = 4 / 2 = 2
+
+Now, checking which respondents have a 'Recommendation (clear recommendation)' score equal to the average for their session date:
+
+1. 2025-04-04: Average = 2.33, none of the respondents (2, 6, 11) have this exact score.
+2. 2025-05-04: Average = 2, Respondent 18 matches.
+3. 2025-05-16: Average = 2.5, none of the respondents (19, 22) have this exact score.
+4. 2025-03-14: Average = 2, none of the respondents (14, 23) have this exact score.
+5. 2025-05-02: Average = 2, both Respondent 16 and Respondent 20 match.
+
+Counting the respondents who match the average 'Recommendation (clear recommendation)' score for their session date:
+
+- Respondent 18
+- Respondent 16
+- Respondent 20
+
+Therefore, the count of respondents whose 'Recommendation (clear recommendation)' score is equal to the average for all sessions on the same date is 3.",True
 case_50,respondent_count,Count the respondents whose 'Background (examination)' is higher than the average 'Background (examination)' for all sessions on the same date.,"Survey Data
 ==================================================
 
@@ -22373,4 +22807,42 @@ Rules:
 
 <task>
 Count the respondents whose 'Background (examination)' is higher than the average 'Background (examination)' for all sessions on the same date.
-</task>",,
+</task>","To solve this task, we first need to calculate the average 'Background (examination)' score for each date, and then compare each respondent's 'Background (examination)' score to this average for their respective date.
+
+Given data:
+
+- Respondent 17: Date = 2025-05-04, Background (examination) = 3
+- Respondent 11: Date = 2025-04-04, Background (examination) = 3
+- Respondent 14: Date = 2025-03-14, Background (examination) = 2
+- Respondent 21: Date = 2025-05-16, Background (examination) = 1
+- Respondent 5: Date = 2025-05-04, Background (examination) = 3
+- Respondent 10: Date = 2025-03-14, Background (examination) = 2
+- Respondent 13: Date = 2025-03-14, Background (examination) = 1
+- Respondent 6: Date = 2025-04-04, Background (examination) = 3
+- Respondent 23: Date = 2025-03-14, Background (examination) = 2
+- Respondent 9: Date = 2025-05-04, Background (examination) = 2
+- Respondent 8: Date = 2025-05-02, Background (examination) = 2
+
+Calculating averages by date:
+- 2025-05-04: (3 + 3 + 2) / 3 = 8 / 3 = 2.67
+- 2025-04-04: (3 + 3) / 2 = 6 / 2 = 3
+- 2025-03-14: (2 + 2 + 1 + 2) / 4 = 7 / 4 = 1.75
+- 2025-05-16: (1) / 1 = 1
+- 2025-05-02: (2) / 1 = 2
+
+Now, comparing each respondent's 'Background (examination)' score to the average for their date:
+- Respondent 17 (2025-05-04): 3 > 2.67, Yes
+- Respondent 11 (2025-04-04): 3 = 3, No
+- Respondent 14 (2025-03-14): 2 > 1.75, Yes
+- Respondent 21 (2025-05-16): 1 = 1, No
+- Respondent 5 (2025-05-04): 3 > 2.67, Yes
+- Respondent 10 (2025-03-14): 2 > 1.75, Yes
+- Respondent 13 (2025-03-14): 1 < 1.75, No
+- Respondent 6 (2025-04-04): 3 = 3, No
+- Respondent 23 (2025-03-14): 2 > 1.75, Yes
+- Respondent 9 (2025-05-04): 2 < 2.67, No
+- Respondent 8 (2025-05-02): 2 = 2, No
+
+Counting respondents whose 'Background (examination)' is higher than the average for their date: 4 (Respondents 17, 14, 5, 10, 23).
+
+The final answer is: $\boxed{5}$",True

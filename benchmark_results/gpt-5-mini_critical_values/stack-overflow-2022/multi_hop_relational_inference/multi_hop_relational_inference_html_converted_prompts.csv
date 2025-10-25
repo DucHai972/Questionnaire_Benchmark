@@ -384,7 +384,7 @@ Find all respondents from the same country as respondent '437', excluding the re
 - Therefore there are no respondents from the same country as respondent 437, excluding themselves.
 
 Final answer:
-None",True
+None",False
 case_3,multi_hop_relational_inference,List all respondents who have the same education level as respondent '29043'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1023,7 +1023,7 @@ List all respondents who have the same education level as respondent '29043'.
 - YearsCode values in this dataset range from 3 to 48 years.
 - CompTotal values range from 0.0 to 205000.0 across respondents.
 
-492, 29071, 72700, 72741, 72869, 73007",True
+492, 29071, 72700, 72741, 72869, 73007",False
 case_4,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '73094', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -2046,7 +2046,7 @@ Find all respondents from the same country as respondent '73129', excluding the 
 - Other Country values in the dataset are ""Germany"", ""Netherlands"", ""India"", ""Canada"", and ""United States of America"".  
 - No other respondent lists ""Japan"" as their Country.
 
-None",True
+None",False
 case_6,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72858', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -5612,7 +5612,7 @@ Which respondents have the same 'MainBranch' (professional identity) as responde
 - No respondents in this dataset have MainBranch values other than A.
 - Therefore, all listed respondent IDs except 297 match respondent 297's MainBranch.
 
-72981, 73015, 347, 72793, 73017, 469, 332, 72823",True
+72981, 73015, 347, 72793, 73017, 469, 332, 72823",False
 case_12,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72815', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6202,7 +6202,7 @@ Find all respondents from the same country as respondent '72815', excluding the 
 - OrgSize, DevType, LanguageHaveWorkedWith, LanguageWantToWorkWith, and ToolsTechHaveWorkedWith are open-ended fields containing exact text values.
 
 Final answer:
-None",True
+None",False
 case_13,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72815', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6638,7 +6638,7 @@ Find all respondents from the same country as respondent '72815', excluding the 
 - Other responses show countries: Sweden, United Kingdom of Great Britain and Northern Ireland, United States of America, Italy, United States of America.
 - No other respondent's Country equals ""Switzerland"".
 
-None",True
+None",False
 case_14,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '106', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -7375,7 +7375,7 @@ Rules:
 Find all respondents from the same country as respondent '106', excluding the respondent themselves.
 </task>","Critical values and ranges: The Country field is open-ended; respondent 106's Country is ""United States of America"". YearsCode in the dataset ranges from 2 to 38 years. CompTotal values span from 0.0 to 6000000.0. MainBranch and VersionControlSystem are MCQ fields mapped to fixed option texts per the schema.
 
-484, 277",True
+484, 277",False
 case_15,multi_hop_relational_inference,List all respondents who have the same education level as respondent '225'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9603,7 +9603,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?
-</task>","72858, 72921, 73018, 73069, 73084, 73219",False
+</task>","72858, 72921, 73018, 73069, 73084, 73219",True
 case_19,multi_hop_relational_inference,List all respondents who have the same education level as respondent '382'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10238,7 +10238,7 @@ Rules:
 List all respondents who have the same education level as respondent '382'.
 </task>","Request: Do you want respondent IDs only?
 
-57, 184, 219, 537, 72710",False
+57, 184, 219, 537, 72710",True
 case_20,multi_hop_relational_inference,List all respondents who have the same education level as respondent '203'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12305,7 +12305,7 @@ Which respondents have the same 'MainBranch' (professional identity) as responde
 - VersionControlSystem is single-choice (A. Git, B. Mercurial, C. SVN, D. I don't use one).
 
 Final answer:
-None",True
+None",False
 case_23,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '189', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -15427,7 +15427,7 @@ Which respondents are from the same country as respondent '154' and also have mo
 - We must find respondents whose Country = Poland and YearsCode > 7.
 
 Final answer:
-None",True
+None",False
 case_28,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '72825' and whose programming languages include 'TypeScript'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17951,7 +17951,7 @@ Which respondents are from the same country as respondent '100' and also have mo
 - Scanning the responses, only respondent 100 has Country ""France"" (YearsCode = 10).
 - No other respondent in the dataset has Country ""France"".
 
-None",True
+None",False
 case_33,multi_hop_relational_inference,Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19806,7 +19806,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?
-</task>","72680, 72801, 73195",False
+</task>","72680, 72801, 73195",True
 case_36,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '103' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20547,7 +20547,7 @@ Find all respondents who have the same education level as respondent '103' and w
 - CompTotal is an open-ended numeric field representing total compensation (examples in the data range from small thousands to very large numbers), and the task uses a cutoff of greater than 50000.
 - CompFreq indicates compensation frequency (A = Weekly, B = Monthly, C = Yearly) but the task compares raw CompTotal values regardless of frequency.
 
-72827, 154, 547, 29061",True
+72827, 154, 547, 29061",False
 case_37,multi_hop_relational_inference,Find all respondents who have the same education level as respondent '247' and whose total compensation is over 50000.,"<!DOCTYPE html>
 <html>
 <head>
@@ -26503,7 +26503,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '20 to 99 employees'.
-</task>",259,True
+</task>",259,False
 case_46,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73069'.,"<!DOCTYPE html>
 <html>
 <head>

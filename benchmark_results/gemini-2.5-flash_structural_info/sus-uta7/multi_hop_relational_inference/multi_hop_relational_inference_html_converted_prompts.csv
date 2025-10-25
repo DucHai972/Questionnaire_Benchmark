@@ -908,7 +908,7 @@ Rules:
 List all respondents who rated 'System_Complexity' the same as respondent '76'.
 </task>","The survey collects data from eight respondents across eleven questions, covering demographic 'Group' and ten Likert-scale questions assessing system usability aspects like 'Frequent_Usage', 'System_Complexity', and 'Ease_of_Use'. The 'Group' question is a multiple-choice question with four categories (Senior, Junior, Middle, Intern), while the other ten questions use a 1-5 Likert scale. Responses show a range of opinions on system attributes, with some questions like 'System_Complexity' having a strong consensus among many respondents. For instance, a significant number of respondents rated 'System_Complexity' as '1', indicating strong disagreement with the system being unnecessarily complex.
 
-31, 70, 17, 48, 78, 81",True
+31, 70, 17, 48, 78, 81",False
 case_4,multi_hop_relational_inference,Which respondents are in the same group as respondent '20'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -1279,7 +1279,7 @@ Rules:
 Which respondents are in the same group as respondent '20'?
 </task>","The survey collects data on respondent groups and their perceptions of a system across ten Likert-scale questions, covering aspects like usage frequency, complexity, ease of use, and confidence. The 'Group' question is a multiple-choice question with four categories: Senior, Junior, Middle, and Intern. The Likert scale ranges from 1 (Strongly Disagree) to 5 (Strongly Agree) for various system attributes. The dataset includes responses from six individuals, providing a snapshot of diverse opinions on the system's usability and functionality.
 
-39, 51, 62",True
+39, 51, 62",False
 case_5,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '84'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2308,7 +2308,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '51', excluding the respondent themselves.
 </task>","The survey data includes responses from five individuals, each providing their 'Group' affiliation and Likert scale ratings (1-5) across ten different system usability metrics. The 'Group' question is a multiple-choice question with options A, B, C, and D, representing Senior, Junior, Middle, and Intern roles respectively. The Likert scale questions cover aspects like frequent usage, system complexity, ease of use, technical support needs, function integration, inconsistency, ease of learning, cumbersomeness, confidence, and the need for prior learning. All respondents provided complete answers for all listed questions.
 
-42, 20, 7",True
+42, 20, 7",False
 case_8,multi_hop_relational_inference,Which respondents are in the same group as respondent '25'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2679,7 +2679,7 @@ Rules:
 Which respondents are in the same group as respondent '25'?
 </task>","This survey collects data on user experience with a system, covering aspects like frequent usage, complexity, ease of use, and confidence, across different respondent groups. The 'Group' question categorizes respondents into Senior, Junior, Middle, or Intern roles. Most questions use a 5-point Likert scale, indicating agreement or disagreement with statements about the system. The data includes responses from six individuals, showing varying perceptions across the different groups.
 
-30, 48, 49",True
+30, 48, 49",False
 case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3050,7 +3050,7 @@ Rules:
 Which respondents are in the same group as respondent '18'?
 </task>","The survey collects data on user experience with a system, covering aspects like usage frequency, complexity, ease of use, and confidence, across different respondent groups (Senior, Junior, Middle, Intern). Responses are provided on a Likert scale from 1 to 5 for most questions, with 1 indicating strong disagreement and 5 strong agreement, while the 'Group' is a multiple-choice question. The dataset includes responses from six individuals, offering insights into their perceptions of the system's usability and their respective professional or academic classifications.
 
-60, 48",True
+60, 48",False
 case_10,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -3379,7 +3379,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.
 </task>","The survey collects data on respondent groups (Senior, Junior, Middle, Intern) and ten Likert scale responses (1-5) related to system usability, complexity, and learning. Most Likert scale questions assess positive aspects of system use, with lower scores indicating disagreement and higher scores indicating agreement. The 'System_Complexity', 'Need_for_Technical_Support', 'Inconsistency', 'Cumbersome_to_Use', and 'Need_to_Learn_Before_Use' questions are phrased negatively, meaning lower scores indicate a more positive perception of the system. The dataset includes responses from five individuals across different groups, showing varied perceptions of the system's attributes.
 
-74, 62",True
+74, 62",False
 case_11,multi_hop_relational_inference,List all respondents who rated 'Inconsistency' the same as respondent '61'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5200,7 +5200,7 @@ Rules:
 Which respondents are in the same group as respondent '79'?
 </task>","The survey collects data on respondent groups and their perceptions of a system across ten different usability and experience metrics, using a mix of multiple-choice and Likert scale questions. The responses show varying degrees of agreement or disagreement with statements about system complexity, ease of use, and confidence, with some respondents consistently rating positively (e.g., 79, 32, 90) and others showing more mixed or negative views (e.g., 84). The 'Group' field categorizes respondents into 'Senior', 'Junior', 'Middle', and 'Intern' roles, allowing for analysis of perceptions across different experience levels. Overall, the data provides insights into user experience, highlighting areas of strength and potential improvement for the system.
 
-14, 68, 32",True
+14, 68, 32",False
 case_15,multi_hop_relational_inference,Which respondents are in the same group as respondent '8'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -6110,7 +6110,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '58', excluding the respondent themselves.
 </task>","The survey data includes responses from seven individuals across four distinct groups: Senior (A), Junior (B), Middle (C), and Intern (D). Each respondent provided ratings on eleven system-related attributes using a Likert scale of 1 to 5, with the 'Group' being a multiple-choice question. The responses show a general trend towards positive perceptions regarding ease of use and low system complexity, with many respondents giving high scores for 'Ease_of_Use' and low scores for 'System_Complexity'. However, there is variability in other aspects like 'Frequent_Usage' and 'Need_to_Learn_Before_Use', indicating diverse user experiences.
 
-62, 37, 54, 30",True
+62, 37, 54, 30",False
 case_17,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6439,7 +6439,7 @@ Rules:
 List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.
 </task>","The survey collects data on user experience with a system, covering aspects like usage frequency, complexity, ease of use, and confidence, across different respondent groups (Senior, Junior, Middle, Intern). Most respondents provided Likert scale ratings from 1 to 5 for various system attributes, with 1 typically indicating a positive experience (e.g., not complex, easy to use) and 5 indicating a negative one (e.g., very complex, difficult to learn). A common pattern observed is low scores for negative attributes like 'System_Complexity', 'Inconsistency', and 'Cumbersome_to_Use', suggesting a generally positive perception of the system's design. Conversely, 'Ease_of_Use' and 'Integration_of_Functions' often receive high scores, reinforcing the positive user experience. The 'Group' field categorizes respondents, allowing for potential analysis of differences in perception across seniority levels.
 
-67, 54, 38",True
+67, 54, 38",False
 case_18,multi_hop_relational_inference,List all respondents who rated 'Need_to_Learn_Before_Use' the same as respondent '26'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7473,7 +7473,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '38', excluding the respondent themselves.
 </task>","The survey gathers demographic data on respondent 'Group' (Senior, Junior, Middle, Intern) and ten Likert scale responses (1-5) assessing various aspects of system usability, such as 'Frequent_Usage', 'System_Complexity', and 'Ease_of_Use'. The data is structured with each respondent having a unique ID and a complete set of answers for all eleven questions. A common pattern observed is a generally positive perception of 'Ease_of_Use' and 'Confidence_in_Use' across many respondents, with scores frequently at the higher end of the Likert scale. However, there are also instances of lower satisfaction, particularly concerning 'Frequent_Usage' and 'Inconsistency' for some individuals. The distribution of respondents across the 'Group' categories appears varied, indicating a diverse participant pool.
 
-67, 16, 66, 51, 19",True
+67, 16, 66, 51, 19",False
 case_20,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7970,7 +7970,7 @@ Rules:
 List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.
 </task>","The survey collects data on respondent groups and their perceptions of a system across ten Likert-scale questions, ranging from 'Frequent_Usage' to 'Need_to_Learn_Before_Use'. The 'Group' question is a multiple-choice question with four categories: Senior, Junior, Middle, and Intern. The Likert scale questions use a 1-5 rating, where 1 typically means 'Strongly Disagree' and 5 means 'Strongly Agree'. The dataset includes responses from nine individuals, providing insights into various aspects of system usability and user experience.
 
-88, 22",True
+88, 22",False
 case_21,multi_hop_relational_inference,List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8299,7 +8299,7 @@ Rules:
 List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.
 </task>","The survey collected data from five respondents on eleven different aspects of system usability, including group affiliation and various Likert scale ratings. The 'Group' question is a multiple-choice question with four categories, while the other ten questions use a 1-5 Likert scale. Responses show a mix of agreement and disagreement across different usability metrics, with some respondents showing high confidence and ease of use, while others indicate complexity or inconsistency. There appears to be a tendency for respondents to rate 'Ease_of_Learning' highly, as multiple respondents share the same top score for this metric.
 
-89, 82, 37",True
+89, 82, 37",False
 case_22,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -9419,7 +9419,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.
 </task>","The survey collects data on respondent demographics (Group) and their perceptions of a system across ten Likert-scale questions, covering aspects like usage frequency, complexity, ease of use, technical support needs, function integration, consistency, ease of learning, cumbersomeness, confidence, and learning curve. Responses are provided for nine individuals, each identified by a unique respondent ID. The data shows a mix of agreement and disagreement across various system attributes, with some respondents showing high satisfaction (e.g., Respondent 40) and others indicating challenges (e.g., Respondent 46). The 'Group' variable categorizes respondents into Senior, Junior, Middle, and Intern roles, providing a demographic breakdown of the participants.
 
-38, 76, 40, 49",True
+38, 76, 40, 49",False
 case_24,multi_hop_relational_inference,Which respondents are in the same group as respondent '22'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9832,7 +9832,7 @@ Rules:
 Which respondents are in the same group as respondent '22'?
 </task>","The survey collects data on respondent demographics (Group) and their perceptions of a system across ten different aspects, including usage frequency, complexity, ease of use, and confidence. Most questions use a 5-point Likert scale, while the 'Group' question is a multiple-choice question with four categories. The dataset includes responses from seven individuals, covering all four defined groups (Senior, Junior, Middle, Intern). There is a mix of positive and negative sentiments towards the system across the various Likert scale questions.
 
-50, 24",True
+50, 24",False
 case_25,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -10203,7 +10203,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.
 </task>","The survey collects data on respondent groups (Senior, Junior, Middle, Intern) and their perceptions of a system across ten Likert-scale questions, ranging from 'Frequent_Usage' to 'Need_to_Learn_Before_Use'. The Likert scale ranges from 1 (Strongly Disagree) to 5 (Strongly Agree), except for 'Group' which is a multiple-choice question. The dataset includes responses from six individuals, providing a snapshot of diverse user experiences and group affiliations.
 
-49, 28",True
+49, 28",False
 case_26,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '26' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -10532,7 +10532,7 @@ Rules:
 Find all respondents who gave the same 'Confidence_in_Use' score as respondent '26' and who also strongly agree that the system is easy to learn (score of 5).
 </task>","The survey data includes responses from five individuals, categorized into four groups (Senior, Junior, Middle, Intern) and providing Likert scale ratings for ten usability-related questions. The questions cover aspects such as perceived system complexity, ease of use, confidence, and the need for technical support or prior learning. A notable pattern is that respondents 85, 56, and 77 generally report positive experiences with high scores for ease and confidence, while respondent 27 consistently indicates a negative experience. Respondent 26 provides more moderate, slightly positive ratings across the board. The dataset allows for analysis of user perception based on their group and specific system attributes.
 
-None",True
+None",False
 case_27,multi_hop_relational_inference,Which respondents are in the same group as respondent '62' and also rated 'System_Complexity' as 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14927,7 +14927,7 @@ Rules:
 Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?
 </task>","The dataset contains survey responses from twelve individuals, each identified by a unique ID. For each respondent, there are eleven attributes: one categorical 'Group' (Senior, Junior, Middle, Intern) and ten Likert scale ratings (1-5) covering various aspects of system usability and user perception. A common pattern observed is that many respondents, including respondent '20', rated 'System_Complexity' as '1', indicating they found the system not complex. The survey aims to capture user feedback on system attributes like frequent usage, ease of use, integration of functions, and the need for technical support. The distribution of respondents across the 'Group' categories is not uniform, with 'Middle' (C) being the most represented group in this sample.
 
-43, 17, 37, 33, 73",True
+43, 17, 37, 33, 73",False
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16005,7 +16005,7 @@ Rules:
 List all respondents who share the same 'Integration_of_Functions' score as respondent '88' but are not in the same group.
 </task>","The survey collects data from ten respondents across eleven questions. One question, 'Group', is a multiple-choice question categorizing respondents into Senior, Junior, Middle, or Intern. The remaining ten questions are Likert scale (1-5) items assessing various aspects of system usability, such as 'Frequent_Usage', 'Ease_of_Use', and 'System_Complexity'. The respondent groups are fairly distributed, with three Seniors, one Junior, three Middles, and three Interns. Overall, many respondents rated the system positively for 'Ease_of_Use' and 'Ease_of_Learning', and negatively for 'System_Complexity' and 'Cumbersome_to_Use', suggesting a generally user-friendly perception. However, there is variability in responses for 'Need_for_Technical_Support' and 'Need_to_Learn_Before_Use', indicating diverse user experiences regarding initial setup and support requirements.
 
-78, 80, 81",True
+78, 80, 81",False
 case_38,multi_hop_relational_inference,List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16586,7 +16586,7 @@ Rules:
 List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.
 </task>","The survey collects data from eleven respondents across four groups (Senior, Junior, Middle, Intern) on eleven different aspects of system usability, including frequent usage, complexity, ease of use, and need for technical support. Most questions use a 1-5 Likert scale, while the 'Group' question is a multiple-choice categorical variable. The responses show a range of opinions, with some respondents finding the system easy to use and well-integrated, while others report issues like complexity and inconsistency. There isn't a clear dominant group in the provided sample, and responses vary significantly even within the same group for some metrics.
 
-55, 14, 47, 48, 6",True
+55, 14, 47, 48, 6",False
 case_39,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17634,7 +17634,7 @@ Rules:
 List all respondents who share the same 'Need_for_Technical_Support' score as respondent '5' but are not in the same group.
 </task>","The survey collects data on respondent groups (Senior, Junior, Middle, Intern) and ten Likert scale responses (1-5) related to system usability, complexity, and user confidence. The questions cover aspects like frequent usage, system complexity, ease of use, need for technical support, integration of functions, inconsistency, ease of learning, cumbersomeness, confidence in use, and need to learn before use. Responses are provided for ten different respondents, identified by numerical IDs, showing their group affiliation and scores for each question. The data appears to be a mix of positive and negative feedback on the system across different respondent groups.
 
-59, 75, 32",True
+59, 75, 32",False
 case_41,multi_hop_relational_inference,Find all respondents whose 'Need_to_Learn_Before_Use' is higher than the average 'Need_to_Learn_Before_Use' for the 'Intern' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18173,7 +18173,7 @@ Rules:
 Find all respondents whose 'Need_to_Learn_Before_Use' is higher than the average 'Need_to_Learn_Before_Use' for the 'Intern' group.
 </task>","The survey data includes responses from ten individuals across four distinct groups: Senior, Junior, Middle, and Intern. Each respondent provided ratings on ten different aspects of a system's usability and perceived quality using a 1-5 Likert scale. The questions cover topics such as system complexity, ease of use, and the need for technical support or prior learning. The distribution of respondents across groups is not uniform, with 'Intern' and 'Middle' groups being more prevalent in this dataset.
 
-49, 89",True
+49, 89",False
 case_42,multi_hop_relational_inference,List all respondents who share the same 'Need_for_Technical_Support' score as respondent '12' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18754,7 +18754,7 @@ Rules:
 List all respondents who share the same 'Need_for_Technical_Support' score as respondent '12' but are not in the same group.
 </task>","The survey collects data from 11 respondents across four distinct groups: Senior (A), Junior (B), Middle (C), and Intern (D). Each respondent provided ratings on 10 Likert scale questions, ranging from 1 to 5, covering aspects like system usage, complexity, ease, support needs, integration, consistency, learning, and confidence. The 'Need_for_Technical_Support' question shows a strong tendency towards '1' (Strongly Disagree), indicating users generally feel they don't need technical support. 'Ease_of_Use' and 'Ease_of_Learning' generally received high scores, suggesting the system is perceived as user-friendly and easy to pick up. 'System_Complexity' and 'Cumbersome_to_Use' also predominantly received low scores, reinforcing the positive user experience.
 
-None",True
+None",False
 case_43,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19377,7 +19377,7 @@ Rules:
 Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?
 </task>","The survey collects data from respondents across four distinct groups: Senior (A), Junior (B), Middle (C), and Intern (D), although only groups A, C, and D are represented in the provided responses. Each respondent provides Likert scale ratings (1-5) for ten different aspects of system usability, such as 'Frequent_Usage', 'System_Complexity', and 'Ease_of_Use'. A notable pattern is that 'System_Complexity' scores are generally low (indicating low complexity) while 'Ease_of_Use' scores are generally high (indicating high ease of use) across most respondents. Specifically, for all observed groups (A, C, D), the average 'Ease_of_Use' score consistently surpasses the average 'System_Complexity' score. This suggests a general positive perception of the system's usability and simplicity among the surveyed individuals.
 
-None",True
+None",False
 case_44,multi_hop_relational_inference,Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Junior' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -20850,7 +20850,7 @@ Rules:
 List all respondents whose total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') is lower than the average for all respondents in the 'Senior' group.
 </task>","The survey gathers demographic data on respondent groups (Senior, Junior, Middle, Intern) and ten usability metrics using a 1-5 Likert scale. All respondents provided complete answers for every question. A notable pattern is that 'System_Complexity' consistently received the lowest possible score (1), indicating universal agreement that the system is not complex. Conversely, 'Ease_of_Learning' and 'Confidence_in_Use' generally received high scores, suggesting positive user experience in these areas. The average combined score for 'Ease_of_Use' and 'Integration_of_Functions' among the 'Senior' group is 9.
 
-52, 82",True
+52, 82",False
 case_47,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -21928,7 +21928,7 @@ Rules:
 List all respondents whose total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') is lower than the average for all respondents in the 'Senior' group.
 </task>","The survey collects data on respondent groups (Senior, Junior, Middle, Intern) and ten usability-related metrics using a 1-5 Likert scale. These metrics cover aspects like frequent usage, system complexity, ease of use, technical support needs, function integration, inconsistency, ease of learning, cumbersomeness, confidence, and learning curve. The dataset includes responses from eight individuals across different groups. Most respondents rated ease of use and integration of functions highly, with scores often at 5. However, some respondents, particularly 39 and 25, reported lower ease of use and integration scores, indicating potential areas for system improvement for certain user experiences.
 
-39, 65, 25",True
+39, 65, 25",False
 case_49,multi_hop_relational_inference,Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -22509,7 +22509,7 @@ Rules:
 Which respondents are in a group where the average 'System_Complexity' score is higher than the average 'Ease_of_Use' score for that same group?
 </task>","The survey includes 11 respondents categorized into four groups: Senior (A), Junior (B), Middle (C), and Intern (D). Each respondent provided ratings on 10 Likert scale questions, covering aspects like system complexity, ease of use, and confidence. A notable pattern is that 'Ease_of_Use' scores are consistently higher than 'System_Complexity' scores across all groups. Specifically, the average 'System_Complexity' score for every group is lower than its average 'Ease_of_Use' score. This indicates a general perception that the system is not overly complex and is relatively easy to use.
 
-None",True
+None",False
 case_50,multi_hop_relational_inference,Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Middle' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23006,4 +23006,4 @@ Rules:
 Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Middle' group.
 </task>","The survey data includes responses from 9 individuals across four groups: Senior (A), Junior (B), Middle (C), and Intern (D). Each respondent provided ratings on 10 Likert scale questions (1-5) covering aspects like frequent usage, system complexity, ease of use, and confidence, in addition to their group affiliation. The 'Group' question is a multiple-choice question, while the other ten questions are Likert scale ratings. The responses show a range of opinions on the system's usability and characteristics.
 
-64, 35, 89, 61",True
+64, 35, 89, 61",False

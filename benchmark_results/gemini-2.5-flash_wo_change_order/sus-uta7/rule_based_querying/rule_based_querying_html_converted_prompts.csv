@@ -453,7 +453,7 @@ Find all respondents whose 'Inconsistency' score is between 2 and 5.
 </body>
 </html>
 
-</questionnaire>","12, 22, 86",False
+</questionnaire>","12, 22, 86",True
 case_3,rule_based_querying,List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -908,7 +908,7 @@ List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactl
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_4,rule_based_querying,List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1279,7 +1279,7 @@ List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' 
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_5,rule_based_querying,List all respondents from the 'Middle' group whose 'System_Complexity' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1650,7 +1650,7 @@ List all respondents from the 'Middle' group whose 'System_Complexity' is exactl
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_6,rule_based_querying,Find all respondents whose 'Need_for_Technical_Support' score is between 2 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1979,7 +1979,7 @@ Find all respondents whose 'Need_for_Technical_Support' score is between 2 and 3
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_7,rule_based_querying,List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2689,7 +2689,7 @@ Find all respondents whose 'Inconsistency' score is between 1 and 3.
 </body>
 </html>
 
-</questionnaire>","30, 48, 17, 6",False
+</questionnaire>","30, 48, 17, 6",True
 case_9,rule_based_querying,Find all respondents whose 'System_Complexity' score is between 1 and 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3060,7 +3060,7 @@ Find all respondents whose 'System_Complexity' score is between 1 and 4.
 </body>
 </html>
 
-</questionnaire>","60, 79, 48, 18",False
+</questionnaire>","60, 79, 48, 18",True
 case_10,rule_based_querying,List all respondents from the 'Middle' group whose 'Need_for_Technical_Support' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3389,7 +3389,7 @@ List all respondents from the 'Middle' group whose 'Need_for_Technical_Support' 
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_11,rule_based_querying,Which respondents scored higher than 3 on 'Need_to_Learn_Before_Use'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3844,7 +3844,7 @@ Which respondents scored higher than 3 on 'Need_to_Learn_Before_Use'?
 </body>
 </html>
 
-</questionnaire>","72, 76, 25, 61",False
+</questionnaire>","72, 76, 25, 61",True
 case_12,rule_based_querying,Which respondents scored higher than 2 on 'Ease_of_Learning'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -4257,7 +4257,7 @@ Which respondents scored higher than 2 on 'Ease_of_Learning'?
 </body>
 </html>
 
-</questionnaire>","85, 68, 86, 45, 19",False
+</questionnaire>","85, 68, 86, 45, 19",True
 case_13,rule_based_querying,Which respondents scored higher than 3 on 'Need_for_Technical_Support'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -4838,7 +4838,7 @@ Which respondents scored higher than 3 on 'Need_for_Technical_Support'?
 </body>
 </html>
 
-</questionnaire>","34, 24, 86",False
+</questionnaire>","34, 24, 86",True
 case_14,rule_based_querying,Which respondents scored higher than 2 on 'Frequent_Usage'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5209,7 +5209,7 @@ Which respondents scored higher than 2 on 'Frequent_Usage'?
 </body>
 </html>
 
-</questionnaire>","14, 79, 90, 84, 68, 32",False
+</questionnaire>","14, 79, 90, 84, 68, 32",True
 case_15,rule_based_querying,Which respondents scored higher than 2 on 'Confidence_in_Use'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -5706,7 +5706,7 @@ Which respondents scored higher than 2 on 'Confidence_in_Use'?
 </body>
 </html>
 
-</questionnaire>","2, 67, 5, 21, 3, 8, 88",False
+</questionnaire>","2, 67, 5, 21, 3, 8, 88",True
 case_16,rule_based_querying,Find all respondents whose 'Need_for_Technical_Support' score is between 1 and 2.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6119,7 +6119,7 @@ Find all respondents whose 'Need_for_Technical_Support' score is between 1 and 2
 </body>
 </html>
 
-</questionnaire>","47, 62, 37, 30, 58",False
+</questionnaire>","47, 62, 37, 30, 58",True
 case_17,rule_based_querying,Find all respondents whose 'Cumbersome_to_Use' score is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6448,7 +6448,7 @@ Find all respondents whose 'Cumbersome_to_Use' score is between 1 and 3.
 </body>
 </html>
 
-</questionnaire>","67, 54, 47, 38",False
+</questionnaire>","67, 54, 47, 38",True
 case_18,rule_based_querying,Which respondents scored higher than 2 on 'Ease_of_Learning'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -6861,7 +6861,7 @@ Which respondents scored higher than 2 on 'Ease_of_Learning'?
 </body>
 </html>
 
-</questionnaire>","16, 85, 58, 43, 31, 26",False
+</questionnaire>","16, 85, 58, 43, 31, 26",True
 case_19,rule_based_querying,Find all respondents whose 'System_Complexity' score is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7484,7 +7484,7 @@ Find all respondents whose 'System_Complexity' score is between 1 and 3.
 </body>
 </html>
 
-</questionnaire>","87, 6, 67, 16, 66, 26, 51, 45, 68, 38, 75, 19",False
+</questionnaire>","87, 6, 67, 16, 66, 26, 51, 45, 68, 38, 75, 19",True
 case_20,rule_based_querying,Which respondents scored higher than 2 on 'Confidence_in_Use'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -7981,7 +7981,7 @@ Which respondents scored higher than 2 on 'Confidence_in_Use'?
 </body>
 </html>
 
-</questionnaire>","88, 20, 34, 87, 82, 13, 42, 74, 22",False
+</questionnaire>","88, 20, 34, 87, 82, 13, 42, 74, 22",True
 case_21,rule_based_querying,Which respondents scored higher than 2 on 'Integration_of_Functions'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8310,7 +8310,7 @@ Which respondents scored higher than 2 on 'Integration_of_Functions'?
 </body>
 </html>
 
-</questionnaire>","22, 54, 89, 82, 37",False
+</questionnaire>","22, 54, 89, 82, 37",True
 case_22,rule_based_querying,Which respondents scored higher than 2 on 'Integration_of_Functions'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -8933,7 +8933,7 @@ Which respondents scored higher than 2 on 'Integration_of_Functions'?
 </body>
 </html>
 
-</questionnaire>","18, 32, 4, 79, 58, 90, 16, 84, 45, 11, 30",False
+</questionnaire>","18, 32, 4, 79, 58, 90, 16, 84, 45, 11, 30",True
 case_23,rule_based_querying,List all respondents from the 'Senior' group whose 'Need_for_Technical_Support' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9430,7 +9430,7 @@ List all respondents from the 'Senior' group whose 'Need_for_Technical_Support' 
 </body>
 </html>
 
-</questionnaire>","76, 55",False
+</questionnaire>","76, 55",True
 case_24,rule_based_querying,List all respondents from the 'Middle' group whose 'Frequent_Usage' is exactly 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10214,7 +10214,7 @@ List all respondents from the 'Senior' group whose 'Ease_of_Use' is exactly 3.
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_26,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Need_for_Technical_Support' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10872,7 +10872,7 @@ Find all respondents whose total score for 'Confidence_in_Use' and 'Ease_of_Lear
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_28,rule_based_querying,Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11327,7 +11327,7 @@ Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or mor
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_29,rule_based_querying,Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11908,7 +11908,7 @@ Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or mor
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_30,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12237,7 +12237,7 @@ List all respondents whose 'System_Complexity' score is greater than their 'Ease
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_31,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13231,7 +13231,7 @@ List all respondents whose 'Need_to_Learn_Before_Use' score is greater than thei
 </body>
 </html>
 
-</questionnaire>","39, 64",False
+</questionnaire>","39, 64",True
 case_33,rule_based_querying,Which respondents from the 'Junior' group have a 'Inconsistency' of 4 or more and a 'Confidence_in_Use' of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -13686,7 +13686,7 @@ Which respondents from the 'Junior' group have a 'Inconsistency' of 4 or more an
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_34,rule_based_querying,Find all respondents whose total score for 'Inconsistency' and 'Confidence_in_Use' is less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14309,7 +14309,7 @@ Find all respondents whose total score for 'Inconsistency' and 'Confidence_in_Us
 </body>
 </html>
 
-</questionnaire>","46, 55, 44",False
+</questionnaire>","46, 55, 44",True
 case_35,rule_based_querying,List all respondents whose 'Need_to_Learn_Before_Use' score is greater than their 'Confidence_in_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15471,7 +15471,7 @@ Find all respondents whose total score for 'Inconsistency' and 'Frequent_Usage' 
 </body>
 </html>
 
-</questionnaire>","8, 11, 81",False
+</questionnaire>","8, 11, 81",True
 case_37,rule_based_querying,Find all respondents whose total score for 'Need_for_Technical_Support' and 'Ease_of_Learning' is less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16010,7 +16010,7 @@ Find all respondents whose total score for 'Need_for_Technical_Support' and 'Eas
 </body>
 </html>
 
-</questionnaire>",None,False
+</questionnaire>",None,True
 case_38,rule_based_querying,Which respondents from the 'Senior' group have a 'Confidence_in_Use' of 3 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -17088,7 +17088,7 @@ Find all respondents whose total score for 'Cumbersome_to_Use' and 'Integration_
 </body>
 </html>
 
-</questionnaire>","34, 4, 29, 73",False
+</questionnaire>","34, 4, 29, 73",True
 case_40,rule_based_querying,Find all respondents whose total score for 'Integration_of_Functions' and 'Inconsistency' is less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18166,7 +18166,7 @@ Find all respondents whose 'Ease_of_Learning' is greater than the average 'Ease_
 </body>
 </html>
 
-</questionnaire>","30, 37, 71, 74",False
+</questionnaire>","30, 37, 71, 74",True
 case_42,rule_based_querying,Which respondents have an 'Ease_of_Use' score that is higher than the average 'Ease_of_Use' score for their group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18747,7 +18747,7 @@ Which respondents have an 'Ease_of_Use' score that is higher than the average 'E
 </body>
 </html>
 
-</questionnaire>","4, 12, 32, 36, 70",False
+</questionnaire>","4, 12, 32, 36, 70",True
 case_43,rule_based_querying,Which respondents have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents in a different group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19859,7 +19859,7 @@ List all respondents whose 'Need_for_Technical_Support' is within 2 point of the
 </body>
 </html>
 
-</questionnaire>","23, 49",False
+</questionnaire>","23, 49",True
 case_45,rule_based_querying,Which respondents have an 'Ease_of_Use' score that is higher than the average 'Ease_of_Use' score for their group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -22681,7 +22681,7 @@ List all respondents whose 'Need_to_Learn_Before_Use' is within 2 point of the h
 </body>
 </html>
 
-</questionnaire>","9, 42",False
+</questionnaire>","9, 42",True
 case_50,rule_based_querying,List all respondents whose 'System_Complexity' is within 1 point of the highest 'Cumbersome_to_Use' for their group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23178,4 +23178,4 @@ List all respondents whose 'System_Complexity' is within 1 point of the highest 
 </body>
 </html>
 
-</questionnaire>","35, 43, 61, 64, 82",False
+</questionnaire>","35, 43, 61, 64, 82",True

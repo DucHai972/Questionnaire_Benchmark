@@ -1019,7 +1019,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'Socio-economic status' as respondent '14'.
-</task>","65, 14, 142",True
+</task>","65, 14, 142",False
 case_4,multi_hop_relational_inference,"""Find all respondents with the same gender as respondent '90', excluding the respondent themselves.""","Survey Data
 ==================================================
 
@@ -2959,7 +2959,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'Socio-economic status' as respondent '86'.
-</task>","8, 58, 86",True
+</task>","8, 58, 86",False
 case_7,multi_hop_relational_inference,List all respondents who have the same 'Socio-economic status' as respondent '2'.,"Survey Data
 ==================================================
 
@@ -21640,7 +21640,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '58' and also have a 'Life satisfaction' score greater than 5?
-</task>","15, 32, 40, 42, 58, 83, 89, 129",True
+</task>","15, 32, 40, 42, 58, 83, 89, 129",False
 case_32,multi_hop_relational_inference,Which respondents are the same gender as respondent '51' and also have a 'Life satisfaction' score greater than 5?,"Survey Data
 ==================================================
 
@@ -23270,7 +23270,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '51' and also have a 'Life satisfaction' score greater than 5?
-</task>","24, 44, 51, 78, 142",True
+</task>","24, 44, 51, 78, 142",False
 case_34,multi_hop_relational_inference,List all respondents who have the same 'Socio-economic status' as respondent '140' and report a 'Stress' score of less than 4.,"Survey Data
 ==================================================
 
@@ -26065,7 +26065,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '107' and also have a 'Life satisfaction' score greater than 5?
-</task>","107, 124, 88",True
+</task>","107, 124, 88",False
 case_36,multi_hop_relational_inference,Which respondents are the same gender as respondent '28' and also have a 'Life satisfaction' score greater than 6?,"Survey Data
 ==================================================
 
@@ -27449,7 +27449,7 @@ Rules:
 
 <task>
 Which respondents are the same gender as respondent '28' and also have a 'Life satisfaction' score greater than 6?
-</task>","28, 34, 89, 95",True
+</task>","28, 34, 89, 95",False
 case_37,multi_hop_relational_inference,Which respondents are the same gender as respondent '75' and also have a 'Life satisfaction' score greater than 6?,"Survey Data
 ==================================================
 

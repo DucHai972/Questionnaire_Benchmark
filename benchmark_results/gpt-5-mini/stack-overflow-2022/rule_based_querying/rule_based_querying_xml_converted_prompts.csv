@@ -1228,7 +1228,7 @@ Rules:
 
 <task>
 List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"<?xml version=""1.0"" encoding=""UTF-8""?>
 <questionnaire>
   <questions>

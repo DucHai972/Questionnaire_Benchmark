@@ -3142,7 +3142,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all  male respondents born before 2003.",None,False
+List all  male respondents born before 2003.",None,True
 case_4,rule_based_querying,Which respondents have a 'Depression' score of 8 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -4483,7 +4483,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a 'Depression' score of 8 or higher?",None,False
+Which respondents have a 'Depression' score of 8 or higher?",None,True
 case_5,rule_based_querying,List all  male respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5673,7 +5673,7 @@ Rules:
 
 List all  male respondents born before 2004.","[REQUEST]
 I have analyzed the data and am ready to provide the list of male respondents born before 2004.
-['23', '84']",True
+['23', '84']",False
 case_6,rule_based_querying,List all  female respondents born before 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7641,7 +7641,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all  female respondents born before 2003.",None,False
+List all  female respondents born before 2003.",None,True
 case_7,rule_based_querying,List all  female respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10980,7 +10980,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all  male respondents born before 2004.","77, 20, 93",False
+List all  male respondents born before 2004.","77, 20, 93",True
 case_9,rule_based_querying,Find all respondents whose 'Socio-economic status' is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12162,7 +12162,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose 'Socio-economic status' is between 1 and 3.","35, 78, 2, 86, 98",False
+Find all respondents whose 'Socio-economic status' is between 1 and 3.","35, 78, 2, 86, 98",True
 case_10,rule_based_querying,Which respondents have a 'Laughter' score of 8 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -13968,7 +13968,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which respondents have a 'Laughter' score of 8 or higher?","113, 77, 52, 81, 46",False
+Which respondents have a 'Laughter' score of 8 or higher?","113, 77, 52, 81, 46",True
 case_11,rule_based_querying,List all  male respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17421,7 +17421,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all  male respondents born before 2003.",None,False
+List all  male respondents born before 2003.",None,True
 case_13,rule_based_querying,Which respondents have a 'Happiness' score of 7 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -21900,7 +21900,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all  male respondents born before 2005.","10, 93, 22, 12",False
+List all  male respondents born before 2005.","10, 93, 22, 12",True
 case_16,rule_based_querying,List all  male respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -30757,7 +30757,7 @@ Rules:
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
 Which respondents have a 'Enjoyment' score of 7 or higher?","[REQUEST]
-63, 45, 142, 41",False
+63, 45, 142, 41",True
 case_21,rule_based_querying,Find all respondents whose 'Year of birth' is between 1999 and 2005.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36529,7 +36529,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all  female respondents born before 2002.",None,False
+List all  female respondents born before 2002.",None,True
 case_24,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -47390,7 +47390,7 @@ Rules:
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
 Which  female respondents born after 2004 have a 'Life satisfaction' score of 6 and a 'Depression' score of less than 4?","[REQUEST]
-118",False
+118",True
 case_30,rule_based_querying,Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 5?,"<!DOCTYPE html>
 <html>
 <head>
@@ -49046,7 +49046,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 5?",None,False
+Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 5?",None,True
 case_31,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -57944,7 +57944,7 @@ Rules:
 
 List all respondents whose 'Enjoyment' is greater than their 'Anger'.","[REQUEST] I have analyzed the data and am ready to provide the list of respondents.
 
-116, 20, 24, 104, 132, 72, 95, 117, 125, 84, 149",False
+116, 20, 24, 104, 132, 72, 95, 117, 125, 84, 149",True
 case_36,rule_based_querying,Find all respondents whose total score for 'Emotional Regulation Frequency' is greater than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -61094,7 +61094,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Which  male respondents born after 2003 have a 'Laughter' score of 7 and a 'Worry' score of less than 4?",None,False
+Which  male respondents born after 2003 have a 'Laughter' score of 7 and a 'Worry' score of less than 4?",None,True
 case_38,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -71834,7 +71834,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.",None,False
+List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.",None,True
 case_44,rule_based_querying,Find all respondents whose 'Life satisfaction' is greater than the average 'Life satisfaction' for their gender.,"<!DOCTYPE html>
 <html>
 <head>

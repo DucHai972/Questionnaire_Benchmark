@@ -5448,7 +5448,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 2003.
 </task>","This survey captures demographics (year of birth, gender, socio-economic status, ethnic identity, parental education) and multiple well‑being measures (life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, loneliness). It also includes emotional regulation frequency items scored 0–4 and anxiety/depressive symptom frequency scales scored 0–3. Gender is MCQ-coded where 1 = Male and 2 = Female; socio‑economic status uses a 1–6 Likert and many affect items use 0–10 scales. Responses are listed by respondent ID with numeric values (e.g., 2003.0). Use the Questions schema to map numeric codes to their textual meanings.
 
-85, 16",True
+85, 16",False
 case_5,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10464,7 +10464,7 @@ Find all respondents with a Worry of 1.
 </task>","Format specification and description:
 The survey records demographic items (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and multiple wellbeing measures (Life satisfaction, Happiness, Worry, etc.) using MCQ and Likert scales as defined in the Questions schema. Gender and Ethnic identity are MCQs with numeric codes that map to the option text in the schema; most wellbeing items use numeric Likert scales (Worry: 0–10). The Responses section lists each respondent by ID with their answered numeric values. All analysis below uses only the provided Questions schema and Responses data.
 
-110, 35, 119, 47",True
+110, 35, 119, 47",False
 case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13314,7 +13314,7 @@ List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.
 - Responses are given per respondent with numeric codes matching the schema; base all analysis only on the provided Questions and Responses sections.
 - Output lists respondent IDs matching the requested criteria or ""None"" if no matches.
 
-None",True
+None",False
 case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18934,7 +18934,7 @@ Rules:
 Which respondents are male?
 </task>","Survey specification: The questionnaire collects demographics and mental‑wellbeing measures (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and several wellbeing, emotional regulation, anxiety, and depressive symptom items. Gender is MCQ (1 = Male, 2 = Female); Socio-economic status is a Likert 1–6; life satisfaction/happiness/etc. use 0–10; emotional regulation uses 0–4; anxiety and depressive symptom frequencies use 0–3. Parental Education and Year of birth are open-ended numeric fields. Responses list individual respondents with their field values; all analysis below is based solely on the provided schema and responses.
 
-148, 97, 102, 20, 63",True
+148, 97, 102, 20, 63",False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23455,7 +23455,7 @@ Rules:
 Which respondents are male?
 </task>","Format/specification: This survey records demographic (year of birth, gender, socio-economic status, ethnic identity, parental education) and multiple well‑being measures using MCQ and Likert scales. Gender is a multiple-choice question with options ""1. Male"" and ""2. Female"". Socio-economic status is a Likert 1–6 scale (1 = Very low, 6 = Very high). Responses are provided per respondent ID with numeric values (e.g., 1.0 representing option 1).
 
-138, 124, 120, 112, 69, 83, 63, 23, 72",True
+138, 124, 120, 112, 69, 83, 63, 23, 72",False
 case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25590,7 +25590,7 @@ Rules:
 List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.
 </task>","The dataset includes a Questions schema that defines each field (MCQ options, Likert scales, and open-ended items) and a Responses section with individual respondent records. MCQ fields map numeric codes to option texts (e.g., Gender: 1. Male, 2. Female) and Likert scales use the numeric ranges specified in the schema. Open-ended fields such as Year of birth and Parental Education contain exact numeric/text entries. All interpretation is based solely on the provided schema and responses when filtering or mapping codes.
 
-None",True
+None",False
 case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36801,7 +36801,7 @@ Rules:
 Find all respondents with a Happiness of 5.
 </task>","This survey records demographics (year of birth, gender, ethnic identity, parental education) and multiple well‑being measures (life satisfaction, happiness, laughter, etc.). Gender and ethnic identity are MCQ fields with numeric codes mapped to option text; socio‑economic status and several items use Likert scales. Anxiety and depressive symptoms use specified frequency scales (0–3), and emotional regulation items use a 0–4 frequency scale. Responses list each respondent with their answers to the schema fields.
 
-142, 27",True
+142, 27",False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -39667,7 +39667,7 @@ Rules:
 Which respondents are 2002.0?
 </task>","The survey records demographics (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental education) and multiple wellbeing and mental-health measures. Year of birth and parental education are open-ended; Gender and Ethnic identity are MCQs; Socio-economic status is a Likert scale 1–6. Life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, and loneliness use Likert 0–10. Emotional Regulation Frequency uses 0–4; Anxiety and Depressive Symptoms Frequency use 0–3.
 
-14, 30, 103, 148",True
+14, 30, 103, 148",False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -45383,7 +45383,7 @@ Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 
 - MCQ fields (e.g., Gender, Ethnic identity) map numeric codes to option text per the schema; open-ended fields are recorded as given.
 - Scores for Learning and Loneliness are numeric and can be summed to compute totals per respondent.
 
-142, 121",True
+142, 121",False
 case_30,answer_reverse_lookup,Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -47065,7 +47065,7 @@ Rules:
 Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.
 </task>","This survey records demographics (year of birth, gender, socio-economic status, ethnic identity, parental education) and several well-being measures. Subjective well-being items include life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, and loneliness on 0–10 scales. Emotional regulation is measured with 0–4 frequency items; anxiety and depressive symptom frequencies use 0–3 scales. The schema maps numeric codes for MCQs to defined category texts (e.g., Gender: 1 = Male, 2 = Female).
 
-None",True
+None",False
 case_31,answer_reverse_lookup,Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -54191,7 +54191,7 @@ Rules:
 Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?
 </task>","This survey records demographics (year of birth, gender, socio-economic status, ethnic identity, parental education) and several wellbeing measures. Single-item wellbeing questions (life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, loneliness) use a 0–10 scale. Emotional regulation items use a 0–4 frequency scale; anxiety and depressive symptom items use a 0–3 frequency scale. MCQ fields map numeric codes to specified categories (e.g., Gender: 1 = Male, 2 = Female).
 
-45, 114",True
+45, 114",False
 case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -58009,7 +58009,7 @@ Rules:
 Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.
 </task>","This survey records demographics (year of birth, gender, socio-economic status, ethnic identity), parental education, and multiple well-being and symptom scales. Well-being items like Life satisfaction, Happiness, Enjoyment, and Stress use a 0–10 Likert scale; Emotional Regulation uses 0–4; Anxiety and Depressive Symptoms use 0–3. Socio-economic status is a 1–6 Likert (1 = Very low, 6 = Very high); gender and ethnic identity are multiple-choice with labeled options. Responses are provided per respondent ID with item-level numeric values.
 
-103, 10, 81, 104",True
+103, 10, 81, 104",False
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -65663,7 +65663,7 @@ Rules:
 Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?
 </task>","Format/specification: This survey records demographics (year of birth, gender, socio‑economic status, ethnic identity, parental education) and several well‑being measures. Most well‑being items (Life satisfaction, Happiness, Laughter, Learning, Enjoyment, Worry, Depression, Anger, Stress, Loneliness) use a 0–10 Likert scale; emotional regulation uses 0–4 and anxiety/depressive symptom frequency use 0–3. Responses are listed per respondent with numeric values for each item. Use the Questions schema as the single source of truth for interpreting each field.
 
-124, 121",True
+124, 121",False
 case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -67336,7 +67336,7 @@ Rules:
 Find all respondents whose Laughter is higher than the average Laughter for their gender.
 </task>","The survey schema lists demographics (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and well-being measures (life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, loneliness) with specified response formats. Gender is a multiple-choice field (1 = Male, 2 = Female); socio-economic status and well-being items use numeric Likert scales described in the schema. Emotional regulation, anxiety, and depressive symptom sections use specified numeric frequency scales with item-level questions. Responses contain each respondent's numeric answers following the schema.
 
-130, 73, 77",True
+130, 73, 77",False
 case_42,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -78577,7 +78577,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","8, 15, 77, 84, 114",False
+</task>","8, 15, 77, 84, 114",True
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -80410,7 +80410,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","38, 63, 96, 111, 136",False
+</task>","38, 63, 96, 111, 136",True
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"<!DOCTYPE html>
 <html>
 <head>

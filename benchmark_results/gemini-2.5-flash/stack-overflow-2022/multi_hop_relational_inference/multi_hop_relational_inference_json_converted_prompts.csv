@@ -15569,7 +15569,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '73198' and whose programming languages include 'JavaScript'.
-</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",True
+</task>","331, 29111, 73198, 352, 73076, 479, 192, 72873, 487, 72720",False
 case_27,multi_hop_relational_inference,Which respondents are from the same country as respondent '154' and also have more than 7 years of coding experience?,"{
   ""questions"": {
     ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
@@ -24535,7 +24535,7 @@ Rules:
 
 <task>
 List all respondents who have the same 'MainBranch' as respondent '448' and whose programming languages include 'JavaScript'.
-</task>","29071, 29122, 73106, 343, 448, 29124, 540",True
+</task>","29071, 29122, 73106, 343, 448, 29124, 540",False
 case_41,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '423'.,"{
   ""questions"": {
     ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
@@ -25995,7 +25995,7 @@ Rules:
 
 <task>
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
-</task>","159, 173, 184, 491, 72937",True
+</task>","159, 173, 184, 491, 72937",False
 case_43,multi_hop_relational_inference,"""List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '10,000 or more employees'.""","{
   ""questions"": {
     ""MainBranch"": ""MainBranch: Primary professional identity [MCQ: A. I am a developer by profession B. I am not primarily a developer, but I write code sometimes as part of my work C. I used to be a developer by profession, but no longer am D. I am learning to code E. I code primarily as a hobby F. None of these]"",
@@ -31379,4 +31379,4 @@ Rules:
 
 <task>
 Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '73259'.
-</task>","73259, 184",True
+</task>","73259, 184",False

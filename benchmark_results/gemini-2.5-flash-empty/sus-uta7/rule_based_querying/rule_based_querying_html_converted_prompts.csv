@@ -984,7 +984,7 @@ Rules:
 
 <task>
 Which respondents have an 'Ease_of_Use' score that is higher than the average 'Ease_of_Use' score for their group?
-</task>","11, 44, 54, 63, 33, 62",False
+</task>","11, 44, 54, 63, 33, 62",True
 case_46,rule_based_querying,Which respondents have a total positive usability score ('Ease_of_Use' + 'Integration_of_Functions') that is lower than the average for all respondents in a different group?,"<!DOCTYPE html>
 <html>
 <head>

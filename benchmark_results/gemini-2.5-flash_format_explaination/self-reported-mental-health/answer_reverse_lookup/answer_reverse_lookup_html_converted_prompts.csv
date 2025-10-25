@@ -13309,7 +13309,7 @@ Rules:
 List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.
 </task>","This survey collects demographic information, socio-economic status, and various psychological well-being metrics from respondents. It includes questions on life satisfaction, happiness, emotional regulation, and symptoms of anxiety and depression. The data is structured with clear questions and corresponding numerical responses for each participant.
 
-None",True
+None",False
 case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -25588,7 +25588,7 @@ Rules:
 List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.
 </task>","This survey gathers demographic data, including year of birth, gender, socio-economic status, and ethnic identity. It also measures various aspects of emotional well-being, such as life satisfaction, happiness, and the frequency of positive and negative emotions. Detailed sections assess emotional regulation, anxiety symptoms, and depressive symptoms using Likert scales. Parental education levels are also collected.
 
-None",True
+None",False
 case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27249,7 +27249,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 1998.
 </task>","This survey collects demographic information, including year of birth, gender, socio-economic status, and ethnic identity. It also gathers data on parental education levels. A significant portion of the survey focuses on psychological well-being, assessing life satisfaction, happiness, and daily emotional experiences like laughter, enjoyment, worry, depression, anger, stress, and loneliness. Furthermore, it includes detailed sections on the frequency of emotional regulation issues, anxiety symptoms, and depressive symptoms over specified periods.
 
-None",True
+None",False
 case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8.,"<!DOCTYPE html>
 <html>
 <head>
@@ -29234,7 +29234,7 @@ Rules:
 Find all respondents with a Life satisfaction of 8.
 </task>","This survey collects demographic information (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and various psychological well-being metrics. These metrics include daily emotional states (Life satisfaction, Happiness, Laughter, Learning, Enjoyment, Worry, Depression, Anger, Stress, Loneliness) measured on a 0-10 Likert scale. Additionally, it assesses the frequency of emotional regulation issues and anxiety/depressive symptoms over recent periods using different Likert scales. The data provides individual responses for each question.
 
-126, 143, 24, 57, 104, 63",True
+126, 143, 24, 57, 104, 63",False
 case_19,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36807,7 +36807,7 @@ Rules:
 Find all respondents with a Happiness of 5.
 </task>","This survey collects demographic information (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and various psychological well-being metrics. It includes Likert scale questions on life satisfaction, daily emotions (happiness, laughter, worry, etc.), and frequency of emotional regulation, anxiety, and depressive symptoms. The scales vary, with some ranging from 0-10, others 0-4, and 0-3, indicating different levels of intensity or frequency for emotional experiences.
 
-142, 27",True
+142, 27",False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -44029,7 +44029,7 @@ Rules:
 Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.
 </task>","This survey collects demographic information (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and various psychological well-being metrics. These metrics include daily emotional states (Life satisfaction, Happiness, Laughter, Learning, Enjoyment, Worry, Depression, Anger, Stress, Loneliness) rated on a 0-10 Likert scale. Additionally, it assesses the frequency of emotional regulation issues and anxiety/depressive symptoms over recent periods using different Likert scales. The data provides individual responses for each participant across these categories.
 
-None",True
+None",False
 case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -47069,7 +47069,7 @@ Rules:
 Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.
 </task>","This survey collects demographic information, socio-economic status, and various psychological well-being indicators from respondents. It includes questions on life satisfaction, daily emotions like happiness, laughter, worry, and stress, as well as detailed assessments of emotional regulation, anxiety, and depressive symptoms over recent periods. Parental education is also recorded. The data provides insights into the mental and emotional states of individuals across different socio-economic and age groups.
 
-None",True
+None",False
 case_31,answer_reverse_lookup,Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -58016,7 +58016,7 @@ Rules:
 Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.
 </task>","This survey collects demographic information, socio-economic status, and detailed psychological well-being data. It includes Likert scale questions on life satisfaction, daily emotions (happiness, worry, stress), and frequency of emotional regulation, anxiety, and depressive symptoms. Parental education is also recorded. The survey aims to provide a comprehensive snapshot of respondents' mental and emotional states.
 
-10, 81, 103, 104",False
+10, 81, 103, 104",True
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -69488,7 +69488,7 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","This survey collects demographic information such as year of birth, gender, socio-economic status, and ethnic identity. It also gathers data on parental education levels. A significant portion of the survey focuses on psychological well-being, including life satisfaction, happiness, laughter, learning, enjoyment, and various negative emotions like worry, depression, anger, stress, and loneliness. Additionally, it assesses the frequency of emotional regulation issues and symptoms related to anxiety and depression over specified periods.
 
-39, 86, 89, 97, 115, 124, 126, 138, 142, 149",False
+39, 86, 89, 97, 115, 124, 126, 138, 142, 149",True
 case_43,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -73290,7 +73290,7 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","This survey collects demographic information such as year of birth, gender, socio-economic status, and ethnic identity. It also gathers data on various psychological well-being indicators, including life satisfaction, happiness, and emotional states like worry, depression, and anger. Additionally, it assesses the frequency of emotional regulation, anxiety, and depressive symptoms, along with parental education levels.
 
-4, 10, 39, 113, 135",False
+4, 10, 39, 113, 135",True
 case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -74954,7 +74954,7 @@ Rules:
 List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.
 </task>","This survey collects demographic information (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and various psychological well-being metrics. These metrics include general life satisfaction, daily emotional states (Happiness, Laughter, Learning, Enjoyment, Worry, Depression, Anger, Stress, Loneliness), and frequency of emotional regulation, anxiety, and depressive symptoms over recent periods. Responses are provided by individual respondents, identified by a unique ID.
 
-21, 40, 68, 85",False
+21, 40, 68, 85",True
 case_46,answer_reverse_lookup,Find all respondents whose Learning is higher than the average Learning for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -78600,7 +78600,7 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","Specification: This survey collects demographic information including year of birth, gender, socio-economic status, and ethnic identity. It also assesses parental education levels. A significant portion of the survey focuses on psychological well-being, measuring life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, and loneliness on Likert scales. Additionally, it includes detailed sections on emotional regulation frequency and the frequency of anxiety and depressive symptoms.
 
-8, 15, 77, 84, 114",False
+8, 15, 77, 84, 114",True
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -80435,7 +80435,7 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","This survey collects demographic information such as year of birth, gender, socio-economic status, and ethnic identity. It also gathers data on psychological well-being, including life satisfaction, happiness, and various emotional states like worry, depression, and anger, measured on Likert scales. Additionally, it assesses emotional regulation frequency and the frequency of anxiety and depressive symptoms.
 
-38, 63, 96, 111, 136",False
+38, 63, 96, 111, 136",True
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -83940,4 +83940,4 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","This survey gathers demographic data, including year of birth, gender, socio-economic status, and ethnic identity. It also measures various aspects of psychological well-being, such as life satisfaction, happiness, and daily emotional states like worry, depression, and anger. Furthermore, the survey assesses emotional regulation frequency, anxiety symptoms, and depressive symptoms using Likert scales. Parental education levels are also collected.
 
-19, 41, 66, 109, 114",False
+19, 41, 66, 109, 114",True

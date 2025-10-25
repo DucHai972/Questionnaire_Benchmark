@@ -2460,7 +2460,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_4,rule_based_querying,Which respondents have a 'Depression' score of 8 or higher?,"# Survey Data
 
 ## Questions
@@ -3514,7 +3514,7 @@ Rules:
 
 <task>
 Which respondents have a 'Depression' score of 8 or higher?
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,List all  male respondents born before 2004.,"# Survey Data
 
 ## Questions
@@ -5988,7 +5988,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_7,rule_based_querying,List all  female respondents born before 2004.,"# Survey Data
 
 ## Questions
@@ -12434,7 +12434,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2002.
-</task>",None,False
+</task>",None,True
 case_12,rule_based_querying,List all  male respondents born before 2003.,"# Survey Data
 
 ## Questions
@@ -13611,7 +13611,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_13,rule_based_querying,Which respondents have a 'Happiness' score of 7 or higher?,"# Survey Data
 
 ## Questions
@@ -21468,7 +21468,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_19,rule_based_querying,List all  male respondents born before 2002.,"# Survey Data
 
 ## Questions
@@ -28535,7 +28535,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2002.
-</task>",None,False
+</task>",None,True
 case_24,rule_based_querying,List all  female respondents born before 2002.,"# Survey Data
 
 ## Questions
@@ -32531,7 +32531,7 @@ Rules:
 
 <task>
 Find all respondents whose combined 'Stress' and 'Loneliness' score is exactly 3.
-</task>",None,False
+</task>",None,True
 case_27,rule_based_querying,Which  male respondents born after 2002 have a 'Happiness' score of 6 and a 'Depression' score of less than 3?,"# Survey Data
 
 ## Questions
@@ -38319,7 +38319,7 @@ Rules:
 
 <task>
 Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 5?
-</task>",None,False
+</task>",None,True
 case_31,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"# Survey Data
 
 ## Questions
@@ -47731,7 +47731,7 @@ Rules:
 
 <task>
 Which  male respondents born after 2003 have a 'Laughter' score of 7 and a 'Worry' score of less than 4?
-</task>",None,False
+</task>",None,True
 case_38,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"# Survey Data
 
 ## Questions
@@ -56077,7 +56077,7 @@ Rules:
 
 <task>
 List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.
-</task>",None,False
+</task>",None,True
 case_44,rule_based_querying,Find all respondents whose 'Life satisfaction' is greater than the average 'Life satisfaction' for their gender.,"# Survey Data
 
 ## Questions

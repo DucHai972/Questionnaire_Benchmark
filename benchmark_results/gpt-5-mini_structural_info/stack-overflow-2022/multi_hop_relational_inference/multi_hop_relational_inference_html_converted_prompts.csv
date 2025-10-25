@@ -378,7 +378,7 @@ Rules:
 Find all respondents from the same country as respondent '437', excluding the respondent themselves.
 </task>","The dataset contains 5 respondents and 14 survey fields, mixing multiple-choice (single and multi-select) and open-ended questions. MainBranch is an MCQ with most respondents identifying as ""I am a developer by profession"" (4 of 5) and one as ""I am not primarily a developer, but I write code sometimes as part of my work."" Countries reported are Poland, Bangladesh, United Kingdom of Great Britain and Northern Ireland, India, and Italy (one respondent each). Compensation frequency entries include Monthly and Yearly; VersionControlSystem is uniformly ""Git"" for all respondents. Languages, tools, and dev roles are open-ended and vary widely across respondents.
 
-None",True
+None",False
 case_3,multi_hop_relational_inference,List all respondents who have the same education level as respondent '29043'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4029,7 +4029,7 @@ Rules:
 Find all respondents from the same country as respondent '73075', excluding the respondent themselves.
 </task>","The survey schema includes MCQ and open-ended fields (e.g., MainBranch, Employment, EdLevel, Country, Languages, Tools). There are 8 respondents in the dataset. Most respondents (7 of 8) selected ""I am a developer by profession"" for MainBranch, and the majority are employed full-time; Git is the most common version control and npm appears frequently among tools. Four respondents reside in United States of America.
 
-202, 355, 72749",True
+202, 355, 72749",False
 case_9,multi_hop_relational_inference,List all respondents who have the same education level as respondent '388'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -6586,7 +6586,7 @@ Rules:
 Find all respondents from the same country as respondent '72815', excluding the respondent themselves.
 </task>","The dataset contains 6 respondents and 14 questions, with a mix of multiple-choice and open-ended items. All six respondents selected ""I am a developer by profession"" for MainBranch. Countries represented are Sweden, Switzerland, United Kingdom of Great Britain and Northern Ireland, United States of America (2 respondents), and Italy. Compensation frequency values include both Monthly and Yearly, and most respondents list Git as their VersionControlSystem. Years of coding range from 7 to 36, and professional coding experience ranges from ""Less than 1 year"" to 19.
 
-None",True
+None",False
 case_14,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '106', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -12234,7 +12234,7 @@ Rules:
 Which respondents have the same 'MainBranch' (professional identity) as respondent '73125'?
 </task>","The dataset contains 14 questionnaire fields (mix of MCQ, multi-MCQ, and open-ended) and 12 respondent entries. MainBranch is an MCQ indicating primary professional identity; in this sample 11 respondents selected ""I am a developer by profession"" and 1 respondent selected ""I am not primarily a developer, but I write code sometimes as part of my work"". Most respondents report Yearly compensation frequency and use Git as their version control system. Common tools include Docker and npm, and common languages include JavaScript and TypeScript. Org sizes and compensation vary widely across respondents.
 
-None",True
+None",False
 case_23,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '189', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -12663,7 +12663,7 @@ Rules:
 
 <task>
 Find all respondents from the same country as respondent '189', excluding the respondent themselves.
-</task>","511, 73106",False
+</task>","511, 73106",True
 case_24,multi_hop_relational_inference,List all respondents who have the same education level as respondent '72927'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16159,7 +16159,7 @@ Rules:
 List all respondents who have the same 'MainBranch' as respondent '444' and whose programming languages include 'C++'.
 </task>","The dataset contains 5 respondents and follows the provided schema with MCQ and open-ended fields (e.g., MainBranch, LanguageHaveWorkedWith). All five respondents selected ""I am a developer by profession"" for MainBranch. Programming languages are recorded as open-ended semicolon-separated lists; ""C++"" appears for two respondents (133 and 362). Employment is mostly ""Employed, full-time"" with one reporting ""Independent contractor, freelancer, or self-employed"". All respondents use Git as their version control system and organization sizes vary from solo freelancers to very large companies.
 
-133, 362",True
+133, 362",False
 case_30,multi_hop_relational_inference,Which respondents are from the same country as respondent '73030' and also have more than 5 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16692,7 +16692,7 @@ Rules:
 Which respondents are from the same country as respondent '73030' and also have more than 5 years of coding experience?
 </task>","The dataset contains 14 question fields (a mix of MCQ and open-ended) and responses from 8 respondents. Most respondents (7 of 8) identify as ""I am a developer by profession""; one identifies as ""I am not primarily a developer, but I write code sometimes as part of my work"". Countries represented include Iran, United States of America, Netherlands, and Norway; compensation frequencies are mostly Yearly. Years of coding experience range from 4 to 14 years, with several respondents over 10 years. Common tools mentioned include Docker and Kubernetes across multiple respondents.
 
-None",True
+None",False
 case_31,multi_hop_relational_inference,List all respondents who have the same 'MainBranch' as respondent '441' and whose programming languages include 'Go'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -19073,7 +19073,7 @@ Rules:
 Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?
 </task>","The dataset contains 10 respondents. All 10 respondents identify as ""I am a developer by profession"". YearsCode ranges from 5 to 30 years (minimum 5, maximum 30), with most respondents having over 7 years of experience. Countries represented include Belgium, South Africa, Brazil, United States of America, United Kingdom of Great Britain and Northern Ireland, Poland, Germany, and Switzerland (United States of America appears three times). Docker is a frequently mentioned tool across many respondents.
 
-None",True
+None",False
 case_35,multi_hop_relational_inference,Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>

@@ -18745,7 +18745,7 @@ Find all respondents whose 'Ease_of_Use' score is higher than the average 'Ease_
 </body>
 </html>
 
-</questionnaire>","4, 12, 32, 36, 70",False
+</questionnaire>","4, 12, 32, 36, 70",True
 case_43,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19846,7 +19846,7 @@ Find all respondents in the 'Junior' group whose 'Ease_of_Learning' is higher th
 **Step 5: List the respondents that meet the criteria.**
 No respondents meet the criteria.
 
-None",True
+None",False
 case_45,answer_reverse_lookup,Find all respondents in the 'Intern' group whose 'Confidence_in_Use' is higher than the average 'Confidence_in_Use' for the 'Junior' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -21463,7 +21463,7 @@ Which respondents have a total negative usability score ('System_Complexity' + '
 </body>
 </html>
 
-</questionnaire>","9, 44, 46, 56, 66, 74",False
+</questionnaire>","9, 44, 46, 56, 66, 74",True
 case_48,answer_reverse_lookup,Find all respondents in the 'Junior' group whose 'Ease_of_Use' is higher than the average 'Ease_of_Use' for the 'Middle' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22499,7 +22499,7 @@ Which respondents have a total negative usability score ('System_Complexity' + '
 </body>
 </html>
 
-</questionnaire>","9, 15, 66, 71",False
+</questionnaire>","9, 15, 66, 71",True
 case_50,answer_reverse_lookup,Which respondents have a total negative usability score ('System_Complexity' + 'Inconsistency' + 'Cumbersome_to_Use') that is higher than the average for their group?,"<!DOCTYPE html>
 <html>
 <head>

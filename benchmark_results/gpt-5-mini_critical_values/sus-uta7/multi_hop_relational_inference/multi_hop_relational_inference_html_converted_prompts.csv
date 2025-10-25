@@ -1275,7 +1275,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20'?
-</task>","20, 39, 51, 62",True
+</task>","20, 39, 51, 62",False
 case_5,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '84'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -2308,7 +2308,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '51', excluding the respondent themselves.
 </task>","The Likert items (e.g., Ease_of_Use) are scored 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. Ease_of_Use is defined as ""I thought the system was easy to use"" and uses that 1–5 scale. Respondent 51's Ease_of_Use score is 5 (Strongly Agree). Other respondents' Ease_of_Use scores in the dataset are: Respondent 42 = 5, Respondent 20 = 5, Respondent 84 = 1, Respondent 7 = 5. Matching respondents (excluding 51) with the same Ease_of_Use score are:
 
-42, 20, 7",True
+42, 20, 7",False
 case_8,multi_hop_relational_inference,Which respondents are in the same group as respondent '25'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -2677,7 +2677,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '25'?
-</task>","30, 48, 49, 25",True
+</task>","30, 48, 49, 25",False
 case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -3379,7 +3379,7 @@ Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', ex
 - The critical range for Ease_of_Use is 1 (Strongly Disagree) to 5 (Strongly Agree), with 5 representing the maximum/easiest rating.  
 - Respondent 5's Ease_of_Use score is 5, so we include other respondents whose Ease_of_Use equals 5.
 
-74, 62",True
+74, 62",False
 case_11,multi_hop_relational_inference,List all respondents who rated 'Inconsistency' the same as respondent '61'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3832,7 +3832,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>","24, 25",False
+</task>","24, 25",True
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6109,7 +6109,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '58', excluding the respondent themselves.
 </task>","The Likert responses range from 1–5 (1 = Strongly Disagree, 5 = Strongly Agree). The ""Ease_of_Use"" item measures agreement with ""I thought the system was easy to use."" MCQ ""Group"" maps as A. Senior, B. Junior, C. Middle, D. Intern. Low scores (1) indicate disagreement about ease of use; high scores (5) indicate strong agreement—Respondent 58 scored Ease_of_Use = 5. We therefore match other respondents with Ease_of_Use = 5.
 
-62, 37, 54, 30",True
+62, 37, 54, 30",False
 case_17,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '47'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7472,7 +7472,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '38', excluding the respondent themselves.
 </task>","Critical values and ranges: The MCQ ""Group"" uses options A. Senior, B. Junior, C. Middle, D. Intern. All attitude items use a 5-point Likert where 1 = Strongly Disagree and 5 = Strongly Agree. Scores 1–2 indicate negative responses, 3 is neutral, and 4–5 indicate positive responses. ""Ease_of_Use"" specifically measures perceived ease (higher = easier). Respondent 38's Ease_of_Use score is 5 (Strongly Agree).
 
-67, 16, 66, 51, 19",True
+67, 16, 66, 51, 19",False
 case_20,multi_hop_relational_inference,List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8921,7 +8921,7 @@ Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', e
 - Respondent 11's Ease_of_Use score is 5 (Strongly Agree).  
 - We must find all other respondents with Ease_of_Use = 5.
 
-32, 4, 79, 58, 90, 16, 30",True
+32, 4, 79, 58, 90, 16, 30",False
 case_23,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -10200,7 +10200,7 @@ Rules:
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.
 </task>","The Likert items are scored 1–5 where 1 = Strongly Disagree and 5 = Strongly Agree. ""Ease_of_Use"" uses this scale; a score of 5 means the respondent strongly agreed the system was easy to use. The MCQ ""Group"" maps A. Senior, B. Junior, C. Middle, D. Intern. Critical extremes are 1 (strong disagreement/negative) and 5 (strong agreement/positive); intermediate values indicate gradations of agreement. Respondent 40's Ease_of_Use is 5 (maximum).
 
-49, 28",True
+49, 28",False
 case_26,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '26' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -10535,7 +10535,7 @@ Find all respondents who gave the same 'Confidence_in_Use' score as respondent '
 - The task selects respondents with Confidence_in_Use = 4 and Ease_of_Learning = 5.
 
 Final answer:
-None",True
+None",False
 case_27,multi_hop_relational_inference,Which respondents are in the same group as respondent '62' and also rated 'System_Complexity' as 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -12227,7 +12227,7 @@ Which respondents are in the same group as respondent '70' and also rated 'Syste
 - Other respondents in Group C in the data are Respondent 4 (System_Complexity = 1) and Respondent 70 (System_Complexity = 1).  
 - No respondent in Group ""Middle"" has System_Complexity = 5 in the provided responses.
 
-None",True
+None",False
 case_31,multi_hop_relational_inference,List all respondents who share the same 'Frequent_Usage' score as respondent '6' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12724,7 +12724,7 @@ Rules:
 List all respondents who share the same 'Frequent_Usage' score as respondent '6' but are not in the same group.
 </task>","Critical values and ranges: Frequent_Usage is a Likert scale from 1 to 5 (1 = Strongly Disagree, 5 = Strongly Agree). Group is a multiple-choice coded A–D corresponding to A. Senior, B. Junior, C. Middle, D. Intern. Respondent 6 has Frequent_Usage = 5 and Group = A (Senior). We seek other respondents with Frequent_Usage = 5 who are not in Group A.
 
-None",True
+None",False
 case_32,multi_hop_relational_inference,Find all respondents who gave the same 'Confidence_in_Use' score as respondent '90' and who also strongly agree that the system is easy to learn (score of 5).,"<!DOCTYPE html>
 <html>
 <head>
@@ -17601,7 +17601,7 @@ Rules:
 
 <task>
 List all respondents who share the same 'Need_for_Technical_Support' score as respondent '5' but are not in the same group.
-</task>","32, 59, 75",False
+</task>","32, 59, 75",True
 case_41,multi_hop_relational_inference,Find all respondents whose 'Need_to_Learn_Before_Use' is higher than the average 'Need_to_Learn_Before_Use' for the 'Intern' group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -18144,7 +18144,7 @@ Find all respondents whose 'Need_to_Learn_Before_Use' is higher than the average
 - Intern respondents are 49, 30, 74, and 71 with 'Need_to_Learn_Before_Use' values 5, 1, 1, and 1 respectively; their average is 2.  
 - We therefore select respondents whose 'Need_to_Learn_Before_Use' is strictly greater than 2.
 
-49, 89",True
+49, 89",False
 case_42,multi_hop_relational_inference,List all respondents who share the same 'Need_for_Technical_Support' score as respondent '12' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22939,4 +22939,4 @@ Rules:
 Find all respondents whose 'Inconsistency' is higher than the average 'Inconsistency' for the 'Middle' group.
 </task>","Critical values and ranges: All Likert items (including ""Inconsistency"") are scored 1–5, where 1 = Strongly Disagree and 5 = Strongly Agree. The 'Group' MCQ maps C → Middle. The two respondents in the Middle group (Respondent 82 and Respondent 43) have Inconsistency scores of 1 and 1, so the Middle-group average Inconsistency = 1. We want respondents whose Inconsistency is strictly greater than 1.
 
-64, 35, 89, 61",True
+64, 35, 89, 61",False

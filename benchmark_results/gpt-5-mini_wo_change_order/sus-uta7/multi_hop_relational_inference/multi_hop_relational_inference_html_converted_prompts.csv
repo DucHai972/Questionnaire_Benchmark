@@ -3838,7 +3838,7 @@ List all respondents who rated 'Inconsistency' the same as respondent '61'.
 
 </questionnaire>","May I proceed?
 
-24, 25",False
+24, 25",True
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -9843,7 +9843,7 @@ Which respondents are in the same group as respondent '22'?
 </body>
 </html>
 
-</questionnaire>","24, 50",False
+</questionnaire>","24, 50",True
 case_25,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '40', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -22989,4 +22989,4 @@ Find all respondents whose 'Inconsistency' is higher than the average 'Inconsist
 </body>
 </html>
 
-</questionnaire>","35, 61, 64, 89",False
+</questionnaire>","35, 61, 64, 89",True

@@ -2086,7 +2086,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '18'?
-</task>","60, 48, 18",True
+</task>","60, 48, 18",False
 case_10,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '5', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -2622,7 +2622,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Inconsistency' the same as respondent '61'.
-</task>","25, 24, 61",True
+</task>","25, 24, 61",False
 case_12,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '45', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -5440,7 +5440,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Cumbersome_to_Use' the same as respondent '82'.
-</task>","82, 88, 22",True
+</task>","82, 88, 22",False
 case_21,multi_hop_relational_inference,List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -5666,7 +5666,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.
-</task>","54, 89, 82, 37",True
+</task>","54, 89, 82, 37",False
 case_22,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -11300,7 +11300,7 @@ Rules:
 
 <task>
 List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.
-</task>","6, 14, 47, 48, 55",False
+</task>","6, 14, 47, 48, 55",True
 case_39,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>

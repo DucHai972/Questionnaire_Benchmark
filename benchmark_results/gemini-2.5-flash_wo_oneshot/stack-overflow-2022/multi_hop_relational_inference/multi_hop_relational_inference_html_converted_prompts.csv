@@ -3788,7 +3788,7 @@ Rules:
 
 <task>
 Which respondents have the same 'MainBranch' (professional identity) as respondent '297'?
-</task>","72981, 73015, 347, 72793, 73017, 469, 332, 72823, 297",True
+</task>","72981, 73015, 347, 72793, 73017, 469, 332, 72823, 297",False
 case_12,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72815', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -12534,7 +12534,7 @@ Rules:
 
 <task>
 Which respondents are from the same country as respondent '73006' and also have more than 5 years of coding experience?
-</task>","73006, 72998, 355, 58, 277",True
+</task>","73006, 72998, 355, 58, 277",False
 case_34,multi_hop_relational_inference,Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>

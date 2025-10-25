@@ -908,7 +908,7 @@ Rules:
 List all respondents from the 'Junior' group whose 'Confidence_in_Use' is exactly 4.
 </task>","The survey evaluates user perceptions of a system across various usability and experience metrics, including ease of use, complexity, and confidence. Respondents are categorized into groups like Senior, Junior, Middle, and Intern. Most questions utilize a 5-point Likert scale, ranging from 'Strongly Disagree' to 'Strongly Agree'. The data provides individual responses for each question from multiple participants.
 
-[]",True
+[]",False
 case_4,rule_based_querying,List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1279,7 +1279,7 @@ Rules:
 List all respondents from the 'Intern' group whose 'Need_for_Technical_Support' is exactly 1.
 </task>","This survey assesses user experience with a system across various dimensions, including perceived ease of use, complexity, integration, and confidence. Respondents are categorized into four groups: Senior, Junior, Middle, and Intern. The questions utilize a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree) for most attributes, capturing nuanced feedback on system usability and user sentiment.
 
-[]",True
+[]",False
 case_5,rule_based_querying,List all respondents from the 'Middle' group whose 'System_Complexity' is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -1979,7 +1979,7 @@ Rules:
 Find all respondents whose 'Need_for_Technical_Support' score is between 2 and 3.
 </task>","This survey assesses user experience with a system across various dimensions. It includes questions on perceived ease of use, complexity, integration of functions, and confidence in using the system. Respondents also rated their likelihood of frequent usage and need for technical support. Scores are primarily on a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree), with one multiple-choice question for group affiliation.
 
-[]",True
+[]",False
 case_7,rule_based_querying,List all respondents from the 'Senior' group whose 'Need_to_Learn_Before_Use' is exactly 1.,"<!DOCTYPE html>
 <html>
 <head>
@@ -3379,7 +3379,7 @@ Rules:
 List all respondents from the 'Middle' group whose 'Need_for_Technical_Support' is exactly 4.
 </task>","This survey collects data on user experience with a system, covering aspects like usage frequency, complexity, ease of use, and confidence. Respondents are categorized into groups (Senior, Junior, Middle, Intern). Each question uses a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree), except for the 'Group' which is a multiple-choice question. The data provides individual responses for various metrics, allowing for analysis of user perceptions.
 
-[]",True
+[]",False
 case_11,rule_based_querying,Which respondents scored higher than 3 on 'Need_to_Learn_Before_Use'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -9832,7 +9832,7 @@ Rules:
 List all respondents from the 'Middle' group whose 'Frequent_Usage' is exactly 3.
 </task>","This survey assesses user experience with a system, covering aspects like perceived complexity, ease of use, confidence, and integration of functions. Respondents are categorized into groups (Senior, Junior, Middle, Intern). Questions are primarily Likert scale (1-5) measuring agreement or disagreement, with one multiple-choice question for group affiliation.
 
-[]",True
+[]",False
 case_25,rule_based_querying,List all respondents from the 'Senior' group whose 'Ease_of_Use' is exactly 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10203,7 +10203,7 @@ Rules:
 List all respondents from the 'Senior' group whose 'Ease_of_Use' is exactly 3.
 </task>","This survey evaluates user experience with a system, covering aspects like perceived complexity, ease of use, and confidence. It also assesses the need for technical support and learning, as well as the integration and consistency of functions. Responses are collected from individuals categorized into Senior, Junior, Middle, and Intern groups. Most questions utilize a 5-point Likert scale to gauge agreement or disagreement.
 
-[]",True
+[]",False
 case_26,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Need_for_Technical_Support' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10861,7 +10861,7 @@ Rules:
 Find all respondents whose total score for 'Confidence_in_Use' and 'Ease_of_Learning' is less than 4.
 </task>","This survey assesses user experience with a system across various dimensions, including perceived ease of use, complexity, and confidence. Respondents are categorized into groups like Senior, Junior, Middle, and Intern. Most questions utilize a 5-point Likert scale, ranging from 'Strongly Disagree' to 'Strongly Agree', to gauge user sentiment. The data provides individual responses for each question, allowing for detailed analysis of user feedback.
 
-[]",True
+[]",False
 case_28,rule_based_querying,Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11316,7 +11316,7 @@ Rules:
 Which respondents from the 'Junior' group have a 'System_Complexity' of 4 or more and a 'Need_to_Learn_Before_Use' of less than 4?
 </task>","This survey evaluates user perceptions of a system across eleven dimensions, including usability, complexity, and learning curve. Responses are collected using a 1-5 Likert scale for most questions, with respondent groups categorized as Senior, Junior, Middle, or Intern. The data aims to capture individual experiences and confidence levels when interacting with the system.
 
-[]",True
+[]",False
 case_29,rule_based_querying,Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -11897,7 +11897,7 @@ Rules:
 Which respondents from the 'Middle' group have a 'Cumbersome_to_Use' of 4 or more and a 'Ease_of_Use' of less than 3?
 </task>","This survey collects data on user experience with a system, covering aspects like frequency of usage, system complexity, ease of use, need for technical support, integration of functions, consistency, ease of learning, perceived cumbersomeness, confidence in use, and the learning curve. Respondents are categorized into four groups: Senior, Junior, Middle, and Intern. Each user experience aspect is rated on a Likert scale from 1 (Strongly Disagree) to 5 (Strongly Agree).
 
-[]",True
+[]",False
 case_30,rule_based_querying,List all respondents whose 'System_Complexity' score is greater than their 'Ease_of_Use' score.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13673,7 +13673,7 @@ Rules:
 Which respondents from the 'Junior' group have a 'Inconsistency' of 4 or more and a 'Confidence_in_Use' of less than 3?
 </task>","This survey gathers user feedback on a system, covering aspects like ease of use, complexity, and confidence, using a 1-5 Likert scale. It also categorizes respondents into groups such as Senior, Junior, Middle, and Intern. The data provides individual responses to assess user experience and identify specific user segments based on their feedback.
 
-[]",True
+[]",False
 case_34,rule_based_querying,Find all respondents whose total score for 'Inconsistency' and 'Confidence_in_Use' is less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -15997,7 +15997,7 @@ Rules:
 Find all respondents whose total score for 'Need_for_Technical_Support' and 'Ease_of_Learning' is less than 4.
 </task>","This survey collects data on user experience with a system, covering aspects like frequent usage, complexity, ease of use, and confidence. Respondents are categorized by group (Senior, Junior, Middle, Intern) and provide Likert scale ratings from 1 to 5 for various statements. The questions aim to gauge user perceptions regarding the system's usability, learnability, and the necessity of external support.
 
-[]",True
+[]",False
 case_38,rule_based_querying,Which respondents from the 'Senior' group have a 'Confidence_in_Use' of 3 or more and a 'Need_to_Learn_Before_Use' of less than 4?,"<!DOCTYPE html>
 <html>
 <head>

@@ -2637,7 +2637,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>""""""""""""""",55,True
+</task>""""""""""""""",55,False
 case_4,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2003.,"""""""""""""""Survey Data
 ==================================================
 
@@ -4135,7 +4135,7 @@ Rules:
 
 <task>
 List all respondents with a 'Gender' of Male who were born in 2003.
-</task>""""""""""""""","16""",True
+</task>""""""""""""""","16""",False
 case_5,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2004.,"""""""""""""""Survey Data
 ==================================================
 
@@ -7945,7 +7945,7 @@ Rules:
 
 <task>
 Find all respondents with a Worry of 1.
-</task>""""""""""""""","47""",True
+</task>""""""""""""""","47""",False
 case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,"""""""""""""""Survey Data
 ==================================================
 
@@ -11476,7 +11476,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>""""""""""""""","33""",True
+</task>""""""""""""""","33""",False
 case_11,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2003.,"""""""""""""""Survey Data
 ==================================================
 
@@ -14373,7 +14373,7 @@ Rules:
 
 <task>
 Which respondents are male?
-</task>""""""""""""""","63""",True
+</task>""""""""""""""","63""",False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"""""""""""""""Survey Data
 ==================================================
 
@@ -15172,7 +15172,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>""""""""""""""",89,True
+</task>""""""""""""""",89,False
 case_14,answer_reverse_lookup,Which respondents are 2004.0?,"""""""""""""""Survey Data
 ==================================================
 
@@ -17811,7 +17811,7 @@ Rules:
 
 <task>
 Which respondents are male?
-</task>""""""""""""""","72""",True
+</task>""""""""""""""","72""",False
 case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,"""""""""""""""Survey Data
 ==================================================
 
@@ -22197,7 +22197,7 @@ Rules:
 
 <task>
 Find all respondents with a Life satisfaction of 8.
-</task>""""""""""""""","63""",True
+</task>""""""""""""""","63""",False
 case_19,answer_reverse_lookup,List all respondents with a 'Ethnic identity' of 6.0 who were born in 2006.,"""""""""""""""Survey Data
 ==================================================
 
@@ -24857,7 +24857,7 @@ Rules:
 
 <task>
 Which respondents are 3.0?
-</task>""""""""""""""","81.""",True
+</task>""""""""""""""","81.""",False
 case_21,answer_reverse_lookup,Find all respondents with a Life satisfaction of 5.,"""""""""""""""Survey Data
 ==================================================
 
@@ -27163,7 +27163,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>""""""""""""""","12""",True
+</task>""""""""""""""","12""",False
 case_23,answer_reverse_lookup,Find all respondents with a Happiness of 5.,"""""""""""""""Survey Data
 ==================================================
 
@@ -27965,7 +27965,7 @@ Rules:
 
 <task>
 Find all respondents with a Happiness of 5.
-</task>""""""""""""""","27""",True
+</task>""""""""""""""","27""",False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"""""""""""""""Survey Data
 ==================================================
 
@@ -30148,7 +30148,7 @@ Rules:
 
 <task>
 Which respondents are 2002.0?
-</task>""""""""""""""","148""",True
+</task>""""""""""""""","148""",False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"""""""""""""""Survey Data
 ==================================================
 
@@ -34496,7 +34496,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?
-</task>""""""""""""""","121""",True
+</task>""""""""""""""","121""",False
 case_30,answer_reverse_lookup,Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.,"""""""""""""""Survey Data
 ==================================================
 
@@ -38324,7 +38324,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?
-</task>""""""""""""""","129""",True
+</task>""""""""""""""","129""",False
 case_33,answer_reverse_lookup,Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?,"""""""""""""""Survey Data
 ==================================================
 
@@ -41188,7 +41188,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?
-</task>""""""""""""""","114""",True
+</task>""""""""""""""","114""",False
 case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"""""""""""""""Survey Data
 ==================================================
 
@@ -42698,7 +42698,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?
-</task>""""""""""""""","42""",True
+</task>""""""""""""""","42""",False
 case_36,answer_reverse_lookup,Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.,"""""""""""""""Survey Data
 ==================================================
 
@@ -44091,7 +44091,7 @@ Rules:
 
 <task>
 Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.
-</task>""""""""""""""","104""",True
+</task>""""""""""""""","104""",False
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"""""""""""""""Survey Data
 ==================================================
 
@@ -49915,7 +49915,7 @@ Rules:
 
 <task>
 Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?
-</task>""""""""""""""","124""",True
+</task>""""""""""""""","124""",False
 case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"""""""""""""""Survey Data
 ==================================================
 
@@ -51188,7 +51188,7 @@ Rules:
 
 <task>
 Find all respondents whose Laughter is higher than the average Laughter for their gender.
-</task>""""""""""""""","130""",True
+</task>""""""""""""""","130""",False
 case_42,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"""""""Survey Data
 ==================================================
 
@@ -52812,7 +52812,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>""""""","149""",True
+</task>""""""","149""",False
 case_43,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"""""""Survey Data
 ==================================================
 
@@ -54190,7 +54190,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>""""""","122""",True
+</task>""""""","122""",False
 case_44,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"""""""""""""""Survey Data
 ==================================================
 
@@ -55697,7 +55697,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>""""""""""""""","135""",True
+</task>""""""""""""""","135""",False
 case_45,answer_reverse_lookup,List all respondents whose total 'Depressive Symptoms' score is higher than the average for their 'Socio-economic status' group.,"""""""Survey Data
 ==================================================
 
@@ -58582,7 +58582,7 @@ Rules:
 
 <task>
 Find all respondents whose Learning is higher than the average Learning for their gender.
-</task>""""""""""""""","139""",True
+</task>""""""""""""""","139""",False
 case_47,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"""""""""""""""Survey Data
 ==================================================
 
@@ -59729,7 +59729,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>""""""""""""""","114""",True
+</task>""""""""""""""","114""",False
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"""""""""""""""Survey Data
 ==================================================
 
@@ -61125,7 +61125,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>""""""""""""""","63""",True
+</task>""""""""""""""","63""",False
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"""""""""""""""Survey Data
 ==================================================
 
@@ -62275,7 +62275,7 @@ Rules:
 
 <task>
 Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.
-</task>""""""""""""""","150""",True
+</task>""""""""""""""","150""",False
 case_50,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"""""""""""""""Survey Data
 ==================================================
 
@@ -63791,4 +63791,4 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>""""""""""""""","114""",True
+</task>""""""""""""""","114""",False

@@ -3166,7 +3166,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_4,rule_based_querying,Which respondents have a 'Depression' score of 8 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -4519,7 +4519,7 @@ Rules:
 
 <task>
 Which respondents have a 'Depression' score of 8 or higher?
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,List all  male respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -7701,7 +7701,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_7,rule_based_querying,List all  female respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -9057,7 +9057,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2004.
-</task>","36, 17",False
+</task>","36, 17",True
 case_8,rule_based_querying,List all  male respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -11025,7 +11025,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2004.
-</task>","77, 20, 93",False
+</task>","77, 20, 93",True
 case_9,rule_based_querying,Find all respondents whose 'Socio-economic status' is between 1 and 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12219,7 +12219,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Socio-economic status' is between 1 and 3.
-</task>","35, 78, 2, 86, 98",False
+</task>","35, 78, 2, 86, 98",True
 case_10,rule_based_querying,Which respondents have a 'Laughter' score of 8 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -14037,7 +14037,7 @@ Rules:
 
 <task>
 Which respondents have a 'Laughter' score of 8 or higher?
-</task>","113, 77, 52, 81, 46",False
+</task>","113, 77, 52, 81, 46",True
 case_11,rule_based_querying,List all  male respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -17514,7 +17514,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_13,rule_based_querying,Which respondents have a 'Happiness' score of 7 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18708,7 +18708,7 @@ Rules:
 
 <task>
 Which respondents have a 'Happiness' score of 7 or higher?
-</task>","128, 36, 78, 65",False
+</task>","128, 36, 78, 65",True
 case_14,rule_based_querying,Which respondents have a 'Learning' score of 7 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -20061,7 +20061,7 @@ Rules:
 
 <task>
 Which respondents have a 'Learning' score of 7 or higher?
-</task>","109, 97, 115, 150",False
+</task>","109, 97, 115, 150",True
 case_15,rule_based_querying,List all  male respondents born before 2005.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22029,7 +22029,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2005.
-</task>","10, 93, 22, 12",False
+</task>","10, 93, 22, 12",True
 case_16,rule_based_querying,List all  male respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27633,7 +27633,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_19,rule_based_querying,List all  male respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -29754,7 +29754,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2002.
-</task>","18, 88",False
+</task>","18, 88",True
 case_20,rule_based_querying,Which respondents have a 'Enjoyment' score of 7 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -30945,7 +30945,7 @@ Rules:
 
 <task>
 Which respondents have a 'Enjoyment' score of 7 or higher?
-</task>","63, 45, 142, 41",False
+</task>","63, 45, 142, 41",True
 case_21,rule_based_querying,Find all respondents whose 'Year of birth' is between 1999 and 2005.,"<!DOCTYPE html>
 <html>
 <head>
@@ -32769,7 +32769,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Year of birth' is between 1999 and 2005.
-</task>","144, 110, 119, 60, 104, 48, 111, 102, 8, 51",False
+</task>","144, 110, 119, 60, 104, 48, 111, 102, 8, 51",True
 case_22,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -34908,7 +34908,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2002.
-</task>","2, 17, 48, 94",False
+</task>","2, 17, 48, 94",True
 case_23,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36735,7 +36735,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2002.
-</task>",None,False
+</task>",None,True
 case_24,rule_based_querying,List all  female respondents born before 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -39909,7 +39909,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Year of birth' is between 1999 and 2005.
-</task>","96, 37, 131, 100, 108, 36, 148",False
+</task>","96, 37, 131, 100, 108, 36, 148",True
 case_26,rule_based_querying,Find all respondents whose combined 'Stress' and 'Loneliness' score is exactly 3.,"<!DOCTYPE html>
 <html>
 <head>
@@ -41880,7 +41880,7 @@ Rules:
 
 <task>
 Find all respondents whose combined 'Stress' and 'Loneliness' score is exactly 3.
-</task>",None,False
+</task>",None,True
 case_27,rule_based_querying,Which  male respondents born after 2002 have a 'Happiness' score of 6 and a 'Depression' score of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -45993,7 +45993,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Emotional Regulation Frequency' is greater than 12.
-</task>","43, 22, 8, 57, 75, 9, 71, 58",False
+</task>","43, 22, 8, 57, 75, 9, 71, 58",True
 case_29,rule_based_querying,Which  female respondents born after 2004 have a 'Life satisfaction' score of 6 and a 'Depression' score of less than 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -49332,7 +49332,7 @@ Rules:
 
 <task>
 Which  female respondents born after 2002 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 5?
-</task>",None,False
+</task>",None,True
 case_31,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -51159,7 +51159,7 @@ Rules:
 
 <task>
 List all respondents whose 'Enjoyment' is greater than their 'Anger'.
-</task>","9, 116, 68, 23, 113, 31, 61, 54, 110",False
+</task>","9, 116, 68, 23, 113, 31, 61, 54, 110",True
 case_32,rule_based_querying,List all respondents whose 'Happiness' is greater than their 'Depression'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -52818,7 +52818,7 @@ Rules:
 
 <task>
 List all respondents whose 'Happiness' is greater than their 'Depression'.
-</task>","36, 53, 16, 146, 90, 137, 72, 138, 44",False
+</task>","36, 53, 16, 146, 90, 137, 72, 138, 44",True
 case_33,rule_based_querying,Find all respondents whose total score for 'Emotional Regulation Frequency' is greater than 12.,"<!DOCTYPE html>
 <html>
 <head>
@@ -54642,7 +54642,7 @@ Rules:
 
 <task>
 Find all respondents whose total score for 'Emotional Regulation Frequency' is greater than 12.
-</task>","75, 132, 106, 16, 71, 33",False
+</task>","75, 132, 106, 16, 71, 33",True
 case_34,rule_based_querying,Which  male respondents born after 2004 have a 'Life satisfaction' score of 8 and a 'Loneliness' score of less than 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -58275,7 +58275,7 @@ Rules:
 
 <task>
 List all respondents whose 'Enjoyment' is greater than their 'Anger'.
-</task>","116, 20, 24, 104, 132, 72, 95, 117, 125, 84, 149",False
+</task>","116, 20, 24, 104, 132, 72, 95, 117, 125, 84, 149",True
 case_36,rule_based_querying,Find all respondents whose total score for 'Emotional Regulation Frequency' is greater than 15.,"<!DOCTYPE html>
 <html>
 <head>
@@ -63437,7 +63437,7 @@ Rules:
 
 <task>
 List all respondents whose 'Enjoyment' is greater than their 'Anger'.
-</task>","88, 13, 12, 118, 32, 41, 113, 117, 1",False
+</task>","88, 13, 12, 118, 32, 41, 113, 117, 1",True
 case_39,rule_based_querying,List all respondents whose 'Laughter' is greater than their 'Worry'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -65396,7 +65396,7 @@ Rules:
 
 <task>
 List all respondents whose 'Laughter' is greater than their 'Worry'.
-</task>","52, 34, 78, 41, 71, 24, 93, 65, 22, 96",False
+</task>","52, 34, 78, 41, 71, 24, 93, 65, 22, 96",True
 case_40,rule_based_querying,Find all respondents whose combined 'Depression' and 'Stress' score is exactly 4.,"<!DOCTYPE html>
 <html>
 <head>
@@ -68885,7 +68885,7 @@ Rules:
 
 <task>
 List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.
-</task>","20, 31, 109, 19",False
+</task>","20, 31, 109, 19",True
 case_42,rule_based_querying,List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -70544,7 +70544,7 @@ Rules:
 
 <task>
 List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.
-</task>","23, 81, 35",False
+</task>","23, 81, 35",True
 case_43,rule_based_querying,List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -72203,7 +72203,7 @@ Rules:
 
 <task>
 List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.
-</task>",None,False
+</task>",None,True
 case_44,rule_based_querying,Find all respondents whose 'Life satisfaction' is greater than the average 'Life satisfaction' for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -78053,7 +78053,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Laughter' is greater than the average 'Laughter' for their gender.
-</task>","62, 127, 128, 4",False
+</task>","62, 127, 128, 4",True
 case_47,rule_based_querying,List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -82016,7 +82016,7 @@ Rules:
 
 <task>
 Which respondents have a total 'Depressive Symptoms Frequency' score that is lower than the average for all respondents born in the same year?
-</task>","4, 56, 102, 129, 130",False
+</task>","4, 56, 102, 129, 130",True
 case_49,rule_based_querying,Which respondents have a 'Enjoyment' score that is lower than the average 'Enjoyment' score for their gender?,"<!DOCTYPE html>
 <html>
 <head>
@@ -83993,7 +83993,7 @@ Rules:
 
 <task>
 Which respondents have a 'Enjoyment' score that is lower than the average 'Enjoyment' score for their gender?
-</task>","21, 22, 53, 72, 101, 138",False
+</task>","21, 22, 53, 72, 101, 138",True
 case_50,rule_based_querying,Which respondents have a total 'Depressive Symptoms Frequency' score that is lower than the average for all respondents born in the same year?,"<!DOCTYPE html>
 <html>
 <head>
@@ -85829,4 +85829,4 @@ Rules:
 
 <task>
 Which respondents have a total 'Depressive Symptoms Frequency' score that is lower than the average for all respondents born in the same year?
-</task>","23, 15, 30, 80, 117",False
+</task>","23, 15, 30, 80, 117",True

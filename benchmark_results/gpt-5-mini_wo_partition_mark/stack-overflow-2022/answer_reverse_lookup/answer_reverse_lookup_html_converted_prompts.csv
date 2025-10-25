@@ -3298,7 +3298,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-List all respondents who have worked with the 'SQL' language.","355, 72804, 72947, 73015, 73087",False
+List all respondents who have worked with the 'SQL' language.","355, 72804, 72947, 73015, 73087",True
 case_8,answer_reverse_lookup,Which respondents are from 'Lithuania'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16037,7 +16037,7 @@ Rules:
 
 Which respondents have between 8 and 18 years of total coding experience and work with the 'npm' tool?","May I proceed to provide the final answer?
 
-73198, 72958, 29109, 72800",False
+73198, 72958, 29109, 72800",True
 case_31,answer_reverse_lookup,List all respondents whose yearly compensation is over 100000 and who do not use 'SVN' for version control.,"<!DOCTYPE html>
 <html>
 <head>
@@ -23192,7 +23192,7 @@ Rules:
 - If the question asks for a list of names or IDs, provide a simple comma-separated list (e.g., ""17, 21, 23"").
 - Preserve capitalization exactly as in the schema (e.g., output ""Abnormal"", not ""abnormal"" or ""A"").
 
-Find all respondents whose total compensation is higher than the average compensation for their country.","391, 60, 72947, 171",False
+Find all respondents whose total compensation is higher than the average compensation for their country.","391, 60, 72947, 171",True
 case_42,answer_reverse_lookup,Which respondents have more professional coding experience than the average for their education level?,"<!DOCTYPE html>
 <html>
 <head>

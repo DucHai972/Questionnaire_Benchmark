@@ -5452,7 +5452,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 2003.
 </task>","The survey gathers demographic information, including year of birth, gender, socio-economic status, and ethnic identity, along with parental education levels. It also extensively measures various aspects of psychological well-being, such as life satisfaction, happiness, and daily emotional states like worry, depression, and anger, using Likert scales from 0-10. Furthermore, the questionnaire delves into emotional regulation frequency (Likert 0-4) and the frequency of anxiety and depressive symptoms (Likert 0-3). A common pattern observed is that many respondents identify as 'None of the above' for ethnic identity (6.0). The respondent pool primarily consists of individuals born between 1999 and 2006, indicating a focus on younger demographics.
 
-85, 16",True
+85, 16",False
 case_5,answer_reverse_lookup,List all respondents with a 'Gender' of Female who were born in 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -10462,7 +10462,7 @@ Rules:
 Find all respondents with a Worry of 1.
 </task>","The survey collects demographic information (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and various psychological well-being metrics. Emotional states like Life satisfaction, Happiness, Laughter, Learning, Enjoyment, Worry, Depression, Anger, Stress, and Loneliness are measured on a Likert scale of 0-10. Additionally, the frequency of Emotional Regulation, Anxiety, and Depressive Symptoms are assessed using different Likert scales (0-4 and 0-3 respectively). The data includes responses from five individuals, each providing scores across these diverse categories.
 
-110, 35, 119, 47",True
+110, 35, 119, 47",False
 case_8,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -13307,7 +13307,7 @@ Rules:
 List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.
 </task>","The survey collects demographic information such as year of birth, gender, socio-economic status, and ethnic identity, alongside various psychological well-being metrics including life satisfaction, happiness, and daily emotional states like worry, depression, and anger. It also delves into the frequency of emotional regulation and symptoms of anxiety and depression over recent periods. Responses are provided for multiple individuals, with most quantitative data points recorded as numerical values, some with decimal points. Parental education is an open-ended field, though often left blank in the provided data.
 
-None",True
+None",False
 case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18929,7 +18929,7 @@ Rules:
 Which respondents are male?
 </task>","The survey collects demographic information including year of birth, gender, socio-economic status, and ethnic identity, alongside detailed psychological data such as life satisfaction, daily emotional states (happiness, worry, anger, stress, loneliness), and frequencies of emotional regulation, anxiety, and depressive symptoms. Many emotional and psychological questions use Likert scales, with varying ranges (0-10, 0-4, 0-3), while demographic fields like year of birth and parental education are open-ended. The data includes responses from nine individuals, identified by unique respondent IDs, with some fields like parental education having missing sub-data for certain respondents.
 
-148, 97, 102, 20, 63",True
+148, 97, 102, 20, 63",False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19972,7 +19972,7 @@ Rules:
 Which respondents are 6.0?
 </task>","The survey collects data on various aspects including demographics, socio-economic status, parental education, and a wide range of psychological well-being indicators. Questions utilize different scales, including open-ended, Likert scales (1-6, 0-10, 0-4, 0-3), and multiple-choice questions. Responses are organized by individual respondent IDs, with each respondent providing answers to a comprehensive set of structured questions. Some questions are grouped under sub-categories, such as Parental Education and various symptom frequencies. The data types are primarily numerical, representing either categorical choices or values on continuous/ordinal scales.
 
-89, 137, 110, 95, 18",True
+89, 137, 110, 95, 18",False
 case_14,answer_reverse_lookup,Which respondents are 2004.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -23450,7 +23450,7 @@ Rules:
 Which respondents are male?
 </task>","The survey collects demographic information, socio-economic status, parental education, and various psychological well-being metrics including life satisfaction, happiness, and emotional states. Emotional states are further detailed through frequency scales for emotional regulation, anxiety symptoms, and depressive symptoms. The data provided includes responses from nine individuals, all of whom are male according to the 'Gender' field. Most respondents are born between 2001 and 2005, indicating a relatively young sample.
 
-138, 124, 120, 112, 69, 83, 63, 23, 72",True
+138, 124, 120, 112, 69, 83, 63, 23, 72",False
 case_16,answer_reverse_lookup,List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.,"<!DOCTYPE html>
 <html>
 <head>
@@ -25585,7 +25585,7 @@ Rules:
 List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.
 </task>","The survey collects data on various aspects of respondents' lives, including demographics, socio-economic status, and psychological well-being. Questions are structured with a mix of open-ended, multiple-choice, and Likert scale formats, with specific scales defined for emotional regulation, anxiety, and depressive symptoms. Parental education is a nested open-ended question. The responses show a range of values across different categories, with some respondents having missing data for parental education.
 
-None",True
+None",False
 case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27246,7 +27246,7 @@ Rules:
 List all respondents with a 'Gender' of Male who were born in 1998.
 </task>","The survey collects demographic information (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and various psychological well-being metrics, including life satisfaction, daily emotions (happiness, laughter, learning, enjoyment, worry, depression, anger, stress, loneliness), and frequency of emotional regulation, anxiety, and depressive symptoms. Most emotional and well-being questions use Likert scales, with ranges varying from 0-10 for daily emotions to 0-4 for emotional regulation and 0-3 for anxiety and depressive symptoms. Demographic data like year of birth and parental education are open-ended, while gender and ethnic identity are multiple-choice.
 
-None",True
+None",False
 case_18,answer_reverse_lookup,Find all respondents with a Life satisfaction of 8.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36804,7 +36804,7 @@ Rules:
 Find all respondents with a Happiness of 5.
 </task>","The survey collects demographic information like year of birth, gender, socio-economic status, and ethnic identity, alongside parental education. It extensively measures psychological well-being through various Likert scales, including general life satisfaction, daily emotions (happiness, laughter, worry, anger, stress, loneliness), and frequencies of emotional regulation, anxiety, and depressive symptoms. The emotional regulation and symptom frequency sections are structured with sub-questions, each rated on specific Likert scales (0-4 for emotional regulation, 0-3 for anxiety and depression). All numerical responses are presented as floating-point numbers.
 
-142, 27",True
+142, 27",False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -39670,7 +39670,7 @@ Rules:
 Which respondents are 2002.0?
 </task>","The survey collects data on various aspects of respondents' lives, including demographics, socio-economic status, and detailed emotional well-being. Questions are structured with open-ended, MCQ, and Likert scale formats, with Likert scales ranging from 0-4, 0-10, and 0-3 depending on the specific emotional category. Parental education is a nested open-ended question. The dataset includes responses from ten individuals, identified by unique respondent IDs.
 
-14, 30, 103, 148",True
+14, 30, 103, 148",False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -44026,7 +44026,7 @@ Rules:
 Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.
 </task>","The survey collects data on various aspects of respondents' lives, including demographic information like year of birth, gender, socio-economic status, and ethnic identity. It also gathers extensive psychological data, covering life satisfaction, happiness, and daily emotional states such as worry, depression, anger, stress, and loneliness, all rated on Likert scales. Furthermore, it delves into emotional regulation frequency and the frequency of anxiety and depressive symptoms over recent periods, using specific Likert scales for each. Parental education levels are also recorded, though not consistently for all respondents.
 
-None",True
+None",False
 case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -47066,7 +47066,7 @@ Rules:
 Find all respondents born in 2004 with a Loneliness greater than 6 and a Happiness less than 4.
 </task>","The survey collects data on various aspects of respondents' lives, including demographics like year of birth, gender, socio-economic status, and ethnic identity. It also gathers information on parental education and a wide range of psychological well-being indicators such as life satisfaction, happiness, and emotional states like worry, depression, and anger. Furthermore, it includes detailed sections on emotional regulation frequency and anxiety/depressive symptoms, measured on Likert scales. The data is structured with clear question labels and corresponding numerical responses for each respondent.
 
-None",True
+None",False
 case_31,answer_reverse_lookup,Find all respondents born in 2001 with a Enjoyment greater than 4 and a Life satisfaction less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -50412,7 +50412,7 @@ Rules:
 Which respondents have a total score for 'Enjoyment' and 'Stress' of exactly 11?
 </task>","The survey gathers demographic information, including year of birth, gender, socio-economic status, and ethnic identity, alongside detailed psychological well-being data. It primarily utilizes Likert scales for emotional states, with ranges varying from 0-10 for daily feelings to 0-4 and 0-3 for frequency of emotional regulation, anxiety, and depressive symptoms, respectively. Parental education is recorded as open-ended numerical values, though some entries are incomplete. A notable pattern is that most respondents selected 'None of the above' for ethnic identity. Overall, the responses present a broad spectrum of emotional experiences, from high life satisfaction to significant reported stress and depressive symptoms.
 
-146, 104, 70, 129",True
+146, 104, 70, 129",False
 case_33,answer_reverse_lookup,Which respondents have a total score for 'Life satisfaction' and 'Learning' of exactly 18?,"<!DOCTYPE html>
 <html>
 <head>
@@ -54193,7 +54193,7 @@ Rules:
 Which respondents have a total score for 'Stress' and 'Learning' of exactly 9?
 </task>","The survey collects data from ten respondents across various psychological and demographic aspects. Key areas include emotional well-being (life satisfaction, happiness, worry, depression, anger, stress, loneliness), emotional regulation frequency, and anxiety/depressive symptoms frequency, all measured on Likert scales. Demographic information such as year of birth, gender, socio-economic status, ethnic identity, and parental education is also captured. Most emotional and symptom questions use scales from 0-10 or 0-4, while socio-economic status is on a 1-6 scale.
 
-45, 114",True
+45, 114",False
 case_35,answer_reverse_lookup,Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -56181,7 +56181,7 @@ Rules:
 Which respondents have a total score for 'Stress' and 'Anger' of exactly 4?
 </task>","The survey is structured into demographic questions, open-ended fields for birth year and parental education, and multiple Likert-scale sections for emotional states. Daily emotional experiences like happiness, worry, and stress are rated on a 0-10 scale, while emotional regulation frequency uses a 0-4 scale, and anxiety/depressive symptoms frequency uses a 0-3 scale. A common pattern observed is that many respondents identify their ethnic identity as ""None of the above"" (6.0). Socio-economic status varies across respondents, with some at the lower end (1.0) and others higher (up to 5.0). Parental education data is sometimes incomplete, with some respondents only providing information for one parent or none at all.
 
-24, 83, 42",True
+24, 83, 42",False
 case_36,answer_reverse_lookup,Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.,"<!DOCTYPE html>
 <html>
 <head>
@@ -58013,7 +58013,7 @@ Rules:
 Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.
 </task>","The survey collects demographic information like year of birth, gender, socio-economic status, and ethnic identity. It also extensively covers psychological well-being, including life satisfaction, happiness, and daily emotional experiences such as laughter, learning, enjoyment, worry, depression, anger, stress, and loneliness, all rated on Likert scales. Additionally, it delves into emotional regulation frequency and the frequency of anxiety and depressive symptoms, using specific Likert scales for each. Parental education levels are also recorded. The data shows a mix of open-ended and Likert scale responses across various aspects of respondents' lives and emotional states.
 
-10, 81, 103, 104",False
+10, 81, 103, 104",True
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -65671,7 +65671,7 @@ Rules:
 Which respondents have a total score for 'Loneliness' and 'Enjoyment' of exactly 11?
 </task>","The survey collects demographic information (Year of birth, Gender, Socio-economic status, Ethnic identity, Parental Education) and a wide range of psychological well-being metrics. These metrics include general life satisfaction, daily emotional states (happiness, laughter, learning, enjoyment, worry, depression, anger, stress, loneliness), and frequency of emotional regulation, anxiety, and depressive symptoms over recent periods. The emotional and psychological questions primarily use Likert scales, with varying ranges (0-10, 0-4, 0-3), while demographic data includes open-ended and multiple-choice questions. The dataset provides responses for ten individuals, identified by unique respondent IDs.
 
-124, 121",True
+124, 121",False
 case_41,answer_reverse_lookup,Find all respondents whose Laughter is higher than the average Laughter for their gender.,"<!DOCTYPE html>
 <html>
 <head>
@@ -71314,7 +71314,7 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","The survey gathers demographic details and extensive psychological well-being data from individual respondents. Key areas include life satisfaction, daily emotions (happiness, worry, anger, stress, loneliness), and the frequency of emotional regulation, anxiety, and depressive symptoms. Each respondent is uniquely identified, and some questions, like parental education, have nested sub-categories. The data reveals a diverse range of responses across all measured aspects, reflecting varied experiences among the participants. Most emotional and well-being questions utilize Likert scales, while demographic information like year of birth is recorded as open-ended numerical values.
 
-60, 106, 82, 12, 122",False
+60, 106, 82, 12, 122",True
 case_44,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -77123,7 +77123,7 @@ Rules:
 Find all respondents whose Learning is higher than the average Learning for their gender.
 </task>","The survey collects demographic data, including year of birth, gender, socio-economic status, and ethnic identity, alongside parental education details. It extensively measures psychological well-being through Likert scales covering life satisfaction, happiness, and various negative emotions like worry, depression, and stress. Additionally, it delves into the frequency of emotional regulation, anxiety, and depressive symptoms using specific Likert scales. The dataset comprises responses from 12 individuals, with an even distribution of 6 male and 6 female respondents. While most fields are consistently populated, some sub-questions, particularly under Parental Education, have missing data.
 
-98, 82, 125, 139, 10, 74, 24",True
+98, 82, 125, 139, 10, 74, 24",False
 case_47,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -78631,7 +78631,7 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","The survey is structured into two main sections: 'Questions' detailing the survey instrument and 'Responses' containing individual respondent data. The 'Questions' section outlines various categories such as demographics, parental education, and multiple psychological well-being measures, utilizing open-ended, MCQ, and several Likert scales with different ranges. The 'Responses' section provides specific data points for each of the eight respondents, identified by unique IDs. A notable pattern is the detailed breakdown of emotional and psychological states into sub-questions, particularly for emotional regulation, anxiety, and depressive symptoms. The data appears to be quantitative, with most responses being numerical values.
 
-8, 15, 77, 84, 114",False
+8, 15, 77, 84, 114",True
 case_48,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -83971,4 +83971,4 @@ Rules:
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
 </task>","The survey gathers demographic information, including year of birth, gender, socio-economic status, and ethnic identity. It extensively measures emotional well-being through various Likert scales for life satisfaction, happiness, and negative emotions like worry, depression, and anger. Two dedicated sections delve into emotional regulation frequency and anxiety/depressive symptoms, each utilizing distinct Likert scales. Parental education is also recorded as an open-ended numerical value, though it can be missing for some respondents. The dataset presents a varied distribution of responses across all collected metrics.
 
-66, 19, 41, 109, 114",False
+66, 19, 41, 109, 114",True

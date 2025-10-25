@@ -1228,7 +1228,7 @@ Rules:
 
 <task>
 List all respondents from 'Viet Nam' whose 'CompTotal' is less than 55000.
-</task>",None,False
+</task>",None,True
 case_5,rule_based_querying,Which respondents have a 'YearsCode' greater than 5?,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 
@@ -15668,7 +15668,7 @@ Rules:
 
 <task>
 Which respondents from 'United States of America' have more than 5 'YearsCodePro' and a yearly compensation less than 79000?
-</task>",None,False
+</task>",None,True
 case_33,rule_based_querying,List all respondents for whom their professional coding years are less than half their total coding years.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 

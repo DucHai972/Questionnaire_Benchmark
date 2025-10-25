@@ -1264,7 +1264,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20'?
-</task>","20, 39, 51, 62",True
+</task>","20, 39, 51, 62",False
 case_5,multi_hop_relational_inference,List all respondents who rated 'Integration_of_Functions' the same as respondent '84'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -8200,7 +8200,7 @@ Rules:
 
 <task>
 List all respondents who rated 'Ease_of_Learning' the same as respondent '54'.
-</task>","54, 89, 82, 37",True
+</task>","54, 89, 82, 37",False
 case_22,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -14754,7 +14754,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?
-</task>","17, 33, 37, 43, 73",False
+</task>","17, 33, 37, 43, 73",True
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -16398,7 +16398,7 @@ Rules:
 
 <task>
 List all respondents who share the same 'Inconsistency' score as respondent '54' but are not in the same group.
-</task>","6, 14, 47, 48, 55",False
+</task>","6, 14, 47, 48, 55",True
 case_39,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '50' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>

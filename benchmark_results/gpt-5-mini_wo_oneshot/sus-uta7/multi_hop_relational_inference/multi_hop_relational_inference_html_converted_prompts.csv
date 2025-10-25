@@ -1832,7 +1832,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '25'?
-</task>","25, 30, 48, 49",True
+</task>","25, 30, 48, 49",False
 case_9,multi_hop_relational_inference,Which respondents are in the same group as respondent '18'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -6088,7 +6088,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.
-</task>","4, 16, 30, 32, 58, 79, 90",False
+</task>","4, 16, 30, 32, 58, 79, 90",True
 case_23,multi_hop_relational_inference,"""Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6426,7 +6426,7 @@ Rules:
 
 <task>
 Find all respondents who gave the same 'Ease_of_Use' score as respondent '11', excluding the respondent themselves.
-</task>","38, 40, 49, 76",False
+</task>","38, 40, 49, 76",True
 case_24,multi_hop_relational_inference,Which respondents are in the same group as respondent '22'?,"<!DOCTYPE html>
 <html>
 <head>

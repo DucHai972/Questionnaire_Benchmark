@@ -7732,7 +7732,7 @@ Rules:
 
 <task>
 List all  female respondents born before 2003.
-</task>",None,False
+</task>",None,True
 case_7,rule_based_querying,List all  female respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -12263,7 +12263,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Socio-economic status' is between 1 and 3.
-</task>","35, 78, 2, 86, 98",False
+</task>","35, 78, 2, 86, 98",True
 case_10,rule_based_querying,Which respondents have a 'Laughter' score of 8 or higher?,"<!DOCTYPE html>
 <html>
 <head>
@@ -16054,7 +16054,7 @@ Rules:
 
 <task>
 List all  male respondents born before 2002.
-</task>",None,False
+</task>",None,True
 case_12,rule_based_querying,List all  male respondents born before 2003.,"<!DOCTYPE html>
 <html>
 <head>
@@ -22101,7 +22101,7 @@ Rules:
 List all  male respondents born before 2005.
 </task>","May I proceed with listing the respondent IDs only?
 
-10, 12, 22, 93",False
+10, 12, 22, 93",True
 case_16,rule_based_querying,List all  male respondents born before 2004.,"<!DOCTYPE html>
 <html>
 <head>
@@ -51320,7 +51320,7 @@ Rules:
 
 <task>
 List all respondents whose 'Enjoyment' is greater than their 'Anger'.
-</task>","9, 116, 68, 23, 113, 31, 61, 54, 110",False
+</task>","9, 116, 68, 23, 113, 31, 61, 54, 110",True
 case_32,rule_based_querying,List all respondents whose 'Happiness' is greater than their 'Depression'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -61638,7 +61638,7 @@ Rules:
 
 <task>
 Which  male respondents born after 2003 have a 'Laughter' score of 7 and a 'Worry' score of less than 4?
-</task>","Do you want only the respondent IDs returned (comma-separated), or full respondent records?",False
+</task>","Do you want only the respondent IDs returned (comma-separated), or full respondent records?",True
 case_38,rule_based_querying,List all respondents whose 'Enjoyment' is greater than their 'Anger'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -78226,7 +78226,7 @@ Rules:
 
 <task>
 Find all respondents whose 'Laughter' is greater than the average 'Laughter' for their gender.
-</task>","128, 4, 62, 127",False
+</task>","128, 4, 62, 127",True
 case_47,rule_based_querying,List all respondents whose mother has more years of education than the average for all fathers in the same socio-economic status group.,"<!DOCTYPE html>
 <html>
 <head>

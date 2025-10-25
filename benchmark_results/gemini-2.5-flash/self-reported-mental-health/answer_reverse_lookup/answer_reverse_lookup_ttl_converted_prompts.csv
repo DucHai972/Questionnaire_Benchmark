@@ -34103,7 +34103,7 @@ Rules:
 
 <task>
 Which respondents are 6.0?
-</task>","Respondent93, Respondent46, Respondent78, Respondent4, Respondent137, Respondent33, Respondent71, Respondent12",True
+</task>","Respondent93, Respondent46, Respondent78, Respondent4, Respondent137, Respondent33, Respondent71, Respondent12",False
 case_23,answer_reverse_lookup,Find all respondents with a Happiness of 5.,"@prefix : <http://example.org/survey#> .
 @prefix pred: <http://example.org/predicate#> .
 @prefix qg: <http://example.org/question_group#> .

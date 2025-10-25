@@ -15508,7 +15508,7 @@ Count the respondents who are 'A' and whose yearly compensation is over 50000.
 - CompTotal is a numeric total compensation and must be strictly greater than 50000 to count.
 - Relevant CompTotal values in the responses (with their CompFreq) are: 53000.0 (Yearly), 55000.0 (Monthly), 250000.0 (Yearly), 77000.0 (Yearly), 106600.0 (Yearly), 3650.0 (Monthly).
 
-4",True
+4",False
 case_28,respondent_count,Count the respondents with between 7 and 12 years of total coding experience who work with the 'Unity 3D' tool.,"<!DOCTYPE html>
 <html>
 <head>

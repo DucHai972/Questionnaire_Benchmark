@@ -13299,7 +13299,7 @@ Rules:
 List all respondents with a 'Ethnic identity' of 5.0 who were born in 2001.
 </task>","The dataset follows the provided schema with MCQ fields (e.g., Gender, Ethnic identity) and a mix of Likert and open-ended numeric responses. There are 10 respondents in the Responses section (IDs: 87, 98, 72, 108, 65, 21, 121, 5, 139, 14). Year of birth distribution: 2003 (4 respondents), 2002 (3), 2005 (2), and 2001 (1). Ethnic identity is predominantly ""None of the above"" (6.0) with one respondent coded as 5.0 (""Black, mulatto (Afro-descendant), Afro-Colombian""). Socio-economic status clusters around 3.0 for most respondents.
 
-None",True
+None",False
 case_10,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -18923,7 +18923,7 @@ Rules:
 Which respondents are male?
 </task>","The dataset contains 9 respondents and follows a schema of mixed question types (open-ended, MCQ, and multiple Likert scales). Gender is coded as 1 = Male and 2 = Female; there are 5 males and 4 females. Year of birth ranges from 2002 to 2004, with a majority (5) born in 2002. Ethnic identity is uniformly coded as ""None of the above"" (6.0) for all respondents. Socio-economic status ranges from 2 to 6 across respondents.
 
-148, 97, 102, 20, 63",True
+148, 97, 102, 20, 63",False
 case_13,answer_reverse_lookup,Which respondents are 6.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19966,7 +19966,7 @@ Rules:
 Which respondents are 6.0?
 </task>","The dataset contains 5 respondents (IDs 89, 137, 110, 95, 18) and follows the provided schema: demographics, socio-economic status (Likert 1–6), multiple 0–10 wellbeing items, and several multi-item emotion/anxiety/depression scales. All respondents have Gender = 1.0 and Year of birth ranges from 2001.0 to 2006.0. Socio-economic status values are {6.0:1, 5.0:1, 3.0:3} with respondent 89 as the only 6.0. Parental education is partially missing for some respondents (e.g., respondent 95 has no entries). Most Likert-style items are complete for each respondent with few isolated zeros.
 
-89",True
+89",False
 case_14,answer_reverse_lookup,Which respondents are 2004.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -25577,7 +25577,7 @@ Rules:
 List all respondents with a 'Socio-economic status' of 2.0 who were born in 2002.
 </task>","The dataset includes 12 respondents with birth years ranging from 2002 to 2005 and covers demographics plus multiple wellbeing and symptom scales. Socio-economic status values present are 1 (2 respondents), 2 (2 respondents), 3 (4 respondents), 4 (3 respondents), and 6 (1 respondent); no respondents have SES = 5. Year-of-birth counts: 2002 (2 respondents), 2003 (5 respondents), 2004 (3 respondents), 2005 (2 respondents). Gender and ethnic identity use MCQ coding as defined in the Questions schema; several open-ended parental-education values are present but some respondents have missing parental-education entries. Emotional regulation, anxiety, and depressive symptom items use Likert scales as specified in the schema and are populated for most respondents.
 
-None",True
+None",False
 case_17,answer_reverse_lookup,List all respondents with a 'Gender' of Male who were born in 1998.,"<!DOCTYPE html>
 <html>
 <head>
@@ -36788,7 +36788,7 @@ Rules:
 Find all respondents with a Happiness of 5.
 </task>","The dataset contains a questions schema (MCQ and Likert items) and five respondents (IDs 142, 75, 33, 126, 27). Years of birth range from 2003 to 2005 (two born 2003, two born 2004, one born 2005). There are three females and two males. Socio-economic status values span 2–5 with a mean of 3.0, and ethnic identity ""None of the above"" (option 6) appears three times. Happiness scores range 4–9 with a mean of 5.8; respondents with Happiness = 5 are 142 and 27.
 
-142, 27",True
+142, 27",False
 case_24,answer_reverse_lookup,Which respondents are 5.0?,"<!DOCTYPE html>
 <html>
 <head>
@@ -39652,7 +39652,7 @@ Rules:
 Which respondents are 2002.0?
 </task>","The dataset includes a Questions schema and a Responses section containing 10 respondents (48, 14, 65, 123, 30, 17, 103, 126, 19, 148). Variable types include open-ended fields (e.g., Year of birth, Parental Education), MCQs (e.g., Gender, Ethnic identity) and multiple Likert scales with ranges 0–10, 0–4, and 0–3. The ""Socio-economic status"" item is a 1–6 Likert scale; emotional regulation and symptom measures follow the ranges specified in the schema. Year of birth values in the responses range from 1999.0 to 2005.0. Several respondents have Year of birth = 2002.0.
 
-14, 30, 103, 148",True
+14, 30, 103, 148",False
 case_26,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 4?,"<!DOCTYPE html>
 <html>
 <head>
@@ -44006,7 +44006,7 @@ Rules:
 Find all respondents born in 2002 with a Worry greater than 4 and a Anger less than 4.
 </task>","The questionnaire includes demographics (year of birth, gender, socio-economic status, ethnic identity, parental education), single-item wellbeing measures (life satisfaction, happiness, laughter, learning, enjoyment, worry, depression, anger, stress, loneliness), a 10-item Emotional Regulation Frequency scale (0–4), and anxiety and depressive symptom checklists (items scored 0–3). There are 12 respondents in the Responses section (IDs: 77, 110, 79, 146, 16, 26, 54, 55, 68, 21, 41, 62). Years of birth range from 2002 to 2005, with most respondents born in 2003–2004. Socio-economic status values span the full 1–6 range; Worry and Anger items use 0–10 scales and observed values in this sample are mostly low (0–4). Only one respondent (77) was born in 2002, and their Worry = 1.0 and Anger = 2.0, so no respondent satisfies Worry > 4 and Anger < 4.
 
-None",True
+None",False
 case_29,answer_reverse_lookup,Which respondents have a total score for 'Loneliness' and 'Learning' of exactly 10?,"<!DOCTYPE html>
 <html>
 <head>
@@ -57987,7 +57987,7 @@ Rules:
 Find all respondents born in 2002 with a Enjoyment greater than 4 and a Stress less than 6.
 </task>","The survey uses a mix of MCQ fields (e.g., Gender, Ethnic identity), open-ended numeric fields (Year of birth, Parental Education), and multiple Likert scales for wellbeing (0–10), emotional regulation (0–4), and anxiety/depression symptoms (0–3). There are 10 respondent records in the Responses (IDs: 103, 141, 10, 117, 23, 81, 65, 83, 30, 104) with years of birth ranging from 2001 to 2005. Socio-economic status values in this sample mainly fall between 2 and 5, with 3 appearing most frequently. Enjoyment and Stress are measured on 0–10 scales; several respondents born in 2002 report Enjoyment > 4 alongside Stress < 6. Parental Education is irregularly reported, with some respondents missing father or mother values.
 
-103, 10, 81, 104",True
+103, 10, 81, 104",False
 case_37,answer_reverse_lookup,Which respondents have a total score for 'Depression' and 'Loneliness' of exactly 3?,"<!DOCTYPE html>
 <html>
 <head>
@@ -67314,7 +67314,7 @@ Rules:
 
 <task>
 Find all respondents whose Laughter is higher than the average Laughter for their gender.
-</task>","The dataset contains a schema of mixed question types (MCQ and numeric Likert/open-ended) and a Responses section listing individual respondent records. There are 9 respondents with gender coded per the schema as 1 = Male and 2 = Female; 8 males and 1 female. Laughter scores (0–10) among males are {3,6,5,8,3,6,9,9} with mean = 6.125; the sole female has a laughter score of 10 (female mean = 10.0). Laughter ranges from 3 to 9 for males and is 10 for the female; we compare each respondent to the mean of their gender group. Respondents whose Laughter is higher than their gender mean: 130, 73, 77",True
+</task>","The dataset contains a schema of mixed question types (MCQ and numeric Likert/open-ended) and a Responses section listing individual respondent records. There are 9 respondents with gender coded per the schema as 1 = Male and 2 = Female; 8 males and 1 female. Laughter scores (0–10) among males are {3,6,5,8,3,6,9,9} with mean = 6.125; the sole female has a laughter score of 10 (female mean = 10.0). Laughter ranges from 3 to 9 for males and is 10 for the female; we compare each respondent to the mean of their gender group. Respondents whose Laughter is higher than their gender mean: 130, 73, 77",False
 case_42,answer_reverse_lookup,Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -80388,7 +80388,7 @@ Rules:
 
 <task>
 Which respondents were born in a year where the average 'Life satisfaction' for that year was greater than the overall average 'Life satisfaction'?
-</task>","38, 63, 96, 111, 136",False
+</task>","38, 63, 96, 111, 136",True
 case_49,answer_reverse_lookup,Find all respondents whose Enjoyment is higher than the average Enjoyment for their gender.,"<!DOCTYPE html>
 <html>
 <head>

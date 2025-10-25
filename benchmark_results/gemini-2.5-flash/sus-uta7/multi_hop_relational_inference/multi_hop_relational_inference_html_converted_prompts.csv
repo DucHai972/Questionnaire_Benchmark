@@ -13116,7 +13116,7 @@ Find all respondents who gave the same 'Confidence_in_Use' score as respondent '
 
 The respondents who meet both criteria are 10, 28, 90, 5.
 
-10, 28, 90, 5",True
+10, 28, 90, 5",False
 case_33,multi_hop_relational_inference,List all respondents who share the same 'Ease_of_Learning' score as respondent '84' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>
@@ -14805,7 +14805,7 @@ Rules:
 
 <task>
 Which respondents are in the same group as respondent '20' and also rated 'System_Complexity' as 1?
-</task>","43, 17, 20, 37, 33, 73",True
+</task>","43, 17, 20, 37, 33, 73",False
 case_36,multi_hop_relational_inference,List all respondents who share the same 'Integration_of_Functions' score as respondent '65' but are not in the same group.,"<!DOCTYPE html>
 <html>
 <head>

@@ -378,7 +378,7 @@ Rules:
 Find all respondents from the same country as respondent '437', excluding the respondent themselves.
 </task>","This survey collects data on developers' professional identity, employment, education, coding experience, roles, organization size, country, compensation, and programming languages/tools used. It includes both multiple-choice and open-ended questions. The data provides insights into various aspects of a developer's career and technical background.
 
-None",True
+None",False
 case_3,multi_hop_relational_inference,List all respondents who have the same education level as respondent '29043'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -4619,7 +4619,7 @@ Rules:
 List all respondents who have the same education level as respondent '388'.
 </task>","This survey collects data on developers' professional identity, employment status, education level, coding experience, developer roles, organization size, country, compensation, programming languages, developer tools, and version control systems. It uses multiple-choice questions for some fields and open-ended responses for others, providing a comprehensive snapshot of the respondents' professional backgrounds and technical proficiencies.
 
-63, 52, 537, 72741, 72840, 72895, 73050",False
+63, 52, 537, 72741, 72840, 72895, 73050",True
 case_10,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '72647', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -6598,7 +6598,7 @@ Rules:
 Find all respondents from the same country as respondent '72815', excluding the respondent themselves.
 </task>","This survey collects data on professional identity, employment, education, coding experience, developer roles, organization size, country, compensation, programming languages, developer tools, and version control systems. It uses a mix of multiple-choice and open-ended questions to gather detailed insights into the professional lives of developers and coders. The data includes information on their current work, past experiences, and future aspirations regarding technologies.
 
-None.",True
+None.",False
 case_14,multi_hop_relational_inference,"""Find all respondents from the same country as respondent '106', excluding the respondent themselves.""","<!DOCTYPE html>
 <html>
 <head>
@@ -9036,7 +9036,7 @@ Rules:
 Which respondents have the same 'MainBranch' (professional identity) as respondent '72945'?
 </task>","This survey gathers information on developers' professional identities, employment, education, coding experience, and technical skills. It includes details on their roles, organization size, country, compensation, and the programming languages and tools they use. The data is structured with both multiple-choice and open-ended questions to provide a detailed overview of each respondent's profile.
 
-None",True
+None",False
 case_18,multi_hop_relational_inference,Which respondents have the same 'MainBranch' (professional identity) as respondent '72856'?,"<!DOCTYPE html>
 <html>
 <head>
@@ -19124,7 +19124,7 @@ Rules:
 Which respondents are from the same country as respondent '29114' and also have more than 7 years of coding experience?
 </task>","This survey collects data on developers' professional identity, employment status, education level, coding experience, developer type, organization size, country, compensation, programming languages, developer tools, and version control systems. It provides detailed responses from various individuals, identified by unique respondent IDs, covering a range of professional backgrounds and technical proficiencies. The data allows for analysis of different attributes across the surveyed population.
 
-None",True
+None",False
 case_35,multi_hop_relational_inference,Which respondents are from the same country as respondent '334' and also have more than 3 years of coding experience?,"<!DOCTYPE html>
 <html>
 <head>
@@ -27072,7 +27072,7 @@ Find all respondents whose total compensation is higher than the average compens
     *   Respondent 72965: CompTotal 50000.0 (Higher than 23500.0)
     *   Respondent 391: CompTotal 130000.0 (Higher than 23500.0)
 
-73069, 468, 73067, 72734, 206, 72965, 391",True
+73069, 468, 73067, 72734, 206, 72965, 391",False
 case_47,multi_hop_relational_inference,List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.,"<!DOCTYPE html>
 <html>
 <head>
@@ -27809,7 +27809,7 @@ Rules:
 List all respondents whose professional coding experience is lower than the average professional experience for all respondents in organizations of size '100 to 499 employees'.
 </task>","This survey collects data on developers' professional identities, employment status, education levels, coding experience (total and professional), developer roles, organization size, country of residence, compensation details, programming languages used and desired, developer tools, and version control systems. It provides a snapshot of various aspects of a developer's career and work environment.
 
-72827, 72856, 72970, 29067, 72805, 73021",False
+72827, 72856, 72970, 29067, 72805, 73021",True
 case_48,multi_hop_relational_inference,Find all respondents whose total compensation is higher than the average compensation for all respondents with the same education level as respondent '72965'.,"<!DOCTYPE html>
 <html>
 <head>
