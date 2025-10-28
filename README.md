@@ -166,15 +166,19 @@ JSON, XML, HTML, Markdown, TTL, TXT
 
 ```
 Questionnaire_Benchmark/
-├── benchmark_pipeline.py          # Main benchmark runner
-├── benchmark_analysis_final.py    # Results analyzer
-├── bedrock_client.py             # AWS Bedrock API client
-├── bedrock_utils.py              # Bedrock utilities
-├── generate_converted_prompts.py # Prompt generator
-├── advanced_prompts/             # Source questionnaire data
-├── requirements.txt              # Python dependencies
-├── .env.example                  # Environment template
-└── README.md                     # This file
+├── benchmark_pipeline.py                    # Main benchmark runner
+├── benchmark_analysis_final.py              # Results analyzer
+├── bedrock_client.py                        # AWS Bedrock API client
+├── generate_converted_prompts.py            # Base prompt generator
+├── generate_converted_prompts_variants.py   # Variant prompt generator
+├── generate_converted_prompts_self_aug.py   # Self-augmentation prompt generator
+├── improved_evaluation.py                   # Enhanced evaluation functions
+├── robust_csv_parser_improved.py            # Robust CSV parser with improved evaluation
+├── data_processing_scripts/                 # Utility scripts for data processing
+├── advanced_prompts/                        # Source questionnaire data
+├── requirements.txt                         # Python dependencies
+├── .env.example                             # Environment template
+└── README.md                                # This file
 ```
 
 ### Generated Directories (Not in Git)
@@ -231,11 +235,3 @@ AWS_REGION=us-east-1
 **"Client initialization failed":**
 - Check API keys in `.env` file
 - Verify API key format is correct
-
-## License
-
-[Add your license information]
-
-## Citation
-
-[Add citation information if this is for research]
