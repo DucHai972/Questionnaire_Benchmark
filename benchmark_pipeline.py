@@ -129,7 +129,7 @@ class SimpleOpenAIClient(SimpleLLMClient):
 
 class SimpleGoogleClient(SimpleLLMClient):
     """Simple Google Gemini API Client"""
-    
+
     def __init__(self, api_key: str, model_name: str = "gemini-1.5-flash"):
         super().__init__(api_key, model_name, "google")
         try:
@@ -138,7 +138,7 @@ class SimpleGoogleClient(SimpleLLMClient):
             self.model = genai.GenerativeModel(model_name)
         except ImportError:
             raise ImportError("Please install google-generativeai: pip install google-generativeai")
-    
+
     def generate(self, prompt: str, max_tokens: int = 8192) -> Dict[str, Any]:
         """Generate response using Google Gemini API"""
         start_time = time.time()
@@ -151,10 +151,10 @@ class SimpleGoogleClient(SimpleLLMClient):
                     "top_p": 1
                 }
             )
-            
+
             end_time = time.time()
             response_text = response.text if response.text else ""
-            
+
             return {
                 "response": response_text.strip(),
                 "success": True,
@@ -172,13 +172,30 @@ class SimpleGoogleClient(SimpleLLMClient):
             }
 
 
+class SimpleBedrockClient(SimpleLLMClient):
+    """Simple AWS Bedrock API Client"""
+
+    def __init__(self, api_key: str, model_name: str = "us.meta.llama3-3-70b-instruct-v1:0", region: str = "us-east-1"):
+        super().__init__(api_key, model_name, "bedrock")
+        try:
+            from bedrock_client import BedrockClient
+            self.client = BedrockClient(api_key, model_name, region)
+        except ImportError:
+            raise ImportError("Bedrock client not found. Make sure bedrock_client.py is in the same directory")
+
+    def generate(self, prompt: str, max_tokens: int = 4000) -> Dict[str, Any]:
+        """Generate response using Bedrock API"""
+        return self.client.generate(prompt, max_tokens)
+
+
 
 
 class SimpleBenchmarkPipeline:
     """Simple benchmark pipeline for processing CSV prompt files"""
-    
+
     def __init__(self, converted_prompts_dir: str = "converted_prompts", init_clients: bool = True,
                  openai_model: str = "gpt-3.5-turbo", google_model: str = "gemini-1.5-flash",
+                 bedrock_model: str = "us.meta.llama3-3-70b-instruct-v1:0",
                  variants: str = None, output_dir_name: str = None):
         load_dotenv()
 
@@ -186,6 +203,7 @@ class SimpleBenchmarkPipeline:
         self.results_dir = Path("benchmark_results")
         self.openai_model = openai_model
         self.google_model = google_model
+        self.bedrock_model = bedrock_model
         self.variants = variants
         self.output_dir_name = output_dir_name
         
@@ -202,7 +220,7 @@ class SimpleBenchmarkPipeline:
     def _initialize_clients(self) -> Dict[str, SimpleLLMClient]:
         """Initialize LLM clients from .env file"""
         clients = {}
-        
+
         # Initialize OpenAI client
         openai_key = os.getenv("OPENAI_API_KEY")
         if openai_key:
@@ -213,7 +231,7 @@ class SimpleBenchmarkPipeline:
                 logger.warning(f"Failed to initialize OpenAI client: {e}")
         else:
             logger.warning("OPENAI_API_KEY not found in .env file")
-        
+
         # Initialize Google client
         google_key = os.getenv("GOOGLE_API_KEY")
         if google_key:
@@ -224,10 +242,22 @@ class SimpleBenchmarkPipeline:
                 logger.warning(f"Failed to initialize Google client: {e}")
         else:
             logger.warning("GOOGLE_API_KEY not found in .env file")
-        
+
+        # Initialize Bedrock client
+        bedrock_key = os.getenv("AWS_BEARER_TOKEN_BEDROCK") or os.getenv("BEDROCK_API_KEY")
+        bedrock_region = os.getenv("AWS_REGION", "us-east-1")
+        if bedrock_key:
+            try:
+                clients["bedrock"] = SimpleBedrockClient(bedrock_key, self.bedrock_model, bedrock_region)
+                logger.info(f"Initialized Bedrock client with model: {self.bedrock_model}")
+            except Exception as e:
+                logger.warning(f"Failed to initialize Bedrock client: {e}")
+        else:
+            logger.warning("AWS_BEARER_TOKEN_BEDROCK or BEDROCK_API_KEY not found in .env file")
+
         if not clients:
             raise ValueError("No valid clients initialized. Please add API keys to .env file")
-        
+
         return clients
     
     def load_csv_prompts(self, csv_file: Path) -> List[Dict[str, str]]:
@@ -508,14 +538,14 @@ class SimpleBenchmarkPipeline:
         
         # Process each prompt
         processed_count = 0
-        
+
         for prompt_data in prompts:
             # Always process (don't skip based on existing Response field)
-            
+
             # For self-aug prompts, they are already fully processed during generation
             # No runtime processing needed - use prompt as-is
             processed_prompt = prompt_data["prompt"]
-            
+
             # Generate response
             result = client.generate(processed_prompt)
 
@@ -681,12 +711,14 @@ def main():
     parser.add_argument("--self_aug", 
                        choices=["format_explaination", "critical_values", "structural_info"],
                        help="Use self-augmentation prompts with specific request type. Mutually exclusive with --variants.")
-    parser.add_argument("--model", choices=["openai", "google"], 
+    parser.add_argument("--model", choices=["openai", "google", "bedrock"],
                        help="Model provider to use (default: all available)")
     parser.add_argument("--openai-model", default="gpt-3.5-turbo",
                        help="OpenAI model name (default: gpt-3.5-turbo). Examples: gpt-4o-mini, gpt-4, gpt-3.5-turbo")
-    parser.add_argument("--google-model", default="gemini-1.5-flash", 
+    parser.add_argument("--google-model", default="gemini-1.5-flash",
                        help="Google model name (default: gemini-1.5-flash)")
+    parser.add_argument("--bedrock-model", default="us.meta.llama3-3-70b-instruct-v1:0",
+                       help="Bedrock model ID (default: us.meta.llama3-3-70b-instruct-v1:0). Examples: us.deepseek.r1-v1:0, qwen.qwen3-32b-v1:0")
     parser.add_argument("--max-cases", type=int, 
                        help="Maximum cases to process per file")
     parser.add_argument("--start-case", type=int, default=2,
@@ -729,9 +761,12 @@ def main():
             print(f"Model:                {args.openai_model}")
         elif args.model == "google":
             print(f"Model:                {args.google_model}")
+        elif args.model == "bedrock":
+            print(f"Model:                {args.bedrock_model}")
         else:
             print(f"OpenAI Model:         {args.openai_model}")
             print(f"Google Model:         {args.google_model}")
+            print(f"Bedrock Model:        {args.bedrock_model}")
             
         print(f"Max Cases per File:   {args.max_cases or 'UNLIMITED'}")
         print(f"Starting Case:        {args.start_case}")
@@ -765,6 +800,7 @@ def main():
                 init_clients=True,
                 openai_model=args.openai_model,
                 google_model=args.google_model,
+                bedrock_model=args.bedrock_model,
                 variants=None,
                 output_dir_name=args.output_dir_name
             )
@@ -792,6 +828,7 @@ def main():
                     init_clients=True,
                     openai_model=args.openai_model,
                     google_model=args.google_model,
+                    bedrock_model=args.bedrock_model,
                     variants=variant,
                     output_dir_name=args.output_dir_name
                 )
@@ -841,6 +878,7 @@ def main():
             init_clients=not args.list,
             openai_model=args.openai_model,
             google_model=args.google_model,
+            bedrock_model=args.bedrock_model,
             variants=args.variants,
             output_dir_name=args.output_dir_name
         )
@@ -881,7 +919,7 @@ def main():
         print(f"Datasets: {sorted(datasets)}")
         print(f"Tasks: {sorted(tasks)}")
         print(f"Formats: {sorted(formats)}")
-        available_models = ["openai", "google"]  # Hardcoded since we didn't init clients
+        available_models = ["openai", "google", "bedrock"]  # Hardcoded since we didn't init clients
         print(f"Models: {available_models}")
         return 0
     
