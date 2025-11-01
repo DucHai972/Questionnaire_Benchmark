@@ -328,9 +328,15 @@ def generate_summary_statistics(results):
         print(f"  {task}: {stats['correct']}/{stats['total']} ({pct:.1f}%)")
 
 
-def get_available_models():
+def get_available_models(benchmark_results_dir=None):
     """Get list of available model result directories."""
-    results_dir = Path("/insight-fast/dnguyen/Questionnaire_Benchmark/benchmark_results")
+    if benchmark_results_dir is None:
+        # Use relative path from script location
+        script_dir = Path(__file__).parent
+        results_dir = script_dir / "benchmark_results"
+    else:
+        results_dir = Path(benchmark_results_dir)
+
     if results_dir.exists():
         return sorted([d.name for d in results_dir.iterdir() if d.is_dir()])
     return []
@@ -346,35 +352,64 @@ Examples:
   python benchmark_analysis_final.py --model gemini-2.5-flash
   python benchmark_analysis_final.py --model gpt-5-mini
   python benchmark_analysis_final.py --list
+  python benchmark_analysis_final.py --model gpt-5-mini --benchmark-results-dir /path/to/results
         """
     )
-    
-    # Get available options
-    available_models = get_available_models()
-    
-    parser.add_argument("--model", 
-                       choices=available_models,
-                       default="gemini-2.5-flash",
-                       help="Model to analyze (default: gemini-2.5-flash)")
-    
+
+    # Add arguments first before getting available models
+    parser.add_argument("--benchmark-results-dir",
+                       default=None,
+                       help="Path to benchmark_results directory (default: ./benchmark_results)")
+
     parser.add_argument("--output-dir",
-                       default="/insight-fast/dnguyen/Questionnaire_Benchmark/analysis_results_final",
-                       help="Base output directory for results")
-    
+                       default=None,
+                       help="Base output directory for results (default: ./analysis_results_final)")
+
     parser.add_argument("--list", action="store_true",
                        help="List available models")
-    
+
+    # Parse args first to get benchmark_results_dir if specified
+    args, remaining = parser.parse_known_args()
+
+    # Set default paths relative to script location
+    script_dir = Path(__file__).parent
+    if args.benchmark_results_dir is None:
+        benchmark_results_dir = script_dir / "benchmark_results"
+    else:
+        benchmark_results_dir = Path(args.benchmark_results_dir)
+
+    if args.output_dir is None:
+        output_dir_base = script_dir / "analysis_results_final"
+    else:
+        output_dir_base = Path(args.output_dir)
+
+    # Get available options
+    available_models = get_available_models(benchmark_results_dir)
+
+    # Add model argument with choices
+    parser.add_argument("--model",
+                       choices=available_models if available_models else None,
+                       help="Model to analyze")
+
+    # Parse all arguments again
     args = parser.parse_args()
-    
+
     # Handle list option
     if args.list:
         print("Available models:")
-        for model in available_models:
-            print(f"  - {model}")
+        if available_models:
+            for model in available_models:
+                print(f"  - {model}")
+        else:
+            print("  No models found in benchmark_results directory")
         return
-    
-    base_path = f"/insight-fast/dnguyen/Questionnaire_Benchmark/benchmark_results/{args.model}"
-    output_dir = f"{args.output_dir}/{args.model}"
+
+    # Require model if not listing
+    if not args.model:
+        parser.error("--model is required (use --list to see available models)")
+
+    base_path = benchmark_results_dir / args.model
+    output_dir = output_dir_base / args.model
     
     print("Starting Q-Benchmark results analysis (FINAL VERSION WITH IMPROVED EVALUATION)...")
     print(f"Model: {args.model}")
