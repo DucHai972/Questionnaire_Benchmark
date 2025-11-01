@@ -33,13 +33,13 @@ cp .env.example .env
 
 ```bash
 # Generate base prompts
-python generate_converted_prompts.py
+python scripts/generate_prompts.py
 
 # Optional: Generate prompt variants
-python generate_converted_prompts_variants.py
+python scripts/generate_prompt_variants.py
 
 # Optional: Generate self-augmentation prompts
-python generate_converted_prompts_self_aug.py
+python scripts/generate_prompt_self_augmentation.py
 ```
 
 ### 4. Run Benchmarks
@@ -101,10 +101,10 @@ python benchmark_pipeline.py \
 
 ```bash
 # Analyze results for a specific model
-python benchmark_analysis_final.py --model gpt-4o-mini
+python scripts/benchmark_analysis.py --model gpt-4o-mini
 
 # Analyze Bedrock model results
-python benchmark_analysis_final.py --model us.meta.llama3-3-70b-instruct-v1:0
+python scripts/benchmark_analysis.py --model us.meta.llama3-3-70b-instruct-v1:0
 ```
 
 ## Available Options
@@ -165,26 +165,28 @@ JSON, XML, HTML, Markdown, TTL, TXT
 ## Project Structure
 
 ```
-Questionnaire_Benchmark/
-├── benchmark_pipeline.py                    # Main benchmark runner
-├── benchmark_analysis_final.py              # Results analyzer
-├── bedrock_client.py                        # AWS Bedrock API client
-├── generate_converted_prompts.py            # Base prompt generator
-├── generate_converted_prompts_variants.py   # Variant prompt generator
-├── generate_converted_prompts_self_aug.py   # Self-augmentation prompt generator
-├── improved_evaluation.py                   # Enhanced evaluation functions
-├── robust_csv_parser_improved.py            # Robust CSV parser with improved evaluation
-├── data_processing_scripts/                 # Utility scripts for data processing
-├── advanced_prompts/                        # Source questionnaire data
-├── requirements.txt                         # Python dependencies
-├── .env.example                             # Environment template
-└── README.md                                # This file
+QASU/
+├── benchmark_pipeline.py           # Main benchmark runner
+├── scripts/                        # Utility scripts
+│   ├── generate_prompts.py        # Base prompt generator
+│   ├── generate_prompt_variants.py          # Variant prompt generator
+│   ├── generate_prompt_self_augmentation.py # Self-augmentation prompt generator
+│   └── benchmark_analysis.py      # Results analyzer
+├── utils/                          # Core utilities
+│   ├── bedrock_client.py          # AWS Bedrock API client
+│   ├── evaluation.py              # Enhanced evaluation functions
+│   └── csv_parser.py              # Robust CSV parser
+├── advanced_prompts/               # Source questionnaire data
+├── requirements.txt                # Python dependencies
+├── .env.example                    # Environment template
+└── README.md                       # This file
 ```
 
 ### Generated Directories (Not in Git)
 - `converted_prompts/` - Generated prompts
 - `benchmark_results/` - Test results
-- `analysis_results_final/` - Analysis outputs
+- `analysis_results/` - Analysis outputs
+- `benchmark_cache/` - Cached benchmark data
 
 ## Environment Variables
 
@@ -230,7 +232,7 @@ AWS_REGION=us-east-1
 ### Common Issues
 
 **"No prompts found":**
-- Run `generate_converted_prompts.py` first
+- Run `python scripts/generate_prompts.py` first
 
 **"Client initialization failed":**
 - Check API keys in `.env` file

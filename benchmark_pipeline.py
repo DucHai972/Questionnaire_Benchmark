@@ -8,6 +8,7 @@ with results.
 """
 
 import os
+import sys
 import csv
 import time
 import argparse
@@ -107,7 +108,7 @@ class SimpleOpenAIClient(SimpleLLMClient):
 
             # Debug logging for empty responses
             if not response_content or not response_content.strip():
-                logger.warning(f"⚠️ Empty response from OpenAI API - content is None or empty")
+                logger.warning(f"WARNING: Empty response from OpenAI API - content is None or empty")
                 logger.warning(f"   Finish reason: {response.choices[0].finish_reason}")
 
             return {
@@ -178,10 +179,10 @@ class SimpleBedrockClient(SimpleLLMClient):
     def __init__(self, api_key: str, model_name: str = "us.meta.llama3-3-70b-instruct-v1:0", region: str = "us-east-1"):
         super().__init__(api_key, model_name, "bedrock")
         try:
-            from bedrock_client import BedrockClient
+            from utils.bedrock_client import BedrockClient
             self.client = BedrockClient(api_key, model_name, region)
         except ImportError:
-            raise ImportError("Bedrock client not found. Make sure bedrock_client.py is in the same directory")
+            raise ImportError("Bedrock client not found. Make sure utils/bedrock_client.py exists")
 
     def generate(self, prompt: str, max_tokens: int = 4000) -> Dict[str, Any]:
         """Generate response using Bedrock API"""
@@ -473,7 +474,13 @@ class SimpleBenchmarkPipeline:
                         existing_data[row['case_id']] = row
             
             # Update existing data with new prompts (overwrite or add)
+            # Skip cases marked with skip='TRUE' - don't write them to benchmark_results
             for prompt in prompts:
+                # Skip cases that are marked as skip
+                if prompt.get('skip', '').strip().upper() == 'TRUE':
+                    logger.info(f"Not writing skip case to results: {prompt['case_id']}")
+                    continue
+
                 case_id = prompt['case_id']
                 if case_id in existing_data:
                     logger.info(f"Updating existing case_id: {case_id}")
@@ -494,6 +501,7 @@ class SimpleBenchmarkPipeline:
             
             sorted_prompts = sorted(existing_data.values(), key=lambda x: natural_sort_key(x['case_id']))
 
+            # Don't include 'skip' column in benchmark_results - only in converted_prompts
             fieldnames = ["case_id", "task", "question", "questionnaire",
                          "expected_answer", "prompt", "Response", "Correct"]
 
@@ -504,6 +512,7 @@ class SimpleBenchmarkPipeline:
                     # Ensure Correct field exists (default to empty)
                     if 'Correct' not in prompt:
                         prompt['Correct'] = ''
+                    # Don't write skip field to benchmark_results
                     writer.writerow(prompt)
             return True
         except Exception as e:
@@ -538,8 +547,21 @@ class SimpleBenchmarkPipeline:
         
         # Process each prompt
         processed_count = 0
+        skipped_count = 0
 
         for prompt_data in prompts:
+            # Check for skip flag
+            if prompt_data.get('skip', '').strip().upper() == 'TRUE':
+                case_id = prompt_data.get('case_id', 'unknown')
+                logger.info(f"⏭️  Skipping {case_id} (marked as skip)")
+                skipped_count += 1
+
+                # Update progress bar
+                if overall_pbar:
+                    overall_pbar.update(1)
+
+                continue
+
             # Always process (don't skip based on existing Response field)
 
             # For self-aug prompts, they are already fully processed during generation
@@ -551,19 +573,19 @@ class SimpleBenchmarkPipeline:
 
             # Check if blocked by safety filter
             if not result["success"] and "finish_reason" in str(result.get("error", "")) and "2" in str(result.get("error", "")):
-                logger.warning(f"🛡️ Safety filter detected for case_id {prompt_data.get('case_id', 'unknown')}, inserting safety filter response")
+                logger.warning(f"Safety filter detected for case_id {prompt_data.get('case_id', 'unknown')}, inserting safety filter response")
 
                 # Insert safety filter blocked response
                 prompt_data["Response"] = "BLOCKED_BY_SAFETY_FILTER"
-                logger.info(f"🛡️ Inserted safety filter response for case_id {prompt_data.get('case_id', 'unknown')}")
+                logger.info(f"Inserted safety filter response for case_id {prompt_data.get('case_id', 'unknown')}")
             else:
                 # Update prompt data with actual response (successful or failed)
                 prompt_data["Response"] = result["response"]
 
-                # Debug logging for case_35 or empty responses
-                case_id = prompt_data.get('case_id', 'unknown')
-                if case_id == 'case_35' or not result["response"]:
-                    logger.warning(f"🔍 DEBUG {case_id}: Response='{result['response']}' (length={len(result['response'])}) success={result['success']}")
+                # Log warning for empty responses
+                if not result["response"]:
+                    case_id = prompt_data.get('case_id', 'unknown')
+                    logger.warning(f"WARNING: Empty response received for {case_id}")
             
             # No evaluation - just store the response
             
@@ -582,7 +604,10 @@ class SimpleBenchmarkPipeline:
         success = self.save_csv_results(csv_file, prompts, model, self_aug_type)
         if success:
             actual_model_name = self.clients[model].model_name
-            logger.info(f"Saved results for {actual_model_name} with {processed_count} responses")
+            if skipped_count > 0:
+                logger.info(f"Saved results for {actual_model_name} with {processed_count} responses ({skipped_count} cases skipped)")
+            else:
+                logger.info(f"Saved results for {actual_model_name} with {processed_count} responses")
         return success
     
     def find_csv_files(self, dataset: Optional[str] = None, 
@@ -731,10 +756,35 @@ def main():
                        help="List available datasets, tasks, and formats")
     
     args = parser.parse_args()
-    
+
     # Validate mutually exclusive arguments
     if args.variants and args.self_aug:
         parser.error("--variants and --self_aug are mutually exclusive. Use one or the other.")
+
+    # Infer --model from specific model arguments if not explicitly set
+    if not args.model:
+        # Check which model-specific arguments were explicitly provided
+        model_args_provided = []
+
+        # Check if openai-model was explicitly provided (not just the default)
+        if '--openai-model' in sys.argv:
+            model_args_provided.append('openai')
+
+        # Check if google-model was explicitly provided
+        if '--google-model' in sys.argv:
+            model_args_provided.append('google')
+
+        # Check if bedrock-model was explicitly provided
+        if '--bedrock-model' in sys.argv:
+            model_args_provided.append('bedrock')
+
+        # If exactly one model was specified, use that
+        if len(model_args_provided) == 1:
+            args.model = model_args_provided[0]
+            logger.info(f"Inferred --model={args.model} from command-line arguments")
+        elif len(model_args_provided) > 1:
+            logger.warning(f"Multiple model providers specified: {model_args_provided}. Will use all available models.")
+        # If no specific model was provided, default behavior is to use all available
     
     # Define REQUEST messages for self_aug types
     SELF_AUG_REQUESTS = {

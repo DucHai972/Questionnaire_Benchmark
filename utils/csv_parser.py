@@ -1,25 +1,18 @@
 #!/usr/bin/env python3
 """
-Robust CSV Parser with Improved Evaluation for Q_Benchmark Results
+Robust CSV Parser for Q_Benchmark Results
 
-This script handles malformed CSV files with multi-line content and provides
-improved evaluation functions for more accurate assessment of model responses.
+This module handles malformed CSV files with multi-line content.
+Provides parsing capabilities for benchmark result CSV files.
 
 Usage:
-    python robust_csv_parser_improved.py --file path/to/file.csv
-    python robust_csv_parser_improved.py --test-all  # Test all benchmark result files
-    python robust_csv_parser_improved.py --re-evaluate  # Re-evaluate with improved functions
+    from utils.csv_parser import RobustCSVParserImproved
+    parser = RobustCSVParserImproved()
+    records = parser.parse_file('path/to/file.csv')
 """
 
 import os
 import re
-import argparse
-import glob
-from pathlib import Path
-from collections import defaultdict
-
-# Import the improved evaluation functions
-from improved_evaluation import smart_evaluate
 
 
 class RobustCSVParserImproved:
@@ -299,178 +292,3 @@ class RobustCSVParserImproved:
         
         return fields
     
-    def analyze_file_statistics_improved(self, file_path):
-        """
-        Analyze file and return statistics using improved evaluation.
-        
-        Args:
-            file_path (str): Path to the CSV file
-            
-        Returns:
-            dict: Statistics about the file with improved evaluation
-        """
-        records = self.parse_file(file_path)
-        
-        if not records:
-            return {
-                'total_cases': 0,
-                'cases_with_responses': 0,
-                'cases_missing_responses': 0,
-                'correct_responses_original': 0,
-                'correct_responses_improved': 0,
-                'incorrect_responses_original': 0,
-                'incorrect_responses_improved': 0,
-                'accuracy_original': 0.0,
-                'accuracy_improved': 0.0,
-                'improvement': 0.0
-            }
-        
-        total_cases = len(records)
-        cases_with_responses = 0
-        correct_responses_original = 0
-        correct_responses_improved = 0
-        
-        for record in records:
-            if record['Response'].strip():
-                cases_with_responses += 1
-                
-                # Original evaluation (from CSV)
-                if record['Correct'].strip().lower() in ['true', '1', 'yes']:
-                    correct_responses_original += 1
-                
-                # Improved evaluation
-                is_correct_improved = smart_evaluate(
-                    record['Response'], 
-                    record['expected_answer'], 
-                    record['task']
-                )
-                
-                if is_correct_improved:
-                    correct_responses_improved += 1
-        
-        accuracy_original = (correct_responses_original / cases_with_responses * 100) if cases_with_responses > 0 else 0.0
-        accuracy_improved = (correct_responses_improved / cases_with_responses * 100) if cases_with_responses > 0 else 0.0
-        improvement = accuracy_improved - accuracy_original
-        
-        return {
-            'total_cases': total_cases,
-            'cases_with_responses': cases_with_responses,
-            'cases_missing_responses': total_cases - cases_with_responses,
-            'correct_responses_original': correct_responses_original,
-            'correct_responses_improved': correct_responses_improved,
-            'incorrect_responses_original': cases_with_responses - correct_responses_original,
-            'incorrect_responses_improved': cases_with_responses - correct_responses_improved,
-            'accuracy_original': accuracy_original,
-            'accuracy_improved': accuracy_improved,
-            'improvement': improvement
-        }
-
-
-def re_evaluate_all_benchmark_files():
-    """Re-evaluate all benchmark result files with improved evaluation."""
-    print("Re-evaluating all benchmark result files with improved evaluation...\n")
-    
-    parser = RobustCSVParserImproved()
-    
-    # Find all CSV files in benchmark results
-    benchmark_dir = "/insight-fast/dnguyen/Q_Benchmark/benchmark_results"
-    csv_pattern = os.path.join(benchmark_dir, "**", "*.csv")
-    csv_files = glob.glob(csv_pattern, recursive=True)
-    
-    print(f"Found {len(csv_files)} CSV files to re-evaluate")
-    
-    # Group results by model and task
-    results_by_model_task = defaultdict(lambda: defaultdict(list))
-    
-    for csv_file in csv_files:
-        rel_path = os.path.relpath(csv_file, benchmark_dir)
-        path_parts = rel_path.split(os.sep)
-        
-        if len(path_parts) >= 3:
-            model = path_parts[0]
-            dataset = path_parts[1]
-            task = path_parts[2]
-            filename = path_parts[3] if len(path_parts) > 3 else ""
-            
-            # Extract task name and format
-            if "/" in task:  # Handle nested structure
-                task = os.path.basename(csv_file).split('_')[0] + '_' + os.path.basename(csv_file).split('_')[1]
-            
-            print(f"Re-evaluating: {model}/{dataset}/{filename}")
-            
-            try:
-                stats = parser.analyze_file_statistics_improved(csv_file)
-                
-                if stats['cases_with_responses'] > 0:
-                    results_by_model_task[model][task].append(stats)
-                    
-                    improvement = stats['improvement']
-                    if improvement > 5:  # Show significant improvements
-                        print(f"  *** SIGNIFICANT IMPROVEMENT: +{improvement:.1f}% accuracy")
-                        print(f"      Original: {stats['accuracy_original']:.1f}% -> Improved: {stats['accuracy_improved']:.1f}%")
-                        
-            except Exception as e:
-                print(f"  Error: {e}")
-    
-    # Print summary by model and task
-    print(f"\n=== RE-EVALUATION SUMMARY ===")
-    
-    for model in sorted(results_by_model_task.keys()):
-        print(f"\nModel: {model}")
-        
-        model_results = results_by_model_task[model]
-        
-        for task in sorted(model_results.keys()):
-            task_stats = model_results[task]
-            
-            # Aggregate task statistics
-            total_original = sum(s['correct_responses_original'] for s in task_stats)
-            total_improved = sum(s['correct_responses_improved'] for s in task_stats)
-            total_with_responses = sum(s['cases_with_responses'] for s in task_stats)
-            
-            if total_with_responses > 0:
-                acc_original = total_original / total_with_responses * 100
-                acc_improved = total_improved / total_with_responses * 100
-                improvement = acc_improved - acc_original
-                
-                status = "📈 IMPROVED" if improvement > 1 else "➡️  SAME" if abs(improvement) < 1 else "📉 WORSE"
-                
-                print(f"  {task}: {acc_original:.1f}% -> {acc_improved:.1f}% ({improvement:+.1f}%) {status}")
-
-
-def main():
-    """Main function to run the improved analysis."""
-    parser = argparse.ArgumentParser(description='Robust CSV Parser with Improved Evaluation')
-    parser.add_argument('--file', type=str, help='Analyze a specific CSV file')
-    parser.add_argument('--test-all', action='store_true', help='Test all benchmark result files')
-    parser.add_argument('--re-evaluate', action='store_true', help='Re-evaluate all files with improved evaluation')
-    
-    args = parser.parse_args()
-    
-    if args.re_evaluate:
-        re_evaluate_all_benchmark_files()
-    elif args.test_all:
-        # Import the original test function
-        from robust_csv_parser import test_all_benchmark_files
-        test_all_benchmark_files()
-    elif args.file:
-        csv_parser = RobustCSVParserImproved()
-        stats = csv_parser.analyze_file_statistics_improved(args.file)
-        
-        print(f"File: {args.file}")
-        print(f"Total cases: {stats['total_cases']}")
-        print(f"Cases with responses: {stats['cases_with_responses']}")
-        print(f"Missing responses: {stats['cases_missing_responses']}")
-        print(f"\nOriginal Evaluation:")
-        print(f"  Correct responses: {stats['correct_responses_original']}")
-        print(f"  Accuracy: {stats['accuracy_original']:.1f}%")
-        print(f"\nImproved Evaluation:")
-        print(f"  Correct responses: {stats['correct_responses_improved']}")
-        print(f"  Accuracy: {stats['accuracy_improved']:.1f}%")
-        print(f"\nImprovement: {stats['improvement']:+.1f}%")
-    else:
-        parser.print_help()
-
-
-if __name__ == '__main__':
-    main()

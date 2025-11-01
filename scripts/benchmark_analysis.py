@@ -1,34 +1,32 @@
 #!/usr/bin/env python3
 """
-Final Benchmark Results Analysis Script with Improved Evaluation and CSV Updates
+Benchmark Results Analysis Script with Evaluation and CSV Updates
 
 This script analyzes the benchmark results from Q_Benchmark/benchmark_results/
-using both the robust CSV parser for proper file handling AND improved evaluation
-functions for more accurate assessment of model responses.
+using task-specific evaluation functions for accurate assessment of model responses.
 
-NEW: This script now WRITES the improved evaluation results back to the CSV files,
-updating the "Correct" column with more accurate task-specific evaluations.
-
-This provides the most accurate and reliable analysis available while also
-updating the source CSV files with improved evaluation results.
+This script also writes the evaluation results back to the CSV files,
+updating the "Correct" column with task-specific evaluations.
 
 Usage:
-  python benchmark_analysis_final.py --model gemini-2.5-flash  # Analysis + CSV updates
-  python benchmark_analysis_final.py --model gpt-5-mini       # Different model  
-  python benchmark_analysis_final.py --list                   # List available models
+  python scripts/benchmark_analysis.py --model gemini-2.5-flash  # Analysis + CSV updates
+  python scripts/benchmark_analysis.py --model gpt-5-mini       # Different model
+  python scripts/benchmark_analysis.py --list                   # List available models
 """
 
 import os
+import sys
 import csv
 import glob
 import argparse
 from pathlib import Path
 from collections import defaultdict
 
-# Import the robust parser with improved evaluation
-from robust_csv_parser_improved import RobustCSVParserImproved
-from improved_evaluation import smart_evaluate
-import csv
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from utils.csv_parser import RobustCSVParserImproved
+from utils.evaluation import smart_evaluate
 
 
 def _write_records_to_csv(csv_file, records):
@@ -61,22 +59,22 @@ def _write_records_to_csv(csv_file, records):
 
 def analyze_benchmark_results_final(base_path):
     """
-    Analyze benchmark results using robust parsing and improved evaluation.
-    
+    Analyze benchmark results using task-specific evaluation.
+
     Args:
         base_path (str): Path to the benchmark results directory
-    
+
     Returns:
         tuple: (datasets, tasks, data_formats, results) - Analysis results
     """
-    
+
     # Find all CSV files in the benchmark results
     csv_pattern = os.path.join(base_path, "**", "*.csv")
     csv_files = glob.glob(csv_pattern, recursive=True)
-    
+
     print(f"Found {len(csv_files)} CSV files to analyze")
-    
-    # Initialize the robust parser with improved evaluation
+
+    # Initialize the parser
     parser = RobustCSVParserImproved()
     
     # Initialize dictionaries to store results
@@ -110,33 +108,40 @@ def analyze_benchmark_results_final(base_path):
                     datasets.add(dataset)
                     tasks.add(task)
                     
-                    # Use the robust parser with improved evaluation
+                    # Parse and evaluate the file
                     print(f"Processing: {dataset}/{task}/{data_format}")
-                    
-                    # Parse the file using the robust parser
+
+                    # Parse the file
                     records = parser.parse_file(csv_file)
                     
                     if records:
-                        total_count = len(records)
+                        # Filter out skipped cases
+                        non_skipped_records = [r for r in records if r.get('skip', '').strip().upper() != 'TRUE']
+
+                        total_count = len(non_skipped_records)
                         correct_count = 0
                         records_updated = False
-                        
+
                         for record in records:
+                            # Skip cases marked as skip=TRUE (don't evaluate or count them)
+                            if record.get('skip', '').strip().upper() == 'TRUE':
+                                continue
+
                             # Only evaluate records that have responses
                             if record['Response'].strip():
-                                # Use improved evaluation instead of CSV "Correct" column
+                                # Use task-specific evaluation
                                 is_correct = smart_evaluate(
-                                    record['Response'], 
-                                    record['expected_answer'], 
+                                    record['Response'],
+                                    record['expected_answer'],
                                     record['task']
                                 )
-                                
-                                # Update the Correct column with improved evaluation
+
+                                # Update the Correct column
                                 new_correct_value = "True" if is_correct else "False"
                                 if record.get('Correct') != new_correct_value:
                                     record['Correct'] = new_correct_value
                                     records_updated = True
-                                
+
                                 if is_correct:
                                     correct_count += 1
                             else:
@@ -305,113 +310,78 @@ def generate_summary_statistics(results):
     """
     
     print("\n" + "="*100)
-    print("SUMMARY STATISTICS (WITH IMPROVED EVALUATION)")
+    print("SUMMARY STATISTICS")
     print("="*100)
-    
+
     # Overall statistics
     total_questions = sum(r['total'] for r in results.values())
     total_correct = sum(r['correct'] for r in results.values())
     overall_percentage = (total_correct / total_questions * 100) if total_questions > 0 else 0
-    
+
     print(f"Overall Results: {total_correct}/{total_questions} ({overall_percentage:.1f}%)")
-    
+
     # Statistics by task
     task_stats = defaultdict(lambda: {'correct': 0, 'total': 0})
     for (dataset, task, data_format), result in results.items():
         task_stats[task]['correct'] += result['correct']
         task_stats[task]['total'] += result['total']
-    
-    print(f"\nResults by Task (Improved Evaluation):")
+
+    print(f"\nResults by Task:")
     for task in sorted(task_stats.keys()):
         stats = task_stats[task]
         pct = (stats['correct'] / stats['total'] * 100) if stats['total'] > 0 else 0
         print(f"  {task}: {stats['correct']}/{stats['total']} ({pct:.1f}%)")
 
 
-def get_available_models(benchmark_results_dir=None):
+def get_available_models():
     """Get list of available model result directories."""
-    if benchmark_results_dir is None:
-        # Use relative path from script location
-        script_dir = Path(__file__).parent
-        results_dir = script_dir / "benchmark_results"
-    else:
-        results_dir = Path(benchmark_results_dir)
-
+    results_dir = Path("benchmark_results")
     if results_dir.exists():
         return sorted([d.name for d in results_dir.iterdir() if d.is_dir()])
     return []
 
 
 def main():
-    """Main function to run the final analysis."""
+    """Main function to run the analysis."""
     parser = argparse.ArgumentParser(
-        description="Analyze Q-Benchmark results with improved evaluation (FINAL VERSION)",
+        description="Analyze Q-Benchmark results with task-specific evaluation",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   python benchmark_analysis_final.py --model gemini-2.5-flash
   python benchmark_analysis_final.py --model gpt-5-mini
   python benchmark_analysis_final.py --list
-  python benchmark_analysis_final.py --model gpt-5-mini --benchmark-results-dir /path/to/results
         """
     )
-
-    # Add arguments first before getting available models
-    parser.add_argument("--benchmark-results-dir",
-                       default=None,
-                       help="Path to benchmark_results directory (default: ./benchmark_results)")
-
+    
+    # Get available options
+    available_models = get_available_models()
+    
+    parser.add_argument("--model", 
+                       choices=available_models,
+                       default="gemini-2.5-flash",
+                       help="Model to analyze (default: gemini-2.5-flash)")
+    
     parser.add_argument("--output-dir",
-                       default=None,
-                       help="Base output directory for results (default: ./analysis_results_final)")
-
+                       default="analysis_results",
+                       help="Base output directory for results")
+    
     parser.add_argument("--list", action="store_true",
                        help="List available models")
-
-    # Parse args first to get benchmark_results_dir if specified
-    args, remaining = parser.parse_known_args()
-
-    # Set default paths relative to script location
-    script_dir = Path(__file__).parent
-    if args.benchmark_results_dir is None:
-        benchmark_results_dir = script_dir / "benchmark_results"
-    else:
-        benchmark_results_dir = Path(args.benchmark_results_dir)
-
-    if args.output_dir is None:
-        output_dir_base = script_dir / "analysis_results_final"
-    else:
-        output_dir_base = Path(args.output_dir)
-
-    # Get available options
-    available_models = get_available_models(benchmark_results_dir)
-
-    # Add model argument with choices
-    parser.add_argument("--model",
-                       choices=available_models if available_models else None,
-                       help="Model to analyze")
-
-    # Parse all arguments again
+    
     args = parser.parse_args()
-
+    
     # Handle list option
     if args.list:
         print("Available models:")
-        if available_models:
-            for model in available_models:
-                print(f"  - {model}")
-        else:
-            print("  No models found in benchmark_results directory")
+        for model in available_models:
+            print(f"  - {model}")
         return
-
-    # Require model if not listing
-    if not args.model:
-        parser.error("--model is required (use --list to see available models)")
-
-    base_path = benchmark_results_dir / args.model
-    output_dir = output_dir_base / args.model
     
-    print("Starting Q-Benchmark results analysis (FINAL VERSION WITH IMPROVED EVALUATION)...")
+    base_path = f"benchmark_results/{args.model}"
+    output_dir = f"{args.output_dir}/{args.model}"
+    
+    print("Starting Q-Benchmark results analysis...")
     print(f"Model: {args.model}")
     print(f"Base path: {base_path}")
     print(f"Output dir: {output_dir}")
@@ -431,19 +401,18 @@ Examples:
     count_table, percentage_table, task_columns = create_tables(datasets, tasks, data_formats, results)
     
     # Display tables
-    print_table(count_table, data_formats, task_columns, 
-                f"TABLE 1: CORRECT ANSWERS / TOTAL ANSWERS - {args.model} (IMPROVED EVALUATION)")
-    print_table(percentage_table, data_formats, task_columns, 
-                f"TABLE 2: PERCENTAGE CORRECT - {args.model} (IMPROVED EVALUATION)")
-    
+    print_table(count_table, data_formats, task_columns,
+                f"TABLE 1: CORRECT ANSWERS / TOTAL ANSWERS - {args.model}")
+    print_table(percentage_table, data_formats, task_columns,
+                f"TABLE 2: PERCENTAGE CORRECT - {args.model}")
+
     # Save results
     save_results(count_table, percentage_table, data_formats, task_columns, output_dir, results)
-    
+
     # Generate summary statistics
     generate_summary_statistics(results)
-    
-    print(f"\nFinal analysis complete for {args.model}!")
-    print(f"This analysis uses both robust CSV parsing AND improved evaluation functions.")
+
+    print(f"\nAnalysis complete for {args.model}!")
     print(f"Results are saved in: {output_dir}")
 
 

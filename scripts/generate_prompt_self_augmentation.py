@@ -1,16 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate converted_prompts_variants CSV files matching the original Q-Benchmark approach.
+Generate converted_prompts_self_aug CSV files matching the original Q-Benchmark approach.
 
-This script generates ablation study variants by selectively removing or modifying 
-prompt sections to test their impact on model performance.
-
-Variants generated:
-- wo_change_order: Preserves original section order (doesn't move questionnaire first)
-- wo_format_explaination: Removes the <format> section
-- wo_oneshot: Removes the <example> section  
-- wo_partition_mark: Removes all section markers
-- wo_role_prompting: Removes the <role> section
+This script generates self-augmented prompts with a [REQUEST] placeholder that gets
+substituted at runtime in the benchmark pipeline with different augmentation requests.
 """
 
 import json
@@ -24,43 +17,40 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 
-class ConvertedPromptsVariantsGenerator:
-    """Generator for converted_prompts_variants CSV files using ablation studies"""
+class ConvertedPromptsSelfAugGenerator:
+    """Generator for converted_prompts_self_aug CSV files matching original approach"""
     
     def __init__(self, advanced_prompts_dir: str, benchmark_cache_dir: str, output_dir: str):
         self.advanced_prompts_dir = Path(advanced_prompts_dir)
         self.benchmark_cache_dir = Path(benchmark_cache_dir)
         self.output_dir = Path(output_dir)
-        
+
         # Create output directory if it doesn't exist
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        
+
         # Format mappings
         self.formats = ['html', 'json', 'md', 'ttl', 'txt', 'xml']
-        
-        # Variant configurations
-        self.variants = {
-            'wo_change_order': {
-                'description': 'Moves questionnaire section to the end of prompt',
-                'modifications': ['preserve_order']
-            },
-            'wo_format_explaination': {
-                'description': 'Removes format explanation section',
-                'modifications': ['remove_format']
-            },
-            'wo_oneshot': {
-                'description': 'Removes example section',
-                'modifications': ['remove_example']
-            },
-            'wo_partition_mark': {
-                'description': 'Removes all section markers',
-                'modifications': ['remove_all_sections']
-            },
-            'wo_role_prompting': {
-                'description': 'Removes role prompting section', 
-                'modifications': ['remove_role']
-            }
-        }
+
+        # Load case metadata
+        self._metadata = {}
+        metadata_file = Path("case_metadata.csv")
+        if metadata_file.exists():
+            self._metadata = self._load_metadata(metadata_file)
+
+    def _load_metadata(self, csv_file: Path) -> Dict[str, Dict[str, set]]:
+        """Load case metadata"""
+        from collections import defaultdict
+        metadata = defaultdict(lambda: defaultdict(set))
+
+        try:
+            with open(csv_file, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    metadata[row['dataset']][row['task']].add(row['case_id'])
+        except Exception as e:
+            logger.error(f"Error loading metadata: {e}")
+
+        return metadata
         
     def load_advanced_prompts(self, dataset: str, task: str) -> List[Dict[str, Any]]:
         """Load advanced prompts from JSON file"""
@@ -148,76 +138,6 @@ class ConvertedPromptsVariantsGenerator:
             logger.error(f"Error substituting placeholders: {e}")
             return prompt_template
     
-    def apply_variant_modifications(self, prompt: str, variant_name: str) -> str:
-        """Apply variant-specific modifications to the prompt"""
-        variant_config = self.variants[variant_name]
-        modifications = variant_config['modifications']
-        
-        modified_prompt = prompt
-        
-        for modification in modifications:
-            if modification == 'preserve_order':
-                # wo_change_order: Keep original section order, don't move questionnaire first
-                # This means we use the original template order, not the reordered one
-                # In the basic version, questionnaire is moved to after example
-                # In wo_change_order, we keep the original order: example -> questionnaire -> role -> format -> request -> output -> task
-                modified_prompt = self._preserve_original_order(modified_prompt)
-                
-            elif modification == 'remove_format':
-                # wo_format_explaination: Remove <format> section
-                modified_prompt = re.sub(r'<format>.*?</format>\s*', '', modified_prompt, flags=re.DOTALL)
-                
-            elif modification == 'remove_example':
-                # wo_oneshot: Remove <example> section
-                modified_prompt = re.sub(r'<example>.*?</example>\s*', '', modified_prompt, flags=re.DOTALL)
-                
-            elif modification == 'remove_all_sections':
-                # wo_partition_mark: Remove all section markers but keep content
-                # Remove opening tags
-                modified_prompt = re.sub(r'<(example|questionnaire|role|format|request|output|task)>\s*', '', modified_prompt)
-                # Remove closing tags
-                modified_prompt = re.sub(r'\s*</(example|questionnaire|role|format|request|output|task)>', '', modified_prompt)
-                # Clean up extra whitespace
-                modified_prompt = re.sub(r'\n\n\n+', '\n\n', modified_prompt)
-                
-            elif modification == 'remove_role':
-                # wo_role_prompting: Remove <role> section
-                modified_prompt = re.sub(r'<role>.*?</role>\s*', '', modified_prompt, flags=re.DOTALL)
-        
-        return modified_prompt.strip()
-    
-    def _preserve_original_order(self, prompt: str) -> str:
-        """Move questionnaire to the end for wo_change_order variant"""
-        # The basic prompt has questionnaire early in the sequence
-        # wo_change_order moves questionnaire to the very end
-        
-        # Extract all sections
-        sections = {}
-        
-        # Extract each section with regex
-        section_patterns = {
-            'example': r'(<example>.*?</example>)',
-            'questionnaire': r'(<questionnaire>.*?</questionnaire>)',
-            'role': r'(<role>.*?</role>)',
-            'format': r'(<format>.*?</format>)',
-            'request': r'(<request>.*?</request>)',
-            'output': r'(<output>.*?</output>)',
-            'task': r'(<task>.*?</task>)'
-        }
-        
-        for section_name, pattern in section_patterns.items():
-            match = re.search(pattern, prompt, re.DOTALL)
-            if match:
-                sections[section_name] = match.group(1)
-        
-        # Rebuild with questionnaire moved to the end: example -> role -> format -> request -> output -> task -> questionnaire
-        ordered_sections = []
-        for section_name in ['example', 'role', 'format', 'request', 'output', 'task', 'questionnaire']:
-            if section_name in sections:
-                ordered_sections.append(sections[section_name])
-        
-        return '\n\n'.join(ordered_sections)
-    
     def _get_case_1_example(self, dataset: str, task: str, format_type: str) -> str:
         """Get case_1 questionnaire data and expected answer for example section"""
         try:
@@ -251,24 +171,96 @@ class ConvertedPromptsVariantsGenerator:
             logger.error(f"Error generating case_1 example: {e}")
             return "[CASE_1 example generation failed]"
     
-    def generate_variant_csv(self, dataset: str, task: str, format_type: str, variant_name: str):
-        """Generate CSV for a specific variant"""
-        logger.info(f"Generating {variant_name} variant for {dataset}/{task}/{format_type}")
+    
+    def apply_self_aug_transformations(self, prompt: str, self_aug_type: str, question: str = "") -> str:
+        """
+        Apply improved self-augmentation transformations with clear task prioritization.
+
+        New structure:
+        - Task comes first
+        - Augmentation is presented as an approach to help answer
+        - Clear output format with split symbols
+        - Standard calculation methods for critical_values
+        """
+        import re
+
+        # Extract the task section
+        task_match = re.search(r'<task>(.*?)</task>', prompt, re.DOTALL)
+        task_content = task_match.group(1).strip() if task_match else ""
+
+        # Remove the old task section - we'll add it back in new location
+        processed_prompt = re.sub(r'<task>.*?</task>\s*', '', prompt, flags=re.DOTALL)
+
+        # Remove the old <request> section entirely - we'll replace with new <approach>
+        processed_prompt = re.sub(r'<request>.*?</request>\s*', '', processed_prompt, flags=re.DOTALL)
+
+        # Build the new augmentation approach based on type
+        if self_aug_type == "format_explaination":
+            approach_text = """<approach>
+Generate short format specification and description of the survey within five sentences.
+</approach>"""
+        elif self_aug_type == "critical_values":
+            approach_text = """<approach>
+Identify critical values and ranges of the survey related within five sentences.
+</approach>"""
+        elif self_aug_type == "structural_info":
+            approach_text = """<approach>
+Describe structural information, patterns and statistics of the survey within five sentences.
+</approach>"""
+        else:
+            approach_text = ""
+
+        # Add output format with split symbols (similar style to generate_converted_prompts.py)
+        output_format = """
+<output_format>
+Structure your response:
+
+### ANALYSIS ###
+[Your analysis here]
+
+### ANSWER ###
+[Your final answer]
+
+### END ###
+</output_format>"""
+
+        # Build final prompt: approach first, then output format, then task at the END
+        final_prompt = processed_prompt
+
+        # Insert approach and output_format before <output>, then add task at the very end
+        output_match = re.search(r'<output>.*?</output>', final_prompt, re.DOTALL)
+        if output_match:
+            # Insert before <output> section
+            insert_pos = output_match.start()
+            final_prompt = (final_prompt[:insert_pos] +
+                          approach_text + "\n\n" +
+                          output_format + "\n\n" +
+                          final_prompt[insert_pos:] +
+                          f"\n\n<task>\n{task_content}\n</task>")
+        else:
+            # Append at end
+            final_prompt = final_prompt + "\n\n" + approach_text + "\n\n" + output_format + f"\n\n<task>\n{task_content}\n</task>"
+
+        return final_prompt
+
+    def generate_self_aug_csv(self, dataset: str, task: str, format_type: str, self_aug_type: str):
+        """Generate converted_prompts_self_aug CSV for specific format and self-augmentation type"""
+        logger.info(f"Generating converted_prompts_self_aug for {dataset}/{task}/{format_type} with {self_aug_type}")
         
         # Load advanced prompts
         advanced_prompts = self.load_advanced_prompts(dataset, task)
         if not advanced_prompts:
             return
         
-        # Prepare output directory
-        variant_output_dir = self.output_dir / variant_name / dataset / task
-        variant_output_dir.mkdir(parents=True, exist_ok=True)
+        # Prepare output with self_aug_type subdirectory
+        output_path = self.output_dir / self_aug_type / dataset / task
+        output_path.mkdir(parents=True, exist_ok=True)
         
         csv_filename = f"{task}_{format_type}_converted_prompts.csv"
-        csv_path = variant_output_dir / csv_filename
+        csv_path = output_path / csv_filename
         
         # CSV headers (same as basic converted_prompts)
-        headers = ['case_id', 'task', 'question', 'questionnaire', 'expected_answer', 'prompt', 'Response', 'Correct']
+        headers = ['case_id', 'task', 'question', 'questionnaire', 'expected_answer', 'prompt', 'Response', 'Correct', 'skip']
         
         rows = []
         
@@ -281,13 +273,20 @@ class ConvertedPromptsVariantsGenerator:
                 logger.warning(f"Skipping {case_id} - no cache data found for {format_type}")
                 continue
             
-            # Generate the basic prompt by substituting placeholders
+            # Generate the base prompt by substituting placeholders
             prompt_template = prompt_data.get('prompt', '')
             base_prompt = self.substitute_placeholders(prompt_template, prompt_data, questionnaire_data, dataset, task, format_type)
             
-            # Apply variant-specific modifications
-            variant_prompt = self.apply_variant_modifications(base_prompt, variant_name)
-            
+            # Apply complete self-augmentation transformations
+            question = prompt_data.get('question', '')
+            self_aug_prompt = self.apply_self_aug_transformations(base_prompt, self_aug_type, question)
+
+            # Set metadata flag
+            skip_flag = 'FALSE'
+            if dataset in self._metadata and task in self._metadata[dataset]:
+                if case_id in self._metadata[dataset][task]:
+                    skip_flag = 'TRUE'
+
             # Create CSV row
             row = {
                 'case_id': case_id,
@@ -295,9 +294,10 @@ class ConvertedPromptsVariantsGenerator:
                 'question': prompt_data.get('question', ''),
                 'questionnaire': questionnaire_data,
                 'expected_answer': prompt_data.get('expected_answer', ''),
-                'prompt': variant_prompt,
+                'prompt': self_aug_prompt,
                 'Response': '',  # Empty for new generation
-                'Correct': ''    # Empty for new generation
+                'Correct': '',    # Empty for new generation
+                'skip': skip_flag
             }
             
             rows.append(row)
@@ -314,58 +314,66 @@ class ConvertedPromptsVariantsGenerator:
         except Exception as e:
             logger.error(f"Error writing CSV to {csv_path}: {e}")
     
-    def generate_all_variants(self):
-        """Generate all variant CSV files"""
-        logger.info("Starting generation of all converted_prompts_variants CSV files")
+    def generate_all_self_aug_prompts(self, self_aug_types: List[str] = None):
+        """Generate all converted_prompts_self_aug CSV files for specified self-augmentation types"""
+        if self_aug_types is None:
+            self_aug_types = ["format_explaination", "critical_values", "structural_info"]
+        
+        logger.info(f"Starting generation of all converted_prompts_self_aug CSV files for: {self_aug_types}")
         
         # Get all datasets
         datasets = [d.name for d in self.advanced_prompts_dir.iterdir() if d.is_dir()]
         
-        for dataset in datasets:
-            logger.info(f"Processing dataset: {dataset}")
+        for self_aug_type in self_aug_types:
+            logger.info(f"Processing self-augmentation type: {self_aug_type}")
             
-            # Get all tasks for this dataset
-            dataset_path = self.advanced_prompts_dir / dataset
-            task_files = list(dataset_path.glob("*_qa_pairs.json"))
-            
-            tasks = []
-            for task_file in task_files:
-                # Extract task name from filename
-                filename = task_file.stem
-                task_name = filename.replace(f"{dataset}_", "").replace("_qa_pairs", "")
-                tasks.append(task_name)
-            
-            for task in tasks:
-                logger.info(f"Processing task: {task}")
+            for dataset in datasets:
+                logger.info(f"Processing dataset: {dataset}")
                 
-                for format_type in self.formats:
-                    for variant_name in self.variants.keys():
-                        self.generate_variant_csv(dataset, task, format_type, variant_name)
+                # Get all tasks for this dataset
+                dataset_path = self.advanced_prompts_dir / dataset
+                task_files = list(dataset_path.glob("*_qa_pairs.json"))
+                
+                tasks = []
+                for task_file in task_files:
+                    # Extract task name from filename
+                    filename = task_file.stem
+                    task_name = filename.replace(f"{dataset}_", "").replace("_qa_pairs", "")
+                    tasks.append(task_name)
+                
+                for task in tasks:
+                    logger.info(f"Processing task: {task}")
+                    
+                    for format_type in self.formats:
+                        self.generate_self_aug_csv(dataset, task, format_type, self_aug_type)
         
-        logger.info("Completed generation of all converted_prompts_variants CSV files")
+        logger.info("Completed generation of all converted_prompts_self_aug CSV files")
 
 
 def main():
     """Main function"""
     import argparse
     
-    parser = argparse.ArgumentParser(description="Generate converted_prompts_variants CSV files")
+    parser = argparse.ArgumentParser(description="Generate converted_prompts_self_aug CSV files")
     parser.add_argument("--advanced-prompts", default="advanced_prompts", 
                        help="Path to advanced_prompts directory")
     parser.add_argument("--benchmark-cache", default="benchmark_cache",
                        help="Path to benchmark_cache directory") 
-    parser.add_argument("--output", default="converted_prompts_variants",
+    parser.add_argument("--output", default="converted_prompts_self_aug",
                        help="Output directory for generated CSV files")
+    parser.add_argument("--self-aug-types", nargs='+', 
+                       choices=["format_explaination", "critical_values", "structural_info"],
+                       help="Self-augmentation types to generate (default: all)")
     
     args = parser.parse_args()
     
-    generator = ConvertedPromptsVariantsGenerator(
+    generator = ConvertedPromptsSelfAugGenerator(
         advanced_prompts_dir=args.advanced_prompts,
         benchmark_cache_dir=args.benchmark_cache,
         output_dir=args.output
     )
     
-    generator.generate_all_variants()
+    generator.generate_all_self_aug_prompts(args.self_aug_types)
 
 
 if __name__ == "__main__":

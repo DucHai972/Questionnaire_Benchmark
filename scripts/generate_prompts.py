@@ -18,17 +18,38 @@ logger = logging.getLogger(__name__)
 
 class ConvertedPromptsGenerator:
     """Generator for converted_prompts CSV files"""
-    
+
     def __init__(self, advanced_prompts_dir: str, benchmark_cache_dir: str, output_dir: str):
         self.advanced_prompts_dir = Path(advanced_prompts_dir)
         self.benchmark_cache_dir = Path(benchmark_cache_dir)
         self.output_dir = Path(output_dir)
-        
+
         # Create output directory if it doesn't exist
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        
+
         # Format mappings
         self.formats = ['html', 'json', 'md', 'ttl', 'txt', 'xml']
+
+        # Load case metadata
+        self._metadata = {}
+        metadata_file = Path("case_metadata.csv")
+        if metadata_file.exists():
+            self._metadata = self._load_metadata(metadata_file)
+
+    def _load_metadata(self, csv_file: Path) -> Dict[str, Dict[str, set]]:
+        """Load case metadata"""
+        from collections import defaultdict
+        metadata = defaultdict(lambda: defaultdict(set))
+
+        try:
+            with open(csv_file, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    metadata[row['dataset']][row['task']].add(row['case_id'])
+        except Exception as e:
+            logger.error(f"Error loading metadata: {e}")
+
+        return metadata
         
     def load_advanced_prompts(self, dataset: str, task: str) -> List[Dict[str, Any]]:
         """Load advanced prompts from JSON file"""
@@ -170,24 +191,30 @@ class ConvertedPromptsGenerator:
         csv_filename = f"{task}_{format_type}_converted_prompts.csv"
         csv_path = output_path / csv_filename
         
-        # CSV headers
-        headers = ['case_id', 'task', 'question', 'questionnaire', 'expected_answer', 'prompt', 'Response', 'Correct']
-        
+        # CSV headers - include skip column
+        headers = ['case_id', 'task', 'question', 'questionnaire', 'expected_answer', 'prompt', 'Response', 'Correct', 'skip']
+
         rows = []
-        
+
         for prompt_data in advanced_prompts:
             case_id = prompt_data.get('case_id', '')
-            
+
             # Load questionnaire data from cache
             questionnaire_data = self.load_benchmark_cache(dataset, task, format_type, case_id)
             if questionnaire_data is None:
                 logger.warning(f"Skipping {case_id} - no cache data found for {format_type}")
                 continue
-            
+
             # Generate the final prompt by substituting placeholders
             prompt_template = prompt_data.get('prompt', '')
             final_prompt = self.substitute_placeholders(prompt_template, prompt_data, questionnaire_data, dataset, task, format_type)
-            
+
+            # Set metadata flag
+            skip_flag = 'FALSE'
+            if dataset in self._metadata and task in self._metadata[dataset]:
+                if case_id in self._metadata[dataset][task]:
+                    skip_flag = 'TRUE'
+
             # Create CSV row
             row = {
                 'case_id': case_id,
@@ -197,9 +224,10 @@ class ConvertedPromptsGenerator:
                 'expected_answer': prompt_data.get('expected_answer', ''),
                 'prompt': final_prompt,
                 'Response': '',  # Empty for new generation
-                'Correct': ''    # Empty for new generation
+                'Correct': '',   # Empty for new generation
+                'skip': skip_flag
             }
-            
+
             rows.append(row)
         
         # Write CSV file
@@ -247,23 +275,25 @@ class ConvertedPromptsGenerator:
 def main():
     """Main function"""
     import argparse
-    
-    parser = argparse.ArgumentParser(description="Generate converted_prompts CSV files")
-    parser.add_argument("--advanced-prompts", default="advanced_prompts", 
+
+    parser = argparse.ArgumentParser(
+        description="Generate converted_prompts CSV files from advanced prompts and benchmark cache"
+    )
+    parser.add_argument("--advanced-prompts", default="advanced_prompts",
                        help="Path to advanced_prompts directory")
     parser.add_argument("--benchmark-cache", default="benchmark_cache",
-                       help="Path to benchmark_cache directory") 
+                       help="Path to benchmark_cache directory")
     parser.add_argument("--output", default="converted_prompts",
                        help="Output directory for generated CSV files")
-    
+
     args = parser.parse_args()
-    
+
     generator = ConvertedPromptsGenerator(
         advanced_prompts_dir=args.advanced_prompts,
         benchmark_cache_dir=args.benchmark_cache,
         output_dir=args.output
     )
-    
+
     generator.generate_all_converted_prompts()
 
 

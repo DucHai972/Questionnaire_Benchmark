@@ -1,15 +1,51 @@
 #!/usr/bin/env python3
 """
-Improved Evaluation Functions for Q-Benchmark
+Evaluation Functions for Q-Benchmark
 
-This module provides more sophisticated evaluation functions that handle
-various response formats more accurately than simple substring matching.
+This module provides task-specific evaluation functions that handle
+various response formats and answer types.
 """
 
 import re
 import ast
 import json
 from typing import List, Union, Any
+
+
+def extract_answer_from_sections(response: str) -> str:
+    """
+    Extract answer from self-augmentation format with ### ANSWER ### sections.
+
+    For responses with structured sections like:
+    ### ANALYSIS ###
+    ...
+    ### ANSWER ###
+    42
+    ### END ###
+
+    This extracts just the content between ### ANSWER ### and ### END ###.
+    If the format is not found, returns the original response.
+
+    Args:
+        response (str): Model response potentially containing section markers
+
+    Returns:
+        str: Extracted answer or original response if no sections found
+    """
+    if not response or not isinstance(response, str):
+        return response
+
+    # Pattern to match content between ### ANSWER ### and ### END ###
+    # Handles optional whitespace around markers
+    pattern = r'###\s*ANSWER\s*###\s*(.*?)\s*###\s*END\s*###'
+    match = re.search(pattern, response, re.DOTALL | re.IGNORECASE)
+
+    if match:
+        extracted = match.group(1).strip()
+        return extracted
+
+    # If no ### ANSWER ### section found, return original response
+    return response
 
 
 def normalize_response_text(text: str) -> str:
@@ -122,26 +158,31 @@ def extract_numbers_and_identifiers(text: str) -> List[str]:
 
 def evaluate_rule_based_query(response: str, expected_answer: str) -> bool:
     """
-    Improved evaluation for rule-based querying tasks.
-    
+    Evaluation for rule-based querying tasks.
+
     This function handles various response formats:
     - Lists of numbers/IDs
     - Comma-separated values
     - Single values
     - Mixed formats
-    
+    - "None" responses (when no matches found)
+
     Args:
         response (str): Model response
         expected_answer (str): Expected answer
-        
+
     Returns:
         bool: True if response matches expected answer
     """
     if not response or not response.strip():
         return False
-    
+
     response_normalized = normalize_response_text(response)
     expected_parsed = parse_expected_answer(expected_answer)
+
+    # Special case: "None" responses (when no results match the query)
+    if response_normalized.lower() == "none" and str(expected_parsed).lower() == "none":
+        return True
     
     # Case 1: Expected answer is a list
     if isinstance(expected_parsed, list):
@@ -170,20 +211,24 @@ def evaluate_rule_based_query(response: str, expected_answer: str) -> bool:
 def evaluate_answer_lookup(response: str, expected_answer: str) -> bool:
     """
     Evaluation for answer lookup tasks (more lenient substring matching).
-    
+
     Args:
         response (str): Model response
         expected_answer (str): Expected answer
-        
+
     Returns:
         bool: True if response contains expected answer
     """
     if not response or not response.strip():
         return False
-    
+
     response_normalized = normalize_response_text(response).lower()
     expected_normalized = normalize_response_text(expected_answer).lower()
-    
+
+    # Special case: "None" responses
+    if response_normalized == "none" and expected_normalized == "none":
+        return True
+
     return expected_normalized in response_normalized
 
 
@@ -298,20 +343,26 @@ def evaluate_answer_reverse_lookup(response: str, expected_answer: str) -> bool:
 def smart_evaluate(response: str, expected_answer: str, task_type: str) -> bool:
     """
     Smart evaluation that chooses the appropriate evaluation function based on task type.
-    
+
     Args:
         response (str): Model response
-        expected_answer (str): Expected answer  
+        expected_answer (str): Expected answer
         task_type (str): Type of task
-        
+
     Returns:
         bool: True if response is correct according to task-specific evaluation
     """
     if not response or not response.strip():
         return False
-    
+
+    # Extract answer from ### ANSWER ### sections if present (for self-augmentation prompts)
+    response = extract_answer_from_sections(response)
+
+    if not response or not response.strip():
+        return False
+
     task_type = task_type.lower().strip()
-    
+
     evaluation_functions = {
         'rule_based_querying': evaluate_rule_based_query,
         'answer_lookup': evaluate_answer_lookup,
@@ -320,77 +371,8 @@ def smart_evaluate(response: str, expected_answer: str, task_type: str) -> bool:
         'multi_hop_relational_inference': evaluate_multi_hop_inference,
         'respondent_count': evaluate_respondent_count,
     }
-    
+
     # Get the appropriate evaluation function
     eval_func = evaluation_functions.get(task_type, evaluate_answer_lookup)
-    
+
     return eval_func(response, expected_answer)
-
-
-def test_evaluation_improvements():
-    """Test the improved evaluation functions with known cases."""
-    
-    test_cases = [
-        # Rule-based querying examples
-        {
-            'response': '42, 139, 36',
-            'expected': "['42', '139', '36']",
-            'task': 'rule_based_querying',
-            'should_be_correct': True
-        },
-        {
-            'response': '129',
-            'expected': "['129']", 
-            'task': 'rule_based_querying',
-            'should_be_correct': True
-        },
-        {
-            'response': '88',
-            'expected': "['88']",
-            'task': 'rule_based_querying', 
-            'should_be_correct': True
-        },
-        {
-            'response': '36',
-            'expected': "['42', '139', '36']",
-            'task': 'rule_based_querying',
-            'should_be_correct': False  # Partial match
-        },
-        # Answer lookup examples
-        {
-            'response': 'The patient is John Smith',
-            'expected': 'John Smith',
-            'task': 'answer_lookup',
-            'should_be_correct': True
-        },
-        # Conceptual aggregation examples
-        {
-            'response': 'There are 25 patients',
-            'expected': '25',
-            'task': 'conceptual_aggregation',
-            'should_be_correct': True
-        }
-    ]
-    
-    print("Testing improved evaluation functions...\n")
-    
-    for i, test_case in enumerate(test_cases, 1):
-        result = smart_evaluate(
-            test_case['response'], 
-            test_case['expected'], 
-            test_case['task']
-        )
-        
-        status = "✓ PASS" if result == test_case['should_be_correct'] else "✗ FAIL"
-        
-        print(f"Test {i}: {status}")
-        print(f"  Task: {test_case['task']}")
-        print(f"  Response: {test_case['response']}")
-        print(f"  Expected: {test_case['expected']}")
-        print(f"  Expected result: {test_case['should_be_correct']}")
-        print(f"  Actual result: {result}")
-        print()
-
-
-if __name__ == '__main__':
-    test_evaluation_improvements()
